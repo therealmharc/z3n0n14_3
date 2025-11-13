@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v7] - 2025-11-13
+
+### Fixed
+- Fixed crash on Android 16+ from getDeviceId() SecurityException
+- Added error handling for TelephonyManager.getDeviceId() permission denied
+- Wrapped device ID retrieval in try-catch to prevent fatal crash
+- App now gracefully falls back to mock device ID on permission error
+
+### Permissions & Security
+- Android 16 enforces stricter permission checks for device identifiers
+- Added exception handling for READ_PHONE_STATE permission denial
+- Device ID access now gracefully degrades instead of crashing app
+- Maintains app stability when system denies identifier access
+
+### Build
+- Incremented version from v6 to v7
+- Clean rebuild with device ID error handling in smali
+- Properly zipaligned and signed with modern APK schemes
+- Verified signature integrity with v2/v3 schemes
+
 ## [v6] - 2025-11-13
 
 ### Fixed

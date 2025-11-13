@@ -527,6 +527,7 @@
 
     .prologue
     .line 1067
+    :try_start_device
     const-string v6, "phone"
 
     invoke-virtual {p0, v6}, Lcom/gamevil/nexus2/NexusGLActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -538,6 +539,19 @@
     invoke-virtual {v6}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
 
     move-result-object v0
+    :try_end_device
+    .catch Ljava/lang/SecurityException; {:try_start_device .. :try_end_device} :catch_device
+    .catch Ljava/lang/Exception; {:try_start_device .. :try_end_device} :catch_device
+
+    goto :goto_device
+
+    :catch_device
+    const-string v6, "NexusGLActivity"
+    const-string v7, "Warning: Unable to access device ID due to permission or API restrictions"
+    invoke-static {v6, v7}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    const/4 v0, 0x0
+
+    :goto_device
 
     .line 1068
     .local v0, "deviceID":Ljava/lang/String;
