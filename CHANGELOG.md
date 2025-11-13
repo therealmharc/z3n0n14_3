@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v25] - 2025-11-14 (HOTFIX - EXPLICIT BILLING SERVICE BINDING)
+
+### Fixed
+- Fixed IllegalArgumentException crashes on Android 16 devices during app startup
+- Protected implicit→explicit service binding for market billing
+- Crash occurred in BillingService.bindToMarketBillingService() called from onCreate()
+- Android 16 enforces explicit service binding (no implicit intents via action string)
+- Reference APK codebase lacked explicit binding (pre-Android 16 code)
+- Restored v9 fix that was lost in v23 reference APK rebuild
+
+### Changes
+- BillingService.smali: Replaced implicit intent with explicit ComponentName binding
+- Intent now explicitly targets com.android.vending/MarketBillingService
+- Graceful error handling preserved from original try-catch
+
+### Build Information
+- **Version**: 2.0.2 (code 202)
+- **Package**: com.gamevil.zenonia3.global
+- **Android 16 Support**: ✓ Explicit binding enforced
+
 ## [v24] - 2025-11-14 (HOTFIX - GETDEVICEID CRASHES)
 
 ### Fixed
