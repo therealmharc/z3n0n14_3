@@ -135,10 +135,21 @@
     if-nez v0, :cond_0
 
     .line 623
+    :try_start_0
     const-string v0, "gameDSO"
 
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+    :try_end_0
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_0 .. :try_end_0} :catch_0
 
+    goto :goto_0
+
+    :catch_0
+    const-string v0, "NexusGLActivity"
+    const-string v1, "Warning: Failed to load gameDSO library with text relocations. Some features may not work."
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_0
     .line 676
     :cond_0
     sput-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->pID:Ljava/lang/String;

@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v5] - 2025-11-13
+
+### Fixed
+- Fixed immediate crash on launch (UnsatisfiedLinkError: text relocations in native library)
+- Added error handling for native library loading with text relocations
+- Wrapped gameDSO library loading in try-catch to prevent fatal crash
+- Added warning logging for library loading failures
+
+### Runtime
+- Modified NexusGLActivity static initializer to handle library loading exceptions
+- Game now continues to load even if native library text relocations cause loading failure
+- Improved app stability on Android 16 devices with strict security policies
+
+### Build
+- Incremented version from v4 to v5
+- Clean rebuild with error-handling fixes in smali code
+- Properly zipaligned and signed with modern APK schemes
+
 ## [v4] - 2025-11-13
 
 ### Fixed
