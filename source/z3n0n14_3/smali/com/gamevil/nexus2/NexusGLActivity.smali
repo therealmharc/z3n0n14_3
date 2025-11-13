@@ -2284,8 +2284,20 @@
 
     .line 350
     :cond_0
+    :try_start_initjni
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->InitializeJNIGlobalRef()V
+    :try_end_initjni
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_initjni .. :try_end_initjni} :catch_initjni
+    .catch Ljava/lang/Exception; {:try_start_initjni .. :try_end_initjni} :catch_initjni
 
+    goto :goto_initjni
+
+    :catch_initjni
+    const-string v0, "NexusGLActivity"
+    const-string v1, "Warning: InitializeJNIGlobalRef not available"
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_initjni
     .line 355
     const/4 v0, 0x0
 

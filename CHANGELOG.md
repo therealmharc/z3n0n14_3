@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v11] - 2025-11-13
+
+### Fixed
+- Fixed UnsatisfiedLinkError for InitializeJNIGlobalRef() native method
+- Added error handling for additional native method call in NexusGLActivity.onResume()
+- Protected critical JNI initialization method with try-catch block
+
+### Native Library Robustness
+- v10 fixed onResume/onPause but InitializeJNIGlobalRef() in same method wasn't protected
+- All lifecycle-dependent native calls now wrapped with error handling
+- Comprehensive native method protection prevents partial initialization crashes
+- App continues to function even if JNI initialization unavailable
+
+### Build
+- Incremented version from v10 to v11
+- Added protection for InitializeJNIGlobalRef in NexusGLActivity
+- Properly zipaligned and signed with modern APK schemes
+- Verified signature integrity with v2/v3 schemes
+
 ## [v10] - 2025-11-13
 
 ### Fixed
