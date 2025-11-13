@@ -2070,8 +2070,20 @@
     if-nez v0, :cond_0
 
     .line 378
+    :try_start_ondestroy
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->NativeDestroyClet()V
+    :try_end_ondestroy
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_ondestroy .. :try_end_ondestroy} :catch_ondestroy
+    .catch Ljava/lang/Exception; {:try_start_ondestroy .. :try_end_ondestroy} :catch_ondestroy
 
+    goto :goto_ondestroy
+
+    :catch_ondestroy
+    const-string v0, "NexusGLActivity"
+    const-string v1, "Warning: NativeDestroyClet not available"
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_ondestroy
     .line 382
     :cond_0
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLActivity;->glSurfaceview:Lcom/gamevil/nexus2/NexusGLSurfaceView;

@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v19] - 2025-11-13
+
+### Fixed
+- Fixed UnsatisfiedLinkError for NativeDestroyClet() native method
+- Added error handling for cleanup call in NexusGLActivity.onDestroy()
+- Protected cleanup/finalization method with try-catch block
+
+### Activity Lifecycle Cleanup Thread Safety
+- NativeDestroyClet() called from main thread during onDestroy() lifecycle
+- Called only if not using Cocos2d (conditional isCocos2d check)
+- Native cleanup fails when library has text relocations
+- Protected from crashing activity destruction
+- App cleanly terminates even if native cleanup unavailable
+
+### Build
+- Incremented version from v18 to v19
+- Added protection for NativeDestroyClet in NexusGLActivity.onDestroy()
+- Properly zipaligned and signed with modern APK schemes
+- Verified signature integrity with v2/v3 schemes
+
 ## [v18] - 2025-11-13
 
 ### Fixed
