@@ -700,6 +700,8 @@
     .local v4, "process":Landroid/app/ActivityManager$RunningAppProcessInfo;
     iget-object v7, p0, Lcom/gamevil/nexus2/xml/NexusTorchwood;->dataList:[Ljava/lang/String;
 
+    if-eqz v7, :cond_0
+
     array-length v3, v7
 
     .line 502

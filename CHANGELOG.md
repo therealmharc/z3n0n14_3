@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v12] - 2025-11-13
+
+### Fixed
+- Fixed NullPointerException in NexusTorchwood.checkTasks() for null dataList
+- Added null check before accessing dataList array length
+- Prevented crash when dataList initialization fails
+
+### Data Validation
+- AsyncTask doInBackground now safely handles null dataList
+- App continues to function even if task monitoring data unavailable
+- Robust error handling for background task execution
+
+### Build
+- Incremented version from v11 to v12
+- Added null safety check in NexusTorchwood
+- Properly zipaligned and signed with modern APK schemes
+- Verified signature integrity with v2/v3 schemes
+
 ## [v11] - 2025-11-13
 
 ### Fixed
