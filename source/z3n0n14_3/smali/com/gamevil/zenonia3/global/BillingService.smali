@@ -152,15 +152,14 @@
     .line 414
     new-instance v3, Landroid/content/Intent;
 
-    new-instance v4, Landroid/content/ComponentName;
+    const-string v4, "com.android.vending.billing.MarketBillingService.BIND"
 
-    const-string v1, "com.android.vending"
+    invoke-direct {v3, v4}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
-    const-string v2, "com.android.vending.billing.MarketBillingService"
+    .line 415
+    const-string v4, "com.android.vending"
 
-    invoke-direct {v4, v1, v2}, Landroid/content/ComponentName;-><init>(Ljava/lang/String;Ljava/lang/String;)V
-
-    invoke-direct {v3, v4}, Landroid/content/Intent;-><init>(Landroid/content/ComponentName;)V
+    invoke-virtual {v3, v4}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
 
     .line 416
     const/4 v4, 0x1

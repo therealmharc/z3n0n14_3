@@ -2,7 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
-## [v25] - 2025-11-14 (HOTFIX - EXPLICIT BILLING SERVICE BINDING)
+## [v26] - 2025-11-14 (HOTFIX - CORRECT SETPACKAGE BINDING)
+
+### Fixed
+- Fixed DEX verification error from v25 register collision
+- Corrected explicit service binding approach using setPackage() method
+- Replaced faulty ComponentName approach with proven v9 pattern
+- No register collision - reuses v4 properly allocated register
+- Uses Intent.setPackage() to make implicit intent explicit
+
+### Changes
+- BillingService.smali: Reverted to v9's setPackage() approach
+- Creates implicit intent with action string
+- Calls setPackage("com.android.vending") to make it explicit
+- Much simpler and register-collision-free approach
+
+### Build Information
+- **Version**: 2.0.3 (code 203)
+- **Package**: com.gamevil.zenonia3.global
+- **Android 16 Support**: ✓ DEX verification passes
+
+## [v25] - 2025-11-14 (HOTFIX - EXPLICIT BILLING SERVICE BINDING - REVERTED)
 
 ### Fixed
 - Fixed IllegalArgumentException crashes on Android 16 devices during app startup
