@@ -137,13 +137,21 @@
 
     check-cast v6, Landroid/telephony/TelephonyManager;
 
+    :try_start_0
     invoke-virtual {v6}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
 
     move-result-object v0
+    :try_end_0
+    .catch Ljava/lang/SecurityException; {:try_start_0 .. :try_end_0} :catch_0
 
     .line 122
     .local v0, "deviceID":Ljava/lang/String;
     if-nez v0, :cond_1
+
+    goto :cond_1
+
+    :catch_0
+    const-string v0, ""
 
     .line 128
     const-string v6, "MyDeviceId"
@@ -279,10 +287,19 @@
 
     check-cast v2, Landroid/telephony/TelephonyManager;
 
+    :try_start_1
     invoke-virtual {v2}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
 
     move-result-object v0
+    :try_end_1
+    .catch Ljava/lang/SecurityException; {:try_start_1 .. :try_end_1} :catch_1
 
+    goto :cond_dev_id
+
+    :catch_1
+    const-string v0, ""
+
+    :cond_dev_id
     .line 301
     const-string v2, "#deviceID#"
 

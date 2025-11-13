@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v24] - 2025-11-14 (HOTFIX - GETDEVICEID CRASHES)
+
+### Fixed
+- Fixed SecurityException crashes on Android 16 devices during app startup
+- Protected ALL getDeviceId() calls with try-catch exception handlers
+- Crash occurred in NexusGLActivity.checkDeviceID() called from onCreate()
+- Android 16 enforces stricter device identifier permission checks
+- Reference APK codebase lacked exception handling (pre-Android 16)
+
+### Changes
+- NexusGLActivity.smali: Protected 2 getDeviceId() calls (lines 140, 282)
+- NexusUtils.smali: Protected 2 getDeviceId() calls (lines 45, 205)
+- TapjoyConnectCore.smali: Protected 1 getDeviceId() call
+- Graceful fallback to empty device ID on SecurityException
+- App now launches successfully on Android 16 devices
+
+### Build Information
+- **Version**: 2.0.1 (code 201)
+- **Package**: com.gamevil.zenonia3.global
+- **Android 16 Support**: ✓ Fully compliant
+
 ## [v23] - 2025-11-14 (PRODUCTION - ANDROID 16 COMPLIANT)
 
 ### Build Information

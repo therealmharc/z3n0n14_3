@@ -1950,11 +1950,23 @@
     if-eqz v16, :cond_0
 
     .line 312
+    :try_start_tapjoy
     invoke-virtual/range {v16 .. v16}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
 
     move-result-object v18
 
     sput-object v18, Lcom/tapjoy/TapjoyConnectCore;->deviceID:Ljava/lang/String;
+    :try_end_tapjoy
+    .catch Ljava/lang/SecurityException; {:try_start_tapjoy .. :try_end_tapjoy} :catch_tapjoy_except
+
+    goto :after_device_set
+
+    :catch_tapjoy_except
+    const-string v18, ""
+
+    sput-object v18, Lcom/tapjoy/TapjoyConnectCore;->deviceID:Ljava/lang/String;
+
+    :after_device_set
 
     .line 314
     invoke-virtual/range {v16 .. v16}, Landroid/telephony/TelephonyManager;->getNetworkOperatorName()Ljava/lang/String;

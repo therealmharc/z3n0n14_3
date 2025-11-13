@@ -42,10 +42,19 @@
 
     check-cast v4, Landroid/telephony/TelephonyManager;
 
+    :try_start_2
     invoke-virtual {v4}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
 
     move-result-object v2
+    :try_end_2
+    .catch Ljava/lang/SecurityException; {:try_start_2 .. :try_end_2} :catch_2
 
+    goto :cond_check_phone
+
+    :catch_2
+    const-string v2, ""
+
+    :cond_check_phone
     .line 89
     if-eqz v2, :cond_0
 
@@ -202,10 +211,19 @@
 
     check-cast v1, Landroid/telephony/TelephonyManager;
 
+    :try_start_3
     invoke-virtual {v1}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
 
     move-result-object v0
+    :try_end_3
+    .catch Ljava/lang/SecurityException; {:try_start_3 .. :try_end_3} :catch_3
 
+    goto :cond_check_imei
+
+    :catch_3
+    const-string v0, ""
+
+    :cond_check_imei
     .line 151
     .local v0, "_imei":Ljava/lang/String;
     if-eqz v0, :cond_0
