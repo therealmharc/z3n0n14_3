@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/tapjoy/TapjoyVideoView$7;->this$0:Lcom/tapjoy/TapjoyVideoView;
 
-    .line 776
+    .line 772
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +41,7 @@
     .locals 3
 
     .prologue
-    .line 781
+    .line 777
     new-instance v1, Lcom/tapjoy/TapjoyURLConnection;
 
     invoke-direct {v1}, Lcom/tapjoy/TapjoyURLConnection;-><init>()V
@@ -58,7 +58,7 @@
 
     move-result-object v0
 
-    .line 783
+    .line 779
     .local v0, "response":Ljava/lang/String;
     const-string v1, "OK"
 
@@ -68,21 +68,21 @@
 
     if-eqz v1, :cond_0
 
-    .line 785
+    .line 781
     const-string v1, "VIDEO"
 
     const-string v2, "CLICK REQUEST SUCCESS!"
 
     invoke-static {v1, v2}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 786
+    .line 782
     iget-object v1, p0, Lcom/tapjoy/TapjoyVideoView$7;->this$0:Lcom/tapjoy/TapjoyVideoView;
 
     const/4 v2, 0x1
 
     invoke-static {v1, v2}, Lcom/tapjoy/TapjoyVideoView;->access$6(Lcom/tapjoy/TapjoyVideoView;Z)V
 
-    .line 788
+    .line 784
     :cond_0
     return-void
 .end method

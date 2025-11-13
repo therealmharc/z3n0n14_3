@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/gamevil/nexus2/xml/NewsViewTask$2;->this$0:Lcom/gamevil/nexus2/xml/NewsViewTask;
 
-    .line 222
+    .line 232
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -42,7 +42,7 @@
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    .line 225
+    .line 236
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$3()Landroid/widget/FrameLayout$LayoutParams;
 
     move-result-object v0
@@ -51,16 +51,16 @@
 
     if-eqz v0, :cond_0
 
-    .line 227
+    .line 238
     iget-object v0, p0, Lcom/gamevil/nexus2/xml/NewsViewTask$2;->this$0:Lcom/gamevil/nexus2/xml/NewsViewTask;
 
     invoke-static {v0}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$4(Lcom/gamevil/nexus2/xml/NewsViewTask;)V
 
-    .line 234
+    .line 245
     :goto_0
     return-void
 
-    .line 231
+    .line 242
     :cond_0
     iget-object v0, p0, Lcom/gamevil/nexus2/xml/NewsViewTask$2;->this$0:Lcom/gamevil/nexus2/xml/NewsViewTask;
 

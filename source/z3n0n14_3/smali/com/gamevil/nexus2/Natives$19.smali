@@ -3,12 +3,12 @@
 .source "Natives.java"
 
 # interfaces
-.implements Landroid/content/DialogInterface$OnClickListener;
+.implements Ljava/lang/Runnable;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/gamevil/nexus2/Natives;->openPurchasePopup(IILjava/lang/String;)V
+    value = Lcom/gamevil/nexus2/Natives;->showAboutComponent()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,43 +17,67 @@
 .end annotation
 
 
-# instance fields
-.field private final synthetic val$money:Ljava/lang/String;
-
-.field private final synthetic val$n:I
-
-
 # direct methods
-.method constructor <init>(Ljava/lang/String;I)V
+.method constructor <init>()V
     .locals 0
 
     .prologue
-    .line 1
-    iput-object p1, p0, Lcom/gamevil/nexus2/Natives$19;->val$money:Ljava/lang/String;
-
-    iput p2, p0, Lcom/gamevil/nexus2/Natives$19;->val$n:I
-
-    .line 3012
+    .line 2158
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
+    .line 1
     return-void
 .end method
 
 
 # virtual methods
-.method public onClick(Landroid/content/DialogInterface;I)V
-    .locals 2
-    .param p1, "dialog"    # Landroid/content/DialogInterface;
-    .param p2, "whichButton"    # I
+.method public run()V
+    .locals 5
 
     .prologue
-    .line 3016
-    iget-object v0, p0, Lcom/gamevil/nexus2/Natives$19;->val$money:Ljava/lang/String;
+    const/4 v4, 0x0
 
-    iget v1, p0, Lcom/gamevil/nexus2/Natives$19;->val$n:I
+    .line 2160
+    sget-object v2, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    invoke-static {v0, v1}, Lcom/gamevil/nexus2/Natives;->startPurchase(Ljava/lang/String;I)V
+    .line 2161
+    const v3, 0x7f07001d
 
-    .line 3017
+    invoke-virtual {v2, v3}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    .line 2160
+    check-cast v1, Landroid/widget/ImageView;
+
+    .line 2162
+    .local v1, "img":Landroid/widget/ImageView;
+    invoke-virtual {v1, v4}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    .line 2164
+    sget-object v2, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
+
+    .line 2165
+    const v3, 0x7f070036
+
+    invoke-virtual {v2, v3}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v0
+
+    .line 2164
+    check-cast v0, Landroid/widget/ImageView;
+
+    .line 2166
+    .local v0, "back":Landroid/widget/ImageView;
+    invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    .line 2168
+    new-instance v2, Lcom/gamevil/nexus2/Natives$19$1;
+
+    invoke-direct {v2, p0}, Lcom/gamevil/nexus2/Natives$19$1;-><init>(Lcom/gamevil/nexus2/Natives$19;)V
+
+    invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+
+    .line 2186
     return-void
 .end method

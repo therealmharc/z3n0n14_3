@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/gamevil/nexus2/Natives;->ShowTapjoyAd()V
+    value = Lcom/gamevil/nexus2/Natives;->startPurchase(Ljava/lang/String;I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,68 +17,93 @@
 .end annotation
 
 
+# instance fields
+.field private final synthetic val$n:I
+
+
 # direct methods
-.method constructor <init>()V
+.method constructor <init>(I)V
     .locals 0
 
     .prologue
-    .line 3471
+    .line 1
+    iput p1, p0, Lcom/gamevil/nexus2/Natives$30;->val$n:I
+
+    .line 3376
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1
     return-void
 .end method
 
 
 # virtual methods
 .method public run()V
-    .locals 4
+    .locals 3
 
     .prologue
-    .line 3475
-    sget-object v2, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
+    .line 3450
+    const-string v0, ""
 
-    const v3, 0x7f080058
+    .line 3452
+    .local v0, "_PID":Ljava/lang/String;
+    iget v1, p0, Lcom/gamevil/nexus2/Natives$30;->val$n:I
 
-    invoke-virtual {v2, v3}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
+    packed-switch v1, :pswitch_data_0
 
-    move-result-object v0
+    .line 3471
+    :goto_0
+    iget v1, p0, Lcom/gamevil/nexus2/Natives$30;->val$n:I
 
-    check-cast v0, Landroid/widget/LinearLayout;
-
-    .line 3478
-    .local v0, "_adLinearLayout":Landroid/widget/LinearLayout;
-    invoke-virtual {v0}, Landroid/widget/LinearLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
-
-    move-result-object v1
-
-    .line 3477
-    check-cast v1, Landroid/widget/FrameLayout$LayoutParams;
-
-    .line 3480
-    .local v1, "tapjoyLayout":Landroid/widget/FrameLayout$LayoutParams;
-    sget v2, Lcom/gamevil/nexus2/Natives;->OFFSET_TAPJOY_BANNER_TOPMARGIN:I
-
-    sget v3, Lcom/gamevil/nexus2/NexusGLActivity;->displayHeight:I
-
-    mul-int/2addr v2, v3
-
-    div-int/lit16 v2, v2, 0xf0
-
-    iput v2, v1, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
-
-    .line 3482
-    invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 3485
-    if-eqz v0, :cond_0
-
-    .line 3487
     const/4 v2, 0x0
 
-    invoke-virtual {v0, v2}, Landroid/widget/LinearLayout;->setVisibility(I)V
+    invoke-static {v1, v0, v2}, Lcom/gamevil/nexus2/Natives;->access$1(ILjava/lang/String;[B)V
 
-    .line 3489
-    :cond_0
+    .line 3475
     return-void
+
+    .line 3455
+    :pswitch_0
+    const-string v0, "zeno3_zen_3000"
+
+    .line 3456
+    goto :goto_0
+
+    .line 3458
+    :pswitch_1
+    const-string v0, "zeno3_zen_9900"
+
+    .line 3459
+    goto :goto_0
+
+    .line 3461
+    :pswitch_2
+    const-string v0, "zeno3_zen_17250"
+
+    .line 3462
+    goto :goto_0
+
+    .line 3464
+    :pswitch_3
+    const-string v0, "zeno3_zen_38400"
+
+    .line 3465
+    goto :goto_0
+
+    .line 3467
+    :pswitch_4
+    const-string v0, "zeno3_zen_128700"
+
+    goto :goto_0
+
+    .line 3452
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+        :pswitch_1
+        :pswitch_2
+        :pswitch_3
+        :pswitch_4
+    .end packed-switch
 .end method

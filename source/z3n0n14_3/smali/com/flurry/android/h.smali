@@ -1,53 +1,185 @@
 .class final Lcom/flurry/android/h;
-.super Ljava/util/LinkedHashMap;
+.super Landroid/webkit/WebViewClient;
 .source "SourceFile"
 
 
 # instance fields
-.field private synthetic a:Lcom/flurry/android/af;
+.field private synthetic a:Lcom/flurry/android/CatalogActivity;
 
 
 # direct methods
-.method constructor <init>(Lcom/flurry/android/af;IF)V
-    .locals 1
+.method constructor <init>(Lcom/flurry/android/CatalogActivity;)V
+    .locals 0
 
     .prologue
-    .line 41
-    iput-object p1, p0, Lcom/flurry/android/h;->a:Lcom/flurry/android/af;
+    .line 147
+    iput-object p1, p0, Lcom/flurry/android/h;->a:Lcom/flurry/android/CatalogActivity;
 
-    const/4 v0, 0x1
-
-    invoke-direct {p0, p2, p3, v0}, Ljava/util/LinkedHashMap;-><init>(IFZ)V
+    invoke-direct {p0}, Landroid/webkit/WebViewClient;-><init>()V
 
     return-void
 .end method
 
 
 # virtual methods
-.method protected final removeEldestEntry(Ljava/util/Map$Entry;)Z
-    .locals 2
+.method public final onPageFinished(Landroid/webkit/WebView;Ljava/lang/String;)V
+    .locals 5
 
     .prologue
-    .line 48
-    invoke-virtual {p0}, Lcom/flurry/android/h;->size()I
+    .line 181
+    :try_start_0
+    iget-object v0, p0, Lcom/flurry/android/h;->a:Lcom/flurry/android/CatalogActivity;
 
-    move-result v0
+    invoke-static {v0}, Lcom/flurry/android/CatalogActivity;->a(Lcom/flurry/android/CatalogActivity;)Lcom/flurry/android/ag;
 
-    iget-object v1, p0, Lcom/flurry/android/h;->a:Lcom/flurry/android/af;
+    move-result-object v0
 
-    invoke-static {v1}, Lcom/flurry/android/af;->a(Lcom/flurry/android/af;)I
+    new-instance v1, Lcom/flurry/android/j;
 
-    move-result v1
+    const/4 v2, 0x5
 
-    if-le v0, v1, :cond_0
+    iget-object v3, p0, Lcom/flurry/android/h;->a:Lcom/flurry/android/CatalogActivity;
 
-    const/4 v0, 0x1
+    invoke-static {v3}, Lcom/flurry/android/CatalogActivity;->b(Lcom/flurry/android/CatalogActivity;)J
 
+    move-result-wide v3
+
+    invoke-direct {v1, v2, v3, v4}, Lcom/flurry/android/j;-><init>(BJ)V
+
+    iget-object v2, p0, Lcom/flurry/android/h;->a:Lcom/flurry/android/CatalogActivity;
+
+    invoke-static {v2}, Lcom/flurry/android/CatalogActivity;->a(Lcom/flurry/android/CatalogActivity;)Lcom/flurry/android/ag;
+
+    move-result-object v2
+
+    iget-wide v2, v2, Lcom/flurry/android/ag;->c:J
+
+    iget-object v4, v0, Lcom/flurry/android/ag;->d:Ljava/util/List;
+
+    invoke-interface {v4, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
+
+    iput-wide v2, v0, Lcom/flurry/android/ag;->c:J
+    :try_end_0
+    .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 186
+    :goto_0
+    return-void
+
+    :catch_0
+    move-exception v0
+
+    goto :goto_0
+.end method
+
+.method public final onReceivedError(Landroid/webkit/WebView;ILjava/lang/String;Ljava/lang/String;)V
+    .locals 3
+
+    .prologue
+    .line 171
+    const-string v0, "FlurryAgent"
+
+    new-instance v1, Ljava/lang/StringBuilder;
+
+    invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v2, "Failed to load url: "
+
+    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1, p4}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Lcom/flurry/android/ah;->c(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 172
+    const-string v0, "Cannot find Android Market information. <p>Please check your network"
+
+    .line 173
+    const-string v1, "text/html"
+
+    const-string v2, "UTF-8"
+
+    invoke-virtual {p1, v0, v1, v2}, Landroid/webkit/WebView;->loadData(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 174
+    return-void
+.end method
+
+.method public final shouldOverrideUrlLoading(Landroid/webkit/WebView;Ljava/lang/String;)Z
+    .locals 5
+
+    .prologue
+    .line 154
+    if-nez p2, :cond_0
+
+    .line 156
+    const/4 v0, 0x0
+
+    .line 164
     :goto_0
     return v0
 
+    .line 158
     :cond_0
-    const/4 v0, 0x0
+    iget-object v0, p0, Lcom/flurry/android/h;->a:Lcom/flurry/android/CatalogActivity;
+
+    invoke-static {v0}, Lcom/flurry/android/CatalogActivity;->a(Lcom/flurry/android/CatalogActivity;)Lcom/flurry/android/ag;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    .line 160
+    iget-object v0, p0, Lcom/flurry/android/h;->a:Lcom/flurry/android/CatalogActivity;
+
+    invoke-static {v0}, Lcom/flurry/android/CatalogActivity;->a(Lcom/flurry/android/CatalogActivity;)Lcom/flurry/android/ag;
+
+    move-result-object v0
+
+    new-instance v1, Lcom/flurry/android/j;
+
+    const/4 v2, 0x6
+
+    iget-object v3, p0, Lcom/flurry/android/h;->a:Lcom/flurry/android/CatalogActivity;
+
+    invoke-static {v3}, Lcom/flurry/android/CatalogActivity;->b(Lcom/flurry/android/CatalogActivity;)J
+
+    move-result-wide v3
+
+    invoke-direct {v1, v2, v3, v4}, Lcom/flurry/android/j;-><init>(BJ)V
+
+    invoke-virtual {v0, v1}, Lcom/flurry/android/ag;->a(Lcom/flurry/android/j;)V
+
+    .line 162
+    :cond_1
+    iget-object v0, p0, Lcom/flurry/android/h;->a:Lcom/flurry/android/CatalogActivity;
+
+    invoke-static {v0}, Lcom/flurry/android/CatalogActivity;->c(Lcom/flurry/android/CatalogActivity;)Lcom/flurry/android/q;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Landroid/webkit/WebView;->getContext()Landroid/content/Context;
+
+    move-result-object v1
+
+    iget-object v2, p0, Lcom/flurry/android/h;->a:Lcom/flurry/android/CatalogActivity;
+
+    invoke-static {v2}, Lcom/flurry/android/CatalogActivity;->a(Lcom/flurry/android/CatalogActivity;)Lcom/flurry/android/ag;
+
+    move-result-object v2
+
+    invoke-virtual {v0, v1, v2, p2}, Lcom/flurry/android/q;->a(Landroid/content/Context;Lcom/flurry/android/ag;Ljava/lang/String;)V
+
+    .line 164
+    const/4 v0, 0x1
 
     goto :goto_0
 .end method

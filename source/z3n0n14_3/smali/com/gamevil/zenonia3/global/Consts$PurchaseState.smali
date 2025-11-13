@@ -44,14 +44,13 @@
 
     const/4 v2, 0x0
 
-    .line 46
+    .line 47
     new-instance v0, Lcom/gamevil/zenonia3/global/Consts$PurchaseState;
 
     const-string v1, "PURCHASED"
 
     invoke-direct {v0, v1, v2}, Lcom/gamevil/zenonia3/global/Consts$PurchaseState;-><init>(Ljava/lang/String;I)V
 
-    .line 47
     sput-object v0, Lcom/gamevil/zenonia3/global/Consts$PurchaseState;->PURCHASED:Lcom/gamevil/zenonia3/global/Consts$PurchaseState;
 
     .line 48

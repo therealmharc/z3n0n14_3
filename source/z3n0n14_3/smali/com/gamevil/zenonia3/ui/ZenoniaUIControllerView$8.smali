@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$8;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
-    .line 854
+    .line 795
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -38,40 +38,17 @@
 
 # virtual methods
 .method public run()V
-    .locals 4
+    .locals 3
 
     .prologue
-    .line 858
+    .line 799
     iget-object v1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$8;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     iget-object v1, v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->numberInput:Lcom/gamevil/nexus2/ui/UIEditNumber;
 
     if-eqz v1, :cond_0
 
-    .line 860
-    const-string v1, "#Java#"
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    const-string v3, "#### setNumberInputInvisible #### code : "
-
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    iget-object v3, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$8;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
-
-    iget-object v3, v3, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->numberInput:Lcom/gamevil/nexus2/ui/UIEditNumber;
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 861
+    .line 801
     iget-object v1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$8;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     iget-object v1, v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->numberInput:Lcom/gamevil/nexus2/ui/UIEditNumber;
@@ -80,34 +57,27 @@
 
     invoke-virtual {v1, v2}, Lcom/gamevil/nexus2/ui/UIEditNumber;->setVisibility(I)V
 
-    .line 862
-    iget-object v1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$8;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
-
-    iget-object v1, v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->numberInput:Lcom/gamevil/nexus2/ui/UIEditNumber;
-
-    invoke-virtual {v1}, Lcom/gamevil/nexus2/ui/UIEditNumber;->clearFocus()V
-
-    .line 863
+    .line 802
     iget-object v1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$8;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     iget-object v1, v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->numberInput:Lcom/gamevil/nexus2/ui/UIEditNumber;
 
     invoke-virtual {v1}, Lcom/gamevil/nexus2/ui/UIEditNumber;->clearText()V
 
-    .line 865
+    .line 804
     sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    .line 866
+    .line 805
     const-string v2, "input_method"
 
     invoke-virtual {v1, v2}, Lcom/gamevil/nexus2/NexusGLActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
-    .line 865
+    .line 804
     check-cast v0, Landroid/view/inputmethod/InputMethodManager;
 
-    .line 868
+    .line 807
     .local v0, "mgr":Landroid/view/inputmethod/InputMethodManager;
     if-eqz v0, :cond_0
 
@@ -123,7 +93,7 @@
 
     invoke-virtual {v0, v1, v2}, Landroid/view/inputmethod/InputMethodManager;->hideSoftInputFromWindow(Landroid/os/IBinder;I)Z
 
-    .line 871
+    .line 810
     .end local v0    # "mgr":Landroid/view/inputmethod/InputMethodManager;
     :cond_0
     return-void

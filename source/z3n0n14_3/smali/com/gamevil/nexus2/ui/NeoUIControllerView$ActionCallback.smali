@@ -26,7 +26,7 @@
     .locals 0
 
     .prologue
-    .line 83
+    .line 74
     iput-object p1, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView$ActionCallback;->this$0:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
@@ -38,7 +38,7 @@
     .locals 0
 
     .prologue
-    .line 83
+    .line 74
     invoke-direct {p0, p1}, Lcom/gamevil/nexus2/ui/NeoUIControllerView$ActionCallback;-><init>(Lcom/gamevil/nexus2/ui/NeoUIControllerView;)V
 
     return-void
@@ -54,18 +54,18 @@
     .param p4, "pointerId"    # I
 
     .prologue
-    .line 87
+    .line 78
     iget-object v3, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView$ActionCallback;->this$0:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
 
     iget-object v3, v3, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
     if-nez v3, :cond_1
 
-    .line 99
+    .line 90
     :cond_0
     return-void
 
-    .line 89
+    .line 80
     :cond_1
     iget-object v3, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView$ActionCallback;->this$0:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
 
@@ -75,7 +75,7 @@
 
     move-result v2
 
-    .line 90
+    .line 81
     .local v2, "_subViewSize":I
     const/4 v1, 0x0
 
@@ -83,7 +83,7 @@
     :goto_0
     if-ge v1, v2, :cond_0
 
-    .line 92
+    .line 83
     iget-object v3, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView$ActionCallback;->this$0:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
 
     iget-object v3, v3, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
@@ -94,7 +94,7 @@
 
     check-cast v0, Lcom/gamevil/nexus2/ui/NeoUIArea;
 
-    .line 93
+    .line 84
     .local v0, "_area":Lcom/gamevil/nexus2/ui/NeoUIArea;
     if-eqz v0, :cond_2
 
@@ -102,10 +102,10 @@
 
     if-nez v3, :cond_2
 
-    .line 95
+    .line 86
     invoke-virtual {v0, p1, p2, p3, p4}, Lcom/gamevil/nexus2/ui/NeoUIArea;->onAction(IFFI)V
 
-    .line 90
+    .line 81
     :cond_2
     add-int/lit8 v1, v1, 0x1
 

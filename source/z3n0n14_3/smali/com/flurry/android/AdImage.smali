@@ -1,5 +1,5 @@
 .class public final Lcom/flurry/android/AdImage;
-.super Lcom/flurry/android/aj;
+.super Lcom/flurry/android/ai;
 .source "SourceFile"
 
 
@@ -21,7 +21,7 @@
 
     .prologue
     .line 13
-    invoke-direct {p0}, Lcom/flurry/android/aj;-><init>()V
+    invoke-direct {p0}, Lcom/flurry/android/ai;-><init>()V
 
     return-void
 .end method
@@ -31,7 +31,7 @@
 
     .prologue
     .line 16
-    invoke-direct {p0}, Lcom/flurry/android/aj;-><init>()V
+    invoke-direct {p0}, Lcom/flurry/android/ai;-><init>()V
 
     .line 17
     invoke-virtual {p0, p1}, Lcom/flurry/android/AdImage;->a(Ljava/io/DataInput;)V

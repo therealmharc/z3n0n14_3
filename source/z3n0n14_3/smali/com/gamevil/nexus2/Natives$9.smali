@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/gamevil/nexus2/Natives;->hideMenuItemComponent()V
+    value = Lcom/gamevil/nexus2/Natives;->ShowTapjoyOffer()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,26 +17,12 @@
 .end annotation
 
 
-# instance fields
-.field img_menu_about:Landroid/widget/ImageView;
-
-.field img_menu_community:Landroid/widget/ImageView;
-
-.field img_menu_continue:Landroid/widget/ImageView;
-
-.field img_menu_help:Landroid/widget/ImageView;
-
-.field img_menu_newgame:Landroid/widget/ImageView;
-
-.field img_menu_options:Landroid/widget/ImageView;
-
-
 # direct methods
 .method constructor <init>()V
     .locals 0
 
     .prologue
-    .line 1556
+    .line 1549
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 1
@@ -46,216 +32,84 @@
 
 # virtual methods
 .method public run()V
-    .locals 4
+    .locals 6
 
     .prologue
-    const/4 v3, 0x0
+    const/4 v5, 0x0
 
-    const/4 v2, 0x4
+    .line 1554
+    new-instance v2, Lcom/gamevil/nexus2/Natives$9$1;
 
-    .line 1565
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->setMenuItemResId()V
-
-    .line 1566
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
-
-    .line 1567
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->access$4()I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/ImageView;
-
-    .line 1566
-    iput-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_community:Landroid/widget/ImageView;
-
-    .line 1568
-    iget-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_community:Landroid/widget/ImageView;
-
-    invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
+    invoke-direct {v2, p0}, Lcom/gamevil/nexus2/Natives$9$1;-><init>(Lcom/gamevil/nexus2/Natives$9;)V
 
     .line 1570
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
+    .local v2, "offerListener":Landroid/view/View$OnClickListener;
+    sget-object v3, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
+
+    const v4, 0x7f07003b
+
+    invoke-virtual {v3, v4}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
+
+    move-result-object v1
+
+    check-cast v1, Landroid/widget/ImageButton;
 
     .line 1571
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->access$5()I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
+    .local v1, "offer":Landroid/widget/ImageButton;
+    invoke-virtual {v1}, Landroid/widget/ImageButton;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
 
     move-result-object v0
 
-    check-cast v0, Landroid/widget/ImageView;
-
-    .line 1570
-    iput-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_options:Landroid/widget/ImageView;
-
-    .line 1572
-    iget-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_options:Landroid/widget/ImageView;
-
-    invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
+    check-cast v0, Landroid/widget/FrameLayout$LayoutParams;
 
     .line 1574
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
+    .local v0, "earnZenLayout":Landroid/widget/FrameLayout$LayoutParams;
+    sget v3, Lcom/gamevil/nexus2/NexusGLActivity;->displayWidth:I
 
-    .line 1575
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->access$6()I
+    const/16 v4, 0x400
 
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/ImageView;
-
-    .line 1574
-    iput-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_newgame:Landroid/widget/ImageView;
+    if-lt v3, v4, :cond_0
 
     .line 1576
-    iget-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_newgame:Landroid/widget/ImageView;
+    sget v3, Lcom/gamevil/nexus2/NexusGLActivity;->displayWidth:I
 
-    invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
+    mul-int/lit8 v3, v3, 0xa
+
+    div-int/lit16 v3, v3, 0x190
+
+    iput v3, v0, Landroid/widget/FrameLayout$LayoutParams;->rightMargin:I
+
+    .line 1577
+    sget v3, Lcom/gamevil/nexus2/NexusGLActivity;->displayHeight:I
+
+    mul-int/lit8 v3, v3, 0x19
+
+    div-int/lit16 v3, v3, 0xf0
+
+    iput v3, v0, Landroid/widget/FrameLayout$LayoutParams;->height:I
 
     .line 1578
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
+    sget v3, Lcom/gamevil/nexus2/NexusGLActivity;->displayWidth:I
 
-    .line 1579
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->access$7()I
+    mul-int/lit8 v3, v3, 0x46
 
-    move-result v1
+    div-int/lit16 v3, v3, 0x190
 
-    invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/ImageView;
-
-    .line 1578
-    iput-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_continue:Landroid/widget/ImageView;
-
-    .line 1580
-    iget-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_continue:Landroid/widget/ImageView;
-
-    invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
-
-    .line 1582
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
+    iput v3, v0, Landroid/widget/FrameLayout$LayoutParams;->width:I
 
     .line 1583
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->access$8()I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/ImageView;
-
-    .line 1582
-    iput-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_help:Landroid/widget/ImageView;
+    :cond_0
+    invoke-virtual {v1, v0}, Landroid/widget/ImageButton;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
     .line 1584
-    iget-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_help:Landroid/widget/ImageView;
+    invoke-virtual {v1, v2}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
+    .line 1585
+    invoke-virtual {v1, v5}, Landroid/widget/ImageButton;->setBackgroundColor(I)V
 
     .line 1586
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
+    invoke-virtual {v1, v5}, Landroid/widget/ImageButton;->setVisibility(I)V
 
     .line 1587
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->access$9()I
-
-    move-result v1
-
-    invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/ImageView;
-
-    .line 1586
-    iput-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_about:Landroid/widget/ImageView;
-
-    .line 1588
-    iget-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_about:Landroid/widget/ImageView;
-
-    invoke-virtual {v0, v2}, Landroid/widget/ImageView;->setVisibility(I)V
-
-    .line 1591
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
-
-    .line 1592
-    const v1, 0x7f080050
-
-    invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    .line 1591
-    check-cast v0, Landroid/widget/TextView;
-
-    sput-object v0, Lcom/gamevil/nexus2/Natives;->txt_Gpoint:Landroid/widget/TextView;
-
-    .line 1593
-    sget-object v0, Lcom/gamevil/nexus2/Natives;->txt_Gpoint:Landroid/widget/TextView;
-
-    invoke-virtual {v0, v2}, Landroid/widget/TextView;->setVisibility(I)V
-
-    .line 1595
-    iget-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_community:Landroid/widget/ImageView;
-
-    invoke-virtual {v0}, Landroid/widget/ImageView;->destroyDrawingCache()V
-
-    .line 1596
-    iget-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_options:Landroid/widget/ImageView;
-
-    invoke-virtual {v0}, Landroid/widget/ImageView;->destroyDrawingCache()V
-
-    .line 1597
-    iget-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_newgame:Landroid/widget/ImageView;
-
-    invoke-virtual {v0}, Landroid/widget/ImageView;->destroyDrawingCache()V
-
-    .line 1598
-    iget-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_continue:Landroid/widget/ImageView;
-
-    invoke-virtual {v0}, Landroid/widget/ImageView;->destroyDrawingCache()V
-
-    .line 1599
-    iget-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_help:Landroid/widget/ImageView;
-
-    invoke-virtual {v0}, Landroid/widget/ImageView;->destroyDrawingCache()V
-
-    .line 1600
-    iget-object v0, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_about:Landroid/widget/ImageView;
-
-    invoke-virtual {v0}, Landroid/widget/ImageView;->destroyDrawingCache()V
-
-    .line 1602
-    iput-object v3, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_community:Landroid/widget/ImageView;
-
-    .line 1603
-    iput-object v3, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_options:Landroid/widget/ImageView;
-
-    .line 1604
-    iput-object v3, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_newgame:Landroid/widget/ImageView;
-
-    .line 1605
-    iput-object v3, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_continue:Landroid/widget/ImageView;
-
-    .line 1606
-    iput-object v3, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_help:Landroid/widget/ImageView;
-
-    .line 1607
-    iput-object v3, p0, Lcom/gamevil/nexus2/Natives$9;->img_menu_about:Landroid/widget/ImageView;
-
-    .line 1608
     return-void
 .end method

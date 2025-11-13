@@ -4,224 +4,94 @@
 
 
 # static fields
-.field public static nEditTextBackEventTime:J
-
-.field public static nLengthMaxText:I
+.field public static MAX_NUMBER_LENGTH:I
 
 
 # direct methods
 .method static constructor <clinit>()V
-    .locals 2
+    .locals 1
 
     .prologue
-    .line 40
+    .line 38
     const/4 v0, 0x0
 
-    sput v0, Lcom/gamevil/nexus2/ui/UIEditText;->nLengthMaxText:I
+    sput v0, Lcom/gamevil/nexus2/ui/UIEditText;->MAX_NUMBER_LENGTH:I
 
-    .line 41
-    const-wide/16 v0, 0x0
-
-    sput-wide v0, Lcom/gamevil/nexus2/ui/UIEditText;->nEditTextBackEventTime:J
-
-    .line 38
+    .line 35
     return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;)V
-    .locals 1
+    .locals 0
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 46
+    .line 42
     invoke-direct {p0, p1}, Landroid/widget/EditText;-><init>(Landroid/content/Context;)V
 
-    .line 48
-    const/16 v0, 0x30
-
-    invoke-virtual {p0, v0}, Lcom/gamevil/nexus2/ui/UIEditText;->setGravity(I)V
-
-    .line 52
+    .line 44
     return-void
 .end method
 
 .method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
-    .locals 1
+    .locals 0
     .param p1, "context"    # Landroid/content/Context;
     .param p2, "attrs"    # Landroid/util/AttributeSet;
 
     .prologue
-    .line 55
+    .line 47
     invoke-direct {p0, p1, p2}, Landroid/widget/EditText;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 57
-    const/16 v0, 0x30
-
-    invoke-virtual {p0, v0}, Lcom/gamevil/nexus2/ui/UIEditText;->setGravity(I)V
-
-    .line 59
+    .line 50
     return-void
-.end method
-
-.method private checkFormValid(Ljava/lang/String;)Z
-    .locals 2
-    .param p1, "str"    # Ljava/lang/String;
-
-    .prologue
-    .line 185
-    const-string v1, "^[a-zA-Z0-9]*$"
-
-    invoke-static {v1, p1}, Ljava/util/regex/Pattern;->matches(Ljava/lang/String;Ljava/lang/CharSequence;)Z
-
-    move-result v0
-
-    .line 187
-    .local v0, "result":Z
-    invoke-virtual {p1}, Ljava/lang/String;->length()I
-
-    move-result v1
-
-    if-lez v1, :cond_0
-
-    if-eqz v0, :cond_0
-
-    .line 189
-    const/4 v1, 0x1
-
-    .line 191
-    :goto_0
-    return v1
-
-    :cond_0
-    const/4 v1, 0x0
-
-    goto :goto_0
 .end method
 
 
 # virtual methods
 .method public clearText()V
-    .locals 2
+    .locals 1
 
     .prologue
-    .line 70
+    .line 54
     const-string v0, ""
 
     invoke-virtual {p0, v0}, Lcom/gamevil/nexus2/ui/UIEditText;->setText(Ljava/lang/CharSequence;)V
 
-    .line 71
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
-
-    const-string v1, ""
-
-    iput-object v1, v0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->textInputed:Ljava/lang/String;
-
-    .line 73
-    return-void
-.end method
-
-.method public closeInput()V
-    .locals 2
-
-    .prologue
-    const/4 v1, 0x0
-
-    .line 162
-    const/16 v0, 0x63
-
-    invoke-static {v0, v1, v1, v1}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
-
-    .line 163
+    .line 57
     return-void
 .end method
 
 .method public onCommitCompletion(Landroid/view/inputmethod/CompletionInfo;)V
-    .locals 2
+    .locals 0
     .param p1, "text"    # Landroid/view/inputmethod/CompletionInfo;
 
     .prologue
-    .line 94
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    const-string v1, "onCommitCompletion"
-
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 95
+    .line 105
     return-void
 .end method
 
 .method protected onDetachedFromWindow()V
-    .locals 2
+    .locals 0
 
     .prologue
-    .line 100
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    const-string v1, "onDetachedFromWindow"
-
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 101
+    .line 111
     return-void
 .end method
 
 .method public onEditorAction(I)V
-    .locals 4
+    .locals 3
     .param p1, "actionCode"    # I
 
     .prologue
-    const/4 v3, 0x0
+    const/4 v2, 0x0
 
-    .line 106
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "[DEBUG UIEDITTEXT] onEditorAction ----- "
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 107
+    .line 131
     const/4 v0, 0x6
 
     if-ne p1, v0, :cond_0
 
-    .line 109
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "[DEBUG UIEDITTEXT] onEditorAction IME_ACTION_DONE"
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {p0}, Lcom/gamevil/nexus2/ui/UIEditText;->getText()Landroid/text/Editable;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 110
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+    .line 135
+    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
     invoke-virtual {p0}, Lcom/gamevil/nexus2/ui/UIEditText;->getText()Landroid/text/Editable;
 
@@ -231,16 +101,56 @@
 
     move-result-object v1
 
-    iput-object v1, v0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->textInputed:Ljava/lang/String;
+    iput-object v1, v0, Lcom/gamevil/nexus2/ui/UIControllerView;->textInputed:Ljava/lang/String;
 
-    .line 111
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    .line 136
+    const/16 v0, 0x63
 
-    new-instance v1, Ljava/lang/StringBuilder;
+    invoke-static {v0, v2, v2, v2}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
 
-    const-string v2, "[DEBUG UIEDITTEXT] this.getText().toString()"
+    .line 139
+    :cond_0
+    invoke-super {p0, p1}, Landroid/widget/EditText;->onEditorAction(I)V
 
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    .line 140
+    return-void
+.end method
+
+.method public onEndBatchEdit()V
+    .locals 4
+
+    .prologue
+    const/16 v3, 0x40
+
+    .line 63
+    invoke-virtual {p0}, Lcom/gamevil/nexus2/ui/UIEditText;->getText()Landroid/text/Editable;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Landroid/text/Editable;->length()I
+
+    move-result v0
+
+    .line 66
+    .local v0, "length":I
+    if-lez v0, :cond_1
+
+    invoke-virtual {p0}, Lcom/gamevil/nexus2/ui/UIEditText;->getText()Landroid/text/Editable;
+
+    move-result-object v1
+
+    add-int/lit8 v2, v0, -0x1
+
+    invoke-interface {v1, v2}, Landroid/text/Editable;->charAt(I)C
+
+    move-result v1
+
+    const/16 v2, 0xb0
+
+    if-le v1, v2, :cond_1
+
+    .line 70
+    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
     invoke-virtual {p0}, Lcom/gamevil/nexus2/ui/UIEditText;->getText()Landroid/text/Editable;
 
@@ -250,115 +160,67 @@
 
     move-result-object v2
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    iput-object v2, v1, Lcom/gamevil/nexus2/ui/UIControllerView;->textInputed:Ljava/lang/String;
 
-    move-result-object v1
+    .line 73
+    sget v1, Lcom/gamevil/nexus2/ui/UIEditText;->MAX_NUMBER_LENGTH:I
 
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    if-lt v1, v3, :cond_0
 
-    move-result-object v1
+    .line 75
+    sget v1, Lcom/gamevil/nexus2/ui/UIEditText;->MAX_NUMBER_LENGTH:I
 
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+    add-int/lit8 v1, v1, -0x31
 
-    .line 112
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    invoke-virtual {p0, v1}, Lcom/gamevil/nexus2/ui/UIEditText;->setTextLength(I)V
 
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "[DEBUG UIEDITTEXT] NexusGLActivity.uiViewControll.textInputed"
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    sget-object v2, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
-
-    iget-object v2, v2, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->textInputed:Ljava/lang/String;
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 114
-    const/16 v0, 0x63
-
-    invoke-static {v0, v3, v3, v3}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
-
-    .line 116
-    :cond_0
-    invoke-super {p0, p1}, Landroid/widget/EditText;->onEditorAction(I)V
-
-    .line 117
+    .line 99
+    :goto_0
     return-void
-.end method
-
-.method public onEndBatchEdit()V
-    .locals 4
-
-    .prologue
-    .line 78
-    sget-object v2, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    const-string v3, "[DEBUG UIEDITTEXT] onEndBatchEdit"
-
-    invoke-virtual {v2, v3}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
     .line 79
+    :cond_0
+    sget v1, Lcom/gamevil/nexus2/ui/UIEditText;->MAX_NUMBER_LENGTH:I
+
+    div-int/lit8 v1, v1, 0x2
+
+    invoke-virtual {p0, v1}, Lcom/gamevil/nexus2/ui/UIEditText;->setTextLength(I)V
+
+    goto :goto_0
+
+    .line 86
+    :cond_1
+    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
+
     invoke-virtual {p0}, Lcom/gamevil/nexus2/ui/UIEditText;->getText()Landroid/text/Editable;
 
     move-result-object v2
 
-    invoke-interface {v2}, Landroid/text/Editable;->length()I
+    invoke-interface {v2}, Landroid/text/Editable;->toString()Ljava/lang/String;
 
-    move-result v1
+    move-result-object v2
 
-    .line 80
-    .local v1, "length":I
-    sget-object v2, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
-
-    invoke-virtual {p0}, Lcom/gamevil/nexus2/ui/UIEditText;->getText()Landroid/text/Editable;
-
-    move-result-object v3
-
-    invoke-interface {v3}, Landroid/text/Editable;->toString()Ljava/lang/String;
-
-    move-result-object v3
-
-    iput-object v3, v2, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->textInputed:Ljava/lang/String;
-
-    .line 84
-    sget-object v2, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
-
-    iget-object v2, v2, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->textInputed:Ljava/lang/String;
-
-    invoke-direct {p0, v2}, Lcom/gamevil/nexus2/ui/UIEditText;->checkFormValid(Ljava/lang/String;)Z
-
-    move-result v0
-
-    .line 85
-    .local v0, "bEng":Z
-    if-eqz v0, :cond_0
-
-    .line 86
-    sget v2, Lcom/gamevil/nexus2/ui/UIEditText;->nLengthMaxText:I
-
-    invoke-virtual {p0, v2}, Lcom/gamevil/nexus2/ui/UIEditText;->setTextLength(I)V
+    iput-object v2, v1, Lcom/gamevil/nexus2/ui/UIControllerView;->textInputed:Ljava/lang/String;
 
     .line 89
-    :goto_0
-    return-void
+    sget v1, Lcom/gamevil/nexus2/ui/UIEditText;->MAX_NUMBER_LENGTH:I
 
-    .line 88
-    :cond_0
-    sget v2, Lcom/gamevil/nexus2/ui/UIEditText;->nLengthMaxText:I
+    if-lt v1, v3, :cond_2
 
-    div-int/lit8 v2, v2, 0x2
+    .line 91
+    sget v1, Lcom/gamevil/nexus2/ui/UIEditText;->MAX_NUMBER_LENGTH:I
 
-    invoke-virtual {p0, v2}, Lcom/gamevil/nexus2/ui/UIEditText;->setTextLength(I)V
+    add-int/lit8 v1, v1, -0x7
+
+    invoke-virtual {p0, v1}, Lcom/gamevil/nexus2/ui/UIEditText;->setTextLength(I)V
+
+    goto :goto_0
+
+    .line 95
+    :cond_2
+    sget v1, Lcom/gamevil/nexus2/ui/UIEditText;->MAX_NUMBER_LENGTH:I
+
+    invoke-virtual {p0, v1}, Lcom/gamevil/nexus2/ui/UIEditText;->setTextLength(I)V
 
     goto :goto_0
 .end method
@@ -371,131 +233,122 @@
     .prologue
     const/16 v4, 0x63
 
-    const/4 v3, 0x0
+    const/4 v0, 0x0
 
-    .line 123
-    const-string v0, "#Java#"
+    .line 146
+    const-string v1, "#Java#"
 
-    new-instance v1, Ljava/lang/StringBuilder;
+    new-instance v2, Ljava/lang/StringBuilder;
 
-    const-string v2, "#### onKeyDown #### code : "
+    const-string v3, "#### onKeyDown #### code : "
 
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
-    move-result-object v1
+    move-result-object v2
 
-    const-string v2, " ## KeyEvent : "
+    const-string v3, " ## KeyEvent : "
 
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    move-result-object v1
+    move-result-object v2
 
-    invoke-virtual {v1, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+    invoke-virtual {v2, p2}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
 
-    move-result-object v1
+    move-result-object v2
 
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
-    move-result-object v1
+    move-result-object v2
 
-    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v1, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 126
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+    .line 149
+    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
     invoke-virtual {p0}, Lcom/gamevil/nexus2/ui/UIEditText;->getText()Landroid/text/Editable;
 
-    move-result-object v1
+    move-result-object v2
 
-    invoke-interface {v1}, Landroid/text/Editable;->toString()Ljava/lang/String;
+    invoke-interface {v2}, Landroid/text/Editable;->toString()Ljava/lang/String;
 
-    move-result-object v1
+    move-result-object v2
 
-    iput-object v1, v0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->textInputed:Ljava/lang/String;
+    iput-object v2, v1, Lcom/gamevil/nexus2/ui/UIControllerView;->textInputed:Ljava/lang/String;
 
-    .line 128
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+    .line 151
+    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
-    iget-object v0, v0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->textInputed:Ljava/lang/String;
+    iget-object v1, v1, Lcom/gamevil/nexus2/ui/UIControllerView;->textInputed:Ljava/lang/String;
 
-    invoke-virtual {v0}, Ljava/lang/String;->length()I
+    invoke-virtual {v1}, Ljava/lang/String;->length()I
 
-    move-result v0
+    move-result v1
 
-    if-gtz v0, :cond_0
+    if-gtz v1, :cond_0
 
-    const/16 v0, 0x43
+    const/16 v1, 0x43
 
-    if-eq p1, v0, :cond_1
+    if-eq p1, v1, :cond_1
 
-    .line 131
+    .line 157
     :cond_0
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
-    iget-object v0, v0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->textInputed:Ljava/lang/String;
+    iget-object v1, v1, Lcom/gamevil/nexus2/ui/UIControllerView;->textInputed:Ljava/lang/String;
 
-    invoke-virtual {v0}, Ljava/lang/String;->length()I
+    invoke-virtual {v1}, Ljava/lang/String;->length()I
 
-    move-result v0
+    move-result v1
 
-    if-lez v0, :cond_2
+    if-lez v1, :cond_2
 
-    const/16 v0, 0x17
+    const/16 v1, 0x17
 
-    if-ne p1, v0, :cond_2
+    if-ne p1, v1, :cond_2
 
-    .line 133
-    invoke-static {v4, v3, v3, v3}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
+    .line 159
+    invoke-static {v4, v0, v0, v0}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
 
-    .line 145
+    .line 177
     :cond_1
     :goto_0
     invoke-super {p0, p1, p2}, Landroid/widget/EditText;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v0
 
+    :goto_1
     return v0
 
-    .line 135
+    .line 164
     :cond_2
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
-    iget-object v0, v0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->textInputed:Ljava/lang/String;
+    iget-object v1, v1, Lcom/gamevil/nexus2/ui/UIControllerView;->textInputed:Ljava/lang/String;
 
-    invoke-virtual {v0}, Ljava/lang/String;->length()I
+    invoke-virtual {v1}, Ljava/lang/String;->length()I
 
-    move-result v0
+    move-result v1
 
-    if-lez v0, :cond_3
+    if-lez v1, :cond_3
 
-    const/16 v0, 0x42
+    const/16 v1, 0x42
 
-    if-ne p1, v0, :cond_3
+    if-ne p1, v1, :cond_3
 
-    .line 137
-    invoke-static {v4, v3, v3, v3}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
+    .line 168
+    invoke-static {v4, v0, v0, v0}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
 
     goto :goto_0
 
-    .line 139
+    .line 171
     :cond_3
-    const/4 v0, 0x4
+    const/4 v1, 0x4
 
-    if-ne p1, v0, :cond_1
+    if-ne p1, v1, :cond_1
 
-    .line 142
-    invoke-static {v4, v3, v3, v3}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
-
-    .line 143
-    invoke-virtual {p2}, Landroid/view/KeyEvent;->getEventTime()J
-
-    move-result-wide v0
-
-    sput-wide v0, Lcom/gamevil/nexus2/ui/UIEditText;->nEditTextBackEventTime:J
-
-    goto :goto_0
+    goto :goto_1
 .end method
 
 .method public onKeyPreIme(ILandroid/view/KeyEvent;)Z
@@ -506,14 +359,14 @@
     .prologue
     const/4 v2, 0x0
 
-    .line 150
+    .line 116
     const-string v0, "#########"
 
     const-string v1, "######## key down IME ########"
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 152
+    .line 118
     invoke-virtual {p2}, Landroid/view/KeyEvent;->getKeyCode()I
 
     move-result v0
@@ -522,19 +375,19 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 154
+    .line 120
     const-string v0, "#########"
 
     const-string v1, "######## BACK ########"
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 155
+    .line 121
     const/16 v0, 0x63
 
     invoke-static {v0, v2, v2, v2}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
 
-    .line 158
+    .line 124
     :cond_0
     invoke-super {p0, p1, p2}, Landroid/widget/EditText;->onKeyPreIme(ILandroid/view/KeyEvent;)Z
 
@@ -543,50 +396,12 @@
     return v0
 .end method
 
-.method public setText()V
-    .locals 3
-
-    .prologue
-    .line 64
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "setText ----- "
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    sget-object v2, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
-
-    iget-object v2, v2, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->textInputed:Ljava/lang/String;
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 65
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
-
-    iget-object v0, v0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->textInputed:Ljava/lang/String;
-
-    invoke-virtual {p0, v0}, Lcom/gamevil/nexus2/ui/UIEditText;->setText(Ljava/lang/CharSequence;)V
-
-    .line 66
-    return-void
-.end method
-
 .method public setTextLength(I)V
     .locals 3
     .param p1, "len"    # I
 
     .prologue
-    .line 178
+    .line 190
     const/4 v0, 0x1
 
     new-array v0, v0, [Landroid/text/InputFilter;
@@ -601,7 +416,7 @@
 
     invoke-virtual {p0, v0}, Lcom/gamevil/nexus2/ui/UIEditText;->setFilters([Landroid/text/InputFilter;)V
 
-    .line 179
+    .line 191
     return-void
 .end method
 
@@ -609,7 +424,7 @@
     .locals 3
 
     .prologue
-    .line 168
+    .line 184
     sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
     const-string v2, "input_method"
@@ -620,12 +435,15 @@
 
     check-cast v0, Landroid/view/inputmethod/InputMethodManager;
 
-    .line 169
+    .line 185
     .local v0, "mgr":Landroid/view/inputmethod/InputMethodManager;
+    if-eqz v0, :cond_0
+
     const/4 v1, 0x0
 
     invoke-virtual {v0, p0, v1}, Landroid/view/inputmethod/InputMethodManager;->showSoftInput(Landroid/view/View;I)Z
 
-    .line 170
+    .line 186
+    :cond_0
     return-void
 .end method

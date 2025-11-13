@@ -6,7 +6,7 @@
 # instance fields
 .field a:J
 
-.field b:Lcom/flurry/android/p;
+.field b:Lcom/flurry/android/ag;
 
 .field c:Ljava/lang/String;
 
@@ -14,36 +14,38 @@
 
 .field e:I
 
-.field f:Lcom/flurry/android/AdImage;
+.field f:Ljava/lang/String;
+
+.field g:Lcom/flurry/android/AdImage;
 
 
 # direct methods
-.method constructor <init>(JLcom/flurry/android/p;Lcom/flurry/android/AdImage;Ljava/lang/String;Ljava/lang/String;I)V
+.method constructor <init>(JLjava/lang/String;Lcom/flurry/android/AdImage;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 0
 
     .prologue
-    .line 18
+    .line 19
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 19
-    iput-wide p1, p0, Lcom/flurry/android/OfferInSdk;->a:J
-
     .line 20
-    iput-object p3, p0, Lcom/flurry/android/OfferInSdk;->b:Lcom/flurry/android/p;
+    iput-wide p1, p0, Lcom/flurry/android/OfferInSdk;->a:J
 
     .line 21
     iput-object p5, p0, Lcom/flurry/android/OfferInSdk;->c:Ljava/lang/String;
 
     .line 22
-    iput-object p4, p0, Lcom/flurry/android/OfferInSdk;->f:Lcom/flurry/android/AdImage;
+    iput-object p3, p0, Lcom/flurry/android/OfferInSdk;->f:Ljava/lang/String;
 
     .line 23
-    iput-object p6, p0, Lcom/flurry/android/OfferInSdk;->d:Ljava/lang/String;
+    iput-object p4, p0, Lcom/flurry/android/OfferInSdk;->g:Lcom/flurry/android/AdImage;
 
     .line 24
-    iput p7, p0, Lcom/flurry/android/OfferInSdk;->e:I
+    iput-object p6, p0, Lcom/flurry/android/OfferInSdk;->d:Ljava/lang/String;
 
     .line 25
+    iput p7, p0, Lcom/flurry/android/OfferInSdk;->e:I
+
+    .line 26
     return-void
 .end method
 
@@ -53,12 +55,12 @@
     .locals 4
 
     .prologue
-    .line 34
+    .line 35
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 35
+    .line 36
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -111,7 +113,7 @@
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 37
+    .line 38
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0

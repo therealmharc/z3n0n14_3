@@ -7,24 +7,16 @@
 
 
 # instance fields
-.field final synthetic a:Landroid/content/Context;
-
-.field final synthetic b:Lcom/flurry/android/FlurryAgent;
-
-.field private synthetic c:Z
+.field private synthetic a:Lcom/flurry/android/FlurryAgent;
 
 
 # direct methods
-.method constructor <init>(Lcom/flurry/android/FlurryAgent;ZLandroid/content/Context;)V
+.method constructor <init>(Lcom/flurry/android/FlurryAgent;)V
     .locals 0
 
     .prologue
-    .line 1202
-    iput-object p1, p0, Lcom/flurry/android/b;->b:Lcom/flurry/android/FlurryAgent;
-
-    iput-boolean p2, p0, Lcom/flurry/android/b;->c:Z
-
-    iput-object p3, p0, Lcom/flurry/android/b;->a:Landroid/content/Context;
+    .line 804
+    iput-object p1, p0, Lcom/flurry/android/b;->a:Lcom/flurry/android/FlurryAgent;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -34,59 +26,30 @@
 
 # virtual methods
 .method public final run()V
-    .locals 4
+    .locals 2
 
     .prologue
-    .line 1206
-    iget-object v0, p0, Lcom/flurry/android/b;->b:Lcom/flurry/android/FlurryAgent;
+    .line 810
+    iget-object v0, p0, Lcom/flurry/android/b;->a:Lcom/flurry/android/FlurryAgent;
 
-    invoke-static {v0}, Lcom/flurry/android/FlurryAgent;->b(Lcom/flurry/android/FlurryAgent;)V
-
-    .line 1207
-    iget-object v0, p0, Lcom/flurry/android/b;->b:Lcom/flurry/android/FlurryAgent;
-
-    invoke-static {v0}, Lcom/flurry/android/FlurryAgent;->c(Lcom/flurry/android/FlurryAgent;)V
-
-    .line 1208
-    iget-boolean v0, p0, Lcom/flurry/android/b;->c:Z
-
-    if-nez v0, :cond_0
-
-    .line 1211
-    iget-object v0, p0, Lcom/flurry/android/b;->b:Lcom/flurry/android/FlurryAgent;
-
-    invoke-static {v0}, Lcom/flurry/android/FlurryAgent;->d(Lcom/flurry/android/FlurryAgent;)Landroid/os/Handler;
+    invoke-static {v0}, Lcom/flurry/android/FlurryAgent;->b(Lcom/flurry/android/FlurryAgent;)Ljava/util/List;
 
     move-result-object v0
 
-    new-instance v1, Lcom/flurry/android/l;
+    iget-object v1, p0, Lcom/flurry/android/b;->a:Lcom/flurry/android/FlurryAgent;
 
-    invoke-direct {v1, p0}, Lcom/flurry/android/l;-><init>(Lcom/flurry/android/b;)V
+    invoke-static {v1}, Lcom/flurry/android/FlurryAgent;->b(Lcom/flurry/android/FlurryAgent;)Ljava/util/List;
 
-    invoke-static {}, Lcom/flurry/android/FlurryAgent;->g()J
+    move-result-object v1
 
-    move-result-wide v2
+    invoke-interface {v1}, Ljava/util/List;->size()I
 
-    invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
+    move-result v1
 
-    .line 1220
-    :cond_0
-    invoke-static {}, Lcom/flurry/android/FlurryAgent;->h()Z
+    add-int/lit8 v1, v1, -0x1
 
-    move-result v0
+    invoke-interface {v0, v1}, Ljava/util/List;->remove(I)Ljava/lang/Object;
 
-    if-eqz v0, :cond_1
-
-    .line 1222
-    iget-object v0, p0, Lcom/flurry/android/b;->b:Lcom/flurry/android/FlurryAgent;
-
-    invoke-static {v0}, Lcom/flurry/android/FlurryAgent;->e(Lcom/flurry/android/FlurryAgent;)Lcom/flurry/android/u;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Lcom/flurry/android/u;->c()V
-
-    .line 1224
-    :cond_1
+    .line 811
     return-void
 .end method

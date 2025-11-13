@@ -22,7 +22,7 @@
     .locals 0
 
     .prologue
-    .line 214
+    .line 222
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 1
@@ -36,13 +36,13 @@
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    .line 217
+    .line 227
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$2()Ljava/lang/String;
 
     move-result-object v0
 
     invoke-static {v0}, Lcom/gamevil/nexus2/Natives;->openUrl(Ljava/lang/String;)V
 
-    .line 219
+    .line 229
     return-void
 .end method

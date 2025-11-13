@@ -336,7 +336,7 @@
 
     iput-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->mHandler:Landroid/os/Handler;
 
-    .line 828
+    .line 824
     new-instance v0, Lcom/tapjoy/TapjoyVideoView$1;
 
     invoke-direct {v0, p0}, Lcom/tapjoy/TapjoyVideoView$1;-><init>(Lcom/tapjoy/TapjoyVideoView;)V
@@ -361,7 +361,7 @@
     .locals 1
 
     .prologue
-    .line 797
+    .line 793
     invoke-direct {p0}, Lcom/tapjoy/TapjoyVideoView;->getRemainingVideoTime()I
 
     move-result v0
@@ -393,7 +393,7 @@
     .locals 0
 
     .prologue
-    .line 301
+    .line 299
     invoke-direct {p0}, Lcom/tapjoy/TapjoyVideoView;->initVideoView()V
 
     return-void
@@ -458,14 +458,14 @@
 
     const/4 v8, 0x1
 
-    .line 699
+    .line 695
     sget-object v5, Lcom/tapjoy/TapjoyVideoView;->colorsButtons:[I
 
     invoke-static {v5}, Lcom/tapjoy/TapjoyVideoView;->createGradient([I)Landroid/graphics/drawable/GradientDrawable;
 
     move-result-object v4
 
-    .line 700
+    .line 696
     .local v4, "s1":Landroid/graphics/drawable/Drawable;
     sget-object v5, Lcom/tapjoy/TapjoyVideoView;->colorsButtons:[I
 
@@ -473,7 +473,7 @@
 
     move-result-object v3
 
-    .line 701
+    .line 697
     .local v3, "n1":Landroid/graphics/drawable/Drawable;
     sget-object v5, Lcom/tapjoy/TapjoyVideoView;->colorsButtons:[I
 
@@ -481,13 +481,13 @@
 
     move-result-object v2
 
-    .line 704
+    .line 700
     .local v2, "f1":Landroid/graphics/drawable/Drawable;
     new-instance v1, Landroid/graphics/drawable/StateListDrawable;
 
     invoke-direct {v1}, Landroid/graphics/drawable/StateListDrawable;-><init>()V
 
-    .line 706
+    .line 702
     .local v1, "drawable":Landroid/graphics/drawable/StateListDrawable;
     new-array v5, v8, [I
 
@@ -499,45 +499,45 @@
 
     invoke-virtual {v1, v5, v4}, Landroid/graphics/drawable/StateListDrawable;->addState([ILandroid/graphics/drawable/Drawable;)V
 
-    .line 707
+    .line 703
     new-array v5, v9, [I
 
     fill-array-data v5, :array_0
 
     invoke-virtual {v1, v5, v3}, Landroid/graphics/drawable/StateListDrawable;->addState([ILandroid/graphics/drawable/Drawable;)V
 
-    .line 708
+    .line 704
     new-array v5, v9, [I
 
     fill-array-data v5, :array_1
 
     invoke-virtual {v1, v5, v2}, Landroid/graphics/drawable/StateListDrawable;->addState([ILandroid/graphics/drawable/Drawable;)V
 
-    .line 710
+    .line 706
     new-instance v0, Landroid/widget/Button;
 
     invoke-direct {v0, p0}, Landroid/widget/Button;-><init>(Landroid/content/Context;)V
 
-    .line 711
+    .line 707
     .local v0, "button":Landroid/widget/Button;
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 713
+    .line 709
     invoke-virtual {v0, p1}, Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
 
-    .line 714
+    .line 710
     const v5, -0xfcc36e
 
     invoke-virtual {v0, v5}, Landroid/widget/Button;->setTextColor(I)V
 
-    .line 715
+    .line 711
     sget v5, Lcom/tapjoy/TapjoyVideoView;->textSize:I
 
     int-to-float v5, v5
 
     invoke-virtual {v0, v5}, Landroid/widget/Button;->setTextSize(F)V
 
-    .line 716
+    .line 712
     const-string v5, "default"
 
     invoke-static {v5, v8}, Landroid/graphics/Typeface;->create(Ljava/lang/String;I)Landroid/graphics/Typeface;
@@ -546,17 +546,17 @@
 
     invoke-virtual {v0, v5, v8}, Landroid/widget/Button;->setTypeface(Landroid/graphics/Typeface;I)V
 
-    .line 718
+    .line 714
     sget v5, Lcom/tapjoy/TapjoyVideoView;->buttonHeight:I
 
     if-lez v5, :cond_0
 
-    .line 719
+    .line 715
     sget v5, Lcom/tapjoy/TapjoyVideoView;->buttonHeight:I
 
     invoke-virtual {v0, v5}, Landroid/widget/Button;->setHeight(I)V
 
-    .line 721
+    .line 717
     :cond_0
     const-string v5, "VIDEO"
 
@@ -580,7 +580,7 @@
 
     invoke-static {v5, v6}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 722
+    .line 718
     const-string v5, "VIDEO"
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -603,7 +603,7 @@
 
     invoke-static {v5, v6}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 723
+    .line 719
     const-string v5, "VIDEO"
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -626,7 +626,7 @@
 
     invoke-static {v5, v6}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 724
+    .line 720
     const-string v5, "VIDEO"
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -649,7 +649,7 @@
 
     invoke-static {v5, v6}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 726
+    .line 722
     invoke-virtual {v0}, Landroid/widget/Button;->getPaddingLeft()I
 
     move-result v5
@@ -668,10 +668,10 @@
 
     invoke-virtual {v0, v5, v6, v7, v8}, Landroid/widget/Button;->setPadding(IIII)V
 
-    .line 728
+    .line 724
     return-object v0
 
-    .line 707
+    .line 703
     nop
 
     :array_0
@@ -680,7 +680,7 @@
         -0x10100a1
     .end array-data
 
-    .line 708
+    .line 704
     :array_1
     .array-data 4
         -0x101009c
@@ -693,32 +693,32 @@
     .param p0, "colors"    # [I
 
     .prologue
-    .line 739
+    .line 735
     const/4 v0, 0x0
 
-    .line 740
+    .line 736
     .local v0, "gradientDrawable":Landroid/graphics/drawable/GradientDrawable;
     sget-object v1, Landroid/graphics/drawable/GradientDrawable$Orientation;->TOP_BOTTOM:Landroid/graphics/drawable/GradientDrawable$Orientation;
 
-    .line 743
+    .line 739
     .local v1, "orientation":Landroid/graphics/drawable/GradientDrawable$Orientation;
     new-instance v0, Landroid/graphics/drawable/GradientDrawable;
 
     .end local v0    # "gradientDrawable":Landroid/graphics/drawable/GradientDrawable;
     invoke-direct {v0, v1, p0}, Landroid/graphics/drawable/GradientDrawable;-><init>(Landroid/graphics/drawable/GradientDrawable$Orientation;[I)V
 
-    .line 746
+    .line 742
     .restart local v0    # "gradientDrawable":Landroid/graphics/drawable/GradientDrawable;
     sget-object v2, Lcom/tapjoy/TapjoyVideoView;->cornerAll:[F
 
     invoke-virtual {v0, v2}, Landroid/graphics/drawable/GradientDrawable;->setCornerRadii([F)V
 
-    .line 747
+    .line 743
     const/high16 v2, 0x42480000    # 50.0f
 
     invoke-virtual {v0, v2}, Landroid/graphics/drawable/GradientDrawable;->setGradientRadius(F)V
 
-    .line 749
+    .line 745
     return-object v0
 .end method
 
@@ -726,7 +726,7 @@
     .locals 3
 
     .prologue
-    .line 799
+    .line 795
     iget-object v1, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v1}, Landroid/widget/VideoView;->getDuration()I
@@ -743,14 +743,14 @@
 
     div-int/lit16 v0, v1, 0x3e8
 
-    .line 801
+    .line 797
     .local v0, "timeRemaining":I
     if-gez v0, :cond_0
 
-    .line 802
+    .line 798
     const/4 v0, 0x0
 
-    .line 804
+    .line 800
     :cond_0
     return v0
 .end method
@@ -759,7 +759,7 @@
     .locals 45
 
     .prologue
-    .line 363
+    .line 361
     invoke-virtual/range {p0 .. p0}, Lcom/tapjoy/TapjoyVideoView;->getWindowManager()Landroid/view/WindowManager;
 
     move-result-object v40
@@ -768,19 +768,19 @@
 
     move-result-object v14
 
-    .line 364
+    .line 362
     .local v14, "display":Landroid/view/Display;
     invoke-virtual {v14}, Landroid/view/Display;->getWidth()I
 
     move-result v38
 
-    .line 365
+    .line 363
     .local v38, "width":I
     invoke-virtual {v14}, Landroid/view/Display;->getHeight()I
 
     move-result v18
 
-    .line 367
+    .line 365
     .local v18, "height":I
     const-string v40, "VIDEO"
 
@@ -818,7 +818,7 @@
 
     invoke-static/range {v40 .. v41}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 371
+    .line 369
     sget-object v40, Landroid/os/Build$VERSION;->SDK:Ljava/lang/String;
 
     invoke-static/range {v40 .. v40}, Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
@@ -833,14 +833,14 @@
 
     if-le v0, v1, :cond_0
 
-    .line 373
+    .line 371
     new-instance v15, Lcom/tapjoy/TapjoyDisplayMetricsUtil;
 
     move-object/from16 v0, p0
 
     invoke-direct {v15, v0}, Lcom/tapjoy/TapjoyDisplayMetricsUtil;-><init>(Landroid/content/Context;)V
 
-    .line 375
+    .line 373
     .local v15, "displayMetricsUtil":Lcom/tapjoy/TapjoyDisplayMetricsUtil;
     invoke-virtual {v15}, Lcom/tapjoy/TapjoyDisplayMetricsUtil;->getScreenLayoutSize()I
 
@@ -852,7 +852,7 @@
 
     iput v0, v1, Lcom/tapjoy/TapjoyVideoView;->deviceScreenLayoutSize:I
 
-    .line 377
+    .line 375
     const-string v40, "VIDEO"
 
     new-instance v41, Ljava/lang/StringBuilder;
@@ -877,14 +877,14 @@
 
     invoke-static/range {v40 .. v41}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 382
+    .line 378
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/tapjoy/TapjoyVideoView;->deviceScreenLayoutSize:I
 
     move/from16 v40, v0
 
-    const/16 v41, 0x3
+    const/16 v41, 0x4
 
     move/from16 v0, v40
 
@@ -892,32 +892,32 @@
 
     if-ne v0, v1, :cond_0
 
-    .line 384
+    .line 380
     const/16 v40, 0x14
 
     sput v40, Lcom/tapjoy/TapjoyVideoView;->padding:I
 
-    .line 385
+    .line 381
     const/16 v40, 0x20
 
     sput v40, Lcom/tapjoy/TapjoyVideoView;->textSize:I
 
-    .line 386
+    .line 382
     div-int/lit8 v40, v18, 0x7
 
     sput v40, Lcom/tapjoy/TapjoyVideoView;->buttonHeight:I
 
-    .line 388
+    .line 384
     const-string v40, "\"10\""
 
     sput-object v40, Lcom/tapjoy/TapjoyVideoView;->TJC_VIDEO_FONT_SIZE:Ljava/lang/String;
 
-    .line 389
+    .line 385
     const-string v40, "\"6\""
 
     sput-object v40, Lcom/tapjoy/TapjoyVideoView;->TJC_VIDEO_AD_TEXT_FONT_SIZE:Ljava/lang/String;
 
-    .line 391
+    .line 387
     const-string v40, "VIDEO"
 
     new-instance v41, Ljava/lang/StringBuilder;
@@ -938,12 +938,12 @@
 
     invoke-static/range {v40 .. v41}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 395
+    .line 391
     .end local v15    # "displayMetricsUtil":Lcom/tapjoy/TapjoyDisplayMetricsUtil;
     :cond_0
     div-int/lit8 v19, v18, 0x3
 
-    .line 396
+    .line 392
     .local v19, "infoViewHeight":I
     invoke-virtual {v14}, Landroid/view/Display;->getWidth()I
 
@@ -957,7 +957,7 @@
 
     sub-int v6, v40, v41
 
-    .line 398
+    .line 394
     .local v6, "buttonWidth":I
     new-instance v40, Landroid/widget/LinearLayout;
 
@@ -973,7 +973,7 @@
 
     iput-object v0, v1, Lcom/tapjoy/TapjoyVideoView;->linearLayout:Landroid/widget/LinearLayout;
 
-    .line 399
+    .line 395
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->linearLayout:Landroid/widget/LinearLayout;
@@ -984,7 +984,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    .line 400
+    .line 396
     new-instance v20, Landroid/widget/LinearLayout$LayoutParams;
 
     const/16 v40, -0x1
@@ -999,7 +999,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 401
+    .line 397
     .local v20, "linearLayoutParams":Landroid/widget/LinearLayout$LayoutParams;
     sget v40, Lcom/tapjoy/TapjoyVideoView;->padding:I
 
@@ -1021,7 +1021,7 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/widget/LinearLayout$LayoutParams;->setMargins(IIII)V
 
-    .line 402
+    .line 398
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->linearLayout:Landroid/widget/LinearLayout;
@@ -1034,7 +1034,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 407
+    .line 403
     new-instance v40, Landroid/widget/TextView;
 
     move-object/from16 v0, v40
@@ -1049,7 +1049,7 @@
 
     iput-object v0, v1, Lcom/tapjoy/TapjoyVideoView;->detailsText:Landroid/widget/TextView;
 
-    .line 408
+    .line 404
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->detailsText:Landroid/widget/TextView;
@@ -1060,7 +1060,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 409
+    .line 405
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->detailsText:Landroid/widget/TextView;
@@ -1071,7 +1071,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 410
+    .line 406
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->detailsText:Landroid/widget/TextView;
@@ -1088,7 +1088,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 411
+    .line 407
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->detailsText:Landroid/widget/TextView;
@@ -1107,7 +1107,7 @@
 
     invoke-virtual/range {v40 .. v42}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;I)V
 
-    .line 412
+    .line 408
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->detailsText:Landroid/widget/TextView;
@@ -1124,7 +1124,7 @@
 
     invoke-virtual/range {v40 .. v44}, Landroid/widget/TextView;->setShadowLayer(FFFI)V
 
-    .line 413
+    .line 409
     new-instance v13, Landroid/widget/LinearLayout$LayoutParams;
 
     const/16 v40, -0x2
@@ -1137,7 +1137,7 @@
 
     invoke-direct {v13, v0, v1}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 414
+    .line 410
     .local v13, "detailsParams":Landroid/widget/LinearLayout$LayoutParams;
     sget v40, Lcom/tapjoy/TapjoyVideoView;->padding:I
 
@@ -1157,7 +1157,7 @@
 
     invoke-virtual {v13, v0, v1, v2, v3}, Landroid/widget/LinearLayout$LayoutParams;->setMargins(IIII)V
 
-    .line 415
+    .line 411
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->detailsText:Landroid/widget/TextView;
@@ -1168,7 +1168,7 @@
 
     invoke-virtual {v0, v13}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 417
+    .line 413
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->detailsText:Landroid/widget/TextView;
@@ -1179,7 +1179,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/TextView;->setId(I)V
 
-    .line 431
+    .line 427
     :try_start_0
     sget-object v40, Lcom/tapjoy/TapjoyVideo;->imageBackgroundLocation:Ljava/lang/String;
 
@@ -1187,18 +1187,18 @@
 
     move-result-object v5
 
-    .line 433
+    .line 429
     .local v5, "bitmap":Landroid/graphics/Bitmap;
     if-eqz v5, :cond_1
 
-    .line 435
+    .line 431
     new-instance v33, Landroid/graphics/drawable/BitmapDrawable;
 
     move-object/from16 v0, v33
 
     invoke-direct {v0, v5}, Landroid/graphics/drawable/BitmapDrawable;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 436
+    .line 432
     .local v33, "tiledBackground":Landroid/graphics/drawable/BitmapDrawable;
     sget-object v40, Landroid/graphics/Shader$TileMode;->REPEAT:Landroid/graphics/Shader$TileMode;
 
@@ -1208,7 +1208,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/BitmapDrawable;->setTileModeX(Landroid/graphics/Shader$TileMode;)V
 
-    .line 437
+    .line 433
     sget-object v40, Landroid/graphics/Shader$TileMode;->REPEAT:Landroid/graphics/Shader$TileMode;
 
     move-object/from16 v0, v33
@@ -1217,7 +1217,7 @@
 
     invoke-virtual {v0, v1}, Landroid/graphics/drawable/BitmapDrawable;->setTileModeY(Landroid/graphics/Shader$TileMode;)V
 
-    .line 439
+    .line 435
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->linearLayout:Landroid/widget/LinearLayout;
@@ -1232,7 +1232,7 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 450
+    .line 446
     .end local v5    # "bitmap":Landroid/graphics/Bitmap;
     .end local v33    # "tiledBackground":Landroid/graphics/drawable/BitmapDrawable;
     :cond_1
@@ -1251,7 +1251,7 @@
 
     iput-object v0, v1, Lcom/tapjoy/TapjoyVideoView;->thumbnailImage:Landroid/widget/ImageView;
 
-    .line 456
+    .line 452
     :try_start_1
     move-object/from16 v0, p0
 
@@ -1261,28 +1261,28 @@
 
     if-eqz v40, :cond_4
 
-    .line 457
+    .line 453
     move-object/from16 v0, p0
 
     iget-object v5, v0, Lcom/tapjoy/TapjoyVideoView;->videoScreenshot:Landroid/graphics/Bitmap;
 
-    .line 461
+    .line 457
     .restart local v5    # "bitmap":Landroid/graphics/Bitmap;
     :goto_1
     if-eqz v5, :cond_2
 
-    .line 463
+    .line 459
     invoke-virtual {v5}, Landroid/graphics/Bitmap;->getWidth()I
 
     move-result v34
 
-    .line 464
+    .line 460
     .local v34, "w":I
     invoke-virtual {v5}, Landroid/graphics/Bitmap;->getHeight()I
 
     move-result v17
 
-    .line 467
+    .line 463
     .local v17, "h":I
     sget-object v40, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
@@ -1296,7 +1296,7 @@
 
     move-result-object v28
 
-    .line 468
+    .line 464
     .local v28, "rounder":Landroid/graphics/Bitmap;
     new-instance v7, Landroid/graphics/Canvas;
 
@@ -1304,7 +1304,7 @@
 
     invoke-direct {v7, v0}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 473
+    .line 469
     .local v7, "canvas":Landroid/graphics/Canvas;
     new-instance v39, Landroid/graphics/Paint;
 
@@ -1312,13 +1312,13 @@
 
     invoke-direct/range {v39 .. v40}, Landroid/graphics/Paint;-><init>(I)V
 
-    .line 474
+    .line 470
     .local v39, "xferPaint":Landroid/graphics/Paint;
     const/high16 v40, -0x10000
 
     invoke-virtual/range {v39 .. v40}, Landroid/graphics/Paint;->setColor(I)V
 
-    .line 478
+    .line 474
     new-instance v40, Landroid/graphics/RectF;
 
     const/16 v41, 0x0
@@ -1353,7 +1353,7 @@
 
     invoke-virtual {v7, v0, v1, v2, v3}, Landroid/graphics/Canvas;->drawRoundRect(Landroid/graphics/RectF;FFLandroid/graphics/Paint;)V
 
-    .line 481
+    .line 477
     new-instance v40, Landroid/graphics/PorterDuffXfermode;
 
     sget-object v41, Landroid/graphics/PorterDuff$Mode;->DST_IN:Landroid/graphics/PorterDuff$Mode;
@@ -1362,7 +1362,7 @@
 
     invoke-virtual/range {v39 .. v40}, Landroid/graphics/Paint;->setXfermode(Landroid/graphics/Xfermode;)Landroid/graphics/Xfermode;
 
-    .line 484
+    .line 480
     sget-object v40, Landroid/graphics/Bitmap$Config;->ARGB_8888:Landroid/graphics/Bitmap$Config;
 
     move/from16 v0, v34
@@ -1375,13 +1375,13 @@
 
     move-result-object v27
 
-    .line 485
+    .line 481
     .local v27, "roundedBitmap":Landroid/graphics/Bitmap;
     new-instance v26, Landroid/graphics/Canvas;
 
     invoke-direct/range {v26 .. v27}, Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
 
-    .line 487
+    .line 483
     .local v26, "result":Landroid/graphics/Canvas;
     const/16 v40, 0x0
 
@@ -1399,16 +1399,16 @@
 
     invoke-virtual {v0, v5, v1, v2, v3}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;FFLandroid/graphics/Paint;)V
 
-    .line 492
+    .line 488
     move/from16 v11, v19
 
-    .line 493
+    .line 489
     .local v11, "desiredHeight":I
     mul-int v40, v34, v11
 
     div-int v12, v40, v17
 
-    .line 496
+    .line 492
     .local v12, "desiredWidth":I
     const/16 v40, 0x1
 
@@ -1420,7 +1420,7 @@
 
     move-result-object v29
 
-    .line 498
+    .line 494
     .local v29, "scaled":Landroid/graphics/Bitmap;
     move-object/from16 v0, p0
 
@@ -1434,7 +1434,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 499
+    .line 495
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->thumbnailImage:Landroid/widget/ImageView;
@@ -1453,7 +1453,7 @@
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 507
+    .line 503
     .end local v5    # "bitmap":Landroid/graphics/Bitmap;
     .end local v7    # "canvas":Landroid/graphics/Canvas;
     .end local v11    # "desiredHeight":I
@@ -1475,7 +1475,7 @@
 
     invoke-direct {v0, v1}, Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V
 
-    .line 508
+    .line 504
     .local v36, "webview":Landroid/webkit/WebView;
     const/16 v40, 0x0
 
@@ -1485,14 +1485,14 @@
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->setBackgroundColor(I)V
 
-    .line 511
+    .line 507
     new-instance v40, Ljava/lang/StringBuilder;
 
     const-string v41, "<html><body><font face=\"helvetica\" color=\"black\" size="
 
     invoke-direct/range {v40 .. v41}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
 
-    .line 514
+    .line 510
     sget-object v41, Lcom/tapjoy/TapjoyVideoView;->TJC_VIDEO_FONT_SIZE:Ljava/lang/String;
 
     invoke-virtual/range {v40 .. v41}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -1505,7 +1505,7 @@
 
     move-result-object v40
 
-    .line 515
+    .line 511
     const-string v41, "<p>You just earned <font color="
 
     invoke-virtual/range {v40 .. v41}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -1562,7 +1562,7 @@
 
     move-result-object v40
 
-    .line 516
+    .line 512
     const-string v41, " size="
 
     invoke-virtual/range {v40 .. v41}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -1581,7 +1581,7 @@
 
     move-result-object v40
 
-    .line 517
+    .line 513
     const-string v41, "<b>"
 
     invoke-virtual/range {v40 .. v41}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -1604,12 +1604,12 @@
 
     move-result-object v40
 
-    .line 511
+    .line 507
     invoke-virtual/range {v40 .. v40}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v32
 
-    .line 520
+    .line 516
     .local v32, "summary":Ljava/lang/String;
     const-string v40, "text/html"
 
@@ -1625,7 +1625,7 @@
 
     invoke-virtual {v0, v1, v2, v3}, Landroid/webkit/WebView;->loadData(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 522
+    .line 518
     new-instance v35, Landroid/widget/LinearLayout;
 
     move-object/from16 v0, v35
@@ -1634,11 +1634,11 @@
 
     invoke-direct {v0, v1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
-    .line 523
+    .line 519
     .local v35, "webLinearLayout":Landroid/widget/LinearLayout;
     invoke-virtual/range {v35 .. v36}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 527
+    .line 523
     sget v40, Lcom/tapjoy/TapjoyVideoView;->padding:I
 
     move/from16 v0, v40
@@ -1669,14 +1669,14 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/widget/LinearLayout;->setPadding(IIII)V
 
-    .line 529
+    .line 525
     new-instance v9, Landroid/widget/LinearLayout;
 
     move-object/from16 v0, p0
 
     invoke-direct {v9, v0}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
-    .line 530
+    .line 526
     .local v9, "customLinearLayoutView":Landroid/widget/LinearLayout;
     new-instance v10, Landroid/widget/LinearLayout$LayoutParams;
 
@@ -1692,7 +1692,7 @@
 
     invoke-direct {v10, v0, v1}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 531
+    .line 527
     .local v10, "customLinearLayoutViewParams":Landroid/widget/LinearLayout$LayoutParams;
     sget v40, Lcom/tapjoy/TapjoyVideoView;->padding:I
 
@@ -1712,17 +1712,17 @@
 
     invoke-virtual {v10, v0, v1, v2, v3}, Landroid/widget/LinearLayout$LayoutParams;->setMargins(IIII)V
 
-    .line 532
+    .line 528
     invoke-virtual {v9, v10}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 534
+    .line 530
     const/16 v40, 0x0
 
     move/from16 v0, v40
 
     invoke-virtual {v9, v0}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    .line 535
+    .line 531
     const/16 v40, 0x0
 
     sget v41, Lcom/tapjoy/TapjoyVideoView;->padding:I
@@ -1745,7 +1745,7 @@
 
     invoke-virtual {v9, v0, v1, v2, v3}, Landroid/widget/LinearLayout;->setPadding(IIII)V
 
-    .line 536
+    .line 532
     sget-object v40, Lcom/tapjoy/TapjoyVideoView;->colorsInfo:[I
 
     invoke-static/range {v40 .. v40}, Lcom/tapjoy/TapjoyVideoView;->createGradient([I)Landroid/graphics/drawable/GradientDrawable;
@@ -1756,14 +1756,14 @@
 
     invoke-virtual {v9, v0}, Landroid/widget/LinearLayout;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 537
+    .line 533
     const/16 v40, 0x13
 
     move/from16 v0, v40
 
     invoke-virtual {v9, v0}, Landroid/widget/LinearLayout;->setGravity(I)V
 
-    .line 539
+    .line 535
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->thumbnailImage:Landroid/widget/ImageView;
@@ -1774,12 +1774,12 @@
 
     invoke-virtual {v9, v0}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 540
+    .line 536
     move-object/from16 v0, v35
 
     invoke-virtual {v9, v0}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 545
+    .line 541
     new-instance v40, Landroid/widget/TextView;
 
     move-object/from16 v0, v40
@@ -1794,7 +1794,7 @@
 
     iput-object v0, v1, Lcom/tapjoy/TapjoyVideoView;->whatNowText:Landroid/widget/TextView;
 
-    .line 546
+    .line 542
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->whatNowText:Landroid/widget/TextView;
@@ -1805,7 +1805,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 547
+    .line 543
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->whatNowText:Landroid/widget/TextView;
@@ -1816,7 +1816,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/TextView;->setTextColor(I)V
 
-    .line 548
+    .line 544
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->whatNowText:Landroid/widget/TextView;
@@ -1833,7 +1833,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 549
+    .line 545
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->whatNowText:Landroid/widget/TextView;
@@ -1852,7 +1852,7 @@
 
     invoke-virtual/range {v40 .. v42}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;I)V
 
-    .line 550
+    .line 546
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->whatNowText:Landroid/widget/TextView;
@@ -1869,7 +1869,7 @@
 
     invoke-virtual/range {v40 .. v44}, Landroid/widget/TextView;->setShadowLayer(FFFI)V
 
-    .line 551
+    .line 547
     new-instance v37, Landroid/widget/LinearLayout$LayoutParams;
 
     const/16 v40, -0x2
@@ -1884,7 +1884,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 552
+    .line 548
     .local v37, "whatNowParams":Landroid/widget/LinearLayout$LayoutParams;
     sget v40, Lcom/tapjoy/TapjoyVideoView;->padding:I
 
@@ -1906,7 +1906,7 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/widget/LinearLayout$LayoutParams;->setMargins(IIII)V
 
-    .line 553
+    .line 549
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->whatNowText:Landroid/widget/TextView;
@@ -1919,7 +1919,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 555
+    .line 551
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->whatNowText:Landroid/widget/TextView;
@@ -1930,7 +1930,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/TextView;->setId(I)V
 
-    .line 560
+    .line 556
     const-string v40, "Replay this video"
 
     move-object/from16 v0, p0
@@ -1947,7 +1947,7 @@
 
     iput-object v0, v1, Lcom/tapjoy/TapjoyVideoView;->replayButton:Landroid/widget/Button;
 
-    .line 562
+    .line 558
     new-instance v25, Landroid/widget/LinearLayout$LayoutParams;
 
     const/16 v40, -0x2
@@ -1958,7 +1958,7 @@
 
     invoke-direct {v0, v6, v1}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 563
+    .line 559
     .local v25, "replayParams":Landroid/widget/LinearLayout$LayoutParams;
     sget v40, Lcom/tapjoy/TapjoyVideoView;->padding:I
 
@@ -1980,7 +1980,7 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/widget/LinearLayout$LayoutParams;->setMargins(IIII)V
 
-    .line 564
+    .line 560
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->replayButton:Landroid/widget/Button;
@@ -1993,7 +1993,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 565
+    .line 561
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->replayButton:Landroid/widget/Button;
@@ -2004,7 +2004,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/Button;->setId(I)V
 
-    .line 566
+    .line 562
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->replayButton:Landroid/widget/Button;
@@ -2021,7 +2021,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 575
+    .line 571
     const-string v40, "VIDEO"
 
     new-instance v41, Ljava/lang/StringBuilder;
@@ -2070,7 +2070,7 @@
 
     invoke-static/range {v40 .. v41}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 580
+    .line 576
     const-string v40, "View More Offers"
 
     move-object/from16 v0, p0
@@ -2087,7 +2087,7 @@
 
     iput-object v0, v1, Lcom/tapjoy/TapjoyVideoView;->closeButton:Landroid/widget/Button;
 
-    .line 582
+    .line 578
     new-instance v8, Landroid/widget/LinearLayout$LayoutParams;
 
     const/16 v40, -0x2
@@ -2096,7 +2096,7 @@
 
     invoke-direct {v8, v6, v0}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 583
+    .line 579
     .local v8, "closeParams":Landroid/widget/LinearLayout$LayoutParams;
     sget v40, Lcom/tapjoy/TapjoyVideoView;->padding:I
 
@@ -2116,7 +2116,7 @@
 
     invoke-virtual {v8, v0, v1, v2, v3}, Landroid/widget/LinearLayout$LayoutParams;->setMargins(IIII)V
 
-    .line 584
+    .line 580
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->closeButton:Landroid/widget/Button;
@@ -2127,7 +2127,7 @@
 
     invoke-virtual {v0, v8}, Landroid/widget/Button;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 585
+    .line 581
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->closeButton:Landroid/widget/Button;
@@ -2144,7 +2144,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 594
+    .line 590
     new-instance v21, Landroid/widget/LinearLayout;
 
     move-object/from16 v0, v21
@@ -2153,7 +2153,7 @@
 
     invoke-direct {v0, v1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
-    .line 595
+    .line 591
     .local v21, "linearLayoutRow":Landroid/widget/LinearLayout;
     new-instance v22, Landroid/widget/LinearLayout$LayoutParams;
 
@@ -2167,11 +2167,11 @@
 
     invoke-direct {v0, v1, v2}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 596
+    .line 592
     .local v22, "linearLayoutRowParams":Landroid/widget/LinearLayout$LayoutParams;
     invoke-virtual/range {v21 .. v22}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 597
+    .line 593
     const/16 v40, 0x0
 
     move-object/from16 v0, v21
@@ -2180,7 +2180,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    .line 598
+    .line 594
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->replayButton:Landroid/widget/Button;
@@ -2193,7 +2193,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 599
+    .line 595
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->closeButton:Landroid/widget/Button;
@@ -2206,7 +2206,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 601
+    .line 597
     const-string v40, "VIDEO"
 
     new-instance v41, Ljava/lang/StringBuilder;
@@ -2229,7 +2229,7 @@
 
     invoke-static/range {v40 .. v41}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 603
+    .line 599
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->linearLayout:Landroid/widget/LinearLayout;
@@ -2244,7 +2244,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 604
+    .line 600
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->linearLayout:Landroid/widget/LinearLayout;
@@ -2255,7 +2255,7 @@
 
     invoke-virtual {v0, v9}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 605
+    .line 601
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->linearLayout:Landroid/widget/LinearLayout;
@@ -2270,7 +2270,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 606
+    .line 602
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->linearLayout:Landroid/widget/LinearLayout;
@@ -2283,7 +2283,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 611
+    .line 607
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->videoData:Lcom/tapjoy/TapjoyVideoObject;
@@ -2304,7 +2304,7 @@
 
     if-lt v0, v1, :cond_3
 
-    .line 613
+    .line 609
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->videoData:Lcom/tapjoy/TapjoyVideoObject;
@@ -2339,7 +2339,7 @@
 
     iput-object v0, v1, Lcom/tapjoy/TapjoyVideoView;->linkButton:Landroid/widget/Button;
 
-    .line 615
+    .line 611
     new-instance v24, Landroid/widget/LinearLayout$LayoutParams;
 
     const/16 v40, -0x2
@@ -2350,7 +2350,7 @@
 
     invoke-direct {v0, v6, v1}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 616
+    .line 612
     .local v24, "linkParams":Landroid/widget/LinearLayout$LayoutParams;
     sget v40, Lcom/tapjoy/TapjoyVideoView;->padding:I
 
@@ -2372,7 +2372,7 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/widget/LinearLayout$LayoutParams;->setMargins(IIII)V
 
-    .line 617
+    .line 613
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->linkButton:Landroid/widget/Button;
@@ -2385,7 +2385,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 618
+    .line 614
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->linkButton:Landroid/widget/Button;
@@ -2402,7 +2402,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 641
+    .line 637
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->videoData:Lcom/tapjoy/TapjoyVideoObject;
@@ -2423,7 +2423,7 @@
 
     if-lt v0, v1, :cond_5
 
-    .line 643
+    .line 639
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->videoData:Lcom/tapjoy/TapjoyVideoObject;
@@ -2458,7 +2458,7 @@
 
     iput-object v0, v1, Lcom/tapjoy/TapjoyVideoView;->linkAltButton:Landroid/widget/Button;
 
-    .line 645
+    .line 641
     new-instance v23, Landroid/widget/LinearLayout$LayoutParams;
 
     const/16 v40, -0x2
@@ -2469,7 +2469,7 @@
 
     invoke-direct {v0, v6, v1}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 646
+    .line 642
     .local v23, "linkAltParams":Landroid/widget/LinearLayout$LayoutParams;
     sget v40, Lcom/tapjoy/TapjoyVideoView;->padding:I
 
@@ -2491,7 +2491,7 @@
 
     invoke-virtual {v0, v1, v2, v3, v4}, Landroid/widget/LinearLayout$LayoutParams;->setMargins(IIII)V
 
-    .line 647
+    .line 643
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->linkAltButton:Landroid/widget/Button;
@@ -2504,7 +2504,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/Button;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 648
+    .line 644
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->linkAltButton:Landroid/widget/Button;
@@ -2521,7 +2521,7 @@
 
     invoke-virtual/range {v40 .. v41}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 670
+    .line 666
     new-instance v30, Landroid/widget/LinearLayout;
 
     move-object/from16 v0, v30
@@ -2530,7 +2530,7 @@
 
     invoke-direct {v0, v1}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
-    .line 671
+    .line 667
     .local v30, "secondLayoutRow":Landroid/widget/LinearLayout;
     new-instance v31, Landroid/widget/LinearLayout$LayoutParams;
 
@@ -2544,11 +2544,11 @@
 
     invoke-direct {v0, v1, v2}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
-    .line 672
+    .line 668
     .local v31, "secondLayoutRowParams":Landroid/widget/LinearLayout$LayoutParams;
     invoke-virtual/range {v30 .. v31}, Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 673
+    .line 669
     const/16 v40, 0x0
 
     move-object/from16 v0, v30
@@ -2557,7 +2557,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setOrientation(I)V
 
-    .line 674
+    .line 670
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->linkButton:Landroid/widget/Button;
@@ -2570,7 +2570,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 675
+    .line 671
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->linkAltButton:Landroid/widget/Button;
@@ -2583,7 +2583,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 677
+    .line 673
     move-object/from16 v0, p0
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->linearLayout:Landroid/widget/LinearLayout;
@@ -2596,7 +2596,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
 
-    .line 685
+    .line 681
     .end local v23    # "linkAltParams":Landroid/widget/LinearLayout$LayoutParams;
     .end local v24    # "linkParams":Landroid/widget/LinearLayout$LayoutParams;
     .end local v30    # "secondLayoutRow":Landroid/widget/LinearLayout;
@@ -2605,7 +2605,7 @@
     :goto_3
     return-void
 
-    .line 459
+    .line 455
     .end local v8    # "closeParams":Landroid/widget/LinearLayout$LayoutParams;
     .end local v9    # "customLinearLayoutView":Landroid/widget/LinearLayout;
     .end local v10    # "customLinearLayoutViewParams":Landroid/widget/LinearLayout$LayoutParams;
@@ -2629,18 +2629,18 @@
     .restart local v5    # "bitmap":Landroid/graphics/Bitmap;
     goto/16 :goto_1
 
-    .line 502
+    .line 498
     .end local v5    # "bitmap":Landroid/graphics/Bitmap;
     :catch_0
     move-exception v16
 
-    .line 504
+    .line 500
     .local v16, "e":Ljava/lang/Exception;
     invoke-virtual/range {v16 .. v16}, Ljava/lang/Exception;->printStackTrace()V
 
     goto/16 :goto_2
 
-    .line 682
+    .line 678
     .end local v16    # "e":Ljava/lang/Exception;
     .restart local v8    # "closeParams":Landroid/widget/LinearLayout$LayoutParams;
     .restart local v9    # "customLinearLayoutView":Landroid/widget/LinearLayout;
@@ -2670,7 +2670,7 @@
 
     goto :goto_3
 
-    .line 442
+    .line 438
     .end local v8    # "closeParams":Landroid/widget/LinearLayout$LayoutParams;
     .end local v9    # "customLinearLayoutView":Landroid/widget/LinearLayout;
     .end local v10    # "customLinearLayoutViewParams":Landroid/widget/LinearLayout$LayoutParams;
@@ -2698,19 +2698,19 @@
 
     const/4 v7, -0x2
 
-    .line 303
+    .line 301
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->relativeLayout:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v4}, Landroid/widget/RelativeLayout;->removeAllViews()V
 
-    .line 304
+    .line 302
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->relativeLayout:Landroid/widget/RelativeLayout;
 
     const/high16 v5, -0x1000000
 
     invoke-virtual {v4, v5}, Landroid/widget/RelativeLayout;->setBackgroundColor(I)V
 
-    .line 306
+    .line 304
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     if-nez v4, :cond_1
@@ -2719,95 +2719,95 @@
 
     if-nez v4, :cond_1
 
-    .line 311
+    .line 309
     new-instance v4, Landroid/widget/ImageView;
 
     invoke-direct {v4, p0}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
     iput-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->tapjoyImage:Landroid/widget/ImageView;
 
-    .line 312
+    .line 310
     sget-object v4, Lcom/tapjoy/TapjoyVideo;->imageTapjoyLocation:Ljava/lang/String;
 
     invoke-static {v4}, Landroid/graphics/BitmapFactory;->decodeFile(Ljava/lang/String;)Landroid/graphics/Bitmap;
 
     move-result-object v0
 
-    .line 314
+    .line 312
     .local v0, "bitmap":Landroid/graphics/Bitmap;
     if-eqz v0, :cond_0
 
-    .line 315
+    .line 313
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->tapjoyImage:Landroid/widget/ImageView;
 
     invoke-virtual {v4, v0}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 317
+    .line 315
     :cond_0
     new-instance v1, Landroid/widget/RelativeLayout$LayoutParams;
 
     invoke-direct {v1, v7, v7}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 318
+    .line 316
     .local v1, "imageParams":Landroid/widget/RelativeLayout$LayoutParams;
     invoke-virtual {v1, v9}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 319
+    .line 317
     const/16 v4, 0xb
 
     invoke-virtual {v1, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 320
+    .line 318
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->tapjoyImage:Landroid/widget/ImageView;
 
     invoke-virtual {v4, v1}, Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 325
+    .line 323
     new-instance v4, Landroid/widget/VideoView;
 
     invoke-direct {v4, p0}, Landroid/widget/VideoView;-><init>(Landroid/content/Context;)V
 
     iput-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
-    .line 326
+    .line 324
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v4, p0}, Landroid/widget/VideoView;->setOnCompletionListener(Landroid/media/MediaPlayer$OnCompletionListener;)V
 
-    .line 327
+    .line 325
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v4, p0}, Landroid/widget/VideoView;->setOnErrorListener(Landroid/media/MediaPlayer$OnErrorListener;)V
 
-    .line 328
+    .line 326
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v4, p0}, Landroid/widget/VideoView;->setOnPreparedListener(Landroid/media/MediaPlayer$OnPreparedListener;)V
 
-    .line 329
+    .line 327
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     iget-object v5, p0, Lcom/tapjoy/TapjoyVideoView;->videoPath:Ljava/lang/String;
 
     invoke-virtual {v4, v5}, Landroid/widget/VideoView;->setVideoPath(Ljava/lang/String;)V
 
-    .line 331
+    .line 329
     new-instance v2, Landroid/widget/RelativeLayout$LayoutParams;
 
     invoke-direct {v2, v7, v7}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 332
+    .line 330
     .local v2, "layoutParams":Landroid/widget/RelativeLayout$LayoutParams;
     const/16 v4, 0xd
 
     invoke-virtual {v2, v4}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 333
+    .line 331
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v4, v2}, Landroid/widget/VideoView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 338
+    .line 336
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v4}, Landroid/widget/VideoView;->getDuration()I
@@ -2818,7 +2818,7 @@
 
     iput v4, p0, Lcom/tapjoy/TapjoyVideoView;->timeRemaining:I
 
-    .line 340
+    .line 338
     const-string v4, "VIDEO"
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -2843,7 +2843,7 @@
 
     invoke-static {v4, v5}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 341
+    .line 339
     const-string v4, "VIDEO"
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -2864,14 +2864,14 @@
 
     invoke-static {v4, v5}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 343
+    .line 341
     new-instance v4, Landroid/widget/TextView;
 
     invoke-direct {v4, p0}, Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
 
     iput-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->overlayText:Landroid/widget/TextView;
 
-    .line 344
+    .line 342
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->overlayText:Landroid/widget/TextView;
 
     sget v5, Lcom/tapjoy/TapjoyVideoView;->textSize:I
@@ -2880,7 +2880,7 @@
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setTextSize(F)V
 
-    .line 345
+    .line 343
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->overlayText:Landroid/widget/TextView;
 
     const-string v5, "default"
@@ -2891,7 +2891,7 @@
 
     invoke-virtual {v4, v5, v8}, Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;I)V
 
-    .line 346
+    .line 344
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->overlayText:Landroid/widget/TextView;
 
     new-instance v5, Ljava/lang/StringBuilder;
@@ -2918,21 +2918,21 @@
 
     invoke-virtual {v4, v5}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    .line 348
+    .line 346
     new-instance v3, Landroid/widget/RelativeLayout$LayoutParams;
 
     invoke-direct {v3, v7, v7}, Landroid/widget/RelativeLayout$LayoutParams;-><init>(II)V
 
-    .line 349
+    .line 347
     .local v3, "textParams":Landroid/widget/RelativeLayout$LayoutParams;
     invoke-virtual {v3, v9}, Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
 
-    .line 350
+    .line 348
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->overlayText:Landroid/widget/TextView;
 
     invoke-virtual {v4, v3}, Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 353
+    .line 351
     .end local v0    # "bitmap":Landroid/graphics/Bitmap;
     .end local v1    # "imageParams":Landroid/widget/RelativeLayout$LayoutParams;
     .end local v2    # "layoutParams":Landroid/widget/RelativeLayout$LayoutParams;
@@ -2940,28 +2940,28 @@
     :cond_1
     invoke-direct {p0}, Lcom/tapjoy/TapjoyVideoView;->startVideo()V
 
-    .line 355
+    .line 353
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->relativeLayout:Landroid/widget/RelativeLayout;
 
     iget-object v5, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v4, v5}, Landroid/widget/RelativeLayout;->addView(Landroid/view/View;)V
 
-    .line 356
+    .line 354
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->relativeLayout:Landroid/widget/RelativeLayout;
 
     iget-object v5, p0, Lcom/tapjoy/TapjoyVideoView;->tapjoyImage:Landroid/widget/ImageView;
 
     invoke-virtual {v4, v5}, Landroid/widget/RelativeLayout;->addView(Landroid/view/View;)V
 
-    .line 357
+    .line 355
     iget-object v4, p0, Lcom/tapjoy/TapjoyVideoView;->relativeLayout:Landroid/widget/RelativeLayout;
 
     iget-object v5, p0, Lcom/tapjoy/TapjoyVideoView;->overlayText:Landroid/widget/TextView;
 
     invoke-virtual {v4, v5}, Landroid/widget/RelativeLayout;->addView(Landroid/view/View;)V
 
-    .line 358
+    .line 356
     return-void
 .end method
 
@@ -2969,12 +2969,12 @@
     .locals 4
 
     .prologue
-    .line 690
+    .line 686
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->relativeLayout:Landroid/widget/RelativeLayout;
 
     invoke-virtual {v0}, Landroid/widget/RelativeLayout;->removeAllViews()V
 
-    .line 691
+    .line 687
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->relativeLayout:Landroid/widget/RelativeLayout;
 
     new-instance v1, Landroid/graphics/drawable/GradientDrawable;
@@ -2987,14 +2987,14 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    .line 692
+    .line 688
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->relativeLayout:Landroid/widget/RelativeLayout;
 
     iget-object v1, p0, Lcom/tapjoy/TapjoyVideoView;->linearLayout:Landroid/widget/LinearLayout;
 
     invoke-virtual {v0, v1}, Landroid/widget/RelativeLayout;->addView(Landroid/view/View;)V
 
-    .line 693
+    .line 689
     return-void
 .end method
 
@@ -3004,41 +3004,41 @@
     .prologue
     const-wide/16 v2, 0xfa
 
-    .line 758
+    .line 754
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v0}, Landroid/widget/VideoView;->requestFocus()Z
 
-    .line 759
+    .line 755
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     const/4 v1, 0x0
 
     invoke-virtual {v0, v1}, Landroid/widget/VideoView;->seekTo(I)V
 
-    .line 763
+    .line 759
     const-string v0, "VIDEO"
 
     const-string v1, "start"
 
     invoke-static {v0, v1}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 764
+    .line 760
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v0}, Landroid/widget/VideoView;->start()V
 
-    .line 767
+    .line 763
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->timer:Ljava/util/Timer;
 
     if-eqz v0, :cond_0
 
-    .line 769
+    .line 765
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->timer:Ljava/util/Timer;
 
     invoke-virtual {v0}, Ljava/util/Timer;->cancel()V
 
-    .line 773
+    .line 769
     :cond_0
     new-instance v0, Ljava/util/Timer;
 
@@ -3046,7 +3046,7 @@
 
     iput-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->timer:Ljava/util/Timer;
 
-    .line 774
+    .line 770
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->timer:Ljava/util/Timer;
 
     new-instance v1, Lcom/tapjoy/TapjoyVideoView$RemainingTime;
@@ -3059,7 +3059,7 @@
 
     invoke-virtual/range {v0 .. v5}, Ljava/util/Timer;->schedule(Ljava/util/TimerTask;JJ)V
 
-    .line 776
+    .line 772
     new-instance v0, Ljava/lang/Thread;
 
     new-instance v1, Lcom/tapjoy/TapjoyVideoView$7;
@@ -3068,10 +3068,10 @@
 
     invoke-direct {v0, v1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
 
-    .line 789
+    .line 785
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
-    .line 790
+    .line 786
     return-void
 .end method
 
@@ -3082,38 +3082,38 @@
     .param p1, "mp"    # Landroid/media/MediaPlayer;
 
     .prologue
-    .line 866
+    .line 862
     const-string v0, "VIDEO"
 
     const-string v1, "onCompletion"
 
     invoke-static {v0, v1}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 868
+    .line 864
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->timer:Ljava/util/Timer;
 
     if-eqz v0, :cond_0
 
-    .line 869
+    .line 865
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->timer:Ljava/util/Timer;
 
     invoke-virtual {v0}, Ljava/util/Timer;->cancel()V
 
-    .line 871
+    .line 867
     :cond_0
     invoke-direct {p0}, Lcom/tapjoy/TapjoyVideoView;->initVideoUI()V
 
-    .line 872
+    .line 868
     invoke-direct {p0}, Lcom/tapjoy/TapjoyVideoView;->showVideoUI()V
 
-    .line 875
+    .line 871
     invoke-static {}, Lcom/tapjoy/TapjoyVideo;->getVideoNotifier()Lcom/tapjoy/TapjoyVideoNotifier;
 
     move-result-object v0
 
     invoke-interface {v0}, Lcom/tapjoy/TapjoyVideoNotifier;->videoComplete()V
 
-    .line 877
+    .line 873
     new-instance v0, Ljava/lang/Thread;
 
     new-instance v1, Lcom/tapjoy/TapjoyVideoView$8;
@@ -3122,25 +3122,23 @@
 
     invoke-direct {v0, v1}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
 
-    .line 885
+    .line 881
     invoke-virtual {v0}, Ljava/lang/Thread;->start()V
 
-    .line 887
+    .line 883
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/tapjoy/TapjoyVideoView;->allowBackKey:Z
 
-    .line 888
+    .line 884
     return-void
 .end method
 
 .method protected onCreate(Landroid/os/Bundle;)V
-    .locals 10
+    .locals 9
     .param p1, "savedInstanceState"    # Landroid/os/Bundle;
 
     .prologue
-    const/4 v9, 0x3
-
     const/4 v8, -0x1
 
     .line 167
@@ -3281,7 +3279,9 @@
 
     move-result v5
 
-    if-le v5, v9, :cond_1
+    const/4 v6, 0x3
+
+    if-le v5, v6, :cond_1
 
     .line 222
     new-instance v1, Lcom/tapjoy/TapjoyDisplayMetricsUtil;
@@ -3317,12 +3317,14 @@
 
     invoke-static {v5, v6}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 230
+    .line 229
     iget v5, p0, Lcom/tapjoy/TapjoyVideoView;->deviceScreenLayoutSize:I
 
-    if-ne v5, v9, :cond_1
+    const/4 v6, 0x4
 
-    .line 233
+    if-ne v5, v6, :cond_1
+
+    .line 231
     invoke-virtual {p0}, Lcom/tapjoy/TapjoyVideoView;->getWindowManager()Landroid/view/WindowManager;
 
     move-result-object v5
@@ -3331,19 +3333,19 @@
 
     move-result-object v0
 
-    .line 234
+    .line 232
     .local v0, "display":Landroid/view/Display;
     invoke-virtual {v0}, Landroid/view/Display;->getWidth()I
 
     move-result v4
 
-    .line 235
+    .line 233
     .local v4, "width":I
     invoke-virtual {v0}, Landroid/view/Display;->getHeight()I
 
     move-result v2
 
-    .line 237
+    .line 235
     .local v2, "height":I
     const-string v5, "VIDEO"
 
@@ -3373,32 +3375,32 @@
 
     invoke-static {v5, v6}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 239
+    .line 237
     const/16 v5, 0x14
 
     sput v5, Lcom/tapjoy/TapjoyVideoView;->padding:I
 
-    .line 240
+    .line 238
     const/16 v5, 0x20
 
     sput v5, Lcom/tapjoy/TapjoyVideoView;->textSize:I
 
-    .line 241
+    .line 239
     div-int/lit8 v5, v2, 0x7
 
     sput v5, Lcom/tapjoy/TapjoyVideoView;->buttonHeight:I
 
-    .line 243
+    .line 241
     const-string v5, "\"10\""
 
     sput-object v5, Lcom/tapjoy/TapjoyVideoView;->TJC_VIDEO_FONT_SIZE:Ljava/lang/String;
 
-    .line 244
+    .line 242
     const-string v5, "\"6\""
 
     sput-object v5, Lcom/tapjoy/TapjoyVideoView;->TJC_VIDEO_AD_TEXT_FONT_SIZE:Ljava/lang/String;
 
-    .line 246
+    .line 244
     const-string v5, "VIDEO"
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -3419,7 +3421,7 @@
 
     invoke-static {v5, v6}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 250
+    .line 248
     .end local v0    # "display":Landroid/view/Display;
     .end local v1    # "displayMetricsUtil":Lcom/tapjoy/TapjoyDisplayMetricsUtil;
     .end local v2    # "height":I
@@ -3445,7 +3447,7 @@
 
     invoke-static {v5, v6}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 251
+    .line 249
     const-string v5, "VIDEO"
 
     new-instance v6, Ljava/lang/StringBuilder;
@@ -3466,17 +3468,17 @@
 
     invoke-static {v5, v6}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 253
+    .line 251
     invoke-direct {p0}, Lcom/tapjoy/TapjoyVideoView;->initVideoView()V
 
-    .line 255
+    .line 253
     const-string v5, "VIDEO"
 
     const-string v6, "onCreate DONE"
 
     invoke-static {v5, v6}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 256
+    .line 254
     return-void
 .end method
 
@@ -3485,18 +3487,18 @@
     .param p1, "id"    # I
 
     .prologue
-    .line 931
+    .line 927
     packed-switch p1, :pswitch_data_0
 
-    .line 957
+    .line 953
     const/4 v0, 0x0
 
-    .line 959
+    .line 955
     .local v0, "dialog":Landroid/app/Dialog;
     :goto_0
     return-object v0
 
-    .line 934
+    .line 930
     .end local v0    # "dialog":Landroid/app/Dialog;
     :pswitch_0
     new-instance v1, Landroid/app/AlertDialog$Builder;
@@ -3515,7 +3517,7 @@
 
     move-result-object v1
 
-    .line 935
+    .line 931
     const-string v2, "End"
 
     new-instance v3, Lcom/tapjoy/TapjoyVideoView$9;
@@ -3526,7 +3528,7 @@
 
     move-result-object v1
 
-    .line 942
+    .line 938
     const-string v2, "Resume"
 
     new-instance v3, Lcom/tapjoy/TapjoyVideoView$10;
@@ -3537,18 +3539,18 @@
 
     move-result-object v1
 
-    .line 952
+    .line 948
     invoke-virtual {v1}, Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
 
     move-result-object v0
 
-    .line 954
+    .line 950
     .restart local v0    # "dialog":Landroid/app/Dialog;
     invoke-virtual {v0}, Landroid/app/Dialog;->show()V
 
     goto :goto_0
 
-    .line 931
+    .line 927
     :pswitch_data_0
     .packed-switch 0x0
         :pswitch_0
@@ -3562,14 +3564,14 @@
     .param p3, "extra"    # I
 
     .prologue
-    .line 851
+    .line 847
     const-string v0, "VIDEO"
 
     const-string v1, "onError"
 
     invoke-static {v0, v1}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 853
+    .line 849
     invoke-static {}, Lcom/tapjoy/TapjoyVideo;->getVideoNotifier()Lcom/tapjoy/TapjoyVideoNotifier;
 
     move-result-object v0
@@ -3578,22 +3580,22 @@
 
     invoke-interface {v0, v1}, Lcom/tapjoy/TapjoyVideoNotifier;->videoError(I)V
 
-    .line 854
+    .line 850
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/tapjoy/TapjoyVideoView;->allowBackKey:Z
 
-    .line 856
+    .line 852
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->timer:Ljava/util/Timer;
 
     if-eqz v0, :cond_0
 
-    .line 857
+    .line 853
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->timer:Ljava/util/Timer;
 
     invoke-virtual {v0}, Ljava/util/Timer;->cancel()V
 
-    .line 859
+    .line 855
     :cond_0
     const/4 v0, 0x0
 
@@ -3608,17 +3610,17 @@
     .prologue
     const/4 v0, 0x1
 
-    .line 894
+    .line 890
     const/4 v1, 0x4
 
     if-ne p1, v1, :cond_2
 
-    .line 897
+    .line 893
     iget-boolean v1, p0, Lcom/tapjoy/TapjoyVideoView;->allowBackKey:Z
 
     if-nez v1, :cond_1
 
-    .line 901
+    .line 897
     iget-object v1, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v1}, Landroid/widget/VideoView;->getCurrentPosition()I
@@ -3627,22 +3629,22 @@
 
     iput v1, p0, Lcom/tapjoy/TapjoyVideoView;->seekTime:I
 
-    .line 902
+    .line 898
     iget-object v1, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v1}, Landroid/widget/VideoView;->pause()V
 
-    .line 903
+    .line 899
     const/4 v1, 0x0
 
     invoke-virtual {p0, v1}, Lcom/tapjoy/TapjoyVideoView;->showDialog(I)V
 
-    .line 924
+    .line 920
     :cond_0
     :goto_0
     return v0
 
-    .line 911
+    .line 907
     :cond_1
     iget-object v1, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
@@ -3652,27 +3654,27 @@
 
     if-eqz v1, :cond_2
 
-    .line 913
+    .line 909
     iget-object v1, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v1}, Landroid/widget/VideoView;->stopPlayback()V
 
-    .line 914
+    .line 910
     invoke-direct {p0}, Lcom/tapjoy/TapjoyVideoView;->showVideoUI()V
 
-    .line 916
+    .line 912
     iget-object v1, p0, Lcom/tapjoy/TapjoyVideoView;->timer:Ljava/util/Timer;
 
     if-eqz v1, :cond_0
 
-    .line 917
+    .line 913
     iget-object v1, p0, Lcom/tapjoy/TapjoyVideoView;->timer:Ljava/util/Timer;
 
     invoke-virtual {v1}, Ljava/util/Timer;->cancel()V
 
     goto :goto_0
 
-    .line 924
+    .line 920
     :cond_2
     invoke-super {p0, p1, p2}, Landroid/app/Activity;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
@@ -3685,10 +3687,10 @@
     .locals 3
 
     .prologue
-    .line 261
+    .line 259
     invoke-super {p0}, Landroid/app/Activity;->onPause()V
 
-    .line 264
+    .line 262
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v0}, Landroid/widget/VideoView;->isPlaying()Z
@@ -3697,14 +3699,14 @@
 
     if-eqz v0, :cond_0
 
-    .line 266
+    .line 264
     const-string v0, "VIDEO"
 
     const-string v1, "onPause"
 
     invoke-static {v0, v1}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 267
+    .line 265
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v0}, Landroid/widget/VideoView;->getCurrentPosition()I
@@ -3713,7 +3715,7 @@
 
     iput v0, p0, Lcom/tapjoy/TapjoyVideoView;->seekTime:I
 
-    .line 268
+    .line 266
     const-string v0, "VIDEO"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -3734,7 +3736,7 @@
 
     invoke-static {v0, v1}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 270
+    .line 268
     :cond_0
     return-void
 .end method
@@ -3744,14 +3746,14 @@
     .param p1, "mp"    # Landroid/media/MediaPlayer;
 
     .prologue
-    .line 844
+    .line 840
     const-string v0, "VIDEO"
 
     const-string v1, "onPrepared"
 
     invoke-static {v0, v1}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 845
+    .line 841
     return-void
 .end method
 
@@ -3759,27 +3761,27 @@
     .locals 3
 
     .prologue
-    .line 276
+    .line 274
     const-string v0, "VIDEO"
 
     const-string v1, "onResume"
 
     invoke-static {v0, v1}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 279
+    .line 277
     const/4 v0, 0x0
 
     invoke-virtual {p0, v0}, Lcom/tapjoy/TapjoyVideoView;->setRequestedOrientation(I)V
 
-    .line 280
+    .line 278
     invoke-super {p0}, Landroid/app/Activity;->onResume()V
 
-    .line 283
+    .line 281
     iget v0, p0, Lcom/tapjoy/TapjoyVideoView;->seekTime:I
 
     if-lez v0, :cond_0
 
-    .line 285
+    .line 283
     const-string v0, "VIDEO"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -3800,19 +3802,19 @@
 
     invoke-static {v0, v1}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 287
+    .line 285
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     iget v1, p0, Lcom/tapjoy/TapjoyVideoView;->seekTime:I
 
     invoke-virtual {v0, v1}, Landroid/widget/VideoView;->seekTo(I)V
 
-    .line 288
+    .line 286
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView;->videoView:Landroid/widget/VideoView;
 
     invoke-virtual {v0}, Landroid/widget/VideoView;->start()V
 
-    .line 290
+    .line 288
     :cond_0
     return-void
 .end method
@@ -3822,16 +3824,16 @@
     .param p1, "hasFocus"    # Z
 
     .prologue
-    .line 296
+    .line 294
     const-string v0, "VIDEO"
 
     const-string v1, "onWindowFocusChanged"
 
     invoke-static {v0, v1}, Lcom/tapjoy/TapjoyLog;->i(Ljava/lang/String;Ljava/lang/String;)V
 
-    .line 297
+    .line 295
     invoke-super {p0, p1}, Landroid/app/Activity;->onWindowFocusChanged(Z)V
 
-    .line 298
+    .line 296
     return-void
 .end method

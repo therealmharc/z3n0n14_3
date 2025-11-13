@@ -6,13 +6,19 @@
 # instance fields
 .field a:Ljava/lang/String;
 
-.field b:J
+.field b:Ljava/lang/String;
 
-.field c:Ljava/lang/String;
+.field c:J
 
-.field d:Ljava/lang/String;
+.field d:J
 
-.field e:Landroid/os/Handler;
+.field e:J
+
+.field f:Ljava/lang/String;
+
+.field g:Ljava/lang/String;
+
+.field h:Landroid/os/Handler;
 
 
 # direct methods

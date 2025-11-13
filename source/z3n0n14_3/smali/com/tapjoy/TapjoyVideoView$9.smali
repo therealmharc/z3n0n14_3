@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/tapjoy/TapjoyVideoView$9;->this$0:Lcom/tapjoy/TapjoyVideoView;
 
-    .line 935
+    .line 931
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,11 +43,11 @@
     .param p2, "whichButton"    # I
 
     .prologue
-    .line 940
+    .line 936
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView$9;->this$0:Lcom/tapjoy/TapjoyVideoView;
 
     invoke-virtual {v0}, Lcom/tapjoy/TapjoyVideoView;->finish()V
 
-    .line 941
+    .line 937
     return-void
 .end method

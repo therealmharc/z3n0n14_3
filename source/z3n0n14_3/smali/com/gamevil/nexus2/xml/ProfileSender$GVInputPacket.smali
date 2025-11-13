@@ -28,20 +28,20 @@
     .param p2, "data"    # [B
 
     .prologue
-    .line 1873
+    .line 1364
     iput-object p1, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->this$0:Lcom/gamevil/nexus2/xml/ProfileSender;
 
+    .line 1361
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1874
+    .line 1362
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->curPosition:I
 
-    .line 1875
+    .line 1363
     iput-object p2, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
-    .line 1876
     return-void
 .end method
 
@@ -53,7 +53,7 @@
     .prologue
     const/4 v0, 0x1
 
-    .line 1884
+    .line 1372
     iget-object v1, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
     iget v2, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->curPosition:I
@@ -79,7 +79,7 @@
     .locals 3
 
     .prologue
-    .line 1893
+    .line 1381
     iget-object v0, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
     iget v1, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->curPosition:I
@@ -98,10 +98,10 @@
     .param p1, "size"    # I
 
     .prologue
-    .line 1973
+    .line 1461
     new-array v0, p1, [B
 
-    .line 1974
+    .line 1462
     .local v0, "ret":[B
     iget-object v1, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
@@ -111,14 +111,14 @@
 
     invoke-static {v1, v2, v0, v3, p1}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 1975
+    .line 1463
     iget v1, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->curPosition:I
 
     add-int/2addr v1, p1
 
     iput v1, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->curPosition:I
 
-    .line 1976
+    .line 1464
     return-object v0
 .end method
 
@@ -126,7 +126,7 @@
     .locals 7
 
     .prologue
-    .line 1913
+    .line 1401
     iget-object v4, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
     iget v5, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->curPosition:I
@@ -137,7 +137,7 @@
 
     aget-byte v0, v4, v5
 
-    .line 1914
+    .line 1402
     .local v0, "b1":I
     iget-object v4, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
@@ -149,7 +149,7 @@
 
     aget-byte v1, v4, v5
 
-    .line 1915
+    .line 1403
     .local v1, "b2":I
     iget-object v4, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
@@ -161,7 +161,7 @@
 
     aget-byte v2, v4, v5
 
-    .line 1916
+    .line 1404
     .local v2, "b3":I
     iget-object v4, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
@@ -173,7 +173,7 @@
 
     aget-byte v3, v4, v5
 
-    .line 1918
+    .line 1406
     .local v3, "b4":I
     and-int/lit16 v4, v0, 0xff
 
@@ -206,14 +206,14 @@
     .prologue
     const-wide v7, 0xffffffffL
 
-    .line 1927
+    .line 1415
     invoke-virtual {p0}, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->nextInt()I
 
     move-result v4
 
     int-to-long v0, v4
 
-    .line 1928
+    .line 1416
     .local v0, "v1":J
     invoke-virtual {p0}, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->nextInt()I
 
@@ -221,7 +221,7 @@
 
     int-to-long v2, v4
 
-    .line 1929
+    .line 1417
     .local v2, "v2":J
     and-long v4, v2, v7
 
@@ -240,7 +240,7 @@
     .locals 5
 
     .prologue
-    .line 1902
+    .line 1390
     iget-object v2, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
     iget v3, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->curPosition:I
@@ -251,7 +251,7 @@
 
     aget-byte v0, v2, v3
 
-    .line 1903
+    .line 1391
     .local v0, "b1":S
     iget-object v2, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
@@ -263,7 +263,7 @@
 
     aget-byte v1, v2, v3
 
-    .line 1904
+    .line 1392
     .local v1, "b2":S
     and-int/lit16 v2, v0, 0xff
 
@@ -284,16 +284,16 @@
     .locals 5
 
     .prologue
-    .line 1939
+    .line 1427
     invoke-virtual {p0}, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->nextInt()I
 
     move-result v0
 
-    .line 1940
+    .line 1428
     .local v0, "len":I
     const/4 v1, 0x0
 
-    .line 1942
+    .line 1430
     .local v1, "str":Ljava/lang/String;
     :try_start_0
     new-instance v2, Ljava/lang/String;
@@ -310,7 +310,7 @@
     .local v2, "str":Ljava/lang/String;
     move-object v1, v2
 
-    .line 1945
+    .line 1433
     .end local v2    # "str":Ljava/lang/String;
     .restart local v1    # "str":Ljava/lang/String;
     :goto_0
@@ -320,10 +320,10 @@
 
     iput v3, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->curPosition:I
 
-    .line 1946
+    .line 1434
     return-object v1
 
-    .line 1943
+    .line 1431
     :catch_0
     move-exception v3
 
@@ -335,10 +335,10 @@
     .param p1, "len"    # I
 
     .prologue
-    .line 1957
+    .line 1445
     const/4 v0, 0x0
 
-    .line 1959
+    .line 1447
     .local v0, "str":Ljava/lang/String;
     :try_start_0
     new-instance v1, Ljava/lang/String;
@@ -355,7 +355,7 @@
     .local v1, "str":Ljava/lang/String;
     move-object v0, v1
 
-    .line 1962
+    .line 1450
     .end local v1    # "str":Ljava/lang/String;
     .restart local v0    # "str":Ljava/lang/String;
     :goto_0
@@ -365,14 +365,14 @@
 
     iput v2, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->curPosition:I
 
-    .line 1963
+    .line 1451
     invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
     move-result-object v2
 
     return-object v2
 
-    .line 1960
+    .line 1448
     :catch_0
     move-exception v2
 
@@ -383,7 +383,7 @@
     .locals 2
 
     .prologue
-    .line 2072
+    .line 1560
     const/4 v0, 0x0
 
     .local v0, "i":I
@@ -394,10 +394,10 @@
 
     if-lt v0, v1, :cond_0
 
-    .line 2075
+    .line 1563
     return-void
 
-    .line 2072
+    .line 1560
     :cond_0
     add-int/lit8 v0, v0, 0x1
 
@@ -409,12 +409,12 @@
     .param p1, "pos"    # I
 
     .prologue
-    .line 2030
+    .line 1518
     iget-object v4, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
     aget-byte v3, v4, p1
 
-    .line 2031
+    .line 1519
     .local v3, "ch4":I
     iget-object v4, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
@@ -422,7 +422,7 @@
 
     aget-byte v2, v4, p1
 
-    .line 2032
+    .line 1520
     .local v2, "ch3":I
     iget-object v4, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
@@ -430,7 +430,7 @@
 
     aget-byte v1, v4, p1
 
-    .line 2033
+    .line 1521
     .local v1, "ch2":I
     iget-object v4, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
@@ -438,7 +438,7 @@
 
     aget-byte v0, v4, p1
 
-    .line 2034
+    .line 1522
     .local v0, "ch1":I
     and-int/lit16 v4, v0, 0xff
 
@@ -472,7 +472,7 @@
     .prologue
     const/4 v0, 0x1
 
-    .line 1986
+    .line 1474
     iget-object v1, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
     aget-byte v1, v1, p1
@@ -493,7 +493,7 @@
     .param p1, "pos"    # I
 
     .prologue
-    .line 1996
+    .line 1484
     iget-object v0, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
     aget-byte v0, v0, p1
@@ -506,12 +506,12 @@
     .param p1, "pos"    # I
 
     .prologue
-    .line 2018
+    .line 1506
     iget-object v4, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
     aget-byte v0, v4, p1
 
-    .line 2019
+    .line 1507
     .local v0, "ch1":I
     iget-object v4, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
@@ -519,7 +519,7 @@
 
     aget-byte v1, v4, p1
 
-    .line 2020
+    .line 1508
     .local v1, "ch2":I
     iget-object v4, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
@@ -527,7 +527,7 @@
 
     aget-byte v2, v4, p1
 
-    .line 2021
+    .line 1509
     .local v2, "ch3":I
     iget-object v4, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
@@ -535,7 +535,7 @@
 
     aget-byte v3, v4, p1
 
-    .line 2022
+    .line 1510
     .local v3, "ch4":I
     and-int/lit16 v4, v0, 0xff
 
@@ -569,14 +569,14 @@
     .prologue
     const-wide v6, 0xffffffffL
 
-    .line 2044
+    .line 1532
     invoke-virtual {p0, p1}, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->readInt(I)I
 
     move-result v4
 
     int-to-long v0, v4
 
-    .line 2045
+    .line 1533
     .local v0, "v1":J
     add-int/lit8 v4, p1, 0x4
 
@@ -586,7 +586,7 @@
 
     int-to-long v2, v4
 
-    .line 2046
+    .line 1534
     .local v2, "v2":J
     and-long v4, v0, v6
 
@@ -606,12 +606,12 @@
     .param p1, "pos"    # I
 
     .prologue
-    .line 2006
+    .line 1494
     iget-object v2, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
     aget-byte v0, v2, p1
 
-    .line 2007
+    .line 1495
     .local v0, "s1":I
     iget-object v2, p0, Lcom/gamevil/nexus2/xml/ProfileSender$GVInputPacket;->data:[B
 
@@ -619,7 +619,7 @@
 
     aget-byte v1, v2, p1
 
-    .line 2008
+    .line 1496
     .local v1, "s2":I
     and-int/lit16 v2, v0, 0xff
 
@@ -642,10 +642,10 @@
     .param p2, "len"    # I
 
     .prologue
-    .line 2058
+    .line 1546
     const/4 v0, 0x0
 
-    .line 2060
+    .line 1548
     .local v0, "str":Ljava/lang/String;
     :try_start_0
     new-instance v1, Ljava/lang/String;
@@ -660,7 +660,7 @@
     .local v1, "str":Ljava/lang/String;
     move-object v0, v1
 
-    .line 2063
+    .line 1551
     .end local v1    # "str":Ljava/lang/String;
     .restart local v0    # "str":Ljava/lang/String;
     :goto_0
@@ -670,7 +670,7 @@
 
     return-object v2
 
-    .line 2061
+    .line 1549
     :catch_0
     move-exception v2
 

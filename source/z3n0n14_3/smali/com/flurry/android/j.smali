@@ -2,59 +2,69 @@
 .super Ljava/lang/Object;
 .source "SourceFile"
 
-# interfaces
-.implements Ljava/lang/Runnable;
-
 
 # instance fields
-.field private synthetic a:Ljava/util/List;
+.field final a:B
+
+.field final b:J
 
 
 # direct methods
-.method constructor <init>(Ljava/util/List;)V
+.method constructor <init>(BJ)V
     .locals 0
 
     .prologue
-    .line 56
-    iput-object p1, p0, Lcom/flurry/android/j;->a:Ljava/util/List;
-
+    .line 19
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
+    .line 20
+    iput-byte p1, p0, Lcom/flurry/android/j;->a:B
+
+    .line 21
+    iput-wide p2, p0, Lcom/flurry/android/j;->b:J
+
+    .line 22
     return-void
 .end method
 
 
 # virtual methods
-.method public final run()V
-    .locals 2
+.method public final toString()Ljava/lang/String;
+    .locals 3
 
     .prologue
-    .line 60
-    iget-object v0, p0, Lcom/flurry/android/j;->a:Ljava/util/List;
+    .line 27
+    new-instance v0, Ljava/lang/StringBuilder;
 
-    invoke-interface {v0}, Ljava/util/List;->iterator()Ljava/util/Iterator;
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    move-result-object v1
+    const-string v1, "["
 
-    :goto_0
-    invoke-interface {v1}, Ljava/util/Iterator;->hasNext()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    invoke-interface {v1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    check-cast v0, Lcom/flurry/android/o;
+    iget-wide v1, p0, Lcom/flurry/android/j;->b:J
 
-    .line 62
-    invoke-virtual {v0}, Lcom/flurry/android/o;->a()V
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
 
-    goto :goto_0
+    move-result-object v0
 
-    .line 64
-    :cond_0
-    return-void
+    const-string v1, "] "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget-byte v1, p0, Lcom/flurry/android/j;->a:B
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
 .end method

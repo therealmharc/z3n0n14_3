@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/gamevil/nexus2/Natives;->hideMenuComponent()V
+    value = Lcom/gamevil/nexus2/Natives;->hideReplyMoveComponent()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,7 +22,7 @@
     .locals 0
 
     .prologue
-    .line 1492
+    .line 1499
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 1
@@ -32,80 +32,92 @@
 
 # virtual methods
 .method public run()V
-    .locals 6
+    .locals 5
 
     .prologue
-    const/4 v5, 0x4
+    const/4 v4, 0x0
 
-    .line 1495
-    sget-object v3, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
+    const/4 v3, 0x4
 
-    .line 1496
-    const v4, 0x7f080020
+    .line 1514
+    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    invoke-virtual {v3, v4}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
+    .line 1515
+    const v2, 0x7f070021
+
+    invoke-virtual {v1, v2}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 1495
+    .line 1514
     check-cast v0, Landroid/widget/ImageView;
 
-    .line 1497
+    .line 1516
     .local v0, "img":Landroid/widget/ImageView;
-    invoke-virtual {v0, v5}, Landroid/widget/ImageView;->setVisibility(I)V
+    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    .line 1499
-    sget-object v3, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
+    .line 1517
+    const v2, 0x7f070037
 
-    .line 1500
-    const v4, 0x7f080021
-
-    invoke-virtual {v3, v4}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v1, v2}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v1
 
-    .line 1499
-    check-cast v1, Landroid/widget/ImageView;
+    .line 1516
+    check-cast v1, Landroid/widget/ImageButton;
 
-    .line 1501
-    .local v1, "img2":Landroid/widget/ImageView;
-    invoke-virtual {v1, v5}, Landroid/widget/ImageView;->setVisibility(I)V
+    sput-object v1, Lcom/gamevil/nexus2/Natives;->img_btn_write:Landroid/widget/ImageButton;
 
-    .line 1503
-    sget-object v3, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
+    .line 1518
+    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    .line 1504
-    const v4, 0x7f080022
+    .line 1519
+    const v2, 0x7f070038
 
-    invoke-virtual {v3, v4}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v1, v2}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
 
-    move-result-object v2
+    move-result-object v1
 
-    .line 1503
-    check-cast v2, Landroid/widget/ImageView;
+    .line 1518
+    check-cast v1, Landroid/widget/ImageButton;
 
-    .line 1505
-    .local v2, "zen":Landroid/widget/ImageView;
-    invoke-virtual {v2, v5}, Landroid/widget/ImageView;->setVisibility(I)V
+    sput-object v1, Lcom/gamevil/nexus2/Natives;->img_btn_later:Landroid/widget/ImageButton;
 
-    .line 1507
+    .line 1523
+    invoke-virtual {v0, v3}, Landroid/widget/ImageView;->setVisibility(I)V
+
+    .line 1524
+    sget-object v1, Lcom/gamevil/nexus2/Natives;->img_btn_write:Landroid/widget/ImageButton;
+
+    invoke-virtual {v1, v3}, Landroid/widget/ImageButton;->setVisibility(I)V
+
+    .line 1525
+    sget-object v1, Lcom/gamevil/nexus2/Natives;->img_btn_later:Landroid/widget/ImageButton;
+
+    invoke-virtual {v1, v3}, Landroid/widget/ImageButton;->setVisibility(I)V
+
+    .line 1527
     invoke-virtual {v0}, Landroid/widget/ImageView;->destroyDrawingCache()V
 
-    .line 1508
-    invoke-virtual {v1}, Landroid/widget/ImageView;->destroyDrawingCache()V
+    .line 1528
+    sget-object v1, Lcom/gamevil/nexus2/Natives;->img_btn_write:Landroid/widget/ImageButton;
 
-    .line 1509
-    invoke-virtual {v2}, Landroid/widget/ImageView;->destroyDrawingCache()V
+    invoke-virtual {v1}, Landroid/widget/ImageButton;->destroyDrawingCache()V
 
-    .line 1511
+    .line 1529
+    sget-object v1, Lcom/gamevil/nexus2/Natives;->img_btn_later:Landroid/widget/ImageButton;
+
+    invoke-virtual {v1}, Landroid/widget/ImageButton;->destroyDrawingCache()V
+
+    .line 1531
+    sput-object v4, Lcom/gamevil/nexus2/Natives;->img_btn_write:Landroid/widget/ImageButton;
+
+    .line 1532
+    sput-object v4, Lcom/gamevil/nexus2/Natives;->img_btn_later:Landroid/widget/ImageButton;
+
+    .line 1533
     const/4 v0, 0x0
 
-    .line 1512
-    const/4 v1, 0x0
-
-    .line 1513
-    const/4 v2, 0x0
-
-    .line 1515
+    .line 1535
     return-void
 .end method

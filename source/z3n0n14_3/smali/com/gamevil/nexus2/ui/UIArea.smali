@@ -636,26 +636,19 @@
 .end method
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
-    .locals 14
+    .locals 13
     .param p1, "event"    # Landroid/view/MotionEvent;
 
     .prologue
-    const/16 v13, 0x66
+    const/16 v12, 0x66
 
-    const/4 v12, -0x1
+    const/4 v11, -0x1
 
-    const v9, 0xff00
+    const v10, 0xff00
 
-    const/16 v11, 0x65
+    const/16 v9, 0x65
 
-    const/16 v10, 0x64
-
-    .line 233
-    sget-object v7, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    const-string v8, "UIArea:onTouchEvent"
-
-    invoke-virtual {v7, v8}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+    const/16 v8, 0x64
 
     .line 234
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
@@ -683,7 +676,7 @@
 
     .line 240
     :pswitch_1
-    and-int v7, v0, v9
+    and-int v7, v0, v10
 
     shr-int/lit8 v2, v7, 0x8
 
@@ -716,37 +709,8 @@
     .line 247
     iput v1, p0, Lcom/gamevil/nexus2/ui/UIArea;->mActivePointerId:I
 
-    .line 248
-    sget-object v7, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v8, Ljava/lang/StringBuilder;
-
-    const-string v9, "m down pointer x = "
-
-    invoke-direct {v8, v9}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v8, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    const-string v9, " , y = "
-
-    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8, v6}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v8
-
-    invoke-virtual {v7, v8}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
     .line 249
-    invoke-virtual {p0, v11, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
+    invoke-virtual {p0, v9, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
 
     goto :goto_0
 
@@ -787,37 +751,8 @@
 
     iput v7, p0, Lcom/gamevil/nexus2/ui/UIArea;->mActivePointerId:I
 
-    .line 259
-    sget-object v7, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v8, Ljava/lang/StringBuilder;
-
-    const-string v9, "m down x = "
-
-    invoke-direct {v8, v9}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v8, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    const-string v9, " , y = "
-
-    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8, v6}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v8
-
-    invoke-virtual {v7, v8}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
     .line 260
-    invoke-virtual {p0, v11, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
+    invoke-virtual {p0, v9, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
 
     goto :goto_0
 
@@ -830,7 +765,7 @@
     if-ltz v7, :cond_0
 
     .line 270
-    and-int v7, v0, v9
+    and-int v7, v0, v10
 
     shr-int/lit8 v4, v7, 0x8
 
@@ -846,61 +781,24 @@
 
     move-result v6
 
-    .line 275
-    .restart local v6    # "y":I
-    sget-object v7, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v8, Ljava/lang/StringBuilder;
-
-    invoke-static {v4}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
-
-    move-result-object v9
-
-    invoke-direct {v8, v9}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    const-string v9, "m move x = "
-
-    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    const-string v9, " , y = "
-
-    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8, v6}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v8
-
-    invoke-virtual {v7, v8}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
     .line 276
-    invoke-virtual {p0, v13, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
+    .restart local v6    # "y":I
+    invoke-virtual {p0, v12, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
 
-    goto/16 :goto_0
+    goto :goto_0
 
     .line 283
     .end local v4    # "pointerIndex":I
     .end local v5    # "x":I
     .end local v6    # "y":I
     :pswitch_4
-    iput v12, p0, Lcom/gamevil/nexus2/ui/UIArea;->mActivePointerId:I
+    iput v11, p0, Lcom/gamevil/nexus2/ui/UIArea;->mActivePointerId:I
 
-    goto/16 :goto_0
+    goto :goto_0
 
     .line 287
     :pswitch_5
-    iput v12, p0, Lcom/gamevil/nexus2/ui/UIArea;->mActivePointerId:I
+    iput v11, p0, Lcom/gamevil/nexus2/ui/UIArea;->mActivePointerId:I
 
     .line 288
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
@@ -925,45 +823,16 @@
 
     if-eqz v7, :cond_0
 
-    .line 292
-    sget-object v7, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v8, Ljava/lang/StringBuilder;
-
-    const-string v9, "m up x = "
-
-    invoke-direct {v8, v9}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v8, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    const-string v9, " , y = "
-
-    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8, v6}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v8
-
-    invoke-virtual {v7, v8}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
     .line 293
-    invoke-virtual {p0, v10, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
+    invoke-virtual {p0, v8, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
 
-    goto/16 :goto_0
+    goto :goto_0
 
     .line 299
     .end local v5    # "x":I
     .end local v6    # "y":I
     :pswitch_6
-    and-int v7, v0, v9
+    and-int v7, v0, v10
 
     shr-int/lit8 v4, v7, 0x8
 
@@ -985,40 +854,11 @@
 
     move-result v6
 
-    .line 306
-    .restart local v6    # "y":I
-    sget-object v7, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v8, Ljava/lang/StringBuilder;
-
-    const-string v9, "m pointer up x = "
-
-    invoke-direct {v8, v9}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v8, v5}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    const-string v9, " , y = "
-
-    invoke-virtual {v8, v9}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8, v6}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v8
-
-    invoke-virtual {v8}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v8
-
-    invoke-virtual {v7, v8}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
     .line 307
-    invoke-virtual {p0, v10, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
+    .restart local v6    # "y":I
+    invoke-virtual {p0, v8, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
 
-    goto/16 :goto_0
+    goto :goto_0
 
     .line 315
     .end local v3    # "pointerId":I
@@ -1028,7 +868,7 @@
     :cond_1
     packed-switch v0, :pswitch_data_1
 
-    goto/16 :goto_0
+    goto :goto_0
 
     .line 318
     :pswitch_7
@@ -1055,7 +895,7 @@
     if-eqz v7, :cond_0
 
     .line 323
-    invoke-virtual {p0, v11, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
+    invoke-virtual {p0, v9, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
 
     goto/16 :goto_0
 
@@ -1086,7 +926,7 @@
     if-eqz v7, :cond_0
 
     .line 334
-    invoke-virtual {p0, v13, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
+    invoke-virtual {p0, v12, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
 
     goto/16 :goto_0
 
@@ -1110,7 +950,7 @@
 
     .line 346
     .restart local v6    # "y":I
-    invoke-virtual {p0, v10, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
+    invoke-virtual {p0, v8, v5, v6}, Lcom/gamevil/nexus2/ui/UIArea;->onAction(III)V
 
     goto/16 :goto_0
 

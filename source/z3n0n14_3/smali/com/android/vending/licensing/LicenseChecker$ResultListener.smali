@@ -28,9 +28,10 @@
     .param p2, "validator"    # Lcom/android/vending/licensing/LicenseValidator;
 
     .prologue
-    .line 191
+    .line 201
     iput-object p1, p0, Lcom/android/vending/licensing/LicenseChecker$ResultListener;->this$0:Lcom/android/vending/licensing/LicenseChecker;
 
+    .line 191
     invoke-direct {p0}, Lcom/android/vending/licensing/ILicenseResultListener$Stub;-><init>()V
 
     .line 192
@@ -46,7 +47,6 @@
     .line 200
     invoke-direct {p0}, Lcom/android/vending/licensing/LicenseChecker$ResultListener;->startTimeout()V
 
-    .line 201
     return-void
 .end method
 

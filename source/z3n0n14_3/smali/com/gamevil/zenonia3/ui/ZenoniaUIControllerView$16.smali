@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$16;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
-    .line 1080
+    .line 983
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,11 +41,11 @@
     .locals 1
 
     .prologue
-    .line 1084
+    .line 987
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$16;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     invoke-virtual {v0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideRateComponent()V
 
-    .line 1085
+    .line 988
     return-void
 .end method

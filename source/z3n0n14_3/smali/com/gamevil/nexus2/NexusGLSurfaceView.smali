@@ -26,13 +26,13 @@
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 35
+    .line 34
     invoke-direct {p0, p1}, Landroid/view/SurfaceView;-><init>(Landroid/content/Context;)V
 
-    .line 36
+    .line 35
     invoke-direct {p0}, Lcom/gamevil/nexus2/NexusGLSurfaceView;->init()V
 
-    .line 37
+    .line 36
     return-void
 .end method
 
@@ -42,13 +42,13 @@
     .param p2, "attrs"    # Landroid/util/AttributeSet;
 
     .prologue
-    .line 40
+    .line 39
     invoke-direct {p0, p1, p2}, Landroid/view/SurfaceView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 41
+    .line 40
     invoke-direct {p0}, Lcom/gamevil/nexus2/NexusGLSurfaceView;->init()V
 
-    .line 42
+    .line 41
     return-void
 .end method
 
@@ -56,26 +56,26 @@
     .locals 2
 
     .prologue
-    .line 47
+    .line 46
     invoke-virtual {p0}, Lcom/gamevil/nexus2/NexusGLSurfaceView;->getHolder()Landroid/view/SurfaceHolder;
 
     move-result-object v0
 
     iput-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mHolder:Landroid/view/SurfaceHolder;
 
-    .line 48
+    .line 47
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mHolder:Landroid/view/SurfaceHolder;
 
     invoke-interface {v0, p0}, Landroid/view/SurfaceHolder;->addCallback(Landroid/view/SurfaceHolder$Callback;)V
 
-    .line 49
+    .line 48
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mHolder:Landroid/view/SurfaceHolder;
 
     const/4 v1, 0x2
 
     invoke-interface {v0, v1}, Landroid/view/SurfaceHolder;->setType(I)V
 
-    .line 50
+    .line 49
     return-void
 .end method
 
@@ -85,7 +85,7 @@
     .locals 1
 
     .prologue
-    .line 53
+    .line 52
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mHolder:Landroid/view/SurfaceHolder;
 
     return-object v0
@@ -95,29 +95,15 @@
     .locals 1
 
     .prologue
-    .line 135
+    .line 115
     invoke-super {p0}, Landroid/view/SurfaceView;->onDetachedFromWindow()V
 
-    .line 141
+    .line 121
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mGLThread:Lcom/gamevil/nexus2/NexusGLThread;
 
     invoke-virtual {v0}, Lcom/gamevil/nexus2/NexusGLThread;->requestExitAndWait()V
 
-    .line 142
-    return-void
-.end method
-
-.method protected onFocusChanged(ZILandroid/graphics/Rect;)V
-    .locals 0
-    .param p1, "gainFocus"    # Z
-    .param p2, "direction"    # I
-    .param p3, "previouslyFocusedRect"    # Landroid/graphics/Rect;
-
-    .prologue
-    .line 93
-    invoke-super {p0, p1, p2, p3}, Landroid/view/SurfaceView;->onFocusChanged(ZILandroid/graphics/Rect;)V
-
-    .line 98
+    .line 122
     return-void
 .end method
 
@@ -125,27 +111,15 @@
     .locals 1
 
     .prologue
-    .line 103
+    .line 83
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mGLThread:Lcom/gamevil/nexus2/NexusGLThread;
 
     invoke-virtual {v0}, Lcom/gamevil/nexus2/NexusGLThread;->onPause()V
 
-    .line 104
-    :try_start_pause
+    .line 84
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->NativePauseClet()V
-    :try_end_pause
-    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_pause .. :try_end_pause} :catch_pause
-    .catch Ljava/lang/Exception; {:try_start_pause .. :try_end_pause} :catch_pause
 
-    goto :goto_pause
-
-    :catch_pause
-    const-string v0, "NexusGLSurfaceView"
-    const-string v1, "Warning: NativePauseClet not available"
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    :goto_pause
-    .line 105
+    .line 85
     return-void
 .end method
 
@@ -153,27 +127,15 @@
     .locals 1
 
     .prologue
-    .line 111
+    .line 91
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mGLThread:Lcom/gamevil/nexus2/NexusGLThread;
 
     invoke-virtual {v0}, Lcom/gamevil/nexus2/NexusGLThread;->onResume()V
 
-    .line 112
-    :try_start_resume
+    .line 92
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->NativeResumeClet()V
-    :try_end_resume
-    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_resume .. :try_end_resume} :catch_resume
-    .catch Ljava/lang/Exception; {:try_start_resume .. :try_end_resume} :catch_resume
 
-    goto :goto_resume
-
-    :catch_resume
-    const-string v0, "NexusGLSurfaceView"
-    const-string v1, "Warning: NativeResumeClet not available"
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    :goto_resume
-    .line 113
+    .line 93
     return-void
 .end method
 
@@ -182,15 +144,15 @@
     .param p1, "hasFocus"    # Z
 
     .prologue
-    .line 119
+    .line 99
     invoke-super {p0, p1}, Landroid/view/SurfaceView;->onWindowFocusChanged(Z)V
 
-    .line 120
+    .line 100
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mGLThread:Lcom/gamevil/nexus2/NexusGLThread;
 
     invoke-virtual {v0, p1}, Lcom/gamevil/nexus2/NexusGLThread;->onWindowFocusChanged(Z)V
 
-    .line 122
+    .line 102
     return-void
 .end method
 
@@ -199,12 +161,12 @@
     .param p1, "r"    # Ljava/lang/Runnable;
 
     .prologue
-    .line 130
+    .line 110
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mGLThread:Lcom/gamevil/nexus2/NexusGLThread;
 
     invoke-virtual {v0, p1}, Lcom/gamevil/nexus2/NexusGLThread;->queueEvent(Ljava/lang/Runnable;)V
 
-    .line 131
+    .line 111
     return-void
 .end method
 
@@ -212,12 +174,12 @@
     .locals 1
 
     .prologue
-    .line 146
+    .line 126
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mHolder:Landroid/view/SurfaceHolder;
 
-    .line 148
+    .line 128
     return-void
 .end method
 
@@ -226,7 +188,7 @@
     .param p1, "renderer"    # Lcom/gamevil/nexus2/NexusGLSurfaceView$Renderer;
 
     .prologue
-    .line 61
+    .line 60
     new-instance v0, Lcom/gamevil/nexus2/NexusGLThread;
 
     iget-object v1, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mHolder:Landroid/view/SurfaceHolder;
@@ -235,24 +197,17 @@
 
     iput-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mGLThread:Lcom/gamevil/nexus2/NexusGLThread;
 
-    .line 62
-    iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mGLThread:Lcom/gamevil/nexus2/NexusGLThread;
-
-    const/16 v1, 0xa
-
-    invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/NexusGLThread;->setPriority(I)V
-
-    .line 63
+    .line 61
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mGLThread:Lcom/gamevil/nexus2/NexusGLThread;
 
     invoke-virtual {v0}, Lcom/gamevil/nexus2/NexusGLThread;->start()V
 
-    .line 64
+    .line 62
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mGLThread:Lcom/gamevil/nexus2/NexusGLThread;
 
     invoke-static {v0}, Lcom/gamevil/nexus2/Natives;->setEventListener(Lcom/gamevil/nexus2/Natives$EventListener;)V
 
-    .line 65
+    .line 63
     return-void
 .end method
 
@@ -264,12 +219,12 @@
     .param p4, "h"    # I
 
     .prologue
-    .line 84
+    .line 76
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mGLThread:Lcom/gamevil/nexus2/NexusGLThread;
 
     invoke-virtual {v0, p3, p4}, Lcom/gamevil/nexus2/NexusGLThread;->onSurfaceChaged(II)V
 
-    .line 88
+    .line 77
     return-void
 .end method
 
@@ -278,12 +233,12 @@
     .param p1, "holder"    # Landroid/view/SurfaceHolder;
 
     .prologue
-    .line 67
+    .line 65
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mGLThread:Lcom/gamevil/nexus2/NexusGLThread;
 
     invoke-virtual {v0}, Lcom/gamevil/nexus2/NexusGLThread;->surfaceCreated()V
 
-    .line 71
+    .line 66
     return-void
 .end method
 
@@ -292,11 +247,11 @@
     .param p1, "holder"    # Landroid/view/SurfaceHolder;
 
     .prologue
-    .line 75
+    .line 70
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLSurfaceView;->mGLThread:Lcom/gamevil/nexus2/NexusGLThread;
 
     invoke-virtual {v0}, Lcom/gamevil/nexus2/NexusGLThread;->surfaceDestroyed()V
 
-    .line 79
+    .line 71
     return-void
 .end method

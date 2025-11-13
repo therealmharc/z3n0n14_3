@@ -28,15 +28,15 @@
     .param p2, "startId"    # I
 
     .prologue
-    .line 83
+    .line 85
     iput-object p1, p0, Lcom/gamevil/zenonia3/global/BillingService$BillingRequest;->this$0:Lcom/gamevil/zenonia3/global/BillingService;
 
+    .line 83
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 84
     iput p2, p0, Lcom/gamevil/zenonia3/global/BillingService$BillingRequest;->mStartId:I
 
-    .line 85
     return-void
 .end method
 

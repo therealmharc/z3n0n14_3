@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/tapjoy/TapjoyVideoView$5;->this$0:Lcom/tapjoy/TapjoyVideoView;
 
-    .line 618
+    .line 614
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -42,7 +42,7 @@
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    .line 625
+    .line 621
     iget-object v3, p0, Lcom/tapjoy/TapjoyVideoView$5;->this$0:Lcom/tapjoy/TapjoyVideoView;
 
     invoke-static {v3}, Lcom/tapjoy/TapjoyVideoView;->access$5(Lcom/tapjoy/TapjoyVideoView;)Lcom/tapjoy/TapjoyVideoObject;
@@ -63,7 +63,7 @@
 
     move-result-object v2
 
-    .line 629
+    .line 625
     .local v2, "uri":Landroid/net/Uri;
     :try_start_0
     new-instance v1, Landroid/content/Intent;
@@ -72,7 +72,7 @@
 
     invoke-direct {v1, v3, v2}, Landroid/content/Intent;-><init>(Ljava/lang/String;Landroid/net/Uri;)V
 
-    .line 630
+    .line 626
     .local v1, "intent":Landroid/content/Intent;
     iget-object v3, p0, Lcom/tapjoy/TapjoyVideoView$5;->this$0:Lcom/tapjoy/TapjoyVideoView;
 
@@ -80,16 +80,16 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 637
+    .line 633
     .end local v1    # "intent":Landroid/content/Intent;
     :goto_0
     return-void
 
-    .line 632
+    .line 628
     :catch_0
     move-exception v0
 
-    .line 634
+    .line 630
     .local v0, "e":Ljava/lang/Exception;
     const-string v3, "VIDEO BUTTON"
 

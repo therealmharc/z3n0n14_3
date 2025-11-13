@@ -1,11 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ZENONIA3</string>
-    <string name="app_name_kt">ZENONIA3</string>
-    <string name="app_name_lgu">ZENONIA3</string>
-    <string name="app_label">ZENONIA3</string>
-    <string name="app_label_kt">ZENONIA3</string>
-    <string name="app_label_lgu">ZENONIA3</string>
+    <string name="hello">Hello World, SS2010Launcher!</string>
+    <string name="app_name">Soccer Superstars</string>
+    <string name="gc_no">아니오</string>
+    <string name="gc_yes">예</string>
+    <string name="gc_ok">OK</string>
+    <string name="gc_cancel">취소</string>
+    <string name="gc_certification">인증</string>
+    <string name="gc_start">"1. 수집회사 및 연락처 
+ -. 회사명 : 주식회사 게임빌 
+ -. 연락처 : 1588-4263
+ ※ 상담시간 : 월요일~금요일(09:00~18:00), 토/일/공휴일 휴무
+ ※ 점심시간 (12:00~13:00)은 전화상담 불가
+ 
+ 2. 수집하는 개인정보 항목 및 수집방법
+ 회사는 원활한 고객상담 .각종 서비스 제공, 데이터 통계 등을 위해 아래와 같은 개인정보를 수집하고 있습니다. 
+ 
+ 가. 수집항목 
+ 휴대전화번호 , 게임 이용기록 , 접속 로그 및 인증일자 , 결제기록, 게임버전, 통신사정보, 단말기 정보(모델명, 가용메모리 및 파일사이즈, OS버전, 기기고유번호)
+ 
+ 나. 개인정보 수집방법 
+ 회사는 게임 구매 후 최초 실행 시, 게임 이용 중, 네트워크 접속 시 개인정보를 수집합니다.
+ 
+ 3. 개인정보의 수집 및 이용목적 
+ 회사는 수집한 개인정보를 다음의 목적을 위해 고지한 범위 내에서 사용 및 활용하며, 원칙적으로 이용자의 사전 동의 없이는 동 범위를 초과하여 이용하거나 이용자의 개인정보를 외부에 공개하지 않습니다. (단 이용자가 사전에 개인정보 공개에 대하여 동의한 경우와 법령의 규정에 의거하거나, 수사 목적으로 법령에 정해진 절차와 방법에 따라 수사기관의 요구가 있는 경우에는 외부에 공개 합니다.)
+ 
+ 가. 서비스 제공에 관한 계약 이행 및 서비스 제공에 따른 요금정산
+ 콘텐츠 제공, 특정 맞춤 서비스 제공, 정식구매인증, 구매 및 요금 결제
+ 
+ 나. 고객 관리
+ 고객 서비스 이용에 따른 본인확인, 개인식별, 불량 고객의 부정 이용방지와 비인가 사용방지, 인증 의사 확인, 분쟁 조정을 위한 기록보존, 불만처리 등 민원처리, 고지사항 전달
+ 
+ 다. 신규 서비스 개발 및 마케팅•광고의 활용
+ 신규 서비스 개발, 통계학적 특성에 따른 서비스 제공 및 광고 게재, 서비스의 유효성 확인, 이벤트 및 광고성 정보 제공 및 참여기회 제공, 접속빈도 파악, 고객의 서비스이용에 대한 통계
+ 
+ 4. 개인정보의 보유 및 이용기간
+ 원칙적으로, 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체 없이 파기합니다.
+ 단, 관계법령의 규정에 의하여 보존할 필요가 있는 경우 회사는 아래와 같이 관계법령에서 정한 일정한 기간 동안 개인정보를 보관합니다.
+ 
+ 가. 보존 항목
+ 회사는 “2. 수집하는 개인정보 항목 및 수집방법” 중 “가. 수집항목”의 내용모두를 보존 합니다.
+ 
+ 나. 관계법령에 의한 정보보유 사유
+ 상법, 전자상거래 등에서의 소비자보호에 관한 법률 등 관계법령의 규정에 의하여 보존할 필요가 있는 경우 회사는 관계법령에서 정한 일정한 기간 동안 고객 정보를 보관합니다.
+ 이 경우 회사는 보관하는 정보를 그 보관의 목적으로만 이용하며 보존기간은 아래와 같습니다.
+ 
+ 계약 또는 청약철회 등에 관한 기록
+ 보존 이유 : 전자상거래 등에서의 소비자보호에 관한 법률
+ 보존 기간 : 5년 
+ 대금결제 및 재화 등의 공급에 관한 기록
+ 보존 이유 : 전자상거래 등에서의 소비자보호에 관한 법률
+ 보존 기간 : 5년
+ 소비자의 불만 또는 분쟁처리에 관한 기록
+ 보존 이유 : 전자상거래 등에서의 소비자보호에 관한 법률
+ 보존 기간 : 3년 
+ 방문에 관한 기록 
+ 보존 이유 : 통신비밀보호법
+ 보존 기간 : 3개월
+"</string>
+    <string name="gc_sms">게임빌의 각종 혜택이 담긴 SMS 수신동의를 하시겠습니까?</string>
+    <string name="gc_close">"인증을 받지 않으시면 게임이 실행되지 않습니다.
+게임을 종료 하시겠습니까?"</string>
+    <string name="terms_info">원활한 게임 이용을 위해서 개인정보 수집 및 이용안내에 동의해 주세요.</string>
+    <string name="terms_label">개인정보 수집 및 이용안내</string>
+    <string name="terms_confirm">동의합니다.</string>
+    <string name="terms_continue">계속</string>
     <string name="billing_not_supported_title">"Can't make purchases"</string>
     <string name="billing_not_supported_message">"The Market billing service is not available at this time. You can continue to use this app but you won't be able to make purchases."</string>
     <string name="cannot_connect_title">"Can't connect to Market"</string>
@@ -16,36 +75,8 @@
     <string name="buy">Buy</string>
     <string name="perchase_complete_title">Purchase</string>
     <string name="perchase_complete">Purchase has been completed.</string>
-    <string name="ui_shop_bg_cd">shop background Image</string>
-    <string name="txt_label_net">Network Not Available</string>
-    <string name="txt_info_net">"Cannot run the program due to bad network connection.
-Please try again after checking your network settings."</string>
-    <string name="txt_label_error">Network Error</string>
-    <string name="txt_info_error">"Cannot run the program.
-Please try again after checking your network settings"</string>
-    <string name="txt_label">Warning: Unlawful activity</string>
-    <string name="txt_info">Modifying program information will result in legal prosecution. Please delete the program and try again.</string>
-    <string name="txt_confirm">End</string>
-    <string name="txt_retry">Retry</string>
-    <string name="txt_sim_error_label">Notice</string>
-    <string name="txt_sim_error">"Game did not load properly.
-Please terminate the application and load again.
-*Please check the following:
- 1. Properly inserted USIM card
- 2. Turned OFF [Airplane Mode]
- 3. The game will not load in [Roaming] status.
- Please contact GAMEVIL customer contact center if none of the above resolves the problem."</string>
-    <string name="gc_no">아니오</string>
-    <string name="gc_yes">예</string>
-    <string name="gc_ok">OK</string>
-    <string name="gc_cancel">취소</string>
-    <string name="gc_certification">인증</string>
-    <string name="gc_start" />
-    <string name="gc_sms">게임빌의 각종 혜택이 담긴 푸시 및 SMS 알림 동의를 하시겠습니까?</string>
-    <string name="gc_close">"인증을 받지 않으시면 게임이 실행되지 않습니다.
-게임을 종료 하시겠습니까?"</string>
-    <string name="terms_info">원활한 게임 이용을 위해서 개인정보 수집 및 이용안내에 동의해 주세요.</string>
-    <string name="terms_label">개인정보 수집 및 이용안내</string>
-    <string name="terms_confirm">동의합니다.</string>
-    <string name="terms_continue">계속</string>
+    <string name="unavailable_sku_title">Purchase Error</string>
+    <string name="unavailable_sku">"You won't be able to make purchases."</string>
+    <string name="billing_sku_error">"The billing service is not available at this time.
+Please try later."</string>
 </resources>

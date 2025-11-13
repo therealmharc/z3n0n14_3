@@ -30,7 +30,7 @@
 
     const/16 v4, 0x19
 
-    .line 180
+    .line 178
     const-string v1, "line.separator"
 
     invoke-static {v1}, Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
@@ -39,35 +39,35 @@
 
     sput-object v1, Lcom/gamevil/nexus2/xml/Base64Nexus2;->lineSeparator:Ljava/lang/String;
 
-    .line 278
+    .line 276
     const v1, 0x61a80
 
     sput v1, Lcom/gamevil/nexus2/xml/Base64Nexus2;->lineLength:I
 
-    .line 291
+    .line 289
     new-array v1, v5, [C
 
     sput-object v1, Lcom/gamevil/nexus2/xml/Base64Nexus2;->valueToChar:[C
 
-    .line 294
+    .line 292
     new-array v1, v6, [I
 
     sput-object v1, Lcom/gamevil/nexus2/xml/Base64Nexus2;->charToValue:[I
 
-    .line 305
+    .line 303
     const/4 v0, 0x0
 
     .local v0, "i":I
     :goto_0
     if-le v0, v4, :cond_0
 
-    .line 308
+    .line 306
     const/4 v0, 0x0
 
     :goto_1
     if-le v0, v4, :cond_1
 
-    .line 311
+    .line 309
     const/4 v0, 0x0
 
     :goto_2
@@ -75,7 +75,7 @@
 
     if-le v0, v1, :cond_2
 
-    .line 313
+    .line 311
     sget-object v1, Lcom/gamevil/nexus2/xml/Base64Nexus2;->valueToChar:[C
 
     const/16 v2, 0x3e
@@ -84,7 +84,7 @@
 
     aput-char v3, v1, v2
 
-    .line 314
+    .line 312
     sget-object v1, Lcom/gamevil/nexus2/xml/Base64Nexus2;->valueToChar:[C
 
     const/16 v2, 0x3f
@@ -93,19 +93,19 @@
 
     aput-char v3, v1, v2
 
-    .line 317
+    .line 315
     const/4 v0, 0x0
 
     :goto_3
     if-lt v0, v6, :cond_3
 
-    .line 321
+    .line 319
     const/4 v0, 0x0
 
     :goto_4
     if-lt v0, v5, :cond_4
 
-    .line 325
+    .line 323
     sget-object v1, Lcom/gamevil/nexus2/xml/Base64Nexus2;->charToValue:[I
 
     const/16 v2, 0x3d
@@ -114,10 +114,10 @@
 
     aput v3, v1, v2
 
-    .line 47
+    .line 45
     return-void
 
-    .line 306
+    .line 304
     :cond_0
     sget-object v1, Lcom/gamevil/nexus2/xml/Base64Nexus2;->valueToChar:[C
 
@@ -127,12 +127,12 @@
 
     aput-char v2, v1, v0
 
-    .line 305
+    .line 303
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_0
 
-    .line 309
+    .line 307
     :cond_1
     sget-object v1, Lcom/gamevil/nexus2/xml/Base64Nexus2;->valueToChar:[C
 
@@ -144,12 +144,12 @@
 
     aput-char v3, v1, v2
 
-    .line 308
+    .line 306
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_1
 
-    .line 312
+    .line 310
     :cond_2
     sget-object v1, Lcom/gamevil/nexus2/xml/Base64Nexus2;->valueToChar:[C
 
@@ -161,12 +161,12 @@
 
     aput-char v3, v1, v2
 
-    .line 311
+    .line 309
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_2
 
-    .line 318
+    .line 316
     :cond_3
     sget-object v1, Lcom/gamevil/nexus2/xml/Base64Nexus2;->charToValue:[I
 
@@ -174,12 +174,12 @@
 
     aput v2, v1, v0
 
-    .line 317
+    .line 315
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_3
 
-    .line 322
+    .line 320
     :cond_4
     sget-object v1, Lcom/gamevil/nexus2/xml/Base64Nexus2;->charToValue:[I
 
@@ -189,7 +189,7 @@
 
     aput v0, v1, v2
 
-    .line 321
+    .line 319
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_4
@@ -199,123 +199,10 @@
     .locals 0
 
     .prologue
-    .line 47
+    .line 45
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
-.end method
-
-.method public static calcMD5(Ljava/lang/String;)Ljava/lang/String;
-    .locals 8
-    .param p0, "s"    # Ljava/lang/String;
-
-    .prologue
-    .line 387
-    :try_start_0
-    const-string v6, "MD5"
-
-    invoke-static {v6}, Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
-
-    move-result-object v1
-
-    .line 388
-    .local v1, "digest":Ljava/security/MessageDigest;
-    invoke-virtual {p0}, Ljava/lang/String;->getBytes()[B
-
-    move-result-object v6
-
-    invoke-virtual {v1, v6}, Ljava/security/MessageDigest;->update([B)V
-
-    .line 389
-    invoke-virtual {v1}, Ljava/security/MessageDigest;->digest()[B
-
-    move-result-object v4
-
-    .line 390
-    .local v4, "messageDigest":[B
-    new-instance v5, Ljava/lang/StringBuffer;
-
-    invoke-direct {v5}, Ljava/lang/StringBuffer;-><init>()V
-
-    .line 391
-    .local v5, "sb":Ljava/lang/StringBuffer;
-    const/4 v3, 0x0
-
-    .local v3, "i":I
-    :goto_0
-    array-length v6, v4
-
-    if-lt v3, v6, :cond_0
-
-    .line 399
-    invoke-virtual {v5}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
-
-    move-result-object v6
-
-    .line 404
-    .end local v1    # "digest":Ljava/security/MessageDigest;
-    .end local v3    # "i":I
-    .end local v4    # "messageDigest":[B
-    .end local v5    # "sb":Ljava/lang/StringBuffer;
-    :goto_1
-    return-object v6
-
-    .line 392
-    .restart local v1    # "digest":Ljava/security/MessageDigest;
-    .restart local v3    # "i":I
-    .restart local v4    # "messageDigest":[B
-    .restart local v5    # "sb":Ljava/lang/StringBuffer;
-    :cond_0
-    aget-byte v0, v4, v3
-
-    .line 393
-    .local v0, "b":B
-    and-int/lit16 v6, v0, 0xff
-
-    invoke-static {v6}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
-
-    move-result-object v2
-
-    .line 394
-    .local v2, "hex":Ljava/lang/String;
-    invoke-virtual {v2}, Ljava/lang/String;->length()I
-
-    move-result v6
-
-    const/4 v7, 0x1
-
-    if-ne v6, v7, :cond_1
-
-    .line 395
-    const-string v6, "0"
-
-    invoke-virtual {v5, v6}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
-
-    .line 397
-    :cond_1
-    invoke-virtual {v5, v2}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
-    :try_end_0
-    .catch Ljava/security/NoSuchAlgorithmException; {:try_start_0 .. :try_end_0} :catch_0
-
-    .line 391
-    add-int/lit8 v3, v3, 0x1
-
-    goto :goto_0
-
-    .line 401
-    .end local v0    # "b":B
-    .end local v1    # "digest":Ljava/security/MessageDigest;
-    .end local v2    # "hex":Ljava/lang/String;
-    .end local v3    # "i":I
-    .end local v4    # "messageDigest":[B
-    .end local v5    # "sb":Ljava/lang/StringBuffer;
-    :catch_0
-    move-exception v6
-
-    .line 404
-    const-string v6, ""
-
-    goto :goto_1
 .end method
 
 .method public static decode(Ljava/lang/String;)[B
@@ -325,7 +212,7 @@
     .prologue
     const/4 v12, 0x0
 
-    .line 194
+    .line 192
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v10
@@ -336,29 +223,29 @@
 
     new-array v0, v10, [B
 
-    .line 197
+    .line 195
     .local v0, "b":[B
     const/4 v4, 0x0
 
-    .line 200
+    .line 198
     .local v4, "cycle":I
     const/4 v3, 0x0
 
-    .line 203
+    .line 201
     .local v3, "combined":I
     const/4 v7, 0x0
 
-    .line 205
+    .line 203
     .local v7, "j":I
     invoke-virtual {p0}, Ljava/lang/String;->length()I
 
     move-result v8
 
-    .line 206
+    .line 204
     .local v8, "len":I
     const/4 v5, 0x0
 
-    .line 207
+    .line 205
     .local v5, "dummies":I
     const/4 v6, 0x0
 
@@ -366,27 +253,27 @@
     :goto_0
     if-lt v6, v8, :cond_0
 
-    .line 263
+    .line 261
     if-eqz v4, :cond_2
 
-    .line 264
+    .line 262
     new-instance v10, Ljava/lang/ArrayIndexOutOfBoundsException;
 
-    .line 265
+    .line 263
     const-string v11, "Input to decode not an even multiple of 4 characters; pad with =."
 
-    .line 264
+    .line 262
     invoke-direct {v10, v11}, Ljava/lang/ArrayIndexOutOfBoundsException;-><init>(Ljava/lang/String;)V
 
     throw v10
 
-    .line 209
+    .line 207
     :cond_0
     invoke-virtual {p0, v6}, Ljava/lang/String;->charAt(I)C
 
     move-result v2
 
-    .line 210
+    .line 208
     .local v2, "c":I
     const/16 v10, 0xff
 
@@ -396,84 +283,94 @@
 
     aget v9, v10, v2
 
-    .line 212
+    .line 210
     .local v9, "value":I
     :goto_1
     packed-switch v9, :pswitch_data_0
 
-    .line 225
+    .line 223
     :goto_2
     packed-switch v4, :pswitch_data_1
 
-    .line 207
+    .line 205
     :goto_3
     :pswitch_0
     add-int/lit8 v6, v6, 0x1
 
     goto :goto_0
 
-    .line 210
+    .line 208
     .end local v9    # "value":I
     :cond_1
     const/4 v9, -0x1
 
     goto :goto_1
 
-    .line 219
+    .line 217
     .restart local v9    # "value":I
     :pswitch_1
     const/4 v9, 0x0
 
-    .line 220
+    .line 218
     add-int/lit8 v5, v5, 0x1
 
     goto :goto_2
 
-    .line 227
+    .line 225
     :pswitch_2
     move v3, v9
 
-    .line 228
+    .line 226
     const/4 v4, 0x1
 
-    .line 229
+    .line 227
     goto :goto_3
 
-    .line 232
+    .line 230
     :pswitch_3
     shl-int/lit8 v3, v3, 0x6
 
-    .line 233
+    .line 231
     or-int/2addr v3, v9
 
-    .line 234
+    .line 232
     const/4 v4, 0x2
 
-    .line 235
+    .line 233
     goto :goto_3
 
-    .line 238
+    .line 236
     :pswitch_4
     shl-int/lit8 v3, v3, 0x6
 
-    .line 239
+    .line 237
     or-int/2addr v3, v9
 
-    .line 240
+    .line 238
     const/4 v4, 0x3
 
-    .line 241
+    .line 239
     goto :goto_3
 
-    .line 244
+    .line 242
     :pswitch_5
     shl-int/lit8 v3, v3, 0x6
 
-    .line 245
+    .line 243
     or-int/2addr v3, v9
 
-    .line 251
+    .line 249
     add-int/lit8 v10, v7, 0x2
+
+    int-to-byte v11, v3
+
+    aput-byte v11, v0, v10
+
+    .line 250
+    ushr-int/lit8 v3, v3, 0x8
+
+    .line 251
+    add-int/lit8 v10, v7, 0x1
 
     int-to-byte v11, v3
 
@@ -483,55 +380,45 @@
     ushr-int/lit8 v3, v3, 0x8
 
     .line 253
-    add-int/lit8 v10, v7, 0x1
-
-    int-to-byte v11, v3
-
-    aput-byte v11, v0, v10
-
-    .line 254
-    ushr-int/lit8 v3, v3, 0x8
-
-    .line 255
     int-to-byte v10, v3
 
     aput-byte v10, v0, v7
 
-    .line 256
+    .line 254
     add-int/lit8 v7, v7, 0x3
 
-    .line 257
+    .line 255
     const/4 v4, 0x0
 
     goto :goto_3
 
-    .line 267
+    .line 265
     .end local v2    # "c":I
     .end local v9    # "value":I
     :cond_2
     sub-int/2addr v7, v5
 
-    .line 268
+    .line 266
     array-length v10, v0
 
     if-eq v10, v7, :cond_3
 
-    .line 269
+    .line 267
     new-array v1, v7, [B
 
-    .line 270
+    .line 268
     .local v1, "b2":[B
     invoke-static {v0, v12, v1, v12, v7}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    .line 271
+    .line 269
     move-object v0, v1
 
-    .line 273
+    .line 271
     .end local v1    # "b2":[B
     :cond_3
     return-object v0
 
-    .line 212
+    .line 210
     nop
 
     :pswitch_data_0
@@ -540,7 +427,7 @@
         :pswitch_0
     .end packed-switch
 
-    .line 225
+    .line 223
     :pswitch_data_1
     .packed-switch 0x0
         :pswitch_2
@@ -555,7 +442,7 @@
     .param p0, "b"    # [B
 
     .prologue
-    .line 61
+    .line 59
     array-length v11, p0
 
     add-int/lit8 v11, v11, 0x2
@@ -564,20 +451,20 @@
 
     mul-int/lit8 v9, v11, 0x4
 
-    .line 64
+    .line 62
     .local v9, "outputLength":I
     sget v11, Lcom/gamevil/nexus2/xml/Base64Nexus2;->lineLength:I
 
     if-eqz v11, :cond_0
 
-    .line 65
+    .line 63
     add-int/lit8 v11, v9, -0x1
 
     sget v12, Lcom/gamevil/nexus2/xml/Base64Nexus2;->lineLength:I
 
     div-int/2addr v11, v12
 
-    .line 66
+    .line 64
     sget-object v12, Lcom/gamevil/nexus2/xml/Base64Nexus2;->lineSeparator:Ljava/lang/String;
 
     invoke-virtual {v12}, Ljava/lang/String;->length()I
@@ -588,17 +475,17 @@
 
     add-int/2addr v9, v11
 
-    .line 71
+    .line 69
     :cond_0
     new-instance v10, Ljava/lang/StringBuffer;
 
     invoke-direct {v10, v9}, Ljava/lang/StringBuffer;-><init>(I)V
 
-    .line 74
+    .line 72
     .local v10, "sb":Ljava/lang/StringBuffer;
     const/4 v8, 0x0
 
-    .line 77
+    .line 75
     .local v8, "linePos":I
     array-length v11, p0
 
@@ -606,13 +493,13 @@
 
     mul-int/lit8 v7, v11, 0x3
 
-    .line 78
+    .line 76
     .local v7, "len":I
     array-length v11, p0
 
     sub-int v6, v11, v7
 
-    .line 79
+    .line 77
     .local v6, "leftover":I
     const/4 v5, 0x0
 
@@ -620,10 +507,10 @@
     :goto_0
     if-lt v5, v7, :cond_2
 
-    .line 121
+    .line 119
     packed-switch v6, :pswitch_data_0
 
-    .line 170
+    .line 168
     :goto_1
     invoke-virtual {v10}, Ljava/lang/StringBuffer;->length()I
 
@@ -631,15 +518,14 @@
 
     if-eq v9, v11, :cond_1
 
-    .line 171
+    .line 170
     sget-object v11, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
-    .line 172
     const-string v12, "oops: minor program flaw: output length mis-estimated"
 
     invoke-virtual {v11, v12}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 173
+    .line 171
     sget-object v11, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     new-instance v12, Ljava/lang/StringBuilder;
@@ -658,7 +544,7 @@
 
     invoke-virtual {v11, v12}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 174
+    .line 172
     sget-object v11, Ljava/lang/System;->out:Ljava/io/PrintStream;
 
     new-instance v12, Ljava/lang/StringBuilder;
@@ -681,7 +567,7 @@
 
     invoke-virtual {v11, v12}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
 
-    .line 176
+    .line 174
     :cond_1
     invoke-virtual {v10}, Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
 
@@ -689,29 +575,29 @@
 
     return-object v11
 
-    .line 85
+    .line 83
     :cond_2
     add-int/lit8 v8, v8, 0x4
 
-    .line 86
+    .line 84
     sget v11, Lcom/gamevil/nexus2/xml/Base64Nexus2;->lineLength:I
 
     if-le v8, v11, :cond_3
 
-    .line 87
+    .line 85
     const/4 v8, 0x0
 
-    .line 88
+    .line 86
     sget v11, Lcom/gamevil/nexus2/xml/Base64Nexus2;->lineLength:I
 
     if-eqz v11, :cond_3
 
-    .line 89
+    .line 87
     sget-object v11, Lcom/gamevil/nexus2/xml/Base64Nexus2;->lineSeparator:Ljava/lang/String;
 
     invoke-virtual {v10, v11}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 96
+    .line 94
     :cond_3
     add-int/lit8 v11, v5, 0x0
 
@@ -719,11 +605,11 @@
 
     and-int/lit16 v4, v11, 0xff
 
-    .line 97
+    .line 95
     .local v4, "combined":I
     shl-int/lit8 v4, v4, 0x8
 
-    .line 98
+    .line 96
     add-int/lit8 v11, v5, 0x1
 
     aget-byte v11, p0, v11
@@ -732,10 +618,10 @@
 
     or-int/2addr v4, v11
 
-    .line 99
+    .line 97
     shl-int/lit8 v4, v4, 0x8
 
-    .line 100
+    .line 98
     add-int/lit8 v11, v5, 0x2
 
     aget-byte v11, p0, v11
@@ -744,31 +630,31 @@
 
     or-int/2addr v4, v11
 
-    .line 104
+    .line 102
     and-int/lit8 v3, v4, 0x3f
 
-    .line 105
+    .line 103
     .local v3, "c3":I
     ushr-int/lit8 v4, v4, 0x6
 
-    .line 106
+    .line 104
     and-int/lit8 v2, v4, 0x3f
 
-    .line 107
+    .line 105
     .local v2, "c2":I
     ushr-int/lit8 v4, v4, 0x6
 
-    .line 108
+    .line 106
     and-int/lit8 v1, v4, 0x3f
 
-    .line 109
+    .line 107
     .local v1, "c1":I
     ushr-int/lit8 v4, v4, 0x6
 
-    .line 110
+    .line 108
     and-int/lit8 v0, v4, 0x3f
 
-    .line 114
+    .line 112
     .local v0, "c0":I
     sget-object v11, Lcom/gamevil/nexus2/xml/Base64Nexus2;->valueToChar:[C
 
@@ -776,33 +662,33 @@
 
     invoke-virtual {v10, v11}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
-    .line 115
+    .line 113
     sget-object v11, Lcom/gamevil/nexus2/xml/Base64Nexus2;->valueToChar:[C
 
     aget-char v11, v11, v1
 
     invoke-virtual {v10, v11}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
-    .line 116
+    .line 114
     sget-object v11, Lcom/gamevil/nexus2/xml/Base64Nexus2;->valueToChar:[C
 
     aget-char v11, v11, v2
 
     invoke-virtual {v10, v11}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
-    .line 117
+    .line 115
     sget-object v11, Lcom/gamevil/nexus2/xml/Base64Nexus2;->valueToChar:[C
 
     aget-char v11, v11, v3
 
     invoke-virtual {v10, v11}, Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
 
-    .line 79
+    .line 77
     add-int/lit8 v5, v5, 0x3
 
     goto/16 :goto_0
 
-    .line 134
+    .line 132
     .end local v0    # "c0":I
     .end local v1    # "c1":I
     .end local v2    # "c2":I
@@ -811,25 +697,25 @@
     :pswitch_0
     add-int/lit8 v8, v8, 0x4
 
-    .line 135
+    .line 133
     sget v11, Lcom/gamevil/nexus2/xml/Base64Nexus2;->lineLength:I
 
     if-le v8, v11, :cond_4
 
-    .line 136
+    .line 134
     const/4 v8, 0x0
 
-    .line 137
+    .line 135
     sget v11, Lcom/gamevil/nexus2/xml/Base64Nexus2;->lineLength:I
 
     if-eqz v11, :cond_4
 
-    .line 138
+    .line 136
     sget-object v11, Lcom/gamevil/nexus2/xml/Base64Nexus2;->lineSeparator:Ljava/lang/String;
 
     invoke-virtual {v10, v11}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 144
+    .line 142
     :cond_4
     const/4 v11, 0x3
 
@@ -855,36 +741,36 @@
 
     invoke-virtual {v10, v11}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 145
+    .line 143
     const-string v11, "=="
 
     invoke-virtual {v10, v11}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     goto/16 :goto_1
 
-    .line 153
+    .line 151
     :pswitch_1
     add-int/lit8 v8, v8, 0x4
 
-    .line 154
+    .line 152
     sget v11, Lcom/gamevil/nexus2/xml/Base64Nexus2;->lineLength:I
 
     if-le v8, v11, :cond_5
 
-    .line 155
+    .line 153
     const/4 v8, 0x0
 
-    .line 156
+    .line 154
     sget v11, Lcom/gamevil/nexus2/xml/Base64Nexus2;->lineLength:I
 
     if-eqz v11, :cond_5
 
-    .line 157
+    .line 155
     sget-object v11, Lcom/gamevil/nexus2/xml/Base64Nexus2;->lineSeparator:Ljava/lang/String;
 
     invoke-virtual {v10, v11}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 163
+    .line 161
     :cond_5
     const/4 v11, 0x3
 
@@ -910,24 +796,24 @@
 
     const/4 v12, 0x0
 
-    .line 164
+    .line 162
     const/4 v13, 0x3
 
-    .line 163
+    .line 161
     invoke-virtual {v11, v12, v13}, Ljava/lang/String;->substring(II)Ljava/lang/String;
 
     move-result-object v11
 
     invoke-virtual {v10, v11}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
-    .line 165
+    .line 163
     const-string v11, "="
 
     invoke-virtual {v10, v11}, Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
 
     goto/16 :goto_1
 
-    .line 121
+    .line 119
     nop
 
     :pswitch_data_0
@@ -944,28 +830,28 @@
     .prologue
     const/4 v8, 0x3
 
-    .line 350
+    .line 348
     new-array v0, v8, [B
 
     fill-array-data v0, :array_0
 
-    .line 351
+    .line 349
     .local v0, "a":[B
     new-array v1, v8, [B
 
     fill-array-data v1, :array_1
 
-    .line 352
+    .line 350
     .local v1, "b":[B
     new-array v2, v8, [B
 
-    .line 353
+    .line 351
     .local v2, "c":[B
     new-array v3, v8, [B
 
     fill-array-data v3, :array_2
 
-    .line 354
+    .line 352
     .local v3, "d":[B
     const/4 v8, 0x4
 
@@ -973,7 +859,7 @@
 
     fill-array-data v4, :array_3
 
-    .line 355
+    .line 353
     .local v4, "e":[B
     const/4 v8, 0x5
 
@@ -981,7 +867,7 @@
 
     fill-array-data v5, :array_4
 
-    .line 357
+    .line 355
     .local v5, "f":[B
     const/4 v8, 0x6
 
@@ -989,7 +875,7 @@
 
     fill-array-data v6, :array_5
 
-    .line 359
+    .line 357
     .local v6, "g":[B
     const-string v8, "AAAAAAAAAAB"
 
@@ -997,32 +883,32 @@
 
     move-result-object v7
 
-    .line 361
+    .line 359
     .local v7, "h":[B
     invoke-static {v0}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 362
+    .line 360
     invoke-static {v1}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 363
+    .line 361
     invoke-static {v2}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 364
+    .line 362
     invoke-static {v3}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 365
+    .line 363
     invoke-static {v4}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 366
+    .line 364
     invoke-static {v5}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 367
+    .line 365
     invoke-static {v6}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 368
+    .line 366
     invoke-static {v7}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 370
+    .line 368
     invoke-static {v0}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->encode([B)Ljava/lang/String;
 
     move-result-object v8
@@ -1033,7 +919,7 @@
 
     invoke-static {v8}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 371
+    .line 369
     invoke-static {v1}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->encode([B)Ljava/lang/String;
 
     move-result-object v8
@@ -1044,7 +930,7 @@
 
     invoke-static {v8}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 372
+    .line 370
     invoke-static {v2}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->encode([B)Ljava/lang/String;
 
     move-result-object v8
@@ -1055,7 +941,7 @@
 
     invoke-static {v8}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 373
+    .line 371
     invoke-static {v3}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->encode([B)Ljava/lang/String;
 
     move-result-object v8
@@ -1066,7 +952,7 @@
 
     invoke-static {v8}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 374
+    .line 372
     invoke-static {v4}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->encode([B)Ljava/lang/String;
 
     move-result-object v8
@@ -1077,7 +963,7 @@
 
     invoke-static {v8}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 375
+    .line 373
     invoke-static {v5}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->encode([B)Ljava/lang/String;
 
     move-result-object v8
@@ -1088,7 +974,7 @@
 
     invoke-static {v8}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 376
+    .line 374
     invoke-static {v6}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->encode([B)Ljava/lang/String;
 
     move-result-object v8
@@ -1099,7 +985,7 @@
 
     invoke-static {v8}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 377
+    .line 375
     invoke-static {v7}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->encode([B)Ljava/lang/String;
 
     move-result-object v8
@@ -1110,12 +996,12 @@
 
     invoke-static {v8}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 378
+    .line 376
     const/16 v8, 0x8
 
     invoke-static {v8}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->setLineLength(I)V
 
-    .line 379
+    .line 377
     invoke-static {v7}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->encode([B)Ljava/lang/String;
 
     move-result-object v8
@@ -1126,10 +1012,10 @@
 
     invoke-static {v8}, Lcom/gamevil/nexus2/xml/Base64Nexus2;->show([B)V
 
-    .line 381
+    .line 379
     return-void
 
-    .line 350
+    .line 348
     nop
 
     :array_0
@@ -1139,7 +1025,7 @@
         -0x40t
     .end array-data
 
-    .line 351
+    .line 349
     :array_1
     .array-data 1
         0x3t
@@ -1147,7 +1033,7 @@
         0x3ft
     .end array-data
 
-    .line 353
+    .line 351
     :array_2
     .array-data 1
         -0x1t
@@ -1155,7 +1041,7 @@
         -0x1t
     .end array-data
 
-    .line 354
+    .line 352
     :array_3
     .array-data 1
         -0x4t
@@ -1164,7 +1050,7 @@
         0x1t
     .end array-data
 
-    .line 355
+    .line 353
     :array_4
     .array-data 1
         -0x4t
@@ -1174,7 +1060,7 @@
         0x2t
     .end array-data
 
-    .line 357
+    .line 355
     nop
 
     :array_5
@@ -1193,23 +1079,23 @@
     .param p0, "length"    # I
 
     .prologue
-    .line 287
+    .line 285
     div-int/lit8 v0, p0, 0x4
 
     mul-int/lit8 v0, v0, 0x4
 
     sput v0, Lcom/gamevil/nexus2/xml/Base64Nexus2;->lineLength:I
 
-    .line 288
+    .line 286
     return-void
 .end method
 
 .method public static show([B)V
-    .locals 4
+    .locals 2
     .param p0, "b"    # [B
 
     .prologue
-    .line 337
+    .line 335
     const/4 v0, 0x0
 
     .local v0, "i":I
@@ -1218,47 +1104,11 @@
 
     if-lt v0, v1, :cond_0
 
-    .line 340
-    sget-object v1, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    invoke-virtual {v1}, Ljava/io/PrintStream;->println()V
-
-    .line 341
+    .line 339
     return-void
 
-    .line 338
+    .line 335
     :cond_0
-    sget-object v1, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v2, Ljava/lang/StringBuilder;
-
-    aget-byte v3, p0, v0
-
-    and-int/lit16 v3, v3, 0xff
-
-    invoke-static {v3}, Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-static {v3}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
-
-    move-result-object v3
-
-    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    const-string v3, " "
-
-    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v2
-
-    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v2
-
-    invoke-virtual {v1, v2}, Ljava/io/PrintStream;->print(Ljava/lang/String;)V
-
-    .line 337
     add-int/lit8 v0, v0, 0x1
 
     goto :goto_0

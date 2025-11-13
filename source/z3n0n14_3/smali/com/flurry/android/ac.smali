@@ -3,24 +3,24 @@
 .source "SourceFile"
 
 # interfaces
-.implements Landroid/view/View$OnFocusChangeListener;
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field private synthetic a:Landroid/widget/TextView;
+.field private synthetic a:Ljava/lang/String;
 
-.field private synthetic b:Lcom/flurry/android/ab;
+.field private synthetic b:Lcom/flurry/android/q;
 
 
 # direct methods
-.method constructor <init>(Lcom/flurry/android/ab;Landroid/widget/TextView;)V
+.method constructor <init>(Lcom/flurry/android/q;Ljava/lang/String;)V
     .locals 0
 
     .prologue
-    .line 245
-    iput-object p1, p0, Lcom/flurry/android/ac;->b:Lcom/flurry/android/ab;
+    .line 328
+    iput-object p1, p0, Lcom/flurry/android/ac;->b:Lcom/flurry/android/q;
 
-    iput-object p2, p0, Lcom/flurry/android/ac;->a:Landroid/widget/TextView;
+    iput-object p2, p0, Lcom/flurry/android/ac;->a:Ljava/lang/String;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -29,35 +29,31 @@
 
 
 # virtual methods
-.method public final onFocusChange(Landroid/view/View;Z)V
+.method public final run()V
     .locals 2
 
     .prologue
-    .line 249
-    if-eqz p2, :cond_0
+    .line 333
+    new-instance v0, Lcom/flurry/android/CallbackEvent;
 
-    iget-object v0, p0, Lcom/flurry/android/ac;->b:Lcom/flurry/android/ab;
+    const/16 v1, 0x65
 
-    invoke-static {v0}, Lcom/flurry/android/ab;->a(Lcom/flurry/android/ab;)Landroid/text/SpannedString;
+    invoke-direct {v0, v1}, Lcom/flurry/android/CallbackEvent;-><init>(I)V
 
-    move-result-object v0
+    .line 334
+    iget-object v1, p0, Lcom/flurry/android/ac;->a:Ljava/lang/String;
 
-    .line 250
-    :goto_0
-    iget-object v1, p0, Lcom/flurry/android/ac;->a:Landroid/widget/TextView;
+    invoke-virtual {v0, v1}, Lcom/flurry/android/CallbackEvent;->setMessage(Ljava/lang/String;)V
 
-    invoke-virtual {v1, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+    .line 335
+    iget-object v1, p0, Lcom/flurry/android/ac;->b:Lcom/flurry/android/q;
 
-    .line 251
+    invoke-static {v1}, Lcom/flurry/android/q;->a(Lcom/flurry/android/q;)Lcom/flurry/android/AppCircleCallback;
+
+    move-result-object v1
+
+    invoke-interface {v1, v0}, Lcom/flurry/android/AppCircleCallback;->onMarketAppLaunchError(Lcom/flurry/android/CallbackEvent;)V
+
+    .line 336
     return-void
-
-    .line 249
-    :cond_0
-    iget-object v0, p0, Lcom/flurry/android/ac;->b:Lcom/flurry/android/ab;
-
-    invoke-static {v0}, Lcom/flurry/android/ab;->b(Lcom/flurry/android/ab;)Landroid/text/SpannedString;
-
-    move-result-object v0
-
-    goto :goto_0
 .end method

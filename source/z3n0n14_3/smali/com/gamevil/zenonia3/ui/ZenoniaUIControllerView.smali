@@ -1,12 +1,10 @@
 .class public Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
-.super Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+.super Lcom/gamevil/nexus2/ui/UIControllerView;
 .source "ZenoniaUIControllerView.java"
 
 
 # static fields
 .field public static final UI_STATUS_ABOUT:I = 0x5
-
-.field public static final UI_STATUS_ABOUT_JPN:I = 0x1e
 
 .field public static final UI_STATUS_CERTIFICATION:I = 0xc
 
@@ -37,10 +35,6 @@
 .field public static final UI_STATUS_GAME_LOADING:I = 0x6
 
 .field public static final UI_STATUS_HELP:I = 0x4
-
-.field public static final UI_STATUS_HELP_CHIN:I = 0x16
-
-.field public static final UI_STATUS_HELP_JPN:I = 0x15
 
 .field public static final UI_STATUS_HELP_KOR:I = 0x14
 
@@ -82,19 +76,9 @@
 
 .field private final about_Url:Ljava/lang/String;
 
-.field private final about_Url_chin:Ljava/lang/String;
-
-.field private final about_Url_jpn:Ljava/lang/String;
-
-.field private final about_Url_kor:Ljava/lang/String;
-
 .field fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
-.field private final helpUrl_chin:Ljava/lang/String;
-
 .field private final helpUrl_eng:Ljava/lang/String;
-
-.field private final helpUrl_jap:Ljava/lang/String;
 
 .field private final helpUrl_kor:Ljava/lang/String;
 
@@ -122,8 +106,6 @@
 
 .field touch_blink:Z
 
-.field public txtCS:Landroid/widget/TextView;
-
 .field ui_title_logo:Landroid/widget/ImageView;
 
 .field ui_title_logo_index:I
@@ -134,14 +116,14 @@
     .locals 1
 
     .prologue
-    .line 1063
+    .line 966
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
 
     sput-object v0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mRateHandler:Landroid/os/Handler;
 
-    .line 76
+    .line 67
     return-void
 .end method
 
@@ -150,92 +132,67 @@
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 171
-    invoke-direct {p0, p1}, Lcom/gamevil/nexus2/ui/NeoUIControllerView;-><init>(Landroid/content/Context;)V
+    .line 155
+    invoke-direct {p0, p1}, Lcom/gamevil/nexus2/ui/UIControllerView;-><init>(Landroid/content/Context;)V
 
-    .line 125
+    .line 116
     const-string v0, "file:///android_asset/html/help_eng.html"
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->helpUrl_eng:Ljava/lang/String;
 
-    .line 126
+    .line 117
     const-string v0, "file:///android_asset/html/help_kor.html"
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->helpUrl_kor:Ljava/lang/String;
 
-    .line 128
-    const-string v0, "file:///android_asset/html/help_jpn.html"
-
-    iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->helpUrl_jap:Ljava/lang/String;
-
-    .line 129
-    const-string v0, "file:///android_asset/html/help_chin.html"
-
-    iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->helpUrl_chin:Ljava/lang/String;
-
-    .line 130
+    .line 118
     const-string v0, "file:///android_asset/html/about.html"
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->about_Url:Ljava/lang/String;
 
-    .line 133
-    const-string v0, "file:///android_asset/html/about_kor.html"
-
-    iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->about_Url_kor:Ljava/lang/String;
-
-    .line 134
-    const-string v0, "file:///android_asset/html/about_jpn.html"
-
-    iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->about_Url_jpn:Ljava/lang/String;
-
-    .line 135
-    const-string v0, "file:///android_asset/html/about_chin.html"
-
-    iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->about_Url_chin:Ljava/lang/String;
-
-    .line 137
+    .line 121
     const/4 v0, 0x1
 
     iput v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->WEBVIEW_OFFSET_LEFTMARGIN:I
 
-    .line 138
+    .line 122
     const/4 v0, 0x5
 
     iput v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->WEBVIEW_OFFSET_TOPMARGIN:I
 
-    .line 139
+    .line 123
     const/16 v0, 0x12c
 
     iput v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->WEBVIEW_OFFSET_WIDTH:I
 
-    .line 140
+    .line 124
     const/16 v0, 0x92
 
     iput v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->WEBVIEW_OFFSET_HEIGHT:I
 
-    .line 143
+    .line 127
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->ui_title_logo_index:I
 
-    .line 283
+    .line 267
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
-    .line 284
+    .line 268
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler2:Landroid/os/Handler;
 
-    .line 172
+    .line 156
     iput-object p1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mContext:Landroid/content/Context;
 
-    .line 175
+    .line 159
     return-void
 .end method
 
@@ -245,92 +202,67 @@
     .param p2, "attrs"    # Landroid/util/AttributeSet;
 
     .prologue
-    .line 179
-    invoke-direct {p0, p1, p2}, Lcom/gamevil/nexus2/ui/NeoUIControllerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    .line 163
+    invoke-direct {p0, p1, p2}, Lcom/gamevil/nexus2/ui/UIControllerView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
-    .line 125
+    .line 116
     const-string v0, "file:///android_asset/html/help_eng.html"
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->helpUrl_eng:Ljava/lang/String;
 
-    .line 126
+    .line 117
     const-string v0, "file:///android_asset/html/help_kor.html"
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->helpUrl_kor:Ljava/lang/String;
 
-    .line 128
-    const-string v0, "file:///android_asset/html/help_jpn.html"
-
-    iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->helpUrl_jap:Ljava/lang/String;
-
-    .line 129
-    const-string v0, "file:///android_asset/html/help_chin.html"
-
-    iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->helpUrl_chin:Ljava/lang/String;
-
-    .line 130
+    .line 118
     const-string v0, "file:///android_asset/html/about.html"
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->about_Url:Ljava/lang/String;
 
-    .line 133
-    const-string v0, "file:///android_asset/html/about_kor.html"
-
-    iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->about_Url_kor:Ljava/lang/String;
-
-    .line 134
-    const-string v0, "file:///android_asset/html/about_jpn.html"
-
-    iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->about_Url_jpn:Ljava/lang/String;
-
-    .line 135
-    const-string v0, "file:///android_asset/html/about_chin.html"
-
-    iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->about_Url_chin:Ljava/lang/String;
-
-    .line 137
+    .line 121
     const/4 v0, 0x1
 
     iput v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->WEBVIEW_OFFSET_LEFTMARGIN:I
 
-    .line 138
+    .line 122
     const/4 v0, 0x5
 
     iput v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->WEBVIEW_OFFSET_TOPMARGIN:I
 
-    .line 139
+    .line 123
     const/16 v0, 0x12c
 
     iput v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->WEBVIEW_OFFSET_WIDTH:I
 
-    .line 140
+    .line 124
     const/16 v0, 0x92
 
     iput v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->WEBVIEW_OFFSET_HEIGHT:I
 
-    .line 143
+    .line 127
     const/4 v0, 0x0
 
     iput v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->ui_title_logo_index:I
 
-    .line 283
+    .line 267
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
-    .line 284
+    .line 268
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler2:Landroid/os/Handler;
 
-    .line 180
+    .line 164
     iput-object p1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mContext:Landroid/content/Context;
 
-    .line 181
+    .line 165
     return-void
 .end method
 
@@ -338,7 +270,7 @@
     .locals 0
 
     .prologue
-    .line 167
+    .line 151
     iput-object p1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->pl:Landroid/widget/FrameLayout$LayoutParams;
 
     return-void
@@ -348,7 +280,7 @@
     .locals 1
 
     .prologue
-    .line 167
+    .line 151
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->pl:Landroid/widget/FrameLayout$LayoutParams;
 
     return-object v0
@@ -358,7 +290,7 @@
     .locals 2
 
     .prologue
-    .line 978
+    .line 884
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$12;
@@ -367,7 +299,7 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 993
+    .line 896
     return-void
 .end method
 
@@ -375,7 +307,7 @@
     .locals 2
 
     .prologue
-    .line 923
+    .line 854
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$10;
@@ -384,7 +316,7 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 933
+    .line 864
     return-void
 .end method
 
@@ -392,7 +324,7 @@
     .locals 2
 
     .prologue
-    .line 1036
+    .line 939
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$14;
@@ -401,7 +333,7 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 1057
+    .line 960
     return-void
 .end method
 
@@ -409,7 +341,7 @@
     .locals 2
 
     .prologue
-    .line 854
+    .line 795
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$8;
@@ -418,7 +350,7 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 873
+    .line 812
     return-void
 .end method
 
@@ -426,7 +358,7 @@
     .locals 2
 
     .prologue
-    .line 833
+    .line 775
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$7;
@@ -435,7 +367,7 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 850
+    .line 791
     return-void
 .end method
 
@@ -443,7 +375,7 @@
     .locals 2
 
     .prologue
-    .line 811
+    .line 753
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$6;
@@ -452,7 +384,7 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 829
+    .line 771
     return-void
 .end method
 
@@ -460,7 +392,7 @@
     .locals 2
 
     .prologue
-    .line 793
+    .line 732
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$5;
@@ -469,25 +401,24 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 807
+    .line 749
     return-void
 .end method
 
-.method private showAboutView(I)V
+.method private showAboutView()V
     .locals 2
-    .param p1, "lng"    # I
 
     .prologue
-    .line 937
+    .line 869
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$11;
 
-    invoke-direct {v1, p0, p1}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$11;-><init>(Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;I)V
+    invoke-direct {v1, p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$11;-><init>(Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;)V
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 974
+    .line 880
     return-void
 .end method
 
@@ -496,7 +427,7 @@
     .param p1, "lng"    # I
 
     .prologue
-    .line 882
+    .line 821
     new-instance v0, Ljava/lang/StringBuilder;
 
     const-string v1, "##ShowHelpView## : "
@@ -515,7 +446,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 884
+    .line 823
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$9;
@@ -524,7 +455,7 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 918
+    .line 849
     return-void
 .end method
 
@@ -532,7 +463,7 @@
     .locals 2
 
     .prologue
-    .line 998
+    .line 901
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$13;
@@ -541,27 +472,18 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 1032
+    .line 935
     return-void
 .end method
 
 
 # virtual methods
 .method public OnEvent(I)V
-    .locals 1
+    .locals 0
     .param p1, "event"    # I
 
     .prologue
-    .line 694
-    const/4 v0, 0x4
-
-    if-ne p1, v0, :cond_0
-
-    .line 696
-    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setTextInputInvisible()V
-
-    .line 698
-    :cond_0
+    .line 640
     return-void
 .end method
 
@@ -572,39 +494,39 @@
     .param p3, "isLoop"    # Z
 
     .prologue
-    .line 764
+    .line 703
     if-nez p2, :cond_0
 
     if-eqz p3, :cond_0
 
-    .line 766
+    .line 705
     invoke-static {}, Lcom/gamevil/nexus2/ui/NexusSound;->stopBGMSound()V
 
-    .line 779
+    .line 718
     :goto_0
     return-void
 
-    .line 769
+    .line 708
     :cond_0
     div-int/lit8 v0, p2, 0xa
 
     invoke-static {v0}, Lcom/gamevil/nexus2/ui/NexusSound;->setVolume(I)V
 
-    .line 771
+    .line 710
     if-lez p1, :cond_1
 
     const/16 v0, 0xf
 
     if-gt p1, v0, :cond_1
 
-    .line 773
+    .line 712
     invoke-static {p1}, Lcom/gamevil/nexus2/ui/NexusSound;->playSFXSound(I)V
 
     goto :goto_0
 
-    .line 777
+    .line 716
     :cond_1
-    const v0, 0x7f060001
+    const/high16 v0, 0x7f050000
 
     add-int/2addr v0, p1
 
@@ -617,44 +539,22 @@
     .locals 0
 
     .prologue
-    .line 783
+    .line 722
     invoke-static {}, Lcom/gamevil/nexus2/ui/NexusSound;->stopAllSound()V
 
-    .line 784
+    .line 723
     return-void
 .end method
 
 .method public OnUIStatusChange(I)V
-    .locals 3
+    .locals 0
     .param p1, "status"    # I
 
     .prologue
-    .line 746
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "==== changeUIStatus 5 "
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 747
-    sput p1, Lcom/gamevil/nexus2/Natives;->saveUiStatus:I
-
-    .line 748
+    .line 688
     invoke-virtual {p0, p1}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->changeUIStatus(I)V
 
-    .line 750
+    .line 689
     return-void
 .end method
 
@@ -663,144 +563,30 @@
     .param p1, "time"    # I
 
     .prologue
-    .line 788
+    .line 727
     invoke-static {p1}, Lcom/gamevil/nexus2/ui/NexusSound;->Vibrator(I)V
 
-    .line 789
+    .line 728
     return-void
 .end method
 
 .method public changeUIStatus(I)V
-    .locals 3
+    .locals 1
     .param p1, "_status"    # I
 
     .prologue
-    .line 338
-    const/16 v0, 0x115c
-
-    if-ne p1, v0, :cond_0
-
-    .line 340
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "==== [4444]changeUIStatus 4 "
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    sget v2, Lcom/gamevil/nexus2/Natives;->saveUiStatus:I
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 346
-    :goto_0
+    .line 320
     iput p1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->uiStatus:I
 
-    .line 347
+    .line 321
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->isStatusChanging:Z
 
-    .line 348
+    .line 322
     invoke-virtual {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideAllUI()V
 
-    .line 349
-    return-void
-
-    .line 343
-    :cond_0
-    sput p1, Lcom/gamevil/nexus2/Natives;->saveUiStatus:I
-
-    .line 344
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "==== changeUIStatus 4 "
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    goto :goto_0
-.end method
-
-.method public changeUIStatusZenonia(I)V
-    .locals 3
-    .param p1, "_status"    # I
-
-    .prologue
-    .line 351
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "==== changeUIStatus 6 "
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 352
-    iput p1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->uiStatus:I
-
-    .line 353
-    const/4 v0, 0x1
-
-    iput-boolean v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->isStatusChanging:Z
-
-    .line 354
-    invoke-virtual {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideAllUI()V
-
-    .line 355
-    const-class v0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
-
-    invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
-
-    move-result-object v0
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "#################### changeUIStatusZenonia %d ####################"
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 356
+    .line 323
     return-void
 .end method
 
@@ -808,14 +594,14 @@
     .locals 4
 
     .prologue
-    .line 324
+    .line 307
     iget-object v3, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
     invoke-virtual {v3}, Lcom/gamevil/nexus2/ui/NxArray;->getElemetsSize()I
 
     move-result v2
 
-    .line 325
+    .line 308
     .local v2, "_subViewSize":I
     const/4 v1, 0x0
 
@@ -823,16 +609,13 @@
     :goto_0
     if-lt v1, v2, :cond_0
 
-    .line 332
+    .line 315
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setTextInputInvisible()V
 
-    .line 333
-    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setNumberInputInvisible()V
-
-    .line 334
+    .line 316
     return-void
 
-    .line 326
+    .line 309
     :cond_0
     iget-object v3, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
@@ -840,25 +623,25 @@
 
     move-result-object v0
 
-    check-cast v0, Lcom/gamevil/nexus2/ui/NeoUIArea;
+    check-cast v0, Lcom/gamevil/nexus2/ui/UIArea;
 
-    .line 327
-    .local v0, "_area":Lcom/gamevil/nexus2/ui/NeoUIArea;
-    iget-boolean v3, v0, Lcom/gamevil/nexus2/ui/NeoUIArea;->mIsHidden:Z
+    .line 310
+    .local v0, "_area":Lcom/gamevil/nexus2/ui/UIArea;
+    iget-boolean v3, v0, Lcom/gamevil/nexus2/ui/UIArea;->mIsHidden:Z
 
     if-nez v3, :cond_1
 
-    .line 328
+    .line 311
     const/4 v3, 0x1
 
-    invoke-virtual {v0, v3}, Lcom/gamevil/nexus2/ui/NeoUIArea;->setIsHidden(Z)V
+    invoke-virtual {v0, v3}, Lcom/gamevil/nexus2/ui/UIArea;->setIsHidden(Z)V
 
-    .line 329
+    .line 312
     const/4 v3, 0x0
 
-    iput v3, v0, Lcom/gamevil/nexus2/ui/NeoUIArea;->mStatus:I
+    iput v3, v0, Lcom/gamevil/nexus2/ui/UIArea;->mStatus:I
 
-    .line 325
+    .line 308
     :cond_1
     add-int/lit8 v1, v1, 0x1
 
@@ -869,7 +652,7 @@
     .locals 2
 
     .prologue
-    .line 1092
+    .line 995
     sget-object v0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mRateHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$17;
@@ -878,63 +661,22 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 1104
+    .line 1007
     return-void
 .end method
 
-.method protected onDraw(Landroid/graphics/Canvas;)V
-    .locals 3
-    .param p1, "canvas"    # Landroid/graphics/Canvas;
+.method public initialize()V
+    .locals 4
 
     .prologue
-    .line 308
-    iget v1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->uiStatus:I
-
-    if-nez v1, :cond_0
-
-    .line 310
-    iget-object v1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
-
-    if-eqz v1, :cond_0
-
-    .line 312
-    iget-object v1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
+    const/4 v3, 0x1
 
     const/4 v2, 0x0
 
-    invoke-virtual {v1, v2}, Lcom/gamevil/nexus2/ui/NxArray;->getElement(I)Ljava/lang/Object;
-
-    move-result-object v0
-
-    check-cast v0, Lcom/gamevil/nexus2/ui/NeoUIArea;
-
-    .line 313
-    .local v0, "_area":Lcom/gamevil/nexus2/ui/NeoUIArea;
-    if-eqz v0, :cond_0
-
-    iget-boolean v1, v0, Lcom/gamevil/nexus2/ui/NeoUIArea;->mIsHidden:Z
-
-    if-nez v1, :cond_0
-
-    .line 314
-    invoke-virtual {v0, p1}, Lcom/gamevil/nexus2/ui/NeoUIArea;->onDraw(Landroid/graphics/Canvas;)V
-
-    .line 320
-    .end local v0    # "_area":Lcom/gamevil/nexus2/ui/NeoUIArea;
-    :cond_0
-    return-void
-.end method
-
-.method public onInitialize()V
-    .locals 3
-
-    .prologue
-    const/4 v2, 0x0
-
-    .line 189
+    .line 173
     sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    const v1, 0x7f080051
+    const v1, 0x7f07003a
 
     invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
 
@@ -944,10 +686,10 @@
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->imgRate:Landroid/widget/ImageView;
 
-    .line 193
+    .line 177
     sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    const v1, 0x7f080027
+    const v1, 0x7f070022
 
     invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
 
@@ -957,7 +699,7 @@
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->ui_title_logo:Landroid/widget/ImageView;
 
-    .line 196
+    .line 180
     sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
     const v1, 0x1010002
@@ -970,7 +712,7 @@
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->helpWebView:Landroid/webkit/WebView;
 
-    .line 197
+    .line 181
     sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
     const v1, 0x1010003
@@ -983,50 +725,55 @@
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->aboutWebView:Landroid/webkit/WebView;
 
-    .line 201
+    .line 185
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->helpWebView:Landroid/webkit/WebView;
 
     invoke-virtual {v0, v2}, Landroid/webkit/WebView;->setBackgroundColor(I)V
 
-    .line 202
+    .line 186
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->aboutWebView:Landroid/webkit/WebView;
 
     invoke-virtual {v0, v2}, Landroid/webkit/WebView;->setBackgroundColor(I)V
 
-    .line 204
+    .line 188
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->aboutWebView:Landroid/webkit/WebView;
 
     invoke-virtual {v0, v2}, Landroid/webkit/WebView;->setHorizontalScrollBarEnabled(Z)V
 
-    .line 205
+    .line 189
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->helpWebView:Landroid/webkit/WebView;
 
     invoke-virtual {v0, v2}, Landroid/webkit/WebView;->setHorizontalScrollBarEnabled(Z)V
 
-    .line 210
+    .line 194
     iput v2, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->uiStatus:I
 
-    .line 212
+    .line 196
     new-instance v0, Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
     invoke-direct {v0}, Lcom/gamevil/zenonia3/ui/UIFullTouch;-><init>()V
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
-    .line 213
+    .line 197
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
     invoke-virtual {v0}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->initialize()V
 
-    .line 215
+    .line 198
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
-    invoke-virtual {p0, v0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->addSubView(Lcom/gamevil/nexus2/ui/NeoUIArea;)V
+    invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
 
-    .line 217
+    .line 199
+    iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
+
+    invoke-virtual {p0, v0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->addSubView(Lcom/gamevil/nexus2/ui/UIArea;)V
+
+    .line 201
     sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    const v1, 0x7f080018
+    const v1, 0x7f070018
 
     invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
 
@@ -1036,10 +783,10 @@
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->textInput:Lcom/gamevil/nexus2/ui/UIEditText;
 
-    .line 218
+    .line 202
     sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    const v1, 0x7f080019
+    const v1, 0x7f070019
 
     invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
 
@@ -1049,7 +796,7 @@
 
     iput-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->numberInput:Lcom/gamevil/nexus2/ui/UIEditNumber;
 
-    .line 220
+    .line 204
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$1;
@@ -1058,7 +805,7 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 265
+    .line 249
     sget-object v0, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     const-string v1, "Nexus One"
@@ -1079,7 +826,7 @@
 
     if-nez v0, :cond_0
 
-    .line 266
+    .line 250
     sget-object v0, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     const-string v1, "ADR6300"
@@ -1090,7 +837,7 @@
 
     if-nez v0, :cond_0
 
-    .line 267
+    .line 251
     sget-object v0, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
     const-string v1, "HTC Desire"
@@ -1101,28 +848,14 @@
 
     if-eqz v0, :cond_2
 
-    .line 269
+    .line 253
     :cond_0
     invoke-virtual {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->startBlock()V
 
-    .line 270
-    const/4 v0, 0x1
+    .line 254
+    invoke-static {v3}, Lcom/gamevil/nexus2/Natives;->NativeIsNexusOne(Z)V
 
-    :try_start_nexus1_cond0
-    invoke-static {v0}, Lcom/gamevil/nexus2/Natives;->NativeIsNexusOne(Z)V
-    :try_end_nexus1_cond0
-    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_nexus1_cond0 .. :try_end_nexus1_cond0} :catch_nexus1_cond0
-    .catch Ljava/lang/Exception; {:try_start_nexus1_cond0 .. :try_end_nexus1_cond0} :catch_nexus1_cond0
-
-    goto :goto_nexus1_cond0
-
-    :catch_nexus1_cond0
-    const-string v0, "ZenoniaUIControllerView"
-    const-string v1, "Warning: NativeIsNexusOne not available"
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    :goto_nexus1_cond0
-    .line 276
+    .line 260
     :goto_0
     sget-object v0, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
@@ -1134,32 +867,63 @@
 
     if-eqz v0, :cond_1
 
-    .line 278
+    .line 262
     const/16 v0, 0x1388
 
     invoke-static {v0, v2, v2, v2}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
 
-    .line 281
+    .line 265
     :cond_1
     return-void
 
-    .line 272
+    .line 256
     :cond_2
-    :try_start_nexus1_cond2
     invoke-static {v2}, Lcom/gamevil/nexus2/Natives;->NativeIsNexusOne(Z)V
-    :try_end_nexus1_cond2
-    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_nexus1_cond2 .. :try_end_nexus1_cond2} :catch_nexus1_cond2
-    .catch Ljava/lang/Exception; {:try_start_nexus1_cond2 .. :try_end_nexus1_cond2} :catch_nexus1_cond2
 
-    goto :goto_nexus1_cond2
-
-    :catch_nexus1_cond2
-    const-string v0, "ZenoniaUIControllerView"
-    const-string v1, "Warning: NativeIsNexusOne not available"
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    :goto_nexus1_cond2
     goto :goto_0
+.end method
+
+.method protected onDraw(Landroid/graphics/Canvas;)V
+    .locals 3
+    .param p1, "canvas"    # Landroid/graphics/Canvas;
+
+    .prologue
+    .line 292
+    iget v1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->uiStatus:I
+
+    if-nez v1, :cond_0
+
+    .line 294
+    iget-object v1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
+
+    if-eqz v1, :cond_0
+
+    .line 295
+    iget-object v1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
+
+    const/4 v2, 0x0
+
+    invoke-virtual {v1, v2}, Lcom/gamevil/nexus2/ui/NxArray;->getElement(I)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/gamevil/nexus2/ui/UIArea;
+
+    .line 296
+    .local v0, "_area":Lcom/gamevil/nexus2/ui/UIArea;
+    if-eqz v0, :cond_0
+
+    iget-boolean v1, v0, Lcom/gamevil/nexus2/ui/UIArea;->mIsHidden:Z
+
+    if-nez v1, :cond_0
+
+    .line 297
+    invoke-virtual {v0, p1}, Lcom/gamevil/nexus2/ui/UIArea;->onDraw(Landroid/graphics/Canvas;)V
+
+    .line 303
+    .end local v0    # "_area":Lcom/gamevil/nexus2/ui/UIArea;
+    :cond_0
+    return-void
 .end method
 
 .method public onKeyDown(ILandroid/view/KeyEvent;)Z
@@ -1170,7 +934,7 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 721
+    .line 663
     const-string v0, "ZenoniaUIController-onKeyDown"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -1195,12 +959,12 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 723
+    .line 665
     sget-object v0, Lcom/gamevil/nexus2/NexusGLRenderer;->m_renderer:Lcom/gamevil/nexus2/NexusGLRenderer;
 
     if-eqz v0, :cond_0
 
-    .line 725
+    .line 667
     sget-object v0, Lcom/gamevil/nexus2/NexusGLRenderer;->m_renderer:Lcom/gamevil/nexus2/NexusGLRenderer;
 
     const/4 v1, 0x2
@@ -1211,9 +975,9 @@
 
     invoke-virtual {v0, v1, v2, v3, v3}, Lcom/gamevil/nexus2/NexusGLRenderer;->setTouchEvent(IIII)V
 
-    .line 728
+    .line 670
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->onKeyDown(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Lcom/gamevil/nexus2/ui/UIControllerView;->onKeyDown(ILandroid/view/KeyEvent;)Z
 
     move-result v0
 
@@ -1228,7 +992,7 @@
     .prologue
     const/4 v3, 0x0
 
-    .line 734
+    .line 676
     const-string v0, "ZenoniaUIController-onKeyUp"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -1253,12 +1017,12 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 736
+    .line 678
     sget-object v0, Lcom/gamevil/nexus2/NexusGLRenderer;->m_renderer:Lcom/gamevil/nexus2/NexusGLRenderer;
 
     if-eqz v0, :cond_0
 
-    .line 738
+    .line 680
     sget-object v0, Lcom/gamevil/nexus2/NexusGLRenderer;->m_renderer:Lcom/gamevil/nexus2/NexusGLRenderer;
 
     const/4 v1, 0x3
@@ -1269,9 +1033,9 @@
 
     invoke-virtual {v0, v1, v2, v3, v3}, Lcom/gamevil/nexus2/NexusGLRenderer;->setTouchEvent(IIII)V
 
-    .line 741
+    .line 683
     :cond_0
-    invoke-super {p0, p1, p2}, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->onKeyUp(ILandroid/view/KeyEvent;)Z
+    invoke-super {p0, p1, p2}, Lcom/gamevil/nexus2/ui/UIControllerView;->onKeyUp(ILandroid/view/KeyEvent;)Z
 
     move-result v0
 
@@ -1279,34 +1043,51 @@
 .end method
 
 .method public onTouchEvent(Landroid/view/MotionEvent;)Z
-    .locals 1
+    .locals 3
     .param p1, "event"    # Landroid/view/MotionEvent;
 
     .prologue
-    .line 706
-    invoke-super {p0, p1}, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->onTouchEvent(Landroid/view/MotionEvent;)Z
+    .line 647
+    invoke-super {p0, p1}, Lcom/gamevil/nexus2/ui/UIControllerView;->sendTouchEvent(Landroid/view/MotionEvent;)V
 
-    .line 714
-    const/4 v0, 0x1
+    .line 651
+    const-wide/16 v1, 0x23
 
-    return v0
+    :try_start_0
+    invoke-static {v1, v2}, Ljava/lang/Thread;->sleep(J)V
+    :try_end_0
+    .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
+
+    .line 656
+    :goto_0
+    const/4 v1, 0x1
+
+    return v1
+
+    .line 652
+    :catch_0
+    move-exception v0
+
+    .line 654
+    .local v0, "e":Ljava/lang/InterruptedException;
+    invoke-virtual {v0}, Ljava/lang/InterruptedException;->printStackTrace()V
+
+    goto :goto_0
 .end method
 
 .method public setUIState()V
-    .locals 8
+    .locals 7
 
     .prologue
-    const v7, 0x12f0c28
+    const v6, 0x12f0c28
 
-    const/4 v6, 0x2
+    const/4 v5, 0x1
 
-    const v5, 0x7a120
-
-    const/4 v4, 0x1
+    const v4, 0x7a120
 
     const/4 v3, 0x0
 
-    .line 393
+    .line 340
     const-class v0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -1331,71 +1112,57 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 395
+    .line 341
     iget v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->uiStatus:I
 
     sparse-switch v0, :sswitch_data_0
 
-    .line 670
+    .line 616
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
     invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
 
-    .line 673
+    .line 619
     :goto_0
     return-void
 
-    .line 399
+    .line 347
     :sswitch_0
-    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setTextInputInvisible()V
-
-    .line 400
-    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setNumberInputInvisible()V
-
-    .line 401
-    iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
-
-    invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
-
-    goto :goto_0
-
-    .line 409
-    :sswitch_1
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideHelpView()V
 
-    .line 410
+    .line 348
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideAboutView()V
 
-    .line 412
+    .line 350
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideAboutComponent()V
 
-    .line 413
+    .line 351
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuComponent()V
 
-    .line 414
+    .line 352
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuItemComponent()V
 
-    .line 415
+    .line 353
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideHelpComponent()V
 
-    .line 417
+    .line 355
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->showUiTitleLogoView()V
 
-    .line 418
+    .line 356
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->showTitleComponent()V
 
-    .line 419
+    .line 357
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
     invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
 
     goto :goto_0
 
-    .line 422
-    :sswitch_2
-    invoke-static {v5, v3, v3, v3}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
+    .line 360
+    :sswitch_1
+    invoke-static {v4, v3, v3, v3}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
 
-    .line 423
+    .line 361
     const-class v0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     invoke-virtual {v0}, Ljava/lang/Class;->getName()Ljava/lang/String;
@@ -1406,282 +1173,303 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 425
+    .line 363
     invoke-virtual {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideRateComponent()V
 
-    .line 427
+    .line 365
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->showNewsView()V
 
-    .line 430
+    .line 368
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->ShowTapjoyOffer()V
 
-    .line 431
+    .line 369
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyAd()V
 
-    .line 433
-    invoke-static {v7, v3, v3, v3}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
+    .line 371
+    invoke-static {v6, v3, v3, v3}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
 
-    .line 435
+    .line 373
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideHelpView()V
 
-    .line 436
+    .line 374
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideAboutView()V
 
-    .line 437
+    .line 375
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideTitleComponent()V
 
-    .line 438
+    .line 376
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideHelpComponent()V
 
-    .line 439
+    .line 377
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideUiTitleLogoView()V
 
-    .line 440
+    .line 378
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideAboutComponent()V
 
-    .line 441
+    .line 379
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hidePurchaseComponent()V
 
-    .line 442
-    sput-boolean v4, Lcom/gamevil/nexus2/Natives;->reserveMenu:Z
+    .line 380
+    sput-boolean v5, Lcom/gamevil/nexus2/Natives;->reserveMenu:Z
 
-    .line 443
+    .line 381
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideReplyMoveComponent()V
 
-    .line 445
+    .line 383
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->showMenuComponent()V
 
-    .line 446
+    .line 384
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->showMenuItemComponent()V
 
-    .line 447
+    .line 385
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
     invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
 
     goto :goto_0
 
-    .line 451
-    :sswitch_3
-    invoke-virtual {p0, v3}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setUIStateHelp(I)V
-
-    goto :goto_0
-
-    .line 454
-    :sswitch_4
-    invoke-virtual {p0, v4}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setUIStateHelp(I)V
-
-    goto :goto_0
-
-    .line 457
-    :sswitch_5
-    invoke-virtual {p0, v6}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setUIStateHelp(I)V
-
-    goto :goto_0
-
-    .line 460
-    :sswitch_6
-    const/4 v0, 0x3
-
-    invoke-virtual {p0, v0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setUIStateHelp(I)V
-
-    goto :goto_0
-
-    .line 464
-    :sswitch_7
+    .line 390
+    :sswitch_2
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->hideNewsView()V
 
-    .line 468
+    .line 394
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyOffer()V
 
-    .line 469
+    .line 395
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyAd()V
 
-    .line 471
+    .line 397
     invoke-virtual {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideRateComponent()V
 
-    .line 472
-    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideHelpView()V
-
-    .line 473
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuComponent()V
-
-    .line 475
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuItemComponent()V
-
-    .line 476
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hidePurchaseComponent()V
-
-    .line 477
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideHelpComponent()V
-
-    .line 480
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->showAboutComponent()V
-
-    .line 481
-    invoke-direct {p0, v3}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->showAboutView(I)V
-
-    .line 482
-    iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
-
-    invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
-
-    goto/16 :goto_0
-
-    .line 486
-    :sswitch_8
-    invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->hideNewsView()V
-
-    .line 490
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyOffer()V
-
-    .line 491
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyAd()V
-
-    .line 493
-    invoke-virtual {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideRateComponent()V
-
-    .line 494
-    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideHelpView()V
-
-    .line 495
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuComponent()V
-
-    .line 497
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuItemComponent()V
-
-    .line 498
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hidePurchaseComponent()V
-
-    .line 499
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideHelpComponent()V
-
-    .line 502
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->showAboutComponent()V
-
-    .line 503
-    invoke-direct {p0, v6}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->showAboutView(I)V
-
-    .line 504
-    iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
-
-    invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
-
-    goto/16 :goto_0
-
-    .line 508
-    :sswitch_9
-    invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->showNewsView()V
-
-    .line 512
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->ShowTapjoyOffer()V
-
-    .line 514
-    iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
-
-    invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
-
-    goto/16 :goto_0
-
-    .line 518
-    :sswitch_a
-    invoke-static {v5, v3, v3, v3}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
-
-    .line 520
-    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideHelpView()V
-
-    .line 521
+    .line 398
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideAboutView()V
 
-    .line 522
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideHelpComponent()V
-
-    .line 524
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideAboutComponent()V
-
-    .line 525
+    .line 399
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuComponent()V
 
-    .line 526
+    .line 401
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuItemComponent()V
 
-    .line 527
+    .line 402
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hidePurchaseComponent()V
 
-    .line 528
+    .line 403
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideUiTitleLogoView()V
 
-    .line 529
-    invoke-virtual {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideRateComponent()V
+    .line 404
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideAboutComponent()V
 
-    .line 531
+    .line 407
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->showHelpComponent()V
+
+    .line 408
+    invoke-direct {p0, v3}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->showHelpView(I)V
+
+    .line 409
+    iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
+
+    invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
+
+    goto/16 :goto_0
+
+    .line 413
+    :sswitch_3
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->hideNewsView()V
 
-    .line 535
+    .line 417
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyOffer()V
 
-    .line 536
+    .line 418
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyAd()V
 
-    .line 538
+    .line 420
+    invoke-virtual {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideRateComponent()V
+
+    .line 421
+    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideAboutView()V
+
+    .line 422
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuComponent()V
+
+    .line 424
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuItemComponent()V
+
+    .line 425
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hidePurchaseComponent()V
+
+    .line 426
+    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideUiTitleLogoView()V
+
+    .line 427
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideAboutComponent()V
+
+    .line 430
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->showHelpComponent()V
+
+    .line 431
+    invoke-direct {p0, v5}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->showHelpView(I)V
+
+    .line 432
+    iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
+
+    invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
+
+    goto/16 :goto_0
+
+    .line 436
+    :sswitch_4
+    invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->hideNewsView()V
+
+    .line 440
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyOffer()V
+
+    .line 441
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyAd()V
+
+    .line 443
+    invoke-virtual {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideRateComponent()V
+
+    .line 444
+    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideHelpView()V
+
+    .line 445
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuComponent()V
+
+    .line 447
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuItemComponent()V
+
+    .line 448
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hidePurchaseComponent()V
+
+    .line 449
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideHelpComponent()V
+
+    .line 452
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->showAboutComponent()V
+
+    .line 453
+    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->showAboutView()V
+
+    .line 454
+    iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
+
+    invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
+
+    goto/16 :goto_0
+
+    .line 458
+    :sswitch_5
+    invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->showNewsView()V
+
+    .line 462
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->ShowTapjoyOffer()V
+
+    .line 464
+    iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
+
+    invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
+
+    goto/16 :goto_0
+
+    .line 468
+    :sswitch_6
+    invoke-static {v4, v3, v3, v3}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
+
+    .line 470
+    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideHelpView()V
+
+    .line 471
+    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideAboutView()V
+
+    .line 472
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideHelpComponent()V
+
+    .line 474
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideAboutComponent()V
+
+    .line 475
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuComponent()V
+
+    .line 476
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuItemComponent()V
+
+    .line 477
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hidePurchaseComponent()V
+
+    .line 478
+    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideUiTitleLogoView()V
+
+    .line 479
+    invoke-virtual {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideRateComponent()V
+
+    .line 481
+    invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->hideNewsView()V
+
+    .line 485
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyOffer()V
+
+    .line 486
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyAd()V
+
+    .line 488
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideReplyMoveComponent()V
 
-    .line 539
+    .line 489
     sput-boolean v3, Lcom/gamevil/nexus2/Natives;->reserveMenu:Z
 
-    .line 542
+    .line 492
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
     invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
 
     goto/16 :goto_0
 
-    .line 545
-    :sswitch_b
+    .line 495
+    :sswitch_7
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setTextInputVisible()V
 
-    .line 546
+    .line 496
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
     invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
 
     goto/16 :goto_0
 
-    .line 550
-    :sswitch_c
+    .line 500
+    :sswitch_8
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setNumberInputVisible()V
 
-    .line 551
+    .line 501
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
     invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
 
     goto/16 :goto_0
 
-    .line 555
-    :sswitch_d
+    .line 505
+    :sswitch_9
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setNumberInputInvisible()V
 
-    .line 556
+    .line 506
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
     invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
 
     goto/16 :goto_0
 
-    .line 560
-    :sswitch_e
+    .line 510
+    :sswitch_a
     sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
     invoke-virtual {v0}, Lcom/gamevil/nexus2/NexusGLActivity;->finishApp()V
 
     goto/16 :goto_0
 
-    .line 563
-    :sswitch_f
+    .line 513
+    :sswitch_b
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setTextInputVisible()V
 
-    .line 564
+    .line 514
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$3;
@@ -1690,18 +1478,18 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 584
+    .line 534
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
     invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
 
     goto/16 :goto_0
 
-    .line 588
-    :sswitch_10
+    .line 538
+    :sswitch_c
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setTextInputVisible()V
 
-    .line 589
+    .line 539
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$4;
@@ -1710,210 +1498,142 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 604
+    .line 554
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
     invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
 
     goto/16 :goto_0
 
-    .line 608
-    :sswitch_11
+    .line 558
+    :sswitch_d
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setTextInputInvisible()V
 
-    .line 609
-    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->setNumberInputInvisible()V
-
-    .line 610
+    .line 559
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
     invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
 
     goto/16 :goto_0
 
-    .line 613
-    :sswitch_12
-    invoke-static {v5, v3, v3, v3}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
+    .line 562
+    :sswitch_e
+    invoke-static {v4, v3, v3, v3}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
 
-    .line 614
+    .line 563
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideHelpView()V
 
-    .line 615
+    .line 564
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideAboutView()V
 
-    .line 616
+    .line 565
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideHelpComponent()V
 
-    .line 618
+    .line 567
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideAboutComponent()V
 
-    .line 619
+    .line 568
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuComponent()V
 
-    .line 620
+    .line 569
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuItemComponent()V
 
-    .line 621
+    .line 570
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideUiTitleLogoView()V
 
-    .line 622
+    .line 571
     invoke-virtual {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideRateComponent()V
 
-    .line 624
+    .line 573
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->hideNewsView()V
 
-    .line 628
+    .line 577
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyOffer()V
 
-    .line 629
+    .line 578
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->ShowTapjoyAd()V
 
-    .line 633
-    invoke-static {v7, v3, v3, v3}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
+    .line 582
+    invoke-static {v6, v3, v3, v3}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
 
-    .line 634
+    .line 583
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->showPurchaseComponent()V
 
-    .line 635
+    .line 584
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
     invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
 
     goto/16 :goto_0
 
-    .line 644
-    :sswitch_13
+    .line 593
+    :sswitch_f
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->showReplyMoveComponent()V
 
-    .line 646
+    .line 595
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideHelpComponent()V
 
-    .line 648
+    .line 597
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideAboutComponent()V
 
-    .line 649
+    .line 598
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuComponent()V
 
-    .line 650
+    .line 599
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuItemComponent()V
 
-    .line 651
+    .line 600
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->hidePurchaseComponent()V
 
-    .line 652
+    .line 601
     invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideUiTitleLogoView()V
 
-    .line 653
+    .line 602
     invoke-virtual {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideRateComponent()V
 
-    .line 655
+    .line 604
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->hideNewsView()V
 
-    .line 659
+    .line 608
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyOffer()V
 
-    .line 660
+    .line 609
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyAd()V
 
-    .line 663
+    .line 612
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
 
     invoke-virtual {v0, v3}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
 
     goto/16 :goto_0
 
-    .line 667
-    :sswitch_14
-    iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
-
-    invoke-virtual {v0, v4}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
-
-    goto/16 :goto_0
-
-    .line 395
+    .line 341
     :sswitch_data_0
     .sparse-switch
-        0x0 -> :sswitch_0
-        0x1 -> :sswitch_1
-        0x2 -> :sswitch_2
-        0x3 -> :sswitch_b
-        0x4 -> :sswitch_3
-        0x5 -> :sswitch_7
-        0xe -> :sswitch_a
-        0x10 -> :sswitch_10
-        0x11 -> :sswitch_f
-        0x12 -> :sswitch_11
-        0x13 -> :sswitch_9
-        0x14 -> :sswitch_4
-        0x15 -> :sswitch_5
-        0x16 -> :sswitch_6
-        0x1e -> :sswitch_8
-        0x68 -> :sswitch_e
-        0x12c -> :sswitch_c
-        0x190 -> :sswitch_12
-        0x708 -> :sswitch_d
-        0x115c -> :sswitch_14
-        0x1388 -> :sswitch_13
+        0x1 -> :sswitch_0
+        0x2 -> :sswitch_1
+        0x3 -> :sswitch_7
+        0x4 -> :sswitch_2
+        0x5 -> :sswitch_4
+        0xe -> :sswitch_6
+        0x10 -> :sswitch_c
+        0x11 -> :sswitch_b
+        0x12 -> :sswitch_d
+        0x13 -> :sswitch_5
+        0x14 -> :sswitch_3
+        0x68 -> :sswitch_a
+        0x12c -> :sswitch_8
+        0x190 -> :sswitch_e
+        0x708 -> :sswitch_9
+        0x1388 -> :sswitch_f
     .end sparse-switch
-.end method
-
-.method public setUIStateHelp(I)V
-    .locals 2
-    .param p1, "language"    # I
-
-    .prologue
-    .line 360
-    invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->hideNewsView()V
-
-    .line 364
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyOffer()V
-
-    .line 365
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->HideTapjoyAd()V
-
-    .line 367
-    invoke-virtual {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideRateComponent()V
-
-    .line 368
-    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideAboutView()V
-
-    .line 369
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuComponent()V
-
-    .line 370
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideMenuItemComponent()V
-
-    .line 371
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hidePurchaseComponent()V
-
-    .line 373
-    invoke-direct {p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->hideUiTitleLogoView()V
-
-    .line 374
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->hideAboutComponent()V
-
-    .line 375
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->showHelpComponent()V
-
-    .line 376
-    invoke-direct {p0, p1}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->showHelpView(I)V
-
-    .line 377
-    iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->fullTouch:Lcom/gamevil/zenonia3/ui/UIFullTouch;
-
-    const/4 v1, 0x0
-
-    invoke-virtual {v0, v1}, Lcom/gamevil/zenonia3/ui/UIFullTouch;->setIsHidden(Z)V
-
-    .line 378
-    return-void
 .end method
 
 .method public showRateComponent()V
     .locals 4
 
     .prologue
-    .line 1068
+    .line 971
     sget-object v0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mRateHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$15;
@@ -1922,20 +1642,20 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 1080
+    .line 983
     sget-object v0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mRateHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$16;
 
     invoke-direct {v1, p0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$16;-><init>(Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;)V
 
-    .line 1086
+    .line 989
     const-wide/16 v2, 0x1388
 
-    .line 1080
+    .line 983
     invoke-virtual {v0, v1, v2, v3}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
-    .line 1087
+    .line 990
     return-void
 .end method
 
@@ -1943,7 +1663,7 @@
     .locals 2
 
     .prologue
-    .line 288
+    .line 272
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$2;
@@ -1952,6 +1672,6 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 303
+    .line 287
     return-void
 .end method

@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/gamevil/nexus2/xml/NewsViewTask$4;->this$0:Lcom/gamevil/nexus2/xml/NewsViewTask;
 
-    .line 167
+    .line 178
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,10 +43,10 @@
     .prologue
     const/4 v5, 0x0
 
-    .line 173
+    .line 184
     sget-object v3, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    const v4, 0x7f080054
+    const v4, 0x7f07003c
 
     invoke-virtual {v3, v4}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
 
@@ -56,17 +56,17 @@
 
     invoke-static {v3}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$6(Landroid/widget/FrameLayout;)V
 
-    .line 174
+    .line 185
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$7()Landroid/widget/FrameLayout;
 
     move-result-object v3
 
     invoke-virtual {v3, v5}, Landroid/widget/FrameLayout;->setBackgroundColor(I)V
 
-    .line 175
+    .line 186
     sget-object v3, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    const v4, 0x7f080055
+    const v4, 0x7f07003d
 
     invoke-virtual {v3, v4}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
 
@@ -74,14 +74,14 @@
 
     check-cast v1, Landroid/widget/ImageButton;
 
-    .line 176
+    .line 187
     .local v1, "image":Landroid/widget/ImageButton;
     invoke-virtual {v1, v5}, Landroid/widget/ImageButton;->setBackgroundColor(I)V
 
-    .line 177
+    .line 188
     sget-object v3, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    const v4, 0x7f080056
+    const v4, 0x7f07003e
 
     invoke-virtual {v3, v4}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
 
@@ -89,14 +89,14 @@
 
     check-cast v2, Landroid/widget/ImageButton;
 
-    .line 178
+    .line 189
     .local v2, "news":Landroid/widget/ImageButton;
     invoke-virtual {v2, v5}, Landroid/widget/ImageButton;->setBackgroundColor(I)V
 
-    .line 179
+    .line 190
     sget-object v3, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    const v4, 0x7f080057
+    const v4, 0x7f07003f
 
     invoke-virtual {v3, v4}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
 
@@ -104,18 +104,18 @@
 
     check-cast v0, Landroid/widget/Button;
 
-    .line 181
+    .line 192
     .local v0, "cancle":Landroid/widget/Button;
     invoke-virtual {v0, v5}, Landroid/widget/Button;->setBackgroundColor(I)V
 
-    .line 183
+    .line 194
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$8()Landroid/view/View$OnClickListener;
 
     move-result-object v3
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 184
+    .line 195
     iget-object v3, p0, Lcom/gamevil/nexus2/xml/NewsViewTask$4;->this$0:Lcom/gamevil/nexus2/xml/NewsViewTask;
 
     invoke-static {v3}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$9(Lcom/gamevil/nexus2/xml/NewsViewTask;)Landroid/view/View$OnClickListener;
@@ -124,7 +124,7 @@
 
     invoke-virtual {v2, v3}, Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 185
+    .line 196
     iget-object v3, p0, Lcom/gamevil/nexus2/xml/NewsViewTask$4;->this$0:Lcom/gamevil/nexus2/xml/NewsViewTask;
 
     invoke-static {v3}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$10(Lcom/gamevil/nexus2/xml/NewsViewTask;)Landroid/view/View$OnClickListener;
@@ -133,21 +133,21 @@
 
     invoke-virtual {v0, v3}, Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    .line 187
+    .line 198
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$11()Landroid/graphics/Bitmap;
 
     move-result-object v3
 
     invoke-virtual {v1, v3}, Landroid/widget/ImageButton;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    .line 189
+    .line 200
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$12()Z
 
     move-result v3
 
     if-eqz v3, :cond_1
 
-    .line 191
+    .line 202
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$7()Landroid/widget/FrameLayout;
 
     move-result-object v3
@@ -160,14 +160,14 @@
 
     invoke-static {v3}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$13(Landroid/widget/FrameLayout$LayoutParams;)V
 
-    .line 192
+    .line 203
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$3()Landroid/widget/FrameLayout$LayoutParams;
 
     move-result-object v3
 
     iput v5, v3, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 194
+    .line 204
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$7()Landroid/widget/FrameLayout;
 
     move-result-object v3
@@ -178,7 +178,7 @@
 
     invoke-virtual {v3, v4}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 205
+    .line 213
     :goto_0
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$14()Z
 
@@ -192,11 +192,11 @@
 
     invoke-virtual {v3, v5}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 207
+    .line 215
     :cond_0
     return-void
 
-    .line 198
+    .line 208
     :cond_1
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$7()Landroid/widget/FrameLayout;
 
@@ -210,7 +210,7 @@
 
     invoke-static {v3}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$13(Landroid/widget/FrameLayout$LayoutParams;)V
 
-    .line 199
+    .line 209
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$3()Landroid/widget/FrameLayout$LayoutParams;
 
     move-result-object v3
@@ -219,7 +219,7 @@
 
     iput v4, v3, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 201
+    .line 210
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$7()Landroid/widget/FrameLayout;
 
     move-result-object v3

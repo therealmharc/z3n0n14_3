@@ -35,8 +35,6 @@
 
 .field private moveEventClip:I
 
-.field public numberInputed:Ljava/lang/String;
-
 .field public subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
 .field public textInputed:Ljava/lang/String;
@@ -50,39 +48,29 @@
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 52
+    .line 48
     const/4 v0, 0x0
 
     const/4 v1, 0x0
 
     invoke-direct {p0, p1, v0, v1}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 35
+    .line 34
     const/16 v0, -0x63
 
     iput v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->uiStatus:I
 
-    .line 47
-    const/16 v0, 0xe
+    .line 43
+    const/16 v0, 0xa
 
     iput v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->eventQueueSize:I
 
-    .line 48
+    .line 44
     const/4 v0, 0x3
 
     iput v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->moveEventClip:I
 
-    .line 53
-    const-string v0, ""
-
-    iput-object v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->textInputed:Ljava/lang/String;
-
-    .line 54
-    const-string v0, ""
-
-    iput-object v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->numberInputed:Ljava/lang/String;
-
-    .line 55
+    .line 49
     return-void
 .end method
 
@@ -94,38 +82,38 @@
     .prologue
     const/16 v1, -0x63
 
-    .line 58
+    .line 52
     const/4 v0, 0x0
 
     invoke-direct {p0, p1, p2, v0}, Landroid/view/View;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    .line 35
+    .line 34
     iput v1, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->uiStatus:I
 
-    .line 47
-    const/16 v0, 0xe
+    .line 43
+    const/16 v0, 0xa
 
     iput v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->eventQueueSize:I
 
-    .line 48
+    .line 44
     const/4 v0, 0x3
 
     iput v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->moveEventClip:I
 
-    .line 59
+    .line 53
     iput-object p1, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->mContext:Landroid/content/Context;
 
-    .line 60
+    .line 54
     new-instance v0, Lcom/gamevil/nexus2/ui/NxArray;
 
     invoke-direct {v0}, Lcom/gamevil/nexus2/ui/NxArray;-><init>()V
 
     iput-object v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
-    .line 61
+    .line 55
     iput v1, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->uiStatus:I
 
-    .line 62
+    .line 56
     new-instance v0, Lcom/gamevil/nexus2/ui/NeoUIControllerView$ActionCallback;
 
     const/4 v1, 0x0
@@ -138,7 +126,7 @@
 
     iput-object v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->mDetector:Lcom/gamevil/nexus2/ui/NeoTouchDetector;
 
-    .line 64
+    .line 58
     new-instance v0, Lcom/gamevil/nexus2/ui/EventQueue;
 
     iget v1, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->eventQueueSize:I
@@ -149,17 +137,7 @@
 
     iput-object v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->eventQueue:Lcom/gamevil/nexus2/ui/EventQueue;
 
-    .line 66
-    const-string v0, ""
-
-    iput-object v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->textInputed:Ljava/lang/String;
-
-    .line 67
-    const-string v0, ""
-
-    iput-object v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->numberInputed:Ljava/lang/String;
-
-    .line 68
+    .line 59
     return-void
 .end method
 
@@ -170,7 +148,7 @@
     .param p1, "_event"    # I
 
     .prologue
-    .line 321
+    .line 304
     return-void
 .end method
 
@@ -181,7 +159,7 @@
     .param p3, "isLoop"    # Z
 
     .prologue
-    .line 303
+    .line 286
     return-void
 .end method
 
@@ -189,7 +167,7 @@
     .locals 0
 
     .prologue
-    .line 309
+    .line 292
     return-void
 .end method
 
@@ -198,7 +176,7 @@
     .param p1, "_status"    # I
 
     .prologue
-    .line 297
+    .line 280
     return-void
 .end method
 
@@ -207,7 +185,7 @@
     .param p1, "_time"    # I
 
     .prologue
-    .line 315
+    .line 298
     return-void
 .end method
 
@@ -216,54 +194,32 @@
     .param p1, "_view"    # Lcom/gamevil/nexus2/ui/NeoUIArea;
 
     .prologue
-    .line 106
+    .line 97
     iget-object v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
     invoke-virtual {v0, p1}, Lcom/gamevil/nexus2/ui/NxArray;->addElemet(Ljava/lang/Object;)Z
 
-    .line 107
+    .line 98
     return-void
 .end method
 
 .method public changeUIStatus(I)V
-    .locals 3
+    .locals 1
     .param p1, "_status"    # I
 
     .prologue
-    .line 131
-    sput p1, Lcom/gamevil/nexus2/Natives;->saveUiStatus:I
-
-    .line 132
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "==== changeUIStatus 1 "
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 133
+    .line 122
     iput p1, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->uiStatus:I
 
-    .line 134
+    .line 123
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->isStatusChanging:Z
 
-    .line 135
+    .line 124
     invoke-virtual {p0}, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->hideAllUI()V
 
-    .line 136
+    .line 125
     return-void
 .end method
 
@@ -271,20 +227,20 @@
     .locals 1
 
     .prologue
-    .line 145
+    .line 134
     iget-boolean v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->isStatusChanging:Z
 
     if-eqz v0, :cond_0
 
-    .line 147
+    .line 136
     invoke-virtual {p0}, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->setUIState()V
 
-    .line 148
+    .line 137
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->isStatusChanging:Z
 
-    .line 150
+    .line 139
     :cond_0
     return-void
 .end method
@@ -294,183 +250,183 @@
     .param p1, "_keyCode"    # I
 
     .prologue
-    .line 192
+    .line 175
     const/4 v0, 0x0
 
-    .line 193
+    .line 176
     .local v0, "rtnKeyCode":I
     packed-switch p1, :pswitch_data_0
 
-    .line 265
+    .line 248
     :pswitch_0
     move v0, p1
 
-    .line 270
+    .line 253
     :goto_0
     return v0
 
-    .line 196
+    .line 179
     :pswitch_1
     const/4 v0, -0x5
 
-    .line 197
+    .line 180
     goto :goto_0
 
-    .line 199
+    .line 182
     :pswitch_2
     const/4 v0, -0x3
 
-    .line 200
+    .line 183
     goto :goto_0
 
-    .line 202
+    .line 185
     :pswitch_3
     const/4 v0, -0x4
 
-    .line 203
+    .line 186
     goto :goto_0
 
-    .line 205
+    .line 188
     :pswitch_4
     const/4 v0, -0x1
 
-    .line 206
+    .line 189
     goto :goto_0
 
-    .line 208
+    .line 191
     :pswitch_5
     const/4 v0, -0x2
 
-    .line 209
+    .line 192
     goto :goto_0
 
-    .line 211
+    .line 194
     :pswitch_6
     const/16 v0, 0x30
 
-    .line 212
+    .line 195
     goto :goto_0
 
-    .line 214
+    .line 197
     :pswitch_7
     const/16 v0, 0x31
 
-    .line 215
+    .line 198
     goto :goto_0
 
-    .line 217
+    .line 200
     :pswitch_8
     const/16 v0, 0x32
 
-    .line 218
+    .line 201
     goto :goto_0
 
-    .line 220
+    .line 203
     :pswitch_9
     const/16 v0, 0x33
 
-    .line 221
+    .line 204
     goto :goto_0
 
-    .line 223
+    .line 206
     :pswitch_a
     const/16 v0, 0x34
 
-    .line 224
+    .line 207
     goto :goto_0
 
-    .line 226
+    .line 209
     :pswitch_b
     const/16 v0, 0x35
 
-    .line 227
+    .line 210
     goto :goto_0
 
-    .line 229
+    .line 212
     :pswitch_c
     const/16 v0, 0x36
 
-    .line 230
+    .line 213
     goto :goto_0
 
-    .line 232
+    .line 215
     :pswitch_d
     const/16 v0, 0x37
 
-    .line 233
+    .line 216
     goto :goto_0
 
-    .line 235
+    .line 218
     :pswitch_e
     const/16 v0, 0x38
 
-    .line 236
+    .line 219
     goto :goto_0
 
-    .line 238
+    .line 221
     :pswitch_f
     const/16 v0, 0x39
 
-    .line 239
+    .line 222
     goto :goto_0
 
-    .line 241
+    .line 224
     :pswitch_10
     const/16 v0, -0x10
 
-    .line 242
+    .line 225
     goto :goto_0
 
-    .line 244
+    .line 227
     :pswitch_11
     const/16 v0, -0x10
 
-    .line 245
+    .line 228
     goto :goto_0
 
-    .line 247
+    .line 230
     :pswitch_12
     const/4 v0, -0x8
 
-    .line 248
+    .line 231
     goto :goto_0
 
-    .line 250
+    .line 233
     :pswitch_13
     const/4 v0, -0x1
 
-    .line 251
+    .line 234
     goto :goto_0
 
-    .line 253
+    .line 236
     :pswitch_14
     const/4 v0, -0x3
 
-    .line 254
+    .line 237
     goto :goto_0
 
-    .line 256
+    .line 239
     :pswitch_15
     const/4 v0, -0x2
 
-    .line 257
+    .line 240
     goto :goto_0
 
-    .line 259
+    .line 242
     :pswitch_16
     const/4 v0, -0x4
 
-    .line 260
+    .line 243
     goto :goto_0
 
-    .line 262
+    .line 245
     :pswitch_17
     const/4 v0, -0x5
 
-    .line 263
+    .line 246
     goto :goto_0
 
-    .line 193
+    .line 176
     :pswitch_data_0
     .packed-switch 0x4
         :pswitch_12
@@ -545,7 +501,7 @@
     .param p1, "_idx"    # I
 
     .prologue
-    .line 112
+    .line 103
     iget-object v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
     invoke-virtual {v0, p1}, Lcom/gamevil/nexus2/ui/NxArray;->getElement(I)Ljava/lang/Object;
@@ -561,14 +517,14 @@
     .locals 4
 
     .prologue
-    .line 117
+    .line 108
     iget-object v3, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
     invoke-virtual {v3}, Lcom/gamevil/nexus2/ui/NxArray;->getElemetsSize()I
 
     move-result v2
 
-    .line 118
+    .line 109
     .local v2, "_subViewSize":I
     const/4 v1, 0x0
 
@@ -576,10 +532,10 @@
     :goto_0
     if-lt v1, v2, :cond_0
 
-    .line 127
+    .line 118
     return-void
 
-    .line 120
+    .line 111
     :cond_0
     iget-object v3, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
@@ -589,7 +545,7 @@
 
     check-cast v0, Lcom/gamevil/nexus2/ui/NeoUIArea;
 
-    .line 121
+    .line 112
     .local v0, "_area":Lcom/gamevil/nexus2/ui/NeoUIArea;
     if-eqz v0, :cond_1
 
@@ -597,12 +553,12 @@
 
     if-nez v3, :cond_1
 
-    .line 123
+    .line 114
     const/4 v3, 0x1
 
     invoke-virtual {v0, v3}, Lcom/gamevil/nexus2/ui/NeoUIArea;->setIsHidden(Z)V
 
-    .line 118
+    .line 109
     :cond_1
     add-int/lit8 v1, v1, 0x1
 
@@ -614,22 +570,22 @@
     .param p1, "canvas"    # Landroid/graphics/Canvas;
 
     .prologue
-    .line 173
+    .line 156
     invoke-super {p0, p1}, Landroid/view/View;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 174
+    .line 157
     iget-object v3, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
     if-eqz v3, :cond_0
 
-    .line 176
+    .line 159
     iget-object v3, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
     invoke-virtual {v3}, Lcom/gamevil/nexus2/ui/NxArray;->getElemetsSize()I
 
     move-result v2
 
-    .line 177
+    .line 160
     .local v2, "_subViewSize":I
     const/4 v1, 0x0
 
@@ -637,13 +593,13 @@
     :goto_0
     if-lt v1, v2, :cond_1
 
-    .line 186
+    .line 169
     .end local v1    # "_i":I
     .end local v2    # "_subViewSize":I
     :cond_0
     return-void
 
-    .line 179
+    .line 162
     .restart local v1    # "_i":I
     .restart local v2    # "_subViewSize":I
     :cond_1
@@ -655,7 +611,7 @@
 
     check-cast v0, Lcom/gamevil/nexus2/ui/NeoUIArea;
 
-    .line 180
+    .line 163
     .local v0, "_area":Lcom/gamevil/nexus2/ui/NeoUIArea;
     if-eqz v0, :cond_2
 
@@ -663,10 +619,10 @@
 
     if-nez v3, :cond_2
 
-    .line 182
+    .line 165
     invoke-virtual {v0, p1}, Lcom/gamevil/nexus2/ui/NeoUIArea;->onDraw(Landroid/graphics/Canvas;)V
 
-    .line 177
+    .line 160
     :cond_2
     add-int/lit8 v1, v1, 0x1
 
@@ -677,7 +633,7 @@
     .locals 0
 
     .prologue
-    .line 81
+    .line 72
     return-void
 .end method
 
@@ -686,29 +642,12 @@
     .param p1, "ev"    # Landroid/view/MotionEvent;
 
     .prologue
-    .line 153
+    .line 142
     iget-object v1, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->mDetector:Lcom/gamevil/nexus2/ui/NeoTouchDetector;
 
     invoke-virtual {v1, p1}, Lcom/gamevil/nexus2/ui/NeoTouchDetector;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
-    .line 155
-    iget-object v1, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->mContext:Landroid/content/Context;
-
-    check-cast v1, Lcom/gamevil/nexus2/NexusGLActivity;
-
-    iget-boolean v1, v1, Lcom/gamevil/nexus2/NexusGLActivity;->isMessageCome:Z
-
-    if-eqz v1, :cond_0
-
-    .line 158
-    iget-object v1, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->mContext:Landroid/content/Context;
-
-    check-cast v1, Lcom/gamevil/nexus2/NexusGLActivity;
-
-    invoke-virtual {v1}, Lcom/gamevil/nexus2/NexusGLActivity;->finish()V
-
-    .line 163
-    :cond_0
+    .line 146
     const-wide/16 v1, 0x23
 
     :try_start_0
@@ -716,17 +655,17 @@
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 168
+    .line 151
     :goto_0
     const/4 v1, 0x1
 
     return v1
 
-    .line 164
+    .line 147
     :catch_0
     move-exception v0
 
-    .line 166
+    .line 149
     .local v0, "e":Ljava/lang/InterruptedException;
     invoke-virtual {v0}, Ljava/lang/InterruptedException;->printStackTrace()V
 
@@ -737,22 +676,22 @@
     .locals 1
 
     .prologue
-    .line 285
+    .line 268
     iget-object v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
     if-eqz v0, :cond_0
 
-    .line 287
+    .line 270
     iget-object v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
     invoke-virtual {v0}, Lcom/gamevil/nexus2/ui/NxArray;->releaseAll()V
 
-    .line 288
+    .line 271
     const/4 v0, 0x0
 
     iput-object v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
-    .line 290
+    .line 273
     :cond_0
     return-void
 .end method
@@ -761,22 +700,22 @@
     .locals 1
 
     .prologue
-    .line 275
+    .line 258
     iget-object v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
     if-eqz v0, :cond_0
 
-    .line 277
+    .line 260
     iget-object v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->subViews:Lcom/gamevil/nexus2/ui/NxArray;
 
     invoke-virtual {v0}, Lcom/gamevil/nexus2/ui/NxArray;->cleanUpAll()V
 
-    .line 278
+    .line 261
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->isStatusChanging:Z
 
-    .line 281
+    .line 264
     :cond_0
     return-void
 .end method
@@ -787,16 +726,16 @@
     .param p2, "_height"    # I
 
     .prologue
-    .line 73
+    .line 64
     sput p1, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->width:I
 
-    .line 74
+    .line 65
     sput p2, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->height:I
 
-    .line 75
+    .line 66
     invoke-virtual {p0}, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->onInitialize()V
 
-    .line 76
+    .line 67
     return-void
 .end method
 
@@ -804,6 +743,6 @@
     .locals 0
 
     .prologue
-    .line 141
+    .line 130
     return-void
 .end method

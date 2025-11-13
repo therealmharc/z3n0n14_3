@@ -33,7 +33,7 @@
     .prologue
     const/4 v0, 0x0
 
-    .line 12
+    .line 17
     iput-object p1, p0, Lcom/gamevil/zenonia3/ui/EventQueue$EventItem;->this$0:Lcom/gamevil/zenonia3/ui/EventQueue;
 
     .line 11
@@ -51,7 +51,6 @@
     .line 16
     iput v0, p0, Lcom/gamevil/zenonia3/ui/EventQueue$EventItem;->m_nPointerID:I
 
-    .line 17
     return-void
 .end method
 
@@ -63,7 +62,7 @@
     .param p5, "nPointerID"    # I
 
     .prologue
-    .line 20
+    .line 22
     iput-object p1, p0, Lcom/gamevil/zenonia3/ui/EventQueue$EventItem;->this$0:Lcom/gamevil/zenonia3/ui/EventQueue;
 
     .line 19
@@ -72,7 +71,6 @@
     .line 21
     invoke-virtual {p0, p2, p3, p4, p5}, Lcom/gamevil/zenonia3/ui/EventQueue$EventItem;->AttachEvent(IIII)V
 
-    .line 22
     return-void
 .end method
 

@@ -25,7 +25,7 @@
     .locals 1
 
     .prologue
-    .line 317
+    .line 322
     iput-object p1, p0, Lcom/gamevil/zenonia3/global/BillingService$RestoreTransactions;->this$0:Lcom/gamevil/zenonia3/global/BillingService;
 
     .line 321
@@ -33,7 +33,6 @@
 
     invoke-direct {p0, p1, v0}, Lcom/gamevil/zenonia3/global/BillingService$BillingRequest;-><init>(Lcom/gamevil/zenonia3/global/BillingService;I)V
 
-    .line 322
     return-void
 .end method
 

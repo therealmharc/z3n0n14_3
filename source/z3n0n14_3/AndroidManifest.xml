@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" android:installLocation="auto" package="com.gamevil.zenonia3.global" platformBuildVersionCode="33" platformBuildVersionName="13">
-    <uses-permission android:name="android.permission.VIBRATE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true"/>
-    <application android:extractNativeLibs="false" android:icon="@drawable/icon_normal" android:label="Zenonia 3" android:name="com.bili545706450.zenonia3.GlobalApplication">
-        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:label="Zenonia 3" android:name="com.gamevil.zenonia3.global.skt.Zenonia3Launcher" android:screenOrientation="landscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:windowSoftInputMode="stateHidden|adjustResize">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" android:installLocation="auto" package="com.gamevil.zenonia3.global" platformBuildVersionCode="34" platformBuildVersionName="14">
+    <application android:debuggable="false" android:icon="@drawable/icon_normal" android:label="z3n0n14_3">
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:label="z3n0n14_3" android:name=".Zenonia3Launcher" android:screenOrientation="landscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:exported="false" android:name="com.bili545706450.zenonia3.GlobalApplication$CrashActivity"/>
+        <service android:exported="false" android:name="BillingService"/>
+        <receiver android:exported="true" android:name="BillingReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.billing.IN_APP_NOTIFY"/>
+                <action android:name="com.android.vending.billing.RESPONSE_CODE"/>
+                <action android:name="com.android.vending.billing.PURCHASE_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.tapjoy.TJCOffersWebView"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.tapjoy.TapjoyFeaturedAppWebView"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.tapjoy.TapjoyVideoView"/>
+        <receiver android:exported="true" android:name="com.tapjoy.TapjoyReferralTracker">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="CLIENT_PACKAGE" android:value="com.gamevil.zenonia3.global"/>
     </application>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <permission-group android:name="android.permission-group.NETWORK"/>
+    <permission-group android:name="android.permission.INTERNET"/>
+    <permission-group android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true"/>
 </manifest>

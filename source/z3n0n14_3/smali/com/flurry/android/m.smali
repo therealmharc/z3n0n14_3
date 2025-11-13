@@ -1,116 +1,94 @@
 .class final Lcom/flurry/android/m;
-.super Ljava/lang/Object;
+.super Landroid/widget/LinearLayout;
 .source "SourceFile"
-
-# interfaces
-.implements Ljava/lang/Runnable;
-
-
-# instance fields
-.field private synthetic a:Ljava/lang/String;
-
-.field private synthetic b:Lcom/flurry/android/ak;
 
 
 # direct methods
-.method constructor <init>(Lcom/flurry/android/ak;Ljava/lang/String;)V
-    .locals 0
+.method public constructor <init>(Lcom/flurry/android/CatalogActivity;Landroid/content/Context;)V
+    .locals 6
 
     .prologue
-    .line 326
-    iput-object p1, p0, Lcom/flurry/android/m;->b:Lcom/flurry/android/ak;
+    const/4 v5, -0x2
 
-    iput-object p2, p0, Lcom/flurry/android/m;->a:Ljava/lang/String;
+    const/4 v4, 0x0
 
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+    .line 192
+    invoke-direct {p0, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
 
-    return-void
-.end method
+    .line 195
+    const/4 v0, -0x1
 
+    invoke-virtual {p0, v0}, Lcom/flurry/android/m;->setBackgroundColor(I)V
 
-# virtual methods
-.method public final run()V
-    .locals 5
+    .line 197
+    invoke-static {p1}, Lcom/flurry/android/CatalogActivity;->c(Lcom/flurry/android/CatalogActivity;)Lcom/flurry/android/q;
 
-    .prologue
-    .line 331
-    iget-object v0, p0, Lcom/flurry/android/m;->a:Ljava/lang/String;
+    move-result-object v0
 
+    invoke-virtual {v0}, Lcom/flurry/android/q;->k()Lcom/flurry/android/AdImage;
+
+    move-result-object v0
+
+    .line 198
     if-eqz v0, :cond_0
 
-    .line 333
-    iget-object v0, p0, Lcom/flurry/android/m;->b:Lcom/flurry/android/ak;
+    .line 200
+    new-instance v1, Landroid/widget/ImageView;
 
-    iget-object v0, v0, Lcom/flurry/android/ak;->d:Lcom/flurry/android/u;
+    invoke-direct {v1, p2}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
 
-    iget-object v1, p0, Lcom/flurry/android/m;->b:Lcom/flurry/android/ak;
+    .line 201
+    const/16 v2, 0x2710
 
-    iget-object v1, v1, Lcom/flurry/android/ak;->b:Landroid/content/Context;
+    invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setId(I)V
 
-    iget-object v2, p0, Lcom/flurry/android/m;->a:Ljava/lang/String;
+    .line 203
+    iget-object v2, v0, Lcom/flurry/android/AdImage;->e:[B
 
-    invoke-static {v0, v1, v2}, Lcom/flurry/android/u;->a(Lcom/flurry/android/u;Landroid/content/Context;Ljava/lang/String;)V
+    .line 204
+    array-length v3, v2
 
-    .line 334
-    iget-object v0, p0, Lcom/flurry/android/m;->b:Lcom/flurry/android/ak;
+    invoke-static {v2, v4, v3}, Landroid/graphics/BitmapFactory;->decodeByteArray([BII)Landroid/graphics/Bitmap;
 
-    iget-object v0, v0, Lcom/flurry/android/ak;->c:Lcom/flurry/android/p;
+    move-result-object v2
 
-    new-instance v1, Lcom/flurry/android/f;
+    .line 206
+    invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
-    const/16 v2, 0x8
+    .line 207
+    iget v2, v0, Lcom/flurry/android/AdImage;->b:I
 
-    iget-object v3, p0, Lcom/flurry/android/m;->b:Lcom/flurry/android/ak;
+    invoke-static {p2, v2}, Lcom/flurry/android/i;->a(Landroid/content/Context;I)I
 
-    iget-object v3, v3, Lcom/flurry/android/ak;->d:Lcom/flurry/android/u;
+    move-result v2
 
-    invoke-virtual {v3}, Lcom/flurry/android/u;->j()J
+    iget v0, v0, Lcom/flurry/android/AdImage;->c:I
 
-    move-result-wide v3
+    invoke-static {p2, v0}, Lcom/flurry/android/i;->a(Landroid/content/Context;I)I
 
-    invoke-direct {v1, v2, v3, v4}, Lcom/flurry/android/f;-><init>(BJ)V
+    move-result v0
 
-    invoke-virtual {v0, v1}, Lcom/flurry/android/p;->a(Lcom/flurry/android/f;)V
+    invoke-static {p2, v1, v2, v0}, Lcom/flurry/android/i;->a(Landroid/content/Context;Landroid/widget/ImageView;II)V
 
-    .line 343
-    :goto_0
-    return-void
+    .line 210
+    new-instance v0, Landroid/widget/LinearLayout$LayoutParams;
 
-    .line 339
+    invoke-direct {v0, v5, v5}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
+
+    .line 213
+    const/4 v2, -0x3
+
+    invoke-virtual {v0, v4, v4, v4, v2}, Landroid/widget/LinearLayout$LayoutParams;->setMargins(IIII)V
+
+    .line 215
+    const/4 v2, 0x3
+
+    invoke-virtual {p0, v2}, Lcom/flurry/android/m;->setGravity(I)V
+
+    .line 216
+    invoke-virtual {p0, v1, v0}, Lcom/flurry/android/m;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
+
+    .line 218
     :cond_0
-    new-instance v0, Ljava/lang/StringBuilder;
-
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string v1, "Unable to launch in app market: "
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    iget-object v1, p0, Lcom/flurry/android/m;->b:Lcom/flurry/android/ak;
-
-    iget-object v1, v1, Lcom/flurry/android/ak;->a:Ljava/lang/String;
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    .line 340
-    sget-object v1, Lcom/flurry/android/u;->a:Ljava/lang/String;
-
-    invoke-static {v1, v0}, Lcom/flurry/android/ah;->d(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 341
-    iget-object v1, p0, Lcom/flurry/android/m;->b:Lcom/flurry/android/ak;
-
-    iget-object v1, v1, Lcom/flurry/android/ak;->d:Lcom/flurry/android/u;
-
-    invoke-static {v1, v0}, Lcom/flurry/android/u;->b(Lcom/flurry/android/u;Ljava/lang/String;)V
-
-    goto :goto_0
+    return-void
 .end method

@@ -128,10 +128,10 @@
     .locals 2
 
     .prologue
-    .line 271
+    .line 266
     monitor-enter p0
 
-    .line 272
+    .line 267
     :try_start_0
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLThread;->mEventQueue:Ljava/util/ArrayList;
 
@@ -141,7 +141,7 @@
 
     if-lez v0, :cond_0
 
-    .line 273
+    .line 268
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLThread;->mEventQueue:Ljava/util/ArrayList;
 
     const/4 v1, 0x0
@@ -154,20 +154,20 @@
 
     monitor-exit p0
 
-    .line 277
+    .line 272
     :goto_0
     return-object v0
 
-    .line 271
+    .line 266
     :cond_0
     monitor-exit p0
 
-    .line 277
+    .line 272
     const/4 v0, 0x0
 
     goto :goto_0
 
-    .line 271
+    .line 266
     :catchall_0
     move-exception v0
 
@@ -551,60 +551,30 @@
 
 # virtual methods
 .method public GWSwapBuffers()V
-    .locals 2
+    .locals 1
 
     .prologue
-    .line 284
+    .line 279
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLThread;->mEglHelper:Lcom/gamevil/nexus2/EglHelper;
 
     if-eqz v0, :cond_0
 
-    .line 286
+    .line 281
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLThread;->mEglHelper:Lcom/gamevil/nexus2/EglHelper;
 
     invoke-virtual {v0}, Lcom/gamevil/nexus2/EglHelper;->swap()Z
 
-    move-result v0
-
-    if-nez v0, :cond_0
-
-    .line 288
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    const-string v1, "!!Error  EGL_CONTEXT_LOST "
-
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 291
+    .line 286
     :cond_0
     return-void
 .end method
 
 .method public OnMessage(Ljava/lang/String;)V
-    .locals 3
+    .locals 0
     .param p1, "_msg"    # Ljava/lang/String;
 
     .prologue
-    .line 295
-    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v1, Ljava/lang/StringBuilder;
-
-    const-string v2, "NXGLThread::OnMessage "
-
-    invoke-direct {v1, v2}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v1, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 296
+    .line 291
     return-void
 .end method
 
@@ -677,28 +647,28 @@
     .param p2, "h"    # I
 
     .prologue
-    .line 239
+    .line 234
     monitor-enter p0
 
-    .line 240
+    .line 235
     :try_start_0
     iput p1, p0, Lcom/gamevil/nexus2/NexusGLThread;->mWidth:I
 
-    .line 241
+    .line 236
     iput p2, p0, Lcom/gamevil/nexus2/NexusGLThread;->mHeight:I
 
-    .line 242
+    .line 237
     const/4 v0, 0x1
 
     iput-boolean v0, p0, Lcom/gamevil/nexus2/NexusGLThread;->mSizeChanged:Z
 
-    .line 239
+    .line 234
     monitor-exit p0
 
-    .line 244
+    .line 239
     return-void
 
-    .line 239
+    .line 234
     :catchall_0
     move-exception v0
 
@@ -733,7 +703,7 @@
     :cond_0
     monitor-exit p0
 
-    .line 237
+    .line 232
     return-void
 
     .line 226
@@ -752,22 +722,22 @@
     .param p1, "r"    # Ljava/lang/Runnable;
 
     .prologue
-    .line 265
+    .line 260
     monitor-enter p0
 
-    .line 266
+    .line 261
     :try_start_0
     iget-object v0, p0, Lcom/gamevil/nexus2/NexusGLThread;->mEventQueue:Ljava/util/ArrayList;
 
     invoke-virtual {v0, p1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    .line 265
+    .line 260
     monitor-exit p0
 
-    .line 268
+    .line 263
     return-void
 
-    .line 265
+    .line 260
     :catchall_0
     move-exception v0
 
@@ -782,34 +752,34 @@
     .locals 2
 
     .prologue
-    .line 249
+    .line 244
     monitor-enter p0
 
-    .line 250
+    .line 245
     const/4 v1, 0x1
 
     :try_start_0
     iput-boolean v1, p0, Lcom/gamevil/nexus2/NexusGLThread;->mDone:Z
 
-    .line 251
+    .line 246
     invoke-virtual {p0}, Ljava/lang/Object;->notify()V
 
-    .line 249
+    .line 244
     monitor-exit p0
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    .line 254
+    .line 249
     :try_start_1
     invoke-virtual {p0}, Lcom/gamevil/nexus2/NexusGLThread;->join()V
     :try_end_1
     .catch Ljava/lang/InterruptedException; {:try_start_1 .. :try_end_1} :catch_0
 
-    .line 258
+    .line 253
     :goto_0
     return-void
 
-    .line 249
+    .line 244
     :catchall_0
     move-exception v1
 
@@ -820,11 +790,11 @@
 
     throw v1
 
-    .line 255
+    .line 250
     :catch_0
     move-exception v0
 
-    .line 256
+    .line 251
     .local v0, "ex":Ljava/lang/InterruptedException;
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 

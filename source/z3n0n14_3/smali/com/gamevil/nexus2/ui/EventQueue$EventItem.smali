@@ -33,25 +33,24 @@
     .prologue
     const/4 v0, 0x0
 
-    .line 13
+    .line 19
     iput-object p1, p0, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->this$0:Lcom/gamevil/nexus2/ui/EventQueue;
 
-    .line 12
+    .line 13
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 14
+    .line 15
     iput v0, p0, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->m_nEvent:I
 
-    .line 15
+    .line 16
     iput v0, p0, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->m_nParam1:I
 
-    .line 16
+    .line 17
     iput v0, p0, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->m_nParam2:I
 
-    .line 17
+    .line 18
     iput v0, p0, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->m_nPointerID:I
 
-    .line 18
     return-void
 .end method
 
@@ -63,16 +62,15 @@
     .param p5, "nPointerID"    # I
 
     .prologue
-    .line 21
+    .line 24
     iput-object p1, p0, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->this$0:Lcom/gamevil/nexus2/ui/EventQueue;
 
-    .line 20
+    .line 21
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 22
+    .line 23
     invoke-virtual {p0, p2, p3, p4, p5}, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->AttachEvent(IIII)V
 
-    .line 23
     return-void
 .end method
 
@@ -86,19 +84,19 @@
     .param p4, "nPointerID"    # I
 
     .prologue
-    .line 32
+    .line 33
     iput p1, p0, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->m_nEvent:I
 
-    .line 33
+    .line 34
     iput p2, p0, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->m_nParam1:I
 
-    .line 34
+    .line 35
     iput p3, p0, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->m_nParam2:I
 
-    .line 35
+    .line 36
     iput p4, p0, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->m_nPointerID:I
 
-    .line 36
+    .line 37
     return-void
 .end method
 
@@ -106,7 +104,7 @@
     .locals 1
 
     .prologue
-    .line 25
+    .line 26
     iget v0, p0, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->m_nEvent:I
 
     return v0
@@ -116,7 +114,7 @@
     .locals 1
 
     .prologue
-    .line 26
+    .line 27
     iget v0, p0, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->m_nParam1:I
 
     return v0
@@ -126,7 +124,7 @@
     .locals 1
 
     .prologue
-    .line 27
+    .line 28
     iget v0, p0, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->m_nParam2:I
 
     return v0
@@ -136,7 +134,7 @@
     .locals 1
 
     .prologue
-    .line 28
+    .line 29
     iget v0, p0, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->m_nPointerID:I
 
     return v0

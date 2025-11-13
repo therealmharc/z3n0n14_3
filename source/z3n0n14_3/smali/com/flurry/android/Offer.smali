@@ -12,33 +12,38 @@
 
 .field private d:I
 
-.field private e:Lcom/flurry/android/AdImage;
+.field private e:Ljava/lang/String;
+
+.field private f:Lcom/flurry/android/AdImage;
 
 
 # direct methods
-.method constructor <init>(JLcom/flurry/android/AdImage;Ljava/lang/String;Ljava/lang/String;I)V
+.method constructor <init>(JLjava/lang/String;Lcom/flurry/android/AdImage;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 0
 
     .prologue
-    .line 15
+    .line 16
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 16
+    .line 17
     iput-wide p1, p0, Lcom/flurry/android/Offer;->a:J
 
-    .line 17
-    iput-object p4, p0, Lcom/flurry/android/Offer;->b:Ljava/lang/String;
-
     .line 18
-    iput-object p3, p0, Lcom/flurry/android/Offer;->e:Lcom/flurry/android/AdImage;
+    iput-object p5, p0, Lcom/flurry/android/Offer;->b:Ljava/lang/String;
 
     .line 19
-    iput-object p5, p0, Lcom/flurry/android/Offer;->c:Ljava/lang/String;
+    iput-object p3, p0, Lcom/flurry/android/Offer;->e:Ljava/lang/String;
 
     .line 20
-    iput p6, p0, Lcom/flurry/android/Offer;->d:I
+    iput-object p4, p0, Lcom/flurry/android/Offer;->f:Lcom/flurry/android/AdImage;
 
     .line 21
+    iput-object p6, p0, Lcom/flurry/android/Offer;->c:Ljava/lang/String;
+
+    .line 22
+    iput p7, p0, Lcom/flurry/android/Offer;->d:I
+
+    .line 23
     return-void
 .end method
 
@@ -48,7 +53,7 @@
     .locals 1
 
     .prologue
-    .line 35
+    .line 37
     iget-object v0, p0, Lcom/flurry/android/Offer;->c:Ljava/lang/String;
 
     return-object v0
@@ -58,7 +63,7 @@
     .locals 2
 
     .prologue
-    .line 25
+    .line 27
     iget-wide v0, p0, Lcom/flurry/android/Offer;->a:J
 
     return-wide v0
@@ -68,8 +73,8 @@
     .locals 1
 
     .prologue
-    .line 50
-    iget-object v0, p0, Lcom/flurry/android/Offer;->e:Lcom/flurry/android/AdImage;
+    .line 52
+    iget-object v0, p0, Lcom/flurry/android/Offer;->f:Lcom/flurry/android/AdImage;
 
     return-object v0
 .end method
@@ -78,7 +83,7 @@
     .locals 1
 
     .prologue
-    .line 30
+    .line 32
     iget-object v0, p0, Lcom/flurry/android/Offer;->b:Ljava/lang/String;
 
     return-object v0
@@ -88,7 +93,7 @@
     .locals 1
 
     .prologue
-    .line 40
+    .line 42
     iget v0, p0, Lcom/flurry/android/Offer;->d:I
 
     return v0
@@ -98,8 +103,8 @@
     .locals 1
 
     .prologue
-    .line 45
-    const-string v0, ""
+    .line 47
+    iget-object v0, p0, Lcom/flurry/android/Offer;->e:Ljava/lang/String;
 
     return-object v0
 .end method
@@ -108,12 +113,12 @@
     .locals 4
 
     .prologue
-    .line 55
+    .line 57
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    .line 56
+    .line 58
     new-instance v1, Ljava/lang/StringBuilder;
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
@@ -154,29 +159,13 @@
 
     move-result-object v1
 
-    const-string v2, ", image size: "
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
-    iget-object v2, p0, Lcom/flurry/android/Offer;->e:Lcom/flurry/android/AdImage;
-
-    iget-object v2, v2, Lcom/flurry/android/AdImage;->e:[B
-
-    array-length v2, v2
-
-    invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v1
-
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    .line 57
+    .line 59
     invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v0

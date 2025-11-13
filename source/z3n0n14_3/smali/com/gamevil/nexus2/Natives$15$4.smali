@@ -3,7 +3,7 @@
 .source "Natives.java"
 
 # interfaces
-.implements Landroid/view/View$OnTouchListener;
+.implements Landroid/view/View$OnClickListener;
 
 
 # annotations
@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/gamevil/nexus2/Natives$15$4;->this$1:Lcom/gamevil/nexus2/Natives$15;
 
-    .line 2344
+    .line 2010
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -37,23 +37,22 @@
 
 
 # virtual methods
-.method public onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
+.method public onClick(Landroid/view/View;)V
     .locals 3
     .param p1, "view"    # Landroid/view/View;
-    .param p2, "event"    # Landroid/view/MotionEvent;
 
     .prologue
-    .line 2355
-    const/4 v0, 0x3
+    const/4 v2, 0x0
 
-    const/16 v1, 0x82
+    .line 2018
+    const v0, 0x128cbbf
 
-    const-string v2, "$9.99"
+    .line 2019
+    const v1, 0x13157a1
 
-    invoke-static {v0, v1, v2}, Lcom/gamevil/nexus2/Natives;->openPurchasePopup(IILjava/lang/String;)V
+    .line 2018
+    invoke-static {v0, v1, v2, v2}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
 
-    .line 2369
-    const/4 v0, 0x1
-
-    return v0
+    .line 2021
+    return-void
 .end method

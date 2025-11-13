@@ -17,31 +17,43 @@
 .end annotation
 
 
+# instance fields
+.field private final synthetic val$money:Ljava/lang/String;
+
+.field private final synthetic val$n:I
+
+
 # direct methods
-.method constructor <init>()V
+.method constructor <init>(Ljava/lang/String;I)V
     .locals 0
 
     .prologue
-    .line 3133
+    .line 1
+    iput-object p1, p0, Lcom/gamevil/nexus2/Natives$26;->val$money:Ljava/lang/String;
+
+    iput p2, p0, Lcom/gamevil/nexus2/Natives$26;->val$n:I
+
+    .line 3316
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 1
     return-void
 .end method
 
 
 # virtual methods
 .method public onClick(Landroid/content/DialogInterface;I)V
-    .locals 1
+    .locals 2
     .param p1, "dialog"    # Landroid/content/DialogInterface;
     .param p2, "whichButton"    # I
 
     .prologue
-    .line 3137
-    const/4 v0, 0x0
+    .line 3320
+    iget-object v0, p0, Lcom/gamevil/nexus2/Natives$26;->val$money:Ljava/lang/String;
 
-    sput-boolean v0, Lcom/gamevil/nexus2/Natives;->bOpenPurchasePopup:Z
+    iget v1, p0, Lcom/gamevil/nexus2/Natives$26;->val$n:I
 
-    .line 3138
+    invoke-static {v0, v1}, Lcom/gamevil/nexus2/Natives;->startPurchase(Ljava/lang/String;I)V
+
+    .line 3321
     return-void
 .end method

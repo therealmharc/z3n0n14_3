@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$10;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
-    .line 923
+    .line 854
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,14 +41,14 @@
     .locals 2
 
     .prologue
-    .line 927
+    .line 858
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$10;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     iget-object v0, v0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->helpWebView:Landroid/webkit/WebView;
 
     if-eqz v0, :cond_0
 
-    .line 928
+    .line 859
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$10;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     iget-object v0, v0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->helpWebView:Landroid/webkit/WebView;
@@ -57,7 +57,7 @@
 
     invoke-virtual {v0, v1}, Landroid/webkit/WebView;->setVisibility(I)V
 
-    .line 930
+    .line 861
     :cond_0
     return-void
 .end method

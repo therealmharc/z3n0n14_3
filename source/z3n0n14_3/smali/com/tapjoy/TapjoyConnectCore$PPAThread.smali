@@ -29,7 +29,7 @@
     .param p2, "urlParams"    # Ljava/lang/String;
 
     .prologue
-    .line 917
+    .line 919
     iput-object p1, p0, Lcom/tapjoy/TapjoyConnectCore$PPAThread;->this$0:Lcom/tapjoy/TapjoyConnectCore;
 
     .line 916
@@ -38,7 +38,6 @@
     .line 918
     iput-object p2, p0, Lcom/tapjoy/TapjoyConnectCore$PPAThread;->params:Ljava/lang/String;
 
-    .line 919
     return-void
 .end method
 

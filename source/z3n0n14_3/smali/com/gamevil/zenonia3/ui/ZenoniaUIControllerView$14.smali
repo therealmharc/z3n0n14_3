@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$14;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
-    .line 1036
+    .line 939
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,19 +41,19 @@
     .locals 3
 
     .prologue
-    .line 1041
+    .line 944
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$14;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     iget-object v0, v0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->ui_title_logo:Landroid/widget/ImageView;
 
     if-eqz v0, :cond_0
 
-    .line 1044
+    .line 947
     iget-object v1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$14;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    const v2, 0x7f080027
+    const v2, 0x7f070022
 
     invoke-virtual {v0, v2}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
 
@@ -63,7 +63,7 @@
 
     iput-object v0, v1, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->ui_title_logo:Landroid/widget/ImageView;
 
-    .line 1045
+    .line 948
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$14;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     iget-object v0, v0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->ui_title_logo:Landroid/widget/ImageView;
@@ -72,7 +72,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 1055
+    .line 958
     :cond_0
     return-void
 .end method

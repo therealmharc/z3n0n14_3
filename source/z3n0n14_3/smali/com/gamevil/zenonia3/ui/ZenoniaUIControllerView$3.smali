@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$3;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
-    .line 564
+    .line 514
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,12 +43,12 @@
     .prologue
     const/16 v2, 0xa7
 
-    .line 570
+    .line 520
     sget-boolean v0, Lcom/gamevil/nexus2/NexusGLActivity;->isLargeScreen:Z
 
     if-eqz v0, :cond_0
 
-    .line 571
+    .line 521
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$3;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     invoke-static {v0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->access$1(Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;)Landroid/widget/FrameLayout$LayoutParams;
@@ -63,7 +63,7 @@
 
     iput v1, v0, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
-    .line 572
+    .line 522
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$3;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     invoke-static {v0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->access$1(Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;)Landroid/widget/FrameLayout$LayoutParams;
@@ -72,7 +72,7 @@
 
     iput v2, v0, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 578
+    .line 528
     :goto_0
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$3;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
@@ -86,7 +86,7 @@
 
     invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/ui/UIEditText;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 579
+    .line 529
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$3;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     iget-object v0, v0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->textInput:Lcom/gamevil/nexus2/ui/UIEditText;
@@ -95,10 +95,10 @@
 
     invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/ui/UIEditText;->setEnabled(Z)V
 
-    .line 580
+    .line 530
     return-void
 
-    .line 574
+    .line 524
     :cond_0
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$3;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
@@ -114,7 +114,7 @@
 
     iput v1, v0, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
-    .line 575
+    .line 525
     iget-object v0, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$3;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     invoke-static {v0}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->access$1(Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;)Landroid/widget/FrameLayout$LayoutParams;

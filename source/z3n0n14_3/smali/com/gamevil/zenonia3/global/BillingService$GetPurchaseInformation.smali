@@ -29,7 +29,7 @@
     .param p3, "notifyIds"    # [Ljava/lang/String;
 
     .prologue
-    .line 286
+    .line 289
     iput-object p1, p0, Lcom/gamevil/zenonia3/global/BillingService$GetPurchaseInformation;->this$0:Lcom/gamevil/zenonia3/global/BillingService;
 
     .line 287
@@ -38,7 +38,6 @@
     .line 288
     iput-object p3, p0, Lcom/gamevil/zenonia3/global/BillingService$GetPurchaseInformation;->mNotifyIds:[Ljava/lang/String;
 
-    .line 289
     return-void
 .end method
 

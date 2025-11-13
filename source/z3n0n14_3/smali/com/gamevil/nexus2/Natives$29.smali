@@ -3,12 +3,12 @@
 .source "Natives.java"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroid/content/DialogInterface$OnClickListener;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/gamevil/nexus2/Natives;->HideTapjoyOffer()V
+    value = Lcom/gamevil/nexus2/Natives;->openPurchasePopup(IILjava/lang/String;)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,7 +22,7 @@
     .locals 0
 
     .prologue
-    .line 3446
+    .line 3358
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 1
@@ -31,53 +31,17 @@
 
 
 # virtual methods
-.method public run()V
-    .locals 3
+.method public onClick(Landroid/content/DialogInterface;I)V
+    .locals 1
+    .param p1, "dialog"    # Landroid/content/DialogInterface;
+    .param p2, "whichButton"    # I
 
     .prologue
-    .line 3451
-    sget v1, Lcom/gamevil/nexus2/Natives;->language:I
+    .line 3363
+    const/4 v0, 0x0
 
-    invoke-static {}, Lcom/gamevil/nexus2/Natives;->access$2()I
+    sput-boolean v0, Lcom/gamevil/nexus2/Natives;->bOpenPurchasePopup:Z
 
-    move-result v2
-
-    if-ne v1, v2, :cond_0
-
-    .line 3453
-    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
-
-    const v2, 0x7f080053
-
-    invoke-virtual {v1, v2}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/ImageButton;
-
-    .line 3461
-    .local v0, "offer":Landroid/widget/ImageButton;
-    :goto_0
-    const/4 v1, 0x4
-
-    invoke-virtual {v0, v1}, Landroid/widget/ImageButton;->setVisibility(I)V
-
-    .line 3462
+    .line 3365
     return-void
-
-    .line 3457
-    .end local v0    # "offer":Landroid/widget/ImageButton;
-    :cond_0
-    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
-
-    const v2, 0x7f080052
-
-    invoke-virtual {v1, v2}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/ImageButton;
-
-    .restart local v0    # "offer":Landroid/widget/ImageButton;
-    goto :goto_0
 .end method

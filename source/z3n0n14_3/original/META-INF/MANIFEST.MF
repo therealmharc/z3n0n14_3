@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Created-By: 1.0 (Android SignApk)
+Created-By: 1.0 (Android)
 
 Name: res/raw/s000.ogg
 SHA1-Digest: 6gwJfffny9ycgOjF0rGARJteTHI=
@@ -7,11 +7,11 @@ SHA1-Digest: 6gwJfffny9ycgOjF0rGARJteTHI=
 Name: assets/map/059.zt1
 SHA1-Digest: jRANtjSUaNKrtCa15PVNjrppk/Y=
 
-Name: assets/script/quest/132_E.zt1
-SHA1-Digest: wyMlKcBJtvtquHOa0S6Eb6tJHHI=
-
 Name: assets/dynamic/ItemIconComm.mpl
 SHA1-Digest: PF1r2Sm3BT7HZqklUxtmNvtndCQ=
+
+Name: assets/script/quest/132_E.zt1
+SHA1-Digest: wyMlKcBJtvtquHOa0S6Eb6tJHHI=
 
 Name: assets/script/call/012.zt1
 SHA1-Digest: RNBXTANV4U+VcmPIDG58lxmYtQo=
@@ -19,14 +19,8 @@ SHA1-Digest: RNBXTANV4U+VcmPIDG58lxmYtQo=
 Name: assets/script/quest/071_E.zt1
 SHA1-Digest: 2yp4OxZzXrdLoOUfk+EU08LrmEI=
 
-Name: assets/chinese/data/StrTalk0.zt1
-SHA1-Digest: jJ2zC0jXYZnQENGlpEyzspgMw4w=
-
 Name: assets/pc/weapon/0/003.pzd
 SHA1-Digest: TYEP2h3lZrzaS+jV/eTgK5QM9Js=
-
-Name: xml/commonPopupJoinH.xml
-SHA1-Digest: xOOnT6bn9Xd/aGhq2A4AAQ+AvFI=
 
 Name: assets/obj/079.pzx
 SHA1-Digest: 5DWubojaQPYYfojv+IlVwuajh1U=
@@ -34,14 +28,8 @@ SHA1-Digest: 5DWubojaQPYYfojv+IlVwuajh1U=
 Name: assets/script/quest/066_S.zt1
 SHA1-Digest: XjndUtv2lWWJiFefmvaighFVbxM=
 
-Name: assets/menu/pngTest.pzx
-SHA1-Digest: j6zGva6v+7Mp1PgfZHmH17KYQCs=
-
 Name: assets/pc/weapon/0/006.mpl
 SHA1-Digest: P2idv+QtXmhSYnTFdzqKC7jgjCE=
-
-Name: res/textbox_01_3.png
-SHA1-Digest: 0zL3byPmwRPCFwC0gKLdWBcUEoA=
 
 Name: assets/char/063.pzx
 SHA1-Digest: k4YVMJ18Ub04YW96Mu8wlcgxXiM=
@@ -55,23 +43,23 @@ SHA1-Digest: xms3jG+jSJZJ9DtlwYdT1vI4xws=
 Name: assets/obj/113.pzx
 SHA1-Digest: nFxctussB1Hoe8TSsgTVl2orHMk=
 
-Name: res/drawable/bar.png
-SHA1-Digest: LMR4sVTpVRYBk06siDiv6GJs/ug=
-
 Name: assets/script/call/101.zt1
 SHA1-Digest: x9fzshg/+9Yk9oBkEugJaQfhI7M=
 
 Name: assets/script/quest/046_S.zt1
 SHA1-Digest: vjKnTHHGhzgrmPXaaNodsZFS1go=
 
+Name: res/drawable/bar.png
+SHA1-Digest: +YG/9y6bOWoA3hZdVyQH7bHPAwU=
+
+Name: doc/com/amazon/InApp/transaction/PurchaseResponse.html
+SHA1-Digest: p1i3gKC4Uuyc51XrvlJSu8f64UI=
+
 Name: assets/script/quest/099_S.zt1
 SHA1-Digest: tKSb7Gq1VaJ4TVuJUFwUhH3wFQ4=
 
 Name: assets/pc/weapon/3/006.pzd
 SHA1-Digest: /1+YwBj2DhuJ58PICGZrv+J1TI0=
-
-Name: assets/chinese/data/XlsTitle.zt1
-SHA1-Digest: P3ScFtJLPwkjSlEDiE9oIwn7nDc=
 
 Name: assets/char/125.pzx
 SHA1-Digest: GM8IMSmVQIyBBYQu7Kx5yyjAe9I=
@@ -97,23 +85,23 @@ SHA1-Digest: KQh8XpujSAwolL6VHT6gGzWrZAQ=
 Name: assets/script/quest/023_E.zt1
 SHA1-Digest: xsI9cjyMu8Fu5N/DXt6/62zsp+c=
 
-Name: assets/chinese/data/StrMaptheme_Name.zt1
-SHA1-Digest: 57cRC9GyZGEDWKV3je/o1D8aqYM=
-
 Name: assets/obj/013.pzx
 SHA1-Digest: eO33TCJhdI5W6PfpYt80LdxdYsc=
 
 Name: assets/html/mechanic_launcher.png
 SHA1-Digest: ANhV5FzdT0lyLTqsFg/CDfk2QOE=
 
-Name: assets/com/Fairy.pzx
-SHA1-Digest: 8voYXqkHMltsiaH5O0FqqMOwsx8=
+Name: doc/index-files/index-5.html
+SHA1-Digest: 2JzFep6Z0O6Y7YahR2bDT5HUV+8=
 
 Name: assets/obj/060.pzx
 SHA1-Digest: mR1f9LEF66gsiu5cJeRcuaqyovU=
 
+Name: assets/com/Fairy.pzx
+SHA1-Digest: 8voYXqkHMltsiaH5O0FqqMOwsx8=
+
 Name: assets/korean/data/StrQuestComplete.zt1
-SHA1-Digest: 83xejaGOc06sqiyl3MoiL9XsOr0=
+SHA1-Digest: Z92s1WX68u5OVDv8uqQdqW2RnzA=
 
 Name: assets/pc/side_hand/0/002.pzd
 SHA1-Digest: wVm4ZVQpLsa/bCT2e+jXlZvW+II=
@@ -127,6 +115,13 @@ SHA1-Digest: nPnDcOCRHUewSs3Iowxv7yQGIWs=
 Name: res/raw/s028.ogg
 SHA1-Digest: 0VmigC0eC74Vwjhh4wwQGDTVi+I=
 
+Name: doc/com/amazon/InApp/purchasing/BasePurchasingObserver.html
+SHA1-Digest: nVMOqP6H6e+X+t8edKJplFBEIaA=
+
+Name: doc/com/amazon/InApp/transaction/class-use/SubscriptionPeriod.ht
+ ml
+SHA1-Digest: GCXn3wrzFWSwRTXRvytPc0pPMp0=
+
 Name: assets/script/map/052_002.zt1
 SHA1-Digest: 0WKxq45pyTr3l87+wYy7+J9Q/Us=
 
@@ -139,11 +134,11 @@ SHA1-Digest: OTHu+cpj9emoZfw1wmPIpMBOSpk=
 Name: assets/pc/armor/2/003.mpl
 SHA1-Digest: l8rEaXEIms8OiFDUgEcPUGm7HqI=
 
+Name: doc/com/amazon/InAppSDK/purchasing/ResponseReceiver.html
+SHA1-Digest: 5Y/+rcDyouxTYoMW05JEtSB1xdw=
+
 Name: assets/script/com/004.zt1
 SHA1-Digest: NObk5W05mxLUrGZ4w8LFuUG/hlc=
-
-Name: assets/japanese/data/StrStatType.zt1
-SHA1-Digest: 4D3UtoqrwzR8K2+8OLi/HtYfqGk=
 
 Name: assets/pc/armor/0/001.pzd
 SHA1-Digest: Jf08zroDTkYJsgNTVUxnnZN/cAw=
@@ -164,22 +159,13 @@ Name: res/raw/s003.ogg
 SHA1-Digest: rsXG6dQoZsjlCrJFn1mHjEoHXcU=
 
 Name: assets/korean/data/XlsPCNew.zt1
-SHA1-Digest: eNrEOh6f3HNG17nHABZOF0FgQeo=
+SHA1-Digest: hZ6sOgtLxlAWjZjNRrcTRkRnEE0=
 
 Name: assets/script/quest/048_E.zt1
 SHA1-Digest: LhnLeVH7d9dui2cw+oNXEPG3pCA=
 
 Name: assets/map/125.zt1
 SHA1-Digest: N4BfO2AHX4t+Vmce8rEhgolBYWE=
-
-Name: res/btn_info01_sel.png
-SHA1-Digest: MclwNDFZQdhRQmHh7WzzKgcvU/k=
-
-Name: res/drawable/gshop_btn6_jp.png
-SHA1-Digest: RWHR+lGNptyLXQjQS7uC+RwMrZ4=
-
-Name: assets/japanese/data/StrQuestSum.zt1
-SHA1-Digest: Bx4Wo/UPRlMEEWzqhjNu7c9j97o=
 
 Name: assets/script/call/105.zt1
 SHA1-Digest: W9nmR0yIP3uBZt+y2TZK//XhGnM=
@@ -193,17 +179,17 @@ SHA1-Digest: nLmftTIX0GitSYBPoDgOySnO1OM=
 Name: assets/script/quest/126_E.zt1
 SHA1-Digest: FQeTwlHMZzj5bHUX7sEYp5dbxaI=
 
-Name: assets/chinese/data/XlsSheet1.zt1
-SHA1-Digest: qxNux3r6M4jxnhP3hjVzTFNqI4s=
-
 Name: assets/map/090.mpl
 SHA1-Digest: IoHIau/3rcPTZVqllJCI2iu74dM=
 
-Name: assets/korean/data/XlsSkill.zt1
-SHA1-Digest: AA3RGYmnjJkKax4Fx8/P4xsjWmM=
-
 Name: assets/char/003.mpl
 SHA1-Digest: 9DglnN6utY1zytsqJpZbAmU4cb8=
+
+Name: assets/korean/data/XlsSkill.zt1
+SHA1-Digest: OxO/RBcZtIqG6a8ERKihGW8hnH4=
+
+Name: doc/com/amazon/InApp/purchasing/package-use.html
+SHA1-Digest: fjv7NpuMbX/bVaN4T+dvgQ3b1F4=
 
 Name: assets/ptc/020.ptc
 SHA1-Digest: YD6A7w/VPGWEiR5sFw/dKbS21wE=
@@ -229,9 +215,6 @@ SHA1-Digest: QgIATyVT7Xb83wAsabpRkaleo3A=
 Name: assets/pc/armor/1/003.mpl
 SHA1-Digest: qbUGWAlBcFVGES2obDNxNnH+Z+Q=
 
-Name: assets/sound/059.mp3
-SHA1-Digest: 36WrUDS9/fzr3WFwn276DENibOw=
-
 Name: assets/batterUI.pzx
 SHA1-Digest: bBYP4UJ2m8VopplUgM4joixR6/U=
 
@@ -240,9 +223,6 @@ SHA1-Digest: oBRfzDrkzrWVuo40kcyX/yteMh8=
 
 Name: assets/script/call/094.zt1
 SHA1-Digest: F8xeVvE+hEFW4FDieZ6IOHdyNyQ=
-
-Name: res/keypad_num_02.png
-SHA1-Digest: V7nz41XSX9hsIFfYTG0aZzDJa0Q=
 
 Name: assets/script/call/014.zt1
 SHA1-Digest: dvvJyHfw3YQ3/LMU3hUMmewGlYg=
@@ -253,11 +233,12 @@ SHA1-Digest: TSz2iSxAGOOgPKUPhRBI/21qdB4=
 Name: res/raw/s021.ogg
 SHA1-Digest: AB1LZIuHmPvpBknxlZY5lfSfH7s=
 
-Name: assets/japanese/data/XlsPCNew.zt1
-SHA1-Digest: gxqzJW2rouCV9LwO59bXz+TWfxM=
+Name: doc/com/amazon/InApp/transaction/Item.ItemType.html
+SHA1-Digest: lhqFl8sknj8oZg5tCDpM8PFPSVU=
 
-Name: res/btn_cancel_nor_h.png
-SHA1-Digest: pa7jF/+t7BNTeEuvlNU2yWmqSaE=
+Name: doc/com/amazon/InApp/purchasing/class-use/ItemDataResponse.ItemD
+ ataRequestStatus.html
+SHA1-Digest: CIujG99UT0syEdo2MGUioOoc1NM=
 
 Name: assets/script/quest/015_E.zt1
 SHA1-Digest: HThwyC0kzfXkCeUxRqaVvFilpv4=
@@ -280,6 +261,9 @@ SHA1-Digest: zqkUfqOMedWmBz/WdC5GUivhyJg=
 Name: assets/pc/armor/0/005.mpl
 SHA1-Digest: 7DqjIi88hKvS4sdi8JmHMy7JGHU=
 
+Name: doc/index-files/index-11.html
+SHA1-Digest: KFteDwr1YjeYnkBvGU/LaN0sfJ8=
+
 Name: assets/pc/head/0/002.pzd
 SHA1-Digest: n6A/SGhU+rmumm7y4TOyKCQS9Xw=
 
@@ -295,20 +279,14 @@ SHA1-Digest: BPHWo1fYeSYlJMbNaiyh0dXXMOk=
 Name: assets/char/047.pzx
 SHA1-Digest: oDFH/dXRsxNgfxrgWxU4BknlG2U=
 
-Name: res/btn_terms_sel_b.png
-SHA1-Digest: Gm3DRBTLL7UvEQiBMXved9/D5eA=
-
 Name: assets/script/quest/001_E.zt1
 SHA1-Digest: ROHm0n+2DZjeDBEgdc8p2n2rwmw=
 
-Name: assets/sound/043.mp3
-SHA1-Digest: oSWj03zalr1wc2Yf+9qlfl0YiS0=
+Name: assets/projectile/014.pzx
+SHA1-Digest: y+oWq0mmBXOtipWmCXVC9Hs78xo=
 
 Name: assets/script/quest/117_S.zt1
 SHA1-Digest: 4GTNYwOMjia2LdXcGGjXmeLo2wM=
-
-Name: assets/projectile/014.pzx
-SHA1-Digest: y+oWq0mmBXOtipWmCXVC9Hs78xo=
 
 Name: assets/script/quest/051_E.zt1
 SHA1-Digest: iQ+jEuIeYVnQfFb5IFTbKrLZw5Q=
@@ -322,26 +300,14 @@ SHA1-Digest: XvWICyxZBaZpHk56Eha4hXhHzYg=
 Name: assets/obj/058.pzx
 SHA1-Digest: 9pz6fgDDXGeyat8Nvvkp7Wx8fm0=
 
-Name: xml/purchaseH.xml
-SHA1-Digest: 2lBc7kQ+UlCTNIF7k/ntBBIVHrM=
-
-Name: res/popup_bg_all.9.png
-SHA1-Digest: K9IjDFoPSUJcND09Sfoj7CcaaeU=
-
-Name: res/drawable/back_b.png
-SHA1-Digest: pK/FCuzmQ6NEqg2ztFqPi053hXI=
+Name: assets/data/StrQuest_C.zt1
+SHA1-Digest: kRdONUS7/UIX2EgCXO+MT/WI1X4=
 
 Name: assets/script/quest/136_S.zt1
 SHA1-Digest: zTxVAX2g45aFwM+3rcyZEdYEC64=
 
-Name: assets/data/StrQuest_C.zt1
-SHA1-Digest: kRdONUS7/UIX2EgCXO+MT/WI1X4=
-
 Name: assets/pc/weapon/2/006.mpl
 SHA1-Digest: jFnBZnTMGkyzGVb00HaBGv0N61g=
-
-Name: assets/html/grade.png
-SHA1-Digest: RtzHw0svHgoiy4C5t341dFvs/4U=
 
 Name: assets/map/247.zt1
 SHA1-Digest: NOVvQ1j//dXSLW/USZBr1N/8FWg=
@@ -350,10 +316,13 @@ Name: assets/obj/026.mpl
 SHA1-Digest: B/oB82c5+HHLd83LxuFpKgNzw2g=
 
 Name: assets/menu/Title.pzx
-SHA1-Digest: OU1LZE9H5okigoX4nDLyU80YUp0=
+SHA1-Digest: Nd0882aCBNmFWf2U5vRRJAHfyyA=
 
 Name: assets/pc/side_hand/2/002.mpl
 SHA1-Digest: nHoNOkSvWb24tHWzCDud61MpBb0=
+
+Name: doc/com/amazon/InApp/transaction/class-use/ItemDataResponse.html
+SHA1-Digest: N+WiUlJfYAAOwz50sXni0Iza9/A=
 
 Name: assets/pc/side_hand/1/004.mpl
 SHA1-Digest: MkUAANMob/UabXvUqUY6oZlqano=
@@ -361,47 +330,42 @@ SHA1-Digest: MkUAANMob/UabXvUqUY6oZlqano=
 Name: assets/obj/045.pzx
 SHA1-Digest: HAZFnffmH6gq1pbImumA+X+6FfU=
 
-Name: assets/japanese/data/StrTalk0.zt1
-SHA1-Digest: 6JHY5yFrIdzQ8ypE8FNnbEWq+CU=
-
 Name: assets/obj/101.pzx
 SHA1-Digest: ho7/UCkiyxc7mO8q9qw7sEA5mBg=
 
-Name: res/btn_con_nor.png
-SHA1-Digest: W5AUFWV3O5lWRz78vVdf7RZ2Z8o=
-
 Name: res/drawable/btt_touch.png
-SHA1-Digest: F74BHpdjhPzvwMNMdBz2KIWrIhg=
+SHA1-Digest: 9QZnR6lEwikjO41uzp1KQa7+Pj0=
 
 Name: assets/map/016.zt1
 SHA1-Digest: 8Waochze4WushGhOB1BDvsVYkIA=
 
+Name: doc/com/amazon/InAppSDK/purchasing/SubscriptionPeriod.html
+SHA1-Digest: uimeuqyo6Q6vNyEVa5EGeoce4c0=
+
 Name: assets/map/089.zt1
 SHA1-Digest: pGg5Gbu4ZVrHRzUBNB332C9Ir6M=
-
-Name: assets/script/quest/115_S.zt1
-SHA1-Digest: aEG6k+GzPWRRErzuidsD1n1dsms=
 
 Name: assets/char/129.pzx
 SHA1-Digest: vN1lQfMiUOaQke/PyRAkmPXWKOc=
 
+Name: assets/script/quest/115_S.zt1
+SHA1-Digest: aEG6k+GzPWRRErzuidsD1n1dsms=
+
+Name: doc/com/amazon/InAppSDK/purchasing/PurchaseResponse.PurchaseRequ
+ estStatus.html
+SHA1-Digest: OXIdKZj/qzS9QipW6BvEzaG/1Es=
+
 Name: assets/dynamic/BGIce.pzx
 SHA1-Digest: LgfrTBWLXRo+is1lt/eTabZMf8Q=
+
+Name: doc/com/amazon/InApp/purchasing/Item.ItemType.html
+SHA1-Digest: 9JjZwSm7JKRgaR8X7LfY8x8dX2A=
 
 Name: assets/obj/116.mpl
 SHA1-Digest: I1eojMoM0Zvpc/VcKy+idmCK4aQ=
 
-Name: xml_kt_lg/pop_Juminnumber.xml
-SHA1-Digest: 7xnIsTYi5ZA34ij1uwf1aq6EMyg=
-
-Name: assets/japanese/data/XlsPVP.zt1
-SHA1-Digest: oPgFb9Sdxo/MhUgscgS1l3X/sXo=
-
 Name: assets/char/057.mpl
 SHA1-Digest: kKdKKg6S6r3AYDl/RQXcDlBz0g0=
-
-Name: assets/sound/107.caf
-SHA1-Digest: xyzrqZLEgt0gPtyeI3NNOOgnra4=
 
 Name: assets/projectile/009.pzx
 SHA1-Digest: VNZMXjtjbEk6LDb2HlcyKIefSmM=
@@ -427,17 +391,11 @@ SHA1-Digest: XhP6equ0+O9MvdUeHBHQGKPCr5c=
 Name: assets/char/126.pzx
 SHA1-Digest: FAmkLMwDe/rqWqg6ZvFBFQQzFJA=
 
-Name: res/drawable/gshop_btn3_jp.png
-SHA1-Digest: WNTRMb3kFfQo3Blp+/gGZFStWuE=
-
 Name: assets/script/quest/052_E.zt1
 SHA1-Digest: NXvHS5+ymSO0UZuWkjPW4HuZwfM=
 
 Name: assets/map/167.zt1
 SHA1-Digest: iG1JmOcHdm9aEIe1UZJ1wfQrATM=
-
-Name: assets/japanese/script/output_dlg.zt1
-SHA1-Digest: wGIP91YuFT5QwgdzoqMPsBhKLyc=
 
 Name: assets/script/quest/076_S.zt1
 SHA1-Digest: fbjaUOdgxStxpDo9q2u7auvO0uE=
@@ -452,10 +410,7 @@ Name: assets/script/map/029_001.zt1
 SHA1-Digest: WGLAKVh/LR5Er5XNaSGnV1VuDZw=
 
 Name: assets/data/XlsChar.zt1
-SHA1-Digest: EOQ8UdbJBnU94L+6jv3kZMEiGZU=
-
-Name: res/keypad_num_07.png
-SHA1-Digest: L3fdjwj9BRjEKP8pjhv40cidNJo=
+SHA1-Digest: gC3UqaNIhb212oM8YA6TP4O22WI=
 
 Name: assets/script/call/070.zt1
 SHA1-Digest: JKW3WIYQJXBEQDL90P09Bmgkan4=
@@ -472,11 +427,11 @@ SHA1-Digest: VyIQARzVIT+K3iu7miag8co7IaQ=
 Name: assets/script/map/176_001.zt1
 SHA1-Digest: 9sFR85jBe4sgH5kdmlwpMpAZFU8=
 
+Name: doc/index-files/index-3.html
+SHA1-Digest: pIdAnLIPGDzO5DDnQFxl00xMBFA=
+
 Name: assets/script/quest/019_E.zt1
 SHA1-Digest: rhvRtEJSMO76vfkj+fs3X5N9X60=
-
-Name: xml_kt_lg/commonPopupJoinFormH.xml
-SHA1-Digest: sHg6XwRDeQG70cHDECqDbZKEmQ8=
 
 Name: assets/pc/effect/002.pzf
 SHA1-Digest: vLpixmFRSLgkWlKQLjgNvdO1jcg=
@@ -493,50 +448,41 @@ SHA1-Digest: JK4QAM8IWsbNhL0FS6OEoPBrVrU=
 Name: assets/script/map/045_002.zt1
 SHA1-Digest: MBqKA7TIszaWWobHX/LDKwlXn0w=
 
+Name: doc/com/amazon/InApp/transaction/class-use/Receipt.html
+SHA1-Digest: 0WOkEMfFR6CWMY4nf214MA8NzTU=
+
 Name: assets/script/quest/048_S.zt1
 SHA1-Digest: 7E+75DkU1CTTu3W90iWViMBQhUs=
-
-Name: xml/purchaseW.xml
-SHA1-Digest: GOdSrmA8Usk1FPRsx+SAvUuSjvg=
-
-Name: assets/script/quest/125_E.zt1
-SHA1-Digest: Z027V7fXvAedv7gPrdbQtxMD6WY=
 
 Name: assets/map/236.zt1
 SHA1-Digest: hRSxdU3wnCXERSTMuBsgcD5LBoY=
 
-Name: res/drawable/ui_about_bg.png
-SHA1-Digest: MDZ18ImLIVmOOLU1g/zGlAW52J8=
+Name: assets/script/quest/125_E.zt1
+SHA1-Digest: Z027V7fXvAedv7gPrdbQtxMD6WY=
 
 Name: assets/map/020.mpl
 SHA1-Digest: 5dd0T/fSfNA67xaG0iHp8Vuri7Y=
 
+Name: res/drawable/ui_about_bg.png
+SHA1-Digest: H62os4VtTdu7hA9AxiPSLpWHg2s=
+
 Name: assets/obj/004.pzx
 SHA1-Digest: bZiqk8avcpJQZZqviQeU+XmllFE=
-
-Name: assets/menu/sayryu.pzx
-SHA1-Digest: RbbxLGQR38BrUX95gFZSlU/6cwA=
 
 Name: assets/map/175.zt1
 SHA1-Digest: EJIN23tjxBdU3uxYsgTrtDeWJGM=
 
-Name: assets/sound/020.mp3
-SHA1-Digest: 3K3rTop1hYceSfL0hkgFLMirJ84=
-
 Name: assets/obj/053.pzx
 SHA1-Digest: UUu4BZ6KOM+3T9J5T1iSTmU8T8w=
+
+Name: doc/com/amazon/InAppSDK/purchasing/package-frame.html
+SHA1-Digest: MDuJpz22gdlWHxbxOJzmU2UyB20=
 
 Name: res/anim/slide_down.xml
 SHA1-Digest: mB3n7T5hiPNNkI65xenH3kqnhNA=
 
-Name: res/drawable/gshop_btn2_jp.png
-SHA1-Digest: Y+ceQNWtLLFQwr/MKv2PPW59ZrA=
-
 Name: assets/data/XlsRandomBox.zt1
 SHA1-Digest: rPyQYqnOTL/Be3E1daxw5tw3zBw=
-
-Name: assets/chinese/script/output_dlg.zt1
-SHA1-Digest: J7XFS9iE8xVwaYThBaCDvcOoiJQ=
 
 Name: assets/char/141.pzx
 SHA1-Digest: HOPPq89tA0W53ILbTxkI58MUoRk=
@@ -547,11 +493,11 @@ SHA1-Digest: ryzSBQbx2YgreBeV2OXgaihaGg0=
 Name: assets/map/067.zt1
 SHA1-Digest: QMk+pqB4dMHMl9eBc58XmIKEQdM=
 
-Name: res/drawable/ui_menu_community_kr.png
-SHA1-Digest: PcGTcxYoZZtMFNQnb0/d5Uv4wds=
-
 Name: assets/obj/038.pzx
 SHA1-Digest: grLNBJ3YOhouKKYyN5j4Y62OZQ4=
+
+Name: doc/com/amazon/InApp/purchasing/package-summary.html
+SHA1-Digest: 7G54Oon62gnJAgZk7fpbKPy0koM=
 
 Name: res/drawable-ldpi/icon.png
 SHA1-Digest: wCFY0wQ6YX4U0c/amLnrn824HnI=
@@ -571,23 +517,21 @@ SHA1-Digest: OuLpYWZgMF0FTbdPr8YQlGvu+Xo=
 Name: assets/pc/side_hand/1/001.mpl
 SHA1-Digest: ksRvY/8UvtpEOS8Dp79jdMn1y9M=
 
+Name: doc/com/amazon/InApp/purchasing/class-use/PurchasingObserver.htm
+ l
+SHA1-Digest: d12+ZFiY13vAjAfsweowrK5uX3w=
+
 Name: res/drawable/ui_btn_gshop.png
-SHA1-Digest: joG22JEL9pMgzN0L1lENWJbHviA=
+SHA1-Digest: m0gi9F2gY7pJnIkm6nc9+uDMZeU=
 
-Name: res/btn_check_ok_nor.png
-SHA1-Digest: HtCfbYbvBPvmbt/kL5Z6FYvYvig=
-
-Name: xml_kt_lg/commonPopupJoinFormW.xml
-SHA1-Digest: KEk5M4ehDXmvnWh/2al3DpJIglY=
+Name: doc/com/amazon/InApp/transaction/class-use/ResponseReceiver.html
+SHA1-Digest: gYYm7nDVijPw3omwjSaIdvsrfIQ=
 
 Name: assets/script/quest/131_E.zt1
 SHA1-Digest: nqPhrOjkeB0p10V5q3k+uEpQYkc=
 
 Name: assets/char/120.pzx
 SHA1-Digest: UvUE+VDuMckgpC/xwf+redAHBJc=
-
-Name: xml/purchaseW_Auto.xml
-SHA1-Digest: 3/wTMPcvjH4B8XD+vBmN7+SDXA8=
 
 Name: assets/ptc/028.ptc
 SHA1-Digest: JGqGiMvhMDW8ewDAmaiOffP7aG4=
@@ -597,9 +541,6 @@ SHA1-Digest: xm4DFAMCEV13p7GwTRKSfsCg03E=
 
 Name: assets/map/197.zt1
 SHA1-Digest: 1e5ymrTaCefoKX7b335tJpFgTkQ=
-
-Name: assets/chinese/data/XlsNPC.zt1
-SHA1-Digest: FP7PmapThkXND5JBg7TVyekZQ2U=
 
 Name: assets/map/097.zt1
 SHA1-Digest: ImWE4MeVF1mzwRnHt1Ute6vMnBM=
@@ -623,25 +564,25 @@ Name: assets/script/quest/077_E.zt1
 SHA1-Digest: fEliXcwBXfIlN+uD598i5kjKQFY=
 
 Name: assets/korean/data/StrQuestSum.zt1
-SHA1-Digest: HbQ47p3tcb/9iEH+aXV2nBS8L3Y=
+SHA1-Digest: 2lT7q71A51rVTAlL2iT/YIQxVRw=
+
+Name: doc/com/amazon/InAppSDK/purchasing/RevokedSkuDataResponse.html
+SHA1-Digest: EtTpPjJNOiHWK8ny1AP6It5WNKc=
 
 Name: assets/obj/029.pzx
 SHA1-Digest: xPdb6rZXW15M32i2G5F6zSa0Nqc=
 
-Name: assets/dummy/dum07.pzx
-SHA1-Digest: Cla4WZFw2u0REVSUGLjr/9HBqss=
+Name: assets/pc/head/1/005.pzd
+SHA1-Digest: 7GEenCt8lZlxUYN7FjsxeylcNgU=
 
 Name: res/drawable/ui_menu_help.png
 SHA1-Digest: u3qkcqlpUsC2DSfhKN2zM5sZKMU=
 
-Name: assets/pc/head/1/005.pzd
-SHA1-Digest: 7GEenCt8lZlxUYN7FjsxeylcNgU=
+Name: assets/char/050.pzx
+SHA1-Digest: Dy2pn5H5Ib2qAxaOKXIaxlMYac4=
 
 Name: assets/script/quest/108_S.zt1
 SHA1-Digest: aAIDXhP/UpKt5mRv85+o3XRpb9w=
-
-Name: assets/char/050.pzx
-SHA1-Digest: Dy2pn5H5Ib2qAxaOKXIaxlMYac4=
 
 Name: assets/obj/042.pzx
 SHA1-Digest: Pgwzik7Hh0RH0JnnH3i++CfIGMY=
@@ -658,14 +599,15 @@ SHA1-Digest: fA0VGss+nXfT8UkOhaYn4Fr9bDU=
 Name: assets/char/026.pzx
 SHA1-Digest: yI9rV7eQvjv+tQogCT/2c286Gfg=
 
+Name: doc/com/amazon/InApp/transaction/class-use/ContentDownloadRespon
+ se.ContentDownloadRequestStatus.html
+SHA1-Digest: LjzO20ttcuN6JE0n/9e09exqfk0=
+
 Name: assets/obj/074.pzx
 SHA1-Digest: CZRy6XH1UNtoQKO7HsRlgqSXVj4=
 
 Name: res/raw/s017.ogg
 SHA1-Digest: IXRw0b87EP49cI1Q4MjckFR7k/c=
-
-Name: assets/sound/032.mp3
-SHA1-Digest: cQzmkWpxoXcXoV9IxEv5obwdd3c=
 
 Name: assets/script/quest/038_S.zt1
 SHA1-Digest: 5FiN46Seup1yhoyHQ/HS+eM/KAU=
@@ -688,9 +630,6 @@ SHA1-Digest: 8+owQG8eSAdDGGitdtmtKgRVldY=
 Name: assets/script/call/095.zt1
 SHA1-Digest: 4q9PauHlA+6qxDuHDinj64jT+e4=
 
-Name: res/drawable/ui_menu_about_jp.png
-SHA1-Digest: K6El40kc7LVwCBMDjIf1aWRTrbE=
-
 Name: assets/script/quest/070_E.zt1
 SHA1-Digest: FC68IFyP0k8i38cgGZv2XVIWskM=
 
@@ -699,9 +638,6 @@ SHA1-Digest: V+hcyXeoTUMGcGxBZXZABBbtKpk=
 
 Name: assets/char/033.mpl
 SHA1-Digest: B9UCffbJLvI3va0OCBFg0+j0Y3I=
-
-Name: assets/chinese/data/XlsItem.zt1
-SHA1-Digest: dEgPNMKnT88xCOhD5SccTfPvYyQ=
 
 Name: res/raw/s104.ogg
 SHA1-Digest: FAGL3cvB4zPbyCHAw5QwhDNkCWY=
@@ -728,7 +664,7 @@ Name: assets/map/218.zt1
 SHA1-Digest: T/t/WrWFXVJLGzc75U+EwkThhM0=
 
 Name: res/drawable/auth_bg.png
-SHA1-Digest: E8oBH3Rfm5fRzIBm7AMn5ymsv6A=
+SHA1-Digest: piImdXJbMCubmqhv3PIgr66zu1o=
 
 Name: assets/face/009.pzx
 SHA1-Digest: GUHD36nggM/q87wdm1LEphBK4G8=
@@ -745,14 +681,15 @@ SHA1-Digest: Yrks3PtW/cmcWQ/AKD9o+p45RiY=
 Name: assets/pc/weapon/002.pzf
 SHA1-Digest: EGppGVV+3H0WGeKsZ8+xR0q1rZY=
 
+Name: doc/com/amazon/InApp/transaction/SdkObserverNotRegisteredExcepti
+ on.html
+SHA1-Digest: x62JjbL3qhEDVmj21lntzuaiePU=
+
 Name: assets/script/map/135_001.zt1
 SHA1-Digest: W2IGkElvKcGPuaVZfEi5P+IJLLM=
 
 Name: assets/char/034.mpl
 SHA1-Digest: kdc33d2PYeJKqsP2olvxesDs6Gc=
-
-Name: assets/data/XlsBalance.zt1
-SHA1-Digest: HUHqbYDsqkCcEkS96LlKU+EOrrg=
 
 Name: assets/projectile/005.pzx
 SHA1-Digest: Ts7c1WM0R+yLL8NHf8QullD7S2Q=
@@ -760,8 +697,12 @@ SHA1-Digest: Ts7c1WM0R+yLL8NHf8QullD7S2Q=
 Name: assets/script/quest/102_S.zt1
 SHA1-Digest: 1WC5xZm3I5gMml+nlFWLeTFeysw=
 
+Name: doc/com/amazon/InApp/transaction/PurchaseResponse.PurchaseReques
+ tStatus.html
+SHA1-Digest: 9FnZWsg2LA/cjrZLr7VBn58XMHU=
+
 Name: assets/map/worldmap.pzx
-SHA1-Digest: f4TT0/TilGeL80FY4jhihgyOXic=
+SHA1-Digest: Do7TraL0hrayiBH30x27+KM/7mI=
 
 Name: assets/char/062.pzx
 SHA1-Digest: 6uCj5LfDrbMXYxdD94tETmfN3GE=
@@ -784,6 +725,9 @@ SHA1-Digest: kyzzDcaIqTmDOdFl14zdT1RmOEA=
 Name: assets/script/quest/093_E.zt1
 SHA1-Digest: 2HWnBGBeqDxbwTy+/I/103eOrvs=
 
+Name: res/drawable/gshop_btn0.png
+SHA1-Digest: BwXJW2hZdsu05eKnxuNy5sQ/QAA=
+
 Name: assets/map/002.mpl
 SHA1-Digest: 5rFbpzHmkLu7YrS3mNpmIr2Oz/g=
 
@@ -805,9 +749,6 @@ SHA1-Digest: NvlmHak0d+fmKSPEPEdwqVot6HQ=
 Name: assets/pc/armor/1/004.mpl
 SHA1-Digest: yYnDV2lCUmGbytPB5MQXzUtZk2k=
 
-Name: res/textbox_01_4.png
-SHA1-Digest: bVu8kFdd/a/K4e3+WPZN82SOgOw=
-
 Name: assets/char/127.mpl
 SHA1-Digest: K7jlaZUaMAX0myGN7ADb/bgmU4M=
 
@@ -820,29 +761,18 @@ SHA1-Digest: BSSLdpScEBC0/nLBKSpp0xU1oLY=
 Name: assets/ptc/032.ptc
 SHA1-Digest: AFzXu4yNWmMvGbWc4DwAX8ZjVeY=
 
-Name: res/icon_bullet.png
-SHA1-Digest: p7Bb1+BlYTXqvzJtlWL1deib5To=
-
 Name: assets/char/042.mpl
 SHA1-Digest: mnm7jL5+RHN+OCc60Y7nSJlEp1E=
-
-Name: assets/chinese/data/XlsPVP.zt1
-SHA1-Digest: oPgFb9Sdxo/MhUgscgS1l3X/sXo=
 
 Name: assets/script/quest/087_S.zt1
 SHA1-Digest: FQucxtVdQ7TWX2VfJOto3gYlVoc=
 
-Name: res/drawable/ui_get_more_gpoints_jp.png
-SHA1-Digest: PpH3E2kWnpMwnLRwF7M8wSfRT2U=
-
-Name: assets/chinese/data/StrQuest_M.zt1
-SHA1-Digest: ieuUanJnh24HVk2X3Bc1NUzjXfY=
-
-Name: xml/purchaseW_finalVersion.xml
-SHA1-Digest: MRX4fiaq3GAqujy1MRtglFz1BRM=
-
 Name: assets/map/204.zt1
 SHA1-Digest: 9RcdHAgvB5AY6dOfi8Fi/xdnCxM=
+
+Name: doc/com/amazon/InApp/purchasing/GetUserIdResponse.GetUserIdReque
+ stStatus.html
+SHA1-Digest: Vw/mi4er5B6EoGN4WzOwlrGSZ1M=
 
 Name: assets/pc/head/2/005.mpl
 SHA1-Digest: QDBqcSTssVg0yTPlQJy3yjQeTs8=
@@ -865,6 +795,9 @@ SHA1-Digest: SwHgdpLnKQUQdTjmE7LgDX6ahRo=
 Name: assets/ptc/003.ptc
 SHA1-Digest: i4SXOf3xczABRvjYXnuE5F8niYc=
 
+Name: doc/com/amazon/InAppSDK/purchasing/PurchaseResponse.html
+SHA1-Digest: QPKhDwCUblNZWayApQMijDlPh4U=
+
 Name: assets/script/map/031_001.zt1
 SHA1-Digest: Ug7516s0WV562ypEuxRY3Hf4yQo=
 
@@ -877,8 +810,8 @@ SHA1-Digest: NM0R13McGSukMh9Yzr5BpoCbDXg=
 Name: assets/pc/effect/000.pzf
 SHA1-Digest: ofAKmdPPhk9ddVtWJ24h6+WSuwQ=
 
-Name: assets/sound/000.mp3
-SHA1-Digest: qG/cV3OE0Js8+wRqDB9eC/GLC0g=
+Name: doc/com/amazon/InApp/purchasing/class-use/Item.html
+SHA1-Digest: mX3Q4iJcChgXSvVfOX6Ea+0YMAI=
 
 Name: assets/map/111.zt1
 SHA1-Digest: wHNdrV0w4KDrO5zGrcZB1Er7SSk=
@@ -904,11 +837,11 @@ SHA1-Digest: ncI+R14oyds8MVfkEBSRgVP4zK8=
 Name: assets/map/022.zt1
 SHA1-Digest: GJNji8rVI6/8eUKl6DDowe9/UJ0=
 
-Name: assets/chinese/data/XlsPCNew.zt1
-SHA1-Digest: uTbhtqoO6c7GSmVfgGmpAdPsiP8=
+Name: doc/com/amazon/InApp/purchasing/GetUserIdResponse.html
+SHA1-Digest: TcuJRMhvjsliDaSGkNzmGuO2AvE=
 
 Name: assets/com/Popup.pzx
-SHA1-Digest: 39Ghz2UuPCmAclHB9i/a51P8mNs=
+SHA1-Digest: HcfDvA5+rVKtoOcNoHH+7ZtmnIQ=
 
 Name: assets/script/quest/074_E.zt1
 SHA1-Digest: UBwGQWrqZvZl3EIlbCB8LG8LezI=
@@ -928,9 +861,6 @@ SHA1-Digest: zNGwpv1ko/RUdjZqv3LQjgAXD5M=
 Name: assets/map/102.zt1
 SHA1-Digest: NlPh7P/HC0+GHS5vgb/r5MZqNWA=
 
-Name: assets/japanese/data/XlsRandomBox.zt1
-SHA1-Digest: rPyQYqnOTL/Be3E1daxw5tw3zBw=
-
 Name: assets/face/005.pzx
 SHA1-Digest: iKRg9q2UEgPnYoSmA4K7uQcbH2E=
 
@@ -949,14 +879,11 @@ SHA1-Digest: fJ+Gp08SwLZYcTa+TVw8Rke8SuE=
 Name: assets/ptc/050.ptc
 SHA1-Digest: z5cuUorF3d6D6INr+d2S5Fqj2UY=
 
-Name: res/btn_pad_sel.png
-SHA1-Digest: mT6uGndwxxyA1k88p3lh6uPIkfM=
+Name: doc/index-files/index-10.html
+SHA1-Digest: 2fJim8myXE0hvlHnzItifIy9978=
 
 Name: assets/script/quest/100_S.zt1
 SHA1-Digest: R/FiLzXU11ddqhkby6mkQx2bgUc=
-
-Name: assets/japanese/data/StrMaptheme_Explain.zt1
-SHA1-Digest: /N4EhhPAuC2g/jMXEd8F+RicBmk=
 
 Name: assets/data/StrQuest_N.zt1
 SHA1-Digest: Xcc/kQoy6u0tzJ3zWsOZUxepMJA=
@@ -967,8 +894,8 @@ SHA1-Digest: ASyf/YjvAfw5MU/RDW0BFO6Lkhs=
 Name: assets/script/map/033_002.zt1
 SHA1-Digest: JHh29VXjNURiCa0yWA3Ivd+OWSE=
 
-Name: res/keypad_num_03.png
-SHA1-Digest: K2MfGKnn39JKn+GKgyZEtWix1Fg=
+Name: doc/com/amazon/InApp/transaction/RevokedSkuDataResponse.html
+SHA1-Digest: 1TULOdjVc2o/G3ZpWeKAT29ZnSY=
 
 Name: assets/pc/armor/001.pzf
 SHA1-Digest: Y3QLqP3Iv/W7M7BBlBhN+S1XFsk=
@@ -979,23 +906,25 @@ SHA1-Digest: w88GSFQTGtptp+pP0f1Giyy/ybk=
 Name: assets/script/quest/021_E.zt1
 SHA1-Digest: g2DM4ikbQxpXd1Jtm+g9ok4QP1o=
 
+Name: doc/com/amazon/InApp/purchasing/class-use/GetUserIdResponse.GetU
+ serIdRequestStatus.html
+SHA1-Digest: KXfQnlYsM9o1P1aiET0wJxvpNzQ=
+
 Name: assets/map/176.zt1
 SHA1-Digest: eKtRrFDs7JlIEhscPrjPnr8nyN4=
 
 Name: assets/pc/head/1/001.pzd
 SHA1-Digest: EDl1n53IViGLWvaK30Wrho72kxY=
 
-Name: assets/japanese/data/XlsNPC.zt1
-SHA1-Digest: p6BeRhClvnYe8XXiiwgX598hmQo=
-
 Name: assets/data/XlsPackageItem.zt1
-SHA1-Digest: ogsUkNIMdwoVLnqrFvdLyPdhc80=
-
-Name: res/info_table_01.9.png
-SHA1-Digest: AVKWzJlR4M1kqQpi7LVsqA3NBE0=
+SHA1-Digest: rUzddr0pW7C/WR2vZ18XeJFTmvI=
 
 Name: assets/script/quest/026_S.zt1
 SHA1-Digest: ekVi6bsiJ4wC/zEJ+phOx3FT5No=
+
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/PurchaseResponse.ht
+ ml
+SHA1-Digest: yNw0hXOFmRz/JNvY+jXzFutHaQg=
 
 Name: assets/map/070.pzx
 SHA1-Digest: 4fcgr59jUY+9jnwOdUTnAQ/6bwE=
@@ -1003,17 +932,11 @@ SHA1-Digest: 4fcgr59jUY+9jnwOdUTnAQ/6bwE=
 Name: assets/obj/019.mpl
 SHA1-Digest: YP/4YElDwz1+Y47MZ93GjehdpDg=
 
-Name: assets/sound/028.mp3
-SHA1-Digest: 1h40JpgLNdnmZvcis/APxF8/X4Y=
-
 Name: assets/pc/weapon/2/001.pzd
 SHA1-Digest: /VtiHmlwevp2fBFk25u5C0cZ6uk=
 
 Name: assets/map/049.zt1
 SHA1-Digest: WO2C6eA8LJ23J2xEaNVu+EgLSYw=
-
-Name: xml_kt_lg/purchaseW.xml
-SHA1-Digest: sGztmH9LLv2/jKv9Guw4kaBGfDc=
 
 Name: assets/script/quest/056_E.zt1
 SHA1-Digest: idLGV73bRCqCCs7kCGmdHCHOTk4=
@@ -1039,32 +962,23 @@ SHA1-Digest: YIZpAnkrTWY10/s4kxsc+81p3Nc=
 Name: assets/script/quest/080_E.zt1
 SHA1-Digest: QIkP4BUzuxPqRap6iiNDGEY02Mw=
 
-Name: assets/chinese/data/XlsBoss.zt1
-SHA1-Digest: rPVCBGF93hFTX2OsBe2/qAvoEfM=
-
 Name: assets/pc/side_hand/0/006.mpl
 SHA1-Digest: LrpE5pR/ysnY9y7GYuo6hayO7fU=
 
 Name: assets/script/quest/060_E.zt1
 SHA1-Digest: bRGuc0j7ii3kGLhCGgZiNpHHlGg=
 
-Name: assets/sound/037.mp3
-SHA1-Digest: nUVVn2Wvlip6rK7FhYMiilDgygc=
-
 Name: assets/script/quest/032_E.zt1
 SHA1-Digest: gZH9rBzFBJIVeeSqXeecbrqdCp0=
-
-Name: res/info_table_03.9.png
-SHA1-Digest: kJxm3rYDTdBgh1xwOX1kPLv3asY=
 
 Name: assets/script/quest/126_S.zt1
 SHA1-Digest: gvyWaEU39O/NkN3EfYRZlo2EHQ4=
 
-Name: res/drawable/more_zen_points.png
-SHA1-Digest: oZoDYNc4bBroX3gTdCFajdzmQv0=
-
 Name: assets/ptc/ptcimg.pzx
 SHA1-Digest: /jhDkdVQBDL+deVc0AV3vmZFtQ8=
+
+Name: res/drawable/more_zen_points.png
+SHA1-Digest: oZoDYNc4bBroX3gTdCFajdzmQv0=
 
 Name: assets/pc/side_hand/0/004.mpl
 SHA1-Digest: C7eHpsXYp8mcUlqAqlTjq7AGLaw=
@@ -1081,17 +995,11 @@ SHA1-Digest: 8MXgw7IaANGiAxBKidnMKZCX75c=
 Name: assets/map/087.zt1
 SHA1-Digest: oslrYoYbk3WJR39OTChoyEzKxXM=
 
-Name: assets/sound/108.caf
-SHA1-Digest: MTv/ZlhdeF1y/tZWy+MGTnQok2A=
-
 Name: assets/script/quest/060_S.zt1
 SHA1-Digest: owpWzyz9Y43ynDXIMmMijddG8eo=
 
 Name: assets/pc/weapon/3/003.pzd
 SHA1-Digest: yoyufjPOYid4LCexYy7TlIjP4Wk=
-
-Name: res/drawable/back_clicked.png
-SHA1-Digest: z+eFCwJDRJLcQTQTOTOi85Vc/N8=
 
 Name: res/raw/s074.ogg
 SHA1-Digest: Xs9IVhX+24el3t4vnspoUUECUDQ=
@@ -1105,20 +1013,17 @@ SHA1-Digest: 2YSFB3DhweERHWjzvCDw7bfs7pw=
 Name: assets/map/037.zt1
 SHA1-Digest: AsGF2uQF7aCYhvF/yLAHa9GV+uo=
 
-Name: assets/sound/104.caf
-SHA1-Digest: 14wlmCbv6JXxSfgmsegbGpwkPhs=
-
 Name: res/raw/s059.ogg
 SHA1-Digest: nxNWfOjPYgEF5LdOhQpx/5kRjmo=
-
-Name: res/btn_buycancel_nor.png
-SHA1-Digest: XSlJGR+iKJlB+h5lPHXFyPThp4I=
 
 Name: assets/script/quest/128_S.zt1
 SHA1-Digest: r+xpqNfeqn9kIrITDvuXAcC6qsA=
 
 Name: assets/map/255.zt1
 SHA1-Digest: oOdtxQ2zBr5PpmlPuRkplPIm+CE=
+
+Name: doc/com/amazon/InApp/transaction/TransactionManager.html
+SHA1-Digest: 8hPtUGi+xN6DShXeZRLfer3hyXo=
 
 Name: assets/pc/side_hand/0/001.mpl
 SHA1-Digest: YE2OGaQb1oYxEzcfwHqFd1XVuAM=
@@ -1153,26 +1058,20 @@ SHA1-Digest: KPMpsETtGAaORWavtY4dCL0qfxk=
 Name: assets/script/output_dlg.dlg
 SHA1-Digest: SAH8VdiDj4oCRJ6++RRBZBVtXSw=
 
-Name: res/inputbox_pw.png
-SHA1-Digest: 5k0Q3nNHy/QJFujgLJklipMrulM=
-
-Name: assets/script/quest/116_S.zt1
-SHA1-Digest: VcLBSaLFYp0lYmNY33zfIMc71pI=
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/Offset.html
+SHA1-Digest: YQ9r5B0gAf2CUU8ezJOcvSRiAg0=
 
 Name: assets/script/quest/005_S.zt1
 SHA1-Digest: S8z21+sml5+rMKgn2+lAyQWj7L4=
 
+Name: assets/script/quest/116_S.zt1
+SHA1-Digest: VcLBSaLFYp0lYmNY33zfIMc71pI=
+
 Name: assets/map/136.zt1
 SHA1-Digest: 4fTGUUtwoBQa5RGcQ7S8KzWST8k=
 
-Name: assets/chinese/data/XlsExtraProjectile.zt1
-SHA1-Digest: Am5D3CQ/k5tiUybGmAYPKP9We74=
-
 Name: assets/map/115.zt1
 SHA1-Digest: LdkBu+f6FCzI/tZpYJsK1q691KM=
-
-Name: assets/chinese/data/StrEtcItemExplain.zt1
-SHA1-Digest: RSAg8tkeEMVeBiRSLKPesbMWm6g=
 
 Name: assets/html/shamen.png
 SHA1-Digest: f+ZVFcwVBCLQgYxZgIvNQIBtc3g=
@@ -1207,6 +1106,9 @@ SHA1-Digest: o8ahuCCIFa7aGH2U2VJSHbBcmx4=
 Name: assets/script/map/013_002.zt1
 SHA1-Digest: /xtcDXV0I/62l8MYsV8EPOKwt/s=
 
+Name: res/drawable/gshop_btn5_kr.png
+SHA1-Digest: 6EKhHsZaExg4Iq2Pr4HZYaxFPCw=
+
 Name: assets/map/122.zt1
 SHA1-Digest: upxw2YGJI43LZblIa2qm5DODG/U=
 
@@ -1224,6 +1126,9 @@ SHA1-Digest: +4VivwjiEgmBm75BXRcmJ+brVgs=
 
 Name: assets/script/quest/053_E.zt1
 SHA1-Digest: V+n+4r0vKIfcwWXmjty1JtGEkx4=
+
+Name: doc/index-files/index-9.html
+SHA1-Digest: s1JflnIM0Q0nCNdXV7LpYobfB6M=
 
 Name: res/raw/s009.ogg
 SHA1-Digest: p05t4tYIWEBd8aGGegf5lbaLzKk=
@@ -1249,26 +1154,22 @@ SHA1-Digest: nZn7iqN+9xJb22qnLViJDQ0PEbM=
 Name: assets/ptc/008.ptc
 SHA1-Digest: ZRtXiYvCvAZuho3+kW9EKZDoiPI=
 
-Name: res/checkbox_y.png
-SHA1-Digest: Ci58pmiAmiBzqB9ahuWjes9nRnA=
-
 Name: assets/pc/armor/2/001.mpl
 SHA1-Digest: neFZrzC/zYQ4wnEafyPS6e4wPtg=
 
-Name: assets/sound/005.mp3
-SHA1-Digest: RDxwO88b0RtdlAJUhUvJm5zLpqA=
-
-Name: assets/japanese/data/XlsWorldMap.zt1
-SHA1-Digest: VSa3Z6BO5BuGfIFQTS2KOgIUYgk=
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/ContentDownloadResp
+ onse.ContentDownloadRequestStatus.html
+SHA1-Digest: +DlnpOhtY1XUzkFe9PnL8hB+4rQ=
 
 Name: assets/ptc/021.ptc
 SHA1-Digest: z68/LtJBp+IceqexadfRHFCMkuk=
 
-Name: res/inputbox_pw_dot.png
-SHA1-Digest: js3kuyXplwsLbeBKGSoAlvacYEM=
-
 Name: assets/script/call/103.zt1
 SHA1-Digest: o5PjsoEYnraBXIpZM1Sldqhcq88=
+
+Name: doc/com/amazon/InApp/transaction/class-use/RevokedSkuDataRespons
+ e.RevokedSkuDataRequestStatus.html
+SHA1-Digest: lSXhB8UOnfS+wF5TbuKhR/mpOyA=
 
 Name: assets/script/quest/096_E.zt1
 SHA1-Digest: MgFaXvcmP57eqCFWxmNsLLj/6nA=
@@ -1276,8 +1177,9 @@ SHA1-Digest: MgFaXvcmP57eqCFWxmNsLLj/6nA=
 Name: assets/script/map/006_004.zt1
 SHA1-Digest: cNaVD0M01FbaQ+QVORi5vlZpxKI=
 
-Name: assets/live_auth_terms.html
-SHA1-Digest: J04NPeJIEOi1kSAnUEBHvESRMDg=
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/RevokedSkuDataRespo
+ nse.html
+SHA1-Digest: 2UI7RSy9eYHgVap8x/GDP/VzLDY=
 
 Name: assets/obj/114.pzx
 SHA1-Digest: /IHN4ynGeSW4iR0wQxj2doVCrI8=
@@ -1288,20 +1190,21 @@ SHA1-Digest: 4P0Btt9euZ7ULprgWlPXNblxW0Y=
 Name: assets/map/109.zt1
 SHA1-Digest: FOMHjytiIxu2EQdm26KIS8IJNkg=
 
-Name: res/drawable/ui_menu_continue_jp.png
-SHA1-Digest: LcN66KPEwy4dI38BAw1ZV7/eJXM=
+Name: doc/index.html
+SHA1-Digest: dBUvqxOEeSllri/NlVsWsntWp6Q=
 
 Name: res/drawable-mdpi/icon_gb.png
 SHA1-Digest: q8CWbgeHzCSmPsds/4ipIop26Fs=
+
+Name: doc/com/amazon/InApp/purchasing/PurchaseResponse.PurchaseRequest
+ Status.html
+SHA1-Digest: K83vLZ1ORMAYybHj/X8+0ItiRy4=
 
 Name: assets/png/icon57.png
 SHA1-Digest: ehlekod7UwsPPIG6En3ryBWWkf4=
 
 Name: assets/char/059.pzx
 SHA1-Digest: eUwCpCbiwq86JWUF0SrAPvL6J0A=
-
-Name: res/drawable/back_button.xml
-SHA1-Digest: ZylS6Zt3417IwQEc4COhiFNzvjY=
 
 Name: assets/script/call/113.zt1
 SHA1-Digest: r2vtmm9AJ+amVDJaxg8pCms6yDY=
@@ -1318,11 +1221,11 @@ SHA1-Digest: WYzBZw6HeT4/9l1tVG/fmPNtxS4=
 Name: res/raw/s078.ogg
 SHA1-Digest: xWkW0JT+UMfYkQ51hwcw6Io/9xo=
 
-Name: assets/map/044.zt1
-SHA1-Digest: L1wWNVLjB5iQzEUomyqp48rnJtw=
-
 Name: assets/obj/077.pzx
 SHA1-Digest: Qit3j/0baJcUEwxdbnwhWp/119s=
+
+Name: assets/map/044.zt1
+SHA1-Digest: L1wWNVLjB5iQzEUomyqp48rnJtw=
 
 Name: assets/map/058.zt1
 SHA1-Digest: TZvREq40gNJHt/2UhRGOtwiCci0=
@@ -1330,35 +1233,27 @@ SHA1-Digest: TZvREq40gNJHt/2UhRGOtwiCci0=
 Name: assets/menu/logo.pzx
 SHA1-Digest: EzBM3yZlQ4W9nZUmDpuLzm0+sRE=
 
-Name: assets/chinese/data/StrQuestDetail.zt1
-SHA1-Digest: 5uUgKjHhwMfDI5QiYliDrf8B6DI=
-
 Name: assets/obj/032.pzx
 SHA1-Digest: 98Z+63ivZf6m52y83J/digPDv4I=
 
-Name: assets/japanese/data/StrHelp.zt1
-SHA1-Digest: IUQkikE4BfaLW83yjRdeR2XyW2I=
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/PurchaseResponse.Pu
+ rchaseRequestStatus.html
+SHA1-Digest: +HUNACzyYnj5X+of1u/1aPPXCYs=
 
 Name: assets/script/map/010_004.zt1
 SHA1-Digest: Zh9dNIIihBOtsGeRjWkm07FMiSE=
 
-Name: xml/commonPopupImage.xml
-SHA1-Digest: JFSxwFoKYs/otL+thMzwtj0EQyI=
-
 Name: assets/korean/data/XlsPackageItem.zt1
-SHA1-Digest: ogsUkNIMdwoVLnqrFvdLyPdhc80=
+SHA1-Digest: rUzddr0pW7C/WR2vZ18XeJFTmvI=
 
 Name: assets/map/173.zt1
 SHA1-Digest: +ZNMP9CHpshgoXFS+gwChy+6hL4=
 
-Name: assets/sound/081.mp3
-SHA1-Digest: 2HnUke9ZEPiFvhMfSmYsLUDlF4g=
+Name: assets/obj/062.pzx
+SHA1-Digest: NE9p2zp1yaNgz90geyJ7xWIMdeQ=
 
 Name: assets/map/010.zt1
 SHA1-Digest: Cn040LcoryPcXGTGIgZDLlBIig4=
-
-Name: assets/obj/062.pzx
-SHA1-Digest: NE9p2zp1yaNgz90geyJ7xWIMdeQ=
 
 Name: assets/char/135.pzx
 SHA1-Digest: MY1JvilFLZKaWohlpTTNv0Km2yM=
@@ -1384,6 +1279,9 @@ SHA1-Digest: vPDVA7JTxh6XvM8j7v51GkEk4YA=
 Name: assets/script/quest/096_S.zt1
 SHA1-Digest: wL1VJ/xaL1jVvuk5IH1iDHgcxMo=
 
+Name: doc/com/amazon/InApp/transaction/ItemDataResponse.html
+SHA1-Digest: WjMZ+LhQkKpi60wktrxMB0TIEuE=
+
 Name: assets/script/quest/055_S.zt1
 SHA1-Digest: 76saqfn7V8QFTsa82YVzmyOM7Rc=
 
@@ -1405,17 +1303,11 @@ SHA1-Digest: NVFBu7KzDYGp7GzA5TYAto068BI=
 Name: assets/pc/weapon/0/007.mpl
 SHA1-Digest: maj3h5TSaH/BRhXKFuFBG6DQCD0=
 
-Name: assets/chinese/data/XlsGameData.zt1
-SHA1-Digest: yfoWzBmY7QpUUVmEvtEWxci6rCY=
-
 Name: assets/pc/weapon/2/004.mpl
 SHA1-Digest: 1nPm+og2EP9bAGE+SwNQ/TuUwbM=
 
 Name: assets/script/quest/003_S.zt1
 SHA1-Digest: YZlfAWR/11H5U6BJdWHPwD0gP/c=
-
-Name: assets/chinese/data/StrQuest_C.zt1
-SHA1-Digest: d98aOT8HGoxrNIiMivKqmmbFbNA=
 
 Name: assets/com/Fairy.mpl
 SHA1-Digest: lVDUlFs3ZMLpzpb/qfs0lZZCFow=
@@ -1426,8 +1318,8 @@ SHA1-Digest: iSE2D0F5N+smrfA5oG/r091Lo4A=
 Name: assets/char/004.pzx
 SHA1-Digest: BExZv+awsOPNkO3laWxfw/bvC+M=
 
-Name: assets/sound/090.mp3
-SHA1-Digest: z4+FkHKCR14xErpTGtgzoXTBXSI=
+Name: doc/com/amazon/InAppSDK/purchasing/BasePurchasingObserver.html
+SHA1-Digest: aXwo/11ROwQ51b6ZWO9UTQOq4fg=
 
 Name: assets/script/map/054_002.zt1
 SHA1-Digest: 3asz2SHgXqTGHF1dVbSE1JxXLnc=
@@ -1438,8 +1330,9 @@ SHA1-Digest: vA8Hp+9TRAAiosM/buG6b90VOhY=
 Name: assets/pc/weapon/3/002.mpl
 SHA1-Digest: O5nde3J0OaVgxqBV2Z1LzNJ66jA=
 
-Name: assets/chinese/data/StrQuestItemExplain.zt1
-SHA1-Digest: 9R8eJgt8VzsJHH6qw8bQDeu2d0A=
+Name: doc/com/amazon/InApp/transaction/class-use/BaseTransactionObserv
+ er.html
+SHA1-Digest: zZq8S9VKh9gn1+THnICYGW9/taE=
 
 Name: res/raw/s026.ogg
 SHA1-Digest: MEV8Ajh32/2Ra2uQ3noLiBKipYg=
@@ -1447,17 +1340,11 @@ SHA1-Digest: MEV8Ajh32/2Ra2uQ3noLiBKipYg=
 Name: res/drawable-hdpi/icon_gb.png
 SHA1-Digest: +AoYJy0xt5SIR+wZ5zT6otVTyzY=
 
-Name: assets/sound/060.mp3
-SHA1-Digest: 5Xj//TXa4FPAcZNizEcz58CYvY4=
-
 Name: assets/com/Number.pzx
 SHA1-Digest: SXQtdIWDu5gfO5+H4dyDdRvftDI=
 
 Name: assets/data/StrTalk0.zt1
 SHA1-Digest: jiauAAnvb61D75XbJyPf3c+QHhQ=
-
-Name: res/keypad_num_08.png
-SHA1-Digest: 1g+hEpOCli899WxRpmySXfyLOqs=
 
 Name: assets/script/quest/010_S.zt1
 SHA1-Digest: od96y8hcZRuy5HLwY+R3JfP+cx0=
@@ -1483,12 +1370,6 @@ SHA1-Digest: CrkDfZdcCiXGynnMJH5SCmxwtSM=
 Name: assets/script/quest/110_S.zt1
 SHA1-Digest: 20zsqMiTPZBtTOtU/sSrgAweR5Y=
 
-Name: assets/japanese/data/XlsItem.zt1
-SHA1-Digest: Bst1wqgE25Pw/cNnehuAl6o9gkM=
-
-Name: assets/japanese/data/StrTalk1.zt1
-SHA1-Digest: diaswCrZuAfgYP4zDxbbF/02LFQ=
-
 Name: assets/script/quest/135_E.zt1
 SHA1-Digest: qaIYRjrdchvx/D3dmmOvORSlc0I=
 
@@ -1502,7 +1383,7 @@ Name: assets/script/map/040_001.zt1
 SHA1-Digest: QSh1IIREciHh+3C5lP+eA6mx6UI=
 
 Name: res/layout/tapjoy_offers_web_view.xml
-SHA1-Digest: cKEvb6CYWi/2izLW0NVvZVRKku8=
+SHA1-Digest: Gcq6ZmWmKIWh1AYHjbrZxu2Y9HA=
 
 Name: assets/map/159.zt1
 SHA1-Digest: VXPMhhSJ6xtVGwdWx+EFLQtvApM=
@@ -1522,15 +1403,6 @@ SHA1-Digest: kmEzPu9dae0IwnG4qu064V8Ygec=
 Name: assets/script/map/183_001.zt1
 SHA1-Digest: YZDDL2I7cXueCsnVaZIVSPssppE=
 
-Name: xml_kt_lg/commonPopupJoinW.xml
-SHA1-Digest: dgbP6RcZ2mmvfJE/eybPM75xVGA=
-
-Name: res/drawable/ui_menu_newgame_ch.png
-SHA1-Digest: Nod/K0XT39ksrZjsRsYG1OPci2c=
-
-Name: assets/japanese/data/StrStatusType.zt1
-SHA1-Digest: Jzp7uk6Opd1PQmxLwV5lBSWNJcE=
-
 Name: assets/com/StatusEffect.pzx
 SHA1-Digest: ZoBfmszFYRylwcuUYqnbnJdvjuQ=
 
@@ -1543,9 +1415,6 @@ SHA1-Digest: IjmTXC2ur74efLDjffUuCuaNXLg=
 Name: assets/script/quest/110_E.zt1
 SHA1-Digest: UJ+Xx9y5UR35nCbDa7TEa6+0M2Q=
 
-Name: res/btn_info01_nor.png
-SHA1-Digest: GNBGFp0f0B4GudxnoDz9fpPoEAY=
-
 Name: assets/map/220.zt1
 SHA1-Digest: SDTDk3JFU3UYuqWm52/jCC80T+4=
 
@@ -1553,22 +1422,19 @@ Name: assets/script/quest/030_E.zt1
 SHA1-Digest: Cfp4qwo45edAlIagqMljI4fJUUc=
 
 Name: assets/data/XlsSkill.zt1
-SHA1-Digest: 80+a7wwUuf8bKhgY/0pP7FERAps=
-
-Name: assets/char/052.pzx
-SHA1-Digest: VaCvrIgdewmcBb67hCkfFsexcjg=
+SHA1-Digest: 3B4aLo4SJrqsM5G7N66tm5CzHeo=
 
 Name: assets/obj/093.pzx
 SHA1-Digest: Lb5dyUWF40/HNLUSD8REdZib/U4=
 
+Name: assets/char/052.pzx
+SHA1-Digest: VaCvrIgdewmcBb67hCkfFsexcjg=
+
 Name: assets/obj/055.pzx
 SHA1-Digest: qsNnxZVu7pQXdGLPTrLIwrlcxdI=
 
-Name: assets/sound/074.mp3
-SHA1-Digest: YcsS2s8BAcuLFKI1wDQJZeaSmWc=
-
-Name: assets/chinese/data/XlsChar.zt1
-SHA1-Digest: bImr7IWY4MM6xi4KJE/VL7ouh0M=
+Name: doc/com/amazon/InApp/purchasing/class-use/GetUserIdResponse.html
+SHA1-Digest: 1gEJdlt963Z4r85xpjYDn0zL5L8=
 
 Name: assets/pc/armor/002.pzf
 SHA1-Digest: ccN809ayEdchza+AEOd0R7KivkM=
@@ -1579,8 +1445,8 @@ SHA1-Digest: fSz96t9IxrwW4MocUuDTtnQ6gOQ=
 Name: assets/script/quest/027_E.zt1
 SHA1-Digest: 89ZUg5IbB3ZM250EIwTBfmL7UfE=
 
-Name: res/raw/s116xx.ogg
-SHA1-Digest: MKftW+8EtRTtQYu9X+KnX36VSAs=
+Name: doc/constant-values.html
+SHA1-Digest: 661aR23Y1nfVKEi1uUrXM7RDks4=
 
 Name: assets/data/StrEtcItemExplain.zt1
 SHA1-Digest: MWUKWMBuhOgcDQBAiKXw2j5SXuk=
@@ -1591,14 +1457,8 @@ SHA1-Digest: jomdiWUDc9hY10z98+K/1VXuk94=
 Name: assets/script/map/006_005.zt1
 SHA1-Digest: f32sJCMI7M7I0tRe2WPPyG0AUZI=
 
-Name: assets/html/about_kor.html
-SHA1-Digest: ORXYZF8jJni4YYouXwS0CYeehm0=
-
 Name: assets/script/map/078_001.zt1
 SHA1-Digest: 6wdGVSklr+aTutX1k1Eg5RrLInA=
-
-Name: res/drawable/gamevil_live_1.png
-SHA1-Digest: v/INnuPeZcduMoWGgaUUF07FB4A=
 
 Name: assets/script/quest/018_E.zt1
 SHA1-Digest: oaz6HRe8Z+iaMYl6vKHLv7VHxz8=
@@ -1606,23 +1466,11 @@ SHA1-Digest: oaz6HRe8Z+iaMYl6vKHLv7VHxz8=
 Name: com/kt/olleh/manager/purchase/ui_menu_help.png
 SHA1-Digest: guk/V5LR45IwSpZcPeVg4v/uLYM=
 
-Name: res/checkbox_n.png
-SHA1-Digest: xVkZ3HNz9iPbUp2dpjJMT2Uu00Q=
-
 Name: assets/char/136.pzx
 SHA1-Digest: IO8uXE4Tm8SiJtyAlMdgd/Q4ckI=
 
-Name: xml/commonPopup.xml
-SHA1-Digest: CyWNCGHo0mNUE9MERf0udPTdyWI=
-
 Name: assets/map/213.zt1
 SHA1-Digest: XS3feWji12r73YhM/vWnNX53C5c=
-
-Name: assets/japanese/data/XlsMovingObject.zt1
-SHA1-Digest: itg/0RRaCVON6zYA4RQm6x6cPJQ=
-
-Name: assets/chinese/data/XlsMap.zt1
-SHA1-Digest: ce3evh8rDiM6bljfANo+8oeV19Y=
 
 Name: assets/korean/data/XlsTitle.zt1
 SHA1-Digest: dBL/A6BtIVt7xclslnGD2MlXKRg=
@@ -1631,22 +1479,13 @@ Name: assets/pc/head/2/003.pzd
 SHA1-Digest: ijEvkaZD/x7R8W1WGZoaNjfZxTM=
 
 Name: res/drawable/ui_title_touchthescreen.png
-SHA1-Digest: /dK61X1NTP80c3uokAqn4+N48r8=
-
-Name: xml_kt_lg/commonPopupJoinForm.xml
-SHA1-Digest: CdfdKHa7lMeqjwcmhE/IOcD8skg=
+SHA1-Digest: XSDHsBekiohUhjVThTi1GfYgkks=
 
 Name: assets/dynamic/SkillEffect3.pzx
 SHA1-Digest: j2Ki+cGbnJ7gjb410LpVndDMyI8=
 
 Name: assets/script/quest/102_E.zt1
 SHA1-Digest: znlxzRsCcWGYCVYg+ddOk0spOEs=
-
-Name: res/drawable/home_button.xml
-SHA1-Digest: R50VOe4QEtrW0Bp5C7HXbtRMS6I=
-
-Name: assets/sound/036.mp3
-SHA1-Digest: sjvpL9LjjA7kP+eKw9HG8t6WcD8=
 
 Name: assets/char/103.mpl
 SHA1-Digest: EmkxPgtl/VIdIphgOXEce9U7oJQ=
@@ -1655,7 +1494,7 @@ Name: assets/script/map/187_001.zt1
 SHA1-Digest: kfMq8unVMj+17Mkk4LRgXs5sGOs=
 
 Name: assets/data/XlsPCNew.zt1
-SHA1-Digest: ZNvQ2mepsjqe9iQEHxpt/yc6RcE=
+SHA1-Digest: g8S+rWZoa9ewQpabytGX7JbKBDk=
 
 Name: assets/script/map/001_001.zt1
 SHA1-Digest: eZz0TzcC+nCMkCJLyFCdkeisvgs=
@@ -1672,11 +1511,11 @@ SHA1-Digest: 5I9NOfus/HFLg3FPOr8BQL51uFc=
 Name: assets/obj/081.pzx
 SHA1-Digest: YDSLOGkIEAC8odPB4KK44VvWQcU=
 
+Name: res/drawable/gshop_btn4_kr.png
+SHA1-Digest: e3VNTInf6pqM04iCMc2JN8n2QYo=
+
 Name: assets/script/quest/112_S.zt1
 SHA1-Digest: +L7MB55OSsWua84SbYas5mdT3Iw=
-
-Name: res/drawable/button_later_01_global.png
-SHA1-Digest: 8b41I/pxtKV9+Pmajx/xvTwonFM=
 
 Name: assets/data/StrQuest_Y.zt1
 SHA1-Digest: VW1jF0MZk/pIlbEZxnfxbkM3LH0=
@@ -1687,17 +1526,15 @@ SHA1-Digest: R3n8B7I6q5QzGoSwAl+UpNXf5tA=
 Name: assets/map/116.zt1
 SHA1-Digest: 8b/rgRluA4NQkecaYMzgHQoFjj0=
 
-Name: assets/dummy/dum08.pzx
-SHA1-Digest: RFwvd0Ps30Wdvao98xemkK2Ya6w=
+Name: doc/com/amazon/InAppSDK/purchasing/PurchaseUpdatesResponse.Purch
+ aseUpdatesRequestStatus.html
+SHA1-Digest: YXN5yAIljS3I81fDdbxJtQTth+4=
 
 Name: assets/script/quest/037_S.zt1
 SHA1-Digest: LYIkOmK26NEL2G5kYb17F4+F4to=
 
 Name: res/raw/s032.ogg
 SHA1-Digest: GBXDnDSzdoMWbt2wE4BMh3HJiAM=
-
-Name: assets/chinese/data/XlsChargeItem.zt1
-SHA1-Digest: SKI/FxG5ej5n3GUjtaebA8vcly8=
 
 Name: assets/map/100.zt1
 SHA1-Digest: LeAEwvrPMORmy66VZw7E5hn6LJ8=
@@ -1707,9 +1544,6 @@ SHA1-Digest: EV/JeQhzKth9Ns6xkiF8Iix4+94=
 
 Name: assets/map/019.zt1
 SHA1-Digest: 5z7ZwlfIKS7ddKZhLEbXc7Pnzzc=
-
-Name: xml_kt_lg/purchaseH.xml
-SHA1-Digest: dLoI/iNAp0rmmdOgv+O+cBibrZ0=
 
 Name: assets/char/061.pzx
 SHA1-Digest: K9VQPWWa8kdvfZ/hqwUh4X4HUqc=
@@ -1724,13 +1558,13 @@ Name: assets/map/198.zt1
 SHA1-Digest: eCOQ3b48S82bEqOHXzHZeFlzcAY=
 
 Name: assets/korean/data/StrQuest_Y.zt1
-SHA1-Digest: JigT1HntAl5s2MM8qjKR2/3pwfM=
+SHA1-Digest: iWdIDg+J3ZUT9747jjRuCaxTyY4=
+
+Name: doc/com/amazon/InApp/purchasing/ResponseReceiver.html
+SHA1-Digest: CPOi4XlaQTmuUGFtVh9Tp8mGIYc=
 
 Name: assets/obj/068.pzx
 SHA1-Digest: lwr+YwIMoHs9go15f7jrvWvOWyo=
-
-Name: res/drawable/button_write_01_j.PNG
-SHA1-Digest: GvmFLCqcyEnwElDQWXJlSt8oey8=
 
 Name: res/raw/s006.ogg
 SHA1-Digest: vVUuQFhtSk5ncSTGu87Zk2Zp9zM=
@@ -1738,14 +1572,14 @@ SHA1-Digest: vVUuQFhtSk5ncSTGu87Zk2Zp9zM=
 Name: assets/face/002.pzx
 SHA1-Digest: 0LTTR8cwZmX69ylvWbtYbxO3q1Q=
 
+Name: doc/com/amazon/InApp/purchasing/class-use/PurchasingManager.html
+SHA1-Digest: fULORUU/s2ipKFW7Ja6TrkvmJQU=
+
 Name: assets/map/132.zt1
 SHA1-Digest: JaqmFiWvuId8T/AjgscrPmwbrKk=
 
 Name: assets/script/quest/093_S.zt1
 SHA1-Digest: BJ+BXGXJeL3hRYHtb/0n6qnJ6K8=
-
-Name: res/keypad_num_06.png
-SHA1-Digest: +eNEgx6cqt5/YK6fOcRiE+Lmr7U=
 
 Name: assets/script/quest/086_S.zt1
 SHA1-Digest: 5BRTEAJqstdiuVn9q76VpnUT3eY=
@@ -1765,6 +1599,10 @@ SHA1-Digest: ftALxJF23FGu9fqoIBuzx8F7ogk=
 Name: assets/map/177.zt1
 SHA1-Digest: kKSFl3hwhuGg64/JXMe11NKonQU=
 
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/BasePurchasingObser
+ ver.html
+SHA1-Digest: yKxU9C0uRVkU3W0xU0XCNB0cdF0=
+
 Name: assets/pc/head/3/005.pzd
 SHA1-Digest: 78iRV3gedi9UY+6eZNHUYFZeMRY=
 
@@ -1774,14 +1612,8 @@ SHA1-Digest: xRQriSiBf4t8opKYvQOydXO49jk=
 Name: assets/script/call/092.zt1
 SHA1-Digest: FdGuLh1VF55xNggKJajFJi6i5fU=
 
-Name: assets/chinese/data/StrTalk2.zt1
-SHA1-Digest: vjeQqk+ZAX2L9dL+y1Gna4ctebI=
-
 Name: assets/map/156.zt1
 SHA1-Digest: 6g8MzJG4xnChjYGkM+qVXcXlpUA=
-
-Name: assets/sound/033.mp3
-SHA1-Digest: OzAjWILEZZ5OXeGatdP/ry1lpCs=
 
 Name: res/raw/s036.ogg
 SHA1-Digest: o4VVT0fcF1aKGzezjV7yMGg6LwI=
@@ -1790,7 +1622,7 @@ Name: assets/map/183.zt1
 SHA1-Digest: Ro47rzV3Sa0kNWX8bRfHQppPmKM=
 
 Name: assets/data/XlsMap.zt1
-SHA1-Digest: 9+VtxMe5PtuCc/xPeL1UzlxFT9k=
+SHA1-Digest: J/27wtfTPIumKtcBbutrI1YnLTQ=
 
 Name: assets/map/007.pzx
 SHA1-Digest: TWAbrf5hWR5+SKFI6YcXGcBp9g4=
@@ -1813,14 +1645,14 @@ SHA1-Digest: u1VoeJEjpd0UmmIku+w0RJBnM40=
 Name: assets/pc/armor/1/000.pzd
 SHA1-Digest: i3LAbsneXqaiPJyNhAfprJk1gPA=
 
-Name: assets/japanese/data/XlsQUEST_backup.zt1
-SHA1-Digest: xPsImUSpWdx7IaB34BZ4eNLQSrI=
-
 Name: assets/char/124.pzx
 SHA1-Digest: 14Yz6IwJKr5Z8EFfbrI67C5NYKM=
 
 Name: res/raw/s076.ogg
 SHA1-Digest: yCHxieuamchEBz4uoau726zKb1o=
+
+Name: doc/com/amazon/InApp/transaction/package-summary.html
+SHA1-Digest: OGtOHpDklvJvxd1GZOe0AopRPOs=
 
 Name: assets/script/quest/041_S.zt1
 SHA1-Digest: xlxfdHcDO7Rhh+K8TlzMeEx7/Hk=
@@ -1839,9 +1671,6 @@ SHA1-Digest: CeblpS/oJKMV9qsQwmMIISnot20=
 
 Name: assets/pc/armor/2/004.mpl
 SHA1-Digest: wd6FUJ6uaBZiGOJJuZs1VH0vcYw=
-
-Name: assets/japanese/data/XlsSkill.zt1
-SHA1-Digest: NS3pGtumlAnGWeIdHdo8mXkyITA=
 
 Name: assets/script/quest/030_S.zt1
 SHA1-Digest: 6GojSRyRD6yCdzUuYKW70U6ajXg=
@@ -1867,14 +1696,8 @@ SHA1-Digest: BNf6wUszlbiYTiz37NBoFuzl0/s=
 Name: assets/script/quest/075_S.zt1
 SHA1-Digest: ruT0R8dORoQDr7JP3NkzlZgTOio=
 
-Name: res/popPwd_bg.png
-SHA1-Digest: z8YhYlNjo5SVfobsaF4X7hyprqw=
-
-Name: assets/sound/038.mp3
-SHA1-Digest: siASyjHkHspmq2zYf/CJ2EFUesk=
-
 Name: assets/com/GameUI.pzx
-SHA1-Digest: iOwA7fp5gg/D0ECPdFSPfMLPCVQ=
+SHA1-Digest: 36n4NuoJ+oIVXwuakOGrTZN6eTI=
 
 Name: assets/script/quest/081_S.zt1
 SHA1-Digest: 6o0vGKNNtTTJEgOWXe22YdqngQg=
@@ -1882,14 +1705,14 @@ SHA1-Digest: 6o0vGKNNtTTJEgOWXe22YdqngQg=
 Name: assets/korean/data/XlsDropItem.zt1
 SHA1-Digest: me+nM4Kpo/i6LanT4irbEu05E0c=
 
-Name: assets/japanese/data/XlsQUEST.zt1
-SHA1-Digest: NyvsH5xejviE9l65QDvRlrHmW3A=
-
-Name: assets/auth_terms.html
-SHA1-Digest: Gz5pgbTlK3O6RojlFJVZh/xSkZM=
+Name: doc/com/amazon/InAppSDK/purchasing/PurchasingManager.html
+SHA1-Digest: gHnkCc67iz68UnxODHKQkXfmm80=
 
 Name: assets/script/quest/086_E.zt1
 SHA1-Digest: WIkRZ0vRXg55LOsfRHhYvErVzc8=
+
+Name: assets/auth_terms.html
+SHA1-Digest: Gz5pgbTlK3O6RojlFJVZh/xSkZM=
 
 Name: assets/script/quest/083_E.zt1
 SHA1-Digest: dNiHUNNIKXSv+rygHTpDWU6dPCo=
@@ -1900,14 +1723,8 @@ SHA1-Digest: VlFS/98sCks52MVs/uoLYsCwTjk=
 Name: assets/html/leec.png
 SHA1-Digest: g/vjxOqqe52aMKP1dTK6NUP7OqI=
 
-Name: assets/chinese/data/XlsBalance.zt1
-SHA1-Digest: HUHqbYDsqkCcEkS96LlKU+EOrrg=
-
 Name: assets/pc/weapon/2/006.pzd
 SHA1-Digest: N9ToC9mq6p8a1rlsqyowEzNywng=
-
-Name: res/input_box_sel.9.png
-SHA1-Digest: jze9evBq3JIYAyOTi55Mzjskae4=
 
 Name: res/drawable-ldpi/icon_gb.png
 SHA1-Digest: 4znKEYol/4T75C95ECS5/XCCkOE=
@@ -1915,14 +1732,11 @@ SHA1-Digest: 4znKEYol/4T75C95ECS5/XCCkOE=
 Name: assets/script/quest/125_S.zt1
 SHA1-Digest: eIRkQf3fIxH9QjzDWr0gz8p9SuU=
 
-Name: assets/sound/021.mp3
-SHA1-Digest: Xh7J56w8GOaOUFWkA6yx9PweEqA=
+Name: assets/obj/022.pzx
+SHA1-Digest: mMma+iz2G2Jp35MNz/IUuWHoHOM=
 
 Name: assets/map/229.zt1
 SHA1-Digest: FXkDCMDRMnr6jGdPw5DfjUIerJE=
-
-Name: assets/obj/022.pzx
-SHA1-Digest: mMma+iz2G2Jp35MNz/IUuWHoHOM=
 
 Name: assets/char/107.pzx
 SHA1-Digest: 2jsNLzVSZsoGlgcbVxvw4ue/H/E=
@@ -1931,19 +1745,13 @@ Name: assets/script/com/022.zt1
 SHA1-Digest: NWtZUDz97oFDHvrDiNvLOc6zrWY=
 
 Name: assets/korean/data/StrTitleItemExplain.zt1
-SHA1-Digest: xWGJn1pJnzE/TlpY7e8lPMYiKZ4=
+SHA1-Digest: ymPsDZlxoNHnA+IhoOifCBBer7g=
 
 Name: assets/map/202.zt1
 SHA1-Digest: nyW1RouQXx/0m6S+Ie7YbcDl8AU=
 
-Name: res/bg_line.png
-SHA1-Digest: qy8gPVwURFf/ge8+GjcdSQoeU44=
-
 Name: assets/projectile/018.pzx
 SHA1-Digest: /EDH/uLa0K2/D63wRL8XB7y9kiw=
-
-Name: assets/chinese/data/StrCODE.zt1
-SHA1-Digest: H8bQ+j95RZwocFGb8WBof0FEjU4=
 
 Name: assets/char/045.pzx
 SHA1-Digest: vZXtEdkpJhVUlIm6QOg2vmXdet8=
@@ -1975,14 +1783,24 @@ SHA1-Digest: ruYQITY5MHG20Ro8R56rqY++usE=
 Name: assets/char/032.mpl
 SHA1-Digest: xb7eIhsMFGQ6j0jCLMpJDgjUihU=
 
+Name: doc/com/amazon/InApp/purchasing/class-use/ResponseReceiver.html
+SHA1-Digest: vAhGmpxrMaa+vQGcJGjBqzyd7OA=
+
 Name: AndroidManifest.xml
-SHA1-Digest: B7Q7y+TUV9GbGWhzDzPP9dELEig=
+SHA1-Digest: tAe4xyY7Jhj6HeefG/E/J5x4JVo=
 
 Name: assets/data/StrTalk1.zt1
 SHA1-Digest: wAGF/CO67Jx9vtzjqnzsW9Rjet0=
 
 Name: assets/script/quest/041_E.zt1
 SHA1-Digest: FlJBl8kfqzPmcToZ7NhL1ddmqjk=
+
+Name: doc/com/amazon/InAppSDK/purchasing/RevokedSkuDataResponse.Revoke
+ dSkuDataRequestStatus.html
+SHA1-Digest: 9pFX/7dbzaIztDnvWiuhJLU9GsM=
+
+Name: doc/com/amazon/InAppSDK/purchasing/Offset.html
+SHA1-Digest: gcvu3zVwgQF6fKem5q9+sgqOUF0=
 
 Name: assets/map/101.zt1
 SHA1-Digest: uKpQNcAFHEWS931Y5GOdiAcXTgo=
@@ -1999,23 +1817,21 @@ SHA1-Digest: 5fdST2VD53B64D+vRj5OhrqgBHk=
 Name: assets/script/quest/040_E.zt1
 SHA1-Digest: kloWy2IRXBRzyJ9V8X0yt2BoFwM=
 
-Name: assets/sound/088.mp3
-SHA1-Digest: OzYClwmuH5wJWg5yRp28tfbuWIg=
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/ContentDownloadResp
+ onse.html
+SHA1-Digest: 5mSwxRSrvjot+1AJTP27P6kPySM=
 
 Name: assets/dynamic/PvpUI.pzx
-SHA1-Digest: P3G3nOraRmybDXzXobRb4eS0OFw=
-
-Name: res/drawable/reply_page_back_c.png
-SHA1-Digest: GJA4MdNubQCiHK/PvZOr1eXqvwI=
+SHA1-Digest: 5D+t+/o6E7I+bSyKZ2ffxwTvdaM=
 
 Name: res/drawable/ui_menu_options.png
 SHA1-Digest: 3EmF2cCrKd5+TrwKe6T0lI+6aaM=
 
-Name: assets/char/118.mpl
-SHA1-Digest: HqOyuXW/WNks0vSM6C0BuPhBfvM=
-
 Name: assets/obj/095.mpl
 SHA1-Digest: 6NnFHMpNsHDncjT1NrjQNLJfK2Y=
+
+Name: assets/char/118.mpl
+SHA1-Digest: HqOyuXW/WNks0vSM6C0BuPhBfvM=
 
 Name: assets/pc/armor/1/003.pzd
 SHA1-Digest: rKh8AD7qcjW6LkW9OKLkGQaWBPo=
@@ -2023,8 +1839,8 @@ SHA1-Digest: rKh8AD7qcjW6LkW9OKLkGQaWBPo=
 Name: assets/obj/031.mpl
 SHA1-Digest: MWKP6DYQ0mW+gVr8nlXaxzJsel4=
 
-Name: res/btn_terms_nor_b.png
-SHA1-Digest: 2lD9hZ+wL0yOAGB5TfarNL/P9lg=
+Name: doc/com/amazon/InApp/transaction/package-frame.html
+SHA1-Digest: TK3Dn+0vjfw9BIgjaU5wLn1vzkY=
 
 Name: assets/script/quest/081_E.zt1
 SHA1-Digest: KLglKgGDZwew4qRgY2telzFbrqg=
@@ -2033,19 +1849,17 @@ Name: assets/map/043.zt1
 SHA1-Digest: kZFhhop4m8vqf9GcXTxqW5g+J+A=
 
 Name: assets/korean/data/XlsSetItem.zt1
-SHA1-Digest: 6fr4w7agSHEo+/Q5MVfsXFFmk/I=
+SHA1-Digest: hgo5fMOXf8E6ZcNASR67VxM3S54=
 
 Name: assets/map/064.zt1
 SHA1-Digest: vu5TieOpke3a+7MqKn9EcVw6gKM=
 
-Name: res/info_table_02.9.png
-SHA1-Digest: 6QWYCxAwcIprdJRoSus7d+CWEBI=
-
 Name: assets/script/quest/033_S.zt1
 SHA1-Digest: r/fNdI4Y2PeDd4+PDFJWufxynbQ=
 
-Name: assets/sound/023.mp3
-SHA1-Digest: 2iwgXw3e+dl1AWlNJikm7DNrGc0=
+Name: doc/com/amazon/InAppSDK/purchasing/ItemDataResponse.ItemDataRequ
+ estStatus.html
+SHA1-Digest: 4PgaWeadaqvHi3/6deA5wQNaRSI=
 
 Name: assets/map/137.zt1
 SHA1-Digest: 0IPmYrbc0co90IetjnJqNx2dL4A=
@@ -2060,7 +1874,7 @@ Name: assets/pc/armor/3/004.pzd
 SHA1-Digest: nFgkVdorPJRwGrxad6pCJlkN0mM=
 
 Name: assets/korean/data/StrPopup.zt1
-SHA1-Digest: PzQCuBLYwhApNs+oFFtaj3AbXb0=
+SHA1-Digest: COHo31sj5PcoWOcIWGdSpRWB1RY=
 
 Name: assets/script/quest/100_E.zt1
 SHA1-Digest: rkhadHWkDZFuETVa/RdYtIivyTw=
@@ -2083,6 +1897,10 @@ SHA1-Digest: /BRqo66r1yjU/PXEq5JaKg4qCss=
 Name: assets/script/quest/092_E.zt1
 SHA1-Digest: QhAuQbBKnNYhuRNWfUw3OXMxCzk=
 
+Name: doc/com/amazon/InApp/transaction/class-use/ReceiptDataResponse.R
+ eceiptDataRequestStatus.html
+SHA1-Digest: ikYUD//Y1q3gGof+OBhK0brNMNI=
+
 Name: assets/data/StrSkillType.zt1
 SHA1-Digest: gn+XzGZCp3txdwJEh5BFtamXI8Q=
 
@@ -2101,14 +1919,11 @@ SHA1-Digest: gbMi9r+vPMDmuAnXlQQrEASuI5w=
 Name: assets/script/quest/111_E.zt1
 SHA1-Digest: D7cTTiKzFDST47brTYreBpKxubI=
 
-Name: assets/chinese/data/XlsRandomBox.zt1
-SHA1-Digest: rPyQYqnOTL/Be3E1daxw5tw3zBw=
+Name: res/drawable/reply_page_back.png
+SHA1-Digest: 1P4df2kMzylaxETk/imVFy+kuHw=
 
 Name: assets/map/235.zt1
 SHA1-Digest: 4CdtYMtb7DUDS61EK9pVDmFHUas=
-
-Name: res/drawable/gshop_btn0_jp.png
-SHA1-Digest: 6m9OVdv9ANCoYbvWF2mgepNkqNk=
 
 Name: assets/script/call/010.zt1
 SHA1-Digest: vJL5eUdymbyAdTwp8u7blwKTdRI=
@@ -2119,14 +1934,9 @@ SHA1-Digest: CDgDRs6dIYCDG0W74O48v42+35c=
 Name: assets/obj/063.mpl
 SHA1-Digest: zz6IJ5Cp0R329DLC0mvaJBKhNY8=
 
-Name: res/xml/update_state.xml
-SHA1-Digest: 1iY0zR2axJIBmy07Es5P8yPRVQM=
-
-Name: xml_kt_lg/purchaseW_finalVersion.xml
-SHA1-Digest: FFwyFXL74/Y99bm++xYARkKs+mA=
-
-Name: res/layout/main_gesture.xml
-SHA1-Digest: oPtoXlRsgPRtoxTJw85HVMtAYho=
+Name: doc/com/amazon/InAppSDK/purchasing/PurchasingObserverNotRegister
+ edException.html
+SHA1-Digest: lrtwUys0f2Aqg4VtF3Y0PQv6GYY=
 
 Name: assets/obj/025.pzx
 SHA1-Digest: kjLTDjzeF9pVNF5KbJ0pezS7Oqg=
@@ -2136,9 +1946,6 @@ SHA1-Digest: te4Xm7L25jwOPfay5PW63t2l2Gw=
 
 Name: assets/pc/weapon/2/007.pzd
 SHA1-Digest: nWgr68VWxEkJq5Ums7B43EDpZmw=
-
-Name: assets/sound/017.mp3
-SHA1-Digest: 49zpWldSGGu6Rnar+NDay6oe0eU=
 
 Name: assets/script/quest/104_S.zt1
 SHA1-Digest: H7nIHBr1HeOnjOrkwvt73yPESaw=
@@ -2152,20 +1959,14 @@ SHA1-Digest: OlIUGSdDL6q24y3YmJS00j+eutY=
 Name: assets/char/066.pzx
 SHA1-Digest: 3FEInw5WXkj6I4rUbR49JQr9hrI=
 
-Name: res/btn_check_dim.png
-SHA1-Digest: aLI0my3UpoCtX7M0cSM8YJGvSQ4=
-
 Name: assets/pc/side_hand/0/007.mpl
 SHA1-Digest: Pxg5RUqQSsIcw4ob1Iexv/SS6NM=
 
-Name: assets/dummy/dum00.pzx
-SHA1-Digest: ZNipVj7y0FiFcg605HoIEq8TCig=
+Name: doc/com/amazon/InApp/transaction/TransactionObserver.html
+SHA1-Digest: vjm7qzuhRZIlMdRv66uNZSRaofw=
 
 Name: assets/obj/031.pzx
 SHA1-Digest: bHOOHSNiKgpuUTQKLWotrvXmGBo=
-
-Name: assets/chinese/data/XlsPCAction.zt1
-SHA1-Digest: OuLpYWZgMF0FTbdPr8YQlGvu+Xo=
 
 Name: assets/script/quest/076_E.zt1
 SHA1-Digest: 3jN4n7hgcrUMEC2gCQ3vAcsxe1w=
@@ -2189,10 +1990,7 @@ Name: assets/map/231.zt1
 SHA1-Digest: 4CdtYMtb7DUDS61EK9pVDmFHUas=
 
 Name: assets/data/StrPopup.zt1
-SHA1-Digest: 6Q6J0UcMAMsLKEgxBWLTm5dzkxM=
-
-Name: assets/japanese/data/StrQuest_C.zt1
-SHA1-Digest: orrJ9VYq3yEox1mvLs3E1AOCZPY=
+SHA1-Digest: lOgZh9pOw8SpRdICBhpWhIbDFVA=
 
 Name: assets/obj/039.mpl
 SHA1-Digest: umhghqnqLe5K9l2CAK7fbHhlJZA=
@@ -2206,17 +2004,11 @@ SHA1-Digest: 8zbqAmqeD/e0MNPi8LEPJKnqUfY=
 Name: assets/map/001.pzx
 SHA1-Digest: MfNhA3pEo895s4Up3Pedcj6l4os=
 
-Name: xml/commonPopupJoinW.xml
-SHA1-Digest: sbMVsXSJHe5TUEoemgplihIwpc8=
-
 Name: assets/script/quest/023_S.zt1
 SHA1-Digest: heHxdVyqEr9vdBO3Z+BrZ3pRNWo=
 
 Name: res/raw/s020.ogg
 SHA1-Digest: 32mbvhOpot9Zd2+UD2TXvNnRJBM=
-
-Name: assets/chinese/data/StrStatusType.zt1
-SHA1-Digest: F9vsx+Fdv0QJakEptd+Vg/mcB6A=
 
 Name: assets/script/quest/011_S.zt1
 SHA1-Digest: 6E8qUkfx7rRQfCeC7IPpq9DeWBc=
@@ -2227,20 +2019,14 @@ SHA1-Digest: pKu/68kDWVxOVE2fKW2F1CU+AKo=
 Name: assets/dynamic/SkillIcon2.pzx
 SHA1-Digest: ubqfNoO5NVKhI89n9V5OVRb/WfI=
 
-Name: assets/japanese/data/XlsItemRoutingRate.zt1
-SHA1-Digest: TeZUyFs3J8KjBaJhUiqX1AoQmnI=
-
 Name: assets/script/quest/054_E.zt1
 SHA1-Digest: 9X4WIWKg0VcEqCmCY5KY6ibimLw=
 
 Name: assets/obj/016.pzx
 SHA1-Digest: ZK30sItoH/btsU8E3/DCeUdtDfk=
 
-Name: res/btn_con_sel.png
-SHA1-Digest: tbpEGXkaprt1l7IX53iHnMkov8Y=
-
 Name: assets/korean/data/StrSkillType.zt1
-SHA1-Digest: HEGrYwCalxEFntxDU8TPzuMkars=
+SHA1-Digest: z/aalOwSWi94judJJXJlwl67vsA=
 
 Name: assets/pc/side_hand/2/003.mpl
 SHA1-Digest: jn4ePWzoBlR0Z/ebzxXwIA/E3ks=
@@ -2248,17 +2034,18 @@ SHA1-Digest: jn4ePWzoBlR0Z/ebzxXwIA/E3ks=
 Name: assets/script/map/022_002.zt1
 SHA1-Digest: eh8DMIU+AM5dZUX+5Mc71ydCOzs=
 
+Name: doc/com/amazon/InApp/transaction/class-use/ContentDownloadRespon
+ se.html
+SHA1-Digest: +wkPqNFpkNXzXp5AEx1Gg1NgzKA=
+
 Name: assets/script/map/076_002.zt1
 SHA1-Digest: qTz1ADowQYtMVYADCIHo5mRzgkg=
 
 Name: res/drawable/auth_ci.png
-SHA1-Digest: DFNJVYLvVvQU8+e5B1t+ryi/z0o=
+SHA1-Digest: ECrqQVxPxtZZdNnExT9Bd4ukHkE=
 
 Name: res/raw/s109.ogg
 SHA1-Digest: BW2AAka+zvRAKL0LGdsjaAY9V4g=
-
-Name: res/btn_pad_nor.png
-SHA1-Digest: C36Gm3zYA9CNO+dIb/Yc4RmaRU4=
 
 Name: assets/obj/007.pzx
 SHA1-Digest: hfDA245mWvyUsMWaMO+0BRAfQkU=
@@ -2275,29 +2062,23 @@ SHA1-Digest: DfzQddoQ09kGzDe7zFW5RGe45/M=
 Name: assets/map/002.zt1
 SHA1-Digest: kiE8ubQbr9LXQxAcP2kjQKBUCMg=
 
-Name: res/drawable/ui_menu_community_jp.png
-SHA1-Digest: kSOvkes+1D3bXlOeYZAfAYy3TJI=
-
 Name: assets/korean/data/XlsPCAction.zt1
 SHA1-Digest: OuLpYWZgMF0FTbdPr8YQlGvu+Xo=
 
 Name: assets/menu/certi.pzx
 SHA1-Digest: a9fd1HR1EkhoIXYS4O+dVDRT/vc=
 
-Name: res/drawable/btt_disable.png
-SHA1-Digest: aU3U0yiNO7ShAaErEKsGNND+FdA=
-
 Name: assets/pc/side_hand/2/004.mpl
 SHA1-Digest: 1nPm+og2EP9bAGE+SwNQ/TuUwbM=
+
+Name: res/drawable/btt_disable.png
+SHA1-Digest: WdV9WK24s79k0+ynH/HqB7XtMBo=
 
 Name: assets/obj/043.pzx
 SHA1-Digest: 948QgeVKzHkAgVA8eQ+/nGyz6Ss=
 
 Name: assets/char/017.mpl
 SHA1-Digest: 9IPji1KNRLwALdzUdSmoXNffu1Y=
-
-Name: assets/sound/016.mp3
-SHA1-Digest: 1qnLwpUckcL7J620S9frl7iS44U=
 
 Name: assets/script/quest/013_S.zt1
 SHA1-Digest: h8Kf+twoZVS6uhWiWOPHQMdIqRQ=
@@ -2308,26 +2089,18 @@ SHA1-Digest: 0FwYZXlVibnTOZ/akipJpEdkqV4=
 Name: assets/map/076.zt1
 SHA1-Digest: B6QTUHowg3IC19sSw8OxwHAkhxo=
 
-Name: res/keypad_num_09.png
-SHA1-Digest: S9pvVGvN/mrLFbOMa5l6U65wZcE=
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/PurchaseUpdatesResp
+ onse.PurchaseUpdatesRequestStatus.html
+SHA1-Digest: di7xAyucvbBk9R7zVTrIe6P3wVY=
 
 Name: res/drawable-ldpi/icon_normal.png
 SHA1-Digest: gsvNuvsTgkGsN9wd8NNMStbfwPM=
 
-Name: res/textbox_01.9.png
-SHA1-Digest: Vs680N+gAS6UwbCE2hSL4MlDP+M=
-
-Name: res/btn_more_01_nor.png
-SHA1-Digest: 8o9WBsBg8cv7ClNherPc0T30TOU=
-
-Name: assets/sound/008.mp3
-SHA1-Digest: rabXFIbrWN2UGOY4l/SW47aqLLg=
+Name: doc/com/amazon/InAppSDK/purchasing/PurchaseUpdatesResponse.html
+SHA1-Digest: toDKmM+f70etWl71WaR0V7y0L2I=
 
 Name: assets/char/018.mpl
 SHA1-Digest: WLWOtCIOtTjFzx8Bd5GvhaBBq5w=
-
-Name: assets/chinese/data/StrQuestComplete.zt1
-SHA1-Digest: ilD3PWyzhoeRG5jd1sMcXbaoeck=
 
 Name: assets/map/046.zt1
 SHA1-Digest: sMwekRl4pBq6f1FZEKZkOYAaCbs=
@@ -2338,14 +2111,15 @@ SHA1-Digest: oWrjqREvHRnT3qTw6QKUwKcA/mc=
 Name: res/raw/s105.ogg
 SHA1-Digest: zxkNvlVnVHCapK9dG5v9gTyefsM=
 
+Name: doc/com/amazon/InApp/transaction/ContentDownloadResponse.Content
+ DownloadRequestStatus.html
+SHA1-Digest: Ci0khk7qT6FWmguVTS35SL4FKyM=
+
 Name: assets/script/call/102.zt1
 SHA1-Digest: vYmENMMadlynmWV0Lz0zQN52NEY=
 
 Name: assets/char/059.mpl
 SHA1-Digest: diiLLSv9B/NC+aRytPFsFywSe2A=
-
-Name: assets/sound/006.mp3
-SHA1-Digest: w61UasQW5MHiUTbxHRajUTNDllE=
 
 Name: assets/obj/019.pzx
 SHA1-Digest: trRMKaeW7AUlw6v20omQLoKe0oE=
@@ -2383,17 +2157,17 @@ SHA1-Digest: m9/X68Azem7QbY8I2rgzqtz3kBo=
 Name: assets/map/023.zt1
 SHA1-Digest: Cuym6I2HGHQXGwnrqxRz6Cleb4I=
 
-Name: assets/japanese/data/StrTip.zt1
-SHA1-Digest: qYki0zhcY++Icj2Q3ZKDRZwbzuw=
-
-Name: assets/script/quest/114_S.zt1
-SHA1-Digest: EibMMxjjtCZmqlVH3TCaOxitwDM=
+Name: res/drawable/gshop_btn2_kr.png
+SHA1-Digest: pg5ZVEaDjF8QO9ONLvIEMY1IZw8=
 
 Name: assets/face/007.pzx
 SHA1-Digest: sd+kayVXOLNOx1kagZnQeLSKv10=
 
 Name: assets/pc/armor/2/001.pzd
 SHA1-Digest: N9K6OZ7EoAij7da5mnuMSO683iE=
+
+Name: assets/script/quest/114_S.zt1
+SHA1-Digest: EibMMxjjtCZmqlVH3TCaOxitwDM=
 
 Name: assets/map/155.zt1
 SHA1-Digest: u1zQwcxE8KgIjxODXh2CoIBt0cI=
@@ -2410,26 +2184,33 @@ SHA1-Digest: oCbtheQFAtsKT7dQpVs12INB0QM=
 Name: assets/obj/111.pzx
 SHA1-Digest: l/f8gfBa9r0JoQiS2tSau66oRdY=
 
+Name: res/drawable/gshop_btn4.png
+SHA1-Digest: zRQYthvILS/acE30sQ4FwG698xY=
+
 Name: assets/char/047.mpl
 SHA1-Digest: 3NGNRylvT8wycNCc21kS99mkWkc=
 
-Name: assets/html/help_jpn.html
-SHA1-Digest: Gu5URiE0y1drEvn9F7RafPLN94w=
+Name: res/drawable/gshop_btn3_kr.png
+SHA1-Digest: 1ZiGfaE1vy/wtaE5n/4VfXKa/5g=
 
 Name: assets/ptc/006.ptc
 SHA1-Digest: xecDJPAlv7IJiUTHfh3WleuSugM=
 
-Name: assets/char/022.pzx
-SHA1-Digest: a3WJnbvGF7MLYPkSYKv4axl4osU=
+Name: doc/com/amazon/InApp/transaction/ResponseReceiver.html
+SHA1-Digest: zOLMlF1/y7L2PSOyHL9jk1HzUZ0=
 
 Name: assets/obj/099.pzx
 SHA1-Digest: JkIqBB5brQdKDrNsfm1EZbs0jig=
 
+Name: assets/char/022.pzx
+SHA1-Digest: a3WJnbvGF7MLYPkSYKv4axl4osU=
+
 Name: assets/char/122.mpl
 SHA1-Digest: 0fOS55XTAZQJtSYi4r3NAYzGDGM=
 
-Name: res/drawable/gshop_bg_jpn.png
-SHA1-Digest: pb7Lx4BIfr6Goc21ySnJq0sCHRI=
+Name: doc/com/amazon/InApp/transaction/class-use/TransactionManager.ht
+ ml
+SHA1-Digest: NDDrB/YNKfp03jS8j9kTBHLsDPk=
 
 Name: assets/script/quest/131_S.zt1
 SHA1-Digest: rkQo3swRJhwChJDw18iFlfkgbsI=
@@ -2437,11 +2218,11 @@ SHA1-Digest: rkQo3swRJhwChJDw18iFlfkgbsI=
 Name: assets/ptc/041.ptc
 SHA1-Digest: lotAXKoAjip+xsI7FAYtQKoUwKE=
 
-Name: assets/script/quest/109_E.zt1
-SHA1-Digest: ImVErSfltGlk0AsnEr/vykTun7o=
-
 Name: assets/pc/weapon/1/004.mpl
 SHA1-Digest: 1gQDyHM8DdFqr33gLtgIJpraD84=
+
+Name: assets/script/quest/109_E.zt1
+SHA1-Digest: ImVErSfltGlk0AsnEr/vykTun7o=
 
 Name: res/raw/s056.ogg
 SHA1-Digest: 517BD7qes2zWgBVZgh2WSM2rcdI=
@@ -2453,7 +2234,7 @@ Name: assets/obj/040.mpl
 SHA1-Digest: /UF1O8Mhg4gz6XI5o/V9HpBWn6w=
 
 Name: res/drawable/rate.png
-SHA1-Digest: DZKLpB+WfPcQtgSc1yYPK0P3aN4=
+SHA1-Digest: WTdPqPtHEGaT7ZAN7C2jpXa/x2U=
 
 Name: assets/data/XlsExtraProjectile.zt1
 SHA1-Digest: Am5D3CQ/k5tiUybGmAYPKP9We74=
@@ -2462,19 +2243,13 @@ Name: assets/map/034.zt1
 SHA1-Digest: l3nquRxP6Ihk8NfK+S0SQoPZfj4=
 
 Name: assets/korean/data/StrCODE.zt1
-SHA1-Digest: 4TLt9penksvDi+Zw5eO8sELUDzQ=
+SHA1-Digest: Bief39sklSL38fnbShDe6qEbYWw=
 
 Name: assets/char/142.pzx
 SHA1-Digest: bSyUH5fANr5Igc9PeLZ30toABuU=
 
-Name: res/btn_check_no_nor.png
-SHA1-Digest: R9ReDLBSeqN2gStQbH8ZNwk3ml4=
-
 Name: assets/map/207.zt1
 SHA1-Digest: HiEp655WO6m8lJuqZ7zJllH3g5o=
-
-Name: assets/sound/055.mp3
-SHA1-Digest: SCibbzs5zP9KvcfCenZdaHdOFkQ=
 
 Name: assets/com/BezierEffect.pzx
 SHA1-Digest: NVqAq+LGfqmgKKkY/HVkUX5YMAk=
@@ -2485,8 +2260,8 @@ SHA1-Digest: u6WGovElx3I7Qt875rdWdsR/zfI=
 Name: assets/char/046.pzx
 SHA1-Digest: +5x0X71OTvuR2XduYku5Cz9pFpA=
 
-Name: assets/sound/105.caf
-SHA1-Digest: qORNRH3PM7m5vfPdq4RBvCMaaZw=
+Name: doc/allclasses-noframe.html
+SHA1-Digest: IapLjQo/6yyhkx+N3wRm4+vbfOA=
 
 Name: assets/obj/016.mpl
 SHA1-Digest: M1Z2ElHQHvimTkqNN1TfN+ZDii4=
@@ -2497,17 +2272,8 @@ SHA1-Digest: tz2jX5L+ElhOeLvgr80aQUHjBKA=
 Name: assets/dynamic/ItemIcon1.mpl
 SHA1-Digest: 3aEJwnAgC9WGE83MAREo/6XtHFQ=
 
-Name: res/info_table_01.png
-SHA1-Digest: /bz50zxyIDHnqpx4JOSqtb0XAKs=
-
 Name: assets/script/quest/085_E.zt1
 SHA1-Digest: OLd1vhgCaBgCtXNXpvOtOrEX+dY=
-
-Name: assets/japanese/data/StrCODE.zt1
-SHA1-Digest: Z4RALh0UTsR9hZdIEoBf/TVHgbg=
-
-Name: res/bt_sel.9.png
-SHA1-Digest: BphtievYDmqVxsy9kRY+Wg7Ji/M=
 
 Name: assets/pc/weapon/001.pzf
 SHA1-Digest: Oh8LUFqE+xWXa18BZXZL0gZAIaI=
@@ -2521,17 +2287,14 @@ SHA1-Digest: Ajxxtipa+zJbD6nhxLfskdbyYfk=
 Name: assets/char/002.pzx
 SHA1-Digest: gZc0zdLdGfcDbh3dfBj2/4mrHaA=
 
-Name: assets/map/158.zt1
-SHA1-Digest: iVIOkm8VveoLUihaFSy5/pqe2/A=
-
 Name: assets/obj/039.pzx
 SHA1-Digest: HFEUD/WSdTN8tzzcLEG9dMBDlnw=
 
+Name: assets/map/158.zt1
+SHA1-Digest: iVIOkm8VveoLUihaFSy5/pqe2/A=
+
 Name: assets/dynamic/ItemIcon1.pzx
 SHA1-Digest: CZK0Fjb0dGfi5HFsxUnfyq/TLKM=
-
-Name: assets/japanese/data/XlsPCStatUp.zt1
-SHA1-Digest: BTeCuFl+ijCgtrPqNge/Ns2bPoo=
 
 Name: res/raw/s077.ogg
 SHA1-Digest: OTaYgdZBFPGuQWY65/Mpm5aq7/Q=
@@ -2541,9 +2304,6 @@ SHA1-Digest: d1OhN+Tpt3QfZXH3ov7FWeUBt1g=
 
 Name: assets/pc/armor/2/004.pzd
 SHA1-Digest: u7JFfDVZCDvElSOM+YJcdFMuN7Q=
-
-Name: res/drawable/ui_menu_options_jp.png
-SHA1-Digest: a47vvUfPtIczAcgHAWRFVfuKNQ4=
 
 Name: assets/script/quest/118_S.zt1
 SHA1-Digest: +OEGFQQMgl/7bzoTwarcig92luQ=
@@ -2572,20 +2332,15 @@ SHA1-Digest: JzLSQJlVx7XHTstQ4dsPU7F4iPA=
 Name: assets/script/map/028_001.zt1
 SHA1-Digest: hXG5JKFn4+yuluRbD54mXm0In98=
 
-Name: assets/japanese/data/XlsItemRoutingValue.zt1
-SHA1-Digest: YKekslMY31fGH8W1moJxxP1BBH4=
-
 Name: assets/char/053.mpl
 SHA1-Digest: gWn/C7k0x+kfqdlqBHl6AjQdM14=
 
 Name: assets/pc/side_hand/1/003.pzd
 SHA1-Digest: c4erPbNVvs9DOEY3n74oKb7S/oE=
 
-Name: res/drawable/default_loading.png
-SHA1-Digest: 5MJ7SpmTFzORIVQ0PbT0IEVZM+U=
-
-Name: res/popup_bg_2.png
-SHA1-Digest: TxhlRGsn2mpXkbzySW3ZluzpIpY=
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/PurchasingManager.h
+ tml
+SHA1-Digest: wTXhBtiwcR4wFn3+M7gO7r9Taxs=
 
 Name: assets/dynamic/ItemIconMat.mpl
 SHA1-Digest: YIceRlITMRgyKaoQZyPSnCEg/xQ=
@@ -2599,6 +2354,9 @@ SHA1-Digest: 8uePP+oBTl5n1qnEMJJw01it+po=
 Name: assets/pc/armor/3/004.mpl
 SHA1-Digest: P0PyG6Ok8h7BEOQV6dh+ZiCxgnc=
 
+Name: doc/com/amazon/InApp/transaction/Offset.html
+SHA1-Digest: Q2alBSqMm/J+AcNutKciQn9ZkF8=
+
 Name: assets/pc/weapon/3/002.pzd
 SHA1-Digest: 5b0szsVIw7BGhBnStNq2P+neH9g=
 
@@ -2606,7 +2364,7 @@ Name: assets/obj/086.pzx
 SHA1-Digest: as0k9t55/lGmG0dLMJX4jRo3oro=
 
 Name: res/drawable/btt_normal.png
-SHA1-Digest: CwZKKR13WI/nYrW52apLSWM6QHs=
+SHA1-Digest: 7s2/VdJCXD0S/towLeoEvQafwMY=
 
 Name: assets/map/040.zt1
 SHA1-Digest: N2Ywuj11VTCUEU3jNkhBdgKFp+Q=
@@ -2624,10 +2382,7 @@ Name: assets/obj/038.mpl
 SHA1-Digest: 2Hg5KDMYaVSXAJDxMVdWYNPLcNY=
 
 Name: res/drawable/frame.png
-SHA1-Digest: Lcpg5mx1iMcb+lxek9j4wnynm/c=
-
-Name: assets/japanese/data/XlsDropItem.zt1
-SHA1-Digest: me+nM4Kpo/i6LanT4irbEu05E0c=
+SHA1-Digest: KFrbur0hxuCERJHOH98AQTtFd/U=
 
 Name: assets/char/003.pzx
 SHA1-Digest: cn4QM/nSq9MVl4KaQVtM4Pl3SPQ=
@@ -2638,8 +2393,8 @@ SHA1-Digest: 32qbdAPILnOJ2P3FmA2A+Q78LKc=
 Name: assets/script/quest/044_S.zt1
 SHA1-Digest: D6cbBdZ9KcfK05mFsLmqH9H7Bfw=
 
-Name: assets/sound/034.mp3
-SHA1-Digest: mQC6yQXZqHoPx06xwJu1d+mTmUA=
+Name: doc/com/amazon/InAppSDK/purchasing/SandboxException.html
+SHA1-Digest: PPD2E8EXjY3c+jA0C9pSmb5ZoGU=
 
 Name: assets/script/map/132_002.zt1
 SHA1-Digest: ENJnAHkbiZBXiTPdBj6H175hvkw=
@@ -2662,41 +2417,35 @@ SHA1-Digest: 6SjtmOysevFH0B58mb5Na0TK9dc=
 Name: assets/script/map/018_001.zt1
 SHA1-Digest: hdO7n4rZ9r/W9m/UVHFEf/Jf5YQ=
 
-Name: assets/sound/111.caf
-SHA1-Digest: 2hZp1EzxT8SDI0MdbFnPJNzuErU=
-
 Name: assets/script/quest/067_S.zt1
 SHA1-Digest: MPqakbX4MvSuau6waBvZd2abdco=
-
-Name: assets/korean/data/XlsMap.zt1
-SHA1-Digest: bkZ5JlO31UhzDkOHqnRGAddBMS8=
 
 Name: assets/com/Won.pzx
 SHA1-Digest: tF44UTEhnp1Lx0qtmTXeMWQRDas=
 
-Name: assets/map/071.zt1
-SHA1-Digest: wHQfj3J12J+DMZ3Ug9fzGJlx1Bw=
+Name: assets/korean/data/XlsMap.zt1
+SHA1-Digest: igasToVYQhfhIzNxIkmoEeWXrn4=
 
 Name: assets/obj/026.pzx
 SHA1-Digest: yIto1qrhA9Pt7JvRukwssdQhQnw=
 
+Name: assets/map/071.zt1
+SHA1-Digest: wHQfj3J12J+DMZ3Ug9fzGJlx1Bw=
+
 Name: assets/script/quest/012_E.zt1
 SHA1-Digest: QKuEUh3OEUm+FFN1hJuSYF8oPIg=
-
-Name: res/textbox_01_7.png
-SHA1-Digest: ui4We9WvHhZnBOuLzcBK4qaLZNQ=
 
 Name: assets/html/kelvin.png
 SHA1-Digest: S7r7R2JmNPKfmxZYURxjMD2dMOc=
 
-Name: assets/chinese/data/StrQuest_Y.zt1
-SHA1-Digest: pzYm72VeUdaqx3MuL8hEg1Frz9E=
-
 Name: assets/script/quest/042_S.zt1
 SHA1-Digest: 39anAQff2lSph2VpbewgVwqnQGQ=
 
+Name: doc/deprecated-list.html
+SHA1-Digest: mbP2V12uMZZ1UJGosxRtRdcFrBY=
+
 Name: res/drawable/banner.png
-SHA1-Digest: /kCuOS3sKPP6jKGh0jW3YeLZjWw=
+SHA1-Digest: N562H9r0ffJ43HE8rgt+Mr04nMQ=
 
 Name: assets/map/033.zt1
 SHA1-Digest: W2IQUYzgrrjn0C8ubxPGsKzqN0s=
@@ -2731,17 +2480,21 @@ SHA1-Digest: eY/u44du4sGB8sR9RL4e+A1pNCk=
 Name: assets/data/XlsDropItem.zt1
 SHA1-Digest: me+nM4Kpo/i6LanT4irbEu05E0c=
 
-Name: res/anim/slide_up.xml
-SHA1-Digest: 4XabOci5eoIVtSa+LxpTh1nswyQ=
-
-Name: assets/com/MainUI.pzx
-SHA1-Digest: ZnZwBaAEyvRxXbt2H+2OdkVaNIM=
-
 Name: assets/obj/041.pzx
 SHA1-Digest: p+QXkvmTRbJpstZH3JR26KY8PYQ=
 
+Name: assets/com/MainUI.pzx
+SHA1-Digest: IHEzkIkPUhJB4uHqHX8gvDfHUOk=
+
+Name: res/anim/slide_up.xml
+SHA1-Digest: 4XabOci5eoIVtSa+LxpTh1nswyQ=
+
 Name: assets/obj/018.mpl
 SHA1-Digest: r9Njc1a6vI4+yASOQoT+ja0pFmM=
+
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/PurchaseUpdatesResp
+ onse.html
+SHA1-Digest: g56j5i7OIjRc2vxpy7Xv3VYWB+o=
 
 Name: assets/script/quest/064_E.zt1
 SHA1-Digest: q+Pu+AJUUSidJmPGiydmgEbmaVc=
@@ -2770,6 +2523,9 @@ SHA1-Digest: RlisyKjmbmYaaNrIfqe/vm1YV8k=
 Name: assets/script/map/010_002.zt1
 SHA1-Digest: sdBzr4A+cw5HkZlDsA1dLYuPamU=
 
+Name: res/drawable/gshop_btn3.png
+SHA1-Digest: HpXKArsJiAhw622TCwb+2bZ5uG0=
+
 Name: res/raw/s005.ogg
 SHA1-Digest: glGAHlOg/VCEjqMUep2D4UgEJkc=
 
@@ -2783,7 +2539,7 @@ Name: assets/pc/weapon/3/006.mpl
 SHA1-Digest: H8NcUOnq3s6l6LjKhKA59z5BUjY=
 
 Name: assets/dynamic/TrainingUI.pzx
-SHA1-Digest: jpcJAcc4GLlpZJFNqJ5pUEUuw64=
+SHA1-Digest: 8SXBuBwZ6dUKNtbWCwc+/0YrDZE=
 
 Name: assets/char/100.pzx
 SHA1-Digest: kw2OnE+V7k7V60qfAdbAjyBBDOo=
@@ -2797,14 +2553,17 @@ SHA1-Digest: 5eFEh+/Tcbvtq4RfLHw/vUG700Q=
 Name: assets/map/004.zt1
 SHA1-Digest: rHrjfBwakx+eoKrZW6HAMIzQEdI=
 
-Name: assets/script/quest/135_S.zt1
-SHA1-Digest: 5oqNvVpTVM38YpQVcGUPQyOij1g=
-
 Name: assets/projectile/008.pzx
 SHA1-Digest: EhIjDQ5cOTgSGowydCCXNR85LhI=
 
+Name: assets/script/quest/135_S.zt1
+SHA1-Digest: 5oqNvVpTVM38YpQVcGUPQyOij1g=
+
 Name: assets/char/121.pzx
 SHA1-Digest: dgWqlcvi3pY6xNuAXiYr5Hp/iFM=
+
+Name: doc/com/amazon/InApp/purchasing/package-frame.html
+SHA1-Digest: WltEphp5e0iWjrdsUzZmIDF2jgo=
 
 Name: assets/map/061.zt1
 SHA1-Digest: DEVHG2pXtGHzzLjnw8BLgY0ISPU=
@@ -2818,12 +2577,6 @@ SHA1-Digest: dLNKxPlfVM8Gf5vx+tzGgfT/CBo=
 Name: assets/font/eunjiedge_bold_6_11.ft2
 SHA1-Digest: k2pdOWN4CPitZuGBjFd39O/koP4=
 
-Name: res/input_box_nor.9.png
-SHA1-Digest: 6ag7/CMtwX1f/zsQTUm9H1WAru4=
-
-Name: assets/chinese/data/StrItemType.zt1
-SHA1-Digest: tqSgYKYFq6uVCxoJ3t42cI0a/uM=
-
 Name: assets/face/006.pzx
 SHA1-Digest: F4uFr8AOmZcMA7jwAyX3rm9rS7Q=
 
@@ -2833,14 +2586,20 @@ SHA1-Digest: PkLp5s29BV1MjjfCXQTS8j1lxo0=
 Name: assets/map/210.zt1
 SHA1-Digest: 5C2ot4luh0C1BfxizlEUEauPc6g=
 
+Name: doc/index-files/index-7.html
+SHA1-Digest: KfEGZCL4Axj4yABDcmJlx1kIZxg=
+
 Name: assets/map/130.zt1
 SHA1-Digest: +xqxna7khYaC1Mjt+BfmwX94VeM=
 
 Name: assets/ptc/002.ptc
 SHA1-Digest: e0l3LCHVqp/fEmRyfpvRTvfSaeg=
 
-Name: assets/html/about_jpn.html
-SHA1-Digest: nCxhW3hzCaWtu6Tb+CWaqonXF1w=
+Name: doc/com/amazon/InApp/purchasing/PurchasingObserver.html
+SHA1-Digest: u8QK3cjTqKattwUEjv3zoGCRsIE=
+
+Name: doc/com/amazon/InApp/purchasing/Offset.html
+SHA1-Digest: VJQqqaxh8EaHNiiUw8AlWNRpA8s=
 
 Name: assets/char/016.mpl
 SHA1-Digest: uYbN6NIWrFB4yYBk1MmBBCBCZz0=
@@ -2878,14 +2637,8 @@ SHA1-Digest: 8UGJfGjbfC2UFx/yWj0mOkJWQPM=
 Name: assets/pc/armor/2/003.pzd
 SHA1-Digest: +qBIb4D6YOJ9yxOXFUWThRy4UY8=
 
-Name: assets/japanese/data/XlsExtraProjectile.zt1
-SHA1-Digest: Am5D3CQ/k5tiUybGmAYPKP9We74=
-
 Name: assets/pc/002.pza
 SHA1-Digest: 7QQAm/KBmif+mSTeb6tONSYSU58=
-
-Name: lib/armeabi/gdbserver
-SHA1-Digest: rEvLi7Y8hbyufVtYEcPtXNZs0j8=
 
 Name: assets/pc/side_hand/1/006.pzd
 SHA1-Digest: Cm0ybHHdpl4sFYp/uddn7o/qGlw=
@@ -2896,8 +2649,9 @@ SHA1-Digest: qofamzd8GAaXHdbOhsl0fbn20cA=
 Name: assets/ptc/045.ptc
 SHA1-Digest: dnqy51G3Ikp5eUNbQ+MCG8gWHL8=
 
-Name: res/layout/webview_1.xml
-SHA1-Digest: F4jYXdQjK4FV/OlbdvhSkVwnPw4=
+Name: doc/com/amazon/InApp/transaction/class-use/RevokedSkuDataRespons
+ e.html
+SHA1-Digest: aRpW0M+ripFxvti2ZPnivMaaXAg=
 
 Name: assets/char/029.mpl
 SHA1-Digest: 89m98H4XN6FuVuz0t+3SRBNc/tU=
@@ -2906,16 +2660,16 @@ Name: assets/script/map/175_001.zt1
 SHA1-Digest: UDT9FgpMOjAYuXezpEIZK3olR20=
 
 Name: assets/korean/data/StrTalk2.zt1
-SHA1-Digest: t5014xxkrguRTq9yPFqih2NTexY=
+SHA1-Digest: QxmOZsZVHd1OW5Udf5YGmfQhtJ0=
 
 Name: assets/script/quest/017_E.zt1
 SHA1-Digest: Ar4Sq4ZVgvgwyLYgRLpLdd5TUus=
 
-Name: assets/char/025.pzx
-SHA1-Digest: LhYfreCnqXaXyATezfstMlQaGdQ=
-
 Name: assets/obj/107.pzx
 SHA1-Digest: uTfIoKlXIAZer55caQO1u9LlKdM=
+
+Name: assets/char/025.pzx
+SHA1-Digest: LhYfreCnqXaXyATezfstMlQaGdQ=
 
 Name: assets/script/quest/029_S.zt1
 SHA1-Digest: YyPeJAGHY6UDpz+fCt6iMhIrH6I=
@@ -2935,11 +2689,11 @@ SHA1-Digest: jxS/wKhPIQNkbF26fvZw2XwtwVY=
 Name: assets/script/com/005.zt1
 SHA1-Digest: 6sul35Kz0gdawJKjIK50IhPRnI4=
 
-Name: assets/script/quest/137_S.zt1
-SHA1-Digest: BlKTZ+wtLH639Ghhui+O7lLcVpk=
-
 Name: assets/char/015.pzx
 SHA1-Digest: aTxTv0qMFO9D2y3hi4h46lKPedo=
+
+Name: assets/script/quest/137_S.zt1
+SHA1-Digest: BlKTZ+wtLH639Ghhui+O7lLcVpk=
 
 Name: assets/script/map/006_002.zt1
 SHA1-Digest: /y95o7DQAcf4nr/Xo9QvGm9R2Vg=
@@ -2965,9 +2719,6 @@ SHA1-Digest: vEzJCgtYr0AL0EOBsfgDrD8Ce8s=
 Name: assets/map/069.zt1
 SHA1-Digest: ukuQXRCUdIMyOYAkaOKRVUschSQ=
 
-Name: assets/japanese/data/XlsChar.zt1
-SHA1-Digest: wmezxc6u1GEqBUZMi7CwJes0620=
-
 Name: assets/pc/weapon/1/000.pzd
 SHA1-Digest: DIb+sFmK+uxRb1hZbyBm2LLM93s=
 
@@ -2989,9 +2740,6 @@ SHA1-Digest: SBo0aRR+k2vKPi+LiPMVGcwjL2s=
 Name: assets/map/025.zt1
 SHA1-Digest: LZw7s5A73xvRnBYnl3L67D5PJJ4=
 
-Name: res/drawable/ui_menu_continue_ch.png
-SHA1-Digest: 9ghKYTbncxO/91b9xASLJJYEROc=
-
 Name: assets/char/048.pzx
 SHA1-Digest: K3uH+lKUCvHP8yHRV43fEVj7ggA=
 
@@ -3002,16 +2750,16 @@ Name: assets/ptc/030.ptc
 SHA1-Digest: JMZHp9e6CZJsdfRIl2ExkZ+5yx0=
 
 Name: assets/korean/data/StrQuest_M.zt1
-SHA1-Digest: GdxJfh8ZK5OsjAx0igd0Uck48pY=
+SHA1-Digest: cBAaHe8BnQY3AH958r8LTKSiU1Q=
 
 Name: assets/data/XlsSetItem.zt1
-SHA1-Digest: 3PGWD6qd7w10T5pLQFDfK0hzyzw=
+SHA1-Digest: U0Hc/414VwiO4rXlStjyyxbEoao=
 
 Name: assets/obj/075.pzx
 SHA1-Digest: vAzn/wKtk5T53uG1CXJj3dkYqiU=
 
-Name: res/btn_terms_nor_b2.png
-SHA1-Digest: 2lD9hZ+wL0yOAGB5TfarNL/P9lg=
+Name: doc/index-files/index-4.html
+SHA1-Digest: 3bKLfAg8CGajRtBmg54oAgmiy4M=
 
 Name: assets/script/quest/121_E.zt1
 SHA1-Digest: TLaPx5dD4P+NYdCt7+8AeY5AgyM=
@@ -3031,20 +2779,14 @@ SHA1-Digest: Gia4FxpxGhWPWomgOPmyrN9McXk=
 Name: assets/script/quest/063_E.zt1
 SHA1-Digest: lKg5W4A9GL29YUUNN+NsEj994cs=
 
-Name: assets/sound/031.caf
-SHA1-Digest: jSGnuSRQnOEoaFP1MX1GGTxLAPc=
-
 Name: assets/script/quest/006_S.zt1
 SHA1-Digest: 9Dvw6gmwUk5bGIWXUkFq5E8uPvE=
 
 Name: assets/script/quest/026_E.zt1
 SHA1-Digest: A6a2Z+pCYTtEp1P3enkLGk2C/Xg=
 
-Name: assets/japanese/data/XlsBalance.zt1
-SHA1-Digest: PxQ1T6PU2VesPeamVy5zH98O9Fw=
-
 Name: assets/korean/data/XlsChargeItem.zt1
-SHA1-Digest: +1dRuMGwaJRRiHwoTdGJwaUOMHA=
+SHA1-Digest: rf5urq5S78vNqkpz9EcI79sG4Xg=
 
 Name: assets/char/032.pzx
 SHA1-Digest: kYWadlQX2gnAQqdawJjOD/QXP9E=
@@ -3055,11 +2797,11 @@ SHA1-Digest: QxYab396Q88G2fi7lBtzH2zQHMg=
 Name: assets/pc/head/1/003.pzd
 SHA1-Digest: pQ0+xKiG6g7tXrwORYeTubpgljQ=
 
-Name: assets/sound/091.mp3
-SHA1-Digest: euZyI/o15OrhAGU28BeTnTPQYcE=
-
 Name: assets/map/038.zt1
 SHA1-Digest: TU6oBb4ApMu5cfR7Lfo3dKkhO98=
+
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/Item.html
+SHA1-Digest: DUrrK2fRkqkN6wP/qpoWC8lePfo=
 
 Name: assets/script/quest/088_S.zt1
 SHA1-Digest: qlBrIEB5xt2TtVB4JwwHJt7yElQ=
@@ -3070,9 +2812,6 @@ SHA1-Digest: 4bG0NhC99LywmVkm4xPaRwqisEI=
 Name: assets/korean/data/XlsItemRoutingType.zt1
 SHA1-Digest: sSOapytha0ayavkOFxL15zU4plY=
 
-Name: res/drawable/home_clicked.png
-SHA1-Digest: 3QBdDJskPrPS5lxQseROVtQ6/so=
-
 Name: assets/script/quest/014_S.zt1
 SHA1-Digest: LeahiQ4XzfDQYYLmydXrX1OqlT4=
 
@@ -3082,23 +2821,26 @@ SHA1-Digest: iSfKCXfIEMYRXGFZAVNSobxfz9g=
 Name: assets/char/019.pzx
 SHA1-Digest: tjA6W0x0pApsK90TXkOzlMvKTJI=
 
-Name: res/btn_check_no_sel.png
-SHA1-Digest: DSfNRnoG4SrmIPkHQlG7V1piqhI=
-
 Name: assets/pc/weapon/2/002.pzd
 SHA1-Digest: kyS+/FxQGZhbMqasFXVSIUpf9IA=
+
+Name: doc/allclasses-frame.html
+SHA1-Digest: HtOEYyHLZlZQKmvuMgChgarXOYo=
 
 Name: assets/ptc/027.ptc
 SHA1-Digest: pA7U05ijBwMnZi0hRym7MagaMMs=
 
-Name: res/drawable-hdpi/icon_normal.png
-SHA1-Digest: MXFIWa/Rkzlwhy24pZ95QpahcQs=
+Name: res/drawable/gshop_btn0_kr.png
+SHA1-Digest: x+WdKET8gFYz3Qyxh+c1pJZ9/rg=
 
-Name: assets/script/quest/130_S.zt1
-SHA1-Digest: T4ojwihopDnZi/pbFrq9RwsoRiI=
+Name: res/drawable-hdpi/icon_normal.png
+SHA1-Digest: 4H8eo57XkD2PVEHCjL+Iy0pW9z0=
 
 Name: assets/korean/data/XlsItemRoutingRate.zt1
 SHA1-Digest: TeZUyFs3J8KjBaJhUiqX1AoQmnI=
+
+Name: assets/script/quest/130_S.zt1
+SHA1-Digest: T4ojwihopDnZi/pbFrq9RwsoRiI=
 
 Name: assets/obj/020.pzx
 SHA1-Digest: a3fa5UczwkhX1QJCm8SGMVaj+og=
@@ -3112,17 +2854,11 @@ SHA1-Digest: mfpDHzTcGTXonXi33Nv1myVagWg=
 Name: assets/pc/head/1/002.pzd
 SHA1-Digest: OeQlelFfR2M31MUeX3PHtO5ZRoM=
 
-Name: res/drawable/ui_menu_help_kr.png
-SHA1-Digest: 2kCADmFkAwpuTqQ05WnFMnGZdIA=
-
 Name: assets/ptc/054.ptc
 SHA1-Digest: DlwuBa0Iak4rWbPcIcLmscsrvHU=
 
 Name: assets/projectile/021.pzx
 SHA1-Digest: dXlP7NUZP2W3eW3RdQRCcUhu0dc=
-
-Name: res/drawable/ui_menu_options_ch.png
-SHA1-Digest: T9JmVz/tkmLsusKBicoFo/FtcZk=
 
 Name: assets/map/032.zt1
 SHA1-Digest: TI7sfWZGJq9k6fNB/GP0f9dD61Q=
@@ -3154,9 +2890,6 @@ SHA1-Digest: yfoWzBmY7QpUUVmEvtEWxci6rCY=
 Name: assets/map/093.zt1
 SHA1-Digest: W/ya+fUWqbjorFgyXDfAwrhf/hs=
 
-Name: assets/sound/101.caf
-SHA1-Digest: 29B9aycC9SCjoIQH3nk5YDKDzI0=
-
 Name: assets/script/map/024_003.zt1
 SHA1-Digest: 1uVUAY9PFphJGhaF0FDK2DJk4zo=
 
@@ -3181,11 +2914,14 @@ SHA1-Digest: +TlzJBoDy9Z2Bepx5NY/5Tg4tks=
 Name: assets/char/137.pzx
 SHA1-Digest: A2WJGvYzq/xFLcxr/cIykDoNxhc=
 
+Name: assets/map/036.zt1
+SHA1-Digest: Zak0bF4g2Ah6DNHp8Ig7igC+F6I=
+
 Name: assets/script/quest/124_E.zt1
 SHA1-Digest: U6ZacnwHz4PIFrPAmUX+xDVzEKI=
 
-Name: assets/map/036.zt1
-SHA1-Digest: Zak0bF4g2Ah6DNHp8Ig7igC+F6I=
+Name: doc/help-doc.html
+SHA1-Digest: ip1S9HPbAoGO2kVHteMfLD3J4ck=
 
 Name: assets/pc/003.pza
 SHA1-Digest: y3GyXP+e2CsHj2bhfp6pRNPRD5E=
@@ -3208,8 +2944,14 @@ SHA1-Digest: ERHtGtUDzOmbbuY4l69GN0wtIpU=
 Name: assets/pc/side_hand/2/006.pzd
 SHA1-Digest: WDqqN+1lpwxbIEsfvGpb7luQNZY=
 
+Name: doc/com/amazon/InAppSDK/purchasing/package-use.html
+SHA1-Digest: uvhW022KUI/xF4HI2yqS0EUlsIU=
+
 Name: assets/script/quest/018_S.zt1
 SHA1-Digest: u0Zr0tr5kYeoek4wkW9m3RXG0Xs=
+
+Name: doc/com/amazon/InApp/purchasing/ItemDataResponse.html
+SHA1-Digest: u/xFc/C69Y+HiYatzx3msNpNTHc=
 
 Name: assets/char/132.pzx
 SHA1-Digest: uwy85EQ0zBRpZStnoY22cQRsk5M=
@@ -3220,8 +2962,12 @@ SHA1-Digest: +YEx9jK2THusZE1O+OqDFUQu1RA=
 Name: assets/script/quest/098_E.zt1
 SHA1-Digest: nUqbs6HN6Db8vrJXXocVnqrT30c=
 
-Name: assets/script/quest/129_S.zt1
-SHA1-Digest: PDLkSjX9cGWYJDXTVbeV5+OQWrQ=
+Name: doc/com/amazon/InApp/transaction/class-use/PurchaseResponse.Purc
+ haseRequestStatus.html
+SHA1-Digest: hmud4LpmP9bjqrEi6zd7z+mqQiM=
+
+Name: doc/com/amazon/InApp/transaction/BaseTransactionObserver.html
+SHA1-Digest: ZFu6u3Km3JU0seCxfRRYEhBIZlI=
 
 Name: assets/map/164.zt1
 SHA1-Digest: j5HF30K0wHod485+ZexBvu1pgFY=
@@ -3229,14 +2975,14 @@ SHA1-Digest: j5HF30K0wHod485+ZexBvu1pgFY=
 Name: assets/script/quest/094_S.zt1
 SHA1-Digest: aDVaIgxLCsPrzDk2DLj/5rQwSDI=
 
+Name: assets/script/quest/129_S.zt1
+SHA1-Digest: PDLkSjX9cGWYJDXTVbeV5+OQWrQ=
+
 Name: assets/char/014.pzx
 SHA1-Digest: UAU9cTFsfkM2a9iDMHMcbCunow4=
 
 Name: assets/char/001.mpl
 SHA1-Digest: 03gQZyRMrbx3m5wGnRFkirTcK9I=
-
-Name: assets/sound/076.mp3
-SHA1-Digest: zyDlmgiVFcAfucoQZOqHCqtxpI4=
 
 Name: assets/map/230.zt1
 SHA1-Digest: M5IMxC+q9NZI3bmqdF4nFG3QCrg=
@@ -3253,17 +2999,14 @@ SHA1-Digest: 2ahSwxYYZQ4FlXffkGoI24PWuXA=
 Name: assets/ptc/001.ptc
 SHA1-Digest: aqHZQ6Sw6IOfWuxYj3d1n5DTaYI=
 
+Name: doc/index-files/index-8.html
+SHA1-Digest: DQcnX0mCrlPNCwS+3WFA0O3X+Ic=
+
 Name: res/raw/s114.ogg
 SHA1-Digest: 4zdDpEriXdDRXB96XMlFd7Ii1H0=
 
 Name: assets/obj/050.mpl
 SHA1-Digest: x1ShFGO/2RfTPWFuWs5Pl8p5Gzw=
-
-Name: assets/sound/115.caf
-SHA1-Digest: 2fHKUc/Ukia+vZZTopUo5tdhvBo=
-
-Name: assets/japanese/data/XlsPackageItem.zt1
-SHA1-Digest: ogsUkNIMdwoVLnqrFvdLyPdhc80=
 
 Name: assets/obj/003.pzx
 SHA1-Digest: fbTrIK6XsDrMh4tPBlUTwcbO8l0=
@@ -3274,38 +3017,30 @@ SHA1-Digest: ZoAUAauW5rG9skcdT+eAL1W4kVw=
 Name: assets/pc/head/3/005.mpl
 SHA1-Digest: 8j1cAPgu0wu9DI7v+z0/k7fmV9Y=
 
-Name: assets/sound/106.caf
-SHA1-Digest: KT/vf2ZW+3mAEw2sOof0fEoZL0c=
-
-Name: res/keypad_num_00.png
-SHA1-Digest: 8MEV30494vColDVIgGqd6feOaEI=
-
 Name: assets/korean/data/XlsParticle.zt1
 SHA1-Digest: +jcafN4axPTA9/jZgWKVH86JgaQ=
 
 Name: assets/script/quest/011_E.zt1
 SHA1-Digest: va/1Clti1StxzwRIZkKF7Dx+RZA=
 
+Name: doc/index-files/index-1.html
+SHA1-Digest: ccvcLBIoQ4O5SYwGNyKLraH15co=
+
 Name: assets/menu/ZeroGrade.pzx
 SHA1-Digest: bj9K9slT38wAWHDpR0tBPcgAI5c=
-
-Name: assets/sound/041.mp3
-SHA1-Digest: 4VVfdbC7p0AsRjQvTQvYuFxb2a0=
-
-Name: res/drawable/ui_menu_about_ch.png
-SHA1-Digest: 175L1jTU6bf/1Qex3yi3MS8TWx4=
-
-Name: res/raw/s004.ogg
-SHA1-Digest: oakSlvqnFdM0cGlE0dvzILHw+tU=
 
 Name: assets/pc/armor/3/002.mpl
 SHA1-Digest: bV9DbNLfw3aPiOQKQYWNm51Ds20=
 
+Name: res/raw/s004.ogg
+SHA1-Digest: oakSlvqnFdM0cGlE0dvzILHw+tU=
+
 Name: assets/pc/armor/3/003.pzd
 SHA1-Digest: 7x5TRUFz4TXQI7Mn9knPKX5aMY0=
 
-Name: assets/chinese/data/StrMaptheme_Explain.zt1
-SHA1-Digest: jFBX2ppftMmZJikwSvGtbMWGQB0=
+Name: doc/com/amazon/InApp/purchasing/ItemDataResponse.ItemDataRequest
+ Status.html
+SHA1-Digest: iFrbgLsfPrjaIz+vYCtpoENNnw4=
 
 Name: assets/char/067.pzx
 SHA1-Digest: ByWMXGC+AXLqDT7UNPcofECnvPI=
@@ -3328,14 +3063,12 @@ SHA1-Digest: xpluDU2gTh0m6If1vRL03WT7fI0=
 Name: res/raw/s116.ogg
 SHA1-Digest: AWMQEtwFj6amnksR5wVUs8r2sjI=
 
-Name: assets/chinese/data/XlsParticle.zt1
-SHA1-Digest: +jcafN4axPTA9/jZgWKVH86JgaQ=
-
 Name: assets/pc/side_hand/2/000.pzd
 SHA1-Digest: GwQH03SMEsqlFiG0nna7B/bhFI0=
 
-Name: assets/japanese/data/XlsMap.zt1
-SHA1-Digest: pM4dRh0CDU31iZVt1F97RTjbDA4=
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/ResponseReceiver.ht
+ ml
+SHA1-Digest: /nb39RIuqIodX67LpPk8/dsz210=
 
 Name: res/raw/s088.ogg
 SHA1-Digest: 5gMCNzoiuKukcR3pcL13tSnm6Tk=
@@ -3343,11 +3076,12 @@ SHA1-Digest: 5gMCNzoiuKukcR3pcL13tSnm6Tk=
 Name: assets/char/101.pzx
 SHA1-Digest: x/tabIV6NpGxFnmdkuGL1wpb87s=
 
-Name: assets/sound/012.mp3
-SHA1-Digest: ond6PMYKt+zjs3GGBbnkPXFTuBc=
-
 Name: assets/pc/head/1/003.mpl
 SHA1-Digest: sU0rGpitik8drGuqfgnbceoSHys=
+
+Name: doc/com/amazon/InApp/transaction/ReceiptDataResponse.ReceiptData
+ RequestStatus.html
+SHA1-Digest: w+MkFSLaySTe892r9lIh+wFyQyY=
 
 Name: assets/char/011.pzx
 SHA1-Digest: 88MCzZ6tzvTO2HiHoJaGE91zne0=
@@ -3355,20 +3089,11 @@ SHA1-Digest: 88MCzZ6tzvTO2HiHoJaGE91zne0=
 Name: assets/script/quest/079_S.zt1
 SHA1-Digest: K0LDjsitSNpDk7YdWJKBmlmvaCI=
 
-Name: res/drawable/home_b.png
-SHA1-Digest: hxltqcyhoOXFYH8wHR1Mpf+RxVk=
-
-Name: res/drawable/ui_menu_community_ch.png
-SHA1-Digest: MyN+0L9JvYnpN/TXxivn7ktc/ro=
-
-Name: res/kepad_bg.png
-SHA1-Digest: iFufD4iHr39rqphRPJNmTjRvKrA=
+Name: doc/com/amazon/InApp/transaction/class-use/PurchaseResponse.html
+SHA1-Digest: VvshWIAkgt920S49EJDMBFugNNQ=
 
 Name: assets/char/039.pzx
 SHA1-Digest: CldlJo3RhVFspM2OqN3k6VHHjBs=
-
-Name: assets/sound/026.mp3
-SHA1-Digest: 0RRdg+c71bi4SiUAGBxZu7FKV5w=
 
 Name: assets/map/014.zt1
 SHA1-Digest: eXyXGsflwfy4BXS9XdgPzmkNqbM=
@@ -3385,20 +3110,15 @@ SHA1-Digest: E8MP59CemULREP+bWBzF7S+K35I=
 Name: assets/projectile/000.pzx
 SHA1-Digest: HTNxraPlt2+OFIgpFdwHADkjzUI=
 
-Name: assets/japanese/data/StrHelpTitle.zt1
-SHA1-Digest: DTjtgXyRbwqBVHgYuAr9JD2yf0o=
-
-Name: res/textbox_01_8.png
-SHA1-Digest: bPeczgGcasmrhcVTs3tFAPZHxNQ=
+Name: doc/com/amazon/InApp/transaction/ItemDataResponse.ItemDataReques
+ tStatus.html
+SHA1-Digest: HuvDoJT8s4Jj5bRpSVtI6NbqKa8=
 
 Name: assets/pc/side_hand/1/005.mpl
 SHA1-Digest: ipZE2fZu5ZRIiFWQWY7foWHDK+A=
 
 Name: assets/script/quest/053_S.zt1
 SHA1-Digest: Qk29r1IyouS1MO/L9Q3YJSxdAbQ=
-
-Name: assets/sound/112.caf
-SHA1-Digest: yJzDDDeIAHYIEok5qqegFY2gZBM=
 
 Name: assets/script/quest/120_E.zt1
 SHA1-Digest: 8X0RrHCzVHAmd+NiwwYDV2zQMdk=
@@ -3412,20 +3132,11 @@ SHA1-Digest: l7u6TTYV9BdbNnUYahETWzDIfO4=
 Name: assets/script/quest/106_E.zt1
 SHA1-Digest: whHfrj9qM0+aBfStyGW/ERwl1Hg=
 
-Name: assets/data/XlsQUEST_backup.zt1
-SHA1-Digest: xPsImUSpWdx7IaB34BZ4eNLQSrI=
-
 Name: assets/script/quest/082_E.zt1
 SHA1-Digest: uOmyoNZlFD8a9IsnL+N51zI6a5g=
 
-Name: assets/japanese/data/XlsProjectile.zt1
-SHA1-Digest: LELuVCFNDIJs1MJ9gE7y82JtvP0=
-
 Name: assets/obj/091.pzx
 SHA1-Digest: +Jm79nI1vRKaCB8Ja3kHsKwhJ+Q=
-
-Name: assets/sound/070.mp3
-SHA1-Digest: g2hD5Q4QrBFPG+0L0o78EYvaMuo=
 
 Name: assets/ptc/037.ptc
 SHA1-Digest: wHiWqPAwvWPQs8ij+ABh7imh6Do=
@@ -3436,14 +3147,11 @@ SHA1-Digest: 5TaGTT45URJCrbbK1FuMwVVaexU=
 Name: assets/char/036.mpl
 SHA1-Digest: 78c6UqbFWvKtjFdYtzOfpTeqP7g=
 
-Name: res/btn_terms_sel_b2.png
-SHA1-Digest: Gm3DRBTLL7UvEQiBMXved9/D5eA=
-
-Name: assets/korean/data/StrMaptheme_Name.zt1
-SHA1-Digest: E1sVpXFEGbkfOf57kdSqzthH5/4=
-
 Name: assets/data/StrQuest_M.zt1
 SHA1-Digest: jQhAeE8t7ttMwAAqqspUbWyO+dI=
+
+Name: assets/korean/data/StrMaptheme_Name.zt1
+SHA1-Digest: s9sSd6SUI9u0nUxaEfdzGf/rAX4=
 
 Name: res/raw/s025.ogg
 SHA1-Digest: tBVRESIYHzz3R6hNyR9Ny+V1vos=
@@ -3461,7 +3169,7 @@ Name: assets/script/com/023.zt1
 SHA1-Digest: DUs0DU+Nj0kJTdCEEcSZ9jkQw2w=
 
 Name: res/drawable/button_later_01.png
-SHA1-Digest: q8mN5h/UXhHRQJDopPR7oj58fuc=
+SHA1-Digest: WpSekzjHRcE5Xpmnv6FPyONAOuk=
 
 Name: assets/script/quest/062_E.zt1
 SHA1-Digest: HWn7gLWU3ks3UTRKLyvP10bS2mY=
@@ -3475,20 +3183,17 @@ SHA1-Digest: TcD1fz1WQBXPZz2rDMd/3VARm8w=
 Name: res/raw/s102.ogg
 SHA1-Digest: nEmFKhoPvECFkqKnwdZd+TMYfQo=
 
-Name: res/pop_title.png
-SHA1-Digest: zbYH77eaT4W+n3W1lOsrtJi6nBg=
-
-Name: assets/sound/013.mp3
-SHA1-Digest: kQCVnpa28NO/6X9PcuErPBhtDwE=
-
 Name: assets/pc/armor/003.pzf
 SHA1-Digest: WtO9EzjZmPRotb1An33KiGBKC1A=
 
 Name: assets/korean/data/StrMaptheme_Explain.zt1
-SHA1-Digest: 0iIZTMPlHYWjnHdZUS0O6hFjUA8=
+SHA1-Digest: KdNqOdNZwR58sz5Zn7k8U8JFDzA=
 
 Name: assets/html/sword_night.png
 SHA1-Digest: prYr4S1Za05e9QZ8H8/h5EoDoi8=
+
+Name: doc/com/amazon/InApp/purchasing/package-tree.html
+SHA1-Digest: aXFbFmKyNa52I/fNsMGqlbBGjkM=
 
 Name: assets/obj/008.pzx
 SHA1-Digest: mL2/N6WN5QsCBSPkOndSbR5+Kn4=
@@ -3502,11 +3207,11 @@ SHA1-Digest: oK2ep+rZfe2/ehmoENimgeg1JAI=
 Name: assets/map/200.zt1
 SHA1-Digest: 2z71Xuf5ZHS+FBwKaSnzpPqRbEI=
 
-Name: assets/dynamic/ItemIconQuest.mpl
-SHA1-Digest: hUCosW5BcMCW7uRg/xw5uiMLvd4=
-
 Name: assets/obj/030.mpl
 SHA1-Digest: PVquS4YnMSTOCib32ua1D50LTlw=
+
+Name: assets/dynamic/ItemIconQuest.mpl
+SHA1-Digest: hUCosW5BcMCW7uRg/xw5uiMLvd4=
 
 Name: assets/map/003.pzx
 SHA1-Digest: SjuCIgkqdhs4lz6PUzWAfoeDgwc=
@@ -3518,10 +3223,7 @@ Name: assets/korean/data/XlsWorldMap.zt1
 SHA1-Digest: VSa3Z6BO5BuGfIFQTS2KOgIUYgk=
 
 Name: res/drawable/ui_title_bg_nate.png
-SHA1-Digest: DR3QtdjAxuVdxZxKFX05tCDgsTs=
-
-Name: assets/chinese/data/StrSkill.zt1
-SHA1-Digest: sw8RsyJUDC1g4HDWjQkcmV/RKUU=
+SHA1-Digest: q/JdVtWRH3aKlfmQ+Znqc4x7TCQ=
 
 Name: assets/pc/head/0/003.mpl
 SHA1-Digest: L/zImA4yoOwZwfwObJLVw2dVFD0=
@@ -3544,17 +3246,11 @@ SHA1-Digest: rYsMe/VEUpQ0EoF5ATT5T0R8Osg=
 Name: assets/dynamic/TimeAttackNumber.pzx
 SHA1-Digest: DeMWysR3Vhi3cGBbGd+7wyAJkEc=
 
-Name: res/anim/alpha.xml
-SHA1-Digest: ai1l5SLqxrc34hNPbmAhubCfskk=
-
-Name: assets/script/quest/123_S.zt1
-SHA1-Digest: jesM1HfZnmQadHKxNOo16MVLkEo=
-
 Name: assets/map/007.mpl
 SHA1-Digest: MX+1GCJiQx6J+z7uqnnGWNjpRs8=
 
-Name: assets/chinese/data/XlsItemRoutingRate.zt1
-SHA1-Digest: TeZUyFs3J8KjBaJhUiqX1AoQmnI=
+Name: assets/script/quest/123_S.zt1
+SHA1-Digest: jesM1HfZnmQadHKxNOo16MVLkEo=
 
 Name: assets/char/068.pzx
 SHA1-Digest: +++qBgFD1gborQ0zsSoiUydP+z8=
@@ -3564,9 +3260,6 @@ SHA1-Digest: IBzNUP4KPk6KvPJWXGUMpMBLlKE=
 
 Name: assets/pc/armor/1/005.pzd
 SHA1-Digest: unOcxWV0jmsh6UMpDaYwGLcSEFU=
-
-Name: res/keypad_num_05.png
-SHA1-Digest: mW1hkDghAbUEr/vCbHcl58AbPPE=
 
 Name: assets/pc/weapon/000.pzf
 SHA1-Digest: +4X8q3brRBfwu+t0pNhW1BhLWWw=
@@ -3583,29 +3276,26 @@ SHA1-Digest: JJJDeiyafPiUhEXYY77Lc0cuN30=
 Name: assets/pc/000.pza
 SHA1-Digest: Q6LsljqncPC5/cN9kKTQKSQzMLw=
 
+Name: doc/com/amazon/InApp/purchasing/class-use/ItemDataResponse.html
+SHA1-Digest: DzFkerVabw6Ud8MW9GLt9vvRkok=
+
 Name: assets/pc/weapon/3/001.pzd
 SHA1-Digest: +yQxS3oqnelQfx3T9+r5lmhVnSA=
-
-Name: xml_kt_lg/commonPopupImage.xml
-SHA1-Digest: fM7xvXIlezoXc/G0yDCrKenQ9YM=
-
-Name: res/raw/s013.ogg
-SHA1-Digest: MWGg6BOZzmF71x8LMiFqAus/FQA=
 
 Name: assets/script/quest/133_S.zt1
 SHA1-Digest: toAsyYPTX2MxjXPDCJUQu4DZK/4=
 
+Name: res/raw/s013.ogg
+SHA1-Digest: MWGg6BOZzmF71x8LMiFqAus/FQA=
+
 Name: res/drawable/gshop_bg.png
-SHA1-Digest: tu2LtndvvIDDoO+6tgjuX/f3GPU=
+SHA1-Digest: wW2dAqTpTiSRcrGbxG0ysTP1jdI=
 
 Name: assets/script/quest/108_E.zt1
 SHA1-Digest: XYycdmqznmDLa2w2yours53N9b8=
 
 Name: assets/char/009.pzx
 SHA1-Digest: RlZCHTXuD1+3OryaYkRiCqWYrYc=
-
-Name: assets/chinese/data/StrSkillType.zt1
-SHA1-Digest: tfTaljGsg33URJpi7t7Ty5TkEo8=
 
 Name: assets/pc/side_hand/001.pzf
 SHA1-Digest: 8qjvC/bFbq7qfxJC/NbN7RumsIY=
@@ -3643,9 +3333,6 @@ SHA1-Digest: tU1Ek22ieB1WwZGex02B/th85sg=
 Name: assets/pc/weapon/2/004.pzd
 SHA1-Digest: OsjxgZyAjmsdmJ2dVoSYB4sVyXg=
 
-Name: assets/sound/025.mp3
-SHA1-Digest: Aww47e5vXKERkGaUHZpyllb4+uA=
-
 Name: assets/script/quest/036_E.zt1
 SHA1-Digest: I+HdI2WW0ou6QLQt7/nE5NOx41Q=
 
@@ -3658,17 +3345,17 @@ SHA1-Digest: hj1r5VSQrwYLKy1f2BvGM4D5/LE=
 Name: assets/script/quest/122_E.zt1
 SHA1-Digest: lnWHaYayvWxWvpAI6V9uno3CBrI=
 
-Name: assets/dummy/dum09.pzx
-SHA1-Digest: pRRegdE17JpIqlwFPEH5Fqvb2Qw=
+Name: doc/com/amazon/InApp/purchasing/class-use/Item.ItemType.html
+SHA1-Digest: fa1Qy+C2LSF0DCcgVPvkpxK90H4=
+
+Name: doc/com/amazon/InApp/purchasing/class-use/Receipt.html
+SHA1-Digest: ksnukHpQXObeKII9zoxEEm/RldQ=
 
 Name: assets/script/quest/042_E.zt1
 SHA1-Digest: zG/44vVdjyG54fCXLwcTCogihXI=
 
 Name: assets/pc/side_hand/2/003.pzd
 SHA1-Digest: O7K1i/oIIZ1LW+MY34nYMG37GsA=
-
-Name: res/logo_pw.png
-SHA1-Digest: 16NuujqH72CI75iVucOxZ7wPRYc=
 
 Name: assets/ptc/049.ptc
 SHA1-Digest: td2UCtY9RQPzYv/hd1FDZaUwhK4=
@@ -3682,23 +3369,14 @@ SHA1-Digest: /JJeL/5LfvgflTf/NCwyL08Foj0=
 Name: assets/script/map/067_001.zt1
 SHA1-Digest: aA9yjtnNxnUetXT40HaxSA7JZeA=
 
-Name: assets/script/quest/121_S.zt1
-SHA1-Digest: 81sGO3MouEePsP2Q6QLHhKkVPBQ=
-
-Name: assets/chinese/data/StrHelp.zt1
-SHA1-Digest: IUQkikE4BfaLW83yjRdeR2XyW2I=
-
 Name: assets/ptc/011.ptc
 SHA1-Digest: jOMPcA1drc5xB8BPZxTknnir/TE=
 
-Name: assets/sound/002.mp3
-SHA1-Digest: SvJq80m+UkYtihBA7zKOWxlSW/s=
+Name: assets/script/quest/121_S.zt1
+SHA1-Digest: 81sGO3MouEePsP2Q6QLHhKkVPBQ=
 
 Name: assets/char/012.pzx
 SHA1-Digest: sGcdGKwEG/1sBewNyZNO2AB+rrE=
-
-Name: assets/dummy/dum05.pzx
-SHA1-Digest: ZNipVj7y0FiFcg605HoIEq8TCig=
 
 Name: assets/obj/063.pzx
 SHA1-Digest: eX3VjjwIxUIUeB3Myutx6juWnSk=
@@ -3710,19 +3388,13 @@ Name: assets/script/quest/084_E.zt1
 SHA1-Digest: gx7tA5Ct2CN4klBQyKtsA7jMv7s=
 
 Name: assets/data/StrHelp.zt1
-SHA1-Digest: IUQkikE4BfaLW83yjRdeR2XyW2I=
+SHA1-Digest: 6UnX/nePleKZfVYx4SrnXyXHMTg=
 
 Name: assets/dynamic/ItemIcon0.mpl
 SHA1-Digest: 9M53EBRRYdwXMiyJdZ3pHzxaQPM=
 
 Name: assets/pc/effect/1/000.pzd
 SHA1-Digest: wuXFWRhToeqNiXmtoJrLqlDZ2dM=
-
-Name: assets/sound/114.caf
-SHA1-Digest: p46s6cXKVLdd821OI2I4RC4OEZs=
-
-Name: xml/commonPopupAutoPurchaseFormW.xml
-SHA1-Digest: LGAYXmQ+2pKvEHbNlZI5Gdz+EbQ=
 
 Name: assets/obj/046.pzx
 SHA1-Digest: oU3qGbs5Uwqh+ZliP8LwKUzqBh0=
@@ -3731,13 +3403,16 @@ Name: assets/pc/head/2/002.mpl
 SHA1-Digest: o5HfSjMjv3OvWytEq98mjyCRBMw=
 
 Name: assets/korean/data/XlsProjectile.zt1
-SHA1-Digest: LELuVCFNDIJs1MJ9gE7y82JtvP0=
+SHA1-Digest: 6Z1lg+lGKzWhNyObamY5o8sJtWc=
 
 Name: assets/script/quest/136_E.zt1
 SHA1-Digest: 92Fn2E6bQimGWRXcx7DBymfoTpg=
 
 Name: assets/pc/armor/0/004.pzd
 SHA1-Digest: 3+FJIg3OORU4RqRoJpBAiWNDZ2A=
+
+Name: doc/com/amazon/InApp/purchasing/class-use/KiwiLogHandler.html
+SHA1-Digest: EO2UuZZAfTGIQxEbu5eLfgEsaEE=
 
 Name: assets/map/004.mpl
 SHA1-Digest: la8j/nVJrKMCCs6ae413VxyihF8=
@@ -3751,44 +3426,32 @@ SHA1-Digest: dlC0GczvHDm42QMv3/jd4wWCcEM=
 Name: assets/char/041.pzx
 SHA1-Digest: VrJ+cSkO/l1tDNrXWLrT/gTYqRk=
 
-Name: assets/sound/116.caf
-SHA1-Digest: GG+gpRx28E+ij5nG+aG4olGG/wQ=
-
-Name: res/pop_btn_nor_ok.png
-SHA1-Digest: n5HNAQdsV1QncfBDe0a30l0G5ik=
+Name: assets/obj/109.pzx
+SHA1-Digest: XsB8iP6bTH3Jn1iVO7UCUIYM7Sg=
 
 Name: assets/script/quest/117_E.zt1
 SHA1-Digest: iTcKMlnPW0QhDyVWwH6H+dobFb4=
 
-Name: assets/obj/109.pzx
-SHA1-Digest: XsB8iP6bTH3Jn1iVO7UCUIYM7Sg=
-
 Name: assets/obj/094.pzx
 SHA1-Digest: 4w610ecyiO0vLLaIiRtPn8GWAC8=
-
-Name: res/drawable/gamevil_live.png
-SHA1-Digest: J0JhC76vwIEx1kLzo3ewx5MhMUg=
 
 Name: assets/obj/048.pzx
 SHA1-Digest: 42Co2UtaTJW/Cney5STiFIWO8+8=
 
-Name: res/textbox_01_9.png
-SHA1-Digest: Y0GcVibJ9LA5W0nTPDyHoixt+hE=
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/Receipt.html
+SHA1-Digest: vPfLBkf/Ez8nuLBsYcETqwj5wIQ=
 
-Name: assets/chinese/data/StrTip.zt1
-SHA1-Digest: aBrhYrHMKNMMA49aC3pfD6yzIIQ=
-
-Name: assets/japanese/data/XlsChargeItem.zt1
-SHA1-Digest: KGhkfnvTz3hOFzn5TY+HmwjqmaI=
+Name: doc/overview-tree.html
+SHA1-Digest: +d/rEHJ75ko5UanT4WgZeEnWvo0=
 
 Name: assets/map/169.zt1
 SHA1-Digest: FCpqz1VaEJxAS2jP9h+vC6YF7k0=
 
-Name: res/btn_buy_sel_h.png
-SHA1-Digest: TY3PnzOUHGURnH+fhwSck+mcE1M=
-
 Name: assets/script/map/089_001.zt1
 SHA1-Digest: JIncjBWa2YyqIzsvr+La93Ih1bY=
+
+Name: doc/com/amazon/InApp/purchasing/PurchaseUpdatesResponse.html
+SHA1-Digest: Z3ww8kEVBvKJF5h1rQ85puD6l2s=
 
 Name: res/raw/s106.ogg
 SHA1-Digest: 1dNXtbhfBiq0COzPYTwHFuFtWjc=
@@ -3796,32 +3459,28 @@ SHA1-Digest: 1dNXtbhfBiq0COzPYTwHFuFtWjc=
 Name: assets/pc/armor/1/001.mpl
 SHA1-Digest: Rhrak5Gfs17CfxZADT7pVb5r1lQ=
 
+Name: doc/com/amazon/InApp/purchasing/class-use/BasePurchasingObserver
+ .html
+SHA1-Digest: KM9yx8qI0f8HzsiqljgX60RYLog=
+
 Name: assets/obj/044.pzx
 SHA1-Digest: L4YTUWpqnEpKaWX+lH7Zh/XoEg4=
 
 Name: assets/data/XlsQUEST.zt1
-SHA1-Digest: 9cymbHUuqj4ZFZ9eq6TW/rDyM4M=
+SHA1-Digest: xPsImUSpWdx7IaB34BZ4eNLQSrI=
 
 Name: assets/map/112.zt1
 SHA1-Digest: Xk279cqphV227155aOolM7UTrcs=
 
-Name: assets/japanese/data/XlsParticle.zt1
-SHA1-Digest: +jcafN4axPTA9/jZgWKVH86JgaQ=
-
 Name: assets/map/063.zt1
 SHA1-Digest: 7CrBZCJgJMqy81QhF09uC6OuHOk=
-
-Name: res/textbox_01_2.png
-SHA1-Digest: Vu0RVFPegq2JLwSfSuEDzvLXSLQ=
 
 Name: res/drawable/ui_menu_about.png
 SHA1-Digest: QsK4orxNv+ZeZonGJ3mOFzsGXXk=
 
-Name: assets/sound/004.mp3
-SHA1-Digest: bXSIUg3ZIiUmu3HR/38Mp5MlbmI=
-
-Name: assets/sound/045.mp3
-SHA1-Digest: tHANL76LsstS97kzK8eV4o9VkiY=
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/SdkObserverNotRegis
+ teredException.html
+SHA1-Digest: bXppE3B8MgES2GFaBQtQbTcE0lc=
 
 Name: assets/obj/125.pzx
 SHA1-Digest: MS0GsP5sCfimKP1Gj++9tX1ns1k=
@@ -3832,14 +3491,12 @@ SHA1-Digest: 55sR1vUk+rug86wPTNpRQhM0+wM=
 Name: res/raw/s115.ogg
 SHA1-Digest: cWy3NeSz/72gxlaGuGH88TORkcA=
 
-Name: res/drawable/gshop_btn1_jp.png
-SHA1-Digest: TlZHJzmt78r5e5v3w4oQX+wLjKQ=
+Name: doc/com/amazon/InApp/transaction/class-use/TransactionObserver.h
+ tml
+SHA1-Digest: Z+WAeQsB62YbxfSVuMsecT0LqXg=
 
 Name: res/raw/s007.ogg
 SHA1-Digest: aehjJIWhvG+4+gi72wkDcLvJG14=
-
-Name: assets/japanese/data/XlsBoss.zt1
-SHA1-Digest: rPVCBGF93hFTX2OsBe2/qAvoEfM=
 
 Name: assets/script/quest/027_S.zt1
 SHA1-Digest: iBVRoNdoiyoPV2LqqTgRiuQoIiw=
@@ -3868,17 +3525,20 @@ SHA1-Digest: te4Xm7L25jwOPfay5PW63t2l2Gw=
 Name: assets/data/XlsTrashItem.zt1
 SHA1-Digest: 7L9hHqF+qX4wetXbK3Dx7Pnsbr8=
 
+Name: doc/com/amazon/InAppSDK/purchasing/package-summary.html
+SHA1-Digest: S2o9t792dEjVuM5gSptBvYupfKw=
+
 Name: assets/script/quest/073_E.zt1
 SHA1-Digest: w5p+jesGdtVtjeQoojWhrIQquuQ=
 
 Name: assets/ptc/018.ptc
 SHA1-Digest: ejmfjMiW1Q4VrmA00fiSyRejNNY=
 
-Name: assets/map/057.zt1
-SHA1-Digest: VtcQ1xHOvmCERth4OZS44ResWUE=
-
 Name: assets/obj/028.mpl
 SHA1-Digest: Awv2iGQDqhGcw85GrVyRmXqT48c=
+
+Name: assets/map/057.zt1
+SHA1-Digest: VtcQ1xHOvmCERth4OZS44ResWUE=
 
 Name: assets/obj/088.pzx
 SHA1-Digest: PGgsyqNlPwwsgVN5dS3/eQVEXTg=
@@ -3888,6 +3548,12 @@ SHA1-Digest: HATa7NaXZadbCmekL2wgpmknv48=
 
 Name: assets/korean/data/XlsItemRoutingValue.zt1
 SHA1-Digest: YKekslMY31fGH8W1moJxxP1BBH4=
+
+Name: doc/index-files/index-6.html
+SHA1-Digest: U6V9bQKgDQMah0Wh8ZrotEY/hKw=
+
+Name: doc/com/amazon/InApp/purchasing/PurchaseResponse.html
+SHA1-Digest: OnV18+0fv5EZd3xYsCyXH37JRzw=
 
 Name: assets/char/023.pzx
 SHA1-Digest: qY6i7KFtoqIApzUZ2O4OYevSHtc=
@@ -3904,9 +3570,6 @@ SHA1-Digest: IkxnhqfKv4K6tBHbpeFXb1upM/M=
 Name: assets/script/map/160_001.zt1
 SHA1-Digest: T4vJ0BN20ItdAtrVQRtJa3aO4Mk=
 
-Name: assets/menu/certi_ex.pzx
-SHA1-Digest: uz7Y6rH/FRqIqA8fDg/3QPnBMZA=
-
 Name: assets/script/call/110.zt1
 SHA1-Digest: qeGqaxb0duxl6lGZ5p2C/vjLVtc=
 
@@ -3919,17 +3582,8 @@ SHA1-Digest: LGstqqSeJF8lYdvFNgq6+OV1DFs=
 Name: assets/script/quest/009_S.zt1
 SHA1-Digest: tZVsaVy5j8oN3WT4Mt7S3nHnOEA=
 
-Name: res/drawable/ui_menu_newgame_kr.png
-SHA1-Digest: ITQ9a13oAb0hKOIQAagoJUVaTHc=
-
-Name: assets/japanese/data/XlsTitle.zt1
-SHA1-Digest: P3ScFtJLPwkjSlEDiE9oIwn7nDc=
-
 Name: assets/obj/049.mpl
 SHA1-Digest: Xd14NsPA30hQt+yuE4yk0hAiJ3A=
-
-Name: assets/sound/109.caf
-SHA1-Digest: 02tqInGYFtMmQlAD63N7NXQfsZ8=
 
 Name: assets/map/184.zt1
 SHA1-Digest: azY4HEfC79AyBOoV/kU8+9sa7ok=
@@ -3937,20 +3591,8 @@ SHA1-Digest: azY4HEfC79AyBOoV/kU8+9sa7ok=
 Name: assets/ptc/040.ptc
 SHA1-Digest: NAkNCGgaRkdFxRrJHa5mqksostI=
 
-Name: res/drawable/button_later_01_j.png
-SHA1-Digest: mf7L9K2wMhwuF5nIMTNHE32M0lM=
-
-Name: assets/dummy/dum01.pzx
-SHA1-Digest: ZNipVj7y0FiFcg605HoIEq8TCig=
-
-Name: res/drawable/ui_menu_about_kr.png
-SHA1-Digest: f9YftqPNz6m6UwFUUHP7DcleIaY=
-
-Name: assets/chinese/data/XlsMix.zt1
-SHA1-Digest: Hu/VpjczFILJEPyEXQnIXb/3pN8=
-
-Name: assets/chinese/data/XlsMovingObject.zt1
-SHA1-Digest: itg/0RRaCVON6zYA4RQm6x6cPJQ=
+Name: doc/com/amazon/InApp/purchasing/Item.html
+SHA1-Digest: cJBY2rniJHd+Bkvdgo7wX9BJSkQ=
 
 Name: assets/obj/115.pzx
 SHA1-Digest: HfogzyT9Dc1P3+TaPyIsedoma8I=
@@ -3970,17 +3612,25 @@ SHA1-Digest: OlQ9eQ2RXS0Ti7m17oOAsmJxDY4=
 Name: assets/char/117.pzx
 SHA1-Digest: p4u9E6JPzXYNS55u3b/ecVoin/4=
 
-Name: assets/font/gulim19_18B.ft2
-SHA1-Digest: lmRglf1TN3Spp6ILxDWrhiz6/9o=
-
 Name: assets/projectile/007.pzx
 SHA1-Digest: hIQOqMGWB5G2B7ynCqaTZeqwFaU=
+
+Name: doc/com/amazon/InAppSDK/purchasing/ContentDownloadResponse.html
+SHA1-Digest: mjfyAlrQ9vVS5ZZdfzmb9uAREto=
 
 Name: assets/map/163.zt1
 SHA1-Digest: jYmEACWmRZToJxIXAOwhWS6RjPk=
 
 Name: assets/script/quest/017_S.zt1
 SHA1-Digest: 2mIK8ZG/o1pYUiahPPUaMykEiiQ=
+
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/SubscriptionPeriod.
+ html
+SHA1-Digest: gHUrwMEHMElXKLhtuwfWpJ14Tsc=
+
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/ReceiptDataResponse
+ .ReceiptDataRequestStatus.html
+SHA1-Digest: nFE3XnYyXUXc0KnqNLW4nJRIJ6A=
 
 Name: assets/char/122.pzx
 SHA1-Digest: IHBVMiy8uU5JNzmuabgVEDvf9Tk=
@@ -3994,11 +3644,11 @@ SHA1-Digest: MEnqQ1Trpu5Gz3zDGyQkFiXQe7o=
 Name: assets/map/040.mpl
 SHA1-Digest: QvStrytyLiQyO3xgNyL/r3hqtKI=
 
-Name: assets/data/StrMaptheme_Explain.zt1
-SHA1-Digest: HohYiFcylC+pjmFRSDIDdKVmWSY=
-
 Name: assets/obj/072.pzx
 SHA1-Digest: fN1g/Z+bylngaxBB09o5zLuH1+o=
+
+Name: assets/data/StrMaptheme_Explain.zt1
+SHA1-Digest: HohYiFcylC+pjmFRSDIDdKVmWSY=
 
 Name: assets/pc/side_hand/1/006.mpl
 SHA1-Digest: sQHLyeyaqkkPVp4w/uqT1w6L614=
@@ -4006,23 +3656,14 @@ SHA1-Digest: sQHLyeyaqkkPVp4w/uqT1w6L614=
 Name: assets/script/map/076_001.zt1
 SHA1-Digest: 8ICwAhDvL1xEbJAI/hxnJX/hWRI=
 
-Name: assets/sound/007.mp3
-SHA1-Digest: r8PDdC+IE/4TZwWb5OPKvYHYuEQ=
-
-Name: assets/japanese/data/XlsPCAction.zt1
-SHA1-Digest: OuLpYWZgMF0FTbdPr8YQlGvu+Xo=
+Name: assets/obj/006.pzx
+SHA1-Digest: Kt2LtBCAmoSQZ87L7qCzJ4GpZUA=
 
 Name: assets/face/003.pzx
 SHA1-Digest: e1KPpO9jOq5T+I5/i5IWp397LDY=
 
-Name: assets/obj/006.pzx
-SHA1-Digest: Kt2LtBCAmoSQZ87L7qCzJ4GpZUA=
-
 Name: assets/map/254.zt1
 SHA1-Digest: 0o2EnDB+WaDZgHVI4WC9uN7Derw=
-
-Name: assets/japanese/data/StrQuestComplete.zt1
-SHA1-Digest: Tl+S/QXQpJ5R4WHj7NxVxcPgy+0=
 
 Name: assets/char/019.mpl
 SHA1-Digest: VBRHzNpGcyWUKcR0OLsTk262agU=
@@ -4040,7 +3681,7 @@ Name: assets/script/quest/113_S.zt1
 SHA1-Digest: U3/spy4iPrA7xOpdwjJcxjJ6HqY=
 
 Name: assets/script/output_dlg.zt1
-SHA1-Digest: wHSou1Op154c+w3oqeGKtr0oRS8=
+SHA1-Digest: 8pIl8K2FLDcUTts7gp9BZaef6yQ=
 
 Name: assets/map/085.zt1
 SHA1-Digest: /5Bk8M5PQ4FXO3sn4lAyh8FUhj0=
@@ -4051,29 +3692,24 @@ SHA1-Digest: MOqBOYGPipUh8KnXPc5SF654Pk4=
 Name: assets/data/StrItemType.zt1
 SHA1-Digest: wkbZZuweG2hdHw0HLOG1+I2jl8s=
 
-Name: assets/chinese/data/XlsSkill.zt1
-SHA1-Digest: EYgywmhMgHiza4wpAP4Evgh9aLw=
-
 Name: assets/data/XlsItemRoutingType.zt1
 SHA1-Digest: sSOapytha0ayavkOFxL15zU4plY=
 
 Name: assets/ptc/033.ptc
 SHA1-Digest: VWCGEn0nBfcflXpdUZ7eZ218uGw=
 
-Name: assets/sound/035.mp3
-SHA1-Digest: W83Yv5oy4I6mwi344XUgKaJf0lQ=
-
 Name: assets/ptc/039.ptc
 SHA1-Digest: lzXeJ7eeWzIRPAe9JrkkWApDfG8=
 
-Name: assets/chinese/data/XlsCollection.zt1
-SHA1-Digest: TcD1fz1WQBXPZz2rDMd/3VARm8w=
-
-Name: assets/script/quest/119_S.zt1
-SHA1-Digest: M1QRyJ1Oo7YgpcqUdiYemfJdNoo=
+Name: doc/com/amazon/InApp/transaction/class-use/ReceiptDataResponse.h
+ tml
+SHA1-Digest: hHthqCluamCvDJ/ZwwlSnpIdLaU=
 
 Name: assets/script/map/050_002.zt1
 SHA1-Digest: uAHQTzCkXJVUKQZ/I2s6bATW7qU=
+
+Name: assets/script/quest/119_S.zt1
+SHA1-Digest: M1QRyJ1Oo7YgpcqUdiYemfJdNoo=
 
 Name: assets/char/058.mpl
 SHA1-Digest: 45dPLtURP/AZUcboILn8Ev6wjVE=
@@ -4087,23 +3723,24 @@ SHA1-Digest: 3YAmwu7Rm56C7uW0UJjSUaOeAoY=
 Name: assets/ptc/019.ptc
 SHA1-Digest: XLcANsApSJsFdyHuNZEXXpIKu5Y=
 
-Name: res/raw/s002.ogg
-SHA1-Digest: WxnNQlCiaAkPKAoUV/vl9aliemo=
-
 Name: assets/char/005.mpl
 SHA1-Digest: 3b1KXxhn9xzcaBkgihwRM2nr71I=
 
 Name: assets/script/quest/025_E.zt1
 SHA1-Digest: IJG7SLH8W+lENHNBPft7eqktbyI=
 
-Name: assets/chinese/data/StrQuest_N.zt1
-SHA1-Digest: j8YGGGy2/IP2jkn0WhHkUnc65vo=
+Name: res/raw/s002.ogg
+SHA1-Digest: WxnNQlCiaAkPKAoUV/vl9aliemo=
 
-Name: assets/chinese/data/XlsItemRoutingType.zt1
-SHA1-Digest: sSOapytha0ayavkOFxL15zU4plY=
+Name: doc/com/amazon/InApp/transaction/class-use/SdkObserverNotRegiste
+ redException.html
+SHA1-Digest: tr/liHkreCpARCfaysFrDewcA+I=
 
 Name: assets/script/quest/034_E.zt1
 SHA1-Digest: HJw7uiu3Zbdbz2Nb1D/+FquAklY=
+
+Name: doc/com/amazon/InAppSDK/purchasing/package-tree.html
+SHA1-Digest: JD91Zsj/7FFYri6Gmg5ZIEZlLOM=
 
 Name: assets/char/052.mpl
 SHA1-Digest: cAiq6sqx1owJb2pYU2rQ/jTb9PM=
@@ -4120,8 +3757,8 @@ SHA1-Digest: 0lLzF+B/Qe9/cqVrviA2Tk7uUQw=
 Name: assets/script/quest/008_E.zt1
 SHA1-Digest: h33gL5bFQ6nmXJp42+QRc0nJP8c=
 
-Name: assets/japanese/data/StrItemType.zt1
-SHA1-Digest: GVNm7qMKCv/pxZZXaOdLuKYz56c=
+Name: doc/com/amazon/InApp/transaction/SubscriptionPeriod.html
+SHA1-Digest: uLWUj9hOJA6+Tfb6BE2WdWrTsEg=
 
 Name: assets/obj/105.pzx
 SHA1-Digest: /TNPz0PBd8j+w77NJIuIXWGUT8Q=
@@ -4129,11 +3766,8 @@ SHA1-Digest: /TNPz0PBd8j+w77NJIuIXWGUT8Q=
 Name: assets/script/map/010_005.zt1
 SHA1-Digest: Vd9GMHkvxyT6Qzogk/2ZMdIdLBw=
 
-Name: res/btn_policy_nor_b.png
-SHA1-Digest: 0BVNVHFFg8QyqXcjK1ogQIOWN8g=
-
-Name: assets/japanese/data/StrEtcItemExplain.zt1
-SHA1-Digest: segreMZ8tG2ZsXhU0Sm9A0O7qzU=
+Name: res/drawable/gshop_btn1.png
+SHA1-Digest: l3dAsgipECNETmnZE5EZy/vmAUc=
 
 Name: assets/script/map/094_002.zt1
 SHA1-Digest: Q7ZMt7rDmnflagxxBeQ4sStam2s=
@@ -4145,43 +3779,31 @@ Name: assets/pc/side_hand/1/003.mpl
 SHA1-Digest: yKyvQQEwPNvZCfgmKybGFN418U4=
 
 Name: assets/data/StrHelpTitle.zt1
-SHA1-Digest: DTjtgXyRbwqBVHgYuAr9JD2yf0o=
+SHA1-Digest: cgkcrF/9UF0j0WeMsyD6LUZC3rI=
 
 Name: assets/pc/head/2/004.pzd
 SHA1-Digest: LylkIailk2d/QdixfnWJ1Smq/7g=
 
 Name: assets/data/XlsProjectile.zt1
-SHA1-Digest: LELuVCFNDIJs1MJ9gE7y82JtvP0=
-
-Name: res/drawable/reply_page_back_k.png
-SHA1-Digest: pgBNNSmK2VxnK8a+LZoDjvcsP40=
+SHA1-Digest: 6Z1lg+lGKzWhNyObamY5o8sJtWc=
 
 Name: assets/char/022.mpl
 SHA1-Digest: 4ZBKH0y2ra+s6wXDLbNlZBHvf8o=
 
-Name: assets/sound/061.mp3
-SHA1-Digest: YZh+VrqicGYjfoIrxMKQHKJI+zU=
+Name: assets/obj/014.pzx
+SHA1-Digest: 5iPS6qbERWN6yhdy31P+T4i4C34=
 
 Name: assets/char/057.pzx
 SHA1-Digest: PuLTfZgsNImAixKvEJ4/rPsPSZk=
 
-Name: assets/obj/014.pzx
-SHA1-Digest: 5iPS6qbERWN6yhdy31P+T4i4C34=
-
 Name: assets/char/048.mpl
 SHA1-Digest: wKxul0h4rriOz6iniZnsa2oPJSw=
-
-Name: assets/dummy/dum04.pzx
-SHA1-Digest: ZNipVj7y0FiFcg605HoIEq8TCig=
 
 Name: assets/projectile/006.pzx
 SHA1-Digest: nCPnn0TgGAs20pXeKtwd/4q51ec=
 
 Name: assets/dynamic/FairyStone.pzx
-SHA1-Digest: Zn0QueelRU9LnriY9/KwDgZgWjg=
-
-Name: res/pop_btn_sel_ok.png
-SHA1-Digest: 7hGKawYkdxwMvkfs7DMojcn4srg=
+SHA1-Digest: 2st0uefHJdRm+KkL4P9+9KP8JcA=
 
 Name: assets/char/024.pzx
 SHA1-Digest: 7TbKmnB980EdiR68CA3daRRK4Ts=
@@ -4189,8 +3811,15 @@ SHA1-Digest: 7TbKmnB980EdiR68CA3daRRK4Ts=
 Name: assets/pc/armor/2/000.pzd
 SHA1-Digest: rjc7a7T/JjxEDX86bcyFg8Me4gw=
 
-Name: assets/japanese/data/StrQuest_N.zt1
-SHA1-Digest: MboFts3ooc+w1XtDLfFjpmhwsCc=
+Name: doc/com/amazon/InAppSDK/purchasing/ItemDataResponse.html
+SHA1-Digest: fr5rSZv4o1UGTI4S9B//sgytiuY=
+
+Name: doc/com/amazon/InApp/purchasing/class-use/Offset.html
+SHA1-Digest: A2zxeAY0rssv5npkwq7F/DzL3fo=
+
+Name: doc/com/amazon/InAppSDK/purchasing/ReceiptDataResponse.ReceiptDa
+ taRequestStatus.html
+SHA1-Digest: KNc7+mTdFSac2e7O4cPB0kJPr1I=
 
 Name: assets/pc/armor/3/000.pzd
 SHA1-Digest: GHpvT0EEhnOYVaDhbUvKm8JHgjY=
@@ -4204,14 +3833,11 @@ SHA1-Digest: oeTj1abgabvwV2kML6lda+cb7tw=
 Name: assets/script/quest/087_E.zt1
 SHA1-Digest: LTAIU7DIjz0jvhbWRSkQZY/lL0Y=
 
-Name: assets/sound/011.mp3
-SHA1-Digest: Kdv/jxBdOE0+SBdzyuMFVRuNRvo=
-
 Name: assets/korean/data/XlsItem.zt1
-SHA1-Digest: IRppgwyUYUXrUkqD7KLm1fIEC2g=
+SHA1-Digest: L+aTbMpxTmUpzwN8B8iGcphBRD0=
 
-Name: assets/japanese/data/StrSkill.zt1
-SHA1-Digest: /U+nRZHWBftD090flnO0YH1e1sY=
+Name: doc/com/amazon/InApp/transaction/ContentDownloadResponse.html
+SHA1-Digest: ADfP3NaRU3SJGnJW9Xn585vdnE8=
 
 Name: assets/dynamic/BGEffect.pzx
 SHA1-Digest: 3CMnCb2hBZpEWTOg1NNjNPFHPSU=
@@ -4228,32 +3854,27 @@ SHA1-Digest: mX0iHL8Pw7c8dmgITRlkcVZ0Cqo=
 Name: assets/pc/weapon/2/005.pzd
 SHA1-Digest: gttL9CzY4oGtadstXu5hX1x8NYM=
 
-Name: assets/script/quest/105_S.zt1
-SHA1-Digest: JrRAwLiNYmIiSNj15rmeHfomP0s=
-
 Name: assets/script/com/007.zt1
 SHA1-Digest: oK9f+e85VGv6eRLwzEgXvlsKXcE=
 
-Name: res/drawable/ui_help_bg.png
-SHA1-Digest: wRWErlAh9XxMUrxsyp8Ir2iAeTo=
+Name: assets/script/quest/105_S.zt1
+SHA1-Digest: JrRAwLiNYmIiSNj15rmeHfomP0s=
 
 Name: assets/pc/head/0/004.mpl
 SHA1-Digest: OoPLbjuFvpBxqWn0ilQqXvjTCI4=
 
-Name: assets/sound/065.mp3
-SHA1-Digest: f5NhgUTu/jynfjGliWdrN5VgYu8=
+Name: res/drawable/ui_help_bg.png
+SHA1-Digest: wY+9tJbJBio+onnOWD66jq0cKTQ=
 
-Name: assets/japanese/data/StrMaptheme_Name.zt1
-SHA1-Digest: NPz3TQPyBBYK88hUCkr0IMfZnak=
+Name: doc/com/amazon/InAppSDK/purchasing/ContentDownloadResponse.Conte
+ ntDownloadRequestStatus.html
+SHA1-Digest: +Yl/0T0qCJnGOkyZyzkasYuJupU=
 
 Name: assets/script/map/154_001.zt1
 SHA1-Digest: Zy/XYhgYbiyrfU/ovvculE8jxPw=
 
-Name: assets/sound/015.mp3
-SHA1-Digest: YR10g9jnGT5b1xb3wy8F0w1HJ/o=
-
 Name: assets/korean/data/XlsQUEST.zt1
-SHA1-Digest: Mv3VTVnvpRUrV3HaRh+yUuR9kWM=
+SHA1-Digest: GKFFGYRjc65voCKi1ZdLm0+42fw=
 
 Name: assets/script/quest/070_S.zt1
 SHA1-Digest: TYsOK1gDc5752ZPFcqhk8uht86s=
@@ -4261,20 +3882,14 @@ SHA1-Digest: TYsOK1gDc5752ZPFcqhk8uht86s=
 Name: assets/pc/armor/000.pzf
 SHA1-Digest: zwusYpVlsveG7rizHCFA4iXUcmg=
 
+Name: doc/resources/inherit.gif
+SHA1-Digest: 42+8XxPTdk4LcKDh/HbbyXG+EKI=
+
 Name: assets/map/030.mpl
 SHA1-Digest: /oMaDb0dr+vPxQWj96N3t35c4ZM=
 
-Name: assets/sound/009.mp3
-SHA1-Digest: lsJJWHNds6sopacdX7yVzaI1OgY=
-
-Name: assets/chinese/data/StrTitleItemExplain.zt1
-SHA1-Digest: HP0SmB7gLrZSxbhI0rLDVXmobfw=
-
 Name: assets/ptc/043.ptc
 SHA1-Digest: dlu5fkOV0q2XKUMtomDt8hvdXDo=
-
-Name: assets/sound/078.mp3
-SHA1-Digest: 68j6+NMLPLFGwNueQXo1eyopTuc=
 
 Name: assets/data/StrStatType.zt1
 SHA1-Digest: AW743v306nqP+jbe8YMeHSF9u/E=
@@ -4285,26 +3900,14 @@ SHA1-Digest: ZjBiRNdn4czWYuZmXdDNjMQokGU=
 Name: assets/map/227.zt1
 SHA1-Digest: NOwP631wa7y6CgGnq29kwDiesP8=
 
-Name: res/drawable/ui_menu_community_click_ch.png
-SHA1-Digest: aI/pZ8Ifa5P8cQthbF5vqEbIkJI=
-
-Name: assets/chinese/data/XlsQUEST.zt1
-SHA1-Digest: sX0lVr/aj5yw/vSih3h7StfI0gg=
-
-Name: res/drawable/gshop_btn5_jp.png
-SHA1-Digest: vHKkMcYadY/4urHXpqTg+UBUuXI=
+Name: doc/com/amazon/InApp/purchasing/SubscriptionPeriod.html
+SHA1-Digest: YDw0m5sdSUAAe0/FwRvEPFPEW5o=
 
 Name: assets/char/119.pzx
 SHA1-Digest: MMPlRXinZGgS5JCDCIQpg7SA6f4=
 
-Name: assets/japanese/data/StrQuestDetail.zt1
-SHA1-Digest: 1kQQiCoVLyAgttaRFChrINjeOcM=
-
 Name: assets/map/007.zt1
 SHA1-Digest: s6IhulI34y5HK1qozkjVJZQAsbg=
-
-Name: assets/japanese/data/StrTitleItemExplain.zt1
-SHA1-Digest: NCVQdPY35XsLs+cTORkHdQdnBqY=
 
 Name: assets/script/map/038_002.zt1
 SHA1-Digest: qFVf0PapCFlbX8kgDnR/R9JxXXk=
@@ -4313,13 +3916,17 @@ Name: assets/ptc/023.ptc
 SHA1-Digest: WbYH4M7m3AM/Ib9vF7VgZjOVMzY=
 
 Name: res/drawable/button_write_01.png
-SHA1-Digest: Pj9MLjSDyS4B0IybJH7ufSbrmcc=
+SHA1-Digest: oTlarZdkCGcfxYfFr0Y6lfQEZqQ=
 
 Name: assets/korean/data/StrQuest_N.zt1
-SHA1-Digest: zp2JXYnJOga9vEI+SHt+Pf1U/FU=
+SHA1-Digest: VOyrqrMILjEmXvdM8tyXn8YJR7U=
 
 Name: assets/map/199.zt1
 SHA1-Digest: 7aybqUe1OJwFSDa67SliuzQhViw=
+
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/PurchasingObserverN
+ otRegisteredException.html
+SHA1-Digest: hv4LxLOvoUXYFzZsj3oqWk59q3s=
 
 Name: assets/pc/head/2/001.mpl
 SHA1-Digest: CFQW2m1Q51s2HgoJm0zhjx6kzDE=
@@ -4342,20 +3949,14 @@ SHA1-Digest: B0Cvo+LNRxU2hAfGY4hRH52/EPA=
 Name: assets/map/142.zt1
 SHA1-Digest: l+vQHEbURZy+ImvdH63cSdEtbMQ=
 
-Name: assets/sound/102.caf
-SHA1-Digest: ZbS0WEhBlWYjRPpMqugMHa1bI8M=
-
 Name: assets/korean/data/StrTip.zt1
-SHA1-Digest: aD9nYnezCkgL4xXw+x5j+Fizi7M=
+SHA1-Digest: Qis0syycFzRzo58qIWGV4ll69Fk=
 
 Name: res/layout/main.xml
-SHA1-Digest: 2/T/rXxSF24qRAPPpE/K1hLsEVw=
+SHA1-Digest: sFCBHWk3f3FasKMVRNtOO6H1QDo=
 
 Name: assets/script/call/011.zt1
 SHA1-Digest: fpWiItiNnyjr/lTy2aim3hfpMkA=
-
-Name: res/raw/gestures
-SHA1-Digest: XFJ5TPX7tFsRQHGrREnheaQFlgI=
 
 Name: assets/obj/089.pzx
 SHA1-Digest: D4S8yD49tbq26XU7FkoUGBi7R30=
@@ -4394,7 +3995,7 @@ Name: assets/script/quest/123_E.zt1
 SHA1-Digest: hKekAWZiCiQGKtjxWzkg8QOaDEE=
 
 Name: lib/armeabi/libgameDSO.so
-SHA1-Digest: 9gm/SCeFXh4okckH6JH98Qe3G+0=
+SHA1-Digest: uGb02IafPHHgqS9FRgvAdtpEKD0=
 
 Name: assets/map/003.zt1
 SHA1-Digest: lybSQb35/+RJ3tto/cKu0PdWorM=
@@ -4414,9 +4015,6 @@ SHA1-Digest: 7Jh1jx7pWyhsjw0QpIBpobg86CI=
 Name: assets/obj/035.mpl
 SHA1-Digest: Tj4XmznyMpj67e+n816Hlywpe4A=
 
-Name: res/btn_buycancel_sel.png
-SHA1-Digest: bOBcRqIK/kWO0516j/gEdx3nJIE=
-
 Name: assets/projectile/016.pzx
 SHA1-Digest: /Hm3lxk9nbE7vs16qLoOcWPq354=
 
@@ -4425,6 +4023,9 @@ SHA1-Digest: 4ICk2qgoenDQfgroPzRcOxeNRtU=
 
 Name: assets/pc/weapon/1/004.pzd
 SHA1-Digest: eBCvv2fab+sRLXI0s6+WuKgTaxo=
+
+Name: doc/com/amazon/InApp/purchasing/class-use/PurchaseResponse.html
+SHA1-Digest: uqe2ZN7A5f2gjZCVh4fQ15QfpFY=
 
 Name: assets/map/113.zt1
 SHA1-Digest: wf0ZBcJuWcOLW2zwWLM1jyJezyI=
@@ -4437,9 +4038,6 @@ SHA1-Digest: dvxzYtt/vu0qucHDpBPuxfdtNIQ=
 
 Name: res/raw/s112.ogg
 SHA1-Digest: 3TtV9GTwq+7Z3Tq1NTejNgutz2U=
-
-Name: assets/sound/044.mp3
-SHA1-Digest: t6p3IqXi1RXztOb/gMYJxmxgOmE=
 
 Name: assets/char/104.mpl
 SHA1-Digest: 0CpWOK0qGxBF0Sf0ywGGCRFf3sM=
@@ -4475,7 +4073,7 @@ Name: assets/map/055.zt1
 SHA1-Digest: Zyztf1pDp4JDlyZdyMr0prrAbeA=
 
 Name: assets/korean/data/StrQuestItemExplain.zt1
-SHA1-Digest: 2L4MqaC7cnxT+M/p9XcYLycGJWk=
+SHA1-Digest: igJ9qLoQzx+kHWL8uFtDHuMRW5w=
 
 Name: assets/obj/006.mpl
 SHA1-Digest: nfSnxfIzeZB0IDTPJDUuKB+SZgQ=
@@ -4483,11 +4081,11 @@ SHA1-Digest: nfSnxfIzeZB0IDTPJDUuKB+SZgQ=
 Name: assets/script/quest/137_E.zt1
 SHA1-Digest: jCuXiOM1JcmgSVlb6QTy2srB2XQ=
 
-Name: assets/korean/data/StrHelp.zt1
-SHA1-Digest: 6UnX/nePleKZfVYx4SrnXyXHMTg=
-
 Name: assets/obj/012.pzx
 SHA1-Digest: M48I56WLQlNUfiPM4/75l1kyE7M=
+
+Name: assets/korean/data/StrHelp.zt1
+SHA1-Digest: 6UnX/nePleKZfVYx4SrnXyXHMTg=
 
 Name: assets/obj/106.pzx
 SHA1-Digest: 1b5vcngkgMFp5jD3pIGhdeNchWY=
@@ -4505,16 +4103,16 @@ Name: assets/pc/side_hand/2/006.mpl
 SHA1-Digest: jFnBZnTMGkyzGVb00HaBGv0N61g=
 
 Name: assets/korean/data/XlsChar.zt1
-SHA1-Digest: 803c1SJpLt1s1yTLGFdlxc8MHd0=
+SHA1-Digest: 7abXrSHfRIvRFfaGuL9JCXJxO2o=
 
 Name: assets/pc/armor/0/001.mpl
 SHA1-Digest: uZX4E91L1BXB6IbrHtZgdf1S0zw=
 
+Name: doc/stylesheet.css
+SHA1-Digest: ImkIJB0RcjV0xhyiSqc3bT1SXE8=
+
 Name: res/raw/s024.ogg
 SHA1-Digest: 5lj2/mJgMIniT5ayQB/K6Kkt6Qs=
-
-Name: res/btn_buy_nor_h.png
-SHA1-Digest: 5T1GjKfVA7jASiSLQOI1aH78XqY=
 
 Name: res/raw/s060.ogg
 SHA1-Digest: Zw3P7Dsf+btfFSijOt9tDSG/n0A=
@@ -4524,9 +4122,6 @@ SHA1-Digest: sO23RVBwo4OdNlQhQ4/kPbbHMX4=
 
 Name: res/raw/s033.ogg
 SHA1-Digest: OXDnGqx49YP2xwx57DDEhGaCwt4=
-
-Name: assets/japanese/data/StrQuestItemExplain.zt1
-SHA1-Digest: vHczb7Wf1xp7CtkwoWsHD0WbESs=
 
 Name: assets/dynamic/SkillIcon1.pzx
 SHA1-Digest: h+resu3tm3X4FRyw67tqaXjp/fQ=
@@ -4544,7 +4139,7 @@ Name: assets/script/quest/101_S.zt1
 SHA1-Digest: c187BkSU90rudBZF6kmf19r/bMI=
 
 Name: assets/korean/data/StrHelpTitle.zt1
-SHA1-Digest: DTjtgXyRbwqBVHgYuAr9JD2yf0o=
+SHA1-Digest: cgkcrF/9UF0j0WeMsyD6LUZC3rI=
 
 Name: assets/dynamic/SkillIcon3.pzx
 SHA1-Digest: Pmi3Sqbv4IEgnGo/2dkp4ZtYIhw=
@@ -4555,38 +4150,27 @@ SHA1-Digest: F1dn4zJw78eLpNRm+gcTl69A9+8=
 Name: res/raw/s113.ogg
 SHA1-Digest: AQFSSg9EE66qsd6ah5QWL2nnIqc=
 
-Name: assets/sound/057.mp3
-SHA1-Digest: a3q0p1lQ7LNN20/zwKEQJvYpyOM=
-
 Name: assets/script/quest/050_E.zt1
 SHA1-Digest: kykn5Z37+z45NHF2YJzmk1SkYRA=
-
-Name: res/drawable/ui_menu_continue_kr.png
-SHA1-Digest: KNJ7CTV3QTPIU4FbRxsan55j9L4=
-
-Name: assets/chinese/data/XlsItemRoutingValue.zt1
-SHA1-Digest: YKekslMY31fGH8W1moJxxP1BBH4=
 
 Name: assets/script/map/028_003.zt1
 SHA1-Digest: gY8zsASzkFXsmLBuVJQoZFccOmw=
 
-Name: res/drawable/ui_menu_help_ch.png
-SHA1-Digest: UKiWNmE0QCPaLp27KxTpwyq+I/Q=
-
-Name: xml/purchaseH_finalVersion.xml
-SHA1-Digest: RFIABp1KObPVSWMnO+YBEO+nG3k=
+Name: doc/index-files/index-12.html
+SHA1-Digest: 5UHNO8tUw9KXBOm+bLHOQM0ZVuc=
 
 Name: assets/char/128.pzx
 SHA1-Digest: 1LlFsR6ih2o7fXJDyKc3P5hF8Hc=
 
+Name: doc/com/amazon/InAppSDK/purchasing/Receipt.html
+SHA1-Digest: 8bRRwCshjmPU2wrtrtW+uQIflNI=
+
 Name: assets/map/077.zt1
 SHA1-Digest: ufampEAJKZ634XNn8/CFqDXHtuI=
 
-Name: res/icon_title_01.png
-SHA1-Digest: GodeMQquqkj2yT8lYFs8Ifwfr4I=
-
-Name: res/btn_policy_sel_b.png
-SHA1-Digest: ukU5J269WYVpb3/6x3FHZyJ1qiY=
+Name: doc/com/amazon/InApp/transaction/RevokedSkuDataResponse.RevokedS
+ kuDataRequestStatus.html
+SHA1-Digest: 4GEBqNKYm/E6MbeenNz4NRvf2aM=
 
 Name: assets/pc/side_hand/0/002.mpl
 SHA1-Digest: 4jukyyaCJjzU15R20DAg9gYlLec=
@@ -4600,14 +4184,8 @@ SHA1-Digest: 8ZltY4XOswPSk5up2o+qYZOnfdo=
 Name: assets/obj/080.pzx
 SHA1-Digest: hExliTeQecBeQH/5R6rgS5daC/w=
 
-Name: assets/chinese/data/XlsWorldMap.zt1
-SHA1-Digest: VSa3Z6BO5BuGfIFQTS2KOgIUYgk=
-
 Name: assets/obj/121.pzx
 SHA1-Digest: mXA3aqz25sePNdwiFb4rqD/Y2b8=
-
-Name: assets/dummy/dum06.pzx
-SHA1-Digest: dLYBoubefgvFEGk+0S/wp5cYTWQ=
 
 Name: assets/pc/armor/2/002.mpl
 SHA1-Digest: NPD1XIftw5DoWjCb6AgT5n9qShc=
@@ -4627,11 +4205,15 @@ SHA1-Digest: Pn22WtnTYCRxfXdQPPHePvQiNgE=
 Name: assets/map/005.pzx
 SHA1-Digest: kWtt5nzNDvH9EcmOvevwGK6SU9s=
 
+Name: assets/face/000.pzx
+SHA1-Digest: TT9rjD9U6eue/8ScprVwhR3Raz4=
+
 Name: res/raw/s018.ogg
 SHA1-Digest: zPUMB4c8i6cfmntvLsm8WShuxf0=
 
-Name: assets/face/000.pzx
-SHA1-Digest: TT9rjD9U6eue/8ScprVwhR3Raz4=
+Name: doc/com/amazon/InApp/purchasing/class-use/PurchaseUpdatesRespons
+ e.PurchaseUpdatesRequestStatus.html
+SHA1-Digest: 3l8rRAh9mRlqnNTh0PfPfkJst/U=
 
 Name: assets/map/027.zt1
 SHA1-Digest: ojFY8fSmDUnWnjAmf4ttzdeKnn0=
@@ -4651,11 +4233,14 @@ SHA1-Digest: z9YRmcH6O0QbcfES/Ts+/jMFLog=
 Name: assets/data/XlsWorldMap.zt1
 SHA1-Digest: VSa3Z6BO5BuGfIFQTS2KOgIUYgk=
 
+Name: doc/index-files/index-13.html
+SHA1-Digest: dljY8+zny/OKB0iZ0FTjVPpOYCk=
+
 Name: assets/script/quest/034_S.zt1
 SHA1-Digest: EkSpfqEZkH6ziaSWtu8JAaLBUqo=
 
 Name: assets/korean/data/XlsNPC.zt1
-SHA1-Digest: GFemfUGlIFhJpjE1lAZMKyEQAFs=
+SHA1-Digest: 3xndENbEvB2RUVFvYZJYFaWbZqE=
 
 Name: assets/ptc/014.ptc
 SHA1-Digest: pPxqAdB+OlO2P7PzP5j5KNvj9dY=
@@ -4666,8 +4251,8 @@ SHA1-Digest: reTglraywAhTIgTrY3aTJE7F8Uk=
 Name: assets/script/quest/088_E.zt1
 SHA1-Digest: WP0inooajvNQFTdmvSNiHS3j1/M=
 
-Name: assets/sound/056.mp3
-SHA1-Digest: vzZ1jmnDJQce7iiIxAKUg+WFsDY=
+Name: doc/com/amazon/InAppSDK/purchasing/Item.ItemType.html
+SHA1-Digest: QxqYzdyvA1S8qCK0OUNMQJXHsRc=
 
 Name: assets/map/013.zt1
 SHA1-Digest: DfBXLRz+/KJzkVaGPwEnmqevGuU=
@@ -4693,6 +4278,9 @@ SHA1-Digest: Q1Wn1muV1kIkMdB2UEdBnB+Q0pc=
 Name: assets/script/map/041_001.zt1
 SHA1-Digest: yykyg812wvCd2V6CWnfncq+Fltg=
 
+Name: res/drawable/ui_title_bg.png
+SHA1-Digest: q/JdVtWRH3aKlfmQ+Znqc4x7TCQ=
+
 Name: assets/map/086.zt1
 SHA1-Digest: yfbjxopyl6BBM5ESSWiENPds/G4=
 
@@ -4702,8 +4290,12 @@ SHA1-Digest: ZGu07+j2CJt31clEmTdeVm4OoTo=
 Name: assets/char/140.pzx
 SHA1-Digest: N2ng2MyNFosj0r4nBlZGNCNKDgw=
 
+Name: doc/com/amazon/InApp/purchasing/class-use/PurchaseUpdatesRespons
+ e.html
+SHA1-Digest: ZM+Ii2kK1r6/hv6o5MtHRmFD8IM=
+
 Name: assets/korean/script/output_dlg.zt1
-SHA1-Digest: t73jeelOWWLFgcukFq/CY5An1XE=
+SHA1-Digest: bSCGof3LsAC6nB9ovcbNC6AAhlk=
 
 Name: assets/char/033.pzx
 SHA1-Digest: VRcd3OgcKKyr5yqzc3daUlblaL0=
@@ -4720,6 +4312,10 @@ SHA1-Digest: VhkoU3uOVuU5jT3Hht/V4jM8HxQ=
 Name: assets/pc/weapon/0/002.mpl
 SHA1-Digest: cOa/rOkEkksgww76sFdhCGS7Wuk=
 
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/RevokedSkuDataRespo
+ nse.RevokedSkuDataRequestStatus.html
+SHA1-Digest: 2/6iq+sxbSIVtB2HwcdxesCqV2U=
+
 Name: assets/pc/armor/0/004.mpl
 SHA1-Digest: hlOswAsFx4W2ac/oB0Rn+7OdU14=
 
@@ -4732,12 +4328,6 @@ SHA1-Digest: pwlXdXHgKGetBHGabd0YqutmC34=
 Name: assets/pc/armor/0/003.pzd
 SHA1-Digest: 56OpKHIbywpTp5txTKcxmhYNWeo=
 
-Name: assets/sound/018.mp3
-SHA1-Digest: rGvszt/8O5j4CuhlhF9zZCVbNms=
-
-Name: assets/chinese/data/XlsSetItem.zt1
-SHA1-Digest: 6fr4w7agSHEo+/Q5MVfsXFFmk/I=
-
 Name: assets/dynamic/ComEffect.pzx
 SHA1-Digest: dmUMwW4bhvYaHTuR5lKWQ3dXp3s=
 
@@ -4747,14 +4337,14 @@ SHA1-Digest: sQHLyeyaqkkPVp4w/uqT1w6L614=
 Name: assets/script/quest/009_E.zt1
 SHA1-Digest: 8P5tt4RpFnY1qxY6yFiDYe8VBug=
 
-Name: assets/script/quest/128_E.zt1
-SHA1-Digest: lp1vVsexHyjcU5kfh/+oYYFakd4=
+Name: assets/map/070.zt1
+SHA1-Digest: fc4iPKfPyMPVa2Yikfq1DrdDEQY=
 
 Name: assets/script/quest/120_S.zt1
 SHA1-Digest: Az28OmbjQFIAZ+PlhSyTRYwUf0I=
 
-Name: assets/map/070.zt1
-SHA1-Digest: fc4iPKfPyMPVa2Yikfq1DrdDEQY=
+Name: assets/script/quest/128_E.zt1
+SHA1-Digest: lp1vVsexHyjcU5kfh/+oYYFakd4=
 
 Name: assets/pc/head/3/002.pzd
 SHA1-Digest: Z6me1L3oJf57TYk23WQRnu3kr4E=
@@ -4765,14 +4355,8 @@ SHA1-Digest: 3snlkGdDUF5u+SwtYp1tw5jjiBY=
 Name: assets/map/153.zt1
 SHA1-Digest: XlNAbKVlDvUbQ5q5c9kMay4Nd1E=
 
-Name: res/drawable/reply_page_back_j.png
-SHA1-Digest: tFHpNkWevVInLflTi9p03xzgRKs=
-
 Name: assets/html/ui_custom_skill.png
 SHA1-Digest: si7TMoedUNzlUcBuyLAHX+8ZNLo=
-
-Name: assets/sound/100.caf
-SHA1-Digest: jGEkQ3hiC7HswdpoYf4rz1lXQWY=
 
 Name: assets/obj/032.mpl
 SHA1-Digest: rGVuc8ClYkQGjR6p5UHy6t7LqPc=
@@ -4798,11 +4382,14 @@ SHA1-Digest: rawh1PCgs2WDsDD/d+ytFtnJ1hc=
 Name: assets/pc/side_hand/2/002.pzd
 SHA1-Digest: 49sYfeGLod13g0desZKK4sqWeSA=
 
+Name: doc/com/amazon/InApp/transaction/class-use/Item.ItemType.html
+SHA1-Digest: AGsrd5+Iz0WhgOmbJCXifW2QVjg=
+
 Name: assets/script/quest/031_E.zt1
 SHA1-Digest: eyQEZbdMiqqYQQz0c/0W/lMEy+M=
 
-Name: assets/chinese/data/StrPopup.zt1
-SHA1-Digest: Io0K6GGHGGH+3m4HdlY2rgAdFrY=
+Name: doc/com/amazon/InApp/transaction/Item.html
+SHA1-Digest: DfMlv3W37gknViCGJ4HTDd/wcdY=
 
 Name: assets/map/157.zt1
 SHA1-Digest: Ye+LmG6/y8FRyJ7Z60mGtpCEdgA=
@@ -4829,40 +4416,28 @@ Name: assets/obj/100.pzx
 SHA1-Digest: XkXoyaWHlZiy6v2Om7TNpH2i+HE=
 
 Name: assets/korean/data/StrStatusType.zt1
-SHA1-Digest: F3uENlC9OXgEU58VaqZ4VjZSa9U=
+SHA1-Digest: 1K1hDHuI0efuWv/rCFMYvRr07Po=
 
 Name: assets/script/map/006_003.zt1
 SHA1-Digest: pmgfz/y7Cyn5W/BxprNbkfuB7GA=
 
-Name: res/keypad_back.png
-SHA1-Digest: Tf4n/K3LV9ihRLsfFKIhizhoZlw=
-
 Name: res/drawable/ui_menu_back1.png
 SHA1-Digest: IuZTlGwvn408poXT3LlQWSeBjiU=
 
-Name: res/drawable/reply_page_back_e.png
-SHA1-Digest: wXIJ108fFfWuLFFBzk6j/eqD8c4=
-
 Name: res/layout/tapjoy_featured_app_web_view.xml
-SHA1-Digest: 6SyUd+yLjL++2uWkYwLFCZ1Y32g=
+SHA1-Digest: B7+QGh6qxho7R4TCr/NMKWfiA58=
 
 Name: assets/char/144.pzx
 SHA1-Digest: iNJAUCwSU1znAiECV39Zqc6aWZc=
 
-Name: xml/commonPopupAutoPurchaseFormH.xml
-SHA1-Digest: V96jpx1TaTqmv4k94aOfN7DzPMc=
+Name: doc/com/amazon/InApp/transaction/class-use/Offset.html
+SHA1-Digest: 9a3lBsNbmCqWJt5eqvBHfAOshsA=
 
 Name: assets/map/054.zt1
 SHA1-Digest: IsPGYvIgmrczd6AQCX7/7VpzxkI=
 
-Name: assets/chinese/data/StrTalk1.zt1
-SHA1-Digest: pWsi4LAoxG6Y+m8bmntUjgxv18Y=
-
 Name: assets/script/quest/037_E.zt1
 SHA1-Digest: lWE72j4/OG7qT8od7gKkRwt5nEs=
-
-Name: res/image.png
-SHA1-Digest: nv2dhM3PwVE5pQFLjEXuHsAt6wA=
 
 Name: assets/obj/040.pzx
 SHA1-Digest: xvdOb69AvIAZ7pStn3KCMEniAoQ=
@@ -4871,37 +4446,29 @@ Name: assets/map/233.zt1
 SHA1-Digest: C1+lWN3VleEvuHeMbs8kZISKV3M=
 
 Name: assets/korean/data/StrEtcItemExplain.zt1
-SHA1-Digest: hIUIAFFw1bVRwooGpgMR6ApPuCM=
+SHA1-Digest: PM2RyArNktNjNMpq66ZSm+WSmF0=
 
-Name: assets/sound/001.mp3
-SHA1-Digest: IYyg4GywOYYtQMdf8Pr916UXv7g=
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/PurchasingObserver.
+ html
+SHA1-Digest: 1TjEZ2rW5LeJ/aP9IDkHbSoWw/8=
 
 Name: assets/char/106.pzx
 SHA1-Digest: fay74O/68BbECGCNA4N56QfTlSs=
 
-Name: res/drawable/button_write_01_global.png
-SHA1-Digest: W+4ZgQIPz7cPd7KIocO8Yui+voI=
-
 Name: res/drawable/certi_button.xml
-SHA1-Digest: kCpwCUxUDiSpaXLw8JZmljaXv7A=
-
-Name: assets/sound/039.mp3
-SHA1-Digest: CTLiKRpsLQrwvWmdFEEVihRQEsk=
-
-Name: assets/japanese/data/XlsTrashItem.zt1
-SHA1-Digest: 7L9hHqF+qX4wetXbK3Dx7Pnsbr8=
+SHA1-Digest: ApBFNKg9RSSVFGgb0X6d7ftXEf0=
 
 Name: assets/korean/data/StrItemType.zt1
-SHA1-Digest: hqr/HheOfdEtEZxGYHLkcvAb1zM=
+SHA1-Digest: nCDxVLY+mpOCJ0C8n42tUYZd7cU=
 
 Name: assets/map/134.zt1
 SHA1-Digest: 2C6d6mYxFABjvC/2vXkbWTJ7fP8=
 
-Name: assets/char/001.pzx
-SHA1-Digest: ZuhCw2bSYRZpkhnruZwjT5DEioA=
-
 Name: assets/char/006.mpl
 SHA1-Digest: qmOnK9ERg/TOepiYU13XrbGM1fM=
+
+Name: assets/char/001.pzx
+SHA1-Digest: ZuhCw2bSYRZpkhnruZwjT5DEioA=
 
 Name: assets/pc/armor/3/003.mpl
 SHA1-Digest: TA9xhD9UEYlgN6ZVOfYrtKwJks0=
@@ -4909,8 +4476,9 @@ SHA1-Digest: TA9xhD9UEYlgN6ZVOfYrtKwJks0=
 Name: assets/com/Keypad.pzx
 SHA1-Digest: X3Pn0zgZ4SNGVuFY4lKNDU3ZuUk=
 
-Name: assets/japanese/data/XlsMix.zt1
-SHA1-Digest: Xmuu3v/vB0NwmHlrSTZEFoUv4uU=
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/ReceiptDataResponse
+ .html
+SHA1-Digest: 15S0TPJK4XxSqGSBrRaNBTR6b+s=
 
 Name: assets/char/111.mpl
 SHA1-Digest: P+O2oPCq6o/s3UwYAKMfKIHU65c=
@@ -4933,11 +4501,11 @@ SHA1-Digest: zTyQhJXUXgcA/wa5+QPfc48+YQE=
 Name: assets/ptc/004.ptc
 SHA1-Digest: nXVFq11gFW3UezymENSyIvON+3M=
 
-Name: assets/script/quest/107_E.zt1
-SHA1-Digest: /S2KII9bK38q+A4dh6oJaGKlEPU=
-
 Name: assets/map/088.zt1
 SHA1-Digest: F+Atl8/68K2fWMEVdsrxnrNbwjQ=
+
+Name: assets/script/quest/107_E.zt1
+SHA1-Digest: /S2KII9bK38q+A4dh6oJaGKlEPU=
 
 Name: assets/dynamic/ItemIconComm.pzx
 SHA1-Digest: eRrNgIIaQh1rKTTiYFFf/QTJUoY=
@@ -4948,11 +4516,8 @@ SHA1-Digest: whdXiaZfPIXUs6vMbpRh2MiHXqE=
 Name: assets/ptc/034.ptc
 SHA1-Digest: 609hJPeUOzFcMYg48C2Jab6g0pM=
 
-Name: assets/japanese/data/StrSkillType.zt1
-SHA1-Digest: 9d3HeNDEtbt+PLPxqqi8k1ZG7us=
-
 Name: res/drawable/ui_menu_back0.png
-SHA1-Digest: L1y45woehVOLFfmYq+EMPsK5Ing=
+SHA1-Digest: 7bbeWvbfm+2+yN7VYvyK8r1fvC4=
 
 Name: assets/pc/head/0/003.pzd
 SHA1-Digest: K04zfExuU7DyUHsIselj6l3vm7g=
@@ -4970,7 +4535,7 @@ Name: assets/pc/weapon/0/006.pzd
 SHA1-Digest: bs1ya6WXLWJBb/wMiffOZZEr//o=
 
 Name: classes.dex
-SHA1-Digest: R+D2d0cGS9c3sru0syTq0fGv64U=
+SHA1-Digest: OlvtwIqaFs7g1fyVgCTIWQChSok=
 
 Name: assets/map/216.zt1
 SHA1-Digest: Vzu0MNecDWwZRTMCRkwUHE0KozQ=
@@ -4987,6 +4552,10 @@ SHA1-Digest: +jcafN4axPTA9/jZgWKVH86JgaQ=
 Name: assets/script/quest/114_E.zt1
 SHA1-Digest: lGqylR9SA7ogf7FlQcwznZ+XcaY=
 
+Name: doc/com/amazon/InApp/purchasing/PurchaseUpdatesResponse.Purchase
+ UpdatesRequestStatus.html
+SHA1-Digest: VFuToMe770UK9cn0s8mCxP79GH0=
+
 Name: assets/char/126.mpl
 SHA1-Digest: p6rkwwPZ0i19M40gM5Jict+DnW4=
 
@@ -4996,14 +4565,21 @@ SHA1-Digest: DzES+XqeDiqMu6tlfJKnqohf0Lw=
 Name: assets/script/quest/028_S.zt1
 SHA1-Digest: gOnx0qAz2ZkzZwZDHY3n4bbX7Kw=
 
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/ItemDataResponse.ht
+ ml
+SHA1-Digest: yFyIOyQE10Ukm3shAHIxwr8Ta2g=
+
 Name: assets/char/014.mpl
 SHA1-Digest: rCdkn3HBgaQWdmP6VSGcqWbMxAU=
 
-Name: res/raw/s008.ogg
-SHA1-Digest: F7xZx3gwuCImYBajHGpPs16AfqY=
+Name: doc/com/amazon/InApp/purchasing/PurchasingManager.html
+SHA1-Digest: QerCb7jr11S3KyuRSYvkSrCwDCY=
 
 Name: assets/script/quest/097_E.zt1
 SHA1-Digest: sD8BrmoJBjjdJ0xNSTX3l4C9BdQ=
+
+Name: res/raw/s008.ogg
+SHA1-Digest: F7xZx3gwuCImYBajHGpPs16AfqY=
 
 Name: assets/ptc/000.ptc
 SHA1-Digest: tinwk/0LMsk/tbVPNu5pNRsPHe8=
@@ -5021,13 +4597,7 @@ Name: assets/map/050.pzx
 SHA1-Digest: 7pikI0LOEOLs3ym91S1X2RfCbjM=
 
 Name: res/drawable/ui_title_logo5.png
-SHA1-Digest: Z5hSbYvrQz/UxZuTJn8xiQI9TNA=
-
-Name: assets/sound/014.mp3
-SHA1-Digest: OwNx8Mdnr4f5jnmBSJokqmgVR8w=
-
-Name: res/popup_bg.9.png
-SHA1-Digest: FSFTWI3mtj5XanSl591huichB+c=
+SHA1-Digest: vDBdE/q/eHB5UPrTsVBIa/8rOCQ=
 
 Name: assets/obj/094.mpl
 SHA1-Digest: 0X4qPvb5FM3mbo0viJ2tDmAgB1A=
@@ -5038,23 +4608,17 @@ SHA1-Digest: 4KTfV5rPQ2gAevyVupq8ni13hbI=
 Name: assets/char/030.mpl
 SHA1-Digest: 3bjQoEZv3evoK22uGMUG3GWULa4=
 
+Name: doc/com/amazon/InAppSDK/purchasing/ReceiptDataResponse.html
+SHA1-Digest: +Vw3DMTC5HQDkzmr0cutp1SRHfI=
+
 Name: assets/obj/070.pzx
 SHA1-Digest: 4oHiluEqqFeaQOg2v5Lpnusg03g=
 
 Name: assets/map/030.zt1
 SHA1-Digest: Xv/6fKWq/ZDg0JAtTxyLJeoEh2E=
 
-Name: res/keypad_bg.9.png
-SHA1-Digest: Tt3HLr8pYbVjMKODHDXA4y4Vcks=
-
-Name: assets/font/synGulimAsc8_16B.ft2
-SHA1-Digest: oF8ZdWnpO3+IFHnFPgppNlVnjQY=
-
 Name: assets/script/quest/098_S.zt1
 SHA1-Digest: qI5QR9OOYXlIdo6qTOu56Ir/iqU=
-
-Name: assets/sound/103.caf
-SHA1-Digest: Qr2YqcYfRNoKQkXU/91SapYCKbc=
 
 Name: assets/pc/head/1/002.mpl
 SHA1-Digest: Un7TXQMaUPVUTOZhns1avwXYwg8=
@@ -5063,10 +4627,10 @@ Name: res/raw/s045.ogg
 SHA1-Digest: wLegwIrbG0pmFbvvSU/lIAegJpc=
 
 Name: assets/data/StrCODE.zt1
-SHA1-Digest: nUSfQITkcqiGt+eVngYuA6clpTk=
+SHA1-Digest: Dl5ifqUAfPk6pKE69ONQfJD8uys=
 
-Name: assets/sound/069.mp3
-SHA1-Digest: M4ZdXf3dsxTrg9oeFRRybZJNmWU=
+Name: doc/com/amazon/InAppSDK/purchasing/Item.html
+SHA1-Digest: GgqvSTv+hIepd0zhOF4lDIXKkHg=
 
 Name: assets/script/quest/050_S.zt1
 SHA1-Digest: Fhe6211CzzgVtnhfulOmrCX4A2M=
@@ -5076,6 +4640,9 @@ SHA1-Digest: cTNyszUklyNCSvNqsGHKyvZOPo4=
 
 Name: res/raw/s001.ogg
 SHA1-Digest: iWEa4OTtVg69TBjYupeEmzghdyo=
+
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/Item.ItemType.html
+SHA1-Digest: 1VFJub8rqx7Bvu+ZztnQEwO2c/A=
 
 Name: assets/pc/side_hand/1/001.pzd
 SHA1-Digest: 2MJ7WqjXRRh9rRtMTVWAiDRbS5w=
@@ -5102,10 +4669,7 @@ Name: assets/pc/side_hand/0/003.mpl
 SHA1-Digest: uTDO14Tqe5KinX48yfJvoYTT4xo=
 
 Name: assets/script/com/000.zt1
-SHA1-Digest: B3GJLgwV08hoxPWXpU81xmT07fo=
-
-Name: res/drawable/ui_menu_options_kr.png
-SHA1-Digest: GZU9LvfiV/+YlDdhcmuEi+GIY4I=
+SHA1-Digest: F3VQmi9DNV8hTGE/8DYnau9vx8Q=
 
 Name: assets/char/020.mpl
 SHA1-Digest: mwM3Blqg7lM3H2VsAqU/PtIhkrc=
@@ -5116,11 +4680,8 @@ SHA1-Digest: nQC37C/TjvHvWPXIlS94QZ81yw8=
 Name: assets/char/036.pzx
 SHA1-Digest: nk/MSjBw/Z32ocNyIkvTOZo0e5o=
 
-Name: res/xml/task_check.xml
-SHA1-Digest: pk3txOiSQouzErk/pffMuGHw3Co=
-
 Name: assets/korean/data/StrStatType.zt1
-SHA1-Digest: PwQWmZpN9Oo4dSV0RS7Op/g3CkA=
+SHA1-Digest: mAKbDbGXPe4WPSxQWBzwYxZNXDE=
 
 Name: assets/char/049.pzx
 SHA1-Digest: MsGYbsVe+yJExYht0zMBJIDdYGs=
@@ -5128,11 +4689,11 @@ SHA1-Digest: MsGYbsVe+yJExYht0zMBJIDdYGs=
 Name: assets/map/209.zt1
 SHA1-Digest: Ko2FsEnWTSf0pxrRIvcOREOUDDs=
 
+Name: doc/index-files/index-2.html
+SHA1-Digest: dWuTYeSNIwvSqXITELqlSRFVnEA=
+
 Name: assets/ptc/055.ptc
 SHA1-Digest: Cf2wLvLwZ2dgPlNSFoGWBk6hy6U=
-
-Name: res/drawable/ui_menu_help_jp.png
-SHA1-Digest: KcASXlGZzAaUbPe/LbJOrGCl8YM=
 
 Name: assets/char/054.pzx
 SHA1-Digest: dQHj70KX7NBC6mZK1uV4Vg5K380=
@@ -5143,32 +4704,30 @@ SHA1-Digest: xVRi5FRT2lOIQapnJnVHjwCsg3Q=
 Name: assets/font/eunjicute_bold_6_12_2.ft2
 SHA1-Digest: z5b4KcwUwutAuw7qWVKVWgTHn10=
 
-Name: res/textbox_01_6.png
-SHA1-Digest: s6Qe5uLg0MX+Hqqs67q1w2eZoS8=
-
 Name: assets/map/160.zt1
 SHA1-Digest: t9BOx7IJrlJiDMqGz3bT05fX59Q=
 
 Name: assets/script/quest/080_S.zt1
 SHA1-Digest: /rwHux6yneEGwE5OhKHcwCm1nBE=
 
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/SandboxException.ht
+ ml
+SHA1-Digest: QIW5uL5MIV8OI3rwoUcLiLVDd94=
+
 Name: assets/map/062.zt1
 SHA1-Digest: 4TJoCipXr+9si+fHDXhvNeL5r3s=
 
 Name: assets/korean/data/StrSkill.zt1
-SHA1-Digest: MkdWXjQxkejVf3sUbYPljl8WvLo=
+SHA1-Digest: ECmaWSJzYbzAhXUJ9dxy774vhG0=
 
 Name: assets/map/099.zt1
 SHA1-Digest: 01ch3A3tM8yjrLSLsf6djqLqCQM=
 
 Name: assets/korean/data/StrQuest_C.zt1
-SHA1-Digest: dPUbLs+Lp54ZxKG1q6Ng1nCxIMI=
+SHA1-Digest: 0azYUhxmKCh6ZSvOowL3JcdQ3B4=
 
 Name: assets/script/quest/028_E.zt1
 SHA1-Digest: e4c8OpEe2DNd7h4yXNFDzmNtUIc=
-
-Name: assets/japanese/data/StrQuest_M.zt1
-SHA1-Digest: pK826WfyTIizCZdOi0A5P1d095U=
 
 Name: assets/char/028.mpl
 SHA1-Digest: fvBU9DgeBbNx4/er3/GSs5LCqVo=
@@ -5185,14 +4744,8 @@ SHA1-Digest: Mze2i26DaOSBlyJI67NL7fjbRsU=
 Name: assets/pc/side_hand/2/001.pzd
 SHA1-Digest: kMho6Kt/46ZNpZprWpRvNurjDw4=
 
-Name: assets/japanese/data/StrTalk2.zt1
-SHA1-Digest: M/nZ/fYUvJh2Z8DvZ52ZKt5eQmI=
-
 Name: assets/map/203.zt1
 SHA1-Digest: Ao9x5XZxTrpzZ6mnXK76SmBLrIg=
-
-Name: assets/sound/077.mp3
-SHA1-Digest: ul+QXJKdPLDUYqvEjk8p0Q7tCr8=
 
 Name: assets/com/Shadow.pzx
 SHA1-Digest: HXLPF4mhfXUO6lrGaOdiMMG+Uds=
@@ -5209,14 +4762,14 @@ SHA1-Digest: v4feNgH41b4fPRhecjnxOLsccvE=
 Name: assets/script/quest/067_E.zt1
 SHA1-Digest: vkl5CmrX6Y7pWZLzEd5qtUz22kI=
 
-Name: assets/script/quest/127_S.zt1
-SHA1-Digest: fk+oJL5v7GZ8Ed0VuQgCzJKqKyg=
-
 Name: assets/data/XlsItem.zt1
-SHA1-Digest: k6dtcXvn/+qJD0/rOX7yzG9f9+w=
+SHA1-Digest: pTZR1pQ+v0FO+Da+abY4UxHIBGc=
 
 Name: assets/face/004.pzx
 SHA1-Digest: Byp8Tlv4+S26tL05VQ4X/QT7lWU=
+
+Name: assets/script/quest/127_S.zt1
+SHA1-Digest: fk+oJL5v7GZ8Ed0VuQgCzJKqKyg=
 
 Name: assets/script/quest/019_S.zt1
 SHA1-Digest: fa52JKF3pI4JXrDJJC0mMWcaqUQ=
@@ -5231,16 +4784,10 @@ Name: assets/map/237.zt1
 SHA1-Digest: laQgD9TozjL8AYlYboVHN8LIBzY=
 
 Name: assets/data/XlsNPC.zt1
-SHA1-Digest: VX2lzFVxWKjhH0BiTxt/A1KAFho=
+SHA1-Digest: jvdKO3QRge0zbeTBAtvkobyOXsE=
 
 Name: assets/script/quest/006_E.zt1
 SHA1-Digest: lc8sQvwR5MLF/8FNRARhrxlp5UA=
-
-Name: res/info_table_02.png
-SHA1-Digest: vGPMmaASU/s3erG7gWyB7THCXG8=
-
-Name: res/btn_more_01_sel.png
-SHA1-Digest: OzydUBrNPKoNrMIQLAbCqob7HpY=
 
 Name: assets/pc/armor/2/005.mpl
 SHA1-Digest: 8Db99nKXiWhMdVqve8Xor5Gi4ps=
@@ -5248,17 +4795,24 @@ SHA1-Digest: 8Db99nKXiWhMdVqve8Xor5Gi4ps=
 Name: assets/char/102.pzx
 SHA1-Digest: XECbrQ9EMTG1qL1qrbi6YAYVYbc=
 
-Name: assets/XlsBalance.zt1
-SHA1-Digest: HUHqbYDsqkCcEkS96LlKU+EOrrg=
-
 Name: assets/data/StrQuestComplete.zt1
 SHA1-Digest: k3es6GC53j44eqYYF43s7Obmf9U=
+
+Name: assets/XlsBalance.zt1
+SHA1-Digest: HUHqbYDsqkCcEkS96LlKU+EOrrg=
 
 Name: assets/map/245.zt1
 SHA1-Digest: LpaQm78eCQ+NdrI7ETEtVa7KflI=
 
+Name: doc/com/amazon/InApp/transaction/class-use/ItemDataResponse.Item
+ DataRequestStatus.html
+SHA1-Digest: vbrJydtLfRiKgjd5gLCufijjnHk=
+
 Name: assets/script/quest/079_E.zt1
 SHA1-Digest: F9IbgkNJwLhH361Wa1r7ejsZnO8=
+
+Name: res/drawable/gshop_btn2.png
+SHA1-Digest: OufokM70BHLvkDzhropOEXh+PS8=
 
 Name: assets/char/127.pzx
 SHA1-Digest: NBvO5oAczZ80rpMkfCRVUVjhVnU=
@@ -5266,20 +4820,14 @@ SHA1-Digest: NBvO5oAczZ80rpMkfCRVUVjhVnU=
 Name: assets/char/112.pzx
 SHA1-Digest: APxE+WjHyrLB0uDSjpJQaZaC3jk=
 
-Name: res/textbox_01_5.png
-SHA1-Digest: Cg3x3/kmct8LFUAv0r5EUROV5uY=
+Name: assets/pc/side_hand/2/007.pzd
+SHA1-Digest: buAv03HRiIMBrVXkRZfqtmCyzEk=
 
 Name: assets/script/quest/132_S.zt1
 SHA1-Digest: J8BEjclEL2KNHa8lblkWUybB+PI=
 
-Name: assets/pc/side_hand/2/007.pzd
-SHA1-Digest: buAv03HRiIMBrVXkRZfqtmCyzEk=
-
 Name: res/layout/drmview.xml
-SHA1-Digest: OwjdjYyg8xQ/AdRj1e3oYcxmnZE=
-
-Name: assets/script/quest/122_S.zt1
-SHA1-Digest: Vq39YTKj6hO9LbLoR6MQCmj6Fao=
+SHA1-Digest: GhqUTQGt9d7Cq0lXKgXIYRtxOlk=
 
 Name: assets/map/185.zt1
 SHA1-Digest: C0AuvNSucLOgjMWsizQIcHmz+Y8=
@@ -5290,11 +4838,14 @@ SHA1-Digest: HfKFsYGIkqvxaKaizOgYkv+P1U4=
 Name: assets/script/quest/010_E.zt1
 SHA1-Digest: Ou3aaLHWwV96SbRChvaINLvJLfo=
 
-Name: res/textbox_01_1.png
-SHA1-Digest: H6QCIEekntp+x+fzEcBT0/uYASM=
+Name: assets/script/quest/122_S.zt1
+SHA1-Digest: Vq39YTKj6hO9LbLoR6MQCmj6Fao=
 
 Name: assets/obj/097.pzx
 SHA1-Digest: QeoPfo77I45cAL7GscI0HtfsXD8=
+
+Name: doc/serialized-form.html
+SHA1-Digest: ShLdHsjrmN6pmhO9nVL9hDnvxXg=
 
 Name: assets/char/108.pzx
 SHA1-Digest: HkV0YvbQm7Bme5OKBoW4lNfw/MM=
@@ -5302,32 +4853,20 @@ SHA1-Digest: HkV0YvbQm7Bme5OKBoW4lNfw/MM=
 Name: assets/dynamic/ItemIconETC.pzx
 SHA1-Digest: kRmwmjpzvVQxwAk9wAQtezoS3qU=
 
-Name: res/btn_check_ok_sel.png
-SHA1-Digest: 45EaVwpiuANzmnVZQXNn9343+zw=
-
 Name: res/raw/s100.ogg
 SHA1-Digest: 0YMtO8PF2NlybWpyWvf46gYkWRE=
 
 Name: assets/script/call/107.zt1
 SHA1-Digest: wpw1gdJt/9e6Fuft2dGMZk6q+ws=
 
-Name: res/drawable/gshop_bg_ch.png
-SHA1-Digest: g7ftc17Su3JdkFHkRZHGhKOHYh8=
-
-Name: xml_kt_lg/purchaseH_finalVersion.xml
-SHA1-Digest: H+eiBbaUBZXH37jRfxtbIlZVPLA=
-
-Name: assets/dummy/dum03.pzx
-SHA1-Digest: ZNipVj7y0FiFcg605HoIEq8TCig=
-
 Name: res/raw/s044.ogg
 SHA1-Digest: x7+wtrGFI8izRNClaDlmmZjtQvo=
 
-Name: res/bottom_bg.png
-SHA1-Digest: pd7BoL9+wo/y4eKnaW/EMX+QznY=
-
 Name: assets/script/map/018_002.zt1
 SHA1-Digest: eHaC1v37vqx8TeZ6OlkLkgcgrN0=
+
+Name: res/drawable/gshop_btn1_kr.png
+SHA1-Digest: txb/03iVV2FolFs+Pk3TfTdDDhI=
 
 Name: assets/script/quest/124_S.zt1
 SHA1-Digest: ws4+nTvp3QgJR+L98vlU0t24F1E=
@@ -5350,11 +4889,11 @@ SHA1-Digest: avjAal8x0wJ4ZlYEEi3NReeloco=
 Name: assets/char/012.mpl
 SHA1-Digest: uTzJnspUW2b03VOr6HPnBl31yPk=
 
-Name: res/drawable/ui_menu_newgame_jp.png
-SHA1-Digest: 7wXJEZSMzEhAn6oUHTtgj+NN6Qc=
-
 Name: assets/obj/049.pzx
 SHA1-Digest: UrddzeoicdDAaEDsI1YMUvWL3CQ=
+
+Name: res/drawable/ui_title_bg_free.png
+SHA1-Digest: ISlz3LymVpYpygBtZ9pZuaC00Z4=
 
 Name: assets/dynamic/ItemIconETC.mpl
 SHA1-Digest: Il8PKgTtNsmZao0YSlhqvKJJg1E=
@@ -5362,11 +4901,14 @@ SHA1-Digest: Il8PKgTtNsmZao0YSlhqvKJJg1E=
 Name: assets/pc/side_hand/0/004.pzd
 SHA1-Digest: OZsmgGV6M4J/Keyls4F4yvO+QKg=
 
+Name: doc/com/amazon/InApp/transaction/class-use/Item.html
+SHA1-Digest: BATeMozcjwU05bRkBTOueo0dBWQ=
+
 Name: assets/ptc/013.ptc
 SHA1-Digest: rXgFm7OeRKqvfBx+fk7KvhGFBNQ=
 
-Name: assets/sound/058.mp3
-SHA1-Digest: RHo9ZTozIxxlokftZn6FPtK/Rrc=
+Name: doc/com/amazon/InApp/transaction/Receipt.html
+SHA1-Digest: mPTNz67/DXySlBdP+UGMlUsXOzE=
 
 Name: assets/pc/head/0/004.pzd
 SHA1-Digest: KwYLaE5QQk5VdhXdxrZXzG1roZE=
@@ -5404,6 +4946,9 @@ SHA1-Digest: 5rizwn9D/31A4gEV+rDBTq6smgo=
 Name: assets/ptc/035.ptc
 SHA1-Digest: K/ingDxL3hpFpl4QQZe9DUBnS54=
 
+Name: doc/package-list
+SHA1-Digest: Mde2jYTqB5HA6Ikvo24OQ2UNXRs=
+
 Name: assets/script/quest/057_S.zt1
 SHA1-Digest: WVcbx/6m4eZRbFCfhKr/tzXewow=
 
@@ -5419,26 +4964,17 @@ SHA1-Digest: rrFJwwvSWLIsChMwgKGfqOZj5I8=
 Name: assets/script/quest/074_S.zt1
 SHA1-Digest: sfh9rdlHW5nKhOSNwQIHUV1poSE=
 
-Name: assets/japanese/data/StrQuest_Y.zt1
-SHA1-Digest: S4KhWPDdzG4/CHQ34obT0IDWJ0s=
-
-Name: res/btn_cancel_sel_h.png
-SHA1-Digest: UhVsk9eJH9UfidsLx+5by7GwYww=
-
 Name: assets/char/130.pzx
 SHA1-Digest: CpPvqV/6PqPM0Ux01HDaC7a/jCo=
-
-Name: assets/chinese/data/StrHelpTitle.zt1
-SHA1-Digest: DTjtgXyRbwqBVHgYuAr9JD2yf0o=
-
-Name: assets/japanese/data/XlsSetItem.zt1
-SHA1-Digest: 9WISedmTFTyNpQZ89qQWDhd7TY8=
 
 Name: assets/char/044.mpl
 SHA1-Digest: quN/3X76G4G9m9zNJuGJiAVDyfw=
 
 Name: assets/script/map/019_003.zt1
 SHA1-Digest: H7uuCukrxX/WCthHxuw08s7UDIc=
+
+Name: doc/com/amazon/InApp/transaction/package-use.html
+SHA1-Digest: O/01GA7H9Fagkb625NrpYd1XkJQ=
 
 Name: assets/pc/weapon/1/007.mpl
 SHA1-Digest: XvWICyxZBaZpHk56Eha4hXhHzYg=
@@ -5452,32 +4988,24 @@ SHA1-Digest: m2+kTxNQrnfvtwGZE7PfLSA9Vdo=
 Name: assets/script/quest/039_E.zt1
 SHA1-Digest: k6OndMAD4hAv7ISQ1zIYqsiA8Fc=
 
-Name: res/drawable/loading.png
-SHA1-Digest: ZSKBj3/WJDFJ8eSPdpkb/Rs2qNw=
-
-Name: assets/sound/113.caf
-SHA1-Digest: CAiaSDj1cdMjKZSrUQ9vtOpY5B0=
-
 Name: assets/menu/TeamLogo.pzx
 SHA1-Digest: RYO7ixsk26ishm5Kf2/6+2gIGA8=
 
 Name: assets/ptc/015.ptc
 SHA1-Digest: Yi/aMMOaMDV79WK6cmijwMDaVew=
 
+Name: doc/com/amazon/InApp/purchasing/class-use/SubscriptionPeriod.htm
+ l
+SHA1-Digest: HiWtNsj+nRCAaIYVBn1Yb7tIYGg=
+
 Name: assets/script/quest/090_E.zt1
 SHA1-Digest: 3yWtNOouW00bUOUyAiuFVcKW3L0=
-
-Name: assets/japanese/data/XlsCollection.zt1
-SHA1-Digest: TcD1fz1WQBXPZz2rDMd/3VARm8w=
 
 Name: assets/pc/armor/1/002.mpl
 SHA1-Digest: ibs/P2KgmhMJjAjUrkfoNktfC8M=
 
 Name: res/drawable/ui_menu_back.png
-SHA1-Digest: ZVrmBCP4CQBnlk+Zp/EImgeL+H8=
-
-Name: assets/dummy/dum02.pzx
-SHA1-Digest: ZNipVj7y0FiFcg605HoIEq8TCig=
+SHA1-Digest: jxeEdw1CO0M6+VweWKyo5VL9Wag=
 
 Name: assets/obj/057.pzx
 SHA1-Digest: qymlzo4353bY15va0NUiD8gc3Mo=
@@ -5488,12 +5016,6 @@ SHA1-Digest: yxbSfqD+AvwE9SEKv6MukezSUs4=
 Name: assets/obj/014.mpl
 SHA1-Digest: 1wAISDY9TtwYp3FIUre9Lwr+PPE=
 
-Name: res/drawable/gshop_btn4_jp.png
-SHA1-Digest: fL1DxoWuqSgMztDFWRuVbMi9dBQ=
-
-Name: xml/commonPopupYesNo.xml
-SHA1-Digest: DDYn2Uo20Mn3OnWehlEeJ7ZM4f8=
-
 Name: assets/script/call/096.zt1
 SHA1-Digest: k/3tnoIQUkA/+jUiBnmUDrhJhs0=
 
@@ -5503,14 +5025,8 @@ SHA1-Digest: nRJkX0HYqseajbr5UBoZMXUJ9oY=
 Name: assets/script/quest/091_S.zt1
 SHA1-Digest: I5Ze7nKDmf6ZQJKxBDboCUxManc=
 
-Name: res/bottom_shadow_01.png
-SHA1-Digest: 0mM7GNJ0U8aopNr4NoDUoymlHaY=
-
 Name: assets/char/037.pzx
 SHA1-Digest: Q+5QAUdy75DD1VmKOW+VXI5rMXY=
-
-Name: xml_kt_lg/commonPopup.xml
-SHA1-Digest: RkyTUrAmO6mYOa9cUzqMowohHLg=
 
 Name: assets/char/005.pzx
 SHA1-Digest: XScoqMLQEr9NWdjamOoOEdlvMMs=
@@ -5521,41 +5037,37 @@ SHA1-Digest: rGG3+NXwJ/p7oF/bnbZvtc1EY0M=
 Name: assets/script/quest/115_E.zt1
 SHA1-Digest: xL28sHGLeXtDxb4AdRYgW0mD2jk=
 
-Name: assets/chinese/data/XlsPCStatUp.zt1
-SHA1-Digest: BTeCuFl+ijCgtrPqNge/Ns2bPoo=
-
-Name: assets/chinese/data/XlsTrashItem.zt1
-SHA1-Digest: 7L9hHqF+qX4wetXbK3Dx7Pnsbr8=
-
 Name: assets/data/StrQuestDetail.zt1
 SHA1-Digest: oSNqTYMf2qFjXvhY3BHi8r/N5IQ=
+
+Name: doc/com/amazon/InApp/purchasing/KiwiLogHandler.html
+SHA1-Digest: FgIeu6tddZa6JJFs5N+OoZXvNYA=
+
+Name: doc/com/amazon/InApp/purchasing/class-use/PurchaseResponse.Purch
+ aseRequestStatus.html
+SHA1-Digest: LD+79g54j9D9kZXyBTf58x/fITY=
 
 Name: assets/pc/side_hand/0/006.pzd
 SHA1-Digest: smN462TSi5CgX2DKjXRwyP95FPg=
 
-Name: assets/sound/024.mp3
-SHA1-Digest: rtNJPV28iPLy/jhz4MRRAapE+gk=
-
-Name: assets/chinese/data/XlsPackageItem.zt1
-SHA1-Digest: rUzddr0pW7C/WR2vZ18XeJFTmvI=
-
-Name: assets/chinese/data/StrStatType.zt1
-SHA1-Digest: Krm3QwdRih6DtCRo867k6yR4q8g=
-
 Name: assets/korean/data/StrTalk1.zt1
-SHA1-Digest: RCcKlA2AMmRFiXzrqEo7OZFHje4=
+SHA1-Digest: vfpURwDCn9DXxWKCThCvWA3eBpo=
 
 Name: res/raw/s035.ogg
 SHA1-Digest: aH3d6hAfqBQTI+rL7D7JEUzDD0o=
 
-Name: assets/japanese/data/StrPopup.zt1
-SHA1-Digest: rw6xP9mV7nemdaDUgKdvrL7x8Po=
+Name: doc/com/amazon/InAppSDK/purchasing/SdkObserverNotRegisteredExcep
+ tion.html
+SHA1-Digest: HUTP3iJS9WPJVCu+ari7Do87B88=
+
+Name: assets/dynamic/BlackSmithEffect.pzx
+SHA1-Digest: gjNHNt8dZfuQGu+JIWvT5+ZpR94=
 
 Name: res/drawable/ui_menu_continue.png
 SHA1-Digest: JLb4KLEFbsXAUeDxrnZ/ufbEjmw=
 
-Name: assets/dynamic/BlackSmithEffect.pzx
-SHA1-Digest: gjNHNt8dZfuQGu+JIWvT5+ZpR94=
+Name: doc/com/amazon/InApp/purchasing/SandboxException.html
+SHA1-Digest: uUnI0rCflyUlIks6iNrK1+veKPo=
 
 Name: assets/char/040.mpl
 SHA1-Digest: scpYvShJ1xtqmSYl4z80zjoFlN0=
@@ -5565,6 +5077,9 @@ SHA1-Digest: EZClUppwRg69BLVRi1EnwN+IDHs=
 
 Name: assets/korean/data/XlsRandomBox.zt1
 SHA1-Digest: rPyQYqnOTL/Be3E1daxw5tw3zBw=
+
+Name: doc/com/amazon/InApp/transaction/package-tree.html
+SHA1-Digest: FGR4HhgfOdqOBA2OCaG30PgAfik=
 
 Name: assets/char/042.pzx
 SHA1-Digest: V/Vl5K/56ZGi6Lum/LOF0ATOXeY=
@@ -5585,7 +5100,7 @@ Name: assets/pc/side_hand/0/001.pzd
 SHA1-Digest: Mt6vz6US/JfMPW+DauCcuSuw/9Q=
 
 Name: assets/html/help_eng.html
-SHA1-Digest: /uDMrhtJ+yiFma0vVMWBJd5oh0k=
+SHA1-Digest: KhjO/uFeUtGBT12IQnJeDqpmwuc=
 
 Name: assets/script/map/010_006.zt1
 SHA1-Digest: SLJ/SbRnvUGbOmfdvbUMkLxoFo8=
@@ -5599,9 +5114,6 @@ SHA1-Digest: J2Y0GSjxO0WhTHQ17riz1NMbsDU=
 Name: res/raw/s014.ogg
 SHA1-Digest: OwYtMSp8kW3w4Et4dU2h+KLLHAE=
 
-Name: res/drawable/ui_logo_gamevil.png
-SHA1-Digest: z7b0/Mjjw9Yxvn2scedZbJuIS6g=
-
 Name: assets/script/quest/082_S.zt1
 SHA1-Digest: 4viOKQRJGbzsk1fNjs4vWKRUOJM=
 
@@ -5611,23 +5123,23 @@ SHA1-Digest: dBL/A6BtIVt7xclslnGD2MlXKRg=
 Name: assets/script/quest/031_S.zt1
 SHA1-Digest: U4oh5lNVuyhC6rILRpKu35PxgLc=
 
+Name: doc/com/amazon/InAppSDK/purchasing/PurchasingObserver.html
+SHA1-Digest: UoJ/ciP/a9OFdkfQg0RYhoH9Nt0=
+
 Name: assets/font/exB9_11.ft2
 SHA1-Digest: vtQhbdlpVZIlel/NHv7eE+zKvTQ=
 
-Name: xml_kt_lg/commonPopupYesNo.xml
-SHA1-Digest: DDYn2Uo20Mn3OnWehlEeJ7ZM4f8=
-
 Name: resources.arsc
-SHA1-Digest: 69mlS/NokNwfY7xwUUpNjsu8P88=
+SHA1-Digest: bp4TrS2BkPdNLvNkXtGV35ATOFc=
 
 Name: assets/script/quest/002_S.zt1
 SHA1-Digest: m8qyDyxh8NVukuMEDpB3gz2qlvc=
 
 Name: assets/korean/data/StrQuestDetail.zt1
-SHA1-Digest: oOlBLvzncEghsH88orfLjGmUwcY=
+SHA1-Digest: aN5sDK4bEd299WC2p3dfDkpckQs=
 
 Name: assets/korean/data/StrTalk0.zt1
-SHA1-Digest: oXih7nje0Rp4vY/PS7chNCUo0ro=
+SHA1-Digest: RjLPYRZuTe38L13vQom1KQqyMwY=
 
 Name: assets/script/quest/069_E.zt1
 SHA1-Digest: QujFcVM+E3nSPiRwc+4xB3VOkSg=
@@ -5653,6 +5165,9 @@ SHA1-Digest: FJfzqohqNkaD6sxIrPQF4FefkTw=
 Name: assets/script/quest/089_S.zt1
 SHA1-Digest: /lBax61iZ3pUwUD9oIrxYHMel7g=
 
+Name: doc/com/amazon/InApp/transaction/ReceiptDataResponse.html
+SHA1-Digest: RgYk2/6MWxD9qfO/lYXANfdAjAM=
+
 Name: assets/char/034.pzx
 SHA1-Digest: LrkBFFbAsNGnKIb7+8cU1kaW7aw=
 
@@ -5662,23 +5177,17 @@ SHA1-Digest: 20vwFlml2Rp76ffJWGwoDvSYrpc=
 Name: assets/pc/head/3/003.pzd
 SHA1-Digest: zYeHiY+WcSmOeyqXoDtW3HMJe8g=
 
-Name: xml/purchaseH_Auto.xml
-SHA1-Digest: fQDLXyVnQ4BBqlfn+gME9YbPvYY=
-
 Name: assets/pc/armor/3/001.mpl
 SHA1-Digest: okOdIXKjDFL6gghER6qZyxLzI7s=
 
-Name: res/drawable/auth_tit.png
-SHA1-Digest: zNG5Pv3SDzuYWO0CTfgNwI0fRu8=
-
 Name: assets/data/XlsChargeItem.zt1
-SHA1-Digest: 2TR157cy96QnH1kWat4bJcriSV0=
+SHA1-Digest: CE+v+8ik/P33ogiZPF6+Ploti8g=
+
+Name: res/drawable/auth_tit.png
+SHA1-Digest: 3XHHlJ/lrY/Ld07NOv4R/F5Y7/k=
 
 Name: assets/script/quest/111_S.zt1
 SHA1-Digest: qEEHwbTDeIzBYluZ5/FJfkts10Q=
-
-Name: assets/sound/003.mp3
-SHA1-Digest: AufBTM3h3CMa0n9Fn5XXGI9PKX8=
 
 Name: assets/map/015.zt1
 SHA1-Digest: SD82hH0nc2clt6JfZwHw0Zu04kY=
@@ -5690,7 +5199,7 @@ Name: assets/map/165.zt1
 SHA1-Digest: 7JoTFp+yR2/SGk58pmGZtAhpuwA=
 
 Name: assets/html/about.html
-SHA1-Digest: j0Kc/+HJNd/8+UI8zvcBqsPF/4U=
+SHA1-Digest: B/FUWSj6BtP9aFEKx+HdOZ2ant0=
 
 Name: assets/obj/078.pzx
 SHA1-Digest: S5LmXZhk0M8MRkulayZMUyhSWTI=
@@ -5716,12 +5225,6 @@ SHA1-Digest: HwDV3pEvk0CnA2J6U9Rg2o7vWik=
 Name: assets/ptc/048.ptc
 SHA1-Digest: 1N+vsO4rGWtw21/3S3EgkvHpGW8=
 
-Name: assets/illusiaDpad.pzx
-SHA1-Digest: OM6WgUy344rtPQ8puh/U3gyHmxE=
-
-Name: res/drawable/gamevil_live_button.xml
-SHA1-Digest: ucNzsgDiR+CGqM7TTNsK71lHGys=
-
 Name: assets/obj/028.pzx
 SHA1-Digest: lOnG+i/FLb4RsYBOeSzjXf9ywY4=
 
@@ -5734,23 +5237,11 @@ SHA1-Digest: /w8SpNRoBrPcSaEzJvJLj1WR39c=
 Name: assets/map/108.zt1
 SHA1-Digest: 01eKpT6mjGjbcHA9ognMWHyYBPM=
 
-Name: res/keypad_num_01.png
-SHA1-Digest: K3iWTeF9RSYzoZhUO5uS92YrtGQ=
-
 Name: res/raw/s011.ogg
 SHA1-Digest: slPnz6nzFroKNwKQ+dkeFzOhK6U=
 
-Name: xml_kt_lg/commonPopupJoinH.xml
-SHA1-Digest: 4rJeyA6nVIKYyGWpw+0KLJCgnZ4=
-
-Name: assets/sound/027.mp3
-SHA1-Digest: bi2hSogRF6DmqbvMcgxAKrabrXE=
-
-Name: xml_kt_lg/commonPopupJoin.xml
-SHA1-Digest: PFc1L1Nzm6b9RyN/G/06eB4Jbsg=
-
-Name: assets/html/about_eng.html
-SHA1-Digest: 8q8GUyOcH8kRP8NzQpxuJZOz+XU=
+Name: doc/com/amazon/InApp/purchasing/Receipt.html
+SHA1-Digest: hoRBIRy9rOgjiiM4JJpC5VD7Akk=
 
 Name: assets/pc/weapon/3/000.pzd
 SHA1-Digest: kwG+NK3nrFVtXFPs9cfcwLrrXqY=
@@ -5758,14 +5249,14 @@ SHA1-Digest: kwG+NK3nrFVtXFPs9cfcwLrrXqY=
 Name: assets/obj/122.pzx
 SHA1-Digest: jhKzLSJ4P27JPHnwJ3uaMW/wXls=
 
-Name: res/drawable/ui_menu_newgame.png
-SHA1-Digest: HvoIYOQHMjPzQJHquESW02shnf4=
+Name: assets/obj/027.mpl
+SHA1-Digest: XSRfuZLLkUDmXuP+MP4rmBDMkfo=
 
 Name: assets/char/040.pzx
 SHA1-Digest: Rk4O/QxkJy7TVj2U0p9vwTCIRfE=
 
-Name: assets/obj/027.mpl
-SHA1-Digest: XSRfuZLLkUDmXuP+MP4rmBDMkfo=
+Name: res/drawable/ui_menu_newgame.png
+SHA1-Digest: HvoIYOQHMjPzQJHquESW02shnf4=
 
 Name: assets/dynamic/SkillEffectBuff.pzx
 SHA1-Digest: KMgLpZsHJAH7gdcp9TI+rd9dPsE=
@@ -5773,14 +5264,8 @@ SHA1-Digest: KMgLpZsHJAH7gdcp9TI+rd9dPsE=
 Name: assets/char/031.mpl
 SHA1-Digest: Rpi74SeIHWPEiaoCWgb2YsmhFwM=
 
-Name: assets/chinese/data/XlsProjectile.zt1
-SHA1-Digest: LELuVCFNDIJs1MJ9gE7y82JtvP0=
-
 Name: assets/obj/102.pzx
 SHA1-Digest: 8QJ2M3pVLe1zmNUGPNooDW9Gagk=
-
-Name: assets/chinese/data/StrQuestSum.zt1
-SHA1-Digest: qqJBqhyTkH6T9k12T6B7a8OtsjI=
 
 Name: assets/obj/008.mpl
 SHA1-Digest: Xbjy7Vfze8SVThGw2l2J0f+RINQ=
@@ -5800,9 +5285,6 @@ SHA1-Digest: kPsM0ryallAFDUwsCkPQd496TMA=
 Name: assets/pc/001.pza
 SHA1-Digest: Gv7ZBYoEtDIvAdLR7ugPa9C0YR4=
 
-Name: assets/sound/040.mp3
-SHA1-Digest: K+U8R1zLjW7yuA/k6gIxjhcAnLE=
-
 Name: assets/pc/weapon/2/001.mpl
 SHA1-Digest: BSSLdpScEBC0/nLBKSpp0xU1oLY=
 
@@ -5818,8 +5300,9 @@ SHA1-Digest: E7drkPC1Pfdm5rKLGmxJClSQurE=
 Name: assets/ptc/010.ptc
 SHA1-Digest: r5bpJCMvpMIBoZrw6s1Rl9WWYpI=
 
-Name: assets/japanese/data/XlsItemRoutingType.zt1
-SHA1-Digest: sSOapytha0ayavkOFxL15zU4plY=
+Name: doc/com/amazon/InAppSDK/purchasing/class-use/ItemDataResponse.It
+ emDataRequestStatus.html
+SHA1-Digest: KI0LKC1YsB9gzUeVlb9KY7lOTBE=
 
 Name: assets/korean/data/XlsPVP.zt1
 SHA1-Digest: oPgFb9Sdxo/MhUgscgS1l3X/sXo=
@@ -5830,26 +5313,14 @@ SHA1-Digest: lgZHszT7+DV0zP5Btd3jQYGrboI=
 Name: assets/script/quest/072_E.zt1
 SHA1-Digest: hHFaNVU40HtwbPz7bE8Xg9uPhXI=
 
-Name: res/keypad_num_04.png
-SHA1-Digest: 18IdQs+hGEsiQvwuprgNbPuAg6A=
-
-Name: assets/chinese/data/XlsDropItem.zt1
-SHA1-Digest: me+nM4Kpo/i6LanT4irbEu05E0c=
-
 Name: assets/neterror.gif
 SHA1-Digest: 5ImVu4Z4VOzoSBF9g7vkbXroH2I=
 
 Name: assets/obj/033.pzx
 SHA1-Digest: 62ImYDV/twtcp0kOi1tuNiK35u8=
 
-Name: assets/japanese/data/XlsGameData.zt1
-SHA1-Digest: yfoWzBmY7QpUUVmEvtEWxci6rCY=
-
-Name: assets/sound/029.mp3
-SHA1-Digest: R3/uTpJlmEz8PF1lX514yJqNySM=
-
-Name: assets/sound/062.mp3
-SHA1-Digest: uQJ8TEkRpXDsaRF1DyLKyrrP6DU=
+Name: doc/com/amazon/InApp/purchasing/class-use/SandboxException.html
+SHA1-Digest: Bywh2p1hSzvHFMCNr4zBDcVYfIw=
 
 Name: assets/script/quest/055_E.zt1
 SHA1-Digest: Z48OaZdNpacPrKciJQVwju2u6Qc=
@@ -5886,9 +5357,6 @@ SHA1-Digest: ZiT1NMiRqViV6MQ5kqQkJDoXY2Y=
 
 Name: assets/script/quest/103_S.zt1
 SHA1-Digest: tLcyYZ9/eSfUushUc5Da87kkw4k=
-
-Name: res/bt_nor.9.png
-SHA1-Digest: ywETrV3lnCSmoSMPEbwTe2zw3ao=
 
 Name: assets/dynamic/SkillEffectEtc.pzx
 SHA1-Digest: GzhBhgu2TS018wIIkUheCsojpBQ=

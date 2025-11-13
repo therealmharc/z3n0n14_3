@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/tapjoy/TapjoyVideoView$4;->this$0:Lcom/tapjoy/TapjoyVideoView;
 
-    .line 585
+    .line 581
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -42,11 +42,11 @@
     .param p1, "v"    # Landroid/view/View;
 
     .prologue
-    .line 590
+    .line 586
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView$4;->this$0:Lcom/tapjoy/TapjoyVideoView;
 
     invoke-virtual {v0}, Lcom/tapjoy/TapjoyVideoView;->finish()V
 
-    .line 591
+    .line 587
     return-void
 .end method

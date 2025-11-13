@@ -56,57 +56,52 @@
 
     const/4 v3, 0x0
 
-    .line 43
+    .line 44
     new-instance v0, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;
 
     const-string v1, "INVALID_PACKAGE_NAME"
 
     invoke-direct {v0, v1, v3}, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;-><init>(Ljava/lang/String;I)V
 
-    .line 44
     sput-object v0, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;->INVALID_PACKAGE_NAME:Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;
 
-    .line 45
+    .line 46
     new-instance v0, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;
 
     const-string v1, "NON_MATCHING_UID"
 
     invoke-direct {v0, v1, v4}, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;-><init>(Ljava/lang/String;I)V
 
-    .line 46
     sput-object v0, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;->NON_MATCHING_UID:Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;
 
-    .line 47
+    .line 48
     new-instance v0, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;
 
     const-string v1, "NOT_MARKET_MANAGED"
 
     invoke-direct {v0, v1, v5}, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;-><init>(Ljava/lang/String;I)V
 
-    .line 48
     sput-object v0, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;->NOT_MARKET_MANAGED:Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;
 
-    .line 49
+    .line 51
     new-instance v0, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;
 
     const-string v1, "CHECK_IN_PROGRESS"
 
     invoke-direct {v0, v1, v6}, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;-><init>(Ljava/lang/String;I)V
 
-    .line 51
     sput-object v0, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;->CHECK_IN_PROGRESS:Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;
 
-    .line 52
+    .line 53
     new-instance v0, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;
 
     const-string v1, "INVALID_PUBLIC_KEY"
 
     invoke-direct {v0, v1, v7}, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;-><init>(Ljava/lang/String;I)V
 
-    .line 53
     sput-object v0, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;->INVALID_PUBLIC_KEY:Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;
 
-    .line 54
+    .line 55
     new-instance v0, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;
 
     const-string v1, "MISSING_PERMISSION"
@@ -115,10 +110,9 @@
 
     invoke-direct {v0, v1, v2}, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;-><init>(Ljava/lang/String;I)V
 
-    .line 55
     sput-object v0, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;->MISSING_PERMISSION:Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;
 
-    .line 57
+    .line 58
     new-instance v0, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;
 
     const-string v1, "NETWORK_ERROR"
@@ -127,7 +121,6 @@
 
     invoke-direct {v0, v1, v2}, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;-><init>(Ljava/lang/String;I)V
 
-    .line 58
     sput-object v0, Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;->NETWORK_ERROR:Lcom/android/vending/licensing/LicenseCheckerCallback$ApplicationErrorCode;
 
     .line 42

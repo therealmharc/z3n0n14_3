@@ -63,14 +63,14 @@
     .locals 1
 
     .prologue
-    .line 214
+    .line 222
     new-instance v0, Lcom/gamevil/nexus2/xml/NewsViewTask$1;
 
     invoke-direct {v0}, Lcom/gamevil/nexus2/xml/NewsViewTask$1;-><init>()V
 
     sput-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->imageListener:Landroid/view/View$OnClickListener;
 
-    .line 73
+    .line 84
     return-void
 .end method
 
@@ -78,36 +78,36 @@
     .locals 1
 
     .prologue
-    .line 96
+    .line 107
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
-    .line 222
+    .line 232
     new-instance v0, Lcom/gamevil/nexus2/xml/NewsViewTask$2;
 
     invoke-direct {v0, p0}, Lcom/gamevil/nexus2/xml/NewsViewTask$2;-><init>(Lcom/gamevil/nexus2/xml/NewsViewTask;)V
 
     iput-object v0, p0, Lcom/gamevil/nexus2/xml/NewsViewTask;->newsListener:Landroid/view/View$OnClickListener;
 
-    .line 237
+    .line 248
     new-instance v0, Lcom/gamevil/nexus2/xml/NewsViewTask$3;
 
     invoke-direct {v0, p0}, Lcom/gamevil/nexus2/xml/NewsViewTask$3;-><init>(Lcom/gamevil/nexus2/xml/NewsViewTask;)V
 
     iput-object v0, p0, Lcom/gamevil/nexus2/xml/NewsViewTask;->cancleListener:Landroid/view/View$OnClickListener;
 
-    .line 98
+    .line 109
     const/4 v0, 0x0
 
     sput-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->mHandler:Landroid/os/Handler;
 
-    .line 99
+    .line 110
     new-instance v0, Landroid/os/Handler;
 
     invoke-direct {v0}, Landroid/os/Handler;-><init>()V
 
     sput-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->mHandler:Landroid/os/Handler;
 
-    .line 100
+    .line 111
     return-void
 .end method
 
@@ -115,7 +115,7 @@
     .locals 1
 
     .prologue
-    .line 237
+    .line 248
     iget-object v0, p0, Lcom/gamevil/nexus2/xml/NewsViewTask;->cancleListener:Landroid/view/View$OnClickListener;
 
     return-object v0
@@ -125,7 +125,7 @@
     .locals 1
 
     .prologue
-    .line 90
+    .line 101
     sget-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->imgDrawable:Landroid/graphics/Bitmap;
 
     return-object v0
@@ -135,7 +135,7 @@
     .locals 1
 
     .prologue
-    .line 91
+    .line 102
     sget-boolean v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->isNewNews:Z
 
     return v0
@@ -145,7 +145,7 @@
     .locals 0
 
     .prologue
-    .line 88
+    .line 99
     sput-object p0, Lcom/gamevil/nexus2/xml/NewsViewTask;->pl:Landroid/widget/FrameLayout$LayoutParams;
 
     return-void
@@ -155,7 +155,7 @@
     .locals 1
 
     .prologue
-    .line 93
+    .line 104
     sget-boolean v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->showCalled:Z
 
     return v0
@@ -165,7 +165,7 @@
     .locals 1
 
     .prologue
-    .line 84
+    .line 95
     sget-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->marketSubfix:Ljava/lang/String;
 
     return-object v0
@@ -175,7 +175,7 @@
     .locals 1
 
     .prologue
-    .line 88
+    .line 99
     sget-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->pl:Landroid/widget/FrameLayout$LayoutParams;
 
     return-object v0
@@ -185,7 +185,7 @@
     .locals 0
 
     .prologue
-    .line 244
+    .line 255
     invoke-direct {p0}, Lcom/gamevil/nexus2/xml/NewsViewTask;->showNewsBanner()V
 
     return-void
@@ -195,7 +195,7 @@
     .locals 0
 
     .prologue
-    .line 260
+    .line 268
     invoke-direct {p0}, Lcom/gamevil/nexus2/xml/NewsViewTask;->hideNewsBanner()V
 
     return-void
@@ -205,7 +205,7 @@
     .locals 0
 
     .prologue
-    .line 89
+    .line 100
     sput-object p0, Lcom/gamevil/nexus2/xml/NewsViewTask;->f:Landroid/widget/FrameLayout;
 
     return-void
@@ -215,7 +215,7 @@
     .locals 1
 
     .prologue
-    .line 89
+    .line 100
     sget-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->f:Landroid/widget/FrameLayout;
 
     return-object v0
@@ -225,7 +225,7 @@
     .locals 1
 
     .prologue
-    .line 214
+    .line 222
     sget-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->imageListener:Landroid/view/View$OnClickListener;
 
     return-object v0
@@ -235,56 +235,23 @@
     .locals 1
 
     .prologue
-    .line 222
+    .line 232
     iget-object v0, p0, Lcom/gamevil/nexus2/xml/NewsViewTask;->newsListener:Landroid/view/View$OnClickListener;
 
     return-object v0
 .end method
 
 .method private static getNewsImage(Ljava/lang/String;)Landroid/graphics/Bitmap;
-    .locals 7
+    .locals 5
     .param p0, "url"    # Ljava/lang/String;
 
     .prologue
     const/4 v3, 0x0
 
-    .line 285
-    sget-object v4, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    const-string v5, "+-------------------------------"
-
-    invoke-virtual {v4, v5}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 286
-    sget-object v4, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v5, Ljava/lang/StringBuilder;
-
-    const-string v6, "|\tgetNewsImage\t "
-
-    invoke-direct {v5, v6}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v5, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v5
-
-    invoke-virtual {v5}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v5
-
-    invoke-virtual {v4, v5}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 287
-    sget-object v4, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    const-string v5, "+-------------------------------"
-
-    invoke-virtual {v4, v5}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 290
+    .line 292
     const/4 v1, 0x0
 
-    .line 292
+    .line 294
     .local v1, "img":Landroid/graphics/Bitmap;
     :try_start_0
     new-instance v4, Ljava/net/URL;
@@ -295,7 +262,7 @@
 
     move-result-object v2
 
-    .line 293
+    .line 295
     .local v2, "in":Ljava/io/InputStream;
     invoke-static {v2}, Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream;)Landroid/graphics/Bitmap;
     :try_end_0
@@ -306,25 +273,25 @@
 
     move-object v3, v1
 
-    .line 300
+    .line 302
     .end local v2    # "in":Ljava/io/InputStream;
     :goto_0
     return-object v3
 
-    .line 295
+    .line 297
     :catch_0
     move-exception v0
 
-    .line 296
+    .line 298
     .local v0, "e":Ljava/net/MalformedURLException;
     goto :goto_0
 
-    .line 297
+    .line 299
     .end local v0    # "e":Ljava/net/MalformedURLException;
     :catch_1
     move-exception v0
 
-    .line 298
+    .line 300
     .local v0, "e":Ljava/io/IOException;
     goto :goto_0
 .end method
@@ -335,12 +302,12 @@
     .prologue
     const/4 v5, 0x0
 
-    .line 262
+    .line 270
     sget-object v3, Lcom/gamevil/nexus2/xml/NewsViewTask;->f:Landroid/widget/FrameLayout;
 
     if-eqz v3, :cond_0
 
-    .line 264
+    .line 272
     sget-object v3, Lcom/gamevil/nexus2/xml/NewsViewTask;->f:Landroid/widget/FrameLayout;
 
     invoke-virtual {v3}, Landroid/widget/FrameLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -351,39 +318,39 @@
 
     sput-object v3, Lcom/gamevil/nexus2/xml/NewsViewTask;->pl:Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 265
+    .line 273
     sget-object v3, Lcom/gamevil/nexus2/xml/NewsViewTask;->pl:Landroid/widget/FrameLayout$LayoutParams;
 
     const/16 v4, -0x6e
 
     iput v4, v3, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 267
+    .line 274
     sget-object v3, Lcom/gamevil/nexus2/xml/NewsViewTask;->f:Landroid/widget/FrameLayout;
 
     sget-object v4, Lcom/gamevil/nexus2/xml/NewsViewTask;->pl:Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-virtual {v3, v4}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 269
+    .line 276
     sget-object v3, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    const v4, 0x7f040002
+    const v4, 0x7f040001
 
     invoke-static {v3, v4}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
     move-result-object v2
 
-    .line 271
+    .line 277
     .local v2, "shake":Landroid/view/animation/Animation;
     sget-object v3, Lcom/gamevil/nexus2/xml/NewsViewTask;->f:Landroid/widget/FrameLayout;
 
     invoke-virtual {v3, v2}, Landroid/widget/FrameLayout;->startAnimation(Landroid/view/animation/Animation;)V
 
-    .line 273
+    .line 279
     sput-boolean v5, Lcom/gamevil/nexus2/xml/NewsViewTask;->isNewNews:Z
 
-    .line 274
+    .line 280
     sget-object v3, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
     const-string v4, "NewsData"
@@ -392,13 +359,13 @@
 
     move-result-object v1
 
-    .line 275
+    .line 281
     .local v1, "settings":Landroid/content/SharedPreferences;
     invoke-interface {v1}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v0
 
-    .line 276
+    .line 282
     .local v0, "editor":Landroid/content/SharedPreferences$Editor;
     const-string v3, "isNew"
 
@@ -406,10 +373,10 @@
 
     invoke-interface {v0, v3, v4}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
 
-    .line 277
+    .line 283
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
-    .line 280
+    .line 286
     .end local v0    # "editor":Landroid/content/SharedPreferences$Editor;
     .end local v1    # "settings":Landroid/content/SharedPreferences;
     .end local v2    # "shake":Landroid/view/animation/Animation;
@@ -421,17 +388,17 @@
     .locals 2
 
     .prologue
-    .line 328
+    .line 337
     const/4 v0, 0x0
 
     sput-boolean v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->showCalled:Z
 
-    .line 329
+    .line 339
     sget-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->mHandler:Landroid/os/Handler;
 
     if-eqz v0, :cond_0
 
-    .line 331
+    .line 341
     sget-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/nexus2/xml/NewsViewTask$6;
@@ -440,7 +407,7 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 343
+    .line 352
     :cond_0
     return-void
 .end method
@@ -450,29 +417,29 @@
     .param p0, "name"    # Ljava/lang/String;
 
     .prologue
-    .line 356
+    .line 365
     sget-object v2, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
     invoke-virtual {v2}, Lcom/gamevil/nexus2/NexusGLActivity;->getFilesDir()Ljava/io/File;
 
     move-result-object v1
 
-    .line 357
+    .line 366
     .local v1, "path":Ljava/io/File;
     if-eqz v1, :cond_0
 
-    .line 358
+    .line 367
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, v1, p0}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 359
+    .line 368
     .local v0, "file":Ljava/io/File;
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
     move-result v2
 
-    .line 361
+    .line 370
     .end local v0    # "file":Ljava/io/File;
     :goto_0
     return v2
@@ -484,47 +451,14 @@
 .end method
 
 .method private static loadPngFileFromSdCard(Ljava/lang/String;)Landroid/graphics/Bitmap;
-    .locals 6
+    .locals 4
     .param p0, "name"    # Ljava/lang/String;
 
     .prologue
-    .line 394
-    sget-object v3, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    const-string v4, "+-------------------------------"
-
-    invoke-virtual {v3, v4}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 395
-    sget-object v3, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v4, Ljava/lang/StringBuilder;
-
-    const-string v5, "|\tloadPngFileFromSdCard\t "
-
-    invoke-direct {v4, v5}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v4, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v4
-
-    invoke-virtual {v4}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v4
-
-    invoke-virtual {v3, v4}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 396
-    sget-object v3, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    const-string v4, "+-------------------------------"
-
-    invoke-virtual {v3, v4}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 398
+    .line 399
     const/4 v1, 0x0
 
-    .line 399
+    .line 400
     .local v1, "myBitmap":Landroid/graphics/Bitmap;
     sget-object v3, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
@@ -532,16 +466,16 @@
 
     move-result-object v2
 
-    .line 400
+    .line 401
     .local v2, "path":Ljava/io/File;
     if-eqz v2, :cond_0
 
-    .line 401
+    .line 402
     new-instance v0, Ljava/io/File;
 
     invoke-direct {v0, v2, p0}, Ljava/io/File;-><init>(Ljava/io/File;Ljava/lang/String;)V
 
-    .line 402
+    .line 403
     .local v0, "file":Ljava/io/File;
     invoke-virtual {v0}, Ljava/io/File;->exists()Z
 
@@ -549,7 +483,7 @@
 
     if-eqz v3, :cond_0
 
-    .line 404
+    .line 405
     invoke-virtual {v0}, Ljava/io/File;->getPath()Ljava/lang/String;
 
     move-result-object v3
@@ -558,7 +492,7 @@
 
     move-result-object v1
 
-    .line 407
+    .line 408
     .end local v0    # "file":Ljava/io/File;
     :cond_0
     return-object v1
@@ -570,21 +504,21 @@
     .prologue
     const/4 v0, 0x0
 
-    .line 347
+    .line 356
     sput-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->pl:Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 348
+    .line 357
     sput-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->f:Landroid/widget/FrameLayout;
 
-    .line 349
+    .line 358
     sput-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->imgDrawable:Landroid/graphics/Bitmap;
 
-    .line 351
+    .line 360
     return-void
 .end method
 
 .method private static savePngFileToSdCard(Landroid/graphics/Bitmap;Ljava/lang/String;)I
-    .locals 9
+    .locals 8
     .param p0, "imageData"    # Landroid/graphics/Bitmap;
     .param p1, "name"    # Ljava/lang/String;
 
@@ -593,47 +527,14 @@
 
     const/16 v5, -0x63
 
-    .line 366
-    sget-object v6, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    const-string v7, "+-------------------------------"
-
-    invoke-virtual {v6, v7}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 367
-    sget-object v6, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    new-instance v7, Ljava/lang/StringBuilder;
-
-    const-string v8, "|\tsavePngFileToSdCard\t "
-
-    invoke-direct {v7, v8}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
-
-    invoke-virtual {v7, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v7
-
-    invoke-virtual {v7}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v7
-
-    invoke-virtual {v6, v7}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 368
-    sget-object v6, Ljava/lang/System;->out:Ljava/io/PrintStream;
-
-    const-string v7, "+-------------------------------"
-
-    invoke-virtual {v6, v7}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 370
+    .line 375
     const/4 v3, 0x0
 
-    .line 371
+    .line 376
     .local v3, "fos":Ljava/io/FileOutputStream;
     const/4 v0, 0x0
 
-    .line 373
+    .line 378
     .local v0, "bos":Ljava/io/BufferedOutputStream;
     :try_start_0
     sget-object v6, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
@@ -644,7 +545,7 @@
 
     move-result-object v3
 
-    .line 374
+    .line 379
     new-instance v1, Ljava/io/BufferedOutputStream;
 
     invoke-direct {v1, v3}, Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
@@ -652,7 +553,7 @@
     .catch Ljava/io/FileNotFoundException; {:try_start_0 .. :try_end_0} :catch_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_1
 
-    .line 375
+    .line 380
     .end local v0    # "bos":Ljava/io/BufferedOutputStream;
     .local v1, "bos":Ljava/io/BufferedOutputStream;
     :try_start_1
@@ -662,13 +563,13 @@
 
     invoke-virtual {p0, v6, v7, v1}, Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat;ILjava/io/OutputStream;)Z
 
-    .line 376
+    .line 381
     invoke-virtual {v1}, Ljava/io/BufferedOutputStream;->flush()V
 
-    .line 377
+    .line 382
     invoke-virtual {v1}, Ljava/io/BufferedOutputStream;->close()V
 
-    .line 378
+    .line 383
     invoke-virtual {v3}, Ljava/io/FileOutputStream;->close()V
     :try_end_1
     .catch Ljava/io/FileNotFoundException; {:try_start_1 .. :try_end_1} :catch_3
@@ -676,42 +577,42 @@
 
     move-object v0, v1
 
-    .line 388
+    .line 393
     .end local v1    # "bos":Ljava/io/BufferedOutputStream;
     .restart local v0    # "bos":Ljava/io/BufferedOutputStream;
     :goto_0
     return v4
 
-    .line 380
+    .line 385
     :catch_0
     move-exception v2
 
-    .line 381
+    .line 386
     .local v2, "e":Ljava/io/FileNotFoundException;
     :goto_1
     invoke-virtual {v2}, Ljava/io/FileNotFoundException;->printStackTrace()V
 
     move v4, v5
 
-    .line 382
+    .line 387
     goto :goto_0
 
-    .line 383
+    .line 388
     .end local v2    # "e":Ljava/io/FileNotFoundException;
     :catch_1
     move-exception v2
 
-    .line 384
+    .line 389
     .local v2, "e":Ljava/io/IOException;
     :goto_2
     invoke-virtual {v2}, Ljava/io/IOException;->printStackTrace()V
 
     move v4, v5
 
-    .line 385
+    .line 390
     goto :goto_0
 
-    .line 383
+    .line 388
     .end local v0    # "bos":Ljava/io/BufferedOutputStream;
     .end local v2    # "e":Ljava/io/IOException;
     .restart local v1    # "bos":Ljava/io/BufferedOutputStream;
@@ -724,7 +625,7 @@
     .restart local v0    # "bos":Ljava/io/BufferedOutputStream;
     goto :goto_2
 
-    .line 380
+    .line 385
     .end local v0    # "bos":Ljava/io/BufferedOutputStream;
     .restart local v1    # "bos":Ljava/io/BufferedOutputStream;
     :catch_3
@@ -741,12 +642,12 @@
     .locals 3
 
     .prologue
-    .line 246
+    .line 257
     sget-object v1, Lcom/gamevil/nexus2/xml/NewsViewTask;->f:Landroid/widget/FrameLayout;
 
     if-eqz v1, :cond_0
 
-    .line 248
+    .line 259
     sget-object v1, Lcom/gamevil/nexus2/xml/NewsViewTask;->f:Landroid/widget/FrameLayout;
 
     invoke-virtual {v1}, Landroid/widget/FrameLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
@@ -757,36 +658,36 @@
 
     sput-object v1, Lcom/gamevil/nexus2/xml/NewsViewTask;->pl:Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 249
+    .line 260
     sget-object v1, Lcom/gamevil/nexus2/xml/NewsViewTask;->pl:Landroid/widget/FrameLayout$LayoutParams;
 
     const/4 v2, 0x0
 
     iput v2, v1, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 252
+    .line 261
     sget-object v1, Lcom/gamevil/nexus2/xml/NewsViewTask;->f:Landroid/widget/FrameLayout;
 
     sget-object v2, Lcom/gamevil/nexus2/xml/NewsViewTask;->pl:Landroid/widget/FrameLayout$LayoutParams;
 
     invoke-virtual {v1, v2}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 253
+    .line 262
     sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    const v2, 0x7f040001
+    const/high16 v2, 0x7f040000
 
     invoke-static {v1, v2}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
 
     move-result-object v0
 
-    .line 255
+    .line 263
     .local v0, "shake":Landroid/view/animation/Animation;
     sget-object v1, Lcom/gamevil/nexus2/xml/NewsViewTask;->f:Landroid/widget/FrameLayout;
 
     invoke-virtual {v1, v0}, Landroid/widget/FrameLayout;->startAnimation(Landroid/view/animation/Animation;)V
 
-    .line 258
+    .line 266
     .end local v0    # "shake":Landroid/view/animation/Animation;
     :cond_0
     return-void
@@ -796,22 +697,22 @@
     .locals 2
 
     .prologue
-    .line 305
+    .line 310
     const/4 v0, 0x1
 
     sput-boolean v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->showCalled:Z
 
-    .line 306
+    .line 312
     sget-boolean v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->isNewsViewReady:Z
 
     if-eqz v0, :cond_0
 
-    .line 307
+    .line 314
     sget-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->mHandler:Landroid/os/Handler;
 
     if-eqz v0, :cond_0
 
-    .line 309
+    .line 316
     sget-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/nexus2/xml/NewsViewTask$5;
@@ -820,7 +721,7 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 324
+    .line 330
     :cond_0
     return-void
 .end method
@@ -846,7 +747,7 @@
     .param p1, "params"    # [Ljava/lang/String;
 
     .prologue
-    .line 106
+    .line 117
     :try_start_0
     new-instance v19, Ljava/net/URL;
 
@@ -856,7 +757,7 @@
 
     invoke-direct/range {v19 .. v20}, Ljava/net/URL;-><init>(Ljava/lang/String;)V
 
-    .line 107
+    .line 118
     .local v19, "text":Ljava/net/URL;
     invoke-virtual/range {v19 .. v19}, Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
 
@@ -870,7 +771,7 @@
 
     iput-object v0, v1, Lcom/gamevil/nexus2/xml/NewsViewTask;->http:Ljava/net/HttpURLConnection;
 
-    .line 109
+    .line 120
     sget-object v20, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
     const-string v21, "NewsData"
@@ -881,7 +782,7 @@
 
     move-result-object v18
 
-    .line 110
+    .line 121
     .local v18, "settings":Landroid/content/SharedPreferences;
     const-string v20, "isNew"
 
@@ -899,7 +800,7 @@
 
     sput-boolean v20, Lcom/gamevil/nexus2/xml/NewsViewTask;->isNewNews:Z
 
-    .line 111
+    .line 122
     const-string v20, "lastTime"
 
     const-wide/16 v21, 0x0
@@ -914,7 +815,7 @@
 
     move-result-wide v14
 
-    .line 112
+    .line 123
     .local v14, "savedModify":J
     const-string v20, "lastCheck"
 
@@ -930,7 +831,7 @@
 
     move-result-wide v16
 
-    .line 113
+    .line 124
     .local v16, "savedTime":J
     move-object/from16 v0, p0
 
@@ -942,7 +843,7 @@
 
     move-result-wide v9
 
-    .line 114
+    .line 125
     .local v9, "lastModified":J
     const-string v20, "bannerUrl"
 
@@ -958,17 +859,17 @@
 
     move-result-object v4
 
-    .line 115
+    .line 126
     .local v4, "_bannerUrl":Ljava/lang/String;
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
     move-result-wide v5
 
-    .line 116
+    .line 127
     .local v5, "currentTime":J
     sub-long v12, v5, v16
 
-    .line 117
+    .line 128
     .local v12, "oneDay":J
     const-wide/32 v20, 0x5265c00
 
@@ -978,7 +879,7 @@
 
     const/4 v11, 0x1
 
-    .line 120
+    .line 131
     .local v11, "needToCheck":Z
     :goto_0
     if-eqz v4, :cond_0
@@ -999,13 +900,13 @@
 
     if-eqz v20, :cond_1
 
-    .line 122
+    .line 133
     :cond_0
     const/16 v20, 0x1
 
     sput-boolean v20, Lcom/gamevil/nexus2/xml/NewsViewTask;->isNewNews:Z
 
-    .line 126
+    .line 137
     :cond_1
     const-string v20, "newsImage"
 
@@ -1015,10 +916,10 @@
 
     if-nez v20, :cond_2
 
-    .line 128
+    .line 139
     const/4 v11, 0x1
 
-    .line 131
+    .line 142
     :cond_2
     if-nez v11, :cond_3
 
@@ -1026,7 +927,7 @@
 
     if-eqz v20, :cond_6
 
-    .line 133
+    .line 144
     :cond_3
     const/16 v20, 0x0
 
@@ -1038,7 +939,7 @@
 
     sput-object v20, Lcom/gamevil/nexus2/xml/NewsViewTask;->imgDrawable:Landroid/graphics/Bitmap;
 
-    .line 134
+    .line 145
     sget-object v20, Lcom/gamevil/nexus2/xml/NewsViewTask;->imgDrawable:Landroid/graphics/Bitmap;
 
     if-eqz v20, :cond_4
@@ -1053,12 +954,12 @@
 
     if-nez v20, :cond_4
 
-    .line 136
+    .line 147
     invoke-interface/range {v18 .. v18}, Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
 
     move-result-object v8
 
-    .line 137
+    .line 148
     .local v8, "editor":Landroid/content/SharedPreferences$Editor;
     const-string v20, "isNew"
 
@@ -1070,21 +971,21 @@
 
     invoke-interface {v8, v0, v1}, Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String;Z)Landroid/content/SharedPreferences$Editor;
 
-    .line 138
+    .line 149
     const-string v20, "lastTime"
 
     move-object/from16 v0, v20
 
     invoke-interface {v8, v0, v9, v10}, Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String;J)Landroid/content/SharedPreferences$Editor;
 
-    .line 139
+    .line 150
     const-string v20, "lastCheck"
 
     move-object/from16 v0, v20
 
     invoke-interface {v8, v0, v5, v6}, Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String;J)Landroid/content/SharedPreferences$Editor;
 
-    .line 140
+    .line 151
     const-string v20, "bannerUrl"
 
     const/16 v21, 0x0
@@ -1097,10 +998,10 @@
 
     invoke-interface {v8, v0, v1}, Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String;Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
 
-    .line 141
+    .line 152
     invoke-interface {v8}, Landroid/content/SharedPreferences$Editor;->commit()Z
 
-    .line 149
+    .line 160
     .end local v8    # "editor":Landroid/content/SharedPreferences$Editor;
     :cond_4
     :goto_1
@@ -1113,14 +1014,14 @@
     :goto_2
     sput-boolean v20, Lcom/gamevil/nexus2/xml/NewsViewTask;->isNewsViewReady:Z
 
-    .line 151
+    .line 162
     const/16 v20, 0x1
 
     aget-object v20, p1, v20
 
     sput-object v20, Lcom/gamevil/nexus2/xml/NewsViewTask;->marketSubfix:Ljava/lang/String;
 
-    .line 157
+    .line 168
     .end local v4    # "_bannerUrl":Ljava/lang/String;
     .end local v5    # "currentTime":J
     .end local v9    # "lastModified":J
@@ -1135,7 +1036,7 @@
 
     return-object v20
 
-    .line 117
+    .line 128
     .restart local v4    # "_bannerUrl":Ljava/lang/String;
     .restart local v5    # "currentTime":J
     .restart local v9    # "lastModified":J
@@ -1149,7 +1050,7 @@
 
     goto :goto_0
 
-    .line 146
+    .line 157
     .restart local v11    # "needToCheck":Z
     :cond_6
     const-string v20, "newsImage"
@@ -1164,7 +1065,7 @@
 
     goto :goto_1
 
-    .line 153
+    .line 164
     .end local v4    # "_bannerUrl":Ljava/lang/String;
     .end local v5    # "currentTime":J
     .end local v9    # "lastModified":J
@@ -1177,18 +1078,18 @@
     :catch_0
     move-exception v7
 
-    .line 154
+    .line 165
     .local v7, "e":Ljava/lang/Exception;
     invoke-virtual {v7}, Ljava/lang/Exception;->printStackTrace()V
 
-    .line 155
+    .line 166
     const/16 v20, 0x0
 
     sput-boolean v20, Lcom/gamevil/nexus2/xml/NewsViewTask;->isNewsViewReady:Z
 
     goto :goto_3
 
-    .line 149
+    .line 160
     .end local v7    # "e":Ljava/lang/Exception;
     .restart local v4    # "_bannerUrl":Ljava/lang/String;
     .restart local v5    # "currentTime":J
@@ -1222,7 +1123,7 @@
     .param p1, "result"    # Ljava/lang/String;
 
     .prologue
-    .line 164
+    .line 175
     sget-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->mHandler:Landroid/os/Handler;
 
     if-eqz v0, :cond_0
@@ -1231,7 +1132,7 @@
 
     if-eqz v0, :cond_0
 
-    .line 167
+    .line 178
     sget-object v0, Lcom/gamevil/nexus2/xml/NewsViewTask;->mHandler:Landroid/os/Handler;
 
     new-instance v1, Lcom/gamevil/nexus2/xml/NewsViewTask$4;
@@ -1240,7 +1141,7 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 210
+    .line 218
     :cond_0
     return-void
 .end method

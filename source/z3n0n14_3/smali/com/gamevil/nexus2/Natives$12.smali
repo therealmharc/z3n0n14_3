@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/gamevil/nexus2/Natives;->getGPoint(I)V
+    value = Lcom/gamevil/nexus2/Natives;->HideTapjoyAd()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,7 +22,7 @@
     .locals 0
 
     .prologue
-    .line 1682
+    .line 1642
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 1
@@ -32,44 +32,30 @@
 
 # virtual methods
 .method public run()V
-    .locals 2
+    .locals 3
 
     .prologue
-    .line 1686
-    sget-object v0, Lcom/gamevil/nexus2/Natives;->txt_Gpoint:Landroid/widget/TextView;
+    .line 1647
+    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    if-eqz v0, :cond_0
+    const v2, 0x7f070040
 
-    .line 1688
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
-
-    .line 1689
-    const v1, 0x7f080050
-
-    invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v1, v2}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 1688
-    check-cast v0, Landroid/widget/TextView;
+    check-cast v0, Landroid/widget/LinearLayout;
 
-    sput-object v0, Lcom/gamevil/nexus2/Natives;->txt_Gpoint:Landroid/widget/TextView;
+    .line 1648
+    .local v0, "_adLinearLayout":Landroid/widget/LinearLayout;
+    if-eqz v0, :cond_0
 
-    .line 1690
-    sget-object v0, Lcom/gamevil/nexus2/Natives;->txt_Gpoint:Landroid/widget/TextView;
+    .line 1650
+    const/4 v1, 0x4
 
-    sget-object v1, Lcom/gamevil/nexus2/Natives;->gPoint:Ljava/lang/String;
+    invoke-virtual {v0, v1}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
-
-    .line 1691
-    sget-object v0, Lcom/gamevil/nexus2/Natives;->txt_Gpoint:Landroid/widget/TextView;
-
-    const/4 v1, 0x0
-
-    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
-
-    .line 1693
+    .line 1652
     :cond_0
     return-void
 .end method

@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/gamevil/nexus2/Natives;->showLoadingDialog()V
+    value = Lcom/gamevil/nexus2/Natives;->getGPoint(I)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -22,7 +22,7 @@
     .locals 0
 
     .prologue
-    .line 837
+    .line 302
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 1
@@ -32,40 +32,44 @@
 
 # virtual methods
 .method public run()V
-    .locals 3
+    .locals 2
 
     .prologue
-    .line 840
-    const/16 v1, 0x115c
+    .line 306
+    sget-object v0, Lcom/gamevil/nexus2/Natives;->txt_Gpoint:Landroid/widget/TextView;
 
-    invoke-static {v1}, Lcom/gamevil/nexus2/Natives;->access$0(I)V
+    if-eqz v0, :cond_0
 
-    .line 841
-    sget-object v1, Ljava/lang/System;->out:Ljava/io/PrintStream;
+    .line 308
+    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    const-string v2, "==== changeUIStatus 7 "
+    .line 309
+    const v1, 0x7f070039
 
-    invoke-virtual {v1, v2}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V
-
-    .line 842
-    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
-
-    .line 843
-    const v2, 0x1010004
-
-    invoke-virtual {v1, v2}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
+    invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/NexusGLActivity;->findViewById(I)Landroid/view/View;
 
     move-result-object v0
 
-    .line 842
-    check-cast v0, Landroid/widget/ProgressBar;
+    .line 308
+    check-cast v0, Landroid/widget/TextView;
 
-    .line 844
-    .local v0, "bar":Landroid/widget/ProgressBar;
+    sput-object v0, Lcom/gamevil/nexus2/Natives;->txt_Gpoint:Landroid/widget/TextView;
+
+    .line 310
+    sget-object v0, Lcom/gamevil/nexus2/Natives;->txt_Gpoint:Landroid/widget/TextView;
+
+    sget-object v1, Lcom/gamevil/nexus2/Natives;->gPoint:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    .line 311
+    sget-object v0, Lcom/gamevil/nexus2/Natives;->txt_Gpoint:Landroid/widget/TextView;
+
     const/4 v1, 0x0
 
-    invoke-virtual {v0, v1}, Landroid/widget/ProgressBar;->setVisibility(I)V
+    invoke-virtual {v0, v1}, Landroid/widget/TextView;->setVisibility(I)V
 
-    .line 845
+    .line 313
+    :cond_0
     return-void
 .end method

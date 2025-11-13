@@ -24,7 +24,7 @@
     .param p2, "context"    # Landroid/content/Context;
 
     .prologue
-    .line 173
+    .line 175
     iput-object p1, p0, Lcom/gamevil/zenonia3/global/PurchaseDatabase$DatabaseHelper;->this$0:Lcom/gamevil/zenonia3/global/PurchaseDatabase;
 
     .line 174
@@ -36,7 +36,6 @@
 
     invoke-direct {p0, p2, v0, v1, v2}, Landroid/database/sqlite/SQLiteOpenHelper;-><init>(Landroid/content/Context;Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;I)V
 
-    .line 175
     return-void
 .end method
 

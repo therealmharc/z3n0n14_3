@@ -1,62 +1,101 @@
 .class final Lcom/flurry/android/f;
-.super Ljava/lang/Object;
+.super Lcom/flurry/android/ai;
 .source "SourceFile"
 
 
 # instance fields
-.field final a:B
+.field a:Ljava/lang/String;
 
-.field final b:J
+.field b:B
+
+.field c:B
+
+.field d:Lcom/flurry/android/d;
 
 
 # direct methods
-.method constructor <init>(BJ)V
+.method constructor <init>()V
     .locals 0
 
     .prologue
+    .line 14
+    invoke-direct {p0}, Lcom/flurry/android/ai;-><init>()V
+
+    return-void
+.end method
+
+.method constructor <init>(Ljava/io/DataInput;)V
+    .locals 1
+
+    .prologue
+    .line 17
+    invoke-direct {p0}, Lcom/flurry/android/ai;-><init>()V
+
+    .line 18
+    invoke-interface {p1}, Ljava/io/DataInput;->readUTF()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/flurry/android/f;->a:Ljava/lang/String;
+
+    invoke-interface {p1}, Ljava/io/DataInput;->readByte()B
+
+    move-result v0
+
+    iput-byte v0, p0, Lcom/flurry/android/f;->b:B
+
+    invoke-interface {p1}, Ljava/io/DataInput;->readByte()B
+
+    move-result v0
+
+    iput-byte v0, p0, Lcom/flurry/android/f;->c:B
+
     .line 19
-    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
-
-    .line 20
-    iput-byte p1, p0, Lcom/flurry/android/f;->a:B
-
-    .line 21
-    iput-wide p2, p0, Lcom/flurry/android/f;->b:J
-
-    .line 22
     return-void
 .end method
 
 
 # virtual methods
 .method public final toString()Ljava/lang/String;
-    .locals 3
+    .locals 2
 
     .prologue
-    .line 27
+    .line 40
     new-instance v0, Ljava/lang/StringBuilder;
 
     invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v1, "["
+    const-string v1, "{name: "
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    iget-wide v1, p0, Lcom/flurry/android/f;->b:J
-
-    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    const-string v1, "] "
+    iget-object v1, p0, Lcom/flurry/android/f;->a:Ljava/lang/String;
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
     move-result-object v0
 
-    iget-byte v1, p0, Lcom/flurry/android/f;->a:B
+    const-string v1, ", blockId: "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget-byte v1, p0, Lcom/flurry/android/f;->b:B
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string v1, ", themeId: "
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget-byte v1, p0, Lcom/flurry/android/f;->c:B
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 

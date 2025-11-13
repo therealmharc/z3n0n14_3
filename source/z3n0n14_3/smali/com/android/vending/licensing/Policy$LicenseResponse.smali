@@ -44,34 +44,31 @@
 
     const/4 v2, 0x0
 
-    .line 29
+    .line 32
     new-instance v0, Lcom/android/vending/licensing/Policy$LicenseResponse;
 
     const-string v1, "LICENSED"
 
     invoke-direct {v0, v1, v2}, Lcom/android/vending/licensing/Policy$LicenseResponse;-><init>(Ljava/lang/String;I)V
 
-    .line 32
     sput-object v0, Lcom/android/vending/licensing/Policy$LicenseResponse;->LICENSED:Lcom/android/vending/licensing/Policy$LicenseResponse;
 
-    .line 33
+    .line 36
     new-instance v0, Lcom/android/vending/licensing/Policy$LicenseResponse;
 
     const-string v1, "NOT_LICENSED"
 
     invoke-direct {v0, v1, v3}, Lcom/android/vending/licensing/Policy$LicenseResponse;-><init>(Ljava/lang/String;I)V
 
-    .line 36
     sput-object v0, Lcom/android/vending/licensing/Policy$LicenseResponse;->NOT_LICENSED:Lcom/android/vending/licensing/Policy$LicenseResponse;
 
-    .line 37
+    .line 41
     new-instance v0, Lcom/android/vending/licensing/Policy$LicenseResponse;
 
     const-string v1, "RETRY"
 
     invoke-direct {v0, v1, v4}, Lcom/android/vending/licensing/Policy$LicenseResponse;-><init>(Ljava/lang/String;I)V
 
-    .line 41
     sput-object v0, Lcom/android/vending/licensing/Policy$LicenseResponse;->RETRY:Lcom/android/vending/licensing/Policy$LicenseResponse;
 
     .line 28

@@ -21,8 +21,8 @@
     .locals 1
 
     .prologue
-    .line 44
-    sget-object v0, Landroid/os/Build;->BOARD:Ljava/lang/String;
+    .line 42
+    sget-object v0, Landroid/os/Build;->SERIAL:Ljava/lang/String;
 
     return-object v0
 .end method

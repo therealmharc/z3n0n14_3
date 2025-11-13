@@ -8,7 +8,7 @@
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->onInitialize()V
+    value = Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->initialize()V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$1;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
-    .line 220
+    .line 204
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +43,7 @@
     .prologue
     const/16 v4, 0xa8
 
-    .line 225
+    .line 209
     iget-object v2, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$1;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     iget-object v2, v2, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->helpWebView:Landroid/webkit/WebView;
@@ -54,7 +54,7 @@
 
     check-cast v1, Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 227
+    .line 211
     .local v1, "wvPlHelp":Landroid/widget/FrameLayout$LayoutParams;
     sget v2, Lcom/gamevil/nexus2/NexusGLActivity;->displayWidth:I
 
@@ -64,7 +64,7 @@
 
     iput v2, v1, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
-    .line 228
+    .line 212
     sget v2, Lcom/gamevil/nexus2/NexusGLActivity;->displayHeight:I
 
     mul-int/lit8 v2, v2, 0x5
@@ -73,7 +73,7 @@
 
     iput v2, v1, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 229
+    .line 213
     sget v2, Lcom/gamevil/nexus2/NexusGLActivity;->displayWidth:I
 
     mul-int/lit16 v2, v2, 0x12c
@@ -82,7 +82,7 @@
 
     iput v2, v1, Landroid/widget/FrameLayout$LayoutParams;->width:I
 
-    .line 230
+    .line 214
     sget v2, Lcom/gamevil/nexus2/NexusGLActivity;->displayHeight:I
 
     mul-int/lit16 v2, v2, 0x92
@@ -91,14 +91,14 @@
 
     iput v2, v1, Landroid/widget/FrameLayout$LayoutParams;->height:I
 
-    .line 231
+    .line 215
     iget-object v2, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$1;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     iget-object v2, v2, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->helpWebView:Landroid/webkit/WebView;
 
     invoke-virtual {v2, v1}, Landroid/webkit/WebView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 234
+    .line 218
     iget-object v2, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$1;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     iget-object v2, v2, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->aboutWebView:Landroid/webkit/WebView;
@@ -109,7 +109,7 @@
 
     check-cast v0, Landroid/widget/FrameLayout$LayoutParams;
 
-    .line 236
+    .line 220
     .local v0, "wvPlAbout":Landroid/widget/FrameLayout$LayoutParams;
     sget v2, Lcom/gamevil/nexus2/NexusGLActivity;->displayWidth:I
 
@@ -119,7 +119,7 @@
 
     iput v2, v0, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
-    .line 237
+    .line 221
     sget v2, Lcom/gamevil/nexus2/NexusGLActivity;->displayHeight:I
 
     mul-int/lit8 v2, v2, 0x5
@@ -128,7 +128,7 @@
 
     iput v2, v0, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 238
+    .line 222
     sget v2, Lcom/gamevil/nexus2/NexusGLActivity;->displayWidth:I
 
     mul-int/lit16 v2, v2, 0x12c
@@ -137,7 +137,7 @@
 
     iput v2, v0, Landroid/widget/FrameLayout$LayoutParams;->width:I
 
-    .line 239
+    .line 223
     sget v2, Lcom/gamevil/nexus2/NexusGLActivity;->displayHeight:I
 
     mul-int/lit16 v2, v2, 0x92
@@ -146,14 +146,14 @@
 
     iput v2, v0, Landroid/widget/FrameLayout$LayoutParams;->height:I
 
-    .line 240
+    .line 224
     iget-object v2, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$1;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     iget-object v2, v2, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->aboutWebView:Landroid/webkit/WebView;
 
     invoke-virtual {v2, v0}, Landroid/webkit/WebView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 247
+    .line 231
     iget-object v2, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$1;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     iget-object v2, v2, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->textInput:Lcom/gamevil/nexus2/ui/UIEditText;
@@ -162,7 +162,7 @@
 
     invoke-virtual {v2, v3}, Lcom/gamevil/nexus2/ui/UIEditText;->setVisibility(I)V
 
-    .line 248
+    .line 232
     iget-object v2, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$1;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     iget-object v2, v2, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->textInput:Lcom/gamevil/nexus2/ui/UIEditText;
@@ -171,7 +171,7 @@
 
     invoke-virtual {v2, v3}, Lcom/gamevil/nexus2/ui/UIEditText;->setTextColor(I)V
 
-    .line 250
+    .line 234
     iget-object v3, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$1;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     iget-object v2, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$1;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
@@ -186,12 +186,12 @@
 
     invoke-static {v3, v2}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->access$0(Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;Landroid/widget/FrameLayout$LayoutParams;)V
 
-    .line 251
+    .line 235
     sget-boolean v2, Lcom/gamevil/nexus2/NexusGLActivity;->isLargeScreen:Z
 
     if-eqz v2, :cond_0
 
-    .line 252
+    .line 236
     iget-object v2, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$1;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     invoke-static {v2}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->access$1(Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;)Landroid/widget/FrameLayout$LayoutParams;
@@ -206,7 +206,7 @@
 
     iput v3, v2, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
-    .line 253
+    .line 237
     iget-object v2, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$1;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     invoke-static {v2}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->access$1(Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;)Landroid/widget/FrameLayout$LayoutParams;
@@ -215,7 +215,7 @@
 
     iput v4, v2, Landroid/widget/FrameLayout$LayoutParams;->topMargin:I
 
-    .line 258
+    .line 242
     :goto_0
     iget-object v2, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$1;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
@@ -229,10 +229,10 @@
 
     invoke-virtual {v2, v3}, Lcom/gamevil/nexus2/ui/UIEditText;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
 
-    .line 259
+    .line 243
     return-void
 
-    .line 255
+    .line 239
     :cond_0
     iget-object v2, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$1;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
@@ -248,7 +248,7 @@
 
     iput v3, v2, Landroid/widget/FrameLayout$LayoutParams;->leftMargin:I
 
-    .line 256
+    .line 240
     iget-object v2, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$1;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     invoke-static {v2}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->access$1(Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;)Landroid/widget/FrameLayout$LayoutParams;

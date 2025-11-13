@@ -3,12 +3,12 @@
 .source "Natives.java"
 
 # interfaces
-.implements Landroid/content/DialogInterface$OnClickListener;
+.implements Ljava/lang/Runnable;
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingMethod;
-    value = Lcom/gamevil/nexus2/Natives;->openPurchasePopup(IILjava/lang/String;)V
+    value = Lcom/gamevil/nexus2/Natives;->requestIAP(ILjava/lang/String;[B)V
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -17,43 +17,34 @@
 .end annotation
 
 
-# instance fields
-.field private final synthetic val$money:Ljava/lang/String;
-
-.field private final synthetic val$n:I
-
-
 # direct methods
-.method constructor <init>(Ljava/lang/String;I)V
+.method constructor <init>()V
     .locals 0
 
     .prologue
-    .line 1
-    iput-object p1, p0, Lcom/gamevil/nexus2/Natives$23;->val$money:Ljava/lang/String;
-
-    iput p2, p0, Lcom/gamevil/nexus2/Natives$23;->val$n:I
-
-    .line 3086
+    .line 2835
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
+    .line 1
     return-void
 .end method
 
 
 # virtual methods
-.method public onClick(Landroid/content/DialogInterface;I)V
-    .locals 2
-    .param p1, "dialog"    # Landroid/content/DialogInterface;
-    .param p2, "whichButton"    # I
+.method public run()V
+    .locals 1
 
     .prologue
-    .line 3090
-    iget-object v0, p0, Lcom/gamevil/nexus2/Natives$23;->val$money:Ljava/lang/String;
+    .line 2840
+    const/4 v0, 0x0
 
-    iget v1, p0, Lcom/gamevil/nexus2/Natives$23;->val$n:I
+    invoke-static {v0}, Lcom/gamevil/nexus2/Natives;->setPurchaseChange(I)V
 
-    invoke-static {v0, v1}, Lcom/gamevil/nexus2/Natives;->startPurchase(Ljava/lang/String;I)V
+    .line 2841
+    sget-object v0, Lcom/gamevil/zenonia3/global/Zenonia3Launcher;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
-    .line 3091
+    invoke-virtual {v0}, Lcom/gamevil/nexus2/NexusGLActivity;->requestPurchaceIAP()V
+
+    .line 2844
     return-void
 .end method

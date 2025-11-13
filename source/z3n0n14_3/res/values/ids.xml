@@ -27,18 +27,13 @@
     <item type="id" name="text_edit" />
     <item type="id" name="number_edit" />
     <item type="id" name="versionTxt" />
-    <item type="id" name="CSTxt" />
-    <item type="id" name="ui_logo_gamevil" />
     <item type="id" name="gb_titleImg" />
     <item type="id" name="helpBg" />
     <item type="id" name="aboutBg" />
     <item type="id" name="menuBack0" />
     <item type="id" name="menuBack1" />
     <item type="id" name="ui_btn_gshop" />
-    <item type="id" name="reply_page_back_global" />
-    <item type="id" name="reply_page_back_kr" />
-    <item type="id" name="reply_page_back_jp" />
-    <item type="id" name="reply_page_back_ch" />
+    <item type="id" name="reply_page_back" />
     <item type="id" name="ui_title_logo5" />
     <item type="id" name="ui_menu_about" />
     <item type="id" name="ui_menu_community" />
@@ -46,24 +41,6 @@
     <item type="id" name="ui_menu_help" />
     <item type="id" name="ui_menu_newgame" />
     <item type="id" name="ui_menu_options" />
-    <item type="id" name="ui_menu_about_kr" />
-    <item type="id" name="ui_menu_community_kr" />
-    <item type="id" name="ui_menu_continue_kr" />
-    <item type="id" name="ui_menu_help_kr" />
-    <item type="id" name="ui_menu_newgame_kr" />
-    <item type="id" name="ui_menu_options_kr" />
-    <item type="id" name="ui_menu_about_jp" />
-    <item type="id" name="ui_menu_community_jp" />
-    <item type="id" name="ui_menu_continue_jp" />
-    <item type="id" name="ui_menu_help_jp" />
-    <item type="id" name="ui_menu_newgame_jp" />
-    <item type="id" name="ui_menu_options_jp" />
-    <item type="id" name="ui_menu_about_ch" />
-    <item type="id" name="ui_menu_community_ch" />
-    <item type="id" name="ui_menu_continue_ch" />
-    <item type="id" name="ui_menu_help_ch" />
-    <item type="id" name="ui_menu_newgame_ch" />
-    <item type="id" name="ui_menu_options_ch" />
     <item type="id" name="ui_gshop_bg" />
     <item type="id" name="ui_gshop_btn0" />
     <item type="id" name="ui_gshop_btn1" />
@@ -71,33 +48,27 @@
     <item type="id" name="ui_gshop_btn3" />
     <item type="id" name="ui_gshop_btn4" />
     <item type="id" name="ui_gshop_btn5" />
-    <item type="id" name="ui_gshop_btn6" />
-    <item type="id" name="ui_gshop_btn7" />
+    <item type="id" name="ui_gshop_btn0_kr" />
+    <item type="id" name="ui_gshop_btn1_kr" />
+    <item type="id" name="ui_gshop_btn2_kr" />
+    <item type="id" name="ui_gshop_btn3_kr" />
+    <item type="id" name="ui_gshop_btn4_kr" />
+    <item type="id" name="ui_gshop_btn5_kr" />
     <item type="id" name="uiback" />
     <item type="id" name="ui_reply_write" />
     <item type="id" name="ui_reply_later" />
-    <item type="id" name="ui_reply_write_global" />
-    <item type="id" name="ui_reply_later_global" />
-    <item type="id" name="ui_reply_later_jp" />
-    <item type="id" name="ui_reply_write_jp" />
     <item type="id" name="ui_text_Gpoint" />
     <item type="id" name="rateImg" />
     <item type="id" name="OffersButton" />
-    <item type="id" name="OffersButton_jp" />
     <item type="id" name="FrameNews" />
     <item type="id" name="button_go" />
     <item type="id" name="button_news" />
     <item type="id" name="button_cancle" />
     <item type="id" name="AdLinearLayout" />
-    <item type="id" name="gestures" />
     <item type="id" name="LinearLayout01" />
     <item type="id" name="RelativeLayout01" />
     <item type="id" name="FeaturedAppWebView" />
     <item type="id" name="FeaturedAppProgressBar" />
     <item type="id" name="offersWebView" />
     <item type="id" name="OfferProgressBar" />
-    <item type="id" name="gamevilLive" />
-    <item type="id" name="webView" />
-    <item type="id" name="button_back" />
-    <item type="id" name="button_close" />
 </resources>

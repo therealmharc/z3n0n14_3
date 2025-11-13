@@ -3,7 +3,7 @@
 .source "NexusXmlChecker.java"
 
 # interfaces
-.implements Ljava/lang/Runnable;
+.implements Landroid/content/DialogInterface$OnClickListener;
 
 
 # annotations
@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/gamevil/nexus2/xml/NexusXmlChecker$1;->this$0:Lcom/gamevil/nexus2/xml/NexusXmlChecker;
 
-    .line 628
+    .line 378
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -37,57 +37,63 @@
 
 
 # virtual methods
-.method public run()V
-    .locals 4
+.method public onClick(Landroid/content/DialogInterface;I)V
+    .locals 2
+    .param p1, "dialog"    # Landroid/content/DialogInterface;
+    .param p2, "whichButton"    # I
 
     .prologue
-    .line 632
-    const-string v0, "#Java#"
-
-    const-string v1, "NewsViewTask start!!!!!"
-
-    invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
-
-    .line 633
+    .line 381
     iget-object v0, p0, Lcom/gamevil/nexus2/xml/NexusXmlChecker$1;->this$0:Lcom/gamevil/nexus2/xml/NexusXmlChecker;
 
-    new-instance v1, Lcom/gamevil/nexus2/xml/NewsViewTask;
+    invoke-static {v0}, Lcom/gamevil/nexus2/xml/NexusXmlChecker;->access$2(Lcom/gamevil/nexus2/xml/NexusXmlChecker;)Ljava/lang/String;
 
-    invoke-direct {v1}, Lcom/gamevil/nexus2/xml/NewsViewTask;-><init>()V
+    move-result-object v0
 
-    iput-object v1, v0, Lcom/gamevil/nexus2/xml/NexusXmlChecker;->task:Lcom/gamevil/nexus2/xml/NewsViewTask;
+    const-string v1, "GLOBAL"
 
-    .line 634
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 383
     iget-object v0, p0, Lcom/gamevil/nexus2/xml/NexusXmlChecker$1;->this$0:Lcom/gamevil/nexus2/xml/NexusXmlChecker;
 
-    iget-object v0, v0, Lcom/gamevil/nexus2/xml/NexusXmlChecker;->task:Lcom/gamevil/nexus2/xml/NewsViewTask;
+    invoke-static {v0}, Lcom/gamevil/nexus2/xml/NexusXmlChecker;->access$3(Lcom/gamevil/nexus2/xml/NexusXmlChecker;)Ljava/lang/String;
 
-    const/4 v1, 0x2
+    move-result-object v0
 
-    new-array v1, v1, [Ljava/lang/String;
+    if-eqz v0, :cond_0
 
-    const/4 v2, 0x0
+    .line 385
+    iget-object v0, p0, Lcom/gamevil/nexus2/xml/NexusXmlChecker$1;->this$0:Lcom/gamevil/nexus2/xml/NexusXmlChecker;
 
-    iget-object v3, p0, Lcom/gamevil/nexus2/xml/NexusXmlChecker$1;->this$0:Lcom/gamevil/nexus2/xml/NexusXmlChecker;
+    invoke-static {v0}, Lcom/gamevil/nexus2/xml/NexusXmlChecker;->access$3(Lcom/gamevil/nexus2/xml/NexusXmlChecker;)Ljava/lang/String;
 
-    invoke-static {v3}, Lcom/gamevil/nexus2/xml/NexusXmlChecker;->access$2(Lcom/gamevil/nexus2/xml/NexusXmlChecker;)Ljava/lang/String;
+    move-result-object v0
 
-    move-result-object v3
+    invoke-static {v0}, Lcom/gamevil/nexus2/Natives;->openUrl(Ljava/lang/String;)V
 
-    aput-object v3, v1, v2
-
-    const/4 v2, 0x1
-
-    iget-object v3, p0, Lcom/gamevil/nexus2/xml/NexusXmlChecker$1;->this$0:Lcom/gamevil/nexus2/xml/NexusXmlChecker;
-
-    invoke-static {v3}, Lcom/gamevil/nexus2/xml/NexusXmlChecker;->access$3(Lcom/gamevil/nexus2/xml/NexusXmlChecker;)Ljava/lang/String;
-
-    move-result-object v3
-
-    aput-object v3, v1, v2
-
-    invoke-virtual {v0, v1}, Lcom/gamevil/nexus2/xml/NewsViewTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
-
-    .line 636
+    .line 392
+    :cond_0
+    :goto_0
     return-void
+
+    .line 390
+    :cond_1
+    iget-object v0, p0, Lcom/gamevil/nexus2/xml/NexusXmlChecker$1;->this$0:Lcom/gamevil/nexus2/xml/NexusXmlChecker;
+
+    invoke-static {v0}, Lcom/gamevil/nexus2/xml/NexusXmlChecker;->access$4(Lcom/gamevil/nexus2/xml/NexusXmlChecker;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/gamevil/nexus2/Natives;->openStoreWithProductId(Ljava/lang/String;)V
+
+    goto :goto_0
 .end method

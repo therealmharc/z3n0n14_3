@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$2;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
-    .line 288
+    .line 272
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -41,7 +41,7 @@
     .locals 3
 
     .prologue
-    .line 294
+    .line 278
     const-wide/16 v1, 0xa
 
     :try_start_0
@@ -49,26 +49,26 @@
     :try_end_0
     .catch Ljava/lang/InterruptedException; {:try_start_0 .. :try_end_0} :catch_0
 
-    .line 299
+    .line 283
     :goto_0
     sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
     if-eqz v1, :cond_0
 
-    .line 300
+    .line 284
     iget-object v1, p0, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView$2;->this$0:Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;
 
     invoke-virtual {v1}, Lcom/gamevil/zenonia3/ui/ZenoniaUIControllerView;->startBlock()V
 
-    .line 301
+    .line 285
     :cond_0
     return-void
 
-    .line 295
+    .line 279
     :catch_0
     move-exception v0
 
-    .line 297
+    .line 281
     .local v0, "e":Ljava/lang/InterruptedException;
     invoke-virtual {v0}, Ljava/lang/InterruptedException;->printStackTrace()V
 

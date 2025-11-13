@@ -1,98 +1,175 @@
 .class final Lcom/flurry/android/s;
-.super Landroid/widget/LinearLayout;
+.super Lcom/flurry/android/ai;
 .source "SourceFile"
 
 
+# instance fields
+.field a:J
+
+.field b:J
+
+.field c:Ljava/lang/String;
+
+.field d:Ljava/lang/String;
+
+.field e:J
+
+.field f:Ljava/lang/Long;
+
+.field g:[B
+
+.field h:Lcom/flurry/android/AdImage;
+
+
 # direct methods
-.method public constructor <init>(Lcom/flurry/android/CatalogActivity;Landroid/content/Context;)V
-    .locals 6
+.method constructor <init>()V
+    .locals 0
 
     .prologue
-    const/4 v5, -0x2
+    .line 23
+    invoke-direct {p0}, Lcom/flurry/android/ai;-><init>()V
 
-    const/4 v4, 0x0
+    return-void
+.end method
 
-    .line 194
-    invoke-direct {p0, p2}, Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
+.method constructor <init>(Ljava/io/DataInput;)V
+    .locals 0
 
-    .line 197
-    const/4 v0, -0x1
+    .prologue
+    .line 26
+    invoke-direct {p0}, Lcom/flurry/android/ai;-><init>()V
 
-    invoke-virtual {p0, v0}, Lcom/flurry/android/s;->setBackgroundColor(I)V
+    .line 27
+    invoke-direct {p0, p1}, Lcom/flurry/android/s;->b(Ljava/io/DataInput;)V
 
-    .line 199
-    invoke-static {p1}, Lcom/flurry/android/CatalogActivity;->c(Lcom/flurry/android/CatalogActivity;)Lcom/flurry/android/u;
+    .line 28
+    return-void
+.end method
+
+.method private b(Ljava/io/DataInput;)V
+    .locals 2
+
+    .prologue
+    .line 67
+    invoke-interface {p1}, Ljava/io/DataInput;->readLong()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, Lcom/flurry/android/s;->a:J
+
+    .line 68
+    invoke-interface {p1}, Ljava/io/DataInput;->readLong()J
+
+    move-result-wide v0
+
+    iput-wide v0, p0, Lcom/flurry/android/s;->b:J
+
+    .line 69
+    invoke-interface {p1}, Ljava/io/DataInput;->readUTF()Ljava/lang/String;
 
     move-result-object v0
 
-    invoke-virtual {v0}, Lcom/flurry/android/u;->l()Lcom/flurry/android/AdImage;
+    iput-object v0, p0, Lcom/flurry/android/s;->d:Ljava/lang/String;
+
+    .line 70
+    invoke-interface {p1}, Ljava/io/DataInput;->readUTF()Ljava/lang/String;
 
     move-result-object v0
 
-    .line 200
-    if-eqz v0, :cond_1
+    iput-object v0, p0, Lcom/flurry/android/s;->c:Ljava/lang/String;
 
-    .line 202
-    new-instance v1, Landroid/widget/ImageView;
+    .line 71
+    invoke-interface {p1}, Ljava/io/DataInput;->readLong()J
 
-    invoke-direct {v1, p2}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
+    move-result-wide v0
 
-    .line 203
-    const/16 v2, 0x2710
+    iput-wide v0, p0, Lcom/flurry/android/s;->e:J
 
-    invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setId(I)V
+    .line 72
+    invoke-interface {p1}, Ljava/io/DataInput;->readLong()J
 
-    .line 205
-    iget-object v2, v0, Lcom/flurry/android/AdImage;->e:[B
+    move-result-wide v0
 
-    .line 206
-    if-eqz v2, :cond_0
+    invoke-static {v0, v1}, Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
 
-    .line 208
-    array-length v3, v2
+    move-result-object v0
 
-    invoke-static {v2, v4, v3}, Landroid/graphics/BitmapFactory;->decodeByteArray([BII)Landroid/graphics/Bitmap;
+    iput-object v0, p0, Lcom/flurry/android/s;->f:Ljava/lang/Long;
 
-    move-result-object v2
-
-    .line 209
-    invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
-
-    .line 212
-    :cond_0
-    iget v2, v0, Lcom/flurry/android/AdImage;->b:I
-
-    invoke-static {p2, v2}, Lcom/flurry/android/r;->a(Landroid/content/Context;I)I
-
-    move-result v2
-
-    iget v0, v0, Lcom/flurry/android/AdImage;->c:I
-
-    invoke-static {p2, v0}, Lcom/flurry/android/r;->a(Landroid/content/Context;I)I
+    .line 74
+    invoke-interface {p1}, Ljava/io/DataInput;->readUnsignedByte()I
 
     move-result v0
 
-    invoke-static {p2, v1, v2, v0}, Lcom/flurry/android/r;->a(Landroid/content/Context;Landroid/widget/ImageView;II)V
+    .line 75
+    new-array v0, v0, [B
 
-    .line 215
-    new-instance v0, Landroid/widget/LinearLayout$LayoutParams;
+    iput-object v0, p0, Lcom/flurry/android/s;->g:[B
 
-    invoke-direct {v0, v5, v5}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
+    .line 76
+    iget-object v0, p0, Lcom/flurry/android/s;->g:[B
 
-    .line 218
-    const/4 v2, -0x3
+    invoke-interface {p1, v0}, Ljava/io/DataInput;->readFully([B)V
 
-    invoke-virtual {v0, v4, v4, v4, v2}, Landroid/widget/LinearLayout$LayoutParams;->setMargins(IIII)V
-
-    .line 220
-    const/4 v2, 0x3
-
-    invoke-virtual {p0, v2}, Lcom/flurry/android/s;->setGravity(I)V
-
-    .line 221
-    invoke-virtual {p0, v1, v0}, Lcom/flurry/android/s;->addView(Landroid/view/View;Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 223
-    :cond_1
+    .line 77
     return-void
+.end method
+
+
+# virtual methods
+.method final a(Ljava/io/DataInput;)V
+    .locals 0
+
+    .prologue
+    .line 33
+    invoke-direct {p0, p1}, Lcom/flurry/android/s;->b(Ljava/io/DataInput;)V
+
+    .line 34
+    return-void
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 3
+
+    .prologue
+    .line 82
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "ad {id="
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget-wide v1, p0, Lcom/flurry/android/s;->a:J
+
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string v1, ", name=\'"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/flurry/android/s;->d:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    const-string v1, "\'}"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
 .end method

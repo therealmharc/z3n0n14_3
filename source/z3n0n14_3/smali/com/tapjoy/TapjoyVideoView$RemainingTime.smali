@@ -23,7 +23,7 @@
     .locals 0
 
     .prologue
-    .line 811
+    .line 807
     iput-object p1, p0, Lcom/tapjoy/TapjoyVideoView$RemainingTime;->this$0:Lcom/tapjoy/TapjoyVideoView;
 
     invoke-direct {p0}, Ljava/util/TimerTask;-><init>()V
@@ -35,7 +35,7 @@
     .locals 0
 
     .prologue
-    .line 811
+    .line 807
     invoke-direct {p0, p1}, Lcom/tapjoy/TapjoyVideoView$RemainingTime;-><init>(Lcom/tapjoy/TapjoyVideoView;)V
 
     return-void
@@ -47,7 +47,7 @@
     .locals 2
 
     .prologue
-    .line 816
+    .line 812
     iget-object v0, p0, Lcom/tapjoy/TapjoyVideoView$RemainingTime;->this$0:Lcom/tapjoy/TapjoyVideoView;
 
     iget-object v0, v0, Lcom/tapjoy/TapjoyVideoView;->mHandler:Landroid/os/Handler;
@@ -58,6 +58,6 @@
 
     invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    .line 823
+    .line 819
     return-void
 .end method

@@ -29,7 +29,7 @@
     .line 1
     iput-object p1, p0, Lcom/gamevil/nexus2/xml/ProfileSender$4;->this$0:Lcom/gamevil/nexus2/xml/ProfileSender;
 
-    .line 1302
+    .line 1049
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -43,7 +43,7 @@
     .prologue
     const/4 v4, 0x4
 
-    .line 1305
+    .line 1052
     iget-object v2, p0, Lcom/gamevil/nexus2/xml/ProfileSender$4;->this$0:Lcom/gamevil/nexus2/xml/ProfileSender;
 
     invoke-static {v2}, Lcom/gamevil/nexus2/xml/ProfileSender;->access$2(Lcom/gamevil/nexus2/xml/ProfileSender;)Landroid/content/Context;
@@ -52,7 +52,7 @@
 
     check-cast v2, Landroid/app/Activity;
 
-    const v3, 0x7f080002
+    const v3, 0x7f070002
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -60,13 +60,13 @@
 
     check-cast v1, Landroid/widget/LinearLayout;
 
-    .line 1306
+    .line 1053
     .local v1, "layout":Landroid/widget/LinearLayout;
     if-eqz v1, :cond_0
 
     invoke-virtual {v1, v4}, Landroid/widget/LinearLayout;->setVisibility(I)V
 
-    .line 1307
+    .line 1054
     :cond_0
     iget-object v2, p0, Lcom/gamevil/nexus2/xml/ProfileSender$4;->this$0:Lcom/gamevil/nexus2/xml/ProfileSender;
 
@@ -76,7 +76,7 @@
 
     check-cast v2, Landroid/app/Activity;
 
-    const v3, 0x7f080003
+    const v3, 0x7f070003
 
     invoke-virtual {v2, v3}, Landroid/app/Activity;->findViewById(I)Landroid/view/View;
 
@@ -84,13 +84,13 @@
 
     check-cast v0, Landroid/widget/ImageView;
 
-    .line 1308
+    .line 1055
     .local v0, "bt":Landroid/widget/ImageView;
     if-eqz v0, :cond_1
 
     invoke-virtual {v0, v4}, Landroid/widget/ImageView;->setVisibility(I)V
 
-    .line 1309
+    .line 1056
     :cond_1
     return-void
 .end method

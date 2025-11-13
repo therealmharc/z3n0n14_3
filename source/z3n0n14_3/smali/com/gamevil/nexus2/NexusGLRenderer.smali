@@ -7,7 +7,11 @@
 
 
 # static fields
+.field public static bTouchDown:Z
+
 .field public static m_renderer:Lcom/gamevil/nexus2/NexusGLRenderer;
+
+.field public static touchPassCount:I
 
 
 # instance fields
@@ -17,31 +21,45 @@
 
 .field private handleCletParam2:I
 
-.field private pointerId:I
-
 
 # direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .prologue
+    const/4 v0, 0x0
+
+    .line 110
+    sput-boolean v0, Lcom/gamevil/nexus2/NexusGLRenderer;->bTouchDown:Z
+
+    .line 111
+    sput v0, Lcom/gamevil/nexus2/NexusGLRenderer;->touchPassCount:I
+
+    .line 26
+    return-void
+.end method
+
 .method public constructor <init>()V
     .locals 2
 
     .prologue
     const/4 v1, 0x0
 
-    .line 24
+    .line 26
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 31
+    .line 29
     const/16 v0, 0x8
 
     iput v0, p0, Lcom/gamevil/nexus2/NexusGLRenderer;->currentMotionEvent:I
 
-    .line 32
+    .line 30
     iput v1, p0, Lcom/gamevil/nexus2/NexusGLRenderer;->handleCletParam1:I
 
-    .line 33
+    .line 31
     iput v1, p0, Lcom/gamevil/nexus2/NexusGLRenderer;->handleCletParam2:I
 
-    .line 24
+    .line 26
     return-void
 .end method
 
@@ -49,60 +67,55 @@
     .locals 5
 
     .prologue
-    .line 206
-    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+    .line 218
+    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
-    iget-object v1, v1, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->eventQueue:Lcom/gamevil/nexus2/ui/EventQueue;
+    iget-object v1, v1, Lcom/gamevil/nexus2/ui/UIControllerView;->eventQueue:Lcom/gamevil/zenonia3/ui/EventQueue;
 
-    invoke-virtual {v1}, Lcom/gamevil/nexus2/ui/EventQueue;->IsEmpty()Z
+    if-eqz v1, :cond_0
+
+    .line 221
+    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
+
+    iget-object v1, v1, Lcom/gamevil/nexus2/ui/UIControllerView;->eventQueue:Lcom/gamevil/zenonia3/ui/EventQueue;
+
+    invoke-virtual {v1}, Lcom/gamevil/zenonia3/ui/EventQueue;->IsEmpty()Z
 
     move-result v1
 
     if-nez v1, :cond_0
 
-    .line 208
-    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+    .line 223
+    sget-object v1, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
-    iget-object v1, v1, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->eventQueue:Lcom/gamevil/nexus2/ui/EventQueue;
+    iget-object v1, v1, Lcom/gamevil/nexus2/ui/UIControllerView;->eventQueue:Lcom/gamevil/zenonia3/ui/EventQueue;
 
-    invoke-virtual {v1}, Lcom/gamevil/nexus2/ui/EventQueue;->Dequeue()Lcom/gamevil/nexus2/ui/EventQueue$EventItem;
+    invoke-virtual {v1}, Lcom/gamevil/zenonia3/ui/EventQueue;->Dequeue()Lcom/gamevil/zenonia3/ui/EventQueue$EventItem;
 
     move-result-object v0
 
-    .line 209
-    .local v0, "currentEvent":Lcom/gamevil/nexus2/ui/EventQueue$EventItem;
-    invoke-virtual {v0}, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->GetEvent()I
+    .line 224
+    .local v0, "currentEvent":Lcom/gamevil/zenonia3/ui/EventQueue$EventItem;
+    invoke-virtual {v0}, Lcom/gamevil/zenonia3/ui/EventQueue$EventItem;->GetEvent()I
 
     move-result v1
 
-    invoke-virtual {v0}, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->GetParam1()I
+    invoke-virtual {v0}, Lcom/gamevil/zenonia3/ui/EventQueue$EventItem;->GetParam1()I
 
     move-result v2
 
-    invoke-virtual {v0}, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->GetParam2()I
+    invoke-virtual {v0}, Lcom/gamevil/zenonia3/ui/EventQueue$EventItem;->GetParam2()I
 
     move-result v3
 
-    invoke-virtual {v0}, Lcom/gamevil/nexus2/ui/EventQueue$EventItem;->GetPointerID()I
+    invoke-virtual {v0}, Lcom/gamevil/zenonia3/ui/EventQueue$EventItem;->GetPointerID()I
 
     move-result v4
 
-    :try_start_handleevent
     invoke-static {v1, v2, v3, v4}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
-    :try_end_handleevent
-    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_handleevent .. :try_end_handleevent} :catch_handleevent
-    .catch Ljava/lang/Exception; {:try_start_handleevent .. :try_end_handleevent} :catch_handleevent
 
-    goto :goto_handleevent
-
-    :catch_handleevent
-    const-string v0, "NexusGLRenderer"
-    const-string v1, "Warning: handleCletEvent not available"
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    :goto_handleevent
-    .line 221
-    .end local v0    # "currentEvent":Lcom/gamevil/nexus2/ui/EventQueue$EventItem;
+    .line 228
+    .end local v0    # "currentEvent":Lcom/gamevil/zenonia3/ui/EventQueue$EventItem;
     :cond_0
     return-void
 .end method
@@ -114,35 +127,23 @@
     .param p1, "gl"    # Ljavax/microedition/khronos/opengles/GL10;
 
     .prologue
-    .line 41
+    .line 38
     invoke-direct {p0}, Lcom/gamevil/nexus2/NexusGLRenderer;->sendHandleCletEvent()V
 
-    .line 43
-    :try_start_render
+    .line 40
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->NativeRender()V
-    :try_end_render
-    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_render .. :try_end_render} :catch_render
-    .catch Ljava/lang/Exception; {:try_start_render .. :try_end_render} :catch_render
 
-    goto :goto_render
-
-    :catch_render
-    const-string v0, "NexusGLRenderer"
-    const-string v1, "Warning: NativeRender not available"
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    :goto_render
-    .line 44
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+    .line 42
+    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
     if-eqz v0, :cond_0
 
-    .line 46
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+    .line 44
+    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
-    invoke-virtual {v0}, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->checkUIStatus()V
+    invoke-virtual {v0}, Lcom/gamevil/nexus2/ui/UIControllerView;->checkUIStatus()V
 
-    .line 53
+    .line 47
     :cond_0
     return-void
 .end method
@@ -151,18 +152,18 @@
     .locals 2
 
     .prologue
-    .line 57
+    .line 51
     const/4 v1, 0x3
 
     new-array v0, v1, [I
 
     fill-array-data v0, :array_0
 
-    .line 61
+    .line 55
     .local v0, "configSpec":[I
     return-object v0
 
-    .line 57
+    .line 51
     nop
 
     :array_0
@@ -181,41 +182,49 @@
     .param p4, "_param3"    # I
 
     .prologue
-    .line 124
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+    .line 115
+    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
-    iget-object v0, v0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->eventQueue:Lcom/gamevil/nexus2/ui/EventQueue;
-
-    invoke-virtual {v0}, Lcom/gamevil/nexus2/ui/EventQueue;->IsFull()Z
-
-    move-result v0
+    iget-object v0, v0, Lcom/gamevil/nexus2/ui/UIControllerView;->eventQueue:Lcom/gamevil/zenonia3/ui/EventQueue;
 
     if-eqz v0, :cond_0
 
-    .line 129
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+    .line 118
+    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
-    iget-object v0, v0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->eventQueue:Lcom/gamevil/nexus2/ui/EventQueue;
+    iget-object v0, v0, Lcom/gamevil/nexus2/ui/UIControllerView;->eventQueue:Lcom/gamevil/zenonia3/ui/EventQueue;
 
-    invoke-virtual {v0, p1, p2, p3, p4}, Lcom/gamevil/nexus2/ui/EventQueue;->FullEnqueue(IIII)V
+    invoke-virtual {v0}, Lcom/gamevil/zenonia3/ui/EventQueue;->IsFull()Z
 
-    .line 198
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 122
+    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
+
+    iget-object v0, v0, Lcom/gamevil/nexus2/ui/UIControllerView;->eventQueue:Lcom/gamevil/zenonia3/ui/EventQueue;
+
+    invoke-virtual {v0, p1, p2, p3, p4}, Lcom/gamevil/zenonia3/ui/EventQueue;->FullEnqueue(IIII)V
+
+    .line 211
+    :cond_0
     :goto_0
     return-void
 
-    .line 133
-    :cond_0
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+    .line 126
+    :cond_1
+    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
-    iget-object v0, v0, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->eventQueue:Lcom/gamevil/nexus2/ui/EventQueue;
+    iget-object v0, v0, Lcom/gamevil/nexus2/ui/UIControllerView;->eventQueue:Lcom/gamevil/zenonia3/ui/EventQueue;
 
-    invoke-virtual {v0, p1, p2, p3, p4}, Lcom/gamevil/nexus2/ui/EventQueue;->Enqueue(IIII)V
+    invoke-virtual {v0, p1, p2, p3, p4}, Lcom/gamevil/zenonia3/ui/EventQueue;->Enqueue(IIII)V
 
     goto :goto_0
 .end method
 
 .method public surfaceChanged(Ljavax/microedition/khronos/opengles/GL10;II)V
-    .locals 2
+    .locals 1
     .param p1, "_gl"    # Ljavax/microedition/khronos/opengles/GL10;
     .param p2, "_width"    # I
     .param p3, "_height"    # I
@@ -223,78 +232,47 @@
     .prologue
     const/16 v0, 0x1f4
 
-    .line 67
+    .line 61
     sput p2, Lcom/gamevil/nexus2/NexusGLActivity;->displayWidth:I
 
-    .line 68
+    .line 62
     sput p3, Lcom/gamevil/nexus2/NexusGLActivity;->displayHeight:I
 
-    .line 69
+    .line 64
     if-gt p2, v0, :cond_0
 
     if-le p3, v0, :cond_2
 
-    .line 71
+    .line 66
     :cond_0
     const/4 v0, 0x1
 
     sput-boolean v0, Lcom/gamevil/nexus2/NexusGLActivity;->isLargeScreen:Z
 
-    .line 89
+    .line 82
     :goto_0
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
     if-eqz v0, :cond_1
 
-    .line 91
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+    .line 84
+    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
-    invoke-virtual {v0}, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->removeAllUIArea()V
+    invoke-virtual {v0}, Lcom/gamevil/nexus2/ui/UIControllerView;->removeAllUIArea()V
 
-    .line 92
-    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
+    .line 85
+    sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/UIControllerView;
 
-    invoke-virtual {v0, p2, p3}, Lcom/gamevil/nexus2/ui/NeoUIControllerView;->setSize(II)V
+    invoke-virtual {v0, p1, p2, p3}, Lcom/gamevil/nexus2/ui/UIControllerView;->setSize(Ljavax/microedition/khronos/opengles/GL10;II)V
 
-    .line 94
+    .line 87
     :cond_1
-    sget v0, Lcom/gamevil/nexus2/NexusGLActivity;->gameScreenWidth:I
-
-    sget v1, Lcom/gamevil/nexus2/NexusGLActivity;->gameScreenHeight:I
-
-    :try_start_initdev
-    invoke-static {v0, v1}, Lcom/gamevil/nexus2/Natives;->NativeInitDeviceInfo(II)V
-    :try_end_initdev
-    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_initdev .. :try_end_initdev} :catch_initdev
-    .catch Ljava/lang/Exception; {:try_start_initdev .. :try_end_initdev} :catch_initdev
-
-    goto :goto_initdev
-
-    :catch_initdev
-    const-string v0, "NexusGLRenderer"
-    const-string v1, "Warning: NativeInitDeviceInfo not available"
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    :goto_initdev
-    .line 95
-    :try_start_resize
     invoke-static {p2, p3}, Lcom/gamevil/nexus2/Natives;->NativeResize(II)V
-    :try_end_resize
-    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_resize .. :try_end_resize} :catch_resize
-    .catch Ljava/lang/Exception; {:try_start_resize .. :try_end_resize} :catch_resize
 
-    goto :goto_resize
-
-    :catch_resize
-    const-string v0, "NexusGLRenderer"
-    const-string v1, "Warning: NativeResize not available"
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    :goto_resize
-    .line 96
+    .line 88
     return-void
 
-    .line 78
+    .line 73
     :cond_2
     const/4 v0, 0x0
 
@@ -304,32 +282,16 @@
 .end method
 
 .method public surfaceCreated(Ljavax/microedition/khronos/opengles/GL10;)V
-    .locals 2
+    .locals 0
     .param p1, "gl"    # Ljavax/microedition/khronos/opengles/GL10;
 
     .prologue
-    .line 103
+    .line 95
     sput-object p0, Lcom/gamevil/nexus2/NexusGLRenderer;->m_renderer:Lcom/gamevil/nexus2/NexusGLRenderer;
 
-    .line 104
-    sget v0, Lcom/gamevil/nexus2/NexusGLActivity;->gameScreenWidth:I
+    .line 97
+    invoke-static {}, Lcom/gamevil/nexus2/Natives;->NativeInit()V
 
-    sget v1, Lcom/gamevil/nexus2/NexusGLActivity;->gameScreenHeight:I
-
-    :try_start_initbuffer
-    invoke-static {v0, v1}, Lcom/gamevil/nexus2/Natives;->NativeInitWithBufferSize(II)V
-    :try_end_initbuffer
-    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_initbuffer .. :try_end_initbuffer} :catch_initbuffer
-    .catch Ljava/lang/Exception; {:try_start_initbuffer .. :try_end_initbuffer} :catch_initbuffer
-
-    goto :goto_initbuffer
-
-    :catch_initbuffer
-    const-string v0, "NexusGLRenderer"
-    const-string v1, "Warning: NativeInitWithBufferSize not available"
-    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
-
-    :goto_initbuffer
-    .line 110
+    .line 101
     return-void
 .end method

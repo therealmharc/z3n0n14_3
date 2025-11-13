@@ -6,15 +6,9 @@
 # static fields
 .field public static final FIRST_MOVE_REPLY_PAGE:I = 0x13157a1
 
-.field public static final GAMEVIL_LIVE_NEED_LOGIN:I = 0x0
-
-.field public static final GAMEVIL_lIVE_LOGINED:I = 0x1
-
 .field public static final GET_LANGUAGE:I = 0x7a120
 
 .field public static final IAP_ACK_OK:I = 0x1
-
-.field public static final IAP_SAVE:I = 0x2
 
 .field public static final MH_ANN_EVENT:I = 0x8
 
@@ -186,31 +180,13 @@
 
 .field public static final NEXUS_CALL_GET_GPOINT:I = 0x12f0c28
 
-.field public static final NEXUS_EDITNUMBER_EDITOR_CLOSE:I = 0x33
-
 .field public static final NEXUS_EDITNUM_EDITOR_CLOSE:I = 0x26ac
 
 .field public static final NEXUS_EDITTEXT_EDITOR_CLOSE:I = 0x63
 
-.field public static final NEXUS_GAMEVIL_LIVE_EVENT:I = 0x24
-
-.field public static final NEXUS_GESTURE_DOUBLE_TAB_EVENT:I = 0x2d
-
-.field public static final NEXUS_GESTURE_FLING_BTOT_EVENT:I = 0x2b
-
-.field public static final NEXUS_GESTURE_FLING_LTOR_EVENT:I = 0x2a
-
-.field public static final NEXUS_GESTURE_FLING_RTOL_EVENT:I = 0x29
-
-.field public static final NEXUS_GESTURE_FLING_TTOB_EVENT:I = 0x2c
-
 .field public static final NEXUS_IAP_ERROR_EVENT:I = 0x21
 
-.field public static final NEXUS_IAP_ERROR_LOG_EVENT:I = 0x23
-
 .field public static final NEXUS_IAP_PURCHASE_EVENT:I = 0x20
-
-.field public static final NEXUS_IAP_REFUND_EVENT:I = 0x22
 
 .field public static final NEXUS_KEY_PRESS_RELEASE:I = 0x1f
 

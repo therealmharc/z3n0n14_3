@@ -1,109 +1,68 @@
 .class final Lcom/flurry/android/e;
-.super Lcom/flurry/android/aj;
+.super Ljava/lang/Object;
 .source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
 
 
 # instance fields
-.field a:Ljava/lang/String;
+.field private synthetic a:Landroid/content/Context;
 
-.field b:B
+.field private synthetic b:Z
 
-.field c:B
-
-.field d:Lcom/flurry/android/c;
+.field private synthetic c:Lcom/flurry/android/FlurryAgent;
 
 
 # direct methods
-.method constructor <init>()V
+.method constructor <init>(Lcom/flurry/android/FlurryAgent;Landroid/content/Context;Z)V
     .locals 0
 
     .prologue
-    .line 14
-    invoke-direct {p0}, Lcom/flurry/android/aj;-><init>()V
+    .line 786
+    iput-object p1, p0, Lcom/flurry/android/e;->c:Lcom/flurry/android/FlurryAgent;
 
-    return-void
-.end method
+    iput-object p2, p0, Lcom/flurry/android/e;->a:Landroid/content/Context;
 
-.method constructor <init>(Ljava/io/DataInput;)V
-    .locals 1
+    iput-boolean p3, p0, Lcom/flurry/android/e;->b:Z
 
-    .prologue
-    .line 17
-    invoke-direct {p0}, Lcom/flurry/android/aj;-><init>()V
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
-    .line 18
-    invoke-interface {p1}, Ljava/io/DataInput;->readUTF()Ljava/lang/String;
-
-    move-result-object v0
-
-    iput-object v0, p0, Lcom/flurry/android/e;->a:Ljava/lang/String;
-
-    invoke-interface {p1}, Ljava/io/DataInput;->readByte()B
-
-    move-result v0
-
-    iput-byte v0, p0, Lcom/flurry/android/e;->b:B
-
-    invoke-interface {p1}, Ljava/io/DataInput;->readByte()B
-
-    move-result v0
-
-    iput-byte v0, p0, Lcom/flurry/android/e;->c:B
-
-    .line 19
     return-void
 .end method
 
 
 # virtual methods
-.method public final toString()Ljava/lang/String;
-    .locals 2
+.method public final run()V
+    .locals 3
 
     .prologue
-    .line 40
-    new-instance v0, Ljava/lang/StringBuilder;
+    .line 790
+    iget-object v0, p0, Lcom/flurry/android/e;->c:Lcom/flurry/android/FlurryAgent;
 
-    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+    invoke-static {v0}, Lcom/flurry/android/FlurryAgent;->a(Lcom/flurry/android/FlurryAgent;)Z
 
-    const-string v1, "{name: "
+    move-result v0
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    if-nez v0, :cond_0
 
-    move-result-object v0
+    .line 792
+    iget-object v0, p0, Lcom/flurry/android/e;->c:Lcom/flurry/android/FlurryAgent;
 
-    iget-object v1, p0, Lcom/flurry/android/e;->a:Ljava/lang/String;
+    iget-object v1, p0, Lcom/flurry/android/e;->a:Landroid/content/Context;
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    invoke-static {v0, v1}, Lcom/flurry/android/FlurryAgent;->a(Lcom/flurry/android/FlurryAgent;Landroid/content/Context;)V
 
-    move-result-object v0
+    .line 794
+    :cond_0
+    iget-object v0, p0, Lcom/flurry/android/e;->c:Lcom/flurry/android/FlurryAgent;
 
-    const-string v1, ", blockId: "
+    iget-object v1, p0, Lcom/flurry/android/e;->a:Landroid/content/Context;
 
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+    iget-boolean v2, p0, Lcom/flurry/android/e;->b:Z
 
-    move-result-object v0
+    invoke-static {v0, v1, v2}, Lcom/flurry/android/FlurryAgent;->a(Lcom/flurry/android/FlurryAgent;Landroid/content/Context;Z)V
 
-    iget-byte v1, p0, Lcom/flurry/android/e;->b:B
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    const-string v1, ", themeId: "
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    iget-byte v1, p0, Lcom/flurry/android/e;->c:B
-
-    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object v0
-
-    return-object v0
+    .line 795
+    return-void
 .end method

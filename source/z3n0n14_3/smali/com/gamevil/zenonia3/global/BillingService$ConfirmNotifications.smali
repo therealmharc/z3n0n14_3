@@ -27,7 +27,7 @@
     .param p3, "notifyIds"    # [Ljava/lang/String;
 
     .prologue
-    .line 263
+    .line 266
     iput-object p1, p0, Lcom/gamevil/zenonia3/global/BillingService$ConfirmNotifications;->this$0:Lcom/gamevil/zenonia3/global/BillingService;
 
     .line 264
@@ -36,7 +36,6 @@
     .line 265
     iput-object p3, p0, Lcom/gamevil/zenonia3/global/BillingService$ConfirmNotifications;->mNotifyIds:[Ljava/lang/String;
 
-    .line 266
     return-void
 .end method
 

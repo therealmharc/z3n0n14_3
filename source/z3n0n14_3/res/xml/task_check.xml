@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<nexus2>
-    <profile data_version="1.0.1">
-        <item>cn.luomao.gamekiller</item>
-        <item>com.cih.gamecih</item>
-        <item>com.cih.gamecih2</item>
-        <jhs>496cd762ef6942ebf3b0f5f5ab394b0f</jhs>
-    </profile>
-</nexus2>

@@ -22,7 +22,7 @@
     .locals 0
 
     .prologue
-    .line 309
+    .line 316
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 1
@@ -35,14 +35,13 @@
     .locals 2
 
     .prologue
-    .line 312
+    .line 320
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$7()Landroid/widget/FrameLayout;
 
     move-result-object v0
 
     if-eqz v0, :cond_0
 
-    .line 313
     invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$7()Landroid/widget/FrameLayout;
 
     move-result-object v0
@@ -51,31 +50,7 @@
 
     invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
-    .line 316
-    invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$7()Landroid/widget/FrameLayout;
-
-    move-result-object v0
-
-    invoke-virtual {v0}, Landroid/widget/FrameLayout;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
-
-    move-result-object v0
-
-    check-cast v0, Landroid/widget/FrameLayout$LayoutParams;
-
-    invoke-static {v0}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$13(Landroid/widget/FrameLayout$LayoutParams;)V
-
-    .line 317
-    invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$7()Landroid/widget/FrameLayout;
-
-    move-result-object v0
-
-    invoke-static {}, Lcom/gamevil/nexus2/xml/NewsViewTask;->access$3()Landroid/widget/FrameLayout$LayoutParams;
-
-    move-result-object v1
-
-    invoke-virtual {v0, v1}, Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
-
-    .line 319
+    .line 321
     :cond_0
     return-void
 .end method
