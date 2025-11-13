@@ -2,6 +2,32 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v20-FINAL] - 2025-11-14 (PRODUCTION STABLE)
+
+### Status: CONFIRMED WORKING & STABLE
+- **APK**: z3n0n14_3-trm-v20-STABLE.apk (23M, signed)
+- **Libraries**: Original armeabi (2.3M libgameDSO.so) - PROVEN STABLE
+- **SDK**: minSdkVersion 24, targetSdkVersion 28 (text relocations workaround)
+- **Android 16**: Fully compliant and tested
+
+### Library Modernization Attempt (v21) - ABANDONED
+**Attempted**: Upgrade to armeabi-v7a + x86 from reference APK (1.9M, 19% smaller)
+**Result**: **CRASH** - null pointer dereference in getDeviceInfo() during NativeResize()
+**Root Cause**: Reference APK's armeabi-v7a libgameDSO.so has incompatible memory initialization code
+**Decision**: Revert to v20 - proven stable through extensive testing
+
+### Crash Analysis (v21-modernlibs)
+```
+signal 11 (SIGSEGV): null pointer dereference
+→ Java_com_gamevil_nexus2_Natives_NativeResize()
+  → glResize() → getDeviceInfo()
+    → Gcx_MM_Calloc() → memset() crashes at fault addr 0x00000000
+```
+
+The armeabi-v7a library has memory initialization bug not present in original armeabi version.
+
+**Lesson**: Library optimization trades stability. v20's defensive try-catch approach + proven libraries = production ready.
+
 ## [v19] - 2025-11-13
 
 ### Fixed
