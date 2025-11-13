@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v6] - 2025-11-13
+
+### Fixed
+- Fixed INSTALL_FAILED_INVALID_APK error ("Split null was defined multiple times")
+- Cleaned stale build artifacts causing resource duplication
+- Performed complete rebuild from clean state without leftover resources
+- Resolved resource compilation conflicts in aapt2 build process
+
+### Build Quality
+- Incremented version from v5 to v6
+- Complete cleanup of build/ directory before rebuild
+- Verified APK structure has no duplicate splits or resources
+- Confirmed clean resource table with proper package ID (127)
+
+### Build Process
+- Fresh compilation from scratch (removed stale build artifacts)
+- Properly zipaligned and signed with modern APK schemes
+- Verified signature integrity with v2/v3 schemes
+
 ## [v5] - 2025-11-13
 
 ### Fixed
