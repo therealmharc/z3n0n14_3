@@ -62,7 +62,7 @@
     <public type="drawable" name="ui_menu_back1" id="0x7f02003b" />
     <public type="drawable" name="ui_menu_community" id="0x7f02003c" />
     <public type="drawable" name="ui_menu_community_ch" id="0x7f02003d" />
-    <public type="drawable" name="ui_menu_community_click_ch" id="0x7f02003e" />
+
     <public type="drawable" name="ui_menu_community_jp" id="0x7f02003f" />
     <public type="drawable" name="ui_menu_community_kr" id="0x7f020040" />
     <public type="drawable" name="ui_menu_continue" id="0x7f020041" />
