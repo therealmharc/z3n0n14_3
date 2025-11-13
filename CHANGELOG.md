@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v27] - 2025-11-14 (FEATURE - SUPPRESS BILLING DIALOG)
+
+### Changed
+- Suppressed "Can't connect to Market" dialog on launch
+- Dialog was showing even when billing unavailable (expected behavior)
+- Game continues normally without informational dialog
+- Reference APK also displays this dialog - now removed for better UX
+
+### Implementation
+- Zenonia3Launcher.smali: Removed showDialog(0x1) call
+- Billing check still occurs, but no user-visible dialog
+- App launches cleanly without interruption
+- Graceful fallback when billing unavailable (billing simply disabled)
+
+### Build Information
+- **Version**: 2.0.4 (code 204)
+- **Package**: com.gamevil.zenonia3.global
+- **Android 16 Support**: ✓ Fully functional
+
 ## [v26] - 2025-11-14 (HOTFIX - CORRECT SETPACKAGE BINDING)
 
 ### Fixed

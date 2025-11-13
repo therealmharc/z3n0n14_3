@@ -1605,9 +1605,6 @@
 
     if-nez v5, :cond_0
 
-    .line 304
-    invoke-virtual {p0, v10}, Lcom/gamevil/zenonia3/global/Zenonia3Launcher;->showDialog(I)V
-
     .line 308
     :cond_0
     const v5, 0x7f070040
