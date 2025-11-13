@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v4] - 2025-11-13
+
+### Fixed
+- Fixed INSTALL_PARSE_FAILED_MANIFEST_MALFORMED error for Android 31+ compatibility
+- Added explicit `android:exported` attributes to activities/receivers with intent filters
+- Ensured compliance with Android 31+ manifest requirements
+
+### Manifest
+- Added `android:exported="true"` to Zenonia3Launcher activity (MAIN/LAUNCHER)
+- Added `android:exported="true"` to BillingReceiver (system broadcasts)
+- Verified all intent filters have explicit export declarations
+
+### Build
+- Incremented version from v3 to v4
+- Clean rebuild with updated AndroidManifest.xml
+- Properly zipaligned and signed with modern APK schemes
+- Verified compatibility with Android 31+ manifest policies
+
 ## [v3] - 2025-11-13
 
 ### Fixed
