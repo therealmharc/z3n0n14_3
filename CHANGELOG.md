@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v9] - 2025-11-13
+
+### Fixed
+- Fixed crash from implicit service intent (Android 16 explicit intent requirement)
+- Made billing service binding intent explicit by setting package
+- Changed from implicit intent to explicit intent in all BillingService variants
+
+### Android 16 Compliance
+- Android 16 requires all service intents to be explicit (not implicit)
+- Implicit Intent: Intent(action) - dangerous, multiple services could handle
+- Explicit Intent: Intent(action) + setPackage(package) - safe, one service bound
+- Applied fix to all 3 BillingService classes (multilingual, global, jp)
+
+### Build
+- Incremented version from v8 to v9
+- Fixed implicit→explicit intent for MarketBillingService binding
+- Properly zipaligned and signed with modern APK schemes
+- Verified signature integrity with v2/v3 schemes
+
 ## [v8] - 2025-11-13
 
 ### Fixed

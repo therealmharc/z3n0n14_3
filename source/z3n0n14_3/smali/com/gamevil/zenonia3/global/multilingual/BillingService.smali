@@ -156,6 +156,11 @@
 
     invoke-direct {v3, v4}, Landroid/content/Intent;-><init>(Ljava/lang/String;)V
 
+    .line 412
+    const-string v4, "com.android.vending"
+
+    invoke-virtual {v3, v4}, Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
+
     .line 413
     const/4 v4, 0x1
 
