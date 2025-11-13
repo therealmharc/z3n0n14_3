@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v10] - 2025-11-13
+
+### Fixed
+- Fixed UnsatisfiedLinkError for native methods NativeResumeClet() and NativePauseClet()
+- Added error handling for native method calls that fail when library not fully loaded
+- Wrapped critical native calls (onResume/onPause) in try-catch blocks
+
+### Native Library Handling
+- v5 fixed static library loading but didn't protect runtime native calls
+- Native methods can fail even if library silently loaded due to text relocations
+- Added defensive try-catch around onResume() and onPause() native calls
+- App now gracefully handles missing native implementations
+
+### Build
+- Incremented version from v9 to v10
+- Fixed critical native method crash in NexusGLSurfaceView
+- Properly zipaligned and signed with modern APK schemes
+- Verified signature integrity with v2/v3 schemes
+
 ## [v9] - 2025-11-13
 
 ### Fixed

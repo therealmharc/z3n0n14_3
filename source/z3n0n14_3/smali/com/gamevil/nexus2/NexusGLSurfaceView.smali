@@ -131,8 +131,20 @@
     invoke-virtual {v0}, Lcom/gamevil/nexus2/NexusGLThread;->onPause()V
 
     .line 104
+    :try_start_pause
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->NativePauseClet()V
+    :try_end_pause
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_pause .. :try_end_pause} :catch_pause
+    .catch Ljava/lang/Exception; {:try_start_pause .. :try_end_pause} :catch_pause
 
+    goto :goto_pause
+
+    :catch_pause
+    const-string v0, "NexusGLSurfaceView"
+    const-string v1, "Warning: NativePauseClet not available"
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_pause
     .line 105
     return-void
 .end method
@@ -147,8 +159,20 @@
     invoke-virtual {v0}, Lcom/gamevil/nexus2/NexusGLThread;->onResume()V
 
     .line 112
+    :try_start_resume
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->NativeResumeClet()V
+    :try_end_resume
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_resume .. :try_end_resume} :catch_resume
+    .catch Ljava/lang/Exception; {:try_start_resume .. :try_end_resume} :catch_resume
 
+    goto :goto_resume
+
+    :catch_resume
+    const-string v0, "NexusGLSurfaceView"
+    const-string v1, "Warning: NativeResumeClet not available"
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_resume
     .line 113
     return-void
 .end method
