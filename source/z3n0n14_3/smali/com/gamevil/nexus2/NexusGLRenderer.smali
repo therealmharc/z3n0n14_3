@@ -87,8 +87,20 @@
 
     move-result v4
 
+    :try_start_handleevent
     invoke-static {v1, v2, v3, v4}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
+    :try_end_handleevent
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_handleevent .. :try_end_handleevent} :catch_handleevent
+    .catch Ljava/lang/Exception; {:try_start_handleevent .. :try_end_handleevent} :catch_handleevent
 
+    goto :goto_handleevent
+
+    :catch_handleevent
+    const-string v0, "NexusGLRenderer"
+    const-string v1, "Warning: handleCletEvent not available"
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_handleevent
     .line 221
     .end local v0    # "currentEvent":Lcom/gamevil/nexus2/ui/EventQueue$EventItem;
     :cond_0

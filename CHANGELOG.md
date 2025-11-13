@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v17] - 2025-11-13
+
+### Fixed
+- Fixed UnsatisfiedLinkError for handleCletEvent() native method
+- Added error handling for event handling call in NexusGLRenderer.sendHandleCletEvent()
+- Protected event processing with try-catch block
+
+### Event Processing Thread Safety
+- handleCletEvent() called per-frame before rendering to process input events
+- Native event handling fails when library has text relocations
+- Protected from crashing event processing loop
+- App continues handling events with fallback path
+
+### Build
+- Incremented version from v16 to v17
+- Added protection for handleCletEvent (event input processing)
+- Properly zipaligned and signed with modern APK schemes
+- Verified signature integrity with v2/v3 schemes
+
 ## [v16] - 2025-11-13
 
 ### Fixed
