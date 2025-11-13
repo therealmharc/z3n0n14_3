@@ -563,6 +563,7 @@
 
     .line 184
     .local v0, "str":Ljava/lang/String;
+    :try_start_phone
     const-string v2, "phone"
 
     invoke-virtual {p0, v2}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -574,6 +575,19 @@
     invoke-virtual {v2}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
 
     move-result-object v0
+    :try_end_phone
+    .catch Ljava/lang/SecurityException; {:try_start_phone .. :try_end_phone} :catch_phone
+    .catch Ljava/lang/Exception; {:try_start_phone .. :try_end_phone} :catch_phone
+
+    goto :goto_phone
+
+    :catch_phone
+    const-string v2, "NexusUtils"
+    const-string v3, "Warning: Unable to access device ID in checkPhonNumber"
+    invoke-static {v2, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    const/4 v0, 0x0
+
+    :goto_phone
 
     .line 187
     if-eqz v0, :cond_0
@@ -914,6 +928,7 @@
 
     .prologue
     .line 398
+    :try_start_devid
     const-string v1, "phone"
 
     invoke-virtual {p0, v1}, Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
@@ -925,6 +940,19 @@
     invoke-virtual {v1}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
 
     move-result-object v0
+    :try_end_devid
+    .catch Ljava/lang/SecurityException; {:try_start_devid .. :try_end_devid} :catch_devid
+    .catch Ljava/lang/Exception; {:try_start_devid .. :try_end_devid} :catch_devid
+
+    goto :goto_devid
+
+    :catch_devid
+    const-string v1, "NexusUtils"
+    const-string v2, "Warning: Unable to access device ID in getDeviceID"
+    invoke-static {v1, v2}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    const-string v0, "0"
+
+    :goto_devid
 
     .line 399
     .local v0, "_imei":Ljava/lang/String;

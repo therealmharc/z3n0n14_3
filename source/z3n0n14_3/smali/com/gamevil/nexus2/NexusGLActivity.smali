@@ -681,6 +681,7 @@
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 441
+    :try_start_phonenumber
     sget-object v2, Lcom/gamevil/nexus2/NexusGLActivity;->myActivity:Lcom/gamevil/nexus2/NexusGLActivity;
 
     const-string v3, "phone"
@@ -694,6 +695,19 @@
     invoke-virtual {v2}, Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
 
     move-result-object v0
+    :try_end_phonenumber
+    .catch Ljava/lang/SecurityException; {:try_start_phonenumber .. :try_end_phonenumber} :catch_phonenumber
+    .catch Ljava/lang/Exception; {:try_start_phonenumber .. :try_end_phonenumber} :catch_phonenumber
+
+    goto :goto_phonenumber
+
+    :catch_phonenumber
+    const-string v2, "NexusGLActivity"
+    const-string v3, "Warning: Unable to access device ID in getPhoneNumber"
+    invoke-static {v2, v3}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+    const-string v0, ""
+
+    :goto_phonenumber
 
     .line 443
     const-string v2, "#deviceID#"

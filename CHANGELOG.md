@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v8] - 2025-11-13
+
+### Fixed
+- Fixed crash from multiple unprotected getDeviceId() calls across codebase
+- Added error handling in NexusUtils.checkPhonNumber() - getDeviceId() call
+- Added error handling in NexusUtils.getDeviceID() - getDeviceId() call  
+- Added error handling in NexusGLActivity.getPhoneNumber() - getDeviceId() call
+- Deep scanned and patched all 4 device ID retrieval points in critical paths
+
+### Permissions & Security
+- Comprehensive fix for Android 16+ device identifier permission enforcement
+- All getDeviceId() calls now wrapped in try-catch blocks
+- App gracefully handles permission denied at all device ID access points
+- Prevents crash even if some permission checks fail
+
+### Build
+- Incremented version from v7 to v8
+- Clean rebuild with comprehensive device ID error handling
+- Properly zipaligned and signed with modern APK schemes
+- Verified signature integrity with v2/v3 schemes
+
 ## [v7] - 2025-11-13
 
 ### Fixed
