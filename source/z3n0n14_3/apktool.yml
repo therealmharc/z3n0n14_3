@@ -9,8 +9,8 @@ sdkInfo:
 packageInfo:
   forcedPackageId: 127
 versionInfo:
-  versionCode: 217
-  versionName: 2.1.7
+  versionCode: 216
+  versionName: 2.1.6
 doNotCompress:
 - arsc
 - gif

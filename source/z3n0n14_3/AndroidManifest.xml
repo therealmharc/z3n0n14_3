@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" android:installLocation="auto" package="com.gamevil.zenonia3.global" platformBuildVersionCode="34" platformBuildVersionName="14">
-    <application android:debuggable="false" android:extractNativeLibs="false" android:icon="@drawable/icon_normal" android:label="z3n0n14_3">
+    <application android:debuggable="false" android:icon="@drawable/icon_normal" android:label="z3n0n14_3">
         <activity android:configChanges="keyboardHidden|orientation" android:exported="true" android:label="z3n0n14_3" android:name=".Zenonia3Launcher" android:screenOrientation="landscape" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

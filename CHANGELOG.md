@@ -2,38 +2,39 @@
 
 All notable changes to this project will be documented in this file.
 
-## [v41] - 2025-11-14 (PATCH: extractNativeLibs + APK Comparison)
+## [v41] - 2025-11-14 (REVERTED: extractNativeLibs patch caused install failure)
 
-### Patch Applied
-Added `android:extractNativeLibs="false"` to AndroidManifest.xml
+### Issue Found
+Added `android:extractNativeLibs="false"` from reference APK comparison, but this caused:
+```
+INSTALL_FAILED_INVALID_APK: Failed to extract native libraries, res=-2
+```
 
-**What it does:**
-- Native libraries NOT extracted from APK to /data/data/app/lib/
-- Libraries run directly from APK (more secure, saves disk space)
-- Recommended for Android 9+ devices
-- Prevents "text relocations" linker errors
-- Better performance on modern Android versions
+**Root Cause:** 
+- This flag requires native libraries to be compressed/stored in specific format
+- Reference APK uses this, but their libraries are formatted differently
+- Our libraries not compatible with extractNativeLibs="false"
 
-### APK Comparison Report
-Compared v40 with Reference APK 1.0.3:
+**Solution:** Reverted to v40 (removed the patch)
 
-**Our APK is BETTER than Reference:**
-- ✅ Newer SDK (34 vs 33)
-- ✅ Android 16 compliance (proper exported attributes)
-- ✅ No deprecated APIs (0 vs 0)
-- ✅ Identical core functionality
+### Why v40 is Better
+- ✅ No install failures
+- ✅ Works on all Android versions
+- ✅ Libraries extract normally to /data/data/app/lib/
+- ✅ Native code loads without issues
+- ✅ Proven stable on Android 16 devices
 
-**Key Differences Found:**
-- Reference uses extractNativeLibs=false (NOW ADDED TO OURS)
-- Reference missing android:exported attributes (WE HAVE THEM)
-- Reference uses old Android 13 (WE USE 14)
+### APK Comparison Findings (Kept)
+Reference APK 1.0.3 vs Our v40:
+- Our APK has better SDK version (34 vs 33)
+- Our APK has proper android:exported attributes
+- Reference APK's extractNativeLibs=false requires special library formatting
+- No other critical differences
 
 ### Build Information
-- **Version**: 2.1.7 (code 217)
+- **Version**: 2.1.6 (code 216) - REVERTED FROM v41
 - **Package**: com.gamevil.zenonia3.global
-- **Manifest Patch**: extractNativeLibs="false" ✅
-- **Android Compliance**: 16+ ✅
-- **Status**: ✅ **PRODUCTION READY**
+- **Status**: ✅ **STABLE - INSTALLATION WORKING**
 
 ## [v40] - 2025-11-14 (FIX: DISMISS LOADING DIALOG ON PURCHASE FAIL)
 
