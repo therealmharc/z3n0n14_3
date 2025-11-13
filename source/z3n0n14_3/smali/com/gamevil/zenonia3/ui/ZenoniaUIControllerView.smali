@@ -1108,8 +1108,20 @@
     .line 270
     const/4 v0, 0x1
 
+    :try_start_nexus1_cond0
     invoke-static {v0}, Lcom/gamevil/nexus2/Natives;->NativeIsNexusOne(Z)V
+    :try_end_nexus1_cond0
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_nexus1_cond0 .. :try_end_nexus1_cond0} :catch_nexus1_cond0
+    .catch Ljava/lang/Exception; {:try_start_nexus1_cond0 .. :try_end_nexus1_cond0} :catch_nexus1_cond0
 
+    goto :goto_nexus1_cond0
+
+    :catch_nexus1_cond0
+    const-string v0, "ZenoniaUIControllerView"
+    const-string v1, "Warning: NativeIsNexusOne not available"
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_nexus1_cond0
     .line 276
     :goto_0
     sget-object v0, Landroid/os/Build;->MODEL:Ljava/lang/String;
@@ -1133,8 +1145,20 @@
 
     .line 272
     :cond_2
+    :try_start_nexus1_cond2
     invoke-static {v2}, Lcom/gamevil/nexus2/Natives;->NativeIsNexusOne(Z)V
+    :try_end_nexus1_cond2
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_nexus1_cond2 .. :try_end_nexus1_cond2} :catch_nexus1_cond2
+    .catch Ljava/lang/Exception; {:try_start_nexus1_cond2 .. :try_end_nexus1_cond2} :catch_nexus1_cond2
 
+    goto :goto_nexus1_cond2
+
+    :catch_nexus1_cond2
+    const-string v0, "ZenoniaUIControllerView"
+    const-string v1, "Warning: NativeIsNexusOne not available"
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_nexus1_cond2
     goto :goto_0
 .end method
 

@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v14] - 2025-11-13
+
+### Fixed
+- Fixed UnsatisfiedLinkError for NativeIsNexusOne() native method
+- Added error handling for UI initialization native call in ZenoniaUIControllerView.onInitialize()
+- Protected both conditional paths calling NativeIsNexusOne() with try-catch blocks
+
+### UI Controller Thread Safety
+- NativeIsNexusOne() called during GL rendering surfaceChanged() lifecycle
+- Two code paths (cond_0 and cond_2) call this device detection method
+- Both paths now protected with defensive error handling
+- App continues UI initialization even if native device detection fails
+
+### Build
+- Incremented version from v13 to v14
+- Added protection for NativeIsNexusOne in ZenoniaUIControllerView
+- Properly zipaligned and signed with modern APK schemes
+- Verified signature integrity with v2/v3 schemes
+
 ## [v13] - 2025-11-13
 
 ### Fixed
