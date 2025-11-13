@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v15] - 2025-11-13
+
+### Fixed
+- Fixed UnsatisfiedLinkError for NativeInitDeviceInfo() native method
+- Fixed UnsatisfiedLinkError for NativeResize() native method
+- Added error handling for GL surface lifecycle callbacks in NexusGLRenderer.surfaceChanged()
+- Protected both device initialization and resize operations with try-catch blocks
+
+### GL Surface Lifecycle Thread Safety
+- NativeInitDeviceInfo() and NativeResize() called during GL rendering surfaceChanged()
+- Both methods fail when library has text relocations
+- Added defensive try-catch to prevent rendering thread crash during surface changes
+- App continues rendering even if device info init or resize fails
+
+### Build
+- Incremented version from v14 to v15
+- Added protection for NativeInitDeviceInfo and NativeResize in NexusGLRenderer
+- Properly zipaligned and signed with modern APK schemes
+- Verified signature integrity with v2/v3 schemes
+
 ## [v14] - 2025-11-13
 
 ### Fixed

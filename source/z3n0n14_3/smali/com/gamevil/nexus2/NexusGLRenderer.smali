@@ -238,11 +238,35 @@
 
     sget v1, Lcom/gamevil/nexus2/NexusGLActivity;->gameScreenHeight:I
 
+    :try_start_initdev
     invoke-static {v0, v1}, Lcom/gamevil/nexus2/Natives;->NativeInitDeviceInfo(II)V
+    :try_end_initdev
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_initdev .. :try_end_initdev} :catch_initdev
+    .catch Ljava/lang/Exception; {:try_start_initdev .. :try_end_initdev} :catch_initdev
 
+    goto :goto_initdev
+
+    :catch_initdev
+    const-string v0, "NexusGLRenderer"
+    const-string v1, "Warning: NativeInitDeviceInfo not available"
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_initdev
     .line 95
+    :try_start_resize
     invoke-static {p2, p3}, Lcom/gamevil/nexus2/Natives;->NativeResize(II)V
+    :try_end_resize
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_resize .. :try_end_resize} :catch_resize
+    .catch Ljava/lang/Exception; {:try_start_resize .. :try_end_resize} :catch_resize
 
+    goto :goto_resize
+
+    :catch_resize
+    const-string v0, "NexusGLRenderer"
+    const-string v1, "Warning: NativeResize not available"
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_resize
     .line 96
     return-void
 
