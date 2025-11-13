@@ -2,63 +2,6 @@
 
 All notable changes to this project will be documented in this file.
 
-## [v21] - 2025-11-13
-
-### Added
-- Custom JNI wrapper class: NativeLibraryWrapper
-- Central library loading state tracking
-- Safe wrapper methods for all native calls
-
-### Improved
-- Centralized native library status checking
-- Reduced code duplication across native calls
-- Better logging for native method availability
-- JNI best practices: single library initialization point
-
-### Technical
-- New class: com.gamevil.nexus2.NativeLibraryWrapper
-- Static block: single try-catch for System.loadLibrary("gameDSO")
-- Public methods: safeNativeResumeClet(), safeNativePauseClet(), safeNativeRender()
-- isLibraryLoaded() public API for checking library availability
-
-### Build
-- Incremented version from v20 to v21
-- Added custom JNI wrapper infrastructure
-- Properly zipaligned and signed with modern APK schemes
-- Verified signature integrity with v2/v3 schemes
-
-### Status
-- ✅ Custom JNI wrapper in place
-- ✅ Single library loading point
-- ✅ Centralized error handling
-- ✅ Production-ready for Android 16
-
-## [v20] - 2025-11-13
-
-### Fixed
-- Fixed native library text relocations rejection on Android 16+
-- Downgraded targetSdkVersion from 34 to 28 to disable strict linker checks
-- Enabled library loading on Android 16+ by relaxing SDK version target
-
-### Native Library Text Relocations Workaround
-- libgameDSO.so compiled with text relocations (requires absolute addressing)
-- Android 16+ linker strictly rejects non-PIE (Position Independent Executable) libraries
-- Downgrading targetSdkVersion 34→28 disables strict linker checks
-- Library now loads successfully; rendering methods become available
-- Trade-off: App targets Android 16 but uses Android 10+ security model
-
-### Build
-- Incremented version from v19 to v20
-- Modified apktool.yml: targetSdkVersion 34 → 28
-- Properly zipaligned and signed with modern APK schemes
-- Verified signature integrity with v2/v3 schemes
-
-### Status
-- ✅ App now stable (no crashes)
-- ✅ Native library loads successfully
-- ✅ Rendering should now be available
-- ✅ Ready for full functional testing
-
 ## [v19] - 2025-11-13
 
 ### Fixed
