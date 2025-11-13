@@ -268,8 +268,20 @@
 
     sget v1, Lcom/gamevil/nexus2/NexusGLActivity;->gameScreenHeight:I
 
+    :try_start_initbuffer
     invoke-static {v0, v1}, Lcom/gamevil/nexus2/Natives;->NativeInitWithBufferSize(II)V
+    :try_end_initbuffer
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_initbuffer .. :try_end_initbuffer} :catch_initbuffer
+    .catch Ljava/lang/Exception; {:try_start_initbuffer .. :try_end_initbuffer} :catch_initbuffer
 
+    goto :goto_initbuffer
+
+    :catch_initbuffer
+    const-string v0, "NexusGLRenderer"
+    const-string v1, "Warning: NativeInitWithBufferSize not available"
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_initbuffer
     .line 110
     return-void
 .end method

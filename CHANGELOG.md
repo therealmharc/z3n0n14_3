@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v13] - 2025-11-13
+
+### Fixed
+- Fixed UnsatisfiedLinkError for NativeInitWithBufferSize() native method
+- Added error handling for GL rendering thread native call in NexusGLRenderer.surfaceCreated()
+- Protected critical buffer initialization method with try-catch block
+
+### Native Rendering Thread Safety
+- NativeInitWithBufferSize() called from NxGLThread (GL rendering thread)
+- Native method fails when library has text relocations
+- Added defensive try-catch to prevent rendering thread crash
+- App continues rendering even if native buffer init unavailable
+
+### Build
+- Incremented version from v12 to v13
+- Added protection for NativeInitWithBufferSize in NexusGLRenderer
+- Properly zipaligned and signed with modern APK schemes
+- Verified signature integrity with v2/v3 schemes
+
 ## [v12] - 2025-11-13
 
 ### Fixed
