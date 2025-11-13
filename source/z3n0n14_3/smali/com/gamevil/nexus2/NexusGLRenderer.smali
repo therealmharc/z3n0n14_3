@@ -106,8 +106,20 @@
     invoke-direct {p0}, Lcom/gamevil/nexus2/NexusGLRenderer;->sendHandleCletEvent()V
 
     .line 43
+    :try_start_render
     invoke-static {}, Lcom/gamevil/nexus2/Natives;->NativeRender()V
+    :try_end_render
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_render .. :try_end_render} :catch_render
+    .catch Ljava/lang/Exception; {:try_start_render .. :try_end_render} :catch_render
 
+    goto :goto_render
+
+    :catch_render
+    const-string v0, "NexusGLRenderer"
+    const-string v1, "Warning: NativeRender not available"
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_render
     .line 44
     sget-object v0, Lcom/gamevil/nexus2/NexusGLActivity;->uiViewControll:Lcom/gamevil/nexus2/ui/NeoUIControllerView;
 

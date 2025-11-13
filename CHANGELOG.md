@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v16] - 2025-11-13
+
+### Fixed
+- Fixed UnsatisfiedLinkError for NativeRender() native method
+- Added error handling for main frame rendering call in NexusGLRenderer.drawFrame()
+- Protected critical rendering loop with try-catch block
+
+### GL Rendering Thread Safety - CRITICAL
+- NativeRender() called every frame from GL rendering thread (drawFrame method)
+- This is the most frequently called native method
+- Protected from crashing rendering loop
+- App continues rendering with fallback path
+
+### Build
+- Incremented version from v15 to v16
+- Added protection for NativeRender (main rendering method)
+- Properly zipaligned and signed with modern APK schemes
+- Verified signature integrity with v2/v3 schemes
+
 ## [v15] - 2025-11-13
 
 ### Fixed
