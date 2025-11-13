@@ -1,0 +1,5901 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: res/raw/s000.ogg
+SHA1-Digest: 6gwJfffny9ycgOjF0rGARJteTHI=
+
+Name: assets/map/059.zt1
+SHA1-Digest: jRANtjSUaNKrtCa15PVNjrppk/Y=
+
+Name: assets/script/quest/132_E.zt1
+SHA1-Digest: wyMlKcBJtvtquHOa0S6Eb6tJHHI=
+
+Name: assets/dynamic/ItemIconComm.mpl
+SHA1-Digest: PF1r2Sm3BT7HZqklUxtmNvtndCQ=
+
+Name: assets/script/call/012.zt1
+SHA1-Digest: RNBXTANV4U+VcmPIDG58lxmYtQo=
+
+Name: assets/script/quest/071_E.zt1
+SHA1-Digest: 2yp4OxZzXrdLoOUfk+EU08LrmEI=
+
+Name: assets/chinese/data/StrTalk0.zt1
+SHA1-Digest: jJ2zC0jXYZnQENGlpEyzspgMw4w=
+
+Name: assets/pc/weapon/0/003.pzd
+SHA1-Digest: TYEP2h3lZrzaS+jV/eTgK5QM9Js=
+
+Name: xml/commonPopupJoinH.xml
+SHA1-Digest: xOOnT6bn9Xd/aGhq2A4AAQ+AvFI=
+
+Name: assets/obj/079.pzx
+SHA1-Digest: 5DWubojaQPYYfojv+IlVwuajh1U=
+
+Name: assets/script/quest/066_S.zt1
+SHA1-Digest: XjndUtv2lWWJiFefmvaighFVbxM=
+
+Name: assets/menu/pngTest.pzx
+SHA1-Digest: j6zGva6v+7Mp1PgfZHmH17KYQCs=
+
+Name: assets/pc/weapon/0/006.mpl
+SHA1-Digest: P2idv+QtXmhSYnTFdzqKC7jgjCE=
+
+Name: res/textbox_01_3.png
+SHA1-Digest: 0zL3byPmwRPCFwC0gKLdWBcUEoA=
+
+Name: assets/char/063.pzx
+SHA1-Digest: k4YVMJ18Ub04YW96Mu8wlcgxXiM=
+
+Name: assets/script/map/067_002.zt1
+SHA1-Digest: W1uX9sdBA7X54xzelFucnMNtQs4=
+
+Name: assets/script/map/124_001.zt1
+SHA1-Digest: xms3jG+jSJZJ9DtlwYdT1vI4xws=
+
+Name: assets/obj/113.pzx
+SHA1-Digest: nFxctussB1Hoe8TSsgTVl2orHMk=
+
+Name: res/drawable/bar.png
+SHA1-Digest: LMR4sVTpVRYBk06siDiv6GJs/ug=
+
+Name: assets/script/call/101.zt1
+SHA1-Digest: x9fzshg/+9Yk9oBkEugJaQfhI7M=
+
+Name: assets/script/quest/046_S.zt1
+SHA1-Digest: vjKnTHHGhzgrmPXaaNodsZFS1go=
+
+Name: assets/script/quest/099_S.zt1
+SHA1-Digest: tKSb7Gq1VaJ4TVuJUFwUhH3wFQ4=
+
+Name: assets/pc/weapon/3/006.pzd
+SHA1-Digest: /1+YwBj2DhuJ58PICGZrv+J1TI0=
+
+Name: assets/chinese/data/XlsTitle.zt1
+SHA1-Digest: P3ScFtJLPwkjSlEDiE9oIwn7nDc=
+
+Name: assets/char/125.pzx
+SHA1-Digest: GM8IMSmVQIyBBYQu7Kx5yyjAe9I=
+
+Name: assets/char/013.mpl
+SHA1-Digest: 2iu5f6g8EozVUMbdMFJjFPPFXNI=
+
+Name: assets/data/StrTip.zt1
+SHA1-Digest: yYX6S/ZYLjSCZdYXmZHnFU4b8RY=
+
+Name: assets/pc/weapon/1/002.pzd
+SHA1-Digest: B3ZG71A4CTgFQqhDUcOovckgDw0=
+
+Name: assets/map/248.zt1
+SHA1-Digest: 10t92fAS3XZ/slPOpDS/J7J+rtY=
+
+Name: assets/map/232.zt1
+SHA1-Digest: hRSxdU3wnCXERSTMuBsgcD5LBoY=
+
+Name: assets/TouchOemIME.pzx
+SHA1-Digest: KQh8XpujSAwolL6VHT6gGzWrZAQ=
+
+Name: assets/script/quest/023_E.zt1
+SHA1-Digest: xsI9cjyMu8Fu5N/DXt6/62zsp+c=
+
+Name: assets/chinese/data/StrMaptheme_Name.zt1
+SHA1-Digest: 57cRC9GyZGEDWKV3je/o1D8aqYM=
+
+Name: assets/obj/013.pzx
+SHA1-Digest: eO33TCJhdI5W6PfpYt80LdxdYsc=
+
+Name: assets/html/mechanic_launcher.png
+SHA1-Digest: ANhV5FzdT0lyLTqsFg/CDfk2QOE=
+
+Name: assets/com/Fairy.pzx
+SHA1-Digest: 8voYXqkHMltsiaH5O0FqqMOwsx8=
+
+Name: assets/obj/060.pzx
+SHA1-Digest: mR1f9LEF66gsiu5cJeRcuaqyovU=
+
+Name: assets/korean/data/StrQuestComplete.zt1
+SHA1-Digest: 83xejaGOc06sqiyl3MoiL9XsOr0=
+
+Name: assets/pc/side_hand/0/002.pzd
+SHA1-Digest: wVm4ZVQpLsa/bCT2e+jXlZvW+II=
+
+Name: assets/map/219.zt1
+SHA1-Digest: 0sgsDBbApxPt/sfQB5vhOhyDeI8=
+
+Name: assets/script/map/027_001.zt1
+SHA1-Digest: nPnDcOCRHUewSs3Iowxv7yQGIWs=
+
+Name: res/raw/s028.ogg
+SHA1-Digest: 0VmigC0eC74Vwjhh4wwQGDTVi+I=
+
+Name: assets/script/map/052_002.zt1
+SHA1-Digest: 0WKxq45pyTr3l87+wYy7+J9Q/Us=
+
+Name: assets/face/008.pzx
+SHA1-Digest: GUHD36nggM/q87wdm1LEphBK4G8=
+
+Name: assets/char/139.pzx
+SHA1-Digest: OTHu+cpj9emoZfw1wmPIpMBOSpk=
+
+Name: assets/pc/armor/2/003.mpl
+SHA1-Digest: l8rEaXEIms8OiFDUgEcPUGm7HqI=
+
+Name: assets/script/com/004.zt1
+SHA1-Digest: NObk5W05mxLUrGZ4w8LFuUG/hlc=
+
+Name: assets/japanese/data/StrStatType.zt1
+SHA1-Digest: 4D3UtoqrwzR8K2+8OLi/HtYfqGk=
+
+Name: assets/pc/armor/0/001.pzd
+SHA1-Digest: Jf08zroDTkYJsgNTVUxnnZN/cAw=
+
+Name: assets/map/133.zt1
+SHA1-Digest: G7IL8kXkgODM1dL/DbBm00da/3c=
+
+Name: assets/script/quest/127_E.zt1
+SHA1-Digest: /m2cy6x+aOzb28DfpxiKtzIZHxw=
+
+Name: assets/map/100.pzx
+SHA1-Digest: fKhinQRXIBSqvO0UDoaHxO4X3WE=
+
+Name: assets/map/083.zt1
+SHA1-Digest: OkYCsohWLoISRLIr+yHixoUflSI=
+
+Name: res/raw/s003.ogg
+SHA1-Digest: rsXG6dQoZsjlCrJFn1mHjEoHXcU=
+
+Name: assets/korean/data/XlsPCNew.zt1
+SHA1-Digest: eNrEOh6f3HNG17nHABZOF0FgQeo=
+
+Name: assets/script/quest/048_E.zt1
+SHA1-Digest: LhnLeVH7d9dui2cw+oNXEPG3pCA=
+
+Name: assets/map/125.zt1
+SHA1-Digest: N4BfO2AHX4t+Vmce8rEhgolBYWE=
+
+Name: res/btn_info01_sel.png
+SHA1-Digest: MclwNDFZQdhRQmHh7WzzKgcvU/k=
+
+Name: res/drawable/gshop_btn6_jp.png
+SHA1-Digest: RWHR+lGNptyLXQjQS7uC+RwMrZ4=
+
+Name: assets/japanese/data/StrQuestSum.zt1
+SHA1-Digest: Bx4Wo/UPRlMEEWzqhjNu7c9j97o=
+
+Name: assets/script/call/105.zt1
+SHA1-Digest: W9nmR0yIP3uBZt+y2TZK//XhGnM=
+
+Name: assets/pc/head/3/002.mpl
+SHA1-Digest: 96Q0hFbwhjlfI5J7tIFPkaVIj9M=
+
+Name: assets/com/MetaEffect.pzx
+SHA1-Digest: nLmftTIX0GitSYBPoDgOySnO1OM=
+
+Name: assets/script/quest/126_E.zt1
+SHA1-Digest: FQeTwlHMZzj5bHUX7sEYp5dbxaI=
+
+Name: assets/chinese/data/XlsSheet1.zt1
+SHA1-Digest: qxNux3r6M4jxnhP3hjVzTFNqI4s=
+
+Name: assets/map/090.mpl
+SHA1-Digest: IoHIau/3rcPTZVqllJCI2iu74dM=
+
+Name: assets/korean/data/XlsSkill.zt1
+SHA1-Digest: AA3RGYmnjJkKax4Fx8/P4xsjWmM=
+
+Name: assets/char/003.mpl
+SHA1-Digest: 9DglnN6utY1zytsqJpZbAmU4cb8=
+
+Name: assets/ptc/020.ptc
+SHA1-Digest: YD6A7w/VPGWEiR5sFw/dKbS21wE=
+
+Name: assets/char/043.mpl
+SHA1-Digest: 4ap9h5x0VbfW9x3GDQig5cfE7Ik=
+
+Name: assets/script/quest/068_S.zt1
+SHA1-Digest: CD7CtBJyF+i8OYRfMQQobo22gNE=
+
+Name: assets/char/017.pzx
+SHA1-Digest: FL2rFvwqLB7CReYWfqS0EGyqd6M=
+
+Name: assets/projectile/011.pzx
+SHA1-Digest: 6cTmVk8sXWlFPwCKo8TSSo+e/N8=
+
+Name: assets/pc/effect/003.pzf
+SHA1-Digest: ydO0lJrFu4JIaqax7YoEropO65A=
+
+Name: assets/script/quest/104_E.zt1
+SHA1-Digest: QgIATyVT7Xb83wAsabpRkaleo3A=
+
+Name: assets/pc/armor/1/003.mpl
+SHA1-Digest: qbUGWAlBcFVGES2obDNxNnH+Z+Q=
+
+Name: assets/sound/059.mp3
+SHA1-Digest: 36WrUDS9/fzr3WFwn276DENibOw=
+
+Name: assets/batterUI.pzx
+SHA1-Digest: bBYP4UJ2m8VopplUgM4joixR6/U=
+
+Name: assets/char/054.mpl
+SHA1-Digest: oBRfzDrkzrWVuo40kcyX/yteMh8=
+
+Name: assets/script/call/094.zt1
+SHA1-Digest: F8xeVvE+hEFW4FDieZ6IOHdyNyQ=
+
+Name: res/keypad_num_02.png
+SHA1-Digest: V7nz41XSX9hsIFfYTG0aZzDJa0Q=
+
+Name: assets/script/call/014.zt1
+SHA1-Digest: dvvJyHfw3YQ3/LMU3hUMmewGlYg=
+
+Name: assets/obj/036.pzx
+SHA1-Digest: TSz2iSxAGOOgPKUPhRBI/21qdB4=
+
+Name: res/raw/s021.ogg
+SHA1-Digest: AB1LZIuHmPvpBknxlZY5lfSfH7s=
+
+Name: assets/japanese/data/XlsPCNew.zt1
+SHA1-Digest: gxqzJW2rouCV9LwO59bXz+TWfxM=
+
+Name: res/btn_cancel_nor_h.png
+SHA1-Digest: pa7jF/+t7BNTeEuvlNU2yWmqSaE=
+
+Name: assets/script/quest/015_E.zt1
+SHA1-Digest: HThwyC0kzfXkCeUxRqaVvFilpv4=
+
+Name: assets/script/quest/025_S.zt1
+SHA1-Digest: AX7eLhdEduTcpYZMJDUb34Xd4sE=
+
+Name: assets/ptc/007.ptc
+SHA1-Digest: 23VkzMuhowMMhMmxAfI8zRc6aD0=
+
+Name: assets/ptc/051.ptc
+SHA1-Digest: i7DX37XwGdUMWvEYVWXOPFd3KMQ=
+
+Name: assets/script/quest/077_S.zt1
+SHA1-Digest: DfQuHRKedGtkBFGxSn70WhRZ9yo=
+
+Name: assets/script/call/013.zt1
+SHA1-Digest: zqkUfqOMedWmBz/WdC5GUivhyJg=
+
+Name: assets/pc/armor/0/005.mpl
+SHA1-Digest: 7DqjIi88hKvS4sdi8JmHMy7JGHU=
+
+Name: assets/pc/head/0/002.pzd
+SHA1-Digest: n6A/SGhU+rmumm7y4TOyKCQS9Xw=
+
+Name: assets/script/quest/004_E.zt1
+SHA1-Digest: qRgkjc6LVk4O63XsSe9g/GMWPOo=
+
+Name: assets/obj/103.pzx
+SHA1-Digest: qY292EMel7FJ3kDCyJISXc0R1Qg=
+
+Name: assets/script/quest/095_S.zt1
+SHA1-Digest: BPHWo1fYeSYlJMbNaiyh0dXXMOk=
+
+Name: assets/char/047.pzx
+SHA1-Digest: oDFH/dXRsxNgfxrgWxU4BknlG2U=
+
+Name: res/btn_terms_sel_b.png
+SHA1-Digest: Gm3DRBTLL7UvEQiBMXved9/D5eA=
+
+Name: assets/script/quest/001_E.zt1
+SHA1-Digest: ROHm0n+2DZjeDBEgdc8p2n2rwmw=
+
+Name: assets/sound/043.mp3
+SHA1-Digest: oSWj03zalr1wc2Yf+9qlfl0YiS0=
+
+Name: assets/script/quest/117_S.zt1
+SHA1-Digest: 4GTNYwOMjia2LdXcGGjXmeLo2wM=
+
+Name: assets/projectile/014.pzx
+SHA1-Digest: y+oWq0mmBXOtipWmCXVC9Hs78xo=
+
+Name: assets/script/quest/051_E.zt1
+SHA1-Digest: iQ+jEuIeYVnQfFb5IFTbKrLZw5Q=
+
+Name: assets/map/104.zt1
+SHA1-Digest: 43DuBYGLWtxmq9RzLyBykgxgtqs=
+
+Name: assets/pc/side_hand/1/007.mpl
+SHA1-Digest: XvWICyxZBaZpHk56Eha4hXhHzYg=
+
+Name: assets/obj/058.pzx
+SHA1-Digest: 9pz6fgDDXGeyat8Nvvkp7Wx8fm0=
+
+Name: xml/purchaseH.xml
+SHA1-Digest: 2lBc7kQ+UlCTNIF7k/ntBBIVHrM=
+
+Name: res/popup_bg_all.9.png
+SHA1-Digest: K9IjDFoPSUJcND09Sfoj7CcaaeU=
+
+Name: res/drawable/back_b.png
+SHA1-Digest: pK/FCuzmQ6NEqg2ztFqPi053hXI=
+
+Name: assets/script/quest/136_S.zt1
+SHA1-Digest: zTxVAX2g45aFwM+3rcyZEdYEC64=
+
+Name: assets/data/StrQuest_C.zt1
+SHA1-Digest: kRdONUS7/UIX2EgCXO+MT/WI1X4=
+
+Name: assets/pc/weapon/2/006.mpl
+SHA1-Digest: jFnBZnTMGkyzGVb00HaBGv0N61g=
+
+Name: assets/html/grade.png
+SHA1-Digest: RtzHw0svHgoiy4C5t341dFvs/4U=
+
+Name: assets/map/247.zt1
+SHA1-Digest: NOVvQ1j//dXSLW/USZBr1N/8FWg=
+
+Name: assets/obj/026.mpl
+SHA1-Digest: B/oB82c5+HHLd83LxuFpKgNzw2g=
+
+Name: assets/menu/Title.pzx
+SHA1-Digest: OU1LZE9H5okigoX4nDLyU80YUp0=
+
+Name: assets/pc/side_hand/2/002.mpl
+SHA1-Digest: nHoNOkSvWb24tHWzCDud61MpBb0=
+
+Name: assets/pc/side_hand/1/004.mpl
+SHA1-Digest: MkUAANMob/UabXvUqUY6oZlqano=
+
+Name: assets/obj/045.pzx
+SHA1-Digest: HAZFnffmH6gq1pbImumA+X+6FfU=
+
+Name: assets/japanese/data/StrTalk0.zt1
+SHA1-Digest: 6JHY5yFrIdzQ8ypE8FNnbEWq+CU=
+
+Name: assets/obj/101.pzx
+SHA1-Digest: ho7/UCkiyxc7mO8q9qw7sEA5mBg=
+
+Name: res/btn_con_nor.png
+SHA1-Digest: W5AUFWV3O5lWRz78vVdf7RZ2Z8o=
+
+Name: res/drawable/btt_touch.png
+SHA1-Digest: F74BHpdjhPzvwMNMdBz2KIWrIhg=
+
+Name: assets/map/016.zt1
+SHA1-Digest: 8Waochze4WushGhOB1BDvsVYkIA=
+
+Name: assets/map/089.zt1
+SHA1-Digest: pGg5Gbu4ZVrHRzUBNB332C9Ir6M=
+
+Name: assets/script/quest/115_S.zt1
+SHA1-Digest: aEG6k+GzPWRRErzuidsD1n1dsms=
+
+Name: assets/char/129.pzx
+SHA1-Digest: vN1lQfMiUOaQke/PyRAkmPXWKOc=
+
+Name: assets/dynamic/BGIce.pzx
+SHA1-Digest: LgfrTBWLXRo+is1lt/eTabZMf8Q=
+
+Name: assets/obj/116.mpl
+SHA1-Digest: I1eojMoM0Zvpc/VcKy+idmCK4aQ=
+
+Name: xml_kt_lg/pop_Juminnumber.xml
+SHA1-Digest: 7xnIsTYi5ZA34ij1uwf1aq6EMyg=
+
+Name: assets/japanese/data/XlsPVP.zt1
+SHA1-Digest: oPgFb9Sdxo/MhUgscgS1l3X/sXo=
+
+Name: assets/char/057.mpl
+SHA1-Digest: kKdKKg6S6r3AYDl/RQXcDlBz0g0=
+
+Name: assets/sound/107.caf
+SHA1-Digest: xyzrqZLEgt0gPtyeI3NNOOgnra4=
+
+Name: assets/projectile/009.pzx
+SHA1-Digest: VNZMXjtjbEk6LDb2HlcyKIefSmM=
+
+Name: assets/script/call/108.zt1
+SHA1-Digest: ybPA7XmfCSQq5vs+UyOe+mt/1DA=
+
+Name: assets/map/206.zt1
+SHA1-Digest: Ihv2Kfbu8jLvAm+kMC5svaa1Z3o=
+
+Name: assets/script/quest/083_S.zt1
+SHA1-Digest: wYIJSZybOoxgJwVqdinifsKEgoU=
+
+Name: assets/map/020.zt1
+SHA1-Digest: jXdlTeSIsmFM6Hl4b7CEiJ0pWYo=
+
+Name: assets/char/015.mpl
+SHA1-Digest: OsYjrEN9lqyT8wnxejo0QFtakow=
+
+Name: assets/char/111.pzx
+SHA1-Digest: XhP6equ0+O9MvdUeHBHQGKPCr5c=
+
+Name: assets/char/126.pzx
+SHA1-Digest: FAmkLMwDe/rqWqg6ZvFBFQQzFJA=
+
+Name: res/drawable/gshop_btn3_jp.png
+SHA1-Digest: WNTRMb3kFfQo3Blp+/gGZFStWuE=
+
+Name: assets/script/quest/052_E.zt1
+SHA1-Digest: NXvHS5+ymSO0UZuWkjPW4HuZwfM=
+
+Name: assets/map/167.zt1
+SHA1-Digest: iG1JmOcHdm9aEIe1UZJ1wfQrATM=
+
+Name: assets/japanese/script/output_dlg.zt1
+SHA1-Digest: wGIP91YuFT5QwgdzoqMPsBhKLyc=
+
+Name: assets/script/quest/076_S.zt1
+SHA1-Digest: fbjaUOdgxStxpDo9q2u7auvO0uE=
+
+Name: assets/obj/059.pzx
+SHA1-Digest: FXFttNluwOp0Ctx41ylgd/52WyY=
+
+Name: assets/pc/armor/0/002.pzd
+SHA1-Digest: E3YJcKbuvMaIEUgS8WCrf82rebs=
+
+Name: assets/script/map/029_001.zt1
+SHA1-Digest: WGLAKVh/LR5Er5XNaSGnV1VuDZw=
+
+Name: assets/data/XlsChar.zt1
+SHA1-Digest: EOQ8UdbJBnU94L+6jv3kZMEiGZU=
+
+Name: res/keypad_num_07.png
+SHA1-Digest: L3fdjwj9BRjEKP8pjhv40cidNJo=
+
+Name: assets/script/call/070.zt1
+SHA1-Digest: JKW3WIYQJXBEQDL90P09Bmgkan4=
+
+Name: assets/projectile/020.pzx
+SHA1-Digest: 23KdPN4Zj9gzOOtAa2xwxraQ8DE=
+
+Name: assets/char/039.mpl
+SHA1-Digest: mPtkVNjVLnDvJ7odr7vesUK4q6U=
+
+Name: assets/script/quest/099_E.zt1
+SHA1-Digest: VyIQARzVIT+K3iu7miag8co7IaQ=
+
+Name: assets/script/map/176_001.zt1
+SHA1-Digest: 9sFR85jBe4sgH5kdmlwpMpAZFU8=
+
+Name: assets/script/quest/019_E.zt1
+SHA1-Digest: rhvRtEJSMO76vfkj+fs3X5N9X60=
+
+Name: xml_kt_lg/commonPopupJoinFormH.xml
+SHA1-Digest: sHg6XwRDeQG70cHDECqDbZKEmQ8=
+
+Name: assets/pc/effect/002.pzf
+SHA1-Digest: vLpixmFRSLgkWlKQLjgNvdO1jcg=
+
+Name: assets/char/020.pzx
+SHA1-Digest: UnTZIXCZ2L/e8YO7a7nTO3ZndXU=
+
+Name: assets/korean/data/XlsTrashItem.zt1
+SHA1-Digest: 7L9hHqF+qX4wetXbK3Dx7Pnsbr8=
+
+Name: assets/char/029.pzx
+SHA1-Digest: JK4QAM8IWsbNhL0FS6OEoPBrVrU=
+
+Name: assets/script/map/045_002.zt1
+SHA1-Digest: MBqKA7TIszaWWobHX/LDKwlXn0w=
+
+Name: assets/script/quest/048_S.zt1
+SHA1-Digest: 7E+75DkU1CTTu3W90iWViMBQhUs=
+
+Name: xml/purchaseW.xml
+SHA1-Digest: GOdSrmA8Usk1FPRsx+SAvUuSjvg=
+
+Name: assets/script/quest/125_E.zt1
+SHA1-Digest: Z027V7fXvAedv7gPrdbQtxMD6WY=
+
+Name: assets/map/236.zt1
+SHA1-Digest: hRSxdU3wnCXERSTMuBsgcD5LBoY=
+
+Name: res/drawable/ui_about_bg.png
+SHA1-Digest: MDZ18ImLIVmOOLU1g/zGlAW52J8=
+
+Name: assets/map/020.mpl
+SHA1-Digest: 5dd0T/fSfNA67xaG0iHp8Vuri7Y=
+
+Name: assets/obj/004.pzx
+SHA1-Digest: bZiqk8avcpJQZZqviQeU+XmllFE=
+
+Name: assets/menu/sayryu.pzx
+SHA1-Digest: RbbxLGQR38BrUX95gFZSlU/6cwA=
+
+Name: assets/map/175.zt1
+SHA1-Digest: EJIN23tjxBdU3uxYsgTrtDeWJGM=
+
+Name: assets/sound/020.mp3
+SHA1-Digest: 3K3rTop1hYceSfL0hkgFLMirJ84=
+
+Name: assets/obj/053.pzx
+SHA1-Digest: UUu4BZ6KOM+3T9J5T1iSTmU8T8w=
+
+Name: res/anim/slide_down.xml
+SHA1-Digest: mB3n7T5hiPNNkI65xenH3kqnhNA=
+
+Name: res/drawable/gshop_btn2_jp.png
+SHA1-Digest: Y+ceQNWtLLFQwr/MKv2PPW59ZrA=
+
+Name: assets/data/XlsRandomBox.zt1
+SHA1-Digest: rPyQYqnOTL/Be3E1daxw5tw3zBw=
+
+Name: assets/chinese/script/output_dlg.zt1
+SHA1-Digest: J7XFS9iE8xVwaYThBaCDvcOoiJQ=
+
+Name: assets/char/141.pzx
+SHA1-Digest: HOPPq89tA0W53ILbTxkI58MUoRk=
+
+Name: assets/map/040.pzx
+SHA1-Digest: ryzSBQbx2YgreBeV2OXgaihaGg0=
+
+Name: assets/map/067.zt1
+SHA1-Digest: QMk+pqB4dMHMl9eBc58XmIKEQdM=
+
+Name: res/drawable/ui_menu_community_kr.png
+SHA1-Digest: PcGTcxYoZZtMFNQnb0/d5Uv4wds=
+
+Name: assets/obj/038.pzx
+SHA1-Digest: grLNBJ3YOhouKKYyN5j4Y62OZQ4=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: wCFY0wQ6YX4U0c/amLnrn824HnI=
+
+Name: assets/script/quest/085_S.zt1
+SHA1-Digest: T5nlK8oSK7/2pAjqFxDQ0+TPHbQ=
+
+Name: res/raw/s023.ogg
+SHA1-Digest: igoU9g7h7xcTJeAbhhgNhJMTjko=
+
+Name: assets/script/com/025.zt1
+SHA1-Digest: 9/N1EVPAIaQxY7+1l5M2wAFDA4E=
+
+Name: assets/data/XlsPCAction.zt1
+SHA1-Digest: OuLpYWZgMF0FTbdPr8YQlGvu+Xo=
+
+Name: assets/pc/side_hand/1/001.mpl
+SHA1-Digest: ksRvY/8UvtpEOS8Dp79jdMn1y9M=
+
+Name: res/drawable/ui_btn_gshop.png
+SHA1-Digest: joG22JEL9pMgzN0L1lENWJbHviA=
+
+Name: res/btn_check_ok_nor.png
+SHA1-Digest: HtCfbYbvBPvmbt/kL5Z6FYvYvig=
+
+Name: xml_kt_lg/commonPopupJoinFormW.xml
+SHA1-Digest: KEk5M4ehDXmvnWh/2al3DpJIglY=
+
+Name: assets/script/quest/131_E.zt1
+SHA1-Digest: nqPhrOjkeB0p10V5q3k+uEpQYkc=
+
+Name: assets/char/120.pzx
+SHA1-Digest: UvUE+VDuMckgpC/xwf+redAHBJc=
+
+Name: xml/purchaseW_Auto.xml
+SHA1-Digest: 3/wTMPcvjH4B8XD+vBmN7+SDXA8=
+
+Name: assets/ptc/028.ptc
+SHA1-Digest: JGqGiMvhMDW8ewDAmaiOffP7aG4=
+
+Name: assets/char/119.mpl
+SHA1-Digest: xm4DFAMCEV13p7GwTRKSfsCg03E=
+
+Name: assets/map/197.zt1
+SHA1-Digest: 1e5ymrTaCefoKX7b335tJpFgTkQ=
+
+Name: assets/chinese/data/XlsNPC.zt1
+SHA1-Digest: FP7PmapThkXND5JBg7TVyekZQ2U=
+
+Name: assets/map/097.zt1
+SHA1-Digest: ImWE4MeVF1mzwRnHt1Ute6vMnBM=
+
+Name: assets/map/222.zt1
+SHA1-Digest: 4sc4d3BBrzmMUJYvT547VNgjLbw=
+
+Name: assets/script/quest/035_E.zt1
+SHA1-Digest: QMPLlVAj9gjNzsjvKF0IkER8Am0=
+
+Name: assets/map/001.mpl
+SHA1-Digest: t8vz4Ulxad5R5YEYvcZIA64xMpk=
+
+Name: assets/pc/head/002.pzf
+SHA1-Digest: 7vjZsWOsGAqHePYsruCOfGqZxUo=
+
+Name: assets/char/035.pzx
+SHA1-Digest: gsQlK+7H/OzRFPxYoum8doyeVzA=
+
+Name: assets/script/quest/077_E.zt1
+SHA1-Digest: fEliXcwBXfIlN+uD598i5kjKQFY=
+
+Name: assets/korean/data/StrQuestSum.zt1
+SHA1-Digest: HbQ47p3tcb/9iEH+aXV2nBS8L3Y=
+
+Name: assets/obj/029.pzx
+SHA1-Digest: xPdb6rZXW15M32i2G5F6zSa0Nqc=
+
+Name: assets/dummy/dum07.pzx
+SHA1-Digest: Cla4WZFw2u0REVSUGLjr/9HBqss=
+
+Name: res/drawable/ui_menu_help.png
+SHA1-Digest: u3qkcqlpUsC2DSfhKN2zM5sZKMU=
+
+Name: assets/pc/head/1/005.pzd
+SHA1-Digest: 7GEenCt8lZlxUYN7FjsxeylcNgU=
+
+Name: assets/script/quest/108_S.zt1
+SHA1-Digest: aAIDXhP/UpKt5mRv85+o3XRpb9w=
+
+Name: assets/char/050.pzx
+SHA1-Digest: Dy2pn5H5Ib2qAxaOKXIaxlMYac4=
+
+Name: assets/obj/042.pzx
+SHA1-Digest: Pgwzik7Hh0RH0JnnH3i++CfIGMY=
+
+Name: assets/map/072.zt1
+SHA1-Digest: EPgQlnxCSVKJrrubgq3l3PNYh1k=
+
+Name: assets/data/StrQuestSum.zt1
+SHA1-Digest: bPrskgN3230WePY/bN0q87nxnd0=
+
+Name: res/raw/s037.ogg
+SHA1-Digest: fA0VGss+nXfT8UkOhaYn4Fr9bDU=
+
+Name: assets/char/026.pzx
+SHA1-Digest: yI9rV7eQvjv+tQogCT/2c286Gfg=
+
+Name: assets/obj/074.pzx
+SHA1-Digest: CZRy6XH1UNtoQKO7HsRlgqSXVj4=
+
+Name: res/raw/s017.ogg
+SHA1-Digest: IXRw0b87EP49cI1Q4MjckFR7k/c=
+
+Name: assets/sound/032.mp3
+SHA1-Digest: cQzmkWpxoXcXoV9IxEv5obwdd3c=
+
+Name: assets/script/quest/038_S.zt1
+SHA1-Digest: 5FiN46Seup1yhoyHQ/HS+eM/KAU=
+
+Name: assets/obj/112.pzx
+SHA1-Digest: cMAshROqwnz4gYxiWO4cW1hyCsE=
+
+Name: assets/script/quest/065_S.zt1
+SHA1-Digest: hvSsTjOu2KO2wN0J3+cuBZAhcEY=
+
+Name: res/drawable/ui_menu_community.png
+SHA1-Digest: UMx0p9DAoRjpgykknQeRnC4v+yg=
+
+Name: assets/script/call/050.zt1
+SHA1-Digest: hdrduQOZMEgWwy1QcGByu7gyqZs=
+
+Name: assets/pc/side_hand/0/003.pzd
+SHA1-Digest: 8+owQG8eSAdDGGitdtmtKgRVldY=
+
+Name: assets/script/call/095.zt1
+SHA1-Digest: 4q9PauHlA+6qxDuHDinj64jT+e4=
+
+Name: res/drawable/ui_menu_about_jp.png
+SHA1-Digest: K6El40kc7LVwCBMDjIf1aWRTrbE=
+
+Name: assets/script/quest/070_E.zt1
+SHA1-Digest: FC68IFyP0k8i38cgGZv2XVIWskM=
+
+Name: assets/pc/weapon/0/002.pzd
+SHA1-Digest: V+hcyXeoTUMGcGxBZXZABBbtKpk=
+
+Name: assets/char/033.mpl
+SHA1-Digest: B9UCffbJLvI3va0OCBFg0+j0Y3I=
+
+Name: assets/chinese/data/XlsItem.zt1
+SHA1-Digest: dEgPNMKnT88xCOhD5SccTfPvYyQ=
+
+Name: res/raw/s104.ogg
+SHA1-Digest: FAGL3cvB4zPbyCHAw5QwhDNkCWY=
+
+Name: assets/char/044.pzx
+SHA1-Digest: g6maAeT6ToNPXwAA8WIGNGb2nlw=
+
+Name: assets/char/099.pzx
+SHA1-Digest: FJ4+Vtqdd9My98zOJdJyO17IGEc=
+
+Name: assets/ptc/047.ptc
+SHA1-Digest: CkrCdQes+B3qcUg/AldS9A3sl8k=
+
+Name: assets/korean/data/XlsPCStatUp.zt1
+SHA1-Digest: BTeCuFl+ijCgtrPqNge/Ns2bPoo=
+
+Name: assets/script/quest/024_E.zt1
+SHA1-Digest: R2//zXL/ykQo0j9hWNHhkLyXDN8=
+
+Name: assets/obj/071.pzx
+SHA1-Digest: Uloz1aF9/Aeed7LUzCrd5PHuYEw=
+
+Name: assets/map/218.zt1
+SHA1-Digest: T/t/WrWFXVJLGzc75U+EwkThhM0=
+
+Name: res/drawable/auth_bg.png
+SHA1-Digest: E8oBH3Rfm5fRzIBm7AMn5ymsv6A=
+
+Name: assets/face/009.pzx
+SHA1-Digest: GUHD36nggM/q87wdm1LEphBK4G8=
+
+Name: assets/map/250.zt1
+SHA1-Digest: 2z71Xuf5ZHS+FBwKaSnzpPqRbEI=
+
+Name: assets/char/013.pzx
+SHA1-Digest: s3PZSyRevcB6ke90F/ER8M+CwPg=
+
+Name: assets/map/026.zt1
+SHA1-Digest: Yrks3PtW/cmcWQ/AKD9o+p45RiY=
+
+Name: assets/pc/weapon/002.pzf
+SHA1-Digest: EGppGVV+3H0WGeKsZ8+xR0q1rZY=
+
+Name: assets/script/map/135_001.zt1
+SHA1-Digest: W2IGkElvKcGPuaVZfEi5P+IJLLM=
+
+Name: assets/char/034.mpl
+SHA1-Digest: kdc33d2PYeJKqsP2olvxesDs6Gc=
+
+Name: assets/data/XlsBalance.zt1
+SHA1-Digest: HUHqbYDsqkCcEkS96LlKU+EOrrg=
+
+Name: assets/projectile/005.pzx
+SHA1-Digest: Ts7c1WM0R+yLL8NHf8QullD7S2Q=
+
+Name: assets/script/quest/102_S.zt1
+SHA1-Digest: 1WC5xZm3I5gMml+nlFWLeTFeysw=
+
+Name: assets/map/worldmap.pzx
+SHA1-Digest: f4TT0/TilGeL80FY4jhihgyOXic=
+
+Name: assets/char/062.pzx
+SHA1-Digest: 6uCj5LfDrbMXYxdD94tETmfN3GE=
+
+Name: assets/script/quest/071_S.zt1
+SHA1-Digest: eqeBSsSWep9dM4KHwJ2TUYIK54Y=
+
+Name: assets/script/quest/092_S.zt1
+SHA1-Digest: a/OrGl4y9xiHMGSKd+fEcmxTtpU=
+
+Name: assets/script/map/051_001.zt1
+SHA1-Digest: pxcX7U4dR08KJqQ4MI7M0klmCyg=
+
+Name: assets/dynamic/MapTheme.pzx
+SHA1-Digest: +5c0DQNtCHHxOntHF8c2WfRgG9w=
+
+Name: assets/script/quest/015_S.zt1
+SHA1-Digest: kyzzDcaIqTmDOdFl14zdT1RmOEA=
+
+Name: assets/script/quest/093_E.zt1
+SHA1-Digest: 2HWnBGBeqDxbwTy+/I/103eOrvs=
+
+Name: assets/map/002.mpl
+SHA1-Digest: 5rFbpzHmkLu7YrS3mNpmIr2Oz/g=
+
+Name: assets/obj/064.pzx
+SHA1-Digest: hpnuq/FmQMgcNd9v2tHsLx7iVPM=
+
+Name: assets/map/024.zt1
+SHA1-Digest: C4jHSbAC0XS0r5oC3fuaZuIDUjU=
+
+Name: assets/font/synGak9_11.ft2
+SHA1-Digest: FUhATVZOoKua7H0mHV/zuIXa8yk=
+
+Name: res/drawable/news.png
+SHA1-Digest: pVrKFrVik1TfVa9m7Na5/AxeL/g=
+
+Name: assets/char/002.mpl
+SHA1-Digest: NvlmHak0d+fmKSPEPEdwqVot6HQ=
+
+Name: assets/pc/armor/1/004.mpl
+SHA1-Digest: yYnDV2lCUmGbytPB5MQXzUtZk2k=
+
+Name: res/textbox_01_4.png
+SHA1-Digest: bVu8kFdd/a/K4e3+WPZN82SOgOw=
+
+Name: assets/char/127.mpl
+SHA1-Digest: K7jlaZUaMAX0myGN7ADb/bgmU4M=
+
+Name: assets/pc/weapon/3/007.mpl
+SHA1-Digest: 6jM4bHV5Mw3hMcLSlAmw3Q9lJJw=
+
+Name: assets/pc/side_hand/2/001.mpl
+SHA1-Digest: BSSLdpScEBC0/nLBKSpp0xU1oLY=
+
+Name: assets/ptc/032.ptc
+SHA1-Digest: AFzXu4yNWmMvGbWc4DwAX8ZjVeY=
+
+Name: res/icon_bullet.png
+SHA1-Digest: p7Bb1+BlYTXqvzJtlWL1deib5To=
+
+Name: assets/char/042.mpl
+SHA1-Digest: mnm7jL5+RHN+OCc60Y7nSJlEp1E=
+
+Name: assets/chinese/data/XlsPVP.zt1
+SHA1-Digest: oPgFb9Sdxo/MhUgscgS1l3X/sXo=
+
+Name: assets/script/quest/087_S.zt1
+SHA1-Digest: FQucxtVdQ7TWX2VfJOto3gYlVoc=
+
+Name: res/drawable/ui_get_more_gpoints_jp.png
+SHA1-Digest: PpH3E2kWnpMwnLRwF7M8wSfRT2U=
+
+Name: assets/chinese/data/StrQuest_M.zt1
+SHA1-Digest: ieuUanJnh24HVk2X3Bc1NUzjXfY=
+
+Name: xml/purchaseW_finalVersion.xml
+SHA1-Digest: MRX4fiaq3GAqujy1MRtglFz1BRM=
+
+Name: assets/map/204.zt1
+SHA1-Digest: 9RcdHAgvB5AY6dOfi8Fi/xdnCxM=
+
+Name: assets/pc/head/2/005.mpl
+SHA1-Digest: QDBqcSTssVg0yTPlQJy3yjQeTs8=
+
+Name: assets/pc/side_hand/2/004.pzd
+SHA1-Digest: 0moDmZeUThWy7w41zY+TdiyYehU=
+
+Name: assets/script/quest/059_S.zt1
+SHA1-Digest: PBEuC8CwJ2pAaAGnZ+fiRFTQRf8=
+
+Name: res/raw/s061.ogg
+SHA1-Digest: juHVQHnkg+lBot40PsA6RJvlDU4=
+
+Name: assets/script/quest/061_E.zt1
+SHA1-Digest: ZwoZQXQXXnJ55fO98r57iKI2SiQ=
+
+Name: assets/dynamic/SkillEffect0.pzx
+SHA1-Digest: SwHgdpLnKQUQdTjmE7LgDX6ahRo=
+
+Name: assets/ptc/003.ptc
+SHA1-Digest: i4SXOf3xczABRvjYXnuE5F8niYc=
+
+Name: assets/script/map/031_001.zt1
+SHA1-Digest: Ug7516s0WV562ypEuxRY3Hf4yQo=
+
+Name: assets/obj/051.pzx
+SHA1-Digest: Vwtdryg320HlruSCBQaNaZDMvbY=
+
+Name: assets/map/186.zt1
+SHA1-Digest: NM0R13McGSukMh9Yzr5BpoCbDXg=
+
+Name: assets/pc/effect/000.pzf
+SHA1-Digest: ofAKmdPPhk9ddVtWJ24h6+WSuwQ=
+
+Name: assets/sound/000.mp3
+SHA1-Digest: qG/cV3OE0Js8+wRqDB9eC/GLC0g=
+
+Name: assets/map/111.zt1
+SHA1-Digest: wHNdrV0w4KDrO5zGrcZB1Er7SSk=
+
+Name: assets/map/212.zt1
+SHA1-Digest: 12XhgNMp/+yrwJTgKHL2Tj4HKJI=
+
+Name: assets/pc/armor/1/001.pzd
+SHA1-Digest: k5GWxquMpn/368XZoQCfrWPd+fk=
+
+Name: assets/script/quest/075_E.zt1
+SHA1-Digest: YcOoKyhTaZisgEFhlAj22KcMdtE=
+
+Name: assets/face/001.pzx
+SHA1-Digest: khbbhnOe2q6Y+5ui3x4rh6nUFxI=
+
+Name: res/raw/s081.ogg
+SHA1-Digest: JdId7rgwqxvOKbbS2aK/a8G6X5s=
+
+Name: assets/ptc/046.ptc
+SHA1-Digest: ncI+R14oyds8MVfkEBSRgVP4zK8=
+
+Name: assets/map/022.zt1
+SHA1-Digest: GJNji8rVI6/8eUKl6DDowe9/UJ0=
+
+Name: assets/chinese/data/XlsPCNew.zt1
+SHA1-Digest: uTbhtqoO6c7GSmVfgGmpAdPsiP8=
+
+Name: assets/com/Popup.pzx
+SHA1-Digest: 39Ghz2UuPCmAclHB9i/a51P8mNs=
+
+Name: assets/script/quest/074_E.zt1
+SHA1-Digest: UBwGQWrqZvZl3EIlbCB8LG8LezI=
+
+Name: assets/script/quest/103_E.zt1
+SHA1-Digest: aIXkVQtY5aiSzqW0KZY8/ciGA00=
+
+Name: assets/pc/head/3/004.pzd
+SHA1-Digest: imZrplDih8hTuNR0SkX590i8nbg=
+
+Name: assets/pc/side_hand/2/005.mpl
+SHA1-Digest: kZxPiR6KVqAmj30MXS0QAC+c6TE=
+
+Name: assets/char/105.pzx
+SHA1-Digest: zNGwpv1ko/RUdjZqv3LQjgAXD5M=
+
+Name: assets/map/102.zt1
+SHA1-Digest: NlPh7P/HC0+GHS5vgb/r5MZqNWA=
+
+Name: assets/japanese/data/XlsRandomBox.zt1
+SHA1-Digest: rPyQYqnOTL/Be3E1daxw5tw3zBw=
+
+Name: assets/face/005.pzx
+SHA1-Digest: iKRg9q2UEgPnYoSmA4K7uQcbH2E=
+
+Name: assets/live.html
+SHA1-Digest: TRU3Kk4B6yqr5SxHBuQ2tj31M1M=
+
+Name: assets/map/053.zt1
+SHA1-Digest: pmKMw1Mj7RsZhv1+PhtX4qI36/0=
+
+Name: assets/script/call/093.zt1
+SHA1-Digest: KMngSWWwOJ4UNgd0xfvZlI+VZn8=
+
+Name: assets/obj/018.pzx
+SHA1-Digest: fJ+Gp08SwLZYcTa+TVw8Rke8SuE=
+
+Name: assets/ptc/050.ptc
+SHA1-Digest: z5cuUorF3d6D6INr+d2S5Fqj2UY=
+
+Name: res/btn_pad_sel.png
+SHA1-Digest: mT6uGndwxxyA1k88p3lh6uPIkfM=
+
+Name: assets/script/quest/100_S.zt1
+SHA1-Digest: R/FiLzXU11ddqhkby6mkQx2bgUc=
+
+Name: assets/japanese/data/StrMaptheme_Explain.zt1
+SHA1-Digest: /N4EhhPAuC2g/jMXEd8F+RicBmk=
+
+Name: assets/data/StrQuest_N.zt1
+SHA1-Digest: Xcc/kQoy6u0tzJ3zWsOZUxepMJA=
+
+Name: assets/script/map/032_001.zt1
+SHA1-Digest: ASyf/YjvAfw5MU/RDW0BFO6Lkhs=
+
+Name: assets/script/map/033_002.zt1
+SHA1-Digest: JHh29VXjNURiCa0yWA3Ivd+OWSE=
+
+Name: res/keypad_num_03.png
+SHA1-Digest: K2MfGKnn39JKn+GKgyZEtWix1Fg=
+
+Name: assets/pc/armor/001.pzf
+SHA1-Digest: Y3QLqP3Iv/W7M7BBlBhN+S1XFsk=
+
+Name: assets/ptc/016.ptc
+SHA1-Digest: w88GSFQTGtptp+pP0f1Giyy/ybk=
+
+Name: assets/script/quest/021_E.zt1
+SHA1-Digest: g2DM4ikbQxpXd1Jtm+g9ok4QP1o=
+
+Name: assets/map/176.zt1
+SHA1-Digest: eKtRrFDs7JlIEhscPrjPnr8nyN4=
+
+Name: assets/pc/head/1/001.pzd
+SHA1-Digest: EDl1n53IViGLWvaK30Wrho72kxY=
+
+Name: assets/japanese/data/XlsNPC.zt1
+SHA1-Digest: p6BeRhClvnYe8XXiiwgX598hmQo=
+
+Name: assets/data/XlsPackageItem.zt1
+SHA1-Digest: ogsUkNIMdwoVLnqrFvdLyPdhc80=
+
+Name: res/info_table_01.9.png
+SHA1-Digest: AVKWzJlR4M1kqQpi7LVsqA3NBE0=
+
+Name: assets/script/quest/026_S.zt1
+SHA1-Digest: ekVi6bsiJ4wC/zEJ+phOx3FT5No=
+
+Name: assets/map/070.pzx
+SHA1-Digest: 4fcgr59jUY+9jnwOdUTnAQ/6bwE=
+
+Name: assets/obj/019.mpl
+SHA1-Digest: YP/4YElDwz1+Y47MZ93GjehdpDg=
+
+Name: assets/sound/028.mp3
+SHA1-Digest: 1h40JpgLNdnmZvcis/APxF8/X4Y=
+
+Name: assets/pc/weapon/2/001.pzd
+SHA1-Digest: /VtiHmlwevp2fBFk25u5C0cZ6uk=
+
+Name: assets/map/049.zt1
+SHA1-Digest: WO2C6eA8LJ23J2xEaNVu+EgLSYw=
+
+Name: xml_kt_lg/purchaseW.xml
+SHA1-Digest: sGztmH9LLv2/jKv9Guw4kaBGfDc=
+
+Name: assets/script/quest/056_E.zt1
+SHA1-Digest: idLGV73bRCqCCs7kCGmdHCHOTk4=
+
+Name: assets/map/018.zt1
+SHA1-Digest: pTkVRC2K4azmK+QWvSP+8Mt0xgo=
+
+Name: assets/char/030.pzx
+SHA1-Digest: QGl1qjZml8cVPlsPfZIeJ/ZzLEE=
+
+Name: assets/map/031.zt1
+SHA1-Digest: yJo2FYtWEb73ESmZORf88W60pMo=
+
+Name: assets/obj/010.pzx
+SHA1-Digest: ylG612eMGr6RT2329vF/bC2FQZQ=
+
+Name: assets/pc/side_hand/1/002.pzd
+SHA1-Digest: AHE7geU0tBcP9gszYWFFSmTZPUM=
+
+Name: assets/map/091.zt1
+SHA1-Digest: YIZpAnkrTWY10/s4kxsc+81p3Nc=
+
+Name: assets/script/quest/080_E.zt1
+SHA1-Digest: QIkP4BUzuxPqRap6iiNDGEY02Mw=
+
+Name: assets/chinese/data/XlsBoss.zt1
+SHA1-Digest: rPVCBGF93hFTX2OsBe2/qAvoEfM=
+
+Name: assets/pc/side_hand/0/006.mpl
+SHA1-Digest: LrpE5pR/ysnY9y7GYuo6hayO7fU=
+
+Name: assets/script/quest/060_E.zt1
+SHA1-Digest: bRGuc0j7ii3kGLhCGgZiNpHHlGg=
+
+Name: assets/sound/037.mp3
+SHA1-Digest: nUVVn2Wvlip6rK7FhYMiilDgygc=
+
+Name: assets/script/quest/032_E.zt1
+SHA1-Digest: gZH9rBzFBJIVeeSqXeecbrqdCp0=
+
+Name: res/info_table_03.9.png
+SHA1-Digest: kJxm3rYDTdBgh1xwOX1kPLv3asY=
+
+Name: assets/script/quest/126_S.zt1
+SHA1-Digest: gvyWaEU39O/NkN3EfYRZlo2EHQ4=
+
+Name: res/drawable/more_zen_points.png
+SHA1-Digest: oZoDYNc4bBroX3gTdCFajdzmQv0=
+
+Name: assets/ptc/ptcimg.pzx
+SHA1-Digest: /jhDkdVQBDL+deVc0AV3vmZFtQ8=
+
+Name: assets/pc/side_hand/0/004.mpl
+SHA1-Digest: C7eHpsXYp8mcUlqAqlTjq7AGLaw=
+
+Name: assets/script/quest/021_S.zt1
+SHA1-Digest: Ica7GCvPNndOdz84OGJIhSho7TY=
+
+Name: assets/com/StatusEffect.mpl
+SHA1-Digest: YxpjKe3rBs0qzrDxcwN+bguqa8s=
+
+Name: assets/map/225.zt1
+SHA1-Digest: 8MXgw7IaANGiAxBKidnMKZCX75c=
+
+Name: assets/map/087.zt1
+SHA1-Digest: oslrYoYbk3WJR39OTChoyEzKxXM=
+
+Name: assets/sound/108.caf
+SHA1-Digest: MTv/ZlhdeF1y/tZWy+MGTnQok2A=
+
+Name: assets/script/quest/060_S.zt1
+SHA1-Digest: owpWzyz9Y43ynDXIMmMijddG8eo=
+
+Name: assets/pc/weapon/3/003.pzd
+SHA1-Digest: yoyufjPOYid4LCexYy7TlIjP4Wk=
+
+Name: res/drawable/back_clicked.png
+SHA1-Digest: z+eFCwJDRJLcQTQTOTOi85Vc/N8=
+
+Name: res/raw/s074.ogg
+SHA1-Digest: Xs9IVhX+24el3t4vnspoUUECUDQ=
+
+Name: assets/char/056.pzx
+SHA1-Digest: fOs4mMjulhbXvoNR2xFp+7/rIU8=
+
+Name: assets/obj/067.pzx
+SHA1-Digest: 2YSFB3DhweERHWjzvCDw7bfs7pw=
+
+Name: assets/map/037.zt1
+SHA1-Digest: AsGF2uQF7aCYhvF/yLAHa9GV+uo=
+
+Name: assets/sound/104.caf
+SHA1-Digest: 14wlmCbv6JXxSfgmsegbGpwkPhs=
+
+Name: res/raw/s059.ogg
+SHA1-Digest: nxNWfOjPYgEF5LdOhQpx/5kRjmo=
+
+Name: res/btn_buycancel_nor.png
+SHA1-Digest: XSlJGR+iKJlB+h5lPHXFyPThp4I=
+
+Name: assets/script/quest/128_S.zt1
+SHA1-Digest: r+xpqNfeqn9kIrITDvuXAcC6qsA=
+
+Name: assets/map/255.zt1
+SHA1-Digest: oOdtxQ2zBr5PpmlPuRkplPIm+CE=
+
+Name: assets/pc/side_hand/0/001.mpl
+SHA1-Digest: YE2OGaQb1oYxEzcfwHqFd1XVuAM=
+
+Name: assets/com/light80x50.zt1
+SHA1-Digest: 4AvSzePv4gFyZkX4fIX4FEpf7mI=
+
+Name: assets/map/166.zt1
+SHA1-Digest: M3kKrprY25FbZ3JmVlbeG7V5zQY=
+
+Name: assets/script/quest/064_S.zt1
+SHA1-Digest: 3Pb3LQwUlcxmJ4zegTx8IONKSQg=
+
+Name: assets/obj/062.mpl
+SHA1-Digest: f5e3YDUe9NR59gwn2T1BSXGhU6E=
+
+Name: assets/pc/weapon/1/005.pzd
+SHA1-Digest: uy2xDW4OFO/Nz/41V1FU6+8OEGY=
+
+Name: assets/pc/weapon/0/007.pzd
+SHA1-Digest: 1f1i7unwx0Uj+DpE98Ep9mVjvAk=
+
+Name: assets/ptc/053.ptc
+SHA1-Digest: hhrIgme8wpr/xkWT4sWL3pPI8Bk=
+
+Name: assets/char/046.mpl
+SHA1-Digest: CzGroWQn+YNkwBsIJ6i8yOpntrk=
+
+Name: assets/obj/108.pzx
+SHA1-Digest: KPMpsETtGAaORWavtY4dCL0qfxk=
+
+Name: assets/script/output_dlg.dlg
+SHA1-Digest: SAH8VdiDj4oCRJ6++RRBZBVtXSw=
+
+Name: res/inputbox_pw.png
+SHA1-Digest: 5k0Q3nNHy/QJFujgLJklipMrulM=
+
+Name: assets/script/quest/116_S.zt1
+SHA1-Digest: VcLBSaLFYp0lYmNY33zfIMc71pI=
+
+Name: assets/script/quest/005_S.zt1
+SHA1-Digest: S8z21+sml5+rMKgn2+lAyQWj7L4=
+
+Name: assets/map/136.zt1
+SHA1-Digest: 4fTGUUtwoBQa5RGcQ7S8KzWST8k=
+
+Name: assets/chinese/data/XlsExtraProjectile.zt1
+SHA1-Digest: Am5D3CQ/k5tiUybGmAYPKP9We74=
+
+Name: assets/map/115.zt1
+SHA1-Digest: LdkBu+f6FCzI/tZpYJsK1q691KM=
+
+Name: assets/chinese/data/StrEtcItemExplain.zt1
+SHA1-Digest: RSAg8tkeEMVeBiRSLKPesbMWm6g=
+
+Name: assets/html/shamen.png
+SHA1-Digest: f+ZVFcwVBCLQgYxZgIvNQIBtc3g=
+
+Name: assets/pc/armor/3/005.mpl
+SHA1-Digest: 4YdY546hyZeEbpZiOGolTd4jsSU=
+
+Name: assets/obj/004.mpl
+SHA1-Digest: DnwZWSoHf3OAXWI/R1WWupjrqak=
+
+Name: assets/obj/098.pzx
+SHA1-Digest: C/7fZAvmGjMuFH8DUCze/mxKjSg=
+
+Name: assets/obj/017.pzx
+SHA1-Digest: 8MPuFgoEVj9HITBLqkij2R6xY8w=
+
+Name: assets/projectile/003.pzx
+SHA1-Digest: zPsaEN/SMzC+wmupkxCNS0Rb1GU=
+
+Name: assets/font/synGulimAsc5_11.ft2
+SHA1-Digest: gnH5F8vjMZcWAQoP8M0YI9HrZbA=
+
+Name: assets/dynamic/ItemIcon2.pzx
+SHA1-Digest: U3rhqffkic0VqMhsgUZ5INwxCuM=
+
+Name: assets/pc/side_hand/1/000.pzd
+SHA1-Digest: LM6UpFDMRRa9a/Bg9GVeqbqZ77s=
+
+Name: assets/obj/011.pzx
+SHA1-Digest: o8ahuCCIFa7aGH2U2VJSHbBcmx4=
+
+Name: assets/script/map/013_002.zt1
+SHA1-Digest: /xtcDXV0I/62l8MYsV8EPOKwt/s=
+
+Name: assets/map/122.zt1
+SHA1-Digest: upxw2YGJI43LZblIa2qm5DODG/U=
+
+Name: assets/pc/weapon/1/003.mpl
+SHA1-Digest: yKyvQQEwPNvZCfgmKybGFN418U4=
+
+Name: assets/ptc/009.ptc
+SHA1-Digest: 7bRCopFwxQ0iY54pYPYi2kfvRmU=
+
+Name: assets/dynamic/Cloud.pzx
+SHA1-Digest: es29Oea7ajYkI5lsf63rQUGTQg8=
+
+Name: assets/data/StrTitleItemExplain.zt1
+SHA1-Digest: +4VivwjiEgmBm75BXRcmJ+brVgs=
+
+Name: assets/script/quest/053_E.zt1
+SHA1-Digest: V+n+4r0vKIfcwWXmjty1JtGEkx4=
+
+Name: res/raw/s009.ogg
+SHA1-Digest: p05t4tYIWEBd8aGGegf5lbaLzKk=
+
+Name: assets/script/quest/105_E.zt1
+SHA1-Digest: WVj7IGax0wOyRoVHdVvJKZykAis=
+
+Name: assets/map/246.zt1
+SHA1-Digest: OCSUXLJoIgGcqBSqyH+iE8KDYOc=
+
+Name: res/raw/s055.ogg
+SHA1-Digest: CsInmFgOwHyI6HeABHuOoP+vFzw=
+
+Name: assets/script/map/167_001.zt1
+SHA1-Digest: i0eYlwZi8BbHauwLsL1FlaR42g8=
+
+Name: assets/korean/data/XlsGameData.zt1
+SHA1-Digest: yfoWzBmY7QpUUVmEvtEWxci6rCY=
+
+Name: assets/map/001.zt1
+SHA1-Digest: nZn7iqN+9xJb22qnLViJDQ0PEbM=
+
+Name: assets/ptc/008.ptc
+SHA1-Digest: ZRtXiYvCvAZuho3+kW9EKZDoiPI=
+
+Name: res/checkbox_y.png
+SHA1-Digest: Ci58pmiAmiBzqB9ahuWjes9nRnA=
+
+Name: assets/pc/armor/2/001.mpl
+SHA1-Digest: neFZrzC/zYQ4wnEafyPS6e4wPtg=
+
+Name: assets/sound/005.mp3
+SHA1-Digest: RDxwO88b0RtdlAJUhUvJm5zLpqA=
+
+Name: assets/japanese/data/XlsWorldMap.zt1
+SHA1-Digest: VSa3Z6BO5BuGfIFQTS2KOgIUYgk=
+
+Name: assets/ptc/021.ptc
+SHA1-Digest: z68/LtJBp+IceqexadfRHFCMkuk=
+
+Name: res/inputbox_pw_dot.png
+SHA1-Digest: js3kuyXplwsLbeBKGSoAlvacYEM=
+
+Name: assets/script/call/103.zt1
+SHA1-Digest: o5PjsoEYnraBXIpZM1Sldqhcq88=
+
+Name: assets/script/quest/096_E.zt1
+SHA1-Digest: MgFaXvcmP57eqCFWxmNsLLj/6nA=
+
+Name: assets/script/map/006_004.zt1
+SHA1-Digest: cNaVD0M01FbaQ+QVORi5vlZpxKI=
+
+Name: assets/live_auth_terms.html
+SHA1-Digest: J04NPeJIEOi1kSAnUEBHvESRMDg=
+
+Name: assets/obj/114.pzx
+SHA1-Digest: /IHN4ynGeSW4iR0wQxj2doVCrI8=
+
+Name: assets/pc/armor/0/002.mpl
+SHA1-Digest: 4P0Btt9euZ7ULprgWlPXNblxW0Y=
+
+Name: assets/map/109.zt1
+SHA1-Digest: FOMHjytiIxu2EQdm26KIS8IJNkg=
+
+Name: res/drawable/ui_menu_continue_jp.png
+SHA1-Digest: LcN66KPEwy4dI38BAw1ZV7/eJXM=
+
+Name: res/drawable-mdpi/icon_gb.png
+SHA1-Digest: q8CWbgeHzCSmPsds/4ipIop26Fs=
+
+Name: assets/png/icon57.png
+SHA1-Digest: ehlekod7UwsPPIG6En3ryBWWkf4=
+
+Name: assets/char/059.pzx
+SHA1-Digest: eUwCpCbiwq86JWUF0SrAPvL6J0A=
+
+Name: res/drawable/back_button.xml
+SHA1-Digest: ZylS6Zt3417IwQEc4COhiFNzvjY=
+
+Name: assets/script/call/113.zt1
+SHA1-Digest: r2vtmm9AJ+amVDJaxg8pCms6yDY=
+
+Name: assets/pc/head/2/005.pzd
+SHA1-Digest: YgW0AfujC72kTKcVh51IyoDDtrM=
+
+Name: assets/char/018.pzx
+SHA1-Digest: V1jhA6bdSYHlx4fxHJ+EI0sR67U=
+
+Name: assets/script/quest/040_S.zt1
+SHA1-Digest: WYzBZw6HeT4/9l1tVG/fmPNtxS4=
+
+Name: res/raw/s078.ogg
+SHA1-Digest: xWkW0JT+UMfYkQ51hwcw6Io/9xo=
+
+Name: assets/map/044.zt1
+SHA1-Digest: L1wWNVLjB5iQzEUomyqp48rnJtw=
+
+Name: assets/obj/077.pzx
+SHA1-Digest: Qit3j/0baJcUEwxdbnwhWp/119s=
+
+Name: assets/map/058.zt1
+SHA1-Digest: TZvREq40gNJHt/2UhRGOtwiCci0=
+
+Name: assets/menu/logo.pzx
+SHA1-Digest: EzBM3yZlQ4W9nZUmDpuLzm0+sRE=
+
+Name: assets/chinese/data/StrQuestDetail.zt1
+SHA1-Digest: 5uUgKjHhwMfDI5QiYliDrf8B6DI=
+
+Name: assets/obj/032.pzx
+SHA1-Digest: 98Z+63ivZf6m52y83J/digPDv4I=
+
+Name: assets/japanese/data/StrHelp.zt1
+SHA1-Digest: IUQkikE4BfaLW83yjRdeR2XyW2I=
+
+Name: assets/script/map/010_004.zt1
+SHA1-Digest: Zh9dNIIihBOtsGeRjWkm07FMiSE=
+
+Name: xml/commonPopupImage.xml
+SHA1-Digest: JFSxwFoKYs/otL+thMzwtj0EQyI=
+
+Name: assets/korean/data/XlsPackageItem.zt1
+SHA1-Digest: ogsUkNIMdwoVLnqrFvdLyPdhc80=
+
+Name: assets/map/173.zt1
+SHA1-Digest: +ZNMP9CHpshgoXFS+gwChy+6hL4=
+
+Name: assets/sound/081.mp3
+SHA1-Digest: 2HnUke9ZEPiFvhMfSmYsLUDlF4g=
+
+Name: assets/map/010.zt1
+SHA1-Digest: Cn040LcoryPcXGTGIgZDLlBIig4=
+
+Name: assets/obj/062.pzx
+SHA1-Digest: NE9p2zp1yaNgz90geyJ7xWIMdeQ=
+
+Name: assets/char/135.pzx
+SHA1-Digest: MY1JvilFLZKaWohlpTTNv0Km2yM=
+
+Name: assets/pc/weapon/1/005.mpl
+SHA1-Digest: ipZE2fZu5ZRIiFWQWY7foWHDK+A=
+
+Name: assets/map/052.zt1
+SHA1-Digest: XF5XhcSgL9VLk4T6k7JdwTrFk1Q=
+
+Name: assets/script/map/179_002.zt1
+SHA1-Digest: VjH2mdto+DsAcKFYTyTTIm6cBDY=
+
+Name: assets/map/168.zt1
+SHA1-Digest: zIhG90t/TsA119ipXN65pQ3fwi8=
+
+Name: assets/map/073.zt1
+SHA1-Digest: 6iVfgUJg00z2rx1OE8grfckcvAE=
+
+Name: assets/script/map/099_002.zt1
+SHA1-Digest: vPDVA7JTxh6XvM8j7v51GkEk4YA=
+
+Name: assets/script/quest/096_S.zt1
+SHA1-Digest: wL1VJ/xaL1jVvuk5IH1iDHgcxMo=
+
+Name: assets/script/quest/055_S.zt1
+SHA1-Digest: 76saqfn7V8QFTsa82YVzmyOM7Rc=
+
+Name: assets/map/060.zt1
+SHA1-Digest: eTKGwl/RkDj3XAMtho32GMUESu0=
+
+Name: assets/script/map/026_001.zt1
+SHA1-Digest: VYDTHxXPCtzHkrtp0E9d5S3MDuc=
+
+Name: assets/map/152.zt1
+SHA1-Digest: n+vXEvdS1EyuO940zaqgm+N1RCg=
+
+Name: assets/script/quest/045_S.zt1
+SHA1-Digest: 5hTMlcVgPh/HkD+l22tDxCX9BJ8=
+
+Name: assets/char/056.mpl
+SHA1-Digest: NVFBu7KzDYGp7GzA5TYAto068BI=
+
+Name: assets/pc/weapon/0/007.mpl
+SHA1-Digest: maj3h5TSaH/BRhXKFuFBG6DQCD0=
+
+Name: assets/chinese/data/XlsGameData.zt1
+SHA1-Digest: yfoWzBmY7QpUUVmEvtEWxci6rCY=
+
+Name: assets/pc/weapon/2/004.mpl
+SHA1-Digest: 1nPm+og2EP9bAGE+SwNQ/TuUwbM=
+
+Name: assets/script/quest/003_S.zt1
+SHA1-Digest: YZlfAWR/11H5U6BJdWHPwD0gP/c=
+
+Name: assets/chinese/data/StrQuest_C.zt1
+SHA1-Digest: d98aOT8HGoxrNIiMivKqmmbFbNA=
+
+Name: assets/com/Fairy.mpl
+SHA1-Digest: lVDUlFs3ZMLpzpb/qfs0lZZCFow=
+
+Name: assets/obj/066.pzx
+SHA1-Digest: iSE2D0F5N+smrfA5oG/r091Lo4A=
+
+Name: assets/char/004.pzx
+SHA1-Digest: BExZv+awsOPNkO3laWxfw/bvC+M=
+
+Name: assets/sound/090.mp3
+SHA1-Digest: z4+FkHKCR14xErpTGtgzoXTBXSI=
+
+Name: assets/script/map/054_002.zt1
+SHA1-Digest: 3asz2SHgXqTGHF1dVbSE1JxXLnc=
+
+Name: assets/script/quest/014_E.zt1
+SHA1-Digest: vA8Hp+9TRAAiosM/buG6b90VOhY=
+
+Name: assets/pc/weapon/3/002.mpl
+SHA1-Digest: O5nde3J0OaVgxqBV2Z1LzNJ66jA=
+
+Name: assets/chinese/data/StrQuestItemExplain.zt1
+SHA1-Digest: 9R8eJgt8VzsJHH6qw8bQDeu2d0A=
+
+Name: res/raw/s026.ogg
+SHA1-Digest: MEV8Ajh32/2Ra2uQ3noLiBKipYg=
+
+Name: res/drawable-hdpi/icon_gb.png
+SHA1-Digest: +AoYJy0xt5SIR+wZ5zT6otVTyzY=
+
+Name: assets/sound/060.mp3
+SHA1-Digest: 5Xj//TXa4FPAcZNizEcz58CYvY4=
+
+Name: assets/com/Number.pzx
+SHA1-Digest: SXQtdIWDu5gfO5+H4dyDdRvftDI=
+
+Name: assets/data/StrTalk0.zt1
+SHA1-Digest: jiauAAnvb61D75XbJyPf3c+QHhQ=
+
+Name: res/keypad_num_08.png
+SHA1-Digest: 1g+hEpOCli899WxRpmySXfyLOqs=
+
+Name: assets/script/quest/010_S.zt1
+SHA1-Digest: od96y8hcZRuy5HLwY+R3JfP+cx0=
+
+Name: assets/map/075.zt1
+SHA1-Digest: hUN+kyRvjHCP+MDbgZTj4998GWk=
+
+Name: res/raw/s062.ogg
+SHA1-Digest: LZmM4vM2ul13yDkDNsh03pFNrkk=
+
+Name: assets/pc/weapon/0/000.pzd
+SHA1-Digest: YTEeLkrE73pHTAMPRp42W/VOeNg=
+
+Name: res/raw/s091.ogg
+SHA1-Digest: UM+acTde+Qo2UwNotUbBpo/PMFU=
+
+Name: assets/obj/021.pzx
+SHA1-Digest: auJxYQEzCAhg6LxLSCvUGsBt/sw=
+
+Name: assets/map/003.mpl
+SHA1-Digest: CrkDfZdcCiXGynnMJH5SCmxwtSM=
+
+Name: assets/script/quest/110_S.zt1
+SHA1-Digest: 20zsqMiTPZBtTOtU/sSrgAweR5Y=
+
+Name: assets/japanese/data/XlsItem.zt1
+SHA1-Digest: Bst1wqgE25Pw/cNnehuAl6o9gkM=
+
+Name: assets/japanese/data/StrTalk1.zt1
+SHA1-Digest: diaswCrZuAfgYP4zDxbbF/02LFQ=
+
+Name: assets/script/quest/135_E.zt1
+SHA1-Digest: qaIYRjrdchvx/D3dmmOvORSlc0I=
+
+Name: assets/dynamic/ItemIconMat.pzx
+SHA1-Digest: 0Hl9KHU/VmDWzurJ7rXUM+n8oKc=
+
+Name: assets/com/BattleEffect.pzx
+SHA1-Digest: 5CHftEsbA9Y7F5WlNB8B8Gn9Uic=
+
+Name: assets/script/map/040_001.zt1
+SHA1-Digest: QSh1IIREciHh+3C5lP+eA6mx6UI=
+
+Name: res/layout/tapjoy_offers_web_view.xml
+SHA1-Digest: cKEvb6CYWi/2izLW0NVvZVRKku8=
+
+Name: assets/map/159.zt1
+SHA1-Digest: VXPMhhSJ6xtVGwdWx+EFLQtvApM=
+
+Name: assets/obj/030.pzx
+SHA1-Digest: G9HSvO4jYS8Ox51G9rZCqM91rB8=
+
+Name: assets/char/031.pzx
+SHA1-Digest: kPOGnontAvWWGTSKkL+gw9z9qyM=
+
+Name: assets/char/120.mpl
+SHA1-Digest: +U5MMMoLr5fZER+kijeuvr3+d1E=
+
+Name: assets/script/call/112.zt1
+SHA1-Digest: kmEzPu9dae0IwnG4qu064V8Ygec=
+
+Name: assets/script/map/183_001.zt1
+SHA1-Digest: YZDDL2I7cXueCsnVaZIVSPssppE=
+
+Name: xml_kt_lg/commonPopupJoinW.xml
+SHA1-Digest: dgbP6RcZ2mmvfJE/eybPM75xVGA=
+
+Name: res/drawable/ui_menu_newgame_ch.png
+SHA1-Digest: Nod/K0XT39ksrZjsRsYG1OPci2c=
+
+Name: assets/japanese/data/StrStatusType.zt1
+SHA1-Digest: Jzp7uk6Opd1PQmxLwV5lBSWNJcE=
+
+Name: assets/com/StatusEffect.pzx
+SHA1-Digest: ZoBfmszFYRylwcuUYqnbnJdvjuQ=
+
+Name: assets/pc/side_hand/0/005.mpl
+SHA1-Digest: VUxSb/duCOLyN+uCviK3M2A1YGI=
+
+Name: assets/map/052.pzx
+SHA1-Digest: IjmTXC2ur74efLDjffUuCuaNXLg=
+
+Name: assets/script/quest/110_E.zt1
+SHA1-Digest: UJ+Xx9y5UR35nCbDa7TEa6+0M2Q=
+
+Name: res/btn_info01_nor.png
+SHA1-Digest: GNBGFp0f0B4GudxnoDz9fpPoEAY=
+
+Name: assets/map/220.zt1
+SHA1-Digest: SDTDk3JFU3UYuqWm52/jCC80T+4=
+
+Name: assets/script/quest/030_E.zt1
+SHA1-Digest: Cfp4qwo45edAlIagqMljI4fJUUc=
+
+Name: assets/data/XlsSkill.zt1
+SHA1-Digest: 80+a7wwUuf8bKhgY/0pP7FERAps=
+
+Name: assets/char/052.pzx
+SHA1-Digest: VaCvrIgdewmcBb67hCkfFsexcjg=
+
+Name: assets/obj/093.pzx
+SHA1-Digest: Lb5dyUWF40/HNLUSD8REdZib/U4=
+
+Name: assets/obj/055.pzx
+SHA1-Digest: qsNnxZVu7pQXdGLPTrLIwrlcxdI=
+
+Name: assets/sound/074.mp3
+SHA1-Digest: YcsS2s8BAcuLFKI1wDQJZeaSmWc=
+
+Name: assets/chinese/data/XlsChar.zt1
+SHA1-Digest: bImr7IWY4MM6xi4KJE/VL7ouh0M=
+
+Name: assets/pc/armor/002.pzf
+SHA1-Digest: ccN809ayEdchza+AEOd0R7KivkM=
+
+Name: assets/ptc/025.ptc
+SHA1-Digest: fSz96t9IxrwW4MocUuDTtnQ6gOQ=
+
+Name: assets/script/quest/027_E.zt1
+SHA1-Digest: 89ZUg5IbB3ZM250EIwTBfmL7UfE=
+
+Name: res/raw/s116xx.ogg
+SHA1-Digest: MKftW+8EtRTtQYu9X+KnX36VSAs=
+
+Name: assets/data/StrEtcItemExplain.zt1
+SHA1-Digest: MWUKWMBuhOgcDQBAiKXw2j5SXuk=
+
+Name: assets/script/call/051.zt1
+SHA1-Digest: jomdiWUDc9hY10z98+K/1VXuk94=
+
+Name: assets/script/map/006_005.zt1
+SHA1-Digest: f32sJCMI7M7I0tRe2WPPyG0AUZI=
+
+Name: assets/html/about_kor.html
+SHA1-Digest: ORXYZF8jJni4YYouXwS0CYeehm0=
+
+Name: assets/script/map/078_001.zt1
+SHA1-Digest: 6wdGVSklr+aTutX1k1Eg5RrLInA=
+
+Name: res/drawable/gamevil_live_1.png
+SHA1-Digest: v/INnuPeZcduMoWGgaUUF07FB4A=
+
+Name: assets/script/quest/018_E.zt1
+SHA1-Digest: oaz6HRe8Z+iaMYl6vKHLv7VHxz8=
+
+Name: com/kt/olleh/manager/purchase/ui_menu_help.png
+SHA1-Digest: guk/V5LR45IwSpZcPeVg4v/uLYM=
+
+Name: res/checkbox_n.png
+SHA1-Digest: xVkZ3HNz9iPbUp2dpjJMT2Uu00Q=
+
+Name: assets/char/136.pzx
+SHA1-Digest: IO8uXE4Tm8SiJtyAlMdgd/Q4ckI=
+
+Name: xml/commonPopup.xml
+SHA1-Digest: CyWNCGHo0mNUE9MERf0udPTdyWI=
+
+Name: assets/map/213.zt1
+SHA1-Digest: XS3feWji12r73YhM/vWnNX53C5c=
+
+Name: assets/japanese/data/XlsMovingObject.zt1
+SHA1-Digest: itg/0RRaCVON6zYA4RQm6x6cPJQ=
+
+Name: assets/chinese/data/XlsMap.zt1
+SHA1-Digest: ce3evh8rDiM6bljfANo+8oeV19Y=
+
+Name: assets/korean/data/XlsTitle.zt1
+SHA1-Digest: dBL/A6BtIVt7xclslnGD2MlXKRg=
+
+Name: assets/pc/head/2/003.pzd
+SHA1-Digest: ijEvkaZD/x7R8W1WGZoaNjfZxTM=
+
+Name: res/drawable/ui_title_touchthescreen.png
+SHA1-Digest: /dK61X1NTP80c3uokAqn4+N48r8=
+
+Name: xml_kt_lg/commonPopupJoinForm.xml
+SHA1-Digest: CdfdKHa7lMeqjwcmhE/IOcD8skg=
+
+Name: assets/dynamic/SkillEffect3.pzx
+SHA1-Digest: j2Ki+cGbnJ7gjb410LpVndDMyI8=
+
+Name: assets/script/quest/102_E.zt1
+SHA1-Digest: znlxzRsCcWGYCVYg+ddOk0spOEs=
+
+Name: res/drawable/home_button.xml
+SHA1-Digest: R50VOe4QEtrW0Bp5C7HXbtRMS6I=
+
+Name: assets/sound/036.mp3
+SHA1-Digest: sjvpL9LjjA7kP+eKw9HG8t6WcD8=
+
+Name: assets/char/103.mpl
+SHA1-Digest: EmkxPgtl/VIdIphgOXEce9U7oJQ=
+
+Name: assets/script/map/187_001.zt1
+SHA1-Digest: kfMq8unVMj+17Mkk4LRgXs5sGOs=
+
+Name: assets/data/XlsPCNew.zt1
+SHA1-Digest: ZNvQ2mepsjqe9iQEHxpt/yc6RcE=
+
+Name: assets/script/map/001_001.zt1
+SHA1-Digest: eZz0TzcC+nCMkCJLyFCdkeisvgs=
+
+Name: assets/script/quest/101_E.zt1
+SHA1-Digest: jEgq/LJU+fdKxJrDLfJowMAw8vc=
+
+Name: assets/png/Default.png
+SHA1-Digest: 4LFjVPgO6xY45omfBaQmmz6G/00=
+
+Name: assets/map/020.pzx
+SHA1-Digest: 5I9NOfus/HFLg3FPOr8BQL51uFc=
+
+Name: assets/obj/081.pzx
+SHA1-Digest: YDSLOGkIEAC8odPB4KK44VvWQcU=
+
+Name: assets/script/quest/112_S.zt1
+SHA1-Digest: +L7MB55OSsWua84SbYas5mdT3Iw=
+
+Name: res/drawable/button_later_01_global.png
+SHA1-Digest: 8b41I/pxtKV9+Pmajx/xvTwonFM=
+
+Name: assets/data/StrQuest_Y.zt1
+SHA1-Digest: VW1jF0MZk/pIlbEZxnfxbkM3LH0=
+
+Name: assets/script/quest/134_S.zt1
+SHA1-Digest: R3n8B7I6q5QzGoSwAl+UpNXf5tA=
+
+Name: assets/map/116.zt1
+SHA1-Digest: 8b/rgRluA4NQkecaYMzgHQoFjj0=
+
+Name: assets/dummy/dum08.pzx
+SHA1-Digest: RFwvd0Ps30Wdvao98xemkK2Ya6w=
+
+Name: assets/script/quest/037_S.zt1
+SHA1-Digest: LYIkOmK26NEL2G5kYb17F4+F4to=
+
+Name: res/raw/s032.ogg
+SHA1-Digest: GBXDnDSzdoMWbt2wE4BMh3HJiAM=
+
+Name: assets/chinese/data/XlsChargeItem.zt1
+SHA1-Digest: SKI/FxG5ej5n3GUjtaebA8vcly8=
+
+Name: assets/map/100.zt1
+SHA1-Digest: LeAEwvrPMORmy66VZw7E5hn6LJ8=
+
+Name: assets/script/quest/054_S.zt1
+SHA1-Digest: EV/JeQhzKth9Ns6xkiF8Iix4+94=
+
+Name: assets/map/019.zt1
+SHA1-Digest: 5z7ZwlfIKS7ddKZhLEbXc7Pnzzc=
+
+Name: xml_kt_lg/purchaseH.xml
+SHA1-Digest: dLoI/iNAp0rmmdOgv+O+cBibrZ0=
+
+Name: assets/char/061.pzx
+SHA1-Digest: K9VQPWWa8kdvfZ/hqwUh4X4HUqc=
+
+Name: assets/pc/weapon/1/001.pzd
+SHA1-Digest: /PF/2g8jRfH9l/D0NXo90AlbQIM=
+
+Name: assets/script/quest/116_E.zt1
+SHA1-Digest: 4DS7WFgDDbfFV9VQzJ1QDM89l+Y=
+
+Name: assets/map/198.zt1
+SHA1-Digest: eCOQ3b48S82bEqOHXzHZeFlzcAY=
+
+Name: assets/korean/data/StrQuest_Y.zt1
+SHA1-Digest: JigT1HntAl5s2MM8qjKR2/3pwfM=
+
+Name: assets/obj/068.pzx
+SHA1-Digest: lwr+YwIMoHs9go15f7jrvWvOWyo=
+
+Name: res/drawable/button_write_01_j.PNG
+SHA1-Digest: GvmFLCqcyEnwElDQWXJlSt8oey8=
+
+Name: res/raw/s006.ogg
+SHA1-Digest: vVUuQFhtSk5ncSTGu87Zk2Zp9zM=
+
+Name: assets/face/002.pzx
+SHA1-Digest: 0LTTR8cwZmX69ylvWbtYbxO3q1Q=
+
+Name: assets/map/132.zt1
+SHA1-Digest: JaqmFiWvuId8T/AjgscrPmwbrKk=
+
+Name: assets/script/quest/093_S.zt1
+SHA1-Digest: BJ+BXGXJeL3hRYHtb/0n6qnJ6K8=
+
+Name: res/keypad_num_06.png
+SHA1-Digest: +eNEgx6cqt5/YK6fOcRiE+Lmr7U=
+
+Name: assets/script/quest/086_S.zt1
+SHA1-Digest: 5BRTEAJqstdiuVn9q76VpnUT3eY=
+
+Name: assets/script/quest/133_E.zt1
+SHA1-Digest: em5e49li+GiEoEu744c60Bdr5cQ=
+
+Name: assets/script/quest/106_S.zt1
+SHA1-Digest: 5GX65h8V2YOkFIzlaT/RrWVPhWM=
+
+Name: assets/char/009.mpl
+SHA1-Digest: j/6u/c7Ng5OuY777tNhsVLu5reY=
+
+Name: assets/map/162.zt1
+SHA1-Digest: ftALxJF23FGu9fqoIBuzx8F7ogk=
+
+Name: assets/map/177.zt1
+SHA1-Digest: kKSFl3hwhuGg64/JXMe11NKonQU=
+
+Name: assets/pc/head/3/005.pzd
+SHA1-Digest: 78iRV3gedi9UY+6eZNHUYFZeMRY=
+
+Name: assets/obj/118.pzx
+SHA1-Digest: xRQriSiBf4t8opKYvQOydXO49jk=
+
+Name: assets/script/call/092.zt1
+SHA1-Digest: FdGuLh1VF55xNggKJajFJi6i5fU=
+
+Name: assets/chinese/data/StrTalk2.zt1
+SHA1-Digest: vjeQqk+ZAX2L9dL+y1Gna4ctebI=
+
+Name: assets/map/156.zt1
+SHA1-Digest: 6g8MzJG4xnChjYGkM+qVXcXlpUA=
+
+Name: assets/sound/033.mp3
+SHA1-Digest: OzAjWILEZZ5OXeGatdP/ry1lpCs=
+
+Name: res/raw/s036.ogg
+SHA1-Digest: o4VVT0fcF1aKGzezjV7yMGg6LwI=
+
+Name: assets/map/183.zt1
+SHA1-Digest: Ro47rzV3Sa0kNWX8bRfHQppPmKM=
+
+Name: assets/data/XlsMap.zt1
+SHA1-Digest: 9+VtxMe5PtuCc/xPeL1UzlxFT9k=
+
+Name: assets/map/007.pzx
+SHA1-Digest: TWAbrf5hWR5+SKFI6YcXGcBp9g4=
+
+Name: assets/com/UITime.pzx
+SHA1-Digest: K5y98Sqgeu6ZeyJXxIHNJkEdhxE=
+
+Name: assets/obj/035.pzx
+SHA1-Digest: cencks7RupqFJWq0TpohZoLwu98=
+
+Name: assets/pc/armor/1/004.pzd
+SHA1-Digest: VCYXHVKdBVa8p9DqXChxPTL+so8=
+
+Name: assets/map/021.zt1
+SHA1-Digest: RQpo+Y/E0HrFqsD3Lr8U8cJtZwg=
+
+Name: assets/script/quest/039_S.zt1
+SHA1-Digest: u1VoeJEjpd0UmmIku+w0RJBnM40=
+
+Name: assets/pc/armor/1/000.pzd
+SHA1-Digest: i3LAbsneXqaiPJyNhAfprJk1gPA=
+
+Name: assets/japanese/data/XlsQUEST_backup.zt1
+SHA1-Digest: xPsImUSpWdx7IaB34BZ4eNLQSrI=
+
+Name: assets/char/124.pzx
+SHA1-Digest: 14Yz6IwJKr5Z8EFfbrI67C5NYKM=
+
+Name: res/raw/s076.ogg
+SHA1-Digest: yCHxieuamchEBz4uoau726zKb1o=
+
+Name: assets/script/quest/041_S.zt1
+SHA1-Digest: xlxfdHcDO7Rhh+K8TlzMeEx7/Hk=
+
+Name: assets/dynamic/ItemIcon2.mpl
+SHA1-Digest: BpS/O24iXzkcjsZ6YTdzDv5EgLE=
+
+Name: assets/pc/weapon/0/005.mpl
+SHA1-Digest: YwxjgB0/rjpYMl+qKdIxTzW+nhY=
+
+Name: assets/menu/opening.pzx
+SHA1-Digest: RwwfEvsUKNDzmvk4U+eeuYO0jg0=
+
+Name: assets/pc/side_hand/0/000.pzd
+SHA1-Digest: CeblpS/oJKMV9qsQwmMIISnot20=
+
+Name: assets/pc/armor/2/004.mpl
+SHA1-Digest: wd6FUJ6uaBZiGOJJuZs1VH0vcYw=
+
+Name: assets/japanese/data/XlsSkill.zt1
+SHA1-Digest: NS3pGtumlAnGWeIdHdo8mXkyITA=
+
+Name: assets/script/quest/030_S.zt1
+SHA1-Digest: 6GojSRyRD6yCdzUuYKW70U6ajXg=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: Po9TNiIybUH3ADDCID8JquRTt+4=
+
+Name: assets/char/055.pzx
+SHA1-Digest: BtoMTA0CMopT4YOxGBQnP/4B+eE=
+
+Name: assets/pc/side_hand/1/005.pzd
+SHA1-Digest: H2axzFFj2B7J5+mfJcPW8X7Z6q8=
+
+Name: assets/pc/weapon/2/002.mpl
+SHA1-Digest: nHoNOkSvWb24tHWzCDud61MpBb0=
+
+Name: assets/char/041.mpl
+SHA1-Digest: 6vK1KxjOpciWKMLAx8RADN2MWH0=
+
+Name: assets/script/com/026.zt1
+SHA1-Digest: BNf6wUszlbiYTiz37NBoFuzl0/s=
+
+Name: assets/script/quest/075_S.zt1
+SHA1-Digest: ruT0R8dORoQDr7JP3NkzlZgTOio=
+
+Name: res/popPwd_bg.png
+SHA1-Digest: z8YhYlNjo5SVfobsaF4X7hyprqw=
+
+Name: assets/sound/038.mp3
+SHA1-Digest: siASyjHkHspmq2zYf/CJ2EFUesk=
+
+Name: assets/com/GameUI.pzx
+SHA1-Digest: iOwA7fp5gg/D0ECPdFSPfMLPCVQ=
+
+Name: assets/script/quest/081_S.zt1
+SHA1-Digest: 6o0vGKNNtTTJEgOWXe22YdqngQg=
+
+Name: assets/korean/data/XlsDropItem.zt1
+SHA1-Digest: me+nM4Kpo/i6LanT4irbEu05E0c=
+
+Name: assets/japanese/data/XlsQUEST.zt1
+SHA1-Digest: NyvsH5xejviE9l65QDvRlrHmW3A=
+
+Name: assets/auth_terms.html
+SHA1-Digest: Gz5pgbTlK3O6RojlFJVZh/xSkZM=
+
+Name: assets/script/quest/086_E.zt1
+SHA1-Digest: WIkRZ0vRXg55LOsfRHhYvErVzc8=
+
+Name: assets/script/quest/083_E.zt1
+SHA1-Digest: dNiHUNNIKXSv+rygHTpDWU6dPCo=
+
+Name: assets/script/quest/007_S.zt1
+SHA1-Digest: VlFS/98sCks52MVs/uoLYsCwTjk=
+
+Name: assets/html/leec.png
+SHA1-Digest: g/vjxOqqe52aMKP1dTK6NUP7OqI=
+
+Name: assets/chinese/data/XlsBalance.zt1
+SHA1-Digest: HUHqbYDsqkCcEkS96LlKU+EOrrg=
+
+Name: assets/pc/weapon/2/006.pzd
+SHA1-Digest: N9ToC9mq6p8a1rlsqyowEzNywng=
+
+Name: res/input_box_sel.9.png
+SHA1-Digest: jze9evBq3JIYAyOTi55Mzjskae4=
+
+Name: res/drawable-ldpi/icon_gb.png
+SHA1-Digest: 4znKEYol/4T75C95ECS5/XCCkOE=
+
+Name: assets/script/quest/125_S.zt1
+SHA1-Digest: eIRkQf3fIxH9QjzDWr0gz8p9SuU=
+
+Name: assets/sound/021.mp3
+SHA1-Digest: Xh7J56w8GOaOUFWkA6yx9PweEqA=
+
+Name: assets/map/229.zt1
+SHA1-Digest: FXkDCMDRMnr6jGdPw5DfjUIerJE=
+
+Name: assets/obj/022.pzx
+SHA1-Digest: mMma+iz2G2Jp35MNz/IUuWHoHOM=
+
+Name: assets/char/107.pzx
+SHA1-Digest: 2jsNLzVSZsoGlgcbVxvw4ue/H/E=
+
+Name: assets/script/com/022.zt1
+SHA1-Digest: NWtZUDz97oFDHvrDiNvLOc6zrWY=
+
+Name: assets/korean/data/StrTitleItemExplain.zt1
+SHA1-Digest: xWGJn1pJnzE/TlpY7e8lPMYiKZ4=
+
+Name: assets/map/202.zt1
+SHA1-Digest: nyW1RouQXx/0m6S+Ie7YbcDl8AU=
+
+Name: res/bg_line.png
+SHA1-Digest: qy8gPVwURFf/ge8+GjcdSQoeU44=
+
+Name: assets/projectile/018.pzx
+SHA1-Digest: /EDH/uLa0K2/D63wRL8XB7y9kiw=
+
+Name: assets/chinese/data/StrCODE.zt1
+SHA1-Digest: H8bQ+j95RZwocFGb8WBof0FEjU4=
+
+Name: assets/char/045.pzx
+SHA1-Digest: vZXtEdkpJhVUlIm6QOg2vmXdet8=
+
+Name: assets/pc/armor/0/005.pzd
+SHA1-Digest: yyNBVL/qjYPaFae4DBCXFUb1ASs=
+
+Name: assets/ptc/042.ptc
+SHA1-Digest: aqHZQ6Sw6IOfWuxYj3d1n5DTaYI=
+
+Name: assets/map/010.pzx
+SHA1-Digest: 2+OKGrABSJrJJGmw9KSI1dEf8c0=
+
+Name: assets/char/116.mpl
+SHA1-Digest: dawwJibD/XVdVQft4k9cj8xsPJg=
+
+Name: assets/map/029.zt1
+SHA1-Digest: /68E37kH22g8ZKLoR3Jy5r4Ns7s=
+
+Name: assets/pc/side_hand/1/007.pzd
+SHA1-Digest: DrRBl9UakgVSCV6fhcf8jVC1gOs=
+
+Name: assets/script/quest/049_S.zt1
+SHA1-Digest: mc7NolYNh3Tux3V6h5s9/KRYHRk=
+
+Name: assets/map/068.zt1
+SHA1-Digest: ruYQITY5MHG20Ro8R56rqY++usE=
+
+Name: assets/char/032.mpl
+SHA1-Digest: xb7eIhsMFGQ6j0jCLMpJDgjUihU=
+
+Name: AndroidManifest.xml
+SHA1-Digest: B7Q7y+TUV9GbGWhzDzPP9dELEig=
+
+Name: assets/data/StrTalk1.zt1
+SHA1-Digest: wAGF/CO67Jx9vtzjqnzsW9Rjet0=
+
+Name: assets/script/quest/041_E.zt1
+SHA1-Digest: FlJBl8kfqzPmcToZ7NhL1ddmqjk=
+
+Name: assets/map/101.zt1
+SHA1-Digest: uKpQNcAFHEWS931Y5GOdiAcXTgo=
+
+Name: assets/script/quest/090_S.zt1
+SHA1-Digest: +oKA2afQH7BFOHzQY4PFLhqR+vk=
+
+Name: assets/pc/head/001.pzf
+SHA1-Digest: gKx6Cc4BohssnrIy6MhsPcK7i3g=
+
+Name: assets/map/066.zt1
+SHA1-Digest: 5fdST2VD53B64D+vRj5OhrqgBHk=
+
+Name: assets/script/quest/040_E.zt1
+SHA1-Digest: kloWy2IRXBRzyJ9V8X0yt2BoFwM=
+
+Name: assets/sound/088.mp3
+SHA1-Digest: OzYClwmuH5wJWg5yRp28tfbuWIg=
+
+Name: assets/dynamic/PvpUI.pzx
+SHA1-Digest: P3G3nOraRmybDXzXobRb4eS0OFw=
+
+Name: res/drawable/reply_page_back_c.png
+SHA1-Digest: GJA4MdNubQCiHK/PvZOr1eXqvwI=
+
+Name: res/drawable/ui_menu_options.png
+SHA1-Digest: 3EmF2cCrKd5+TrwKe6T0lI+6aaM=
+
+Name: assets/char/118.mpl
+SHA1-Digest: HqOyuXW/WNks0vSM6C0BuPhBfvM=
+
+Name: assets/obj/095.mpl
+SHA1-Digest: 6NnFHMpNsHDncjT1NrjQNLJfK2Y=
+
+Name: assets/pc/armor/1/003.pzd
+SHA1-Digest: rKh8AD7qcjW6LkW9OKLkGQaWBPo=
+
+Name: assets/obj/031.mpl
+SHA1-Digest: MWKP6DYQ0mW+gVr8nlXaxzJsel4=
+
+Name: res/btn_terms_nor_b.png
+SHA1-Digest: 2lD9hZ+wL0yOAGB5TfarNL/P9lg=
+
+Name: assets/script/quest/081_E.zt1
+SHA1-Digest: KLglKgGDZwew4qRgY2telzFbrqg=
+
+Name: assets/map/043.zt1
+SHA1-Digest: kZFhhop4m8vqf9GcXTxqW5g+J+A=
+
+Name: assets/korean/data/XlsSetItem.zt1
+SHA1-Digest: 6fr4w7agSHEo+/Q5MVfsXFFmk/I=
+
+Name: assets/map/064.zt1
+SHA1-Digest: vu5TieOpke3a+7MqKn9EcVw6gKM=
+
+Name: res/info_table_02.9.png
+SHA1-Digest: 6QWYCxAwcIprdJRoSus7d+CWEBI=
+
+Name: assets/script/quest/033_S.zt1
+SHA1-Digest: r/fNdI4Y2PeDd4+PDFJWufxynbQ=
+
+Name: assets/sound/023.mp3
+SHA1-Digest: 2iwgXw3e+dl1AWlNJikm7DNrGc0=
+
+Name: assets/map/137.zt1
+SHA1-Digest: 0IPmYrbc0co90IetjnJqNx2dL4A=
+
+Name: assets/obj/110.pzx
+SHA1-Digest: DL9H8RpP56dt8NjTiFT1b7j/clg=
+
+Name: assets/map/106.zt1
+SHA1-Digest: ekAq1BDfuxPBqQVfearO8tLo48E=
+
+Name: assets/pc/armor/3/004.pzd
+SHA1-Digest: nFgkVdorPJRwGrxad6pCJlkN0mM=
+
+Name: assets/korean/data/StrPopup.zt1
+SHA1-Digest: PzQCuBLYwhApNs+oFFtaj3AbXb0=
+
+Name: assets/script/quest/100_E.zt1
+SHA1-Digest: rkhadHWkDZFuETVa/RdYtIivyTw=
+
+Name: assets/pc/weapon/0/004.pzd
+SHA1-Digest: csIuGNvuIV9BPeLvxBD7a8ddkLo=
+
+Name: res/raw/s090.ogg
+SHA1-Digest: p4xB658UAtczq7edKgdg+TYGwMU=
+
+Name: assets/map/005.zt1
+SHA1-Digest: QwX3XFcbGCzIulvF9d/5napN1KQ=
+
+Name: assets/script/map/071_002.zt1
+SHA1-Digest: PNj/hfekyAPwKAwv2/FT+IQypRA=
+
+Name: assets/data/StrTalk2.zt1
+SHA1-Digest: /BRqo66r1yjU/PXEq5JaKg4qCss=
+
+Name: assets/script/quest/092_E.zt1
+SHA1-Digest: QhAuQbBKnNYhuRNWfUw3OXMxCzk=
+
+Name: assets/data/StrSkillType.zt1
+SHA1-Digest: gn+XzGZCp3txdwJEh5BFtamXI8Q=
+
+Name: assets/data/XlsItemRoutingValue.zt1
+SHA1-Digest: YKekslMY31fGH8W1moJxxP1BBH4=
+
+Name: res/raw/s111.ogg
+SHA1-Digest: 6GicmOBJ1e5qx1MP5EPNMRxRO3M=
+
+Name: assets/script/quest/089_E.zt1
+SHA1-Digest: kCBqVB1j60NFvemQStnqxWeWWXU=
+
+Name: assets/obj/005.pzx
+SHA1-Digest: gbMi9r+vPMDmuAnXlQQrEASuI5w=
+
+Name: assets/script/quest/111_E.zt1
+SHA1-Digest: D7cTTiKzFDST47brTYreBpKxubI=
+
+Name: assets/chinese/data/XlsRandomBox.zt1
+SHA1-Digest: rPyQYqnOTL/Be3E1daxw5tw3zBw=
+
+Name: assets/map/235.zt1
+SHA1-Digest: 4CdtYMtb7DUDS61EK9pVDmFHUas=
+
+Name: res/drawable/gshop_btn0_jp.png
+SHA1-Digest: 6m9OVdv9ANCoYbvWF2mgepNkqNk=
+
+Name: assets/script/call/010.zt1
+SHA1-Digest: vJL5eUdymbyAdTwp8u7blwKTdRI=
+
+Name: assets/char/010.mpl
+SHA1-Digest: CDgDRs6dIYCDG0W74O48v42+35c=
+
+Name: assets/obj/063.mpl
+SHA1-Digest: zz6IJ5Cp0R329DLC0mvaJBKhNY8=
+
+Name: res/xml/update_state.xml
+SHA1-Digest: 1iY0zR2axJIBmy07Es5P8yPRVQM=
+
+Name: xml_kt_lg/purchaseW_finalVersion.xml
+SHA1-Digest: FFwyFXL74/Y99bm++xYARkKs+mA=
+
+Name: res/layout/main_gesture.xml
+SHA1-Digest: oPtoXlRsgPRtoxTJw85HVMtAYho=
+
+Name: assets/obj/025.pzx
+SHA1-Digest: kjLTDjzeF9pVNF5KbJ0pezS7Oqg=
+
+Name: assets/pc/weapon/2/007.mpl
+SHA1-Digest: te4Xm7L25jwOPfay5PW63t2l2Gw=
+
+Name: assets/pc/weapon/2/007.pzd
+SHA1-Digest: nWgr68VWxEkJq5Ums7B43EDpZmw=
+
+Name: assets/sound/017.mp3
+SHA1-Digest: 49zpWldSGGu6Rnar+NDay6oe0eU=
+
+Name: assets/script/quest/104_S.zt1
+SHA1-Digest: H7nIHBr1HeOnjOrkwvt73yPESaw=
+
+Name: assets/script/quest/094_E.zt1
+SHA1-Digest: 4Efk7xOttRiVUlz9YRyh0jNfm24=
+
+Name: res/raw/s107.ogg
+SHA1-Digest: OlIUGSdDL6q24y3YmJS00j+eutY=
+
+Name: assets/char/066.pzx
+SHA1-Digest: 3FEInw5WXkj6I4rUbR49JQr9hrI=
+
+Name: res/btn_check_dim.png
+SHA1-Digest: aLI0my3UpoCtX7M0cSM8YJGvSQ4=
+
+Name: assets/pc/side_hand/0/007.mpl
+SHA1-Digest: Pxg5RUqQSsIcw4ob1Iexv/SS6NM=
+
+Name: assets/dummy/dum00.pzx
+SHA1-Digest: ZNipVj7y0FiFcg605HoIEq8TCig=
+
+Name: assets/obj/031.pzx
+SHA1-Digest: bHOOHSNiKgpuUTQKLWotrvXmGBo=
+
+Name: assets/chinese/data/XlsPCAction.zt1
+SHA1-Digest: OuLpYWZgMF0FTbdPr8YQlGvu+Xo=
+
+Name: assets/script/quest/076_E.zt1
+SHA1-Digest: 3jN4n7hgcrUMEC2gCQ3vAcsxe1w=
+
+Name: assets/obj/001.pzx
+SHA1-Digest: klZ/UEBJ0w1R/W5ZOEHQVqSKDGQ=
+
+Name: assets/script/quest/095_E.zt1
+SHA1-Digest: NFzj3bL5jwhmKxGQtRC2XGrGQ4o=
+
+Name: assets/map/151.zt1
+SHA1-Digest: v22p2QucYaa0rPHNGNw+TO5OW7w=
+
+Name: assets/char/025.mpl
+SHA1-Digest: blXyrFJU0C+cEkBRVJd4OpfIeDw=
+
+Name: assets/map/252.zt1
+SHA1-Digest: dN5FWCVN7xM1PGinHR7ecYUpuPU=
+
+Name: assets/map/231.zt1
+SHA1-Digest: 4CdtYMtb7DUDS61EK9pVDmFHUas=
+
+Name: assets/data/StrPopup.zt1
+SHA1-Digest: 6Q6J0UcMAMsLKEgxBWLTm5dzkxM=
+
+Name: assets/japanese/data/StrQuest_C.zt1
+SHA1-Digest: orrJ9VYq3yEox1mvLs3E1AOCZPY=
+
+Name: assets/obj/039.mpl
+SHA1-Digest: umhghqnqLe5K9l2CAK7fbHhlJZA=
+
+Name: assets/script/quest/043_E.zt1
+SHA1-Digest: OZ6D5R6bAxXebeJE0mse6FLUJjw=
+
+Name: assets/script/quest/047_E.zt1
+SHA1-Digest: 8zbqAmqeD/e0MNPi8LEPJKnqUfY=
+
+Name: assets/map/001.pzx
+SHA1-Digest: MfNhA3pEo895s4Up3Pedcj6l4os=
+
+Name: xml/commonPopupJoinW.xml
+SHA1-Digest: sbMVsXSJHe5TUEoemgplihIwpc8=
+
+Name: assets/script/quest/023_S.zt1
+SHA1-Digest: heHxdVyqEr9vdBO3Z+BrZ3pRNWo=
+
+Name: res/raw/s020.ogg
+SHA1-Digest: 32mbvhOpot9Zd2+UD2TXvNnRJBM=
+
+Name: assets/chinese/data/StrStatusType.zt1
+SHA1-Digest: F9vsx+Fdv0QJakEptd+Vg/mcB6A=
+
+Name: assets/script/quest/011_S.zt1
+SHA1-Digest: 6E8qUkfx7rRQfCeC7IPpq9DeWBc=
+
+Name: assets/pc/head/3/001.pzd
+SHA1-Digest: pKu/68kDWVxOVE2fKW2F1CU+AKo=
+
+Name: assets/dynamic/SkillIcon2.pzx
+SHA1-Digest: ubqfNoO5NVKhI89n9V5OVRb/WfI=
+
+Name: assets/japanese/data/XlsItemRoutingRate.zt1
+SHA1-Digest: TeZUyFs3J8KjBaJhUiqX1AoQmnI=
+
+Name: assets/script/quest/054_E.zt1
+SHA1-Digest: 9X4WIWKg0VcEqCmCY5KY6ibimLw=
+
+Name: assets/obj/016.pzx
+SHA1-Digest: ZK30sItoH/btsU8E3/DCeUdtDfk=
+
+Name: res/btn_con_sel.png
+SHA1-Digest: tbpEGXkaprt1l7IX53iHnMkov8Y=
+
+Name: assets/korean/data/StrSkillType.zt1
+SHA1-Digest: HEGrYwCalxEFntxDU8TPzuMkars=
+
+Name: assets/pc/side_hand/2/003.mpl
+SHA1-Digest: jn4ePWzoBlR0Z/ebzxXwIA/E3ks=
+
+Name: assets/script/map/022_002.zt1
+SHA1-Digest: eh8DMIU+AM5dZUX+5Mc71ydCOzs=
+
+Name: assets/script/map/076_002.zt1
+SHA1-Digest: qTz1ADowQYtMVYADCIHo5mRzgkg=
+
+Name: res/drawable/auth_ci.png
+SHA1-Digest: DFNJVYLvVvQU8+e5B1t+ryi/z0o=
+
+Name: res/raw/s109.ogg
+SHA1-Digest: BW2AAka+zvRAKL0LGdsjaAY9V4g=
+
+Name: res/btn_pad_nor.png
+SHA1-Digest: C36Gm3zYA9CNO+dIb/Yc4RmaRU4=
+
+Name: assets/obj/007.pzx
+SHA1-Digest: hfDA245mWvyUsMWaMO+0BRAfQkU=
+
+Name: assets/pc/weapon/3/003.mpl
+SHA1-Digest: 2ODnh6geaawr7DaFLq6Q21oBYYo=
+
+Name: assets/map/090.zt1
+SHA1-Digest: RDF47R4cNIUNnhBnfgjMB1gkm9Y=
+
+Name: assets/script/quest/097_S.zt1
+SHA1-Digest: DfzQddoQ09kGzDe7zFW5RGe45/M=
+
+Name: assets/map/002.zt1
+SHA1-Digest: kiE8ubQbr9LXQxAcP2kjQKBUCMg=
+
+Name: res/drawable/ui_menu_community_jp.png
+SHA1-Digest: kSOvkes+1D3bXlOeYZAfAYy3TJI=
+
+Name: assets/korean/data/XlsPCAction.zt1
+SHA1-Digest: OuLpYWZgMF0FTbdPr8YQlGvu+Xo=
+
+Name: assets/menu/certi.pzx
+SHA1-Digest: a9fd1HR1EkhoIXYS4O+dVDRT/vc=
+
+Name: res/drawable/btt_disable.png
+SHA1-Digest: aU3U0yiNO7ShAaErEKsGNND+FdA=
+
+Name: assets/pc/side_hand/2/004.mpl
+SHA1-Digest: 1nPm+og2EP9bAGE+SwNQ/TuUwbM=
+
+Name: assets/obj/043.pzx
+SHA1-Digest: 948QgeVKzHkAgVA8eQ+/nGyz6Ss=
+
+Name: assets/char/017.mpl
+SHA1-Digest: 9IPji1KNRLwALdzUdSmoXNffu1Y=
+
+Name: assets/sound/016.mp3
+SHA1-Digest: 1qnLwpUckcL7J620S9frl7iS44U=
+
+Name: assets/script/quest/013_S.zt1
+SHA1-Digest: h8Kf+twoZVS6uhWiWOPHQMdIqRQ=
+
+Name: assets/pc/effect/0/000.pzd
+SHA1-Digest: 0FwYZXlVibnTOZ/akipJpEdkqV4=
+
+Name: assets/map/076.zt1
+SHA1-Digest: B6QTUHowg3IC19sSw8OxwHAkhxo=
+
+Name: res/keypad_num_09.png
+SHA1-Digest: S9pvVGvN/mrLFbOMa5l6U65wZcE=
+
+Name: res/drawable-ldpi/icon_normal.png
+SHA1-Digest: gsvNuvsTgkGsN9wd8NNMStbfwPM=
+
+Name: res/textbox_01.9.png
+SHA1-Digest: Vs680N+gAS6UwbCE2hSL4MlDP+M=
+
+Name: res/btn_more_01_nor.png
+SHA1-Digest: 8o9WBsBg8cv7ClNherPc0T30TOU=
+
+Name: assets/sound/008.mp3
+SHA1-Digest: rabXFIbrWN2UGOY4l/SW47aqLLg=
+
+Name: assets/char/018.mpl
+SHA1-Digest: WLWOtCIOtTjFzx8Bd5GvhaBBq5w=
+
+Name: assets/chinese/data/StrQuestComplete.zt1
+SHA1-Digest: ilD3PWyzhoeRG5jd1sMcXbaoeck=
+
+Name: assets/map/046.zt1
+SHA1-Digest: sMwekRl4pBq6f1FZEKZkOYAaCbs=
+
+Name: assets/pc/head/2/002.pzd
+SHA1-Digest: oWrjqREvHRnT3qTw6QKUwKcA/mc=
+
+Name: res/raw/s105.ogg
+SHA1-Digest: zxkNvlVnVHCapK9dG5v9gTyefsM=
+
+Name: assets/script/call/102.zt1
+SHA1-Digest: vYmENMMadlynmWV0Lz0zQN52NEY=
+
+Name: assets/char/059.mpl
+SHA1-Digest: diiLLSv9B/NC+aRytPFsFywSe2A=
+
+Name: assets/sound/006.mp3
+SHA1-Digest: w61UasQW5MHiUTbxHRajUTNDllE=
+
+Name: assets/obj/019.pzx
+SHA1-Digest: trRMKaeW7AUlw6v20omQLoKe0oE=
+
+Name: assets/pc/head/1/001.mpl
+SHA1-Digest: fK/blSRaHLf3k7iLeXswFpTNoXM=
+
+Name: assets/map/006.pzx
+SHA1-Digest: UgIud2VxQ0CzT0sgi+UOlaN3iFU=
+
+Name: assets/script/map/155_001.zt1
+SHA1-Digest: HCRw5c3mEzHIAfqokLAfXxBUQ60=
+
+Name: assets/dynamic/SkillEffect2.pzx
+SHA1-Digest: 95frvpHPXuYh22a16ddrNJmd5ko=
+
+Name: assets/projectile/002.pzx
+SHA1-Digest: MXx1jcVAg0f6QUtSdGAFdVwUA+0=
+
+Name: assets/obj/093.mpl
+SHA1-Digest: jREtXEFKXtkbmaECEwnO1BZVeE0=
+
+Name: assets/ptc/031.ptc
+SHA1-Digest: MBfYTKZ67ecJvtx9e6X/ByTQjoA=
+
+Name: assets/char/035.mpl
+SHA1-Digest: LKGL0dX7AXrsHOMo4VBRUpMPAeI=
+
+Name: assets/map/103.zt1
+SHA1-Digest: K8tNwNZ+SN4+Bx7yjDmb23n9tz4=
+
+Name: assets/ptc/026.ptc
+SHA1-Digest: m9/X68Azem7QbY8I2rgzqtz3kBo=
+
+Name: assets/map/023.zt1
+SHA1-Digest: Cuym6I2HGHQXGwnrqxRz6Cleb4I=
+
+Name: assets/japanese/data/StrTip.zt1
+SHA1-Digest: qYki0zhcY++Icj2Q3ZKDRZwbzuw=
+
+Name: assets/script/quest/114_S.zt1
+SHA1-Digest: EibMMxjjtCZmqlVH3TCaOxitwDM=
+
+Name: assets/face/007.pzx
+SHA1-Digest: sd+kayVXOLNOx1kagZnQeLSKv10=
+
+Name: assets/pc/armor/2/001.pzd
+SHA1-Digest: N9K6OZ7EoAij7da5mnuMSO683iE=
+
+Name: assets/map/155.zt1
+SHA1-Digest: u1zQwcxE8KgIjxODXh2CoIBt0cI=
+
+Name: assets/obj/024.pzx
+SHA1-Digest: oxcz/zvMmeUk699VAbzKRXALJIw=
+
+Name: assets/map/211.zt1
+SHA1-Digest: q7zP6QfFi80Vf0wjRE8wax9ILfw=
+
+Name: assets/char/026.mpl
+SHA1-Digest: oCbtheQFAtsKT7dQpVs12INB0QM=
+
+Name: assets/obj/111.pzx
+SHA1-Digest: l/f8gfBa9r0JoQiS2tSau66oRdY=
+
+Name: assets/char/047.mpl
+SHA1-Digest: 3NGNRylvT8wycNCc21kS99mkWkc=
+
+Name: assets/html/help_jpn.html
+SHA1-Digest: Gu5URiE0y1drEvn9F7RafPLN94w=
+
+Name: assets/ptc/006.ptc
+SHA1-Digest: xecDJPAlv7IJiUTHfh3WleuSugM=
+
+Name: assets/char/022.pzx
+SHA1-Digest: a3WJnbvGF7MLYPkSYKv4axl4osU=
+
+Name: assets/obj/099.pzx
+SHA1-Digest: JkIqBB5brQdKDrNsfm1EZbs0jig=
+
+Name: assets/char/122.mpl
+SHA1-Digest: 0fOS55XTAZQJtSYi4r3NAYzGDGM=
+
+Name: res/drawable/gshop_bg_jpn.png
+SHA1-Digest: pb7Lx4BIfr6Goc21ySnJq0sCHRI=
+
+Name: assets/script/quest/131_S.zt1
+SHA1-Digest: rkQo3swRJhwChJDw18iFlfkgbsI=
+
+Name: assets/ptc/041.ptc
+SHA1-Digest: lotAXKoAjip+xsI7FAYtQKoUwKE=
+
+Name: assets/script/quest/109_E.zt1
+SHA1-Digest: ImVErSfltGlk0AsnEr/vykTun7o=
+
+Name: assets/pc/weapon/1/004.mpl
+SHA1-Digest: 1gQDyHM8DdFqr33gLtgIJpraD84=
+
+Name: res/raw/s056.ogg
+SHA1-Digest: 517BD7qes2zWgBVZgh2WSM2rcdI=
+
+Name: assets/script/map/094_001.zt1
+SHA1-Digest: BOkxFcyG/svVRpNuuE/MpEib73o=
+
+Name: assets/obj/040.mpl
+SHA1-Digest: /UF1O8Mhg4gz6XI5o/V9HpBWn6w=
+
+Name: res/drawable/rate.png
+SHA1-Digest: DZKLpB+WfPcQtgSc1yYPK0P3aN4=
+
+Name: assets/data/XlsExtraProjectile.zt1
+SHA1-Digest: Am5D3CQ/k5tiUybGmAYPKP9We74=
+
+Name: assets/map/034.zt1
+SHA1-Digest: l3nquRxP6Ihk8NfK+S0SQoPZfj4=
+
+Name: assets/korean/data/StrCODE.zt1
+SHA1-Digest: 4TLt9penksvDi+Zw5eO8sELUDzQ=
+
+Name: assets/char/142.pzx
+SHA1-Digest: bSyUH5fANr5Igc9PeLZ30toABuU=
+
+Name: res/btn_check_no_nor.png
+SHA1-Digest: R9ReDLBSeqN2gStQbH8ZNwk3ml4=
+
+Name: assets/map/207.zt1
+SHA1-Digest: HiEp655WO6m8lJuqZ7zJllH3g5o=
+
+Name: assets/sound/055.mp3
+SHA1-Digest: SCibbzs5zP9KvcfCenZdaHdOFkQ=
+
+Name: assets/com/BezierEffect.pzx
+SHA1-Digest: NVqAq+LGfqmgKKkY/HVkUX5YMAk=
+
+Name: assets/map/170.zt1
+SHA1-Digest: u6WGovElx3I7Qt875rdWdsR/zfI=
+
+Name: assets/char/046.pzx
+SHA1-Digest: +5x0X71OTvuR2XduYku5Cz9pFpA=
+
+Name: assets/sound/105.caf
+SHA1-Digest: qORNRH3PM7m5vfPdq4RBvCMaaZw=
+
+Name: assets/obj/016.mpl
+SHA1-Digest: M1Z2ElHQHvimTkqNN1TfN+ZDii4=
+
+Name: assets/map/084.zt1
+SHA1-Digest: tz2jX5L+ElhOeLvgr80aQUHjBKA=
+
+Name: assets/dynamic/ItemIcon1.mpl
+SHA1-Digest: 3aEJwnAgC9WGE83MAREo/6XtHFQ=
+
+Name: res/info_table_01.png
+SHA1-Digest: /bz50zxyIDHnqpx4JOSqtb0XAKs=
+
+Name: assets/script/quest/085_E.zt1
+SHA1-Digest: OLd1vhgCaBgCtXNXpvOtOrEX+dY=
+
+Name: assets/japanese/data/StrCODE.zt1
+SHA1-Digest: Z4RALh0UTsR9hZdIEoBf/TVHgbg=
+
+Name: res/bt_sel.9.png
+SHA1-Digest: BphtievYDmqVxsy9kRY+Wg7Ji/M=
+
+Name: assets/pc/weapon/001.pzf
+SHA1-Digest: Oh8LUFqE+xWXa18BZXZL0gZAIaI=
+
+Name: assets/pc/weapon/3/007.pzd
+SHA1-Digest: BOjMT5kXCGMIDhyXgUpg7GHfams=
+
+Name: assets/map/065.zt1
+SHA1-Digest: Ajxxtipa+zJbD6nhxLfskdbyYfk=
+
+Name: assets/char/002.pzx
+SHA1-Digest: gZc0zdLdGfcDbh3dfBj2/4mrHaA=
+
+Name: assets/map/158.zt1
+SHA1-Digest: iVIOkm8VveoLUihaFSy5/pqe2/A=
+
+Name: assets/obj/039.pzx
+SHA1-Digest: HFEUD/WSdTN8tzzcLEG9dMBDlnw=
+
+Name: assets/dynamic/ItemIcon1.pzx
+SHA1-Digest: CZK0Fjb0dGfi5HFsxUnfyq/TLKM=
+
+Name: assets/japanese/data/XlsPCStatUp.zt1
+SHA1-Digest: BTeCuFl+ijCgtrPqNge/Ns2bPoo=
+
+Name: res/raw/s077.ogg
+SHA1-Digest: OTaYgdZBFPGuQWY65/Mpm5aq7/Q=
+
+Name: assets/map/249.zt1
+SHA1-Digest: d1OhN+Tpt3QfZXH3ov7FWeUBt1g=
+
+Name: assets/pc/armor/2/004.pzd
+SHA1-Digest: u7JFfDVZCDvElSOM+YJcdFMuN7Q=
+
+Name: res/drawable/ui_menu_options_jp.png
+SHA1-Digest: a47vvUfPtIczAcgHAWRFVfuKNQ4=
+
+Name: assets/script/quest/118_S.zt1
+SHA1-Digest: +OEGFQQMgl/7bzoTwarcig92luQ=
+
+Name: assets/char/117.mpl
+SHA1-Digest: PGd/pfohBlWUtXH3OF6wUXx2Cb8=
+
+Name: assets/script/quest/047_S.zt1
+SHA1-Digest: oO3OdFfNrz3zcTmYiwJXgQ/IARc=
+
+Name: res/raw/s065.ogg
+SHA1-Digest: j2Q7W/yDKfpXSLjmmDXgeiL5h/c=
+
+Name: res/raw/s016.ogg
+SHA1-Digest: T+sAqVbUUf6DmfQYYW5r4+Qnm1s=
+
+Name: assets/script/quest/012_S.zt1
+SHA1-Digest: L5NMcCnt01RBsjubxI54/WTS5ys=
+
+Name: assets/map/174.zt1
+SHA1-Digest: EvPSTBnk+kIFCFL27elFqOl5G3M=
+
+Name: assets/com/WaveEffect.pzx
+SHA1-Digest: JzLSQJlVx7XHTstQ4dsPU7F4iPA=
+
+Name: assets/script/map/028_001.zt1
+SHA1-Digest: hXG5JKFn4+yuluRbD54mXm0In98=
+
+Name: assets/japanese/data/XlsItemRoutingValue.zt1
+SHA1-Digest: YKekslMY31fGH8W1moJxxP1BBH4=
+
+Name: assets/char/053.mpl
+SHA1-Digest: gWn/C7k0x+kfqdlqBHl6AjQdM14=
+
+Name: assets/pc/side_hand/1/003.pzd
+SHA1-Digest: c4erPbNVvs9DOEY3n74oKb7S/oE=
+
+Name: res/drawable/default_loading.png
+SHA1-Digest: 5MJ7SpmTFzORIVQ0PbT0IEVZM+U=
+
+Name: res/popup_bg_2.png
+SHA1-Digest: TxhlRGsn2mpXkbzySW3ZluzpIpY=
+
+Name: assets/dynamic/ItemIconMat.mpl
+SHA1-Digest: YIceRlITMRgyKaoQZyPSnCEg/xQ=
+
+Name: assets/obj/037.pzx
+SHA1-Digest: cdZX3egA3vt4VOTq5GerdpSx4TU=
+
+Name: assets/char/121.mpl
+SHA1-Digest: 8uePP+oBTl5n1qnEMJJw01it+po=
+
+Name: assets/pc/armor/3/004.mpl
+SHA1-Digest: P0PyG6Ok8h7BEOQV6dh+ZiCxgnc=
+
+Name: assets/pc/weapon/3/002.pzd
+SHA1-Digest: 5b0szsVIw7BGhBnStNq2P+neH9g=
+
+Name: assets/obj/086.pzx
+SHA1-Digest: as0k9t55/lGmG0dLMJX4jRo3oro=
+
+Name: res/drawable/btt_normal.png
+SHA1-Digest: CwZKKR13WI/nYrW52apLSWM6QHs=
+
+Name: assets/map/040.zt1
+SHA1-Digest: N2Ywuj11VTCUEU3jNkhBdgKFp+Q=
+
+Name: assets/com/Emoticon.pzx
+SHA1-Digest: 7vdFCRxmLdkQyn/S1QwsjPqJqmk=
+
+Name: assets/data/StrQuestItemExplain.zt1
+SHA1-Digest: 2zFQZI7YjsgRHbEX7Sju0RNvnF4=
+
+Name: assets/obj/065.pzx
+SHA1-Digest: f+2WyBGOAHSzIHMVBnEC5dSkV28=
+
+Name: assets/obj/038.mpl
+SHA1-Digest: 2Hg5KDMYaVSXAJDxMVdWYNPLcNY=
+
+Name: res/drawable/frame.png
+SHA1-Digest: Lcpg5mx1iMcb+lxek9j4wnynm/c=
+
+Name: assets/japanese/data/XlsDropItem.zt1
+SHA1-Digest: me+nM4Kpo/i6LanT4irbEu05E0c=
+
+Name: assets/char/003.pzx
+SHA1-Digest: cn4QM/nSq9MVl4KaQVtM4Pl3SPQ=
+
+Name: assets/dynamic/ItemIconQuest.pzx
+SHA1-Digest: 32qbdAPILnOJ2P3FmA2A+Q78LKc=
+
+Name: assets/script/quest/044_S.zt1
+SHA1-Digest: D6cbBdZ9KcfK05mFsLmqH9H7Bfw=
+
+Name: assets/sound/034.mp3
+SHA1-Digest: mQC6yQXZqHoPx06xwJu1d+mTmUA=
+
+Name: assets/script/map/132_002.zt1
+SHA1-Digest: ENJnAHkbiZBXiTPdBj6H175hvkw=
+
+Name: assets/obj/092.pzx
+SHA1-Digest: 5TUDGqe9VlNNZimVB6LZ/CV93OE=
+
+Name: assets/map/047.zt1
+SHA1-Digest: s3SHgHOkPEDDqs52FiH1qZIRUmU=
+
+Name: assets/ptc/036.ptc
+SHA1-Digest: X1VvHbz5yT4k7Xq+re9h8EqG8aw=
+
+Name: assets/pc/head/1/000.pzd
+SHA1-Digest: 85NY421ChXc1Q4Pv3W1sY0Ol9lo=
+
+Name: assets/obj/052.pzx
+SHA1-Digest: 6SjtmOysevFH0B58mb5Na0TK9dc=
+
+Name: assets/script/map/018_001.zt1
+SHA1-Digest: hdO7n4rZ9r/W9m/UVHFEf/Jf5YQ=
+
+Name: assets/sound/111.caf
+SHA1-Digest: 2hZp1EzxT8SDI0MdbFnPJNzuErU=
+
+Name: assets/script/quest/067_S.zt1
+SHA1-Digest: MPqakbX4MvSuau6waBvZd2abdco=
+
+Name: assets/korean/data/XlsMap.zt1
+SHA1-Digest: bkZ5JlO31UhzDkOHqnRGAddBMS8=
+
+Name: assets/com/Won.pzx
+SHA1-Digest: tF44UTEhnp1Lx0qtmTXeMWQRDas=
+
+Name: assets/map/071.zt1
+SHA1-Digest: wHQfj3J12J+DMZ3Ug9fzGJlx1Bw=
+
+Name: assets/obj/026.pzx
+SHA1-Digest: yIto1qrhA9Pt7JvRukwssdQhQnw=
+
+Name: assets/script/quest/012_E.zt1
+SHA1-Digest: QKuEUh3OEUm+FFN1hJuSYF8oPIg=
+
+Name: res/textbox_01_7.png
+SHA1-Digest: ui4We9WvHhZnBOuLzcBK4qaLZNQ=
+
+Name: assets/html/kelvin.png
+SHA1-Digest: S7r7R2JmNPKfmxZYURxjMD2dMOc=
+
+Name: assets/chinese/data/StrQuest_Y.zt1
+SHA1-Digest: pzYm72VeUdaqx3MuL8hEg1Frz9E=
+
+Name: assets/script/quest/042_S.zt1
+SHA1-Digest: 39anAQff2lSph2VpbewgVwqnQGQ=
+
+Name: res/drawable/banner.png
+SHA1-Digest: /kCuOS3sKPP6jKGh0jW3YeLZjWw=
+
+Name: assets/map/033.zt1
+SHA1-Digest: W2IQUYzgrrjn0C8ubxPGsKzqN0s=
+
+Name: assets/pc/weapon/2/000.pzd
+SHA1-Digest: ZF/PCv0KcKRhXoOPKztu8QaUzIQ=
+
+Name: assets/pc/head/0/002.mpl
+SHA1-Digest: II4xUBp9wQSbnTZnwiBgJ2KMss0=
+
+Name: assets/ptc/005.ptc
+SHA1-Digest: hQDEQj1R/5XNz+MFFbg01RBDx6A=
+
+Name: assets/pc/weapon/3/005.mpl
+SHA1-Digest: jqOZ7Jbp6NlhzsvdlYOhBxi6iOA=
+
+Name: assets/pc/head/2/004.mpl
+SHA1-Digest: IBhAGOGZs2tYK71ZX67aCXJUSn0=
+
+Name: res/raw/s034.ogg
+SHA1-Digest: iePXqkGF2o26aFUb+N7BrIVEkbQ=
+
+Name: res/raw/s101.ogg
+SHA1-Digest: W+VGfYMfKcjAxBBwxmW9KSoZ4dY=
+
+Name: res/raw/s041.ogg
+SHA1-Digest: vBdfXqahRsasfpp/0qUpw7UCyNg=
+
+Name: assets/map/208.zt1
+SHA1-Digest: eY/u44du4sGB8sR9RL4e+A1pNCk=
+
+Name: assets/data/XlsDropItem.zt1
+SHA1-Digest: me+nM4Kpo/i6LanT4irbEu05E0c=
+
+Name: res/anim/slide_up.xml
+SHA1-Digest: 4XabOci5eoIVtSa+LxpTh1nswyQ=
+
+Name: assets/com/MainUI.pzx
+SHA1-Digest: ZnZwBaAEyvRxXbt2H+2OdkVaNIM=
+
+Name: assets/obj/041.pzx
+SHA1-Digest: p+QXkvmTRbJpstZH3JR26KY8PYQ=
+
+Name: assets/obj/018.mpl
+SHA1-Digest: r9Njc1a6vI4+yASOQoT+ja0pFmM=
+
+Name: assets/script/quest/064_E.zt1
+SHA1-Digest: q+Pu+AJUUSidJmPGiydmgEbmaVc=
+
+Name: assets/korean/data/XlsBoss.zt1
+SHA1-Digest: rPVCBGF93hFTX2OsBe2/qAvoEfM=
+
+Name: assets/map/011.zt1
+SHA1-Digest: MFW0hB+yeuDAbNFn+Fnjbi4nBKU=
+
+Name: assets/map/172.zt1
+SHA1-Digest: FyGq9jT/6/A/VRSZ2Z/0UcNNGd8=
+
+Name: assets/script/quest/036_S.zt1
+SHA1-Digest: elQSFo/wXwDiYKqdxWdYrLL5EGE=
+
+Name: assets/char/114.mpl
+SHA1-Digest: bnHqwWmcYT5hiFWULrMriuUWDYc=
+
+Name: assets/char/109.pzx
+SHA1-Digest: gzdTGH1uoVB1VQCEErNC9hJy2VM=
+
+Name: assets/map/221.zt1
+SHA1-Digest: RlisyKjmbmYaaNrIfqe/vm1YV8k=
+
+Name: assets/script/map/010_002.zt1
+SHA1-Digest: sdBzr4A+cw5HkZlDsA1dLYuPamU=
+
+Name: res/raw/s005.ogg
+SHA1-Digest: glGAHlOg/VCEjqMUep2D4UgEJkc=
+
+Name: assets/map/217.zt1
+SHA1-Digest: mEyhes7cNeRJ6C08FzoD6w3rqYg=
+
+Name: assets/pc/head/1/004.mpl
+SHA1-Digest: Fzh6dTBw7NEbnw7VIpTay2XTwBE=
+
+Name: assets/pc/weapon/3/006.mpl
+SHA1-Digest: H8NcUOnq3s6l6LjKhKA59z5BUjY=
+
+Name: assets/dynamic/TrainingUI.pzx
+SHA1-Digest: jpcJAcc4GLlpZJFNqJ5pUEUuw64=
+
+Name: assets/char/100.pzx
+SHA1-Digest: kw2OnE+V7k7V60qfAdbAjyBBDOo=
+
+Name: assets/obj/104.mpl
+SHA1-Digest: 37tQLWocIDGgZDL0l7MeXdnleyw=
+
+Name: assets/map/181.zt1
+SHA1-Digest: 5eFEh+/Tcbvtq4RfLHw/vUG700Q=
+
+Name: assets/map/004.zt1
+SHA1-Digest: rHrjfBwakx+eoKrZW6HAMIzQEdI=
+
+Name: assets/script/quest/135_S.zt1
+SHA1-Digest: 5oqNvVpTVM38YpQVcGUPQyOij1g=
+
+Name: assets/projectile/008.pzx
+SHA1-Digest: EhIjDQ5cOTgSGowydCCXNR85LhI=
+
+Name: assets/char/121.pzx
+SHA1-Digest: dgWqlcvi3pY6xNuAXiYr5Hp/iFM=
+
+Name: assets/map/061.zt1
+SHA1-Digest: DEVHG2pXtGHzzLjnw8BLgY0ISPU=
+
+Name: assets/map/051.pzx
+SHA1-Digest: lcUbSWSUE6ss8tRzO3KELWCINH0=
+
+Name: assets/char/104.pzx
+SHA1-Digest: dLNKxPlfVM8Gf5vx+tzGgfT/CBo=
+
+Name: assets/font/eunjiedge_bold_6_11.ft2
+SHA1-Digest: k2pdOWN4CPitZuGBjFd39O/koP4=
+
+Name: res/input_box_nor.9.png
+SHA1-Digest: 6ag7/CMtwX1f/zsQTUm9H1WAru4=
+
+Name: assets/chinese/data/StrItemType.zt1
+SHA1-Digest: tqSgYKYFq6uVCxoJ3t42cI0a/uM=
+
+Name: assets/face/006.pzx
+SHA1-Digest: F4uFr8AOmZcMA7jwAyX3rm9rS7Q=
+
+Name: assets/map/008.mpl
+SHA1-Digest: PkLp5s29BV1MjjfCXQTS8j1lxo0=
+
+Name: assets/map/210.zt1
+SHA1-Digest: 5C2ot4luh0C1BfxizlEUEauPc6g=
+
+Name: assets/map/130.zt1
+SHA1-Digest: +xqxna7khYaC1Mjt+BfmwX94VeM=
+
+Name: assets/ptc/002.ptc
+SHA1-Digest: e0l3LCHVqp/fEmRyfpvRTvfSaeg=
+
+Name: assets/html/about_jpn.html
+SHA1-Digest: nCxhW3hzCaWtu6Tb+CWaqonXF1w=
+
+Name: assets/char/016.mpl
+SHA1-Digest: uYbN6NIWrFB4yYBk1MmBBCBCZz0=
+
+Name: assets/map/187.zt1
+SHA1-Digest: AQjd6HJHF98u7uaMhUkXwdz2Zsg=
+
+Name: res/raw/s040.ogg
+SHA1-Digest: SMMIZf7kkV9zva6kP3v1KJhtbt8=
+
+Name: assets/pc/effect/001.pzf
+SHA1-Digest: j1DDU6Md96poh9ilu32X4HDHDJ0=
+
+Name: assets/projectile/015.pzx
+SHA1-Digest: itJpxWbYMp4Tam2PN0Sz4/MRbac=
+
+Name: assets/script/quest/038_E.zt1
+SHA1-Digest: hMQ1kLNa8fHT62ZpIGjN2DyWxEk=
+
+Name: assets/char/045.mpl
+SHA1-Digest: q2X7fvjfhLkrpEi9WvaeX3IG4DA=
+
+Name: assets/map/253.zt1
+SHA1-Digest: 7zVZ1xckmB6sfJUKZS29bkZS+xs=
+
+Name: assets/map/161.zt1
+SHA1-Digest: NgLK3lWQk889A8PSB0kDaOuo6eY=
+
+Name: assets/script/quest/044_E.zt1
+SHA1-Digest: olCyv3hB5zaSrLWvypnVDblvwwY=
+
+Name: assets/pc/weapon/0/001.pzd
+SHA1-Digest: 8UGJfGjbfC2UFx/yWj0mOkJWQPM=
+
+Name: assets/pc/armor/2/003.pzd
+SHA1-Digest: +qBIb4D6YOJ9yxOXFUWThRy4UY8=
+
+Name: assets/japanese/data/XlsExtraProjectile.zt1
+SHA1-Digest: Am5D3CQ/k5tiUybGmAYPKP9We74=
+
+Name: assets/pc/002.pza
+SHA1-Digest: 7QQAm/KBmif+mSTeb6tONSYSU58=
+
+Name: lib/armeabi/gdbserver
+SHA1-Digest: rEvLi7Y8hbyufVtYEcPtXNZs0j8=
+
+Name: assets/pc/side_hand/1/006.pzd
+SHA1-Digest: Cm0ybHHdpl4sFYp/uddn7o/qGlw=
+
+Name: assets/pc/side_hand/2/005.pzd
+SHA1-Digest: qofamzd8GAaXHdbOhsl0fbn20cA=
+
+Name: assets/ptc/045.ptc
+SHA1-Digest: dnqy51G3Ikp5eUNbQ+MCG8gWHL8=
+
+Name: res/layout/webview_1.xml
+SHA1-Digest: F4jYXdQjK4FV/OlbdvhSkVwnPw4=
+
+Name: assets/char/029.mpl
+SHA1-Digest: 89m98H4XN6FuVuz0t+3SRBNc/tU=
+
+Name: assets/script/map/175_001.zt1
+SHA1-Digest: UDT9FgpMOjAYuXezpEIZK3olR20=
+
+Name: assets/korean/data/StrTalk2.zt1
+SHA1-Digest: t5014xxkrguRTq9yPFqih2NTexY=
+
+Name: assets/script/quest/017_E.zt1
+SHA1-Digest: Ar4Sq4ZVgvgwyLYgRLpLdd5TUus=
+
+Name: assets/char/025.pzx
+SHA1-Digest: LhYfreCnqXaXyATezfstMlQaGdQ=
+
+Name: assets/obj/107.pzx
+SHA1-Digest: uTfIoKlXIAZer55caQO1u9LlKdM=
+
+Name: assets/script/quest/029_S.zt1
+SHA1-Digest: YyPeJAGHY6UDpz+fCt6iMhIrH6I=
+
+Name: assets/char/065.pzx
+SHA1-Digest: RTdNEC3bZPTykyFoi3FK7xyf8+0=
+
+Name: assets/char/051.pzx
+SHA1-Digest: 9XKf3o9p2tJrH3sJY6MFnX8t2JM=
+
+Name: assets/script/quest/058_E.zt1
+SHA1-Digest: 4ea9BlwxnKxr03ykJ5awpD+hop4=
+
+Name: assets/map/080.zt1
+SHA1-Digest: jxS/wKhPIQNkbF26fvZw2XwtwVY=
+
+Name: assets/script/com/005.zt1
+SHA1-Digest: 6sul35Kz0gdawJKjIK50IhPRnI4=
+
+Name: assets/script/quest/137_S.zt1
+SHA1-Digest: BlKTZ+wtLH639Ghhui+O7lLcVpk=
+
+Name: assets/char/015.pzx
+SHA1-Digest: aTxTv0qMFO9D2y3hi4h46lKPedo=
+
+Name: assets/script/map/006_002.zt1
+SHA1-Digest: /y95o7DQAcf4nr/Xo9QvGm9R2Vg=
+
+Name: assets/obj/095.pzx
+SHA1-Digest: uGxu0wq5AZdheXr5IV7b/+MUNZY=
+
+Name: assets/char/118.pzx
+SHA1-Digest: qVADxOZ9CaYZhC4XEzkQUtd1OiE=
+
+Name: assets/korean/data/XlsMix.zt1
+SHA1-Digest: Hu/VpjczFILJEPyEXQnIXb/3pN8=
+
+Name: assets/pc/head/3/003.mpl
+SHA1-Digest: 4MLOFPzUuwaWhUBH57GbcH1Zea8=
+
+Name: assets/map/090.pzx
+SHA1-Digest: 3bL8S/0IgZmWJJTLKvHAqUE1PG0=
+
+Name: assets/pc/head/2/003.mpl
+SHA1-Digest: vEzJCgtYr0AL0EOBsfgDrD8Ce8s=
+
+Name: assets/map/069.zt1
+SHA1-Digest: ukuQXRCUdIMyOYAkaOKRVUschSQ=
+
+Name: assets/japanese/data/XlsChar.zt1
+SHA1-Digest: wmezxc6u1GEqBUZMi7CwJes0620=
+
+Name: assets/pc/weapon/1/000.pzd
+SHA1-Digest: DIb+sFmK+uxRb1hZbyBm2LLM93s=
+
+Name: assets/script/quest/072_S.zt1
+SHA1-Digest: c4uGoiiy9Wex2VGHr5E30BiR8wA=
+
+Name: assets/map/124.zt1
+SHA1-Digest: Xvydc3uqWnCQUJSli8x8EH9ME2s=
+
+Name: assets/char/110.mpl
+SHA1-Digest: Jioq74A+2LA7pdqYwknU98zG4EI=
+
+Name: assets/char/053.pzx
+SHA1-Digest: CHHfjIwWXVcbGFc9l8FQ1cQvmfI=
+
+Name: assets/char/028.pzx
+SHA1-Digest: SBo0aRR+k2vKPi+LiPMVGcwjL2s=
+
+Name: assets/map/025.zt1
+SHA1-Digest: LZw7s5A73xvRnBYnl3L67D5PJJ4=
+
+Name: res/drawable/ui_menu_continue_ch.png
+SHA1-Digest: 9ghKYTbncxO/91b9xASLJJYEROc=
+
+Name: assets/char/048.pzx
+SHA1-Digest: K3uH+lKUCvHP8yHRV43fEVj7ggA=
+
+Name: assets/data/StrMaptheme_Name.zt1
+SHA1-Digest: 8Ox0zVj2A7lvUqZii8u2LQdeJn0=
+
+Name: assets/ptc/030.ptc
+SHA1-Digest: JMZHp9e6CZJsdfRIl2ExkZ+5yx0=
+
+Name: assets/korean/data/StrQuest_M.zt1
+SHA1-Digest: GdxJfh8ZK5OsjAx0igd0Uck48pY=
+
+Name: assets/data/XlsSetItem.zt1
+SHA1-Digest: 3PGWD6qd7w10T5pLQFDfK0hzyzw=
+
+Name: assets/obj/075.pzx
+SHA1-Digest: vAzn/wKtk5T53uG1CXJj3dkYqiU=
+
+Name: res/btn_terms_nor_b2.png
+SHA1-Digest: 2lD9hZ+wL0yOAGB5TfarNL/P9lg=
+
+Name: assets/script/quest/121_E.zt1
+SHA1-Digest: TLaPx5dD4P+NYdCt7+8AeY5AgyM=
+
+Name: assets/dynamic/SkillEffect1.pzx
+SHA1-Digest: RsELUG2B2VUELonr6oO+HrmsuIE=
+
+Name: assets/pc/effect/2/000.pzd
+SHA1-Digest: F9Ywt1RmI49Io8P4N7H/fU+2ELA=
+
+Name: assets/script/quest/107_S.zt1
+SHA1-Digest: qJlKyp5YbYIAW7Sjulj7HirT4Jo=
+
+Name: res/drawable-mdpi/icon_normal.png
+SHA1-Digest: Gia4FxpxGhWPWomgOPmyrN9McXk=
+
+Name: assets/script/quest/063_E.zt1
+SHA1-Digest: lKg5W4A9GL29YUUNN+NsEj994cs=
+
+Name: assets/sound/031.caf
+SHA1-Digest: jSGnuSRQnOEoaFP1MX1GGTxLAPc=
+
+Name: assets/script/quest/006_S.zt1
+SHA1-Digest: 9Dvw6gmwUk5bGIWXUkFq5E8uPvE=
+
+Name: assets/script/quest/026_E.zt1
+SHA1-Digest: A6a2Z+pCYTtEp1P3enkLGk2C/Xg=
+
+Name: assets/japanese/data/XlsBalance.zt1
+SHA1-Digest: PxQ1T6PU2VesPeamVy5zH98O9Fw=
+
+Name: assets/korean/data/XlsChargeItem.zt1
+SHA1-Digest: +1dRuMGwaJRRiHwoTdGJwaUOMHA=
+
+Name: assets/char/032.pzx
+SHA1-Digest: kYWadlQX2gnAQqdawJjOD/QXP9E=
+
+Name: assets/obj/073.pzx
+SHA1-Digest: QxYab396Q88G2fi7lBtzH2zQHMg=
+
+Name: assets/pc/head/1/003.pzd
+SHA1-Digest: pQ0+xKiG6g7tXrwORYeTubpgljQ=
+
+Name: assets/sound/091.mp3
+SHA1-Digest: euZyI/o15OrhAGU28BeTnTPQYcE=
+
+Name: assets/map/038.zt1
+SHA1-Digest: TU6oBb4ApMu5cfR7Lfo3dKkhO98=
+
+Name: assets/script/quest/088_S.zt1
+SHA1-Digest: qlBrIEB5xt2TtVB4JwwHJt7yElQ=
+
+Name: assets/map/042.zt1
+SHA1-Digest: 4bG0NhC99LywmVkm4xPaRwqisEI=
+
+Name: assets/korean/data/XlsItemRoutingType.zt1
+SHA1-Digest: sSOapytha0ayavkOFxL15zU4plY=
+
+Name: res/drawable/home_clicked.png
+SHA1-Digest: 3QBdDJskPrPS5lxQseROVtQ6/so=
+
+Name: assets/script/quest/014_S.zt1
+SHA1-Digest: LeahiQ4XzfDQYYLmydXrX1OqlT4=
+
+Name: assets/script/quest/057_E.zt1
+SHA1-Digest: iSfKCXfIEMYRXGFZAVNSobxfz9g=
+
+Name: assets/char/019.pzx
+SHA1-Digest: tjA6W0x0pApsK90TXkOzlMvKTJI=
+
+Name: res/btn_check_no_sel.png
+SHA1-Digest: DSfNRnoG4SrmIPkHQlG7V1piqhI=
+
+Name: assets/pc/weapon/2/002.pzd
+SHA1-Digest: kyS+/FxQGZhbMqasFXVSIUpf9IA=
+
+Name: assets/ptc/027.ptc
+SHA1-Digest: pA7U05ijBwMnZi0hRym7MagaMMs=
+
+Name: res/drawable-hdpi/icon_normal.png
+SHA1-Digest: MXFIWa/Rkzlwhy24pZ95QpahcQs=
+
+Name: assets/script/quest/130_S.zt1
+SHA1-Digest: T4ojwihopDnZi/pbFrq9RwsoRiI=
+
+Name: assets/korean/data/XlsItemRoutingRate.zt1
+SHA1-Digest: TeZUyFs3J8KjBaJhUiqX1AoQmnI=
+
+Name: assets/obj/020.pzx
+SHA1-Digest: a3fa5UczwkhX1QJCm8SGMVaj+og=
+
+Name: assets/char/055.mpl
+SHA1-Digest: aKEClDFm0cc64FlMBw7waPlrCuI=
+
+Name: assets/map/078.zt1
+SHA1-Digest: mfpDHzTcGTXonXi33Nv1myVagWg=
+
+Name: assets/pc/head/1/002.pzd
+SHA1-Digest: OeQlelFfR2M31MUeX3PHtO5ZRoM=
+
+Name: res/drawable/ui_menu_help_kr.png
+SHA1-Digest: 2kCADmFkAwpuTqQ05WnFMnGZdIA=
+
+Name: assets/ptc/054.ptc
+SHA1-Digest: DlwuBa0Iak4rWbPcIcLmscsrvHU=
+
+Name: assets/projectile/021.pzx
+SHA1-Digest: dXlP7NUZP2W3eW3RdQRCcUhu0dc=
+
+Name: res/drawable/ui_menu_options_ch.png
+SHA1-Digest: T9JmVz/tkmLsusKBicoFo/FtcZk=
+
+Name: assets/map/032.zt1
+SHA1-Digest: TI7sfWZGJq9k6fNB/GP0f9dD61Q=
+
+Name: assets/map/154.zt1
+SHA1-Digest: HF12yRZege2OM0UyyG+ykhmGRsM=
+
+Name: assets/pc/side_hand/0/005.pzd
+SHA1-Digest: drI+4VwXYZM8sgChWmW3mEwM6mE=
+
+Name: assets/map/008.zt1
+SHA1-Digest: 69HUqzWIclXmQQY37s+QngKvyNQ=
+
+Name: assets/obj/124.pzx
+SHA1-Digest: NX/luf8ZRIeIOAT74JWck7rBeXM=
+
+Name: assets/projectile/017.pzx
+SHA1-Digest: hR21TTFly7L/9KjGmwWZWu1u/EA=
+
+Name: assets/script/quest/001_S.zt1
+SHA1-Digest: cKZ/v1SIT2XxfpNCfpaNEIpHkI0=
+
+Name: assets/Dpad.pzx
+SHA1-Digest: UA7u247DZ2TOsYQHryQFqpHpAU8=
+
+Name: assets/data/XlsGameData.zt1
+SHA1-Digest: yfoWzBmY7QpUUVmEvtEWxci6rCY=
+
+Name: assets/map/093.zt1
+SHA1-Digest: W/ya+fUWqbjorFgyXDfAwrhf/hs=
+
+Name: assets/sound/101.caf
+SHA1-Digest: 29B9aycC9SCjoIQH3nk5YDKDzI0=
+
+Name: assets/script/map/024_003.zt1
+SHA1-Digest: 1uVUAY9PFphJGhaF0FDK2DJk4zo=
+
+Name: assets/script/quest/091_E.zt1
+SHA1-Digest: QY41ICnwBPUO0XkH5Hq2Pih8h2Y=
+
+Name: assets/script/quest/113_E.zt1
+SHA1-Digest: rnFC3gcSVJRE3Bk7X/Fbgc2CTgU=
+
+Name: assets/obj/050.pzx
+SHA1-Digest: 1UjRYDkKvqguOk6r2wHp52VCNvc=
+
+Name: assets/pc/armor/1/002.pzd
+SHA1-Digest: F75DqSeJW9gH9QJmmtjq/wogx3c=
+
+Name: assets/script/com/009.zt1
+SHA1-Digest: nlkxAFek5LjR1Ogs56NfYFfUM6o=
+
+Name: assets/script/map/098_001.zt1
+SHA1-Digest: +TlzJBoDy9Z2Bepx5NY/5Tg4tks=
+
+Name: assets/char/137.pzx
+SHA1-Digest: A2WJGvYzq/xFLcxr/cIykDoNxhc=
+
+Name: assets/script/quest/124_E.zt1
+SHA1-Digest: U6ZacnwHz4PIFrPAmUX+xDVzEKI=
+
+Name: assets/map/036.zt1
+SHA1-Digest: Zak0bF4g2Ah6DNHp8Ig7igC+F6I=
+
+Name: assets/pc/003.pza
+SHA1-Digest: y3GyXP+e2CsHj2bhfp6pRNPRD5E=
+
+Name: assets/map/074.zt1
+SHA1-Digest: NmiL2lunmeuWGA81znvmQgUN7eo=
+
+Name: assets/script/map/056_001.zt1
+SHA1-Digest: rg1ducfHCzugrPsg8NAxf8J7eUQ=
+
+Name: assets/map/008.pzx
+SHA1-Digest: 1fiBFFyEuS2Q3qWEk202jqK6GPo=
+
+Name: assets/char/103.pzx
+SHA1-Digest: 3TsUlr2hcF6RYxt9DOGiX97k6qw=
+
+Name: assets/script/quest/046_E.zt1
+SHA1-Digest: ERHtGtUDzOmbbuY4l69GN0wtIpU=
+
+Name: assets/pc/side_hand/2/006.pzd
+SHA1-Digest: WDqqN+1lpwxbIEsfvGpb7luQNZY=
+
+Name: assets/script/quest/018_S.zt1
+SHA1-Digest: u0Zr0tr5kYeoek4wkW9m3RXG0Xs=
+
+Name: assets/char/132.pzx
+SHA1-Digest: uwy85EQ0zBRpZStnoY22cQRsk5M=
+
+Name: assets/ptc/017.ptc
+SHA1-Digest: +YEx9jK2THusZE1O+OqDFUQu1RA=
+
+Name: assets/script/quest/098_E.zt1
+SHA1-Digest: nUqbs6HN6Db8vrJXXocVnqrT30c=
+
+Name: assets/script/quest/129_S.zt1
+SHA1-Digest: PDLkSjX9cGWYJDXTVbeV5+OQWrQ=
+
+Name: assets/map/164.zt1
+SHA1-Digest: j5HF30K0wHod485+ZexBvu1pgFY=
+
+Name: assets/script/quest/094_S.zt1
+SHA1-Digest: aDVaIgxLCsPrzDk2DLj/5rQwSDI=
+
+Name: assets/char/014.pzx
+SHA1-Digest: UAU9cTFsfkM2a9iDMHMcbCunow4=
+
+Name: assets/char/001.mpl
+SHA1-Digest: 03gQZyRMrbx3m5wGnRFkirTcK9I=
+
+Name: assets/sound/076.mp3
+SHA1-Digest: zyDlmgiVFcAfucoQZOqHCqtxpI4=
+
+Name: assets/map/230.zt1
+SHA1-Digest: M5IMxC+q9NZI3bmqdF4nFG3QCrg=
+
+Name: assets/map/081.zt1
+SHA1-Digest: U0x/PNQZwG2BwQv7WibPqrsNt38=
+
+Name: assets/map/004.pzx
+SHA1-Digest: n8LGkF+nHyBCPnrRi/QILRDl19Y=
+
+Name: assets/char/064.pzx
+SHA1-Digest: 2ahSwxYYZQ4FlXffkGoI24PWuXA=
+
+Name: assets/ptc/001.ptc
+SHA1-Digest: aqHZQ6Sw6IOfWuxYj3d1n5DTaYI=
+
+Name: res/raw/s114.ogg
+SHA1-Digest: 4zdDpEriXdDRXB96XMlFd7Ii1H0=
+
+Name: assets/obj/050.mpl
+SHA1-Digest: x1ShFGO/2RfTPWFuWs5Pl8p5Gzw=
+
+Name: assets/sound/115.caf
+SHA1-Digest: 2fHKUc/Ukia+vZZTopUo5tdhvBo=
+
+Name: assets/japanese/data/XlsPackageItem.zt1
+SHA1-Digest: ogsUkNIMdwoVLnqrFvdLyPdhc80=
+
+Name: assets/obj/003.pzx
+SHA1-Digest: fbTrIK6XsDrMh4tPBlUTwcbO8l0=
+
+Name: assets/script/quest/109_S.zt1
+SHA1-Digest: ZoAUAauW5rG9skcdT+eAL1W4kVw=
+
+Name: assets/pc/head/3/005.mpl
+SHA1-Digest: 8j1cAPgu0wu9DI7v+z0/k7fmV9Y=
+
+Name: assets/sound/106.caf
+SHA1-Digest: KT/vf2ZW+3mAEw2sOof0fEoZL0c=
+
+Name: res/keypad_num_00.png
+SHA1-Digest: 8MEV30494vColDVIgGqd6feOaEI=
+
+Name: assets/korean/data/XlsParticle.zt1
+SHA1-Digest: +jcafN4axPTA9/jZgWKVH86JgaQ=
+
+Name: assets/script/quest/011_E.zt1
+SHA1-Digest: va/1Clti1StxzwRIZkKF7Dx+RZA=
+
+Name: assets/menu/ZeroGrade.pzx
+SHA1-Digest: bj9K9slT38wAWHDpR0tBPcgAI5c=
+
+Name: assets/sound/041.mp3
+SHA1-Digest: 4VVfdbC7p0AsRjQvTQvYuFxb2a0=
+
+Name: res/drawable/ui_menu_about_ch.png
+SHA1-Digest: 175L1jTU6bf/1Qex3yi3MS8TWx4=
+
+Name: res/raw/s004.ogg
+SHA1-Digest: oakSlvqnFdM0cGlE0dvzILHw+tU=
+
+Name: assets/pc/armor/3/002.mpl
+SHA1-Digest: bV9DbNLfw3aPiOQKQYWNm51Ds20=
+
+Name: assets/pc/armor/3/003.pzd
+SHA1-Digest: 7x5TRUFz4TXQI7Mn9knPKX5aMY0=
+
+Name: assets/chinese/data/StrMaptheme_Explain.zt1
+SHA1-Digest: jFBX2ppftMmZJikwSvGtbMWGQB0=
+
+Name: assets/char/067.pzx
+SHA1-Digest: ByWMXGC+AXLqDT7UNPcofECnvPI=
+
+Name: assets/pc/armor/3/001.pzd
+SHA1-Digest: g3chv3hc6989nbm5BtbCMU7fgEI=
+
+Name: assets/obj/025.mpl
+SHA1-Digest: kvy2qiRuYIplLdzBqSi0W1ONdcQ=
+
+Name: assets/pc/armor/3/005.pzd
+SHA1-Digest: Lq9qF1DgCEkzUhy9lz03WM5AnvY=
+
+Name: assets/script/map/025_001.zt1
+SHA1-Digest: 2m2exV9pEiIckZ4AFzlcwn13gII=
+
+Name: assets/char/023.mpl
+SHA1-Digest: xpluDU2gTh0m6If1vRL03WT7fI0=
+
+Name: res/raw/s116.ogg
+SHA1-Digest: AWMQEtwFj6amnksR5wVUs8r2sjI=
+
+Name: assets/chinese/data/XlsParticle.zt1
+SHA1-Digest: +jcafN4axPTA9/jZgWKVH86JgaQ=
+
+Name: assets/pc/side_hand/2/000.pzd
+SHA1-Digest: GwQH03SMEsqlFiG0nna7B/bhFI0=
+
+Name: assets/japanese/data/XlsMap.zt1
+SHA1-Digest: pM4dRh0CDU31iZVt1F97RTjbDA4=
+
+Name: res/raw/s088.ogg
+SHA1-Digest: 5gMCNzoiuKukcR3pcL13tSnm6Tk=
+
+Name: assets/char/101.pzx
+SHA1-Digest: x/tabIV6NpGxFnmdkuGL1wpb87s=
+
+Name: assets/sound/012.mp3
+SHA1-Digest: ond6PMYKt+zjs3GGBbnkPXFTuBc=
+
+Name: assets/pc/head/1/003.mpl
+SHA1-Digest: sU0rGpitik8drGuqfgnbceoSHys=
+
+Name: assets/char/011.pzx
+SHA1-Digest: 88MCzZ6tzvTO2HiHoJaGE91zne0=
+
+Name: assets/script/quest/079_S.zt1
+SHA1-Digest: K0LDjsitSNpDk7YdWJKBmlmvaCI=
+
+Name: res/drawable/home_b.png
+SHA1-Digest: hxltqcyhoOXFYH8wHR1Mpf+RxVk=
+
+Name: res/drawable/ui_menu_community_ch.png
+SHA1-Digest: MyN+0L9JvYnpN/TXxivn7ktc/ro=
+
+Name: res/kepad_bg.png
+SHA1-Digest: iFufD4iHr39rqphRPJNmTjRvKrA=
+
+Name: assets/char/039.pzx
+SHA1-Digest: CldlJo3RhVFspM2OqN3k6VHHjBs=
+
+Name: assets/sound/026.mp3
+SHA1-Digest: 0RRdg+c71bi4SiUAGBxZu7FKV5w=
+
+Name: assets/map/014.zt1
+SHA1-Digest: eXyXGsflwfy4BXS9XdgPzmkNqbM=
+
+Name: assets/script/quest/069_S.zt1
+SHA1-Digest: tkPGzy+e/wK57S2+RKcoEe3hv9M=
+
+Name: assets/projectile/013.pzx
+SHA1-Digest: GOp6KYf9Nak7hgm1kvXpYgHKMxo=
+
+Name: assets/ptc/038.ptc
+SHA1-Digest: E8MP59CemULREP+bWBzF7S+K35I=
+
+Name: assets/projectile/000.pzx
+SHA1-Digest: HTNxraPlt2+OFIgpFdwHADkjzUI=
+
+Name: assets/japanese/data/StrHelpTitle.zt1
+SHA1-Digest: DTjtgXyRbwqBVHgYuAr9JD2yf0o=
+
+Name: res/textbox_01_8.png
+SHA1-Digest: bPeczgGcasmrhcVTs3tFAPZHxNQ=
+
+Name: assets/pc/side_hand/1/005.mpl
+SHA1-Digest: ipZE2fZu5ZRIiFWQWY7foWHDK+A=
+
+Name: assets/script/quest/053_S.zt1
+SHA1-Digest: Qk29r1IyouS1MO/L9Q3YJSxdAbQ=
+
+Name: assets/sound/112.caf
+SHA1-Digest: yJzDDDeIAHYIEok5qqegFY2gZBM=
+
+Name: assets/script/quest/120_E.zt1
+SHA1-Digest: 8X0RrHCzVHAmd+NiwwYDV2zQMdk=
+
+Name: assets/obj/023.pzx
+SHA1-Digest: X+2+vWvAe7SmJNEWGs9PnbbQMJM=
+
+Name: assets/char/027.mpl
+SHA1-Digest: l7u6TTYV9BdbNnUYahETWzDIfO4=
+
+Name: assets/script/quest/106_E.zt1
+SHA1-Digest: whHfrj9qM0+aBfStyGW/ERwl1Hg=
+
+Name: assets/data/XlsQUEST_backup.zt1
+SHA1-Digest: xPsImUSpWdx7IaB34BZ4eNLQSrI=
+
+Name: assets/script/quest/082_E.zt1
+SHA1-Digest: uOmyoNZlFD8a9IsnL+N51zI6a5g=
+
+Name: assets/japanese/data/XlsProjectile.zt1
+SHA1-Digest: LELuVCFNDIJs1MJ9gE7y82JtvP0=
+
+Name: assets/obj/091.pzx
+SHA1-Digest: +Jm79nI1vRKaCB8Ja3kHsKwhJ+Q=
+
+Name: assets/sound/070.mp3
+SHA1-Digest: g2hD5Q4QrBFPG+0L0o78EYvaMuo=
+
+Name: assets/ptc/037.ptc
+SHA1-Digest: wHiWqPAwvWPQs8ij+ABh7imh6Do=
+
+Name: assets/char/113.pzx
+SHA1-Digest: 5TaGTT45URJCrbbK1FuMwVVaexU=
+
+Name: assets/char/036.mpl
+SHA1-Digest: 78c6UqbFWvKtjFdYtzOfpTeqP7g=
+
+Name: res/btn_terms_sel_b2.png
+SHA1-Digest: Gm3DRBTLL7UvEQiBMXved9/D5eA=
+
+Name: assets/korean/data/StrMaptheme_Name.zt1
+SHA1-Digest: E1sVpXFEGbkfOf57kdSqzthH5/4=
+
+Name: assets/data/StrQuest_M.zt1
+SHA1-Digest: jQhAeE8t7ttMwAAqqspUbWyO+dI=
+
+Name: res/raw/s025.ogg
+SHA1-Digest: tBVRESIYHzz3R6hNyR9Ny+V1vos=
+
+Name: assets/pc/weapon/3/001.mpl
+SHA1-Digest: 7rLHWfyjFsrTBj5CJmpk1IgdUrk=
+
+Name: assets/script/call/106.zt1
+SHA1-Digest: sALIiGtIWqY1R85/X2CWAFMVEFw=
+
+Name: assets/script/quest/016_S.zt1
+SHA1-Digest: WsLomRNr4geyxGA0+BBy4hx3UDk=
+
+Name: assets/script/com/023.zt1
+SHA1-Digest: DUs0DU+Nj0kJTdCEEcSZ9jkQw2w=
+
+Name: res/drawable/button_later_01.png
+SHA1-Digest: q8mN5h/UXhHRQJDopPR7oj58fuc=
+
+Name: assets/script/quest/062_E.zt1
+SHA1-Digest: HWn7gLWU3ks3UTRKLyvP10bS2mY=
+
+Name: assets/map/135.zt1
+SHA1-Digest: +4KkcfKfZNwKZG2U/mPNltN6N5k=
+
+Name: assets/korean/data/XlsCollection.zt1
+SHA1-Digest: TcD1fz1WQBXPZz2rDMd/3VARm8w=
+
+Name: res/raw/s102.ogg
+SHA1-Digest: nEmFKhoPvECFkqKnwdZd+TMYfQo=
+
+Name: res/pop_title.png
+SHA1-Digest: zbYH77eaT4W+n3W1lOsrtJi6nBg=
+
+Name: assets/sound/013.mp3
+SHA1-Digest: kQCVnpa28NO/6X9PcuErPBhtDwE=
+
+Name: assets/pc/armor/003.pzf
+SHA1-Digest: WtO9EzjZmPRotb1An33KiGBKC1A=
+
+Name: assets/korean/data/StrMaptheme_Explain.zt1
+SHA1-Digest: 0iIZTMPlHYWjnHdZUS0O6hFjUA8=
+
+Name: assets/html/sword_night.png
+SHA1-Digest: prYr4S1Za05e9QZ8H8/h5EoDoi8=
+
+Name: assets/obj/008.pzx
+SHA1-Digest: mL2/N6WN5QsCBSPkOndSbR5+Kn4=
+
+Name: assets/pc/effect/3/000.pzd
+SHA1-Digest: Yo7MF4AYgO4NYZ54I6v+yi4wKO4=
+
+Name: assets/pc/weapon/3/004.mpl
+SHA1-Digest: oK2ep+rZfe2/ehmoENimgeg1JAI=
+
+Name: assets/map/200.zt1
+SHA1-Digest: 2z71Xuf5ZHS+FBwKaSnzpPqRbEI=
+
+Name: assets/dynamic/ItemIconQuest.mpl
+SHA1-Digest: hUCosW5BcMCW7uRg/xw5uiMLvd4=
+
+Name: assets/obj/030.mpl
+SHA1-Digest: PVquS4YnMSTOCib32ua1D50LTlw=
+
+Name: assets/map/003.pzx
+SHA1-Digest: SjuCIgkqdhs4lz6PUzWAfoeDgwc=
+
+Name: assets/map/050.zt1
+SHA1-Digest: pssQlBYvr8fy0STGDXdh8ljV+fA=
+
+Name: assets/korean/data/XlsWorldMap.zt1
+SHA1-Digest: VSa3Z6BO5BuGfIFQTS2KOgIUYgk=
+
+Name: res/drawable/ui_title_bg_nate.png
+SHA1-Digest: DR3QtdjAxuVdxZxKFX05tCDgsTs=
+
+Name: assets/chinese/data/StrSkill.zt1
+SHA1-Digest: sw8RsyJUDC1g4HDWjQkcmV/RKUU=
+
+Name: assets/pc/head/0/003.mpl
+SHA1-Digest: L/zImA4yoOwZwfwObJLVw2dVFD0=
+
+Name: assets/script/quest/049_E.zt1
+SHA1-Digest: fIPKCGhiSluM9MYlJFBJVf9SAnc=
+
+Name: assets/pc/weapon/0/005.pzd
+SHA1-Digest: oEViXKHc5Qwv3Qyb/N5fsy4koIk=
+
+Name: assets/script/quest/134_E.zt1
+SHA1-Digest: FfOpirZ8tAh8uiQcgSVdx2h/mPw=
+
+Name: assets/pc/head/3/001.mpl
+SHA1-Digest: ebIG+wtGHYq5ckfqH086izj9AEU=
+
+Name: assets/dynamic/ItemIcon3.mpl
+SHA1-Digest: rYsMe/VEUpQ0EoF5ATT5T0R8Osg=
+
+Name: assets/dynamic/TimeAttackNumber.pzx
+SHA1-Digest: DeMWysR3Vhi3cGBbGd+7wyAJkEc=
+
+Name: res/anim/alpha.xml
+SHA1-Digest: ai1l5SLqxrc34hNPbmAhubCfskk=
+
+Name: assets/script/quest/123_S.zt1
+SHA1-Digest: jesM1HfZnmQadHKxNOo16MVLkEo=
+
+Name: assets/map/007.mpl
+SHA1-Digest: MX+1GCJiQx6J+z7uqnnGWNjpRs8=
+
+Name: assets/chinese/data/XlsItemRoutingRate.zt1
+SHA1-Digest: TeZUyFs3J8KjBaJhUiqX1AoQmnI=
+
+Name: assets/char/068.pzx
+SHA1-Digest: +++qBgFD1gborQ0zsSoiUydP+z8=
+
+Name: assets/char/123.pzx
+SHA1-Digest: IBzNUP4KPk6KvPJWXGUMpMBLlKE=
+
+Name: assets/pc/armor/1/005.pzd
+SHA1-Digest: unOcxWV0jmsh6UMpDaYwGLcSEFU=
+
+Name: res/keypad_num_05.png
+SHA1-Digest: mW1hkDghAbUEr/vCbHcl58AbPPE=
+
+Name: assets/pc/weapon/000.pzf
+SHA1-Digest: +4X8q3brRBfwu+t0pNhW1BhLWWw=
+
+Name: assets/script/quest/020_S.zt1
+SHA1-Digest: NyfEiThPWv+aXMkTwXATl/TJQGg=
+
+Name: assets/map/039.zt1
+SHA1-Digest: cyaIqhcRbMQ8Vryny4BDPCwQLNM=
+
+Name: assets/obj/119.pzx
+SHA1-Digest: JJJDeiyafPiUhEXYY77Lc0cuN30=
+
+Name: assets/pc/000.pza
+SHA1-Digest: Q6LsljqncPC5/cN9kKTQKSQzMLw=
+
+Name: assets/pc/weapon/3/001.pzd
+SHA1-Digest: +yQxS3oqnelQfx3T9+r5lmhVnSA=
+
+Name: xml_kt_lg/commonPopupImage.xml
+SHA1-Digest: fM7xvXIlezoXc/G0yDCrKenQ9YM=
+
+Name: res/raw/s013.ogg
+SHA1-Digest: MWGg6BOZzmF71x8LMiFqAus/FQA=
+
+Name: assets/script/quest/133_S.zt1
+SHA1-Digest: toAsyYPTX2MxjXPDCJUQu4DZK/4=
+
+Name: res/drawable/gshop_bg.png
+SHA1-Digest: tu2LtndvvIDDoO+6tgjuX/f3GPU=
+
+Name: assets/script/quest/108_E.zt1
+SHA1-Digest: XYycdmqznmDLa2w2yours53N9b8=
+
+Name: assets/char/009.pzx
+SHA1-Digest: RlZCHTXuD1+3OryaYkRiCqWYrYc=
+
+Name: assets/chinese/data/StrSkillType.zt1
+SHA1-Digest: tfTaljGsg33URJpi7t7Ty5TkEo8=
+
+Name: assets/pc/side_hand/001.pzf
+SHA1-Digest: 8qjvC/bFbq7qfxJC/NbN7RumsIY=
+
+Name: assets/char/010.pzx
+SHA1-Digest: Y7tt4thgxgeQAV+mJHYMgCbztsc=
+
+Name: assets/obj/002.pzx
+SHA1-Digest: gZshmrUmAd7BvOWmTFGZHPfVA9w=
+
+Name: res/raw/s043.ogg
+SHA1-Digest: t5+j+62cgQPemGKZfFJPiopNZVk=
+
+Name: assets/char/006.pzx
+SHA1-Digest: ajBd0apb0x00D5AMlu7DJgybAwI=
+
+Name: assets/script/map/172_001.zt1
+SHA1-Digest: 4WGk2fGlG8wfB/gAY7Bikdho/tM=
+
+Name: assets/obj/123.pzx
+SHA1-Digest: OkWRD7XqCPLx6elXhVaaasV8lHg=
+
+Name: assets/map/114.zt1
+SHA1-Digest: ASPcWu7AIiz2aMrfK0Eaymiavok=
+
+Name: assets/korean/data/XlsExtraProjectile.zt1
+SHA1-Digest: Am5D3CQ/k5tiUybGmAYPKP9We74=
+
+Name: assets/script/map/071_001.zt1
+SHA1-Digest: 4UI2RLeAphJdxMFpjjLRrBoSIfc=
+
+Name: assets/char/114.pzx
+SHA1-Digest: tU1Ek22ieB1WwZGex02B/th85sg=
+
+Name: assets/pc/weapon/2/004.pzd
+SHA1-Digest: OsjxgZyAjmsdmJ2dVoSYB4sVyXg=
+
+Name: assets/sound/025.mp3
+SHA1-Digest: Aww47e5vXKERkGaUHZpyllb4+uA=
+
+Name: assets/script/quest/036_E.zt1
+SHA1-Digest: I+HdI2WW0ou6QLQt7/nE5NOx41Q=
+
+Name: assets/script/quest/051_S.zt1
+SHA1-Digest: K+3WyaRZewjNucBj+Az2euvng70=
+
+Name: assets/script/quest/063_S.zt1
+SHA1-Digest: hj1r5VSQrwYLKy1f2BvGM4D5/LE=
+
+Name: assets/script/quest/122_E.zt1
+SHA1-Digest: lnWHaYayvWxWvpAI6V9uno3CBrI=
+
+Name: assets/dummy/dum09.pzx
+SHA1-Digest: pRRegdE17JpIqlwFPEH5Fqvb2Qw=
+
+Name: assets/script/quest/042_E.zt1
+SHA1-Digest: zG/44vVdjyG54fCXLwcTCogihXI=
+
+Name: assets/pc/side_hand/2/003.pzd
+SHA1-Digest: O7K1i/oIIZ1LW+MY34nYMG37GsA=
+
+Name: res/logo_pw.png
+SHA1-Digest: 16NuujqH72CI75iVucOxZ7wPRYc=
+
+Name: assets/ptc/049.ptc
+SHA1-Digest: td2UCtY9RQPzYv/hd1FDZaUwhK4=
+
+Name: assets/pc/side_hand/0/007.pzd
+SHA1-Digest: l/vFwBn+eqJgOu48O4R08Sm2/38=
+
+Name: assets/script/quest/062_S.zt1
+SHA1-Digest: /JJeL/5LfvgflTf/NCwyL08Foj0=
+
+Name: assets/script/map/067_001.zt1
+SHA1-Digest: aA9yjtnNxnUetXT40HaxSA7JZeA=
+
+Name: assets/script/quest/121_S.zt1
+SHA1-Digest: 81sGO3MouEePsP2Q6QLHhKkVPBQ=
+
+Name: assets/chinese/data/StrHelp.zt1
+SHA1-Digest: IUQkikE4BfaLW83yjRdeR2XyW2I=
+
+Name: assets/ptc/011.ptc
+SHA1-Digest: jOMPcA1drc5xB8BPZxTknnir/TE=
+
+Name: assets/sound/002.mp3
+SHA1-Digest: SvJq80m+UkYtihBA7zKOWxlSW/s=
+
+Name: assets/char/012.pzx
+SHA1-Digest: sGcdGKwEG/1sBewNyZNO2AB+rrE=
+
+Name: assets/dummy/dum05.pzx
+SHA1-Digest: ZNipVj7y0FiFcg605HoIEq8TCig=
+
+Name: assets/obj/063.pzx
+SHA1-Digest: eX3VjjwIxUIUeB3Myutx6juWnSk=
+
+Name: assets/script/map/010_003.zt1
+SHA1-Digest: 3qO/n06zutf3/QQ7bhDjPfCLJEQ=
+
+Name: assets/script/quest/084_E.zt1
+SHA1-Digest: gx7tA5Ct2CN4klBQyKtsA7jMv7s=
+
+Name: assets/data/StrHelp.zt1
+SHA1-Digest: IUQkikE4BfaLW83yjRdeR2XyW2I=
+
+Name: assets/dynamic/ItemIcon0.mpl
+SHA1-Digest: 9M53EBRRYdwXMiyJdZ3pHzxaQPM=
+
+Name: assets/pc/effect/1/000.pzd
+SHA1-Digest: wuXFWRhToeqNiXmtoJrLqlDZ2dM=
+
+Name: assets/sound/114.caf
+SHA1-Digest: p46s6cXKVLdd821OI2I4RC4OEZs=
+
+Name: xml/commonPopupAutoPurchaseFormW.xml
+SHA1-Digest: LGAYXmQ+2pKvEHbNlZI5Gdz+EbQ=
+
+Name: assets/obj/046.pzx
+SHA1-Digest: oU3qGbs5Uwqh+ZliP8LwKUzqBh0=
+
+Name: assets/pc/head/2/002.mpl
+SHA1-Digest: o5HfSjMjv3OvWytEq98mjyCRBMw=
+
+Name: assets/korean/data/XlsProjectile.zt1
+SHA1-Digest: LELuVCFNDIJs1MJ9gE7y82JtvP0=
+
+Name: assets/script/quest/136_E.zt1
+SHA1-Digest: 92Fn2E6bQimGWRXcx7DBymfoTpg=
+
+Name: assets/pc/armor/0/004.pzd
+SHA1-Digest: 3+FJIg3OORU4RqRoJpBAiWNDZ2A=
+
+Name: assets/map/004.mpl
+SHA1-Digest: la8j/nVJrKMCCs6ae413VxyihF8=
+
+Name: assets/data/XlsMovingObject.zt1
+SHA1-Digest: itg/0RRaCVON6zYA4RQm6x6cPJQ=
+
+Name: assets/ptc/012.ptc
+SHA1-Digest: dlC0GczvHDm42QMv3/jd4wWCcEM=
+
+Name: assets/char/041.pzx
+SHA1-Digest: VrJ+cSkO/l1tDNrXWLrT/gTYqRk=
+
+Name: assets/sound/116.caf
+SHA1-Digest: GG+gpRx28E+ij5nG+aG4olGG/wQ=
+
+Name: res/pop_btn_nor_ok.png
+SHA1-Digest: n5HNAQdsV1QncfBDe0a30l0G5ik=
+
+Name: assets/script/quest/117_E.zt1
+SHA1-Digest: iTcKMlnPW0QhDyVWwH6H+dobFb4=
+
+Name: assets/obj/109.pzx
+SHA1-Digest: XsB8iP6bTH3Jn1iVO7UCUIYM7Sg=
+
+Name: assets/obj/094.pzx
+SHA1-Digest: 4w610ecyiO0vLLaIiRtPn8GWAC8=
+
+Name: res/drawable/gamevil_live.png
+SHA1-Digest: J0JhC76vwIEx1kLzo3ewx5MhMUg=
+
+Name: assets/obj/048.pzx
+SHA1-Digest: 42Co2UtaTJW/Cney5STiFIWO8+8=
+
+Name: res/textbox_01_9.png
+SHA1-Digest: Y0GcVibJ9LA5W0nTPDyHoixt+hE=
+
+Name: assets/chinese/data/StrTip.zt1
+SHA1-Digest: aBrhYrHMKNMMA49aC3pfD6yzIIQ=
+
+Name: assets/japanese/data/XlsChargeItem.zt1
+SHA1-Digest: KGhkfnvTz3hOFzn5TY+HmwjqmaI=
+
+Name: assets/map/169.zt1
+SHA1-Digest: FCpqz1VaEJxAS2jP9h+vC6YF7k0=
+
+Name: res/btn_buy_sel_h.png
+SHA1-Digest: TY3PnzOUHGURnH+fhwSck+mcE1M=
+
+Name: assets/script/map/089_001.zt1
+SHA1-Digest: JIncjBWa2YyqIzsvr+La93Ih1bY=
+
+Name: res/raw/s106.ogg
+SHA1-Digest: 1dNXtbhfBiq0COzPYTwHFuFtWjc=
+
+Name: assets/pc/armor/1/001.mpl
+SHA1-Digest: Rhrak5Gfs17CfxZADT7pVb5r1lQ=
+
+Name: assets/obj/044.pzx
+SHA1-Digest: L4YTUWpqnEpKaWX+lH7Zh/XoEg4=
+
+Name: assets/data/XlsQUEST.zt1
+SHA1-Digest: 9cymbHUuqj4ZFZ9eq6TW/rDyM4M=
+
+Name: assets/map/112.zt1
+SHA1-Digest: Xk279cqphV227155aOolM7UTrcs=
+
+Name: assets/japanese/data/XlsParticle.zt1
+SHA1-Digest: +jcafN4axPTA9/jZgWKVH86JgaQ=
+
+Name: assets/map/063.zt1
+SHA1-Digest: 7CrBZCJgJMqy81QhF09uC6OuHOk=
+
+Name: res/textbox_01_2.png
+SHA1-Digest: Vu0RVFPegq2JLwSfSuEDzvLXSLQ=
+
+Name: res/drawable/ui_menu_about.png
+SHA1-Digest: QsK4orxNv+ZeZonGJ3mOFzsGXXk=
+
+Name: assets/sound/004.mp3
+SHA1-Digest: bXSIUg3ZIiUmu3HR/38Mp5MlbmI=
+
+Name: assets/sound/045.mp3
+SHA1-Digest: tHANL76LsstS97kzK8eV4o9VkiY=
+
+Name: assets/obj/125.pzx
+SHA1-Digest: MS0GsP5sCfimKP1Gj++9tX1ns1k=
+
+Name: assets/pc/head/000.pzf
+SHA1-Digest: 55sR1vUk+rug86wPTNpRQhM0+wM=
+
+Name: res/raw/s115.ogg
+SHA1-Digest: cWy3NeSz/72gxlaGuGH88TORkcA=
+
+Name: res/drawable/gshop_btn1_jp.png
+SHA1-Digest: TlZHJzmt78r5e5v3w4oQX+wLjKQ=
+
+Name: res/raw/s007.ogg
+SHA1-Digest: aehjJIWhvG+4+gi72wkDcLvJG14=
+
+Name: assets/japanese/data/XlsBoss.zt1
+SHA1-Digest: rPVCBGF93hFTX2OsBe2/qAvoEfM=
+
+Name: assets/script/quest/027_S.zt1
+SHA1-Digest: iBVRoNdoiyoPV2LqqTgRiuQoIiw=
+
+Name: assets/char/008.pzx
+SHA1-Digest: EY/+BTNdysa6ZY6Ky5AcxXnWlnQ=
+
+Name: assets/pc/weapon/1/007.pzd
+SHA1-Digest: aYoOvAGYM8ISJ0RkdyTbSKtF7sg=
+
+Name: assets/map/214.zt1
+SHA1-Digest: pMPF1E4rFxAMnG/ZufTYLbbdpFY=
+
+Name: assets/script/quest/003_E.zt1
+SHA1-Digest: 9Q5qRb7+7/dqtlfXlirltKSyBq4=
+
+Name: assets/script/quest/112_E.zt1
+SHA1-Digest: nVNIoJPVCCwKLPyZD/N43lrp6uw=
+
+Name: assets/map/095.zt1
+SHA1-Digest: JCSmSkTTXpT6bve5uNH1Oe4yNf4=
+
+Name: assets/pc/side_hand/2/007.mpl
+SHA1-Digest: te4Xm7L25jwOPfay5PW63t2l2Gw=
+
+Name: assets/data/XlsTrashItem.zt1
+SHA1-Digest: 7L9hHqF+qX4wetXbK3Dx7Pnsbr8=
+
+Name: assets/script/quest/073_E.zt1
+SHA1-Digest: w5p+jesGdtVtjeQoojWhrIQquuQ=
+
+Name: assets/ptc/018.ptc
+SHA1-Digest: ejmfjMiW1Q4VrmA00fiSyRejNNY=
+
+Name: assets/map/057.zt1
+SHA1-Digest: VtcQ1xHOvmCERth4OZS44ResWUE=
+
+Name: assets/obj/028.mpl
+SHA1-Digest: Awv2iGQDqhGcw85GrVyRmXqT48c=
+
+Name: assets/obj/088.pzx
+SHA1-Digest: PGgsyqNlPwwsgVN5dS3/eQVEXTg=
+
+Name: assets/pc/head/0/005.mpl
+SHA1-Digest: HATa7NaXZadbCmekL2wgpmknv48=
+
+Name: assets/korean/data/XlsItemRoutingValue.zt1
+SHA1-Digest: YKekslMY31fGH8W1moJxxP1BBH4=
+
+Name: assets/char/023.pzx
+SHA1-Digest: qY6i7KFtoqIApzUZ2O4OYevSHtc=
+
+Name: assets/char/051.mpl
+SHA1-Digest: WmxKG1N8ner6tZtMc9IugHp8vEk=
+
+Name: assets/script/quest/118_E.zt1
+SHA1-Digest: P/7lDid/7flyFD8BBF/Rn2XdAEE=
+
+Name: assets/char/008.mpl
+SHA1-Digest: IkxnhqfKv4K6tBHbpeFXb1upM/M=
+
+Name: assets/script/map/160_001.zt1
+SHA1-Digest: T4vJ0BN20ItdAtrVQRtJa3aO4Mk=
+
+Name: assets/menu/certi_ex.pzx
+SHA1-Digest: uz7Y6rH/FRqIqA8fDg/3QPnBMZA=
+
+Name: assets/script/call/110.zt1
+SHA1-Digest: qeGqaxb0duxl6lGZ5p2C/vjLVtc=
+
+Name: assets/script/quest/061_S.zt1
+SHA1-Digest: qeqkUbH2udrVZU97p0BitvoZbcQ=
+
+Name: assets/pc/weapon/0/004.mpl
+SHA1-Digest: LGstqqSeJF8lYdvFNgq6+OV1DFs=
+
+Name: assets/script/quest/009_S.zt1
+SHA1-Digest: tZVsaVy5j8oN3WT4Mt7S3nHnOEA=
+
+Name: res/drawable/ui_menu_newgame_kr.png
+SHA1-Digest: ITQ9a13oAb0hKOIQAagoJUVaTHc=
+
+Name: assets/japanese/data/XlsTitle.zt1
+SHA1-Digest: P3ScFtJLPwkjSlEDiE9oIwn7nDc=
+
+Name: assets/obj/049.mpl
+SHA1-Digest: Xd14NsPA30hQt+yuE4yk0hAiJ3A=
+
+Name: assets/sound/109.caf
+SHA1-Digest: 02tqInGYFtMmQlAD63N7NXQfsZ8=
+
+Name: assets/map/184.zt1
+SHA1-Digest: azY4HEfC79AyBOoV/kU8+9sa7ok=
+
+Name: assets/ptc/040.ptc
+SHA1-Digest: NAkNCGgaRkdFxRrJHa5mqksostI=
+
+Name: res/drawable/button_later_01_j.png
+SHA1-Digest: mf7L9K2wMhwuF5nIMTNHE32M0lM=
+
+Name: assets/dummy/dum01.pzx
+SHA1-Digest: ZNipVj7y0FiFcg605HoIEq8TCig=
+
+Name: res/drawable/ui_menu_about_kr.png
+SHA1-Digest: f9YftqPNz6m6UwFUUHP7DcleIaY=
+
+Name: assets/chinese/data/XlsMix.zt1
+SHA1-Digest: Hu/VpjczFILJEPyEXQnIXb/3pN8=
+
+Name: assets/chinese/data/XlsMovingObject.zt1
+SHA1-Digest: itg/0RRaCVON6zYA4RQm6x6cPJQ=
+
+Name: assets/obj/115.pzx
+SHA1-Digest: HfogzyT9Dc1P3+TaPyIsedoma8I=
+
+Name: assets/pc/armor/2/002.pzd
+SHA1-Digest: Xu6n/G3fPYXMVFncCkJEudqg2uc=
+
+Name: assets/pc/weapon/0/001.mpl
+SHA1-Digest: v//yhVcj3KRUZtlsJXS8WW3d9Xo=
+
+Name: assets/char/110.pzx
+SHA1-Digest: joFC4SEpIlZLhjhLmw7dW9/hK6Q=
+
+Name: assets/map/226.zt1
+SHA1-Digest: OlQ9eQ2RXS0Ti7m17oOAsmJxDY4=
+
+Name: assets/char/117.pzx
+SHA1-Digest: p4u9E6JPzXYNS55u3b/ecVoin/4=
+
+Name: assets/font/gulim19_18B.ft2
+SHA1-Digest: lmRglf1TN3Spp6ILxDWrhiz6/9o=
+
+Name: assets/projectile/007.pzx
+SHA1-Digest: hIQOqMGWB5G2B7ynCqaTZeqwFaU=
+
+Name: assets/map/163.zt1
+SHA1-Digest: jYmEACWmRZToJxIXAOwhWS6RjPk=
+
+Name: assets/script/quest/017_S.zt1
+SHA1-Digest: 2mIK8ZG/o1pYUiahPPUaMykEiiQ=
+
+Name: assets/char/122.pzx
+SHA1-Digest: IHBVMiy8uU5JNzmuabgVEDvf9Tk=
+
+Name: assets/pc/head/0/005.pzd
+SHA1-Digest: O3VKgNgCchi5qm8v/Ie76rvavLQ=
+
+Name: assets/map/178.zt1
+SHA1-Digest: MEnqQ1Trpu5Gz3zDGyQkFiXQe7o=
+
+Name: assets/map/040.mpl
+SHA1-Digest: QvStrytyLiQyO3xgNyL/r3hqtKI=
+
+Name: assets/data/StrMaptheme_Explain.zt1
+SHA1-Digest: HohYiFcylC+pjmFRSDIDdKVmWSY=
+
+Name: assets/obj/072.pzx
+SHA1-Digest: fN1g/Z+bylngaxBB09o5zLuH1+o=
+
+Name: assets/pc/side_hand/1/006.mpl
+SHA1-Digest: sQHLyeyaqkkPVp4w/uqT1w6L614=
+
+Name: assets/script/map/076_001.zt1
+SHA1-Digest: 8ICwAhDvL1xEbJAI/hxnJX/hWRI=
+
+Name: assets/sound/007.mp3
+SHA1-Digest: r8PDdC+IE/4TZwWb5OPKvYHYuEQ=
+
+Name: assets/japanese/data/XlsPCAction.zt1
+SHA1-Digest: OuLpYWZgMF0FTbdPr8YQlGvu+Xo=
+
+Name: assets/face/003.pzx
+SHA1-Digest: e1KPpO9jOq5T+I5/i5IWp397LDY=
+
+Name: assets/obj/006.pzx
+SHA1-Digest: Kt2LtBCAmoSQZ87L7qCzJ4GpZUA=
+
+Name: assets/map/254.zt1
+SHA1-Digest: 0o2EnDB+WaDZgHVI4WC9uN7Derw=
+
+Name: assets/japanese/data/StrQuestComplete.zt1
+SHA1-Digest: Tl+S/QXQpJ5R4WHj7NxVxcPgy+0=
+
+Name: assets/char/019.mpl
+SHA1-Digest: VBRHzNpGcyWUKcR0OLsTk262agU=
+
+Name: assets/script/quest/029_E.zt1
+SHA1-Digest: qFtkqUn+X4H6wi007Jwvzdxm69c=
+
+Name: assets/data/XlsPVP.zt1
+SHA1-Digest: oPgFb9Sdxo/MhUgscgS1l3X/sXo=
+
+Name: assets/script/quest/004_S.zt1
+SHA1-Digest: UHbPxl4blCZXl3Nfuz/lF/b6OT8=
+
+Name: assets/script/quest/113_S.zt1
+SHA1-Digest: U3/spy4iPrA7xOpdwjJcxjJ6HqY=
+
+Name: assets/script/output_dlg.zt1
+SHA1-Digest: wHSou1Op154c+w3oqeGKtr0oRS8=
+
+Name: assets/map/085.zt1
+SHA1-Digest: /5Bk8M5PQ4FXO3sn4lAyh8FUhj0=
+
+Name: assets/script/quest/008_S.zt1
+SHA1-Digest: MOqBOYGPipUh8KnXPc5SF654Pk4=
+
+Name: assets/data/StrItemType.zt1
+SHA1-Digest: wkbZZuweG2hdHw0HLOG1+I2jl8s=
+
+Name: assets/chinese/data/XlsSkill.zt1
+SHA1-Digest: EYgywmhMgHiza4wpAP4Evgh9aLw=
+
+Name: assets/data/XlsItemRoutingType.zt1
+SHA1-Digest: sSOapytha0ayavkOFxL15zU4plY=
+
+Name: assets/ptc/033.ptc
+SHA1-Digest: VWCGEn0nBfcflXpdUZ7eZ218uGw=
+
+Name: assets/sound/035.mp3
+SHA1-Digest: W83Yv5oy4I6mwi344XUgKaJf0lQ=
+
+Name: assets/ptc/039.ptc
+SHA1-Digest: lzXeJ7eeWzIRPAe9JrkkWApDfG8=
+
+Name: assets/chinese/data/XlsCollection.zt1
+SHA1-Digest: TcD1fz1WQBXPZz2rDMd/3VARm8w=
+
+Name: assets/script/quest/119_S.zt1
+SHA1-Digest: M1QRyJ1Oo7YgpcqUdiYemfJdNoo=
+
+Name: assets/script/map/050_002.zt1
+SHA1-Digest: uAHQTzCkXJVUKQZ/I2s6bATW7qU=
+
+Name: assets/char/058.mpl
+SHA1-Digest: 45dPLtURP/AZUcboILn8Ev6wjVE=
+
+Name: assets/map/082.zt1
+SHA1-Digest: nttGiMTUo3mkFsi63YoVusn6u0Y=
+
+Name: assets/obj/024.mpl
+SHA1-Digest: 3YAmwu7Rm56C7uW0UJjSUaOeAoY=
+
+Name: assets/ptc/019.ptc
+SHA1-Digest: XLcANsApSJsFdyHuNZEXXpIKu5Y=
+
+Name: res/raw/s002.ogg
+SHA1-Digest: WxnNQlCiaAkPKAoUV/vl9aliemo=
+
+Name: assets/char/005.mpl
+SHA1-Digest: 3b1KXxhn9xzcaBkgihwRM2nr71I=
+
+Name: assets/script/quest/025_E.zt1
+SHA1-Digest: IJG7SLH8W+lENHNBPft7eqktbyI=
+
+Name: assets/chinese/data/StrQuest_N.zt1
+SHA1-Digest: j8YGGGy2/IP2jkn0WhHkUnc65vo=
+
+Name: assets/chinese/data/XlsItemRoutingType.zt1
+SHA1-Digest: sSOapytha0ayavkOFxL15zU4plY=
+
+Name: assets/script/quest/034_E.zt1
+SHA1-Digest: HJw7uiu3Zbdbz2Nb1D/+FquAklY=
+
+Name: assets/char/052.mpl
+SHA1-Digest: cAiq6sqx1owJb2pYU2rQ/jTb9PM=
+
+Name: assets/char/037.mpl
+SHA1-Digest: OvR9HFeqGkSieFZwimeCMqSTyc4=
+
+Name: assets/char/049.mpl
+SHA1-Digest: lLNY6LG5q1WzRGgYRMgRgsxSmC0=
+
+Name: assets/map/012.zt1
+SHA1-Digest: 0lLzF+B/Qe9/cqVrviA2Tk7uUQw=
+
+Name: assets/script/quest/008_E.zt1
+SHA1-Digest: h33gL5bFQ6nmXJp42+QRc0nJP8c=
+
+Name: assets/japanese/data/StrItemType.zt1
+SHA1-Digest: GVNm7qMKCv/pxZZXaOdLuKYz56c=
+
+Name: assets/obj/105.pzx
+SHA1-Digest: /TNPz0PBd8j+w77NJIuIXWGUT8Q=
+
+Name: assets/script/map/010_005.zt1
+SHA1-Digest: Vd9GMHkvxyT6Qzogk/2ZMdIdLBw=
+
+Name: res/btn_policy_nor_b.png
+SHA1-Digest: 0BVNVHFFg8QyqXcjK1ogQIOWN8g=
+
+Name: assets/japanese/data/StrEtcItemExplain.zt1
+SHA1-Digest: segreMZ8tG2ZsXhU0Sm9A0O7qzU=
+
+Name: assets/script/map/094_002.zt1
+SHA1-Digest: Q7ZMt7rDmnflagxxBeQ4sStam2s=
+
+Name: assets/script/quest/020_E.zt1
+SHA1-Digest: Z3i4l4zkZTW/xN9/+V6aGAqOhjw=
+
+Name: assets/pc/side_hand/1/003.mpl
+SHA1-Digest: yKyvQQEwPNvZCfgmKybGFN418U4=
+
+Name: assets/data/StrHelpTitle.zt1
+SHA1-Digest: DTjtgXyRbwqBVHgYuAr9JD2yf0o=
+
+Name: assets/pc/head/2/004.pzd
+SHA1-Digest: LylkIailk2d/QdixfnWJ1Smq/7g=
+
+Name: assets/data/XlsProjectile.zt1
+SHA1-Digest: LELuVCFNDIJs1MJ9gE7y82JtvP0=
+
+Name: res/drawable/reply_page_back_k.png
+SHA1-Digest: pgBNNSmK2VxnK8a+LZoDjvcsP40=
+
+Name: assets/char/022.mpl
+SHA1-Digest: 4ZBKH0y2ra+s6wXDLbNlZBHvf8o=
+
+Name: assets/sound/061.mp3
+SHA1-Digest: YZh+VrqicGYjfoIrxMKQHKJI+zU=
+
+Name: assets/char/057.pzx
+SHA1-Digest: PuLTfZgsNImAixKvEJ4/rPsPSZk=
+
+Name: assets/obj/014.pzx
+SHA1-Digest: 5iPS6qbERWN6yhdy31P+T4i4C34=
+
+Name: assets/char/048.mpl
+SHA1-Digest: wKxul0h4rriOz6iniZnsa2oPJSw=
+
+Name: assets/dummy/dum04.pzx
+SHA1-Digest: ZNipVj7y0FiFcg605HoIEq8TCig=
+
+Name: assets/projectile/006.pzx
+SHA1-Digest: nCPnn0TgGAs20pXeKtwd/4q51ec=
+
+Name: assets/dynamic/FairyStone.pzx
+SHA1-Digest: Zn0QueelRU9LnriY9/KwDgZgWjg=
+
+Name: res/pop_btn_sel_ok.png
+SHA1-Digest: 7hGKawYkdxwMvkfs7DMojcn4srg=
+
+Name: assets/char/024.pzx
+SHA1-Digest: 7TbKmnB980EdiR68CA3daRRK4Ts=
+
+Name: assets/pc/armor/2/000.pzd
+SHA1-Digest: rjc7a7T/JjxEDX86bcyFg8Me4gw=
+
+Name: assets/japanese/data/StrQuest_N.zt1
+SHA1-Digest: MboFts3ooc+w1XtDLfFjpmhwsCc=
+
+Name: assets/pc/armor/3/000.pzd
+SHA1-Digest: GHpvT0EEhnOYVaDhbUvKm8JHgjY=
+
+Name: assets/pc/head/2/001.pzd
+SHA1-Digest: 4JehzKvHwA3oPP4vwAF2VCvCy2U=
+
+Name: assets/script/quest/045_E.zt1
+SHA1-Digest: oeTj1abgabvwV2kML6lda+cb7tw=
+
+Name: assets/script/quest/087_E.zt1
+SHA1-Digest: LTAIU7DIjz0jvhbWRSkQZY/lL0Y=
+
+Name: assets/sound/011.mp3
+SHA1-Digest: Kdv/jxBdOE0+SBdzyuMFVRuNRvo=
+
+Name: assets/korean/data/XlsItem.zt1
+SHA1-Digest: IRppgwyUYUXrUkqD7KLm1fIEC2g=
+
+Name: assets/japanese/data/StrSkill.zt1
+SHA1-Digest: /U+nRZHWBftD090flnO0YH1e1sY=
+
+Name: assets/dynamic/BGEffect.pzx
+SHA1-Digest: 3CMnCb2hBZpEWTOg1NNjNPFHPSU=
+
+Name: assets/map/045.zt1
+SHA1-Digest: JF+SYSsNXOiEpF+sdd5aNgLnA9Y=
+
+Name: assets/script/map/169_001.zt1
+SHA1-Digest: fisiXeHrM4WyzemQ8X3xP62RjXE=
+
+Name: assets/obj/027.pzx
+SHA1-Digest: mX0iHL8Pw7c8dmgITRlkcVZ0Cqo=
+
+Name: assets/pc/weapon/2/005.pzd
+SHA1-Digest: gttL9CzY4oGtadstXu5hX1x8NYM=
+
+Name: assets/script/quest/105_S.zt1
+SHA1-Digest: JrRAwLiNYmIiSNj15rmeHfomP0s=
+
+Name: assets/script/com/007.zt1
+SHA1-Digest: oK9f+e85VGv6eRLwzEgXvlsKXcE=
+
+Name: res/drawable/ui_help_bg.png
+SHA1-Digest: wRWErlAh9XxMUrxsyp8Ir2iAeTo=
+
+Name: assets/pc/head/0/004.mpl
+SHA1-Digest: OoPLbjuFvpBxqWn0ilQqXvjTCI4=
+
+Name: assets/sound/065.mp3
+SHA1-Digest: f5NhgUTu/jynfjGliWdrN5VgYu8=
+
+Name: assets/japanese/data/StrMaptheme_Name.zt1
+SHA1-Digest: NPz3TQPyBBYK88hUCkr0IMfZnak=
+
+Name: assets/script/map/154_001.zt1
+SHA1-Digest: Zy/XYhgYbiyrfU/ovvculE8jxPw=
+
+Name: assets/sound/015.mp3
+SHA1-Digest: YR10g9jnGT5b1xb3wy8F0w1HJ/o=
+
+Name: assets/korean/data/XlsQUEST.zt1
+SHA1-Digest: Mv3VTVnvpRUrV3HaRh+yUuR9kWM=
+
+Name: assets/script/quest/070_S.zt1
+SHA1-Digest: TYsOK1gDc5752ZPFcqhk8uht86s=
+
+Name: assets/pc/armor/000.pzf
+SHA1-Digest: zwusYpVlsveG7rizHCFA4iXUcmg=
+
+Name: assets/map/030.mpl
+SHA1-Digest: /oMaDb0dr+vPxQWj96N3t35c4ZM=
+
+Name: assets/sound/009.mp3
+SHA1-Digest: lsJJWHNds6sopacdX7yVzaI1OgY=
+
+Name: assets/chinese/data/StrTitleItemExplain.zt1
+SHA1-Digest: HP0SmB7gLrZSxbhI0rLDVXmobfw=
+
+Name: assets/ptc/043.ptc
+SHA1-Digest: dlu5fkOV0q2XKUMtomDt8hvdXDo=
+
+Name: assets/sound/078.mp3
+SHA1-Digest: 68j6+NMLPLFGwNueQXo1eyopTuc=
+
+Name: assets/data/StrStatType.zt1
+SHA1-Digest: AW743v306nqP+jbe8YMeHSF9u/E=
+
+Name: assets/obj/009.mpl
+SHA1-Digest: ZjBiRNdn4czWYuZmXdDNjMQokGU=
+
+Name: assets/map/227.zt1
+SHA1-Digest: NOwP631wa7y6CgGnq29kwDiesP8=
+
+Name: res/drawable/ui_menu_community_click_ch.png
+SHA1-Digest: aI/pZ8Ifa5P8cQthbF5vqEbIkJI=
+
+Name: assets/chinese/data/XlsQUEST.zt1
+SHA1-Digest: sX0lVr/aj5yw/vSih3h7StfI0gg=
+
+Name: res/drawable/gshop_btn5_jp.png
+SHA1-Digest: vHKkMcYadY/4urHXpqTg+UBUuXI=
+
+Name: assets/char/119.pzx
+SHA1-Digest: MMPlRXinZGgS5JCDCIQpg7SA6f4=
+
+Name: assets/japanese/data/StrQuestDetail.zt1
+SHA1-Digest: 1kQQiCoVLyAgttaRFChrINjeOcM=
+
+Name: assets/map/007.zt1
+SHA1-Digest: s6IhulI34y5HK1qozkjVJZQAsbg=
+
+Name: assets/japanese/data/StrTitleItemExplain.zt1
+SHA1-Digest: NCVQdPY35XsLs+cTORkHdQdnBqY=
+
+Name: assets/script/map/038_002.zt1
+SHA1-Digest: qFVf0PapCFlbX8kgDnR/R9JxXXk=
+
+Name: assets/ptc/023.ptc
+SHA1-Digest: WbYH4M7m3AM/Ib9vF7VgZjOVMzY=
+
+Name: res/drawable/button_write_01.png
+SHA1-Digest: Pj9MLjSDyS4B0IybJH7ufSbrmcc=
+
+Name: assets/korean/data/StrQuest_N.zt1
+SHA1-Digest: zp2JXYnJOga9vEI+SHt+Pf1U/FU=
+
+Name: assets/map/199.zt1
+SHA1-Digest: 7aybqUe1OJwFSDa67SliuzQhViw=
+
+Name: assets/pc/head/2/001.mpl
+SHA1-Digest: CFQW2m1Q51s2HgoJm0zhjx6kzDE=
+
+Name: assets/char/011.mpl
+SHA1-Digest: Lt0nZAoA7Q87Er67Rbqagja3jZk=
+
+Name: assets/map/096.zt1
+SHA1-Digest: kbr+tZ08l52YfLNMGBH3Q/ZmFJ4=
+
+Name: assets/obj/117.pzx
+SHA1-Digest: iojOzN+rkCMRAVO4Y6rVUTiDsrg=
+
+Name: assets/map/079.zt1
+SHA1-Digest: YqQOcQuXk2ccf43Qoed9FSpzjQA=
+
+Name: assets/map/182.zt1
+SHA1-Digest: B0Cvo+LNRxU2hAfGY4hRH52/EPA=
+
+Name: assets/map/142.zt1
+SHA1-Digest: l+vQHEbURZy+ImvdH63cSdEtbMQ=
+
+Name: assets/sound/102.caf
+SHA1-Digest: ZbS0WEhBlWYjRPpMqugMHa1bI8M=
+
+Name: assets/korean/data/StrTip.zt1
+SHA1-Digest: aD9nYnezCkgL4xXw+x5j+Fizi7M=
+
+Name: res/layout/main.xml
+SHA1-Digest: 2/T/rXxSF24qRAPPpE/K1hLsEVw=
+
+Name: assets/script/call/011.zt1
+SHA1-Digest: fpWiItiNnyjr/lTy2aim3hfpMkA=
+
+Name: res/raw/gestures
+SHA1-Digest: XFJ5TPX7tFsRQHGrREnheaQFlgI=
+
+Name: assets/obj/089.pzx
+SHA1-Digest: D4S8yD49tbq26XU7FkoUGBi7R30=
+
+Name: assets/char/143.pzx
+SHA1-Digest: dwecUerHpd4fsjHCJUS71ICce+M=
+
+Name: assets/pc/armor/2/005.pzd
+SHA1-Digest: 8VPOZO1hc4/RRgLbYrcsJyqXs5g=
+
+Name: res/raw/s031.ogg
+SHA1-Digest: JKqF2GkmCIqGIvrs5Je8uLJPI3s=
+
+Name: assets/pc/weapon/003.pzf
+SHA1-Digest: b0OsW/9wjTNZ7n7pDjti3pYFkiU=
+
+Name: assets/data/XlsCollection.zt1
+SHA1-Digest: TcD1fz1WQBXPZz2rDMd/3VARm8w=
+
+Name: assets/png/icon114@2x.png
+SHA1-Digest: yDX0SFnx2jIVuEcbsSe0BnjHVLA=
+
+Name: res/raw/s058.ogg
+SHA1-Digest: nFkXcOakfP+7AteDJXej0bNFhUk=
+
+Name: assets/script/call/053.zt1
+SHA1-Digest: 078qInzRTdARr7DvKhwNRAGtcGE=
+
+Name: assets/script/quest/058_S.zt1
+SHA1-Digest: NVyRtG9k3PFauDtFhY3vIyTD0KU=
+
+Name: res/drawable/gshop_btn5.png
+SHA1-Digest: Xad4ez0+IliW+pX80ZQ4rshQzwg=
+
+Name: assets/script/quest/123_E.zt1
+SHA1-Digest: hKekAWZiCiQGKtjxWzkg8QOaDEE=
+
+Name: lib/armeabi/libgameDSO.so
+SHA1-Digest: 9gm/SCeFXh4okckH6JH98Qe3G+0=
+
+Name: assets/map/003.zt1
+SHA1-Digest: lybSQb35/+RJ3tto/cKu0PdWorM=
+
+Name: assets/map/107.zt1
+SHA1-Digest: +ObG7T7knGwrRpJiC4K5Lu7gJvw=
+
+Name: assets/dynamic/SkillEffectFairy.pzx
+SHA1-Digest: RbETtLbO3ADEStAK3QQ5mpHKTng=
+
+Name: assets/obj/096.pzx
+SHA1-Digest: 3bivlkvCPd5kH0//YhL63SBHXoM=
+
+Name: assets/pc/head/1/004.pzd
+SHA1-Digest: 7Jh1jx7pWyhsjw0QpIBpobg86CI=
+
+Name: assets/obj/035.mpl
+SHA1-Digest: Tj4XmznyMpj67e+n816Hlywpe4A=
+
+Name: res/btn_buycancel_sel.png
+SHA1-Digest: bOBcRqIK/kWO0516j/gEdx3nJIE=
+
+Name: assets/projectile/016.pzx
+SHA1-Digest: /Hm3lxk9nbE7vs16qLoOcWPq354=
+
+Name: assets/map/205.zt1
+SHA1-Digest: 4ICk2qgoenDQfgroPzRcOxeNRtU=
+
+Name: assets/pc/weapon/1/004.pzd
+SHA1-Digest: eBCvv2fab+sRLXI0s6+WuKgTaxo=
+
+Name: assets/map/113.zt1
+SHA1-Digest: wf0ZBcJuWcOLW2zwWLM1jyJezyI=
+
+Name: assets/obj/061.pzx
+SHA1-Digest: azvm5lYeU8AVFn3I6OFRnsgbuH0=
+
+Name: assets/script/quest/066_E.zt1
+SHA1-Digest: dvxzYtt/vu0qucHDpBPuxfdtNIQ=
+
+Name: res/raw/s112.ogg
+SHA1-Digest: 3TtV9GTwq+7Z3Tq1NTejNgutz2U=
+
+Name: assets/sound/044.mp3
+SHA1-Digest: t6p3IqXi1RXztOb/gMYJxmxgOmE=
+
+Name: assets/char/104.mpl
+SHA1-Digest: 0CpWOK0qGxBF0Sf0ywGGCRFf3sM=
+
+Name: assets/ptc/044.ptc
+SHA1-Digest: F7wTqg2f0HsNJS+LOaZwSyeAVHM=
+
+Name: assets/map/123.zt1
+SHA1-Digest: avg91xay+HXKXARZeiR9kao1VO8=
+
+Name: res/raw/s015.ogg
+SHA1-Digest: Y/O5OXuX8k6EJRQ1pccfm5YXZH4=
+
+Name: assets/obj/104.pzx
+SHA1-Digest: ZTkIlnTK/xjs12R+MRltd//3iqo=
+
+Name: res/raw/s029.ogg
+SHA1-Digest: zPsazCFlDMdQ49nXsfAPrSCZ2AM=
+
+Name: assets/map/150.zt1
+SHA1-Digest: VJ8UJJt78QrhCNskL7B0rOB22Js=
+
+Name: assets/script/com/024.zt1
+SHA1-Digest: uIqZTrTTVEr6Ua8nQ0+HB2SyviE=
+
+Name: res/raw/s108.ogg
+SHA1-Digest: SemS6BjR+fK0+/E924LXKttXn2w=
+
+Name: assets/pc/weapon/1/001.mpl
+SHA1-Digest: ksRvY/8UvtpEOS8Dp79jdMn1y9M=
+
+Name: assets/map/055.zt1
+SHA1-Digest: Zyztf1pDp4JDlyZdyMr0prrAbeA=
+
+Name: assets/korean/data/StrQuestItemExplain.zt1
+SHA1-Digest: 2L4MqaC7cnxT+M/p9XcYLycGJWk=
+
+Name: assets/obj/006.mpl
+SHA1-Digest: nfSnxfIzeZB0IDTPJDUuKB+SZgQ=
+
+Name: assets/script/quest/137_E.zt1
+SHA1-Digest: jCuXiOM1JcmgSVlb6QTy2srB2XQ=
+
+Name: assets/korean/data/StrHelp.zt1
+SHA1-Digest: 6UnX/nePleKZfVYx4SrnXyXHMTg=
+
+Name: assets/obj/012.pzx
+SHA1-Digest: M48I56WLQlNUfiPM4/75l1kyE7M=
+
+Name: assets/obj/106.pzx
+SHA1-Digest: 1b5vcngkgMFp5jD3pIGhdeNchWY=
+
+Name: assets/pc/armor/3/002.pzd
+SHA1-Digest: g+BHwJGb+0BhppsOefI6h780rIs=
+
+Name: assets/pc/head/0/000.pzd
+SHA1-Digest: Hm2uPJNxLCKUr1lHOG1NMxrH8B8=
+
+Name: assets/com/ComUI.pzx
+SHA1-Digest: GOnkiYNTKAWs3lTSGzZ7gl6x/7c=
+
+Name: assets/pc/side_hand/2/006.mpl
+SHA1-Digest: jFnBZnTMGkyzGVb00HaBGv0N61g=
+
+Name: assets/korean/data/XlsChar.zt1
+SHA1-Digest: 803c1SJpLt1s1yTLGFdlxc8MHd0=
+
+Name: assets/pc/armor/0/001.mpl
+SHA1-Digest: uZX4E91L1BXB6IbrHtZgdf1S0zw=
+
+Name: res/raw/s024.ogg
+SHA1-Digest: 5lj2/mJgMIniT5ayQB/K6Kkt6Qs=
+
+Name: res/btn_buy_nor_h.png
+SHA1-Digest: 5T1GjKfVA7jASiSLQOI1aH78XqY=
+
+Name: res/raw/s060.ogg
+SHA1-Digest: Zw3P7Dsf+btfFSijOt9tDSG/n0A=
+
+Name: assets/dynamic/ItemIcon0.pzx
+SHA1-Digest: sO23RVBwo4OdNlQhQ4/kPbbHMX4=
+
+Name: res/raw/s033.ogg
+SHA1-Digest: OXDnGqx49YP2xwx57DDEhGaCwt4=
+
+Name: assets/japanese/data/StrQuestItemExplain.zt1
+SHA1-Digest: vHczb7Wf1xp7CtkwoWsHD0WbESs=
+
+Name: assets/dynamic/SkillIcon1.pzx
+SHA1-Digest: h+resu3tm3X4FRyw67tqaXjp/fQ=
+
+Name: assets/script/quest/084_S.zt1
+SHA1-Digest: MJAt6Gs3RrHcrDNY2ZgdiyKpGAU=
+
+Name: res/raw/s069.ogg
+SHA1-Digest: hk+HYY0RXYa40Tv3+qoQDVuejSY=
+
+Name: assets/map/105.zt1
+SHA1-Digest: 8a6O9vyBOHEkbKM4iR1CptYxjTI=
+
+Name: assets/script/quest/101_S.zt1
+SHA1-Digest: c187BkSU90rudBZF6kmf19r/bMI=
+
+Name: assets/korean/data/StrHelpTitle.zt1
+SHA1-Digest: DTjtgXyRbwqBVHgYuAr9JD2yf0o=
+
+Name: assets/dynamic/SkillIcon3.pzx
+SHA1-Digest: Pmi3Sqbv4IEgnGo/2dkp4ZtYIhw=
+
+Name: assets/map/121.zt1
+SHA1-Digest: F1dn4zJw78eLpNRm+gcTl69A9+8=
+
+Name: res/raw/s113.ogg
+SHA1-Digest: AQFSSg9EE66qsd6ah5QWL2nnIqc=
+
+Name: assets/sound/057.mp3
+SHA1-Digest: a3q0p1lQ7LNN20/zwKEQJvYpyOM=
+
+Name: assets/script/quest/050_E.zt1
+SHA1-Digest: kykn5Z37+z45NHF2YJzmk1SkYRA=
+
+Name: res/drawable/ui_menu_continue_kr.png
+SHA1-Digest: KNJ7CTV3QTPIU4FbRxsan55j9L4=
+
+Name: assets/chinese/data/XlsItemRoutingValue.zt1
+SHA1-Digest: YKekslMY31fGH8W1moJxxP1BBH4=
+
+Name: assets/script/map/028_003.zt1
+SHA1-Digest: gY8zsASzkFXsmLBuVJQoZFccOmw=
+
+Name: res/drawable/ui_menu_help_ch.png
+SHA1-Digest: UKiWNmE0QCPaLp27KxTpwyq+I/Q=
+
+Name: xml/purchaseH_finalVersion.xml
+SHA1-Digest: RFIABp1KObPVSWMnO+YBEO+nG3k=
+
+Name: assets/char/128.pzx
+SHA1-Digest: 1LlFsR6ih2o7fXJDyKc3P5hF8Hc=
+
+Name: assets/map/077.zt1
+SHA1-Digest: ufampEAJKZ634XNn8/CFqDXHtuI=
+
+Name: res/icon_title_01.png
+SHA1-Digest: GodeMQquqkj2yT8lYFs8Ifwfr4I=
+
+Name: res/btn_policy_sel_b.png
+SHA1-Digest: ukU5J269WYVpb3/6x3FHZyJ1qiY=
+
+Name: assets/pc/side_hand/0/002.mpl
+SHA1-Digest: 4jukyyaCJjzU15R20DAg9gYlLec=
+
+Name: assets/char/060.pzx
+SHA1-Digest: jICEdg8wIS6u4KqPoXQiFJb0XLI=
+
+Name: res/raw/s039.ogg
+SHA1-Digest: 8ZltY4XOswPSk5up2o+qYZOnfdo=
+
+Name: assets/obj/080.pzx
+SHA1-Digest: hExliTeQecBeQH/5R6rgS5daC/w=
+
+Name: assets/chinese/data/XlsWorldMap.zt1
+SHA1-Digest: VSa3Z6BO5BuGfIFQTS2KOgIUYgk=
+
+Name: assets/obj/121.pzx
+SHA1-Digest: mXA3aqz25sePNdwiFb4rqD/Y2b8=
+
+Name: assets/dummy/dum06.pzx
+SHA1-Digest: dLYBoubefgvFEGk+0S/wp5cYTWQ=
+
+Name: assets/pc/armor/2/002.mpl
+SHA1-Digest: NPD1XIftw5DoWjCb6AgT5n9qShc=
+
+Name: assets/script/quest/022_E.zt1
+SHA1-Digest: qRC3oKZtazm66rWPvN91MLNvKoA=
+
+Name: assets/data/XlsMix.zt1
+SHA1-Digest: Hu/VpjczFILJEPyEXQnIXb/3pN8=
+
+Name: assets/pc/weapon/2/003.pzd
+SHA1-Digest: UIcDPcYsAszXSLujvJNyifAMNQU=
+
+Name: assets/map/234.zt1
+SHA1-Digest: Pn22WtnTYCRxfXdQPPHePvQiNgE=
+
+Name: assets/map/005.pzx
+SHA1-Digest: kWtt5nzNDvH9EcmOvevwGK6SU9s=
+
+Name: res/raw/s018.ogg
+SHA1-Digest: zPUMB4c8i6cfmntvLsm8WShuxf0=
+
+Name: assets/face/000.pzx
+SHA1-Digest: TT9rjD9U6eue/8ScprVwhR3Raz4=
+
+Name: assets/map/027.zt1
+SHA1-Digest: ojFY8fSmDUnWnjAmf4ttzdeKnn0=
+
+Name: assets/obj/056.pzx
+SHA1-Digest: dLg81ySF7fwZCMvoQ6jG9dGEAEg=
+
+Name: assets/ptc/024.ptc
+SHA1-Digest: Kfjl9RJqpqwGjfo50dQT5cZzHGw=
+
+Name: assets/pc/weapon/3/005.pzd
+SHA1-Digest: s1cUJG5MyfPU4h4S+Eu8VOSAxac=
+
+Name: assets/script/map/134_002.zt1
+SHA1-Digest: z9YRmcH6O0QbcfES/Ts+/jMFLog=
+
+Name: assets/data/XlsWorldMap.zt1
+SHA1-Digest: VSa3Z6BO5BuGfIFQTS2KOgIUYgk=
+
+Name: assets/script/quest/034_S.zt1
+SHA1-Digest: EkSpfqEZkH6ziaSWtu8JAaLBUqo=
+
+Name: assets/korean/data/XlsNPC.zt1
+SHA1-Digest: GFemfUGlIFhJpjE1lAZMKyEQAFs=
+
+Name: assets/ptc/014.ptc
+SHA1-Digest: pPxqAdB+OlO2P7PzP5j5KNvj9dY=
+
+Name: assets/script/call/100.zt1
+SHA1-Digest: reTglraywAhTIgTrY3aTJE7F8Uk=
+
+Name: assets/script/quest/088_E.zt1
+SHA1-Digest: WP0inooajvNQFTdmvSNiHS3j1/M=
+
+Name: assets/sound/056.mp3
+SHA1-Digest: vzZ1jmnDJQce7iiIxAKUg+WFsDY=
+
+Name: assets/map/013.zt1
+SHA1-Digest: DfBXLRz+/KJzkVaGPwEnmqevGuU=
+
+Name: assets/korean/data/XlsMovingObject.zt1
+SHA1-Digest: itg/0RRaCVON6zYA4RQm6x6cPJQ=
+
+Name: assets/pc/weapon/3/004.pzd
+SHA1-Digest: OJiCG+OUohJx9U8B5zTGipkpcnM=
+
+Name: assets/pc/side_hand/000.pzf
+SHA1-Digest: sHRC+K64KQTNadbND7dceDp5Y/s=
+
+Name: assets/pc/head/0/001.mpl
+SHA1-Digest: 7LV77Sxe/ZH+Z6BfFgwp9XeHT0o=
+
+Name: assets/pc/weapon/2/003.mpl
+SHA1-Digest: tcrCY2sjKyVLrYKPulEt7AGst3c=
+
+Name: assets/char/050.mpl
+SHA1-Digest: Q1Wn1muV1kIkMdB2UEdBnB+Q0pc=
+
+Name: assets/script/map/041_001.zt1
+SHA1-Digest: yykyg812wvCd2V6CWnfncq+Fltg=
+
+Name: assets/map/086.zt1
+SHA1-Digest: yfbjxopyl6BBM5ESSWiENPds/G4=
+
+Name: assets/script/map/015_001.zt1
+SHA1-Digest: ZGu07+j2CJt31clEmTdeVm4OoTo=
+
+Name: assets/char/140.pzx
+SHA1-Digest: N2ng2MyNFosj0r4nBlZGNCNKDgw=
+
+Name: assets/korean/script/output_dlg.zt1
+SHA1-Digest: t73jeelOWWLFgcukFq/CY5An1XE=
+
+Name: assets/char/033.pzx
+SHA1-Digest: VRcd3OgcKKyr5yqzc3daUlblaL0=
+
+Name: assets/script/quest/024_S.zt1
+SHA1-Digest: D4UVNleoyYYXaRUdWNFGH7vaNSg=
+
+Name: assets/map/051.zt1
+SHA1-Digest: 0nuF4A3JStbUB9obvSu9/XA/fpk=
+
+Name: assets/pc/head/0/001.pzd
+SHA1-Digest: VhkoU3uOVuU5jT3Hht/V4jM8HxQ=
+
+Name: assets/pc/weapon/0/002.mpl
+SHA1-Digest: cOa/rOkEkksgww76sFdhCGS7Wuk=
+
+Name: assets/pc/armor/0/004.mpl
+SHA1-Digest: hlOswAsFx4W2ac/oB0Rn+7OdU14=
+
+Name: res/raw/s012.ogg
+SHA1-Digest: fKFaLQqlUewnI2Lmi4xD1XQQUXg=
+
+Name: assets/obj/120.pzx
+SHA1-Digest: pwlXdXHgKGetBHGabd0YqutmC34=
+
+Name: assets/pc/armor/0/003.pzd
+SHA1-Digest: 56OpKHIbywpTp5txTKcxmhYNWeo=
+
+Name: assets/sound/018.mp3
+SHA1-Digest: rGvszt/8O5j4CuhlhF9zZCVbNms=
+
+Name: assets/chinese/data/XlsSetItem.zt1
+SHA1-Digest: 6fr4w7agSHEo+/Q5MVfsXFFmk/I=
+
+Name: assets/dynamic/ComEffect.pzx
+SHA1-Digest: dmUMwW4bhvYaHTuR5lKWQ3dXp3s=
+
+Name: assets/pc/weapon/1/006.mpl
+SHA1-Digest: sQHLyeyaqkkPVp4w/uqT1w6L614=
+
+Name: assets/script/quest/009_E.zt1
+SHA1-Digest: 8P5tt4RpFnY1qxY6yFiDYe8VBug=
+
+Name: assets/script/quest/128_E.zt1
+SHA1-Digest: lp1vVsexHyjcU5kfh/+oYYFakd4=
+
+Name: assets/script/quest/120_S.zt1
+SHA1-Digest: Az28OmbjQFIAZ+PlhSyTRYwUf0I=
+
+Name: assets/map/070.zt1
+SHA1-Digest: fc4iPKfPyMPVa2Yikfq1DrdDEQY=
+
+Name: assets/pc/head/3/002.pzd
+SHA1-Digest: Z6me1L3oJf57TYk23WQRnu3kr4E=
+
+Name: assets/obj/087.pzx
+SHA1-Digest: 3snlkGdDUF5u+SwtYp1tw5jjiBY=
+
+Name: assets/map/153.zt1
+SHA1-Digest: XlNAbKVlDvUbQ5q5c9kMay4Nd1E=
+
+Name: res/drawable/reply_page_back_j.png
+SHA1-Digest: tFHpNkWevVInLflTi9p03xzgRKs=
+
+Name: assets/html/ui_custom_skill.png
+SHA1-Digest: si7TMoedUNzlUcBuyLAHX+8ZNLo=
+
+Name: assets/sound/100.caf
+SHA1-Digest: jGEkQ3hiC7HswdpoYf4rz1lXQWY=
+
+Name: assets/obj/032.mpl
+SHA1-Digest: rGVuc8ClYkQGjR6p5UHy6t7LqPc=
+
+Name: assets/script/quest/005_E.zt1
+SHA1-Digest: Gu5JQ0X/+cJrBUeIW6SS3PgL++c=
+
+Name: assets/char/004.mpl
+SHA1-Digest: posO+eu3Qr6KpkBoFFHKxnvN8A4=
+
+Name: assets/map/228.zt1
+SHA1-Digest: aaHXJ745/Y4LJ9kZL9mHDLNPvfk=
+
+Name: assets/obj/076.pzx
+SHA1-Digest: ifrhOnc8QkrJwnhiuP/ExjVE5zI=
+
+Name: assets/script/quest/073_S.zt1
+SHA1-Digest: SNQcysudrXY8jgRGHpQK7Cu2Sj8=
+
+Name: assets/data/StrStatusType.zt1
+SHA1-Digest: rawh1PCgs2WDsDD/d+ytFtnJ1hc=
+
+Name: assets/pc/side_hand/2/002.pzd
+SHA1-Digest: 49sYfeGLod13g0desZKK4sqWeSA=
+
+Name: assets/script/quest/031_E.zt1
+SHA1-Digest: eyQEZbdMiqqYQQz0c/0W/lMEy+M=
+
+Name: assets/chinese/data/StrPopup.zt1
+SHA1-Digest: Io0K6GGHGGH+3m4HdlY2rgAdFrY=
+
+Name: assets/map/157.zt1
+SHA1-Digest: Ye+LmG6/y8FRyJ7Z60mGtpCEdgA=
+
+Name: assets/char/007.pzx
+SHA1-Digest: pZeEMIE2jZWgG+QICESJE9Kkw/k=
+
+Name: assets/pc/side_hand/1/004.pzd
+SHA1-Digest: pjM7rsGMQbLLTT16a53d5cW65dw=
+
+Name: assets/map/041.zt1
+SHA1-Digest: HywzEomxrPK0VD8Nkpfh9VSgUro=
+
+Name: assets/obj/034.pzx
+SHA1-Digest: fwEXmqw6N8cmirQC20y8qAOA/QA=
+
+Name: assets/char/134.pzx
+SHA1-Digest: xkMHWNDcMsMUa+k8tdL1pQcAY5s=
+
+Name: assets/script/quest/059_E.zt1
+SHA1-Digest: emPAeQ0fb0mdQQuy/dLmq9KWS7g=
+
+Name: assets/obj/100.pzx
+SHA1-Digest: XkXoyaWHlZiy6v2Om7TNpH2i+HE=
+
+Name: assets/korean/data/StrStatusType.zt1
+SHA1-Digest: F3uENlC9OXgEU58VaqZ4VjZSa9U=
+
+Name: assets/script/map/006_003.zt1
+SHA1-Digest: pmgfz/y7Cyn5W/BxprNbkfuB7GA=
+
+Name: res/keypad_back.png
+SHA1-Digest: Tf4n/K3LV9ihRLsfFKIhizhoZlw=
+
+Name: res/drawable/ui_menu_back1.png
+SHA1-Digest: IuZTlGwvn408poXT3LlQWSeBjiU=
+
+Name: res/drawable/reply_page_back_e.png
+SHA1-Digest: wXIJ108fFfWuLFFBzk6j/eqD8c4=
+
+Name: res/layout/tapjoy_featured_app_web_view.xml
+SHA1-Digest: 6SyUd+yLjL++2uWkYwLFCZ1Y32g=
+
+Name: assets/char/144.pzx
+SHA1-Digest: iNJAUCwSU1znAiECV39Zqc6aWZc=
+
+Name: xml/commonPopupAutoPurchaseFormH.xml
+SHA1-Digest: V96jpx1TaTqmv4k94aOfN7DzPMc=
+
+Name: assets/map/054.zt1
+SHA1-Digest: IsPGYvIgmrczd6AQCX7/7VpzxkI=
+
+Name: assets/chinese/data/StrTalk1.zt1
+SHA1-Digest: pWsi4LAoxG6Y+m8bmntUjgxv18Y=
+
+Name: assets/script/quest/037_E.zt1
+SHA1-Digest: lWE72j4/OG7qT8od7gKkRwt5nEs=
+
+Name: res/image.png
+SHA1-Digest: nv2dhM3PwVE5pQFLjEXuHsAt6wA=
+
+Name: assets/obj/040.pzx
+SHA1-Digest: xvdOb69AvIAZ7pStn3KCMEniAoQ=
+
+Name: assets/map/233.zt1
+SHA1-Digest: C1+lWN3VleEvuHeMbs8kZISKV3M=
+
+Name: assets/korean/data/StrEtcItemExplain.zt1
+SHA1-Digest: hIUIAFFw1bVRwooGpgMR6ApPuCM=
+
+Name: assets/sound/001.mp3
+SHA1-Digest: IYyg4GywOYYtQMdf8Pr916UXv7g=
+
+Name: assets/char/106.pzx
+SHA1-Digest: fay74O/68BbECGCNA4N56QfTlSs=
+
+Name: res/drawable/button_write_01_global.png
+SHA1-Digest: W+4ZgQIPz7cPd7KIocO8Yui+voI=
+
+Name: res/drawable/certi_button.xml
+SHA1-Digest: kCpwCUxUDiSpaXLw8JZmljaXv7A=
+
+Name: assets/sound/039.mp3
+SHA1-Digest: CTLiKRpsLQrwvWmdFEEVihRQEsk=
+
+Name: assets/japanese/data/XlsTrashItem.zt1
+SHA1-Digest: 7L9hHqF+qX4wetXbK3Dx7Pnsbr8=
+
+Name: assets/korean/data/StrItemType.zt1
+SHA1-Digest: hqr/HheOfdEtEZxGYHLkcvAb1zM=
+
+Name: assets/map/134.zt1
+SHA1-Digest: 2C6d6mYxFABjvC/2vXkbWTJ7fP8=
+
+Name: assets/char/001.pzx
+SHA1-Digest: ZuhCw2bSYRZpkhnruZwjT5DEioA=
+
+Name: assets/char/006.mpl
+SHA1-Digest: qmOnK9ERg/TOepiYU13XrbGM1fM=
+
+Name: assets/pc/armor/3/003.mpl
+SHA1-Digest: TA9xhD9UEYlgN6ZVOfYrtKwJks0=
+
+Name: assets/com/Keypad.pzx
+SHA1-Digest: X3Pn0zgZ4SNGVuFY4lKNDU3ZuUk=
+
+Name: assets/japanese/data/XlsMix.zt1
+SHA1-Digest: Xmuu3v/vB0NwmHlrSTZEFoUv4uU=
+
+Name: assets/char/111.mpl
+SHA1-Digest: P+O2oPCq6o/s3UwYAKMfKIHU65c=
+
+Name: assets/char/131.pzx
+SHA1-Digest: lJXADu5dyNo3SHE4ckNuj+kXefQ=
+
+Name: assets/html/help_kor.html
+SHA1-Digest: X0CAT3cMJ0WjeGUEDWdKqa65wOc=
+
+Name: assets/map/094.zt1
+SHA1-Digest: 4m+Ufw0ChgXS4qU2L/IRVu8SViA=
+
+Name: res/raw/s103.ogg
+SHA1-Digest: K3RTDR2egznHg8gK6YBK1cwmdJ0=
+
+Name: assets/obj/069.pzx
+SHA1-Digest: zTyQhJXUXgcA/wa5+QPfc48+YQE=
+
+Name: assets/ptc/004.ptc
+SHA1-Digest: nXVFq11gFW3UezymENSyIvON+3M=
+
+Name: assets/script/quest/107_E.zt1
+SHA1-Digest: /S2KII9bK38q+A4dh6oJaGKlEPU=
+
+Name: assets/map/088.zt1
+SHA1-Digest: F+Atl8/68K2fWMEVdsrxnrNbwjQ=
+
+Name: assets/dynamic/ItemIconComm.pzx
+SHA1-Digest: eRrNgIIaQh1rKTTiYFFf/QTJUoY=
+
+Name: assets/pc/head/2/000.pzd
+SHA1-Digest: whdXiaZfPIXUs6vMbpRh2MiHXqE=
+
+Name: assets/ptc/034.ptc
+SHA1-Digest: 609hJPeUOzFcMYg48C2Jab6g0pM=
+
+Name: assets/japanese/data/StrSkillType.zt1
+SHA1-Digest: 9d3HeNDEtbt+PLPxqqi8k1ZG7us=
+
+Name: res/drawable/ui_menu_back0.png
+SHA1-Digest: L1y45woehVOLFfmYq+EMPsK5Ing=
+
+Name: assets/pc/head/0/003.pzd
+SHA1-Digest: K04zfExuU7DyUHsIselj6l3vm7g=
+
+Name: assets/char/115.pzx
+SHA1-Digest: oSgl+usbG1kJPhaZKmxgxGbFtTM=
+
+Name: assets/pc/armor/0/000.pzd
+SHA1-Digest: NHG8aVbaa9RjfVLZm2+Z4/Ua2vU=
+
+Name: assets/map/056.zt1
+SHA1-Digest: 6bN+HKGpZf88POSgBORfircBAAs=
+
+Name: assets/pc/weapon/0/006.pzd
+SHA1-Digest: bs1ya6WXLWJBb/wMiffOZZEr//o=
+
+Name: classes.dex
+SHA1-Digest: R+D2d0cGS9c3sru0syTq0fGv64U=
+
+Name: assets/map/216.zt1
+SHA1-Digest: Vzu0MNecDWwZRTMCRkwUHE0KozQ=
+
+Name: assets/obj/090.pzx
+SHA1-Digest: l78flFbrH3XV2nLYq/xOrBb18iw=
+
+Name: assets/map/035.zt1
+SHA1-Digest: V/7e3m4qa7QkWqoPyT9DHt+rJ90=
+
+Name: assets/data/XlsParticle.zt1
+SHA1-Digest: +jcafN4axPTA9/jZgWKVH86JgaQ=
+
+Name: assets/script/quest/114_E.zt1
+SHA1-Digest: lGqylR9SA7ogf7FlQcwznZ+XcaY=
+
+Name: assets/char/126.mpl
+SHA1-Digest: p6rkwwPZ0i19M40gM5Jict+DnW4=
+
+Name: assets/dynamic/ItemIcon3.pzx
+SHA1-Digest: DzES+XqeDiqMu6tlfJKnqohf0Lw=
+
+Name: assets/script/quest/028_S.zt1
+SHA1-Digest: gOnx0qAz2ZkzZwZDHY3n4bbX7Kw=
+
+Name: assets/char/014.mpl
+SHA1-Digest: rCdkn3HBgaQWdmP6VSGcqWbMxAU=
+
+Name: res/raw/s008.ogg
+SHA1-Digest: F7xZx3gwuCImYBajHGpPs16AfqY=
+
+Name: assets/script/quest/097_E.zt1
+SHA1-Digest: sD8BrmoJBjjdJ0xNSTX3l4C9BdQ=
+
+Name: assets/ptc/000.ptc
+SHA1-Digest: tinwk/0LMsk/tbVPNu5pNRsPHe8=
+
+Name: assets/map/215.zt1
+SHA1-Digest: hF8rgyKi56a/Gnde+zRaRb7N2n4=
+
+Name: assets/script/quest/068_E.zt1
+SHA1-Digest: eYgw+MDRC2zOiKk4kzeiQLuQuhY=
+
+Name: assets/script/com/008.zt1
+SHA1-Digest: wXxX2D1Ub8El6EkbyHz8XdyTrzk=
+
+Name: assets/map/050.pzx
+SHA1-Digest: 7pikI0LOEOLs3ym91S1X2RfCbjM=
+
+Name: res/drawable/ui_title_logo5.png
+SHA1-Digest: Z5hSbYvrQz/UxZuTJn8xiQI9TNA=
+
+Name: assets/sound/014.mp3
+SHA1-Digest: OwNx8Mdnr4f5jnmBSJokqmgVR8w=
+
+Name: res/popup_bg.9.png
+SHA1-Digest: FSFTWI3mtj5XanSl591huichB+c=
+
+Name: assets/obj/094.mpl
+SHA1-Digest: 0X4qPvb5FM3mbo0viJ2tDmAgB1A=
+
+Name: res/raw/s070.ogg
+SHA1-Digest: 4KTfV5rPQ2gAevyVupq8ni13hbI=
+
+Name: assets/char/030.mpl
+SHA1-Digest: 3bjQoEZv3evoK22uGMUG3GWULa4=
+
+Name: assets/obj/070.pzx
+SHA1-Digest: 4oHiluEqqFeaQOg2v5Lpnusg03g=
+
+Name: assets/map/030.zt1
+SHA1-Digest: Xv/6fKWq/ZDg0JAtTxyLJeoEh2E=
+
+Name: res/keypad_bg.9.png
+SHA1-Digest: Tt3HLr8pYbVjMKODHDXA4y4Vcks=
+
+Name: assets/font/synGulimAsc8_16B.ft2
+SHA1-Digest: oF8ZdWnpO3+IFHnFPgppNlVnjQY=
+
+Name: assets/script/quest/098_S.zt1
+SHA1-Digest: qI5QR9OOYXlIdo6qTOu56Ir/iqU=
+
+Name: assets/sound/103.caf
+SHA1-Digest: Qr2YqcYfRNoKQkXU/91SapYCKbc=
+
+Name: assets/pc/head/1/002.mpl
+SHA1-Digest: Un7TXQMaUPVUTOZhns1avwXYwg8=
+
+Name: res/raw/s045.ogg
+SHA1-Digest: wLegwIrbG0pmFbvvSU/lIAegJpc=
+
+Name: assets/data/StrCODE.zt1
+SHA1-Digest: nUSfQITkcqiGt+eVngYuA6clpTk=
+
+Name: assets/sound/069.mp3
+SHA1-Digest: M4ZdXf3dsxTrg9oeFRRybZJNmWU=
+
+Name: assets/script/quest/050_S.zt1
+SHA1-Digest: Fhe6211CzzgVtnhfulOmrCX4A2M=
+
+Name: assets/char/043.pzx
+SHA1-Digest: cTNyszUklyNCSvNqsGHKyvZOPo4=
+
+Name: res/raw/s001.ogg
+SHA1-Digest: iWEa4OTtVg69TBjYupeEmzghdyo=
+
+Name: assets/pc/side_hand/1/001.pzd
+SHA1-Digest: 2MJ7WqjXRRh9rRtMTVWAiDRbS5w=
+
+Name: assets/map/171.zt1
+SHA1-Digest: 3GmINolUArxGHptipfzTfUQ2vdI=
+
+Name: assets/ptc/029.ptc
+SHA1-Digest: IWQAK3lSi3IDFcF89LoBfaOD5Og=
+
+Name: assets/dynamic/SkillIcon0.pzx
+SHA1-Digest: RlNzBKfUpMkpCiuS6Gbh8A3HQPw=
+
+Name: assets/obj/045.mpl
+SHA1-Digest: bsvr9EZOgzPP6P83vDMJYsqbgJU=
+
+Name: assets/pc/head/1/005.mpl
+SHA1-Digest: GbNMr/UftWhp6zZU3sYjE4DRS8M=
+
+Name: assets/map/223.zt1
+SHA1-Digest: sPdyJyFp1yt9iYAiPi0ZRhhAdxk=
+
+Name: assets/pc/side_hand/0/003.mpl
+SHA1-Digest: uTDO14Tqe5KinX48yfJvoYTT4xo=
+
+Name: assets/script/com/000.zt1
+SHA1-Digest: B3GJLgwV08hoxPWXpU81xmT07fo=
+
+Name: res/drawable/ui_menu_options_kr.png
+SHA1-Digest: GZU9LvfiV/+YlDdhcmuEi+GIY4I=
+
+Name: assets/char/020.mpl
+SHA1-Digest: mwM3Blqg7lM3H2VsAqU/PtIhkrc=
+
+Name: res/raw/s057.ogg
+SHA1-Digest: nQC37C/TjvHvWPXIlS94QZ81yw8=
+
+Name: assets/char/036.pzx
+SHA1-Digest: nk/MSjBw/Z32ocNyIkvTOZo0e5o=
+
+Name: res/xml/task_check.xml
+SHA1-Digest: pk3txOiSQouzErk/pffMuGHw3Co=
+
+Name: assets/korean/data/StrStatType.zt1
+SHA1-Digest: PwQWmZpN9Oo4dSV0RS7Op/g3CkA=
+
+Name: assets/char/049.pzx
+SHA1-Digest: MsGYbsVe+yJExYht0zMBJIDdYGs=
+
+Name: assets/map/209.zt1
+SHA1-Digest: Ko2FsEnWTSf0pxrRIvcOREOUDDs=
+
+Name: assets/ptc/055.ptc
+SHA1-Digest: Cf2wLvLwZ2dgPlNSFoGWBk6hy6U=
+
+Name: res/drawable/ui_menu_help_jp.png
+SHA1-Digest: KcASXlGZzAaUbPe/LbJOrGCl8YM=
+
+Name: assets/char/054.pzx
+SHA1-Digest: dQHj70KX7NBC6mZK1uV4Vg5K380=
+
+Name: assets/dynamic/SkillEffectBottom.pzx
+SHA1-Digest: xVRi5FRT2lOIQapnJnVHjwCsg3Q=
+
+Name: assets/font/eunjicute_bold_6_12_2.ft2
+SHA1-Digest: z5b4KcwUwutAuw7qWVKVWgTHn10=
+
+Name: res/textbox_01_6.png
+SHA1-Digest: s6Qe5uLg0MX+Hqqs67q1w2eZoS8=
+
+Name: assets/map/160.zt1
+SHA1-Digest: t9BOx7IJrlJiDMqGz3bT05fX59Q=
+
+Name: assets/script/quest/080_S.zt1
+SHA1-Digest: /rwHux6yneEGwE5OhKHcwCm1nBE=
+
+Name: assets/map/062.zt1
+SHA1-Digest: 4TJoCipXr+9si+fHDXhvNeL5r3s=
+
+Name: assets/korean/data/StrSkill.zt1
+SHA1-Digest: MkdWXjQxkejVf3sUbYPljl8WvLo=
+
+Name: assets/map/099.zt1
+SHA1-Digest: 01ch3A3tM8yjrLSLsf6djqLqCQM=
+
+Name: assets/korean/data/StrQuest_C.zt1
+SHA1-Digest: dPUbLs+Lp54ZxKG1q6Ng1nCxIMI=
+
+Name: assets/script/quest/028_E.zt1
+SHA1-Digest: e4c8OpEe2DNd7h4yXNFDzmNtUIc=
+
+Name: assets/japanese/data/StrQuest_M.zt1
+SHA1-Digest: pK826WfyTIizCZdOi0A5P1d095U=
+
+Name: assets/char/028.mpl
+SHA1-Digest: fvBU9DgeBbNx4/er3/GSs5LCqVo=
+
+Name: assets/ptc/022.ptc
+SHA1-Digest: dep5BKckBjR3T76P7KI/mivHCmE=
+
+Name: assets/pc/side_hand/002.pzf
+SHA1-Digest: yA2QzvnZirPZZizYz2n2t1LR1xY=
+
+Name: assets/script/call/052.zt1
+SHA1-Digest: Mze2i26DaOSBlyJI67NL7fjbRsU=
+
+Name: assets/pc/side_hand/2/001.pzd
+SHA1-Digest: kMho6Kt/46ZNpZprWpRvNurjDw4=
+
+Name: assets/japanese/data/StrTalk2.zt1
+SHA1-Digest: M/nZ/fYUvJh2Z8DvZ52ZKt5eQmI=
+
+Name: assets/map/203.zt1
+SHA1-Digest: Ao9x5XZxTrpzZ6mnXK76SmBLrIg=
+
+Name: assets/sound/077.mp3
+SHA1-Digest: ul+QXJKdPLDUYqvEjk8p0Q7tCr8=
+
+Name: assets/com/Shadow.pzx
+SHA1-Digest: HXLPF4mhfXUO6lrGaOdiMMG+Uds=
+
+Name: assets/pc/weapon/1/003.pzd
+SHA1-Digest: xdUeXpsAxexFRdQ0pm6biGjbZBI=
+
+Name: assets/char/105.mpl
+SHA1-Digest: VQXE0RldVIJnevBY+EGzyIjX6pQ=
+
+Name: assets/obj/015.pzx
+SHA1-Digest: v4feNgH41b4fPRhecjnxOLsccvE=
+
+Name: assets/script/quest/067_E.zt1
+SHA1-Digest: vkl5CmrX6Y7pWZLzEd5qtUz22kI=
+
+Name: assets/script/quest/127_S.zt1
+SHA1-Digest: fk+oJL5v7GZ8Ed0VuQgCzJKqKyg=
+
+Name: assets/data/XlsItem.zt1
+SHA1-Digest: k6dtcXvn/+qJD0/rOX7yzG9f9+w=
+
+Name: assets/face/004.pzx
+SHA1-Digest: Byp8Tlv4+S26tL05VQ4X/QT7lWU=
+
+Name: assets/script/quest/019_S.zt1
+SHA1-Digest: fa52JKF3pI4JXrDJJC0mMWcaqUQ=
+
+Name: assets/pc/armor/1/005.mpl
+SHA1-Digest: 8xcKAaqedlideFcj7MgDuP0i0iY=
+
+Name: assets/pc/head/3/004.mpl
+SHA1-Digest: JD8BwAiNdPWFb0n1yWtT1S8JLGk=
+
+Name: assets/map/237.zt1
+SHA1-Digest: laQgD9TozjL8AYlYboVHN8LIBzY=
+
+Name: assets/data/XlsNPC.zt1
+SHA1-Digest: VX2lzFVxWKjhH0BiTxt/A1KAFho=
+
+Name: assets/script/quest/006_E.zt1
+SHA1-Digest: lc8sQvwR5MLF/8FNRARhrxlp5UA=
+
+Name: res/info_table_02.png
+SHA1-Digest: vGPMmaASU/s3erG7gWyB7THCXG8=
+
+Name: res/btn_more_01_sel.png
+SHA1-Digest: OzydUBrNPKoNrMIQLAbCqob7HpY=
+
+Name: assets/pc/armor/2/005.mpl
+SHA1-Digest: 8Db99nKXiWhMdVqve8Xor5Gi4ps=
+
+Name: assets/char/102.pzx
+SHA1-Digest: XECbrQ9EMTG1qL1qrbi6YAYVYbc=
+
+Name: assets/XlsBalance.zt1
+SHA1-Digest: HUHqbYDsqkCcEkS96LlKU+EOrrg=
+
+Name: assets/data/StrQuestComplete.zt1
+SHA1-Digest: k3es6GC53j44eqYYF43s7Obmf9U=
+
+Name: assets/map/245.zt1
+SHA1-Digest: LpaQm78eCQ+NdrI7ETEtVa7KflI=
+
+Name: assets/script/quest/079_E.zt1
+SHA1-Digest: F9IbgkNJwLhH361Wa1r7ejsZnO8=
+
+Name: assets/char/127.pzx
+SHA1-Digest: NBvO5oAczZ80rpMkfCRVUVjhVnU=
+
+Name: assets/char/112.pzx
+SHA1-Digest: APxE+WjHyrLB0uDSjpJQaZaC3jk=
+
+Name: res/textbox_01_5.png
+SHA1-Digest: Cg3x3/kmct8LFUAv0r5EUROV5uY=
+
+Name: assets/script/quest/132_S.zt1
+SHA1-Digest: J8BEjclEL2KNHa8lblkWUybB+PI=
+
+Name: assets/pc/side_hand/2/007.pzd
+SHA1-Digest: buAv03HRiIMBrVXkRZfqtmCyzEk=
+
+Name: res/layout/drmview.xml
+SHA1-Digest: OwjdjYyg8xQ/AdRj1e3oYcxmnZE=
+
+Name: assets/script/quest/122_S.zt1
+SHA1-Digest: Vq39YTKj6hO9LbLoR6MQCmj6Fao=
+
+Name: assets/map/185.zt1
+SHA1-Digest: C0AuvNSucLOgjMWsizQIcHmz+Y8=
+
+Name: assets/script/quest/007_E.zt1
+SHA1-Digest: HfKFsYGIkqvxaKaizOgYkv+P1U4=
+
+Name: assets/script/quest/010_E.zt1
+SHA1-Digest: Ou3aaLHWwV96SbRChvaINLvJLfo=
+
+Name: res/textbox_01_1.png
+SHA1-Digest: H6QCIEekntp+x+fzEcBT0/uYASM=
+
+Name: assets/obj/097.pzx
+SHA1-Digest: QeoPfo77I45cAL7GscI0HtfsXD8=
+
+Name: assets/char/108.pzx
+SHA1-Digest: HkV0YvbQm7Bme5OKBoW4lNfw/MM=
+
+Name: assets/dynamic/ItemIconETC.pzx
+SHA1-Digest: kRmwmjpzvVQxwAk9wAQtezoS3qU=
+
+Name: res/btn_check_ok_sel.png
+SHA1-Digest: 45EaVwpiuANzmnVZQXNn9343+zw=
+
+Name: res/raw/s100.ogg
+SHA1-Digest: 0YMtO8PF2NlybWpyWvf46gYkWRE=
+
+Name: assets/script/call/107.zt1
+SHA1-Digest: wpw1gdJt/9e6Fuft2dGMZk6q+ws=
+
+Name: res/drawable/gshop_bg_ch.png
+SHA1-Digest: g7ftc17Su3JdkFHkRZHGhKOHYh8=
+
+Name: xml_kt_lg/purchaseH_finalVersion.xml
+SHA1-Digest: H+eiBbaUBZXH37jRfxtbIlZVPLA=
+
+Name: assets/dummy/dum03.pzx
+SHA1-Digest: ZNipVj7y0FiFcg605HoIEq8TCig=
+
+Name: res/raw/s044.ogg
+SHA1-Digest: x7+wtrGFI8izRNClaDlmmZjtQvo=
+
+Name: res/bottom_bg.png
+SHA1-Digest: pd7BoL9+wo/y4eKnaW/EMX+QznY=
+
+Name: assets/script/map/018_002.zt1
+SHA1-Digest: eHaC1v37vqx8TeZ6OlkLkgcgrN0=
+
+Name: assets/script/quest/124_S.zt1
+SHA1-Digest: ws4+nTvp3QgJR+L98vlU0t24F1E=
+
+Name: assets/data/StrSkill.zt1
+SHA1-Digest: Ktj1Mjh/aGaUPCF12sNOjJKKh1s=
+
+Name: assets/obj/116.pzx
+SHA1-Digest: BI3kRCjs6RDzQ/NzSGzzjjDt0bs=
+
+Name: assets/projectile/010.pzx
+SHA1-Digest: KIe+gYQ2BP4duqRchFA5YOG95Ms=
+
+Name: assets/script/quest/033_E.zt1
+SHA1-Digest: Npfb0YKV887T8Tvb1H54RxWPf7Q=
+
+Name: assets/map/048.zt1
+SHA1-Digest: avjAal8x0wJ4ZlYEEi3NReeloco=
+
+Name: assets/char/012.mpl
+SHA1-Digest: uTzJnspUW2b03VOr6HPnBl31yPk=
+
+Name: res/drawable/ui_menu_newgame_jp.png
+SHA1-Digest: 7wXJEZSMzEhAn6oUHTtgj+NN6Qc=
+
+Name: assets/obj/049.pzx
+SHA1-Digest: UrddzeoicdDAaEDsI1YMUvWL3CQ=
+
+Name: assets/dynamic/ItemIconETC.mpl
+SHA1-Digest: Il8PKgTtNsmZao0YSlhqvKJJg1E=
+
+Name: assets/pc/side_hand/0/004.pzd
+SHA1-Digest: OZsmgGV6M4J/Keyls4F4yvO+QKg=
+
+Name: assets/ptc/013.ptc
+SHA1-Digest: rXgFm7OeRKqvfBx+fk7KvhGFBNQ=
+
+Name: assets/sound/058.mp3
+SHA1-Digest: RHo9ZTozIxxlokftZn6FPtK/Rrc=
+
+Name: assets/pc/head/0/004.pzd
+SHA1-Digest: KwYLaE5QQk5VdhXdxrZXzG1roZE=
+
+Name: assets/map/030.pzx
+SHA1-Digest: YaoIOjfhCH7NwAw6Qfw/13DJabk=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: qu+6i5ubA+ifRz1PYRTddVPofE4=
+
+Name: assets/script/quest/052_S.zt1
+SHA1-Digest: HFHHbSjPSkYUkYTDqdSqeotnFZg=
+
+Name: assets/map/017.zt1
+SHA1-Digest: hMB/ECLYwI9o3CnZ6M5hQycFNJs=
+
+Name: assets/obj/009.pzx
+SHA1-Digest: 6pCP5SOiUudvBkL0oX7ggaV1+WA=
+
+Name: assets/script/quest/013_E.zt1
+SHA1-Digest: nqxCsIjdWZfsHuU3kyUl8QF56wo=
+
+Name: assets/map/238.zt1
+SHA1-Digest: cRlSFT7KFPBuihoTqSsP2Qg3SkY=
+
+Name: assets/obj/022.mpl
+SHA1-Digest: QiI5pW1s/R2CzXvc/u6iWQ1hMs4=
+
+Name: assets/map/224.zt1
+SHA1-Digest: BF9NBHsGpAwPwD8D/KWe9fbT01Q=
+
+Name: assets/script/quest/032_S.zt1
+SHA1-Digest: 5rizwn9D/31A4gEV+rDBTq6smgo=
+
+Name: assets/ptc/035.ptc
+SHA1-Digest: K/ingDxL3hpFpl4QQZe9DUBnS54=
+
+Name: assets/script/quest/057_S.zt1
+SHA1-Digest: WVcbx/6m4eZRbFCfhKr/tzXewow=
+
+Name: assets/map/028.zt1
+SHA1-Digest: CLTd4ACWvAThljUzSBsSdz0ZcIo=
+
+Name: assets/pc/side_hand/1/002.mpl
+SHA1-Digest: DYqurNmAAvnWewjWQ3ze3RcfEm0=
+
+Name: assets/char/024.mpl
+SHA1-Digest: rrFJwwvSWLIsChMwgKGfqOZj5I8=
+
+Name: assets/script/quest/074_S.zt1
+SHA1-Digest: sfh9rdlHW5nKhOSNwQIHUV1poSE=
+
+Name: assets/japanese/data/StrQuest_Y.zt1
+SHA1-Digest: S4KhWPDdzG4/CHQ34obT0IDWJ0s=
+
+Name: res/btn_cancel_sel_h.png
+SHA1-Digest: UhVsk9eJH9UfidsLx+5by7GwYww=
+
+Name: assets/char/130.pzx
+SHA1-Digest: CpPvqV/6PqPM0Ux01HDaC7a/jCo=
+
+Name: assets/chinese/data/StrHelpTitle.zt1
+SHA1-Digest: DTjtgXyRbwqBVHgYuAr9JD2yf0o=
+
+Name: assets/japanese/data/XlsSetItem.zt1
+SHA1-Digest: 9WISedmTFTyNpQZ89qQWDhd7TY8=
+
+Name: assets/char/044.mpl
+SHA1-Digest: quN/3X76G4G9m9zNJuGJiAVDyfw=
+
+Name: assets/script/map/019_003.zt1
+SHA1-Digest: H7uuCukrxX/WCthHxuw08s7UDIc=
+
+Name: assets/pc/weapon/1/007.mpl
+SHA1-Digest: XvWICyxZBaZpHk56Eha4hXhHzYg=
+
+Name: assets/script/map/093_001.zt1
+SHA1-Digest: oytqkgdkQCLyZxsbLz4mpTN5pUA=
+
+Name: assets/script/call/111.zt1
+SHA1-Digest: m2+kTxNQrnfvtwGZE7PfLSA9Vdo=
+
+Name: assets/script/quest/039_E.zt1
+SHA1-Digest: k6OndMAD4hAv7ISQ1zIYqsiA8Fc=
+
+Name: res/drawable/loading.png
+SHA1-Digest: ZSKBj3/WJDFJ8eSPdpkb/Rs2qNw=
+
+Name: assets/sound/113.caf
+SHA1-Digest: CAiaSDj1cdMjKZSrUQ9vtOpY5B0=
+
+Name: assets/menu/TeamLogo.pzx
+SHA1-Digest: RYO7ixsk26ishm5Kf2/6+2gIGA8=
+
+Name: assets/ptc/015.ptc
+SHA1-Digest: Yi/aMMOaMDV79WK6cmijwMDaVew=
+
+Name: assets/script/quest/090_E.zt1
+SHA1-Digest: 3yWtNOouW00bUOUyAiuFVcKW3L0=
+
+Name: assets/japanese/data/XlsCollection.zt1
+SHA1-Digest: TcD1fz1WQBXPZz2rDMd/3VARm8w=
+
+Name: assets/pc/armor/1/002.mpl
+SHA1-Digest: ibs/P2KgmhMJjAjUrkfoNktfC8M=
+
+Name: res/drawable/ui_menu_back.png
+SHA1-Digest: ZVrmBCP4CQBnlk+Zp/EImgeL+H8=
+
+Name: assets/dummy/dum02.pzx
+SHA1-Digest: ZNipVj7y0FiFcg605HoIEq8TCig=
+
+Name: assets/obj/057.pzx
+SHA1-Digest: qymlzo4353bY15va0NUiD8gc3Mo=
+
+Name: assets/map/179.zt1
+SHA1-Digest: yxbSfqD+AvwE9SEKv6MukezSUs4=
+
+Name: assets/obj/014.mpl
+SHA1-Digest: 1wAISDY9TtwYp3FIUre9Lwr+PPE=
+
+Name: res/drawable/gshop_btn4_jp.png
+SHA1-Digest: fL1DxoWuqSgMztDFWRuVbMi9dBQ=
+
+Name: xml/commonPopupYesNo.xml
+SHA1-Digest: DDYn2Uo20Mn3OnWehlEeJ7ZM4f8=
+
+Name: assets/script/call/096.zt1
+SHA1-Digest: k/3tnoIQUkA/+jUiBnmUDrhJhs0=
+
+Name: assets/pc/head/003.pzf
+SHA1-Digest: nRJkX0HYqseajbr5UBoZMXUJ9oY=
+
+Name: assets/script/quest/091_S.zt1
+SHA1-Digest: I5Ze7nKDmf6ZQJKxBDboCUxManc=
+
+Name: res/bottom_shadow_01.png
+SHA1-Digest: 0mM7GNJ0U8aopNr4NoDUoymlHaY=
+
+Name: assets/char/037.pzx
+SHA1-Digest: Q+5QAUdy75DD1VmKOW+VXI5rMXY=
+
+Name: xml_kt_lg/commonPopup.xml
+SHA1-Digest: RkyTUrAmO6mYOa9cUzqMowohHLg=
+
+Name: assets/char/005.pzx
+SHA1-Digest: XScoqMLQEr9NWdjamOoOEdlvMMs=
+
+Name: res/raw/s038.ogg
+SHA1-Digest: rGG3+NXwJ/p7oF/bnbZvtc1EY0M=
+
+Name: assets/script/quest/115_E.zt1
+SHA1-Digest: xL28sHGLeXtDxb4AdRYgW0mD2jk=
+
+Name: assets/chinese/data/XlsPCStatUp.zt1
+SHA1-Digest: BTeCuFl+ijCgtrPqNge/Ns2bPoo=
+
+Name: assets/chinese/data/XlsTrashItem.zt1
+SHA1-Digest: 7L9hHqF+qX4wetXbK3Dx7Pnsbr8=
+
+Name: assets/data/StrQuestDetail.zt1
+SHA1-Digest: oSNqTYMf2qFjXvhY3BHi8r/N5IQ=
+
+Name: assets/pc/side_hand/0/006.pzd
+SHA1-Digest: smN462TSi5CgX2DKjXRwyP95FPg=
+
+Name: assets/sound/024.mp3
+SHA1-Digest: rtNJPV28iPLy/jhz4MRRAapE+gk=
+
+Name: assets/chinese/data/XlsPackageItem.zt1
+SHA1-Digest: rUzddr0pW7C/WR2vZ18XeJFTmvI=
+
+Name: assets/chinese/data/StrStatType.zt1
+SHA1-Digest: Krm3QwdRih6DtCRo867k6yR4q8g=
+
+Name: assets/korean/data/StrTalk1.zt1
+SHA1-Digest: RCcKlA2AMmRFiXzrqEo7OZFHje4=
+
+Name: res/raw/s035.ogg
+SHA1-Digest: aH3d6hAfqBQTI+rL7D7JEUzDD0o=
+
+Name: assets/japanese/data/StrPopup.zt1
+SHA1-Digest: rw6xP9mV7nemdaDUgKdvrL7x8Po=
+
+Name: res/drawable/ui_menu_continue.png
+SHA1-Digest: JLb4KLEFbsXAUeDxrnZ/ufbEjmw=
+
+Name: assets/dynamic/BlackSmithEffect.pzx
+SHA1-Digest: gjNHNt8dZfuQGu+JIWvT5+ZpR94=
+
+Name: assets/char/040.mpl
+SHA1-Digest: scpYvShJ1xtqmSYl4z80zjoFlN0=
+
+Name: assets/script/com/021.zt1
+SHA1-Digest: EZClUppwRg69BLVRi1EnwN+IDHs=
+
+Name: assets/korean/data/XlsRandomBox.zt1
+SHA1-Digest: rPyQYqnOTL/Be3E1daxw5tw3zBw=
+
+Name: assets/char/042.pzx
+SHA1-Digest: V/Vl5K/56ZGi6Lum/LOF0ATOXeY=
+
+Name: assets/script/quest/022_S.zt1
+SHA1-Digest: Vu08YuWI97UaQ9eXBA/egd4MLZ0=
+
+Name: assets/script/quest/119_E.zt1
+SHA1-Digest: aJmQbVpHRJ6Vb0veD383ppxnh1k=
+
+Name: assets/script/com/006.zt1
+SHA1-Digest: 94LzFjwhhENuEZPlr67yd/aqrbs=
+
+Name: assets/data/XlsItemRoutingRate.zt1
+SHA1-Digest: TeZUyFs3J8KjBaJhUiqX1AoQmnI=
+
+Name: assets/pc/side_hand/0/001.pzd
+SHA1-Digest: Mt6vz6US/JfMPW+DauCcuSuw/9Q=
+
+Name: assets/html/help_eng.html
+SHA1-Digest: /uDMrhtJ+yiFma0vVMWBJd5oh0k=
+
+Name: assets/script/map/010_006.zt1
+SHA1-Digest: SLJ/SbRnvUGbOmfdvbUMkLxoFo8=
+
+Name: assets/pc/weapon/1/002.mpl
+SHA1-Digest: DYqurNmAAvnWewjWQ3ze3RcfEm0=
+
+Name: res/raw/s027.ogg
+SHA1-Digest: J2Y0GSjxO0WhTHQ17riz1NMbsDU=
+
+Name: res/raw/s014.ogg
+SHA1-Digest: OwYtMSp8kW3w4Et4dU2h+KLLHAE=
+
+Name: res/drawable/ui_logo_gamevil.png
+SHA1-Digest: z7b0/Mjjw9Yxvn2scedZbJuIS6g=
+
+Name: assets/script/quest/082_S.zt1
+SHA1-Digest: 4viOKQRJGbzsk1fNjs4vWKRUOJM=
+
+Name: assets/data/XlsTitle.zt1
+SHA1-Digest: dBL/A6BtIVt7xclslnGD2MlXKRg=
+
+Name: assets/script/quest/031_S.zt1
+SHA1-Digest: U4oh5lNVuyhC6rILRpKu35PxgLc=
+
+Name: assets/font/exB9_11.ft2
+SHA1-Digest: vtQhbdlpVZIlel/NHv7eE+zKvTQ=
+
+Name: xml_kt_lg/commonPopupYesNo.xml
+SHA1-Digest: DDYn2Uo20Mn3OnWehlEeJ7ZM4f8=
+
+Name: resources.arsc
+SHA1-Digest: 69mlS/NokNwfY7xwUUpNjsu8P88=
+
+Name: assets/script/quest/002_S.zt1
+SHA1-Digest: m8qyDyxh8NVukuMEDpB3gz2qlvc=
+
+Name: assets/korean/data/StrQuestDetail.zt1
+SHA1-Digest: oOlBLvzncEghsH88orfLjGmUwcY=
+
+Name: assets/korean/data/StrTalk0.zt1
+SHA1-Digest: oXih7nje0Rp4vY/PS7chNCUo0ro=
+
+Name: assets/script/quest/069_E.zt1
+SHA1-Digest: QujFcVM+E3nSPiRwc+4xB3VOkSg=
+
+Name: assets/map/110.zt1
+SHA1-Digest: E646Xq8e3FZim3q6wFHFBO0+cd8=
+
+Name: assets/map/131.zt1
+SHA1-Digest: yztQ/Pkfl5LQcd81HdyrEx+Bia8=
+
+Name: assets/char/138.pzx
+SHA1-Digest: VzlQZd3Okt/ZqVVDp2nTbnzD5gU=
+
+Name: assets/char/133.pzx
+SHA1-Digest: Sc4+J1b4rH8+hkoKEwCa769cB7k=
+
+Name: assets/pc/weapon/0/003.mpl
+SHA1-Digest: 8ZnDHbUfO90gYaOgnChGkKJLquU=
+
+Name: assets/script/quest/129_E.zt1
+SHA1-Digest: FJfzqohqNkaD6sxIrPQF4FefkTw=
+
+Name: assets/script/quest/089_S.zt1
+SHA1-Digest: /lBax61iZ3pUwUD9oIrxYHMel7g=
+
+Name: assets/char/034.pzx
+SHA1-Digest: LrkBFFbAsNGnKIb7+8cU1kaW7aw=
+
+Name: assets/map/180.zt1
+SHA1-Digest: 20vwFlml2Rp76ffJWGwoDvSYrpc=
+
+Name: assets/pc/head/3/003.pzd
+SHA1-Digest: zYeHiY+WcSmOeyqXoDtW3HMJe8g=
+
+Name: xml/purchaseH_Auto.xml
+SHA1-Digest: fQDLXyVnQ4BBqlfn+gME9YbPvYY=
+
+Name: assets/pc/armor/3/001.mpl
+SHA1-Digest: okOdIXKjDFL6gghER6qZyxLzI7s=
+
+Name: res/drawable/auth_tit.png
+SHA1-Digest: zNG5Pv3SDzuYWO0CTfgNwI0fRu8=
+
+Name: assets/data/XlsChargeItem.zt1
+SHA1-Digest: 2TR157cy96QnH1kWat4bJcriSV0=
+
+Name: assets/script/quest/111_S.zt1
+SHA1-Digest: qEEHwbTDeIzBYluZ5/FJfkts10Q=
+
+Name: assets/sound/003.mp3
+SHA1-Digest: AufBTM3h3CMa0n9Fn5XXGI9PKX8=
+
+Name: assets/map/015.zt1
+SHA1-Digest: SD82hH0nc2clt6JfZwHw0Zu04kY=
+
+Name: assets/map/002.pzx
+SHA1-Digest: tf1hg86NTzKNS3bu6h8giGt0M/o=
+
+Name: assets/map/165.zt1
+SHA1-Digest: 7JoTFp+yR2/SGk58pmGZtAhpuwA=
+
+Name: assets/html/about.html
+SHA1-Digest: j0Kc/+HJNd/8+UI8zvcBqsPF/4U=
+
+Name: assets/obj/078.pzx
+SHA1-Digest: S5LmXZhk0M8MRkulayZMUyhSWTI=
+
+Name: assets/script/quest/056_S.zt1
+SHA1-Digest: PTrX91Cpt8RfO04itieVntlOnVs=
+
+Name: assets/data/XlsPCStatUp.zt1
+SHA1-Digest: BTeCuFl+ijCgtrPqNge/Ns2bPoo=
+
+Name: assets/pc/weapon/2/005.mpl
+SHA1-Digest: kZxPiR6KVqAmj30MXS0QAC+c6TE=
+
+Name: assets/script/quest/130_E.zt1
+SHA1-Digest: X9buHJaYtgBrsIcXR1btxPmk1nY=
+
+Name: assets/data/XlsBoss.zt1
+SHA1-Digest: rPVCBGF93hFTX2OsBe2/qAvoEfM=
+
+Name: assets/map/006.zt1
+SHA1-Digest: HwDV3pEvk0CnA2J6U9Rg2o7vWik=
+
+Name: assets/ptc/048.ptc
+SHA1-Digest: 1N+vsO4rGWtw21/3S3EgkvHpGW8=
+
+Name: assets/illusiaDpad.pzx
+SHA1-Digest: OM6WgUy344rtPQ8puh/U3gyHmxE=
+
+Name: res/drawable/gamevil_live_button.xml
+SHA1-Digest: ucNzsgDiR+CGqM7TTNsK71lHGys=
+
+Name: assets/obj/028.pzx
+SHA1-Digest: lOnG+i/FLb4RsYBOeSzjXf9ywY4=
+
+Name: assets/pc/weapon/1/006.pzd
+SHA1-Digest: +iIQdS9wUdN0LUWYJ+kaG5fKBdo=
+
+Name: assets/pc/armor/0/003.mpl
+SHA1-Digest: /w8SpNRoBrPcSaEzJvJLj1WR39c=
+
+Name: assets/map/108.zt1
+SHA1-Digest: 01eKpT6mjGjbcHA9ognMWHyYBPM=
+
+Name: res/keypad_num_01.png
+SHA1-Digest: K3iWTeF9RSYzoZhUO5uS92YrtGQ=
+
+Name: res/raw/s011.ogg
+SHA1-Digest: slPnz6nzFroKNwKQ+dkeFzOhK6U=
+
+Name: xml_kt_lg/commonPopupJoinH.xml
+SHA1-Digest: 4rJeyA6nVIKYyGWpw+0KLJCgnZ4=
+
+Name: assets/sound/027.mp3
+SHA1-Digest: bi2hSogRF6DmqbvMcgxAKrabrXE=
+
+Name: xml_kt_lg/commonPopupJoin.xml
+SHA1-Digest: PFc1L1Nzm6b9RyN/G/06eB4Jbsg=
+
+Name: assets/html/about_eng.html
+SHA1-Digest: 8q8GUyOcH8kRP8NzQpxuJZOz+XU=
+
+Name: assets/pc/weapon/3/000.pzd
+SHA1-Digest: kwG+NK3nrFVtXFPs9cfcwLrrXqY=
+
+Name: assets/obj/122.pzx
+SHA1-Digest: jhKzLSJ4P27JPHnwJ3uaMW/wXls=
+
+Name: res/drawable/ui_menu_newgame.png
+SHA1-Digest: HvoIYOQHMjPzQJHquESW02shnf4=
+
+Name: assets/char/040.pzx
+SHA1-Digest: Rk4O/QxkJy7TVj2U0p9vwTCIRfE=
+
+Name: assets/obj/027.mpl
+SHA1-Digest: XSRfuZLLkUDmXuP+MP4rmBDMkfo=
+
+Name: assets/dynamic/SkillEffectBuff.pzx
+SHA1-Digest: KMgLpZsHJAH7gdcp9TI+rd9dPsE=
+
+Name: assets/char/031.mpl
+SHA1-Digest: Rpi74SeIHWPEiaoCWgb2YsmhFwM=
+
+Name: assets/chinese/data/XlsProjectile.zt1
+SHA1-Digest: LELuVCFNDIJs1MJ9gE7y82JtvP0=
+
+Name: assets/obj/102.pzx
+SHA1-Digest: 8QJ2M3pVLe1zmNUGPNooDW9Gagk=
+
+Name: assets/chinese/data/StrQuestSum.zt1
+SHA1-Digest: qqJBqhyTkH6T9k12T6B7a8OtsjI=
+
+Name: assets/obj/008.mpl
+SHA1-Digest: Xbjy7Vfze8SVThGw2l2J0f+RINQ=
+
+Name: assets/map/009.zt1
+SHA1-Digest: 6+wBHXPvQX/ZP8s8NeLTTrbGwdE=
+
+Name: assets/char/007.mpl
+SHA1-Digest: 2dPxZvyE+7YpFmP6x6OoyfrpIxY=
+
+Name: assets/map/092.zt1
+SHA1-Digest: mhW4KofFAY7LNUCy4bpgEcsKJv8=
+
+Name: assets/map/098.zt1
+SHA1-Digest: kPsM0ryallAFDUwsCkPQd496TMA=
+
+Name: assets/pc/001.pza
+SHA1-Digest: Gv7ZBYoEtDIvAdLR7ugPa9C0YR4=
+
+Name: assets/sound/040.mp3
+SHA1-Digest: K+U8R1zLjW7yuA/k6gIxjhcAnLE=
+
+Name: assets/pc/weapon/2/001.mpl
+SHA1-Digest: BSSLdpScEBC0/nLBKSpp0xU1oLY=
+
+Name: assets/script/quest/043_S.zt1
+SHA1-Digest: 8BoAerZ1r4dQLikwScVKnfl9JMA=
+
+Name: assets/script/call/097.zt1
+SHA1-Digest: k1WXr0CDl5kfqKlefNII6fkplx8=
+
+Name: assets/obj/091.mpl
+SHA1-Digest: E7drkPC1Pfdm5rKLGmxJClSQurE=
+
+Name: assets/ptc/010.ptc
+SHA1-Digest: r5bpJCMvpMIBoZrw6s1Rl9WWYpI=
+
+Name: assets/japanese/data/XlsItemRoutingType.zt1
+SHA1-Digest: sSOapytha0ayavkOFxL15zU4plY=
+
+Name: assets/korean/data/XlsPVP.zt1
+SHA1-Digest: oPgFb9Sdxo/MhUgscgS1l3X/sXo=
+
+Name: assets/pc/head/3/000.pzd
+SHA1-Digest: lgZHszT7+DV0zP5Btd3jQYGrboI=
+
+Name: assets/script/quest/072_E.zt1
+SHA1-Digest: hHFaNVU40HtwbPz7bE8Xg9uPhXI=
+
+Name: res/keypad_num_04.png
+SHA1-Digest: 18IdQs+hGEsiQvwuprgNbPuAg6A=
+
+Name: assets/chinese/data/XlsDropItem.zt1
+SHA1-Digest: me+nM4Kpo/i6LanT4irbEu05E0c=
+
+Name: assets/neterror.gif
+SHA1-Digest: 5ImVu4Z4VOzoSBF9g7vkbXroH2I=
+
+Name: assets/obj/033.pzx
+SHA1-Digest: 62ImYDV/twtcp0kOi1tuNiK35u8=
+
+Name: assets/japanese/data/XlsGameData.zt1
+SHA1-Digest: yfoWzBmY7QpUUVmEvtEWxci6rCY=
+
+Name: assets/sound/029.mp3
+SHA1-Digest: R3/uTpJlmEz8PF1lX514yJqNySM=
+
+Name: assets/sound/062.mp3
+SHA1-Digest: uQJ8TEkRpXDsaRF1DyLKyrrP6DU=
+
+Name: assets/script/quest/055_E.zt1
+SHA1-Digest: Z48OaZdNpacPrKciJQVwju2u6Qc=
+
+Name: assets/html/shadow_hunter.png
+SHA1-Digest: eL0LVXyQw3RC8OUVIjnciwg7pr8=
+
+Name: assets/script/quest/002_E.zt1
+SHA1-Digest: oUg7vFvLueT3GPI0XKjGfc4/7DM=
+
+Name: assets/script/quest/065_E.zt1
+SHA1-Digest: dJfrT5HiZhhcSKHq7RPUQkgIAhU=
+
+Name: assets/char/116.pzx
+SHA1-Digest: 0T8WkR7vj0stQmm9gGvS0RG+r0Y=
+
+Name: assets/ptc/052.ptc
+SHA1-Digest: AuP6EjbM/fJQeyXJ4rY5NTHIYgg=
+
+Name: assets/script/call/054.zt1
+SHA1-Digest: sPuNrt/Paqo6fV1/vfFj4YX2t6g=
+
+Name: assets/char/016.pzx
+SHA1-Digest: twjfVXH0q9RIrD0qy6IZZC2H80w=
+
+Name: assets/projectile/012.pzx
+SHA1-Digest: ZKMrCCBmyCeAEgTMvUtTRf0jUU0=
+
+Name: assets/char/027.pzx
+SHA1-Digest: APLHqDNB9sKG9TdkFHLEVNIjYjQ=
+
+Name: assets/char/058.pzx
+SHA1-Digest: ZiT1NMiRqViV6MQ5kqQkJDoXY2Y=
+
+Name: assets/script/quest/103_S.zt1
+SHA1-Digest: tLcyYZ9/eSfUushUc5Da87kkw4k=
+
+Name: res/bt_nor.9.png
+SHA1-Digest: ywETrV3lnCSmoSMPEbwTe2zw3ao=
+
+Name: assets/dynamic/SkillEffectEtc.pzx
+SHA1-Digest: GzhBhgu2TS018wIIkUheCsojpBQ=
+
+Name: assets/script/quest/035_S.zt1
+SHA1-Digest: hYKZg6A4jox7Ul1DG+UA4qlOOdw=
+
+Name: assets/script/quest/016_E.zt1
+SHA1-Digest: i233ClWicbJiftrUUURb23qC5As=
+

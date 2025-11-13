@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZENONIA3</string>
+    <string name="app_name_kt">ZENONIA3</string>
+    <string name="app_name_lgu">ZENONIA3</string>
+    <string name="app_label">ZENONIA3</string>
+    <string name="app_label_kt">ZENONIA3</string>
+    <string name="app_label_lgu">ZENONIA3</string>
+    <string name="billing_not_supported_title">"Can't make purchases"</string>
+    <string name="billing_not_supported_message">"The Market billing service is not available at this time. You can continue to use this app but you won't be able to make purchases."</string>
+    <string name="cannot_connect_title">"Can't connect to Market"</string>
+    <string name="cannot_connect_message">"This app cannot connect to Market. Your version of Market may be out of date. You can continue to use this app but you won't be able to make purchases."</string>
+    <string name="restoring_transactions">Restoring transactions</string>
+    <string name="learn_more">Learn more</string>
+    <string name="help_url" formatted="false">http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+    <string name="buy">Buy</string>
+    <string name="perchase_complete_title">Purchase</string>
+    <string name="perchase_complete">Purchase has been completed.</string>
+    <string name="ui_shop_bg_cd">shop background Image</string>
+    <string name="txt_label_net">Network Not Available</string>
+    <string name="txt_info_net">"Cannot run the program due to bad network connection.
+Please try again after checking your network settings."</string>
+    <string name="txt_label_error">Network Error</string>
+    <string name="txt_info_error">"Cannot run the program.
+Please try again after checking your network settings"</string>
+    <string name="txt_label">Warning: Unlawful activity</string>
+    <string name="txt_info">Modifying program information will result in legal prosecution. Please delete the program and try again.</string>
+    <string name="txt_confirm">End</string>
+    <string name="txt_retry">Retry</string>
+    <string name="txt_sim_error_label">Notice</string>
+    <string name="txt_sim_error">"Game did not load properly.
+Please terminate the application and load again.
+*Please check the following:
+ 1. Properly inserted USIM card
+ 2. Turned OFF [Airplane Mode]
+ 3. The game will not load in [Roaming] status.
+ Please contact GAMEVIL customer contact center if none of the above resolves the problem."</string>
+    <string name="gc_no">아니오</string>
+    <string name="gc_yes">예</string>
+    <string name="gc_ok">OK</string>
+    <string name="gc_cancel">취소</string>
+    <string name="gc_certification">인증</string>
+    <string name="gc_start" />
+    <string name="gc_sms">게임빌의 각종 혜택이 담긴 푸시 및 SMS 알림 동의를 하시겠습니까?</string>
+    <string name="gc_close">"인증을 받지 않으시면 게임이 실행되지 않습니다.
+게임을 종료 하시겠습니까?"</string>
+    <string name="terms_info">원활한 게임 이용을 위해서 개인정보 수집 및 이용안내에 동의해 주세요.</string>
+    <string name="terms_label">개인정보 수집 및 이용안내</string>
+    <string name="terms_confirm">동의합니다.</string>
+    <string name="terms_continue">계속</string>
+</resources>
