@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v40] - 2025-11-14 (FIX: DISMISS LOADING DIALOG ON PURCHASE FAIL)
+
+### Critical Fix
+**Problem**: When zen purchase fails:
+1. Loading dialog shown ("Please wait while loading...")
+2. Billing fails → Error dialog shown ("Can't make purchases")
+3. User presses OK on error
+4. **Stuck on loading dialog** - never dismissed
+
+### Root Cause
+When `requestPurchase()` fails, error dialog (0x2) shown but loading dialog (0x3) never dismissed.
+
+### Solution
+**Dismiss loading dialog before showing error dialog**
+
+When purchase fails:
+1. Check if loading dialog exists
+2. Dismiss it with `.cancel()`
+3. Show error dialog
+4. User can now see error properly and exit
+
+### Implementation
+Zenonia3Launcher.smali `requestPurchaceIAP()` method:
+```smali
+if requestPurchase() fails:
+  sget-object dialog from static field
+  if dialog exists:
+    invoke cancel()
+  show error dialog (0x2)
+```
+
+### Build Information
+- **Version**: 2.1.6 (code 216)
+- **Package**: com.gamevil.zenonia3.global
+- **Fix**: Loading dialog dismissal on purchase fail
+- **Status**: ✅ **PRODUCTION READY**
+
 ## [v39] - 2025-11-14 (CLEAN BASELINE - ALL ZEN HACKS/MODS REMOVED)
 
 ### Major Change

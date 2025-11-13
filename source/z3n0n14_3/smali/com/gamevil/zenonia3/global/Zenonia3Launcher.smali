@@ -2278,6 +2278,15 @@
     if-nez v0, :cond_0
 
     .line 804
+    sget-object v0, Lcom/gamevil/zenonia3/global/Zenonia3Launcher;->dialog:Landroid/app/ProgressDialog;
+
+    if-eqz v0, :cond_skip
+
+    sget-object v0, Lcom/gamevil/zenonia3/global/Zenonia3Launcher;->dialog:Landroid/app/ProgressDialog;
+
+    invoke-virtual {v0}, Landroid/app/ProgressDialog;->cancel()V
+
+    :cond_skip
     const/4 v0, 0x2
 
     invoke-virtual {p0, v0}, Lcom/gamevil/zenonia3/global/Zenonia3Launcher;->showDialog(I)V
