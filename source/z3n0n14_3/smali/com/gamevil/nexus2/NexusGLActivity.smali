@@ -2219,13 +2219,37 @@
     .line 328
     const/16 v0, 0x63
 
+    :try_start_onpause_1
     invoke-static {v0, v1, v1, v1}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
+    :try_end_onpause_1
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_onpause_1 .. :try_end_onpause_1} :catch_onpause_1
+    .catch Ljava/lang/Exception; {:try_start_onpause_1 .. :try_end_onpause_1} :catch_onpause_1
 
+    goto :goto_onpause_1
+
+    :catch_onpause_1
+    const-string v0, "NexusGLActivity"
+    const-string v1, "Warning: handleCletEvent (0x63) not available"
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_onpause_1
     .line 329
     const/16 v0, 0x26ac
 
+    :try_start_onpause_2
     invoke-static {v0, v1, v1, v1}, Lcom/gamevil/nexus2/Natives;->handleCletEvent(IIII)V
+    :try_end_onpause_2
+    .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_onpause_2 .. :try_end_onpause_2} :catch_onpause_2
+    .catch Ljava/lang/Exception; {:try_start_onpause_2 .. :try_end_onpause_2} :catch_onpause_2
 
+    goto :goto_onpause_2
+
+    :catch_onpause_2
+    const-string v0, "NexusGLActivity"
+    const-string v1, "Warning: handleCletEvent (0x26ac) not available"
+    invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    :goto_onpause_2
     .line 330
     return-void
 .end method

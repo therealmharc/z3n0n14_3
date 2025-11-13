@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v18] - 2025-11-13
+
+### Fixed
+- Fixed UnsatisfiedLinkError for handleCletEvent() in activity lifecycle
+- Added error handling for event calls in NexusGLActivity.onPause()
+- Protected TWO event handling calls (0x63 and 0x26ac) with try-catch blocks
+
+### Activity Lifecycle Thread Safety
+- handleCletEvent() called from main thread during onPause() lifecycle
+- Both event codes (0x63 pause event, 0x26ac shutdown) fail when library unavailable
+- Protected both calls to prevent activity pause crashes
+- App continues pause/resume lifecycle even if event handling fails
+
+### Build
+- Incremented version from v17 to v18
+- Added protection for handleCletEvent in NexusGLActivity.onPause()
+- Properly zipaligned and signed with modern APK schemes
+- Verified signature integrity with v2/v3 schemes
+
 ## [v17] - 2025-11-13
 
 ### Fixed
