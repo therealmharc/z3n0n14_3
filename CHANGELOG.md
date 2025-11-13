@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v3] - 2025-11-13
+
+### Fixed
+- Fixed persistent INSTALL_PARSE_FAILED_NO_CERTIFICATES error using modern APK signing
+- Replaced JAR signing with APK Signature Scheme v2/v3 for better compatibility
+- Ensured all asset file digests are properly computed and verified
+
+### Security
+- Switched from jarsigner (deprecated) to apksigner for Android 16+ compatibility
+- Applied modern signing schemes (v2/v3) instead of legacy v1 scheme
+- Verified all 1,780+ files with proper digest calculation
+
+### Build
+- Incremented version from v2 to v3
+- Performed complete clean rebuild from source
+- Applied proper zipalign optimization
+- Verified signature integrity with v2 and v3 schemes
+
 ## [v2] - 2025-11-13
 
 ### Fixed
