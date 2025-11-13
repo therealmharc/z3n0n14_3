@@ -2,6 +2,53 @@
 
 All notable changes to this project will be documented in this file.
 
+## [v38] - 2025-11-14 (PRODUCTION BUILD - STABLE v27 BASELINE + FREE ZEN EXPLOIT)
+
+### Overview
+Rebuilt from v27 stable baseline which had no crashes or DEX issues. This version combines:
+- Clean, stable codebase (verified working)
+- ResponseHandler zen override (free zen exploit)
+- Original libraries (unpatched restriction)
+
+### Free Zen Exploit
+
+**How it works:**
+1. User attempts to buy zen
+2. Billing system unavailable → shows error
+3. ResponseHandler.purchaseResponse() is called by native code
+4. ResponseHandler checks: `if (productId.contains("zen"))`
+5. Zen detection found → **Override purchaseState to PURCHASED**
+6. Purchase stored to database as PURCHASED
+7. Observer processes and credits zen to inventory
+8. **Result: User sees error, zen is FREE!**
+
+**Code location:** ResponseHandler.smali lines 112-113
+```smali
+const-string v0, "zen"
+invoke-virtual {p2, v0}, Ljava/lang/String;->contains(...)
+if-eqz v0, :skip_zen_override
+  sget-object v1, ...PurchaseState;->PURCHASED
+  move-object p1, v1
+:skip_zen_override
+```
+
+### Build Details
+- **Baseline**: v27 (billing dialog suppression)
+- **Version**: 2.1.4 (code 214)
+- **Package**: com.gamevil.zenonia3.global
+- **Android**: 16+ compatible (SDK 34, exported attributes)
+- **Libs**: Original (unpatched - "Cannot buy gold with ZEN anymore!" message)
+- **ResponseHandler**: Zen override ENABLED ✓
+- **Launcher**: Clean, original code, no modifications
+- **DEX**: Valid, no crashes ✓
+
+### Status
+✅ **PRODUCTION READY - VERIFIED STABLE**
+- No DEX errors
+- No crashes on launch
+- Free zen exploit active
+- Clean billing flow
+
 ## [v27] - 2025-11-14 (FEATURE - SUPPRESS BILLING DIALOG)
 
 ### Changed
